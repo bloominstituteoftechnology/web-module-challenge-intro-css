@@ -4,9 +4,10 @@
 
 ## Objectives
 
-- implement a CSS reset and understand why it’s important for cross-browser development
+- learn about the box model and be able to explain its properties
 - demonstrate CSS specificity and inheritance to create and update styles
-- identify and explain all properties in the box model
+- implement a CSS reset and understand why it’s important for cross-browser development
+- describe and use responsive units (px, em, rem, %, and vw.vh) to create a fully responsive website
 
 ## Introduction
 
