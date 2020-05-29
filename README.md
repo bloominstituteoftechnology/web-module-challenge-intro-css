@@ -65,7 +65,7 @@ The following goals are designed to stretch your knowledge and may require addit
 
 - [ ] Add CSS animations (hover, mouseover, etc.)
 - [ ] Design and execute your own pages for `Plan your Visit`, `Learn About the Park`, or `Get Involved`
-- [ ] Use [favicon.io](favicon.io) to convert the campfire and RV images to real favicons and use them in your project
+- [ ] Use [favicon.io](https://favicon.io/favicon-converter/) to convert the campfire and RV images to real favicons and use them in your project
 - [ ] Host your website on Netlify.com
 
 ## Resources
