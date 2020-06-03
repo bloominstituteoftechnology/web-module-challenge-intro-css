@@ -185,11 +185,15 @@ h1{
     margin-left: 40%;
 }
 
+
 footer img{
-    border:2px solid;
-    margin-left:25%;
-    height:50vh;
-    background-size: auto;
+    height:40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:90%;
+    margin-left: 100px;
+    
+
    
 
 }
