@@ -1,3 +1,14 @@
+*{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+	padding: 0;
+	border: 1px solid gray;;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 .text{
     background-color:#DDB9A3;
 }
@@ -5,18 +16,22 @@
 footer{
     background-color: #F9E7DC;
 }
-nav a {
-    height: 30px;
-    border-radius: 5%;
+
+.button{
+    width: 5%;
+    border-radius: 15%;
 }
-#plan{
+.button #plan{
     background-color: #FF764E;
+    display: inline-block;
 }
 
-#learn{
+.button #learn{
     background-color: #5ED3EB;
+    display: inline-block;
 }
 
-#involve{
+.button #involve{
     background-color: #FFCD69;
+    display: inline-block;
 }
