@@ -1,3 +1,8 @@
+/* 
+------Import Fonts------
+*/
+@import url('https://fonts.google.com/specimen/Chelsea+Market');
+@import url("https://fonts.google.com/specimen/Roboto+Mono");
 /*
 *  html5resetcss
 */
@@ -16,14 +21,102 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 
-nav:first-child {
-    color: #FF764E;
+/*
+----Relative Styling----
+*/
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
 }
 
-nav:nth-child(2) {
-    color: #5ED3EB;
+/*
+----Header Styling----
+*/
+header {
+    width: 100%;
 }
 
-nav:last-child {
-    color: #FFCD69;
+header img {
+    border-radius: 50%;
+    width: 20vw;
+    height: auto;
+    margin-left: 5%;
+}
+
+header h1 {
+    border: 1px solid black;
+    font-size: 7rem;
+    display: inline;
+    font-family: "Chelsea Market", sans-serif;
+    margin-left: 10%;
+    
+}
+header h2 {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 2% ;
+    font-size: 3rem;
+    line-height: 2;
+}
+header h1,
+header h2 {
+    text-align: center;
+}
+
+/*
+----Article Styling----
+*/
+article {
+    font-size: 3em;
+    color: white;
+    background: #DDB9A3;
+    padding: 0 5%;
+    margin-top: 20%;
+}
+
+/*
+----Section Styling----
+*/
+section {
+
+}
+
+/*
+----Footer Styling----
+*/
+footer {
+    background: #F9E7DC;
+    width: 100vw;
+    height: 25vh;
+}
+
+footer img {
+
+}
+
+/*
+----Navigation Styling----
+*/
+nav {
+    width: 100%;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    width: 15%;
+    height: 5vh;
+    margin: 5%;
+    padding: 1%;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+nav .visit {
+    background: #FF764E;
+}
+nav .park {
+    background: #5ED3EB;
+}
+nav .involved {
+    background: #FFCD69;
 }
