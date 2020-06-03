@@ -18,20 +18,31 @@ footer{
 }
 
 .button{
-    width: 5%;
-    border-radius: 15%;
+
 }
 .button #plan{
-    background-color: #FF764E;
     display: inline-block;
+    background-color: #FF764E;
+    width: 15%;
+    border-radius: 30%;
+    
+    margin: 0 0;
 }
 
 .button #learn{
-    background-color: #5ED3EB;
     display: inline-block;
+    background-color: #5ED3EB;
+    width: 15%;
+    border-radius: 30%;
+    
+    margin: 0 0;
 }
 
 .button #involve{
-    background-color: #FFCD69;
     display: inline-block;
+    background-color: #FFCD69;
+    width: 15%;
+    border-radius: 20%;
+    
+    margin: 0 0;
 }
