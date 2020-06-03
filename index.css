@@ -4,3 +4,28 @@
     margin: 0;
     max-width: 100%;
 }
+ .button1{
+     display: inline-block;
+     background-color: #FF764E;
+     text-align: center;
+     width: 20%;
+     padding: 2% 0;
+     border-radius: 10px;
+ }
+ .button2{
+     display: inline-block;
+     background-color: #5ED3EB;
+     text-align: center;
+     width: 20%;
+     padding: 2% 0;
+     border-radius: 10px;
+ }
+ .button3{
+     display: inline-block;
+     background-attachment:#FFCD69;
+     text-align: center;
+     width: 20%;
+     padding:2% 0;
+     border-radius: 10px;
+     
+ }
