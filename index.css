@@ -1,0 +1,31 @@
+/* Style sheet for Yosemite Park web page
+ *
+ * Import google fonts */ 
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+/* CSS reset */
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, 
+a, address, ul, li, footer, header, img, nav, section, {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+footer, header, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+/****************************************************************
+* Main styles 
+****************************************************************/
+
+
