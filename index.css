@@ -5,7 +5,10 @@
 footer{
     background-color: #F9E7DC;
 }
-
+nav a {
+    height: 30px;
+    border-radius: 5%;
+}
 #plan{
     background-color: #FF764E;
 }
