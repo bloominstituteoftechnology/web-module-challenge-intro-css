@@ -1,0 +1,204 @@
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size:62.5%; 
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /* border:1px solid grey; */
+  }
+  
+  html{
+    font-size:62.5%;
+  }
+  
+
+
+
+header nav{
+    margin-top: 50px;
+    padding-left: 30%;
+}
+
+
+header nav a{
+    width:10%;
+    text-align: center;
+    margin: 0 4%;
+    display:inline-block;
+    font-size:2rem;
+    margin-right: 150px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.Plan{
+    background-color: #FF764E;
+    border-radius: 20px;
+    font-size: 3rem;
+}
+
+
+.Learn{
+    background-color:#5ED3EB;
+    border-radius: 10px;
+    font-size: 3rem;
+}
+
+.Involved{
+    background-color:#FFCD69;
+    border-radius: 10px;
+    font-size: 3rem;
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+    margin-top: -200px;
+}
+
+.top-stuff{
+    margin-left: 100px;
+}
+.top-text p{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 5%;
+    margin-top:2%;
+    line-height: 40px;
+    width:20%;
+    margin: 0 auto;
+}
+
+.info{
+    background-color: #DDB9A3;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-right:15%;
+}
+
+.info p{
+    font-size: 2.2rem;
+    color:white;
+    line-height: 50px;
+    /* border:2px solid green; */
+    width:100%;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top:2%;
+    height:20vh;
+}
+
+.top-image img{
+    display: inline-block;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.fire{
+    height:200px;
+    width:200px;
+    margin-left:45%;
+}
+
+.truck{
+    height:200px;
+    width:200px;
+    margin-left:45%; 
+}
+
+
+.fire-text{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 5%;
+    margin-top:2%;
+    line-height: 40px;
+    width:20%;
+    margin-left: 40%;
+}
+
+.lodging{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 5%;
+    margin-top:2%;
+    line-height: 40px;
+    width:20%;
+    margin-left: 40%;
+}
+
+.footer-image{
+    /* border:2px solid; */
+    margin-left:25%;
+    width:50%;
+}
+
+footer nav{
+    padding-left: 35%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+footer nav a{ 
+    width:10%;
+    text-align: center;
+    margin: 0 4%;
+    display:inline-block;
+    font-size:2rem; 
+}
+
+
+
