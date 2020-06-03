@@ -5,7 +5,6 @@
     font-size: 62.5%;
     margin: 0;
 	padding: 0;
-	border: 1px solid gray;
 	font: inherit;
     vertical-align: baseline;
     max-width: 100%;
@@ -23,10 +22,8 @@ h1{
 .guide img{
     display: inline-block;
     width: 15%;
-    padding: 5%;
-    border-radius: 50%;    
-    background-color: yellow; 
-  }
+    border-radius: 50%;
+}
   
   .guide .guidetext {
     text-align: center;
@@ -41,19 +38,35 @@ h1{
     margin: 0 5%;
     color: white;
 }
+span{
+    font-weight: bold;
+}
+span:hover{
+    color: red;
+}
+.footer{
+    background-color:#F9E7DC;
+    height: 100px;
+    width: 100%;
+}
 
-footer{
-    background-color: #F9E7DC;
+a{
+    color:white;
+}
+
+a:hover{
+    color:pink;
 }
 
 nav {
     text-align: center;
     margin: 0;
-    padding: 0;;
+    padding: 0;
   }
   
   nav li {
     display: inline-block;
+    
   }
   
   nav li .plan {
@@ -79,4 +92,9 @@ nav {
     text-align: center;
     margin: 0 42.5%;
     width: 15%;
+}
+#footerimg{
+    height: 100px;
+    width: 100%;
+    margin: 0;
 }
