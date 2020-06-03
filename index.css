@@ -1,0 +1,94 @@
+
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        box-sizing: border-box;
+        
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+
+    body {
+        background-color: white;
+    }
+
+     nav a {
+         color:white;
+         text-decoration:none;
+         letter-spacing:1px;
+         margin:0 4%;
+         border-radius: 10%;
+         font-size: 1.9rem;
+         text-align: center;
+     }
+    .button1 {
+        display:inline-block;
+        background-color:#FF764E;
+        width:10%;
+        padding: 2% 0;
+        text-align: center;
+    }
+
+    .button2 {
+        background-color: #5ED3EB;
+        color:white;
+        display:inline-block;
+        width:10%;
+        padding: 2% 0;
+        text-align: center;
+    }
+
+    .button3 {
+        background-color: #FFCD69;
+        color:white;
+        display:inline-block;
+        width:10%;
+        padding: 2% 0;
+        text-align: center;
+    }
+
+h1{
+  font-size: 2.6rem;
+}
+    .header-image {
+        border-radius: 50%;
+        text-align: left;
+        float: left;
+    }
+
+    .info {
+        display: inline-block;
+        font-size: 1.6rem;
+        text-align: right;
+        float; right;
+        
+    }
+
+    .first-paragraph {
+        display:inline-block;
+        background-color: saddlebrown;
+        font-size: 1.6rem;
+        padding: 2% 1%;
+        text-align: center;
+        color:white;
+        margin: 30%
+    }
