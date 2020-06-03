@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    max-width:100%
+    
+}
+
+html{
+    font-size:62.5%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    font-size:1.6rem;
+}
+
+
+
+
+nav a{
+    text-decoration:none;
+    font-size:3rem;
+    color:white;
+    
+}
+
+.button1 {
+    display:inline-block; 
+    text-align:center;   
+    background-color:#FF764E;
+    color:white;
+    border-radius:10px;
+    width:20%;
+    height:10%;
+    border-radius:20px;
+    margin:5%;
+    padding:1%;
+    
+
+}
+
+.button2 {
+    display:inline-block;
+    text-align:center;
+    background-color:#5ED3EB;
+    color:white;
+    border-radius:10px;
+    width:20%;
+    border-radius:10px;
+    margin:5%;
+    padding:1%;
+    
+
+
+}
+
+.button3 {
+    display:inline-block;
+    text-align:center;
+    background-color:#FFCD69;
+    color:white;
+    border-radius:10px;
+    width:20%;
+    margin:5%;
+    padding:1%;
+
+
+}
+.topbartext{
+    display:inline-block;
+}
+.topbarimg{
+    display:inline-block;
+}
+#image-title-para img{
+    border: 1px solid white;
+    border-radius:50%;
+    width:25%;
+    margin-left:10%;
+    margin-right:0;
+}
+
+
+   
+.main p{
+    background-color:#DDB9A3;
+    margin-top:5%;
+    font-size:2rem;
+    
+}
+.campfire-image img{
+    margin-top:2%;
+    margin-left:45%;
+    width:10%;
+    text-align:center;
+}
+
+.camptext {
+    margin-top:2%;
+    margin-bottom:5%;
+    text-align:center;
+    width:30%;
+    margin-left:35%
+    
+}
+.bold{
+    font-weight:bold;
+}
+
+.motorhome-image img{
+    margin-left:45%;
+    width:10%;
+}
+
+.motorhome-text p{
+    text-align:center;
+    width:30%;
+    margin-left:35%;
+}
+
+.bottom-image img{
+    margin-top:5%;
+    width: 100%;
+    
+   
+}
+
+footer {
+background-color:#F9E7DC;
+}
