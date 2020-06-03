@@ -76,10 +76,11 @@ h1{
     }
 
     .info {
-        display: inline-block;
+        display:block;
         font-size: 1.6rem;
         text-align: right;
-        float; right;
+        float: right;
+        padding: 10%;
         
     }
 
@@ -92,3 +93,18 @@ h1{
         color:white;
         margin: 30%
     }
+.firstblock {
+  display:block;
+  text-align: center;
+  font-size: 1.6rem
+}
+
+.firstblock p {
+  padding: auto;
+}
+
+.secondblock {
+  display:block;
+  text-align: center;
+  font-size: 1.6rem
+}
