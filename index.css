@@ -4,6 +4,9 @@
     margin: 0;
     max-width: 100%;
 }
+body{
+    font-style: Roboto Mono;
+}
  .button1{
      display: inline-block;
      background-color: #FF764E;
@@ -26,6 +29,31 @@
      text-align: center;
      width: 20%;
      padding:2% 0;
-     border-radius: 10px;
+     border-radius: 10px; 
+     box-sizing: content-box;
      
  }
+ h1 {
+     font-style: Chelsea;
+
+ }
+header{
+    padding: 25%;
+    margin: 100%;
+    border: 1px solid red;
+}
+.image{
+    float: left;
+} 
+.main-body{
+    background-color: #ddb9a3;
+    padding: 20%;
+    margin: 50%;
+    border: 1px solid red;
+}
+footer{
+    background-color:#f9e7dc
+    padding 20%;
+    margin: auto;
+    border: 1px solid red;
+}
