@@ -17,7 +17,24 @@ body{
 
 h1{
     font-family:'Chelsea Market', cursive;
+    font-size: 2.5rem;
 }
+
+.guide img{
+    display: inline-block;
+    width: 15%;
+    padding: 5%;
+    border-radius: 50%;    
+    background-color: yellow; 
+  }
+  
+  .guide .guidetext {
+    text-align: center;
+    display: inline-block;
+    width: 75%;
+    padding: 5%;   
+  }
+
 .text{
     background-color:#DDB9A3;
     width: 90%;

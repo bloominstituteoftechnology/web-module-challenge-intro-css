@@ -38,16 +38,16 @@ Once your repository is set up, practice what you learned today to style the sit
   - [x] Plan your Visit: `#FF764E`
   - [x] Learn About the Park: `#5ED3EB`
   - [x] Get Involved: `#FFCD69`
-- [ ] Change all font colors and styles according to design file
+- [x] Change all font colors and styles according to design file
   - [x] Yosemite Park Guide font is called Chelsea Market and can be found on [google fonts](https://fonts.google.com/specimen/Chelsea+Market)
   - [x] All other text is Roboto Mono, also available on [google fonts](https://fonts.google.com/specimen/Roboto+Mono)
 - [x] Color the background of the main text body with `#DDB9A3`
 - [x] Color the background of the footer with `#F9E7DC`
 - [ ] Bold the words "current fire restrictions" and "park entrance fee" according to the design file
 - [ ] Apply box model properties (content, padding, margin, and border) to all content such that your webpage matches the design file. This will include at least:
-  - [ ] A round image in the header
-  - [ ] Round corners on navigation and footer items
-  - [ ] Header image and text side by side
+  - [x] A round image in the header
+  - [x] Round corners on navigation and footer items
+  - [x] Header image and text side by side
   - [x] Centered content and margins around content
   - [ ] Footer image positioning
 
