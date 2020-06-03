@@ -22,42 +22,37 @@ h1{
     background-color:#DDB9A3;
     width: 90%;
     margin: 0 5%;
+    color: white;
 }
 
 footer{
     background-color: #F9E7DC;
 }
 
-nav{
-    width: 100%;
-}
-.button #plan{
+nav {
+    text-align: center;
+    margin: 0;
+    padding: 0;;
+  }
+  
+  nav li {
     display: inline-block;
-    background-color: #FF764E;
-    width: 15%;
-    border-radius: 30%;
-    
-    margin: 0 0;
-}
-
-.button #learn{
-    display: inline-block;
-    background-color: #5ED3EB;
-    width: 15%;
-    border-radius: 30%;
-    
-    margin: 0 0;
-}
-
-.button #involve{
-    display: inline-block;
-    background-color: #FFCD69;
-    width: 15%;
-    border-radius: 20%;
-    
-    margin: 0 0;
-}
-
+  }
+  
+  nav li .plan {
+      background-color: #FF764E;
+      border-radius: 15%;
+  }
+  
+  nav li .learn{
+      background-color: #5ED3EB;
+      border-radius: 15%;
+  }
+  
+  nav li .involve{
+      background-color: #FFCD69;
+      border-radius: 15%;
+  }
 .bodyimg{
     width: 10%;
     margin: 0 45%;
