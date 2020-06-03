@@ -28,4 +28,41 @@ body {
 * Main styles 
 ****************************************************************/
 
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;  /* From a fixed 16px to 10px */
+}
+
+body {
+  font-size: 1.6REM;  /* Responsive 16px font */
+  font-family: "Roboto Mono", sans-serif;
+  line-height: 2;
+}
+
+/* Header */
+header, footer {
+  margin: 2% auto;
+  padding: 3%;
+  width: 80%;
+}
+/*
+
+/* Navbar */
+
+nav {
+  margin: 0 auto;
+  padding: 2%;
+}
+
+nav a.visit {
+  background: #FF764E;
+}
+
+nav a.learn {
+  background: #5ED3EB;
+}
+
+nav a.involved {
+  background: #FFCD69;
+}
 
