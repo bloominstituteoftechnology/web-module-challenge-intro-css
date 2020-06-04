@@ -205,8 +205,8 @@ h1 {
   background: url(https://github.com/Anatoliy-Kireyev/web-module-project-intro-css/blob/anatoliy-kireyev/assets/footer_img.jpg?raw=true);
   height: 400px;
   width: 100%;
-  background-size: 100%;
-  background-position: center center;
+  background-size: cover;
+  
 }
 footer .buttons {
   padding: 1%;
