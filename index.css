@@ -4,29 +4,13 @@
 @import url('https://fonts.google.com/specimen/Chelsea+Market');
 @import url("https://fonts.google.com/specimen/Roboto+Mono");
 /*
-*  html5resetcss
-*/
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
-body{line-height:1}
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
-nav ul{list-style:none}
-blockquote,q{quotes:none}
-blockquote:before,blockquote:after,q:before,q:after{content:none}
-a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
-ins{background-color:#ff9;color:#000;text-decoration:none}
-mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
-del{text-decoration:line-through}
-abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
-table{border-collapse:collapse;border-spacing:0}
-hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
-input,select{vertical-align:middle}
-
-/*
 ----Relative Styling----
 */
 html {
     font-size: 62.5%;
+    font-family: "Roboto Mono";
     box-sizing: border-box;
+
 }
 
 /*
@@ -38,30 +22,30 @@ header {
 
 header img {
     border-radius: 50%;
-    width: 20vw;
+    width: 23vw;
     height: auto;
     margin-left: 5%;
 }
 
-header h1 {
-    border: 1px solid black;
-    font-size: 7rem;
-    display: inline;
-    font-family: "Chelsea Market", sans-serif;
-    margin-left: 10%;
-    
-}
-header h2 {
+header .headerText {
     display: inline-block;
-    border: 1px solid black;
-    margin: 2% ;
-    font-size: 3rem;
-    line-height: 2;
-}
-header h1,
-header h2 {
     text-align: center;
+    margin-left: 10vw;
 }
+header h1 {
+    font-family: "Chelsea Market";
+    font-size: 7rem;
+    margin-top: 5vh;
+}
+header h2 {
+    font-size: 3rem;
+}
+#hours {
+    text-align: center;
+    width: 35vw;
+    margin-left: 5vw;
+}
+
 
 /*
 ----Article Styling----
@@ -71,27 +55,45 @@ article {
     color: white;
     background: #DDB9A3;
     padding: 0 5%;
-    margin-top: 20%;
+    text-align: center;
 }
-
+article p {
+    margin-bottom: 1.5em;
+}
 /*
 ----Section Styling----
 */
-section {
-
+.lastSection {
+    font-size: 2rem;
+    display: inline-block;
+    text-align: center;
+    margin: 10vh 30vw;
 }
 
+section p{
+    width: 33vw;
+    height: auto;
+    padding: 0;
+    margin: 3vh;
+}
+
+.fire,
+.camping {
+    width: 10vw;
+    height: auto;
+    margin: 3vh;
+}
 /*
 ----Footer Styling----
 */
 footer {
     background: #F9E7DC;
     width: 100vw;
-    height: 25vh;
 }
 
 footer img {
-
+    max-height: 50vh;
+    width: 100vw;
 }
 
 /*
@@ -103,13 +105,14 @@ nav {
 }
 
 nav a {
+    text-align: center;
     display: inline-block;
-    width: 15%;
-    height: 5vh;
-    margin: 5%;
+    margin: 5vw;
     padding: 1%;
-    font-size: 2rem;
-    border-radius: 5px;
+    font-size: 2.5rem;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
 }
 nav .visit {
     background: #FF764E;
