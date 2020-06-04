@@ -1,0 +1,118 @@
+*{
+    padding:0;
+    margin:0;
+    maz-width:100%;
+    box sizing: border-box;
+    /*border: 1px solid gray;*/
+  
+  }
+  html{
+    font-size:62.5%;
+    font-family:'Roboto Mono';
+  }
+  
+  .links{
+    display:inline-block;
+    width:60%;
+    margin-left:32%;
+    font-size:1.2rem;
+  }
+  
+  .plan{
+    background-color:#FF764E;
+    display:inline-block;
+    border:5%;
+    margin:5%;
+    padding:1%
+  
+  }
+  
+  .learn{
+    background-color:#5ED3EB;
+    display:inline-block;
+    border:2%;
+    margin:5%;
+    padding:1%
+  }
+  
+  .get{
+    background-color:#FFCD69;
+    display:inline-block;
+    border:2%;
+    margin:5%; 
+    padding:1%
+  }
+  
+  h1{ 
+    font-size:3.5rem;
+    font-family:'Chelsea Market', sans-serif;
+  
+  }
+  header{
+    text-align:center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:2%;
+    width:30%;
+   
+  }
+  .header-img{
+    height:150px;
+  
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  
+  
+  
+  }
+  
+  .paragraph{
+    background-color:#DDB9A3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:2%;
+    width:30%;
+     font-size:1.3rem;
+  
+  }
+  
+  .fire-img{
+    width:150px;
+    height:150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .reservation-img{
+    width:150px;
+    height:150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .fire{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+  
+  }
+  
+  .reservation{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+  }
+  
+  footer{
+    margin:2%;
+    background-color:#F9E7DC;
+  }
