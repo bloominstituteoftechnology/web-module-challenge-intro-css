@@ -22,7 +22,7 @@ The styles in your [design file](/design/desktop.jpg) include bright colors and 
 Follow these steps to set up and work on your project:
 
 - [x] Create a forked copy of this project.
-- [ x Add your Team Lead as collaborator on Github.
+- [x] Add your Team Lead as collaborator on Github.
 - [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
@@ -32,24 +32,24 @@ Follow these steps to set up and work on your project:
 
 Once your repository is set up, practice what you learned today to style the site according to the given design. Your complete project should look similar to the desktop image. You should take the following actions, at a minimum:
 
-- [x] Link your CSS stylesheet in the `index.html` and impliment a CSS reset 
+- [x] Link your CSS stylesheet in the `index.html` and impliment a CSS reset
 - [x] Markup html semantically, such that it can be styled according to the given desktop image
 - [x] Color the background of items in the navigation bar and footer with the following colors:
   - [x] Plan your Visit: `#FF764E`
   - [x] Learn About the Park: `#5ED3EB`
   - [x] Get Involved: `#FFCD69`
-- [ ] Change all font colors and styles according to design file
-  - [ ] Yosemite Park Guide font is called Chelsea Market and can be found on [google fonts](https://fonts.google.com/specimen/Chelsea+Market)
-  - [ ] All other text is Roboto Mono, also available on [google fonts](https://fonts.google.com/specimen/Roboto+Mono)
+- [x] Change all font colors and styles according to design file
+  - [x] Yosemite Park Guide font is called Chelsea Market and can be found on [google fonts](https://fonts.google.com/specimen/Chelsea+Market)
+  - [x] All other text is Roboto Mono, also available on [google fonts](https://fonts.google.com/specimen/Roboto+Mono)
 - [x] Color the background of the main text body with `#DDB9A3`
 - [x] Color the background of the footer with `#F9E7DC`
-- [ ] Bold the words "current fire restrictions" and "park entrance fee" according to the design file
+- [x] Bold the words "current fire restrictions" and "park entrance fee" according to the design file
 - [x] Apply box model properties (content, padding, margin, and border) to all content such that your webpage matches the design file. This will include at least:
   - [x] A round image in the header
   - [x] Round corners on navigation and footer items
   - [x] Header image and text side by side
   - [x] Centered content and margins around content
-  - [ ] Footer image positioning
+  - [x] Footer image positioning
 
 **Throughout your design you should avoid static units (pixels), and should instead use responsive units wherever possible.**
 
@@ -59,15 +59,14 @@ Once you begin, you will have 15 minutes to answer the questions [here](https://
 
 The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability without using external references.
 
-
 ### Task 3: Stretch Goals
 
 The following goals are designed to stretch your knowledge and may require additional research beyond what was learned in class today.
 
-- [ ] Add CSS animations (hover, mouseover, etc.)
-- [ ] Design and execute your own pages for `Plan your Visit`, `Learn About the Park`, or `Get Involved`
-- [ ] Use [favicon.io](https://favicon.io/favicon-converter/) to convert the campfire and RV images to real favicons and use them in your project
-- [ ] Host your website on Netlify.com
+- [x] Add CSS animations (hover, mouseover, etc.)
+- [x] Design and execute your own pages for `Plan your Visit`, `Learn About the Park`, or `Get Involved`
+- [x] Use [favicon.io](https://favicon.io/favicon-converter/) to convert the campfire and RV images to real favicons and use them in your project
+- [x] Host your website on Netlify.com
 
 ## Resources
 
@@ -79,6 +78,6 @@ The following goals are designed to stretch your knowledge and may require addit
 
 Follow these steps for completing your project.
 
-- [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your Team Lead as a reviewer on the pull request
-- [ ] Your Team Lead will count the project as complete by merging the branch back into master
+- [x] Submit a pull request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
+- [x] Add your Team Lead as a reviewer on the pull request
+- [x] Your Team Lead will count the project as complete by merging the branch back into master
