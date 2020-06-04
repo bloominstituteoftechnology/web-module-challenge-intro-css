@@ -115,4 +115,10 @@
   footer{
     margin:2%;
     background-color:#F9E7DC;
+    background-image: url('assets/footer_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 25%;
+
+
   }
