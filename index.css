@@ -1,14 +1,8 @@
+
 /* 
 ------Import Fonts------
 */
-@font-face{
-  font-family:"Chelsea Market";
-  src: url("https://fonts.google.com/specimen/Chelsea+Market");
-}
-@font-face{
-  font-family: "Roboto Mono";
-  src:url("https://fonts.google.com/specimen/Roboto+Mono");
-}
+
   /*
 ----Relative Styling----
 */
@@ -39,11 +33,11 @@ header .headerText {
 }
 header h1 {
   font-family: "Chelsea Market";
-  font-size: 7rem;
+  font-size: 6.5rem;
   margin-top: 5vh;
 }
 header h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 #hours {
   text-align: center;
@@ -125,26 +119,20 @@ nav a {
   text-decoration: none;
   color: white;
 }
+nav a:hover {
+  background: grey;
+  color: white;
+}
 nav .visit {
   background: #f1663b;
 }
-nav .visit:hover {
-  background: rgb(177, 12, 12);
-  color: rgb(85, 84, 84); 
-}
+
 nav .park {
   background: #5ed3eb;
 }
-nav .park:hover {
-  background: rgb(3, 3, 170);
-  color: rgb(85, 84, 84); 
-}
+
 nav .involved {
   background: #ffcd69;
-}
-nav .involved:hover {
-  background: rgb(172, 172, 0);
-  color: rgb(85, 84, 84); 
 }
 
 /*
