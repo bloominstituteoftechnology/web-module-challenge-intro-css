@@ -43,7 +43,7 @@ body {
 nav {
   margin: 0 auto;
   padding: 2%;
-  max-width: 90%;
+  max-width: 100%;
 }
 
 nav a {
@@ -71,6 +71,7 @@ header {
   margin: 2% auto;
   padding: 3%;
   width: 80%;
+  height: 60vh;
 }
 
 header img {
@@ -119,7 +120,7 @@ main div p.color {
 .left-content img {
   margin: 0 auto 5%;
   padding: 2%;
-  max-width: 60%;
+  max-width: 30%;
 }
 
 .left-content div.left-text {
@@ -142,9 +143,11 @@ footer {
   padding: 5%;
   width: 80%;
   height: 30vh;
-  background-image: url("assets/footer_image.jpg");
-  background-color: #EEE;  /* Footer background is offwhite if image isn't available */
-  background-position: center;
-  background-repeat: no repeat;
-  background-size: cover;
+}
+
+footer img {
+  display: block;
+  margin: 5%;
+  padding: 2%;
+  max-width: 20%;
 }
