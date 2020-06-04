@@ -30,22 +30,32 @@
         body {
             background-color: none;
         }
-
+      
+        
         nav a {
+
             color:white;
             text-decoration:none;
             letter-spacing:1px;
-            margin:2% 2%;
+            margin:4% 4%;
             border-radius: 10%;
             font-size: 1.9rem;
             text-align: center;
             
         }
+        .buttons {
+            display:block;
+            text-align: center;
+            margin:auto;
+            font-size: 2rem;
+        }
+            
+        
         .button1 {
             display:inline-block;
             background-color:#FF764E;
-            width:10%;
-            padding: 2% 0;
+            width:15%;
+            padding: 4% 0;
             text-align: center;
         }
 
@@ -53,8 +63,8 @@
             background-color: #5ED3EB;
             color:white;
             display:inline-block;
-            width:10%;
-            padding: 2% 0;
+            width:15%;
+            padding: 4% 0;
             text-align: center;
         }
 
@@ -62,8 +72,8 @@
             background-color: #FFCD69;
             color:white;
             display:inline-block;
-            width:10%;
-            padding: 2% 0;
+            width:15%;
+            padding: 4% 0;
             text-align: center;
         }
 
@@ -96,7 +106,7 @@
         padding: 2% 2%;
         text-align: center;
         color:white;
-        margin: 3%
+        margin: 10%;
         
     }
     
