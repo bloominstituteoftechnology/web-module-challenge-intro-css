@@ -35,11 +35,12 @@ body{
  }
  h1 {
      font-style: Chelsea;
+     text-align: center;
 
  }
 header{
     padding: 25%;
-    margin: 100%;
+    margin: 50%;
     border: 1px solid red;
 }
 .image{
@@ -51,6 +52,13 @@ header{
     margin: 50%;
     border: 1px solid red;
 }
+.main-body p{
+    text-align: center;
+}
+.body-2 p{
+    text-align: center;
+}
+)
 footer{
     background-color:#f9e7dc
     padding 20%;
