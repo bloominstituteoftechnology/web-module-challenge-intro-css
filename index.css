@@ -43,14 +43,29 @@
     padding:1%
   }
   
+.Yosemite{
+    display:inline-block;
+    margin-left: 35%;
+     
+}
+
+  img{
+      height:200px;
+      display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:2%;
+    width:15%;
+    border-radius: 100px;
+  }
   h1{ 
-    font-size:3.5rem;
-    font-family:'Chelsea Market', sans-serif;
+    font-size:4.5rem;
+    font-family:'Chelsea Market';
   
   }
   header{
     text-align:center;
-    display:block;
+    display:inline-block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom:2%;
@@ -112,6 +127,12 @@
     width: 8%;
   }
   
+.ftr-img{
+    padding-bottom: 20%;
+    
+
+}
+
   footer{
     margin:2%;
     background-color:#F9E7DC;
