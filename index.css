@@ -39,7 +39,7 @@
             letter-spacing:1px;
             margin:4% 4%;
             border-radius: 10%;
-            font-size: 1.9rem;
+            
             text-align: center;
             
         }
@@ -47,7 +47,7 @@
             display:block;
             text-align: center;
             margin:auto;
-            font-size: 2rem;
+            font-size: 3rem;
         }
             
         
@@ -78,7 +78,7 @@
         }
 
     h1{
-    font-size: 2.6rem;
+    font-size: 5.6rem;
     }
     .header-image {
         border-radius: 50%;
@@ -93,7 +93,7 @@
         display:block;
         font-size: 1.6rem;
         text-align: center;
-        float: right;
+        float: center;
         padding: 10%;
         
     }
@@ -131,4 +131,9 @@
     display:block;
     text-align: center;
     font-size: 1.6rem
+    }
+
+    .footerimage  {
+        -webkit-background-size: cover;
+        background-size: auto;
     }
