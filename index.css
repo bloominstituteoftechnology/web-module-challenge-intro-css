@@ -127,13 +127,9 @@
     width: 8%;
   }
   
-.ftr-img{
-    padding-bottom: 20%;
-    
 
-}
 
-  footer{
+  .footer-img{
     margin:2%;
     background-color:#F9E7DC;
     background-image: url('assets/footer_img.jpg');
