@@ -43,14 +43,15 @@ body {
 nav {
   margin: 0 auto;
   padding: 2%;
-  width: 60%;
+  max-width: 90%;
 }
 
 nav a {
   display: inline-block;  /* Side-by-side */
-  margin: 0 10%;  /* Space the links */
+  margin: 0 4%;  /* Space the links */
   padding: 4%;
   border-radius: 5px;
+  color: white;
 }
 
 nav a.visit {
@@ -65,13 +66,11 @@ nav a.involved {
   background: #FFCD69;
 }
 
-/* Header and footer */
+/* Header */
 header {
   margin: 2% auto;
   padding: 3%;
   width: 80%;
-  font-size: 3REM;
-  font-family: "Chelsea Market", cursive;
 }
 
 header img {
@@ -85,34 +84,42 @@ header img {
 header h1 {
   display: inline-block;
   margin: 5% 2% 5% 10%;  /* Leave room on the left for image */
-  padding: 0 3%;
+  padding: 0 4%;
   max-width: 60%;
+  font-size: 3.5REM;
+  font-family: "Chelsea Market", cursive;
 }
 
 /* Main content */
 main {
   margin: 5% auto;
   padding: 5%;
-  width: 60%;
+  width: 75%;
 }
 
 main div {
   margin: 0 auto;
-  padding: 5%;
+  padding: 2%;
   text-align: center;
   max-width: 100%;
 }
 
-.left-content {
-  margin: 5% 10% 5% 2%;  /* To the left */
-  padding: 5%;
-  max-width: 40%;
+main div p.color {
+  background: brown;
+  color: white;
 }
 
-.left-content div .left-image {
-  margin: 0 auto;
+.left-content {
+  display: inline-block;
+  margin: 5% 10% 5% 2%;  /* To the left */
+  padding: 5%;
+  max-width: 50%;
+}
+
+.left-content img {
+  margin: 0 auto 5%;
   padding: 2%;
-  max-width: 30%;
+  max-width: 60%;
 }
 
 .left-content div.left-text {
@@ -122,3 +129,22 @@ main div {
   max-width: 100%;
 }
 
+.right-content {
+  display: inline-block;
+  margin: 5% 2% 5% 5%;  /* To the right */
+  padding: 5%;
+  max-width: 40%;
+}
+
+/* Footer */
+footer {
+  margin: 5% auto;
+  padding: 5%;
+  width: 80%;
+  height: 30vh;
+  background-image: url("assets/footer_image.jpg");
+  background-color: #EEE;  /* Footer background is offwhite if image isn't available */
+  background-position: center;
+  background-repeat: no repeat;
+  background-size: cover;
+}
