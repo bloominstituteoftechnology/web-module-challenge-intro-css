@@ -38,9 +38,9 @@
             text-decoration:none;
             letter-spacing:1px;
             margin:4% 4%;
-            border-radius: 10%;
-            
+            border-radius: 12px;
             text-align: center;
+            
             
         }
         .buttons {
@@ -55,7 +55,7 @@
             display:inline-block;
             background-color:#FF764E;
             width:15%;
-            padding: 4% 0;
+            padding: 1% 0;
             text-align: center;
         }
 
@@ -64,7 +64,7 @@
             color:white;
             display:inline-block;
             width:15%;
-            padding: 4% 0;
+            padding: 1% 0;
             text-align: center;
         }
 
@@ -73,14 +73,25 @@
             color:white;
             display:inline-block;
             width:15%;
-            padding: 4% 0;
+            padding: 1% 0;
             text-align: center;
         }
 
-    h1{
-    font-size: 5.6rem;
-    }
-    .header-image {
+        h1{
+        font-size: 9rem;
+        font-family: fantasy;
+        letter-spacing: 0.5rem;
+        }
+
+        .info p {
+            display: block;
+            letter-spacing: .2rem;
+            font-size: 1.6rem;
+            font-family: fantasy;
+
+        }
+
+        .header-image {
         border-radius: 50%;
         text-align: left;
         float: left;
@@ -113,13 +124,16 @@
    .two-blocks img {
     height: 250px;
     width: 250px;
-    line-height: 1.3;
+    line-height: 20px;
+    
+    
    }
 
     .firstblock {
     display:block;
     text-align: center;
-    font-size: 1.6rem
+    font-size: 1.6rem;
+    
 
     }
 
@@ -130,10 +144,19 @@
     .secondblock {
     display:block;
     text-align: center;
-    font-size: 1.6rem
+    font-size: 1.6rem;
+    margin-bottom: 10%; 
+    
     }
 
     .footerimage  {
-        -webkit-background-size: cover;
-        background-size: auto;
+        background: url(https://github.com/Anatoliy-Kireyev/web-module-project-intro-css/blob/anatoliy-kireyev/assets/footer_img.jpg?raw=true);
+        background-size: stretch; 
+        height: 200px;
+        position: relative;
+    }
+     footer .buttons    {
+        padding:1%;
+        background-color: silver;
+        background-size: cover;
     }
