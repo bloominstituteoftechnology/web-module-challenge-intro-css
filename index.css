@@ -112,16 +112,21 @@
    
     .first-paragraph {
         display:inline-block;
-        background-color: saddlebrown;
-        font-size: 1.8rem;
+        background-color: tan;
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
         padding: 2% 2%;
         text-align: center;
         color:white;
         margin: 10%;
         
+        
     }
-    
+    .boldtext {
+        font-weight: bold;
+    }
    .two-blocks img {
+    
     height: 250px;
     width: 250px;
     line-height: 20px;
@@ -133,6 +138,7 @@
     display:block;
     text-align: center;
     font-size: 1.6rem;
+
     
 
     }
