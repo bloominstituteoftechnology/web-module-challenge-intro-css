@@ -1,67 +1,25 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
 *{
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    max-width: 100%;
-}
-body{
-    font-style: Roboto Mono;
-}
- .button1{
-     display: inline-block;
-     background-color: #FF764E;
-     text-align: center;
-     width: 20%;
-     padding: 2% 0;
-     border-radius: 10px;
- }
- .button2{
-     display: inline-block;
-     background-color: #5ED3EB;
-     text-align: center;
-     width: 20%;
-     padding: 2% 0;
-     border-radius: 10px;
- }
- .button3{
-     display: inline-block;
-     background-attachment:#FFCD69;
-     text-align: center;
-     width: 20%;
-     padding:2% 0;
-     border-radius: 10px; 
-     box-sizing: content-box;
-     
- }
- h1 {
-     font-style: Chelsea;
-     text-align: center;
-
- }
-header{
-    padding: 25%;
-    margin: 50%;
-    border: 1px solid red;
-}
-.image{
-    float: left;
-} 
-.main-body{
-    background-color: #ddb9a3;
-    padding: 20%;
-    margin: 50%;
-    border: 1px solid red;
-}
-.main-body p{
-    text-align: center;
-}
-.body-2 p{
-    text-align: center;
-}
-)
-footer{
-    background-color:#f9e7dc
-    padding 20%;
-    margin: auto;
-    border: 1px solid red;
+    border: 2px solid red;
 }
