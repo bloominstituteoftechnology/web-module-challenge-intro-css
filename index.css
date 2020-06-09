@@ -85,4 +85,10 @@ h1{
     width: 75%;
     flex-wrap: wrap;
 }
-    
+  
+p {
+    font-size: 1.8rem;
+    font-family: 'Roboto Mono', monospace;
+    display: flex; 
+    flex-wrap: wrap;
+}
