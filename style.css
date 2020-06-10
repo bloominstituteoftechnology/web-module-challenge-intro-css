@@ -68,7 +68,6 @@ p {
 .rv-img {
     width: auto;
     height: 100px;
-    display: inline;
 }
 
 footer {
@@ -77,8 +76,8 @@ footer {
 }
 
 .footer-image {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100px;
     margin: auto;
     padding: 20px;
 }
