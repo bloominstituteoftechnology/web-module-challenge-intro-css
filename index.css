@@ -74,7 +74,9 @@ body {
     margin-right: 5%;
     color: white;
     border-radius: 20px;
+    overflow: auto;
     padding: 2%;
+    height: auto;
 }
 
 .navigation nav a:hover {
@@ -120,9 +122,10 @@ body {
 }
 
 .header .info-header p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    text-align: center;
     width: 75%;
-    margin-left: 10%;
+    margin-left: 15%;
     line-height: 30px;
 }
 
