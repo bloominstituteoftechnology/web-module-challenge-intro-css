@@ -65,6 +65,8 @@ body {
     text-align: center;
 }
 
+
+
 .navigation nav a {
     font-size: 1.5rem;
     text-decoration: none;
@@ -73,6 +75,12 @@ body {
     color: white;
     border-radius: 20px;
     padding: 2%;
+}
+
+.navigation nav a:hover {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
 }
 
 .navigation nav a.plan{
@@ -185,6 +193,12 @@ footer nav a {
     color: white;
     border-radius: 20px;
     padding: 2%;
+}
+
+footer nav a:hover {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
 }
 
 footer nav a.plan{
