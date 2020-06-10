@@ -63,7 +63,7 @@ header {
 
 .header-title {
     font-family: 'Chelsea Market', cursive;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 
 .header-blurb {
