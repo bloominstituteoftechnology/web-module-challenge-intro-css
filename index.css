@@ -47,6 +47,13 @@ table {
 html{
   width:62.5%;
 }
+body{
+  width:90vw ;
+}
+#container{
+  width: 80%;
+  margin: 0 auto;
+}
 
 .links{
   width: 100%;
@@ -59,19 +66,21 @@ html{
 img{
   width:20%;
 }
+.image-1{
+  border-radius:7rem;
+}
 
 .section-1{
   width: 100%;
   display:flex;
-/*  border:5px solid red;*/
+  border:5px solid red;
   font-family: 'Chelsea Market', cursive;
 }
-.info h1{
-  font-size: 2rem;
-}
+
 .button-1,.button-2,.button-3{
   padding: 1.5rem;
   margin: 2rem;
+  font-size:1rem;
 }
 
 .button-1{
@@ -91,6 +100,31 @@ img{
 }
 .section-2{
   background-color:#DDB9A3;
-  border:10px solid red;
+  /*border:10px solid red;*/
   font-family: 'Roboto Mono', monospace;
+}
+
+.main{
+  width: 40%;
+  display:flex;
+  border:5px solid blue;
+  display-direction:row;
+  height: 5vh;
+  align-self: flex-end;
+  flex-wrap: wrap;
+
+}
+.info{
+  width: 50%;
+  border:10px solid red;
+  background-color:#DDB9A3;
+  color:white;
+  font-family: 'Chelsea Market', cursive;
+  display: flex;
+  flex-direction:column-reverse;
+  flex-wrap:wrap;
+  height:10vh;
+  align-self: center;
+  align-content:center;
+
 }
