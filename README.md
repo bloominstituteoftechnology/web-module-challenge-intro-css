@@ -39,8 +39,24 @@ Once your repository is set up, practice what you learned today to style the sit
   - [ ] Learn About the Park: `#5ED3EB`
   - [ ] Get Involved: `#FFCD69`
 - [ ] Change all font colors and styles according to design file
-  - [ ] Yosemite Park Guide font is called Chelsea Market and can be found on [google fonts](https://fonts.google.com/specimen/Chelsea+Market)
+  - [ ] Yosemite Park Guide font is called Chelsea Market and can be found on [google fonts](https://fonts.google.com/specimen/Chelsea+Market)  
+  To embed a font, copy the code into the <head> of your html
+
+<link>@import
+<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+CSS rules to specify families
+
+font-family: 'Chelsea Market', cursive;
   - [ ] All other text is Roboto Mono, also available on [google fonts](https://fonts.google.com/specimen/Roboto+Mono)
+To embed a font, copy the code into the <head> of your html
+
+<link>@import
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+CSS rules to specify families
+
+font-family: 'Roboto Mono', monospace;
+
+
 - [ ] Color the background of the main text body with `#DDB9A3`
 - [ ] Color the background of the footer with `#F9E7DC`
 - [ ] Bold the words "current fire restrictions" and "park entrance fee" according to the design file
