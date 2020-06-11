@@ -62,10 +62,15 @@ h1{
     font-size: 2.2rem;
 }
 
+h3{
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 2rem;
+}
+
 .firstImage{
+    border-radius: 50%;
     height: 40%;
     width: 100%;
-    border-radius: 50%;
     display: flex;
     flex-wrap: wrap;
 
@@ -73,7 +78,7 @@ h1{
 
 .bottomLinks {
     display: flex; 
-    justify-content: space-evenly ;
+    justify-content: space-evenly;
     text-decoration: none;
 }
 
@@ -98,4 +103,8 @@ p {
     font-family: 'Roboto Mono', monospace;
     display: flex; 
     flex-wrap: wrap;
+}
+
+.text{
+    background-color: 
 }
