@@ -86,3 +86,28 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
+* {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+.first-section {
+  background-color: beige;
+  padding: 20%;
+}
+
+.last-section nav a {
+  background-color: yellow;
+  text-decoration: none;
+}
+footer {
+  width: 100%;
+}
