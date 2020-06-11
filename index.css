@@ -43,7 +43,7 @@ table {
 }
 /*******END RESET********/
 @import "<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">";
-
+@import "<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">";
 html{
   width:62.5%;
 }
@@ -60,14 +60,14 @@ img{
   width:20%;
 }
 
-.section1{
+.section-1{
   width: 100%;
   display:flex;
 /*  border:5px solid red;*/
   font-family: 'Chelsea Market', cursive;
 }
 .info h1{
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 .button-1,.button-2,.button-3{
   padding: 1.5rem;
@@ -77,12 +77,20 @@ img{
 .button-1{
   background-color:#FF764E;
   color:white;
+  border-radius:1rem;
 }
 .button-2{
   background-color: #5ED3EB;
   color:white;
+  border-radius:1rem;
 }
 .button-3{
   background-color: #FFCD69;
   color:white;
+  border-radius:1rem;
+}
+.section-2{
+  background-color:#DDB9A3;
+  border:10px solid red;
+  font-family: 'Roboto Mono', monospace;
 }
