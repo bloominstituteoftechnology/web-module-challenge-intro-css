@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*border: black 1px solid;*/
+    font-family: 'Roboto Mono', monospace;
+}
+
+.intro {
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__p {
+    text-align: center;
+}
+
+.banner {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.banner__h1 {
+    display: flex;
+    align-items: center;
+    font-family: 'Chelsea Market', cursive;
+}
+
+
+  .banner__p {
+      text-align: center;
+  }
+
+.banner__img {
+    padding: 0 1rem;
+}
+
+nav {
+    display: flex;
+    padding: 2rem 8rem;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.nav__a {
+    padding: .3rem;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.nav__a--red {
+    background-color: rosybrown;
+    text-align: center;
+}
+
+.nav__a--blue {
+    background-color: lemonchiffon;
+    text-align: center;
+}
+
+.nav__a--orange {
+    background-color: palegreen;
+    text-align: center;
+}
+
+.banner__img {
+    width: 20vw;
+    border-radius: 50%;
+}
+
+.description {
+    background-color: peachpuff;
+    text-align: center;
+    margin: 3rem 2rem;
+    padding: 2rem 
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info__img {
+    width: 10rem;
+}
+
+.info__p {
+    padding: 2rem 3rem;
+}
+
+
+
+
+/* EFFECTS */
+
+.nav__a--red:hover {
+    background-color: rosybrown;
+    width: 8rem;
+}
+
+.nav__a--blue:hover {
+    background-color: lemonchiffon;
+    width: 8rem;
+}
+
+.nav__a--orange:hover {
+    background-color: palegreen;
+    width: 8rem;
+}
