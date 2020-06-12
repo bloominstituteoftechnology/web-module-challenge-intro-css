@@ -1,3 +1,4 @@
+// paragraph font we should be using
 @font-face { 
     font-family: 'Roboto Mono'; 
     font-style:  'monospace';  
@@ -5,6 +6,7 @@
     src: local('RobotoMono-Regular'),
              url('../assets/fonts/RobotoMono-Regular.ttf') format('ttf'),
 }
+// h1 font we are suppose to use
 @font-face { 
     font-family: 'Chelsea Market';
     font-style:  'cursive';  
@@ -14,7 +16,12 @@
 }
 
 
-
+body{
+    margin:0%;
+	width:96%;
+    height:@hn;
+    background-color: brown;
+}
 p{
     font-family:'Roboto Mono', monospace;
 }

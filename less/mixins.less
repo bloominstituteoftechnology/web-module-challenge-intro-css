@@ -3,9 +3,9 @@
 
 .header(){
     display:@f;
-	flex-direction:@fc;
-	width:@hn;
-	height:@hn;
+    flex-direction:@fc;
+    align-content: center;
+    justify-content: center;
 }
 
 .navcon(){
@@ -38,7 +38,7 @@
 			justify-content: @sb;
 			align-content: @sb;
 			width:@hn;
-			height:@hn;
+			height:50vh;
 			background-color: grey;
 }
 .divRimg(){
@@ -53,29 +53,33 @@
 				border-bottom-right-radius: 50% 50%;
 				border-bottom-left-radius: 50% 50%;
 }
+// End first element in the row
+// Yosimity Sam Area
 
 .divPcol(){
-    background: beige;
+    background: bisque;
 					display:@f;
 					flex-direction: @fc;
-					height:14rem;
+					height:18rem;
 					width:50%;
 					align-items: @c;
 					justify-items: @c;
 					padding:.5rem;
-					margin-right:1rem;
+					margin-right:21rem; /* Move the beige box over */
 							justify-content: @se;
 }
 // next row of that column 2
 .h1h(){
     //font-family:'Roboto Mono', monospace;
+    font-family: 'Chelsea Market', 'cursive';
     width:@hn;
 							height:@hn;
-							font-size:4rem;
+							font-size:5rem; // Change h1 font
 }
 
 .h1Nav(){
-    font-family: 'Chelsea Market', 'cursive';
+    
+   
     display: @f;
 							align-content: space-around;
 							flex-wrap: wrap;
@@ -83,11 +87,11 @@
 }
 
 .pPc(){
-    background-color:blue;
+    background-color:greenyellow;
     font-family:'Roboto Mono', monospace;
-							font-size:1rem;
-							width:60%;
-							height:@hn;
+							font-size:1.2rem;
+							width:80%;
+							height:55vh;
 						//	margin-right:26rem; // Position p to be @ced
 }
 

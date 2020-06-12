@@ -137,6 +137,12 @@ table {
   font-weight: 40;
   src: local('ChelseaMarket-Regular'), url('../assets/fonts/ChelseaMarket-Regular.ttf') format('ttf');
 }
+body {
+  margin: 0%;
+  width: 96%;
+  height: 100%;
+  background-color: brown;
+}
 p {
   font-family: 'Roboto Mono', monospace;
 }
@@ -150,11 +156,16 @@ footer {
   flex-direction: column;
   justify-content: space-evenly;
 }
+header#header {
+  margin: 2vh 2vw;
+  width: 100%;
+  height: 100%;
+}
 header {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
+  align-content: center;
+  justify-content: center;
 }
 header nav.navcon {
   display: flex;
@@ -178,7 +189,7 @@ header div {
   justify-content: space-between;
   align-content: space-between;
   width: 100%;
-  height: 100%;
+  height: 50vh;
   background-color: grey;
 }
 header div img {
@@ -194,35 +205,36 @@ header div img.circular--square {
   border-bottom-left-radius: 50% 50%;
 }
 header div div.pcol {
-  background: beige;
+  background: bisque;
   display: flex;
   flex-direction: column;
-  height: 14rem;
+  height: 18rem;
   width: 50%;
   align-items: center;
   justify-items: center;
   padding: 0.5rem;
-  margin-right: 1rem;
+  margin-right: 21rem;
+  /* Move the beige box over */
   justify-content: space-evenly;
 }
 header div div.pcol h1#h {
+  font-family: 'Chelsea Market', 'cursive';
   width: 100%;
   height: 100%;
-  font-size: 4rem;
+  font-size: 5rem;
 }
 header div div.pcol h1 {
-  font-family: 'Chelsea Market', 'cursive';
   display: flex;
   align-content: space-around;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 header div div.pcol p.pc {
-  background-color: blue;
+  background-color: greenyellow;
   font-family: 'Roboto Mono', monospace;
-  font-size: 1rem;
-  width: 60%;
-  height: 100%;
+  font-size: 1.2rem;
+  width: 80%;
+  height: 55vh;
 }
 header div div.pcol p {
   display: flex;
