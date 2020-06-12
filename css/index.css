@@ -194,7 +194,7 @@ header div div.pcol p {
 }
 section#tsec {
   width: 100%;
-  height: 100rem;
+  height: 66rem;
   margin: 0rem 3rem 0rem 3rem;
 }
 section {
@@ -222,4 +222,40 @@ section div.bottomSec {
 section div.bottomSec img {
   width: 10rem;
   height: 10rem;
+}
+footer#foot {
+  width: 100%;
+  height: 40rem;
+  margin: 0.7rem;
+}
+footer#foot img {
+  width: 85%;
+  height: 22rem;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+}
+footer img {
+  display: flex;
+  justify-self: space-evenly;
+}
+footer nav.navcon {
+  background-color: black;
+  width: 100%;
+  height: 20rem;
+}
+footer nav.navcon button {
+  margin: 1rem;
+  width: 20%;
+  height: 30%;
+}
+footer nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+footer nav button {
+  display: flex;
+  align-self: center;
 }
