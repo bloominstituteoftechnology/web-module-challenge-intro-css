@@ -54,7 +54,8 @@ header{
 	display:flex;
 	//display:flex;
 	flex-direction: column;
-	
+	width:100%;
+	height:100%;
 	
 		nav.navcon{
 			display:flex;
@@ -87,6 +88,9 @@ header{
 			flex-direction:row;
 			justify-content: space-between;
 			align-content: space-between;
+			width:100%;
+			height:100%;
+			background-color: blue;
 			
 			img{
 				margin:.4rem;
@@ -101,29 +105,48 @@ header{
 				border-bottom-left-radius: 50% 50%;
 			  }
 			div.pcol{
-				//display:flex;
+					background: beige;
+					display:flex;
 					flex-direction: column;
-					height:100%;
-					width:70%;
-					//justify-items: center;
+					height:14rem;
+					width:50%;
 					align-items: center;
-					justify-content: space-evenly;
-					align-content: space-evenly;
+					justify-items: center;
+					margin-right:14rem;
+					align-self: center;
+							
+							justify-self: center;
+					
+					//justify-items: space-evenly;
+					//align-items: space-between;
+					//align-content: space-between;
+			
+			//justify-content: space-between;
+					
 						h1{
-								
-							//display:flex;
-							//flex-direction: column;
+							display: flex;
+							align-content: space-around;
+							
+							justify-content: space-around;
+							
 							width:100%;
-							height:30%;
-							margin:.5rem;
+							height:100%;
 							font-size:4rem;
 						}
 						p{
+							display: flex;
+						//	align-self: space-evenly;
 							
+						//	justify-self: space-evenly;
+						justify-content: center;
+						//align-self: center;
+						align-content: center;
+							//justify-content: center;
 							
-							width:55%;
-							height:30%;
-							margin-right:26rem; // Position p to be centered
+							background-color:teal;
+							width:70%;
+							height:100%;
+						//	margin-right:26rem; // Position p to be centered
 							//flex-direction: column;
 						}
 						
