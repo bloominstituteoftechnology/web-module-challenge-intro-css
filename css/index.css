@@ -142,18 +142,23 @@ header nav.navcon button {
 header div {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
 }
-header div div {
-  display: flex;
+header div div.pcol {
   flex-direction: column;
+  height: 100%;
+  width: 60%;
+  justify-content: space-evenly;
+  align-content: space-around;
 }
-header div div p {
-  width: 50%;
+header div div.pcol p {
+  width: 80%;
   height: 30%;
   margin: 0.5rem;
 }
-header div div h1 {
-  width: 50%;
+header div div.pcol h1 {
+  width: 90%;
   height: 20%;
   margin: 0.5rem;
   font-size: 4rem;
