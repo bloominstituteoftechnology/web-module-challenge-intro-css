@@ -23,6 +23,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+section{
+	box-sizing: border-box;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
  hgroup, menu,  section {
@@ -149,33 +152,49 @@ header{
 		} // end header > div col2
 }// end header
 
-// The mid section
+// The mid section top part
+section#tsec{
+	width:100%;
+	height:100rem;
+	//margin-bottom:1rem;
+	margin:0rem 3rem 0rem 3rem;
+}
+//// The section tag
 section{
 	display: flex;
 		flex-direction: column;
-		width:200%;
-	height:300%;
-	//margin:0rem 3rem 0rem 3rem;
+		align-items: center;
+	
+	
 	div#topSec{
-		width:80%;
-		height:100%;
-		margin:1rem;
+		display:flex;
+		flex-direction: column;
+	//	width:80%;
+	//	height:20rem;
+	//	margin:1rem;
 		//display: flex;
 	//	flex-direction: column;
 		background-color: coral;
 		color:white;
 	}
 	div{
-		width:60rem;
-		height:60rem;
+		background-color: red;
+		width:40%;
+		height:16rem;
+		margin:1rem;
 		//display: flex;
 	//	flex-direction: column;
 	}
 	div.bottomSec{
 		//display:flex;
 	//	flex-direction: column;
+		margin:1rem;
 		width:15rem;
 		height:20rem;
+		img{
+			width:10rem;
+			height:10rem;
+		}
 	}
 }
 
