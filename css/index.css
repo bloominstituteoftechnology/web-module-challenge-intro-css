@@ -121,16 +121,9 @@ table {
 }
 header {
   display: flex;
-  flex-direction: row;
-}
-header section {
-  display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
-  margin: 0.5rem;
 }
-header section nav.navcon {
+header nav.navcon {
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -139,26 +132,34 @@ header section nav.navcon {
   width: 100%;
   height: 8rem;
 }
-header section nav.navcon button {
+header nav.navcon button {
   align-self: center;
   justify-content: space-evenly;
   margin: 0.6rem;
   width: 10%;
   height: 40%;
 }
-header section div {
+header div {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
-header section div h1 {
+header div p {
+  width: 50%;
+  height: 30%;
+  margin: 0.5rem;
+}
+header div h1 {
+  width: 50%;
+  height: 20%;
+  margin: 0.5rem;
   font-size: 4rem;
 }
-header section img {
+header div img {
   margin: 0.4rem;
   width: 14rem;
   height: 14rem;
 }
-header section img.circular--square {
+header div img.circular--square {
   border-radius: 50% 50%;
   border-top-left-radius: 50% 50%;
   border-top-right-radius: 50% 50%;
