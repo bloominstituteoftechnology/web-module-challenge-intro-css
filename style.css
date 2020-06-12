@@ -158,6 +158,10 @@ p {
     line-height: 30px;
 }
 
+nav a:hover {
+    color: #5ED3EB;
+}
+
 .fire-img {
     width: auto;
     height: 100px;
