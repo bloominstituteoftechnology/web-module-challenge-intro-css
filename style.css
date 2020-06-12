@@ -1,3 +1,92 @@
+/*html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}*/
+
 * {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
@@ -11,12 +100,10 @@
     border-radius: 10px;
     color: white;
     width: 10rem;
-    margin: 100px;
+    margin: auto;
     height: auto;
-    padding: 0.8rem;
-    justify-content: space-evenly;
+    padding: 20px;
     font-size: 17px;
-    flex-direction: row;
     display: inline-block;
 }
 
@@ -45,8 +132,11 @@
     float: left;
 }
 
-body {
-    margin: 15rem;
+.container {
+    font-size: 62.5%;
+    margin: auto;
+    padding: 300px;
+    width: 600px;
 }
 
 h1 {
@@ -63,9 +153,10 @@ h1 {
     color: white;
 }
 
-.main-content {
+
+/*.main-content {
     padding: 20px;
-}
+}*/
 
 p {
     display: inline-block;
@@ -83,7 +174,6 @@ p {
 }
 
 footer {
-    background-color: #F9E7DC;
     display: block;
     padding: 50px;
     margin: 0;
@@ -92,23 +182,33 @@ footer {
 }
 
 .footer-img {
-    display: block;
-    padding: 50px;
-    margin: 0;
-    height: 100px;
-    width: auto;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 15%;
 }
 
 .bottom-nav a {
-    text-align: center;
+    /* text-align: center;
     border-radius: 10px;
     color: white;
     width: 10rem;
     margin: 100px;
     height: auto;
-    padding: 0.8rem;
+    padding: 20px;
     font-size: 17px;
-    display: inline-block;
-    flex-direction: row;
-    justify-content: space-evenly;
+    display: inline-block;*/
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    width: 10rem;
+    margin: 0;
+    height: auto;
+    padding: 10px;
+    font-size: 17px;
+    display: inline-block
+}
+
+.bottom-nav {
+    background-color: #F9E7DC;
 }
