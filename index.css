@@ -59,12 +59,12 @@ table {
 
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size: 2.2rem;
+    font-size: 2.8rem;
 }
 
 h3{
     font-family: 'Roboto Mono', monospace; 
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .firstImage{
@@ -87,6 +87,8 @@ h3{
     align-items: center;
     justify-content: center; 
     flex-wrap: wrap;
+    height: 25%;
+    width: 75%;
 }
 
 .thirdImage {
@@ -94,7 +96,7 @@ h3{
     align-items: center;
     justify-content: center;
     height: 20%;
-    width: 75%;
+    width: 100%;
     flex-wrap: wrap;
 }
   
@@ -106,5 +108,15 @@ p {
 }
 
 .text{
-    background-color: 
+    background-color: #DDB9A3;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.end{
+    width: 100%;
+    height: 15%;
 }
