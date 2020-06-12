@@ -73,7 +73,6 @@ hgroup,
 menu,
 output,
 ruby,
-section,
 summary,
 time,
 mark,
@@ -189,4 +188,25 @@ header div div.pcol p {
   background-color: teal;
   width: 70%;
   height: 100%;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  width: 200%;
+  height: 300%;
+}
+section div#topSec {
+  width: 80%;
+  height: 100%;
+  margin: 1rem;
+  background-color: coral;
+  color: white;
+}
+section div {
+  width: 60rem;
+  height: 60rem;
+}
+section div.bottomSec {
+  width: 15rem;
+  height: 20rem;
 }

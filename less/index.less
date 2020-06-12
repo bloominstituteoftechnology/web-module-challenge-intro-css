@@ -14,7 +14,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, hgroup, 
-menu, output, ruby, section, summary,
+menu, output, ruby, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -117,11 +117,7 @@ header{
 							
 							justify-self: center;
 					
-					//justify-items: space-evenly;
-					//align-items: space-between;
-					//align-content: space-between;
-			
-			//justify-content: space-between;
+					
 					
 						h1{
 							display: flex;
@@ -133,7 +129,7 @@ header{
 							height:100%;
 							font-size:4rem;
 						}
-						p{
+						p{ // TODO: see if making p a class will work to center align
 							display: flex;
 						//	align-self: space-evenly;
 							
@@ -149,14 +145,44 @@ header{
 						//	margin-right:26rem; // Position p to be centered
 							//flex-direction: column;
 						}
-						
-				
-				
 			} // end div row
-			
-
 		} // end header > div col2
-		
-		
-
 }// end header
+
+// The mid section
+section{
+	display: flex;
+		flex-direction: column;
+		width:200%;
+	height:300%;
+	//margin:0rem 3rem 0rem 3rem;
+	div#topSec{
+		width:80%;
+		height:100%;
+		margin:1rem;
+		//display: flex;
+	//	flex-direction: column;
+		background-color: coral;
+		color:white;
+	}
+	div{
+		width:60rem;
+		height:60rem;
+		//display: flex;
+	//	flex-direction: column;
+	}
+	div.bottomSec{
+		//display:flex;
+	//	flex-direction: column;
+		width:15rem;
+		height:20rem;
+	}
+}
+
+
+
+
+
+
+
+
