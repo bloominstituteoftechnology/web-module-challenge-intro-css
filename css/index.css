@@ -121,9 +121,16 @@ table {
 }
 header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
-header nav.navcon {
+header section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0.5rem;
+}
+header section nav.navcon {
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -132,24 +139,29 @@ header nav.navcon {
   width: 100%;
   height: 8rem;
 }
-header nav.navcon button {
+header section nav.navcon button {
   align-self: center;
   justify-content: space-evenly;
   margin: 0.6rem;
   width: 10%;
   height: 40%;
 }
-header div img.circular--square {
-  border-radius: 50% 50%;
+header section div {
+  display: flex;
+  flex-direction: column;
 }
-header div img {
+header section div h1 {
+  font-size: 4rem;
+}
+header section img {
+  margin: 0.4rem;
+  width: 14rem;
+  height: 14rem;
+}
+header section img.circular--square {
+  border-radius: 50% 50%;
   border-top-left-radius: 50% 50%;
   border-top-right-radius: 50% 50%;
   border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
-}
-header img {
-  margin: 0.4rem;
-  width: 14rem;
-  height: 14rem;
 }

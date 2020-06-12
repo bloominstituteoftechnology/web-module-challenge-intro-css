@@ -53,9 +53,13 @@ table {
 header{
 	display:flex;
 	//display:flex;
+	flex-direction: row;
+	section{
+	display:flex;
 	flex-direction: column;
-	
-	
+	width:100%;
+	height:100%;
+	margin:.5rem;
 		nav.navcon{
 			display:flex;
 			flex-direction: row;
@@ -82,21 +86,30 @@ header{
 
 		}// end navcon
 		div{
-			img.circular--square {
-				border-radius: 50% 50%;
-			  }
-			img{
-				border-top-left-radius: 50% 50%;
-  border-top-right-radius: 50% 50%;
-  border-bottom-right-radius: 50% 50%;
-  border-bottom-left-radius: 50% 50%;
-				
+			display:flex;
+			flex-direction:column;
+			p{
+				//flex-direction: column;
 			}
-		}
+			h1{
+				font-size:4rem;
+			}
+			
+
+
+		} // end header > div
 		img{
 			margin:.4rem;
 				width:14rem;
 				height:14rem;
 		}
+		img.circular--square {
+			border-radius: 50% 50%;
+			border-top-left-radius: 50% 50%;
+border-top-right-radius: 50% 50%;
+border-bottom-right-radius: 50% 50%;
+border-bottom-left-radius: 50% 50%;
+		  }
+		}//endsection
 
 }// end header
