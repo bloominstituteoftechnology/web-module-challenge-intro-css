@@ -135,8 +135,8 @@ video {
 .container {
     font-size: 62.5%;
     margin: auto;
-    padding: 300px;
-    width: 600px;
+    padding: 100px;
+    width: auto;
 }
 
 h1 {
@@ -152,11 +152,6 @@ h1 {
     padding: 100px;
     color: white;
 }
-
-
-/*.main-content {
-    padding: 20px;
-}*/
 
 p {
     display: inline-block;
@@ -189,22 +184,13 @@ footer {
 }
 
 .bottom-nav a {
-    /* text-align: center;
-    border-radius: 10px;
-    color: white;
-    width: 10rem;
-    margin: 100px;
-    height: auto;
-    padding: 20px;
-    font-size: 17px;
-    display: inline-block;*/
     text-align: center;
     border-radius: 10px;
     color: white;
     width: 10rem;
     margin: 0;
     height: auto;
-    padding: 10px;
+    padding: 20px;
     font-size: 17px;
     display: inline-block
 }
