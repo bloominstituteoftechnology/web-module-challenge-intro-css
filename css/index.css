@@ -224,6 +224,7 @@ section div.bottomSec img {
   height: 10rem;
 }
 footer#foot {
+  background-color: blueviolet;
   width: 100%;
   height: 40rem;
   margin: 0.7rem;
@@ -235,10 +236,11 @@ footer#foot img {
 footer {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
 }
 footer img {
   display: flex;
-  justify-self: space-evenly;
+  align-self: center;
 }
 footer nav.navcon {
   background-color: black;
