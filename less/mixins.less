@@ -36,7 +36,7 @@
         .button(10%,40%);
     }
     @media @Tablet{
-        .button('10vw','16vh');
+        .button(10vw,16vh);
     }
 
 background-color: @color;
@@ -139,10 +139,18 @@ font-family: 'Roboto Mono', monospace;
 .divTopSec(){
     display:@f;
 		flex-direction: @fc;
-        width:70vw; /* Move the black box top middle section */
-        height:30vh;
+        @media @mid{
+        width:60vw; /* Move the black box top middle section */
+        height:40vh;
+        font-size:1.1rem; // Desktop sizing
+        }
+        @media @midshrink{
+        width:60vw; /* Move the black box top middle section */
+        height:70vh;
+        font-size:1.1rem; // Desktop sizing
+        }
         background-color: #DDB9A3;
-		font-size:1.1rem; // Desktop sizing
+		
 		color:white;
 }
 .secDiv(){
@@ -201,7 +209,7 @@ font-family: 'Roboto Mono', monospace;
 .footBtn(){
     margin:1rem;
 					width:20%;
-					height:30%;
+					height:40%;
 }
 
 .navFoot(){

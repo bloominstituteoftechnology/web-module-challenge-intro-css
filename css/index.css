@@ -192,7 +192,7 @@ header nav.navcon button.plan {
   border-radius: 20% 20% 20% 20% ;
   font-family: 'Roboto Mono', monospace;
 }
-@media (min-width: 1000px) {
+@media (min-width: 1000px) and (min-height: 600px) {
   header nav.navcon button.plan {
     align-self: center;
     justify-content: space-evenly;
@@ -201,13 +201,13 @@ header nav.navcon button.plan {
     height: 40%;
   }
 }
-@media (min-width: 750px) {
+@media (min-width: 750px) and (min-height: 500px) {
   header nav.navcon button.plan {
     align-self: center;
     justify-content: space-evenly;
     margin: 0.6rem;
-    width: '10vw';
-    height: '16vh';
+    width: 10vw;
+    height: 16vh;
   }
 }
 header nav.navcon button.learn {
@@ -216,7 +216,7 @@ header nav.navcon button.learn {
   border-radius: 20% 20% 20% 20% ;
   font-family: 'Roboto Mono', monospace;
 }
-@media (min-width: 1000px) {
+@media (min-width: 1000px) and (min-height: 600px) {
   header nav.navcon button.learn {
     align-self: center;
     justify-content: space-evenly;
@@ -225,13 +225,13 @@ header nav.navcon button.learn {
     height: 40%;
   }
 }
-@media (min-width: 750px) {
+@media (min-width: 750px) and (min-height: 500px) {
   header nav.navcon button.learn {
     align-self: center;
     justify-content: space-evenly;
     margin: 0.6rem;
-    width: '10vw';
-    height: '16vh';
+    width: 10vw;
+    height: 16vh;
   }
 }
 header nav.navcon button.getin {
@@ -240,7 +240,7 @@ header nav.navcon button.getin {
   border-radius: 20% 20% 20% 20% ;
   font-family: 'Roboto Mono', monospace;
 }
-@media (min-width: 1000px) {
+@media (min-width: 1000px) and (min-height: 600px) {
   header nav.navcon button.getin {
     align-self: center;
     justify-content: space-evenly;
@@ -249,13 +249,13 @@ header nav.navcon button.getin {
     height: 40%;
   }
 }
-@media (min-width: 750px) {
+@media (min-width: 750px) and (min-height: 500px) {
   header nav.navcon button.getin {
     align-self: center;
     justify-content: space-evenly;
     margin: 0.6rem;
-    width: '10vw';
-    height: '16vh';
+    width: 10vw;
+    height: 16vh;
   }
 }
 header div {
@@ -338,12 +338,24 @@ section div {
 section div#topSec {
   display: flex;
   flex-direction: column;
-  width: 70vw;
-  /* Move the black box top middle section */
-  height: 30vh;
   background-color: #DDB9A3;
-  font-size: 1.1rem;
   color: white;
+}
+@media (min-width: 1126px) and (min-height:500px) {
+  section div#topSec {
+    width: 60vw;
+    /* Move the black box top middle section */
+    height: 40vh;
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 1126px) and (max-height:500px) {
+  section div#topSec {
+    width: 60vw;
+    /* Move the black box top middle section */
+    height: 70vh;
+    font-size: 1.1rem;
+  }
 }
 section div#topSec p {
   width: 100%;
@@ -394,7 +406,7 @@ footer nav.navcon {
 footer nav.navcon button {
   margin: 1rem;
   width: 20%;
-  height: 30%;
+  height: 40%;
 }
 footer nav {
   display: flex;
@@ -411,7 +423,7 @@ footer nav button.plan {
   border-radius: 20% 20% 20% 20% ;
   font-family: 'Roboto Mono', monospace;
 }
-@media (min-width: 1000px) {
+@media (min-width: 1000px) and (min-height: 600px) {
   footer nav button.plan {
     align-self: center;
     justify-content: space-evenly;
@@ -420,13 +432,13 @@ footer nav button.plan {
     height: 40%;
   }
 }
-@media (min-width: 750px) {
+@media (min-width: 750px) and (min-height: 500px) {
   footer nav button.plan {
     align-self: center;
     justify-content: space-evenly;
     margin: 0.6rem;
-    width: '10vw';
-    height: '16vh';
+    width: 10vw;
+    height: 16vh;
   }
 }
 footer nav button.learn {
@@ -435,7 +447,7 @@ footer nav button.learn {
   border-radius: 20% 20% 20% 20% ;
   font-family: 'Roboto Mono', monospace;
 }
-@media (min-width: 1000px) {
+@media (min-width: 1000px) and (min-height: 600px) {
   footer nav button.learn {
     align-self: center;
     justify-content: space-evenly;
@@ -444,13 +456,13 @@ footer nav button.learn {
     height: 40%;
   }
 }
-@media (min-width: 750px) {
+@media (min-width: 750px) and (min-height: 500px) {
   footer nav button.learn {
     align-self: center;
     justify-content: space-evenly;
     margin: 0.6rem;
-    width: '10vw';
-    height: '16vh';
+    width: 10vw;
+    height: 16vh;
   }
 }
 footer nav button.getin {
@@ -459,7 +471,7 @@ footer nav button.getin {
   border-radius: 20% 20% 20% 20% ;
   font-family: 'Roboto Mono', monospace;
 }
-@media (min-width: 1000px) {
+@media (min-width: 1000px) and (min-height: 600px) {
   footer nav button.getin {
     align-self: center;
     justify-content: space-evenly;
@@ -468,13 +480,13 @@ footer nav button.getin {
     height: 40%;
   }
 }
-@media (min-width: 750px) {
+@media (min-width: 750px) and (min-height: 500px) {
   footer nav button.getin {
     align-self: center;
     justify-content: space-evenly;
     margin: 0.6rem;
-    width: '10vw';
-    height: '16vh';
+    width: 10vw;
+    height: 16vh;
   }
 }
 footer nav button.ftbtn {
