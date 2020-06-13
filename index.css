@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 html,
 body,
 div,
@@ -143,10 +145,32 @@ table {
 
 /* navigation*/
 
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+}
+
 button {
-    overflow: auto;
     border: none;
+    color: white;
+    padding: 15px 32px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+button.visit {
+    background-color: #FF764E;
+}
+
+button.park {
+    background-color: #5ED3EB;
+}
+
+button.involved {
+    background-color: #FFCD69;
 }
 
 div.nav1 {
@@ -158,11 +182,78 @@ div.nav1 {
     overflow: hidden;
 }
 
-li {
-    float: left;
+
+/* image */
+
+div.display img {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
 }
 
-li a {
-    padding: 8px;
-    background-color: #FF764E;
+
+/*display*/
+
+div.display div {
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid blue;
+    vertical-align: middle;
+    text-align: center;
+}
+
+div.display {
+    margin: 5px 7%;
+}
+
+div.display h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 37.5px;
+}
+
+div.fire {
+    background-color: #DDB9A3;
+    color: white;
+    border: 2px solid red;
+    vertical-align: middle;
+    text-align: center;
+    margin: 5px 7%;
+}
+
+div.fire p {
+    padding: 5px;
+}
+
+div.fire2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+div.fire2 p {
+    margin: 5px 100px;
+    border: 2px solid purple;
+}
+
+div.fire2 img {
+    width: 170px;
+    height: 170px;
+}
+
+div.bus {
+    text-align: center;
+    margin: 0 auto;
+}
+
+div.bus p {
+    margin: 5px 100px;
+    border: 2px solid green;
+}
+
+div.bus img {
+    width: 170px;
+    height: 170px;
+}
+
+span {
+    font-weight: bold;
 }
