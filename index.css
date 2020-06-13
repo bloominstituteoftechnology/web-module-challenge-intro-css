@@ -223,6 +223,7 @@ nav a {
   animation-duration: 4s;
 }
 
+/* Animation effect */
 @keyframes change {
   from {
     background-color: red;
@@ -241,6 +242,7 @@ nav a {
   }
 }
 
+/* Hover effect */
 nav a:hover {
   /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
   color: red;
