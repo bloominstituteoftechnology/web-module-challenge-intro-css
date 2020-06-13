@@ -142,7 +142,7 @@ body {
   margin: 0%;
   width: 96%;
   height: 100%;
-  background-color: brown;
+  background-color: #FFFFFF;
 }
 p {
   font-family: 'Roboto Mono', monospace;
@@ -176,7 +176,7 @@ header nav.navcon {
   flex-direction: row;
   align-content: center;
   justify-content: space-evenly;
-  background-color: black;
+  background-color: #FFFFFF;
   width: 100%;
   height: 8rem;
 }
@@ -190,16 +190,19 @@ header nav.navcon button {
 header nav.navcon button#plan {
   background-color: #FF764E;
   color: white;
+  border-radius: 20% 20% 20% 20% ;
   font-family: 'Roboto Mono', monospace;
 }
 header nav.navcon button#learn {
   background-color: #5ED3EB;
   color: white;
+  border-radius: 20% 20% 20% 20% ;
   font-family: 'Roboto Mono', monospace;
 }
 header nav.navcon button#getin {
   background-color: #FFCD69;
   color: white;
+  border-radius: 20% 20% 20% 20% ;
   font-family: 'Roboto Mono', monospace;
 }
 header div {
@@ -209,12 +212,12 @@ header div {
   align-content: space-between;
   width: 100%;
   height: 50vh;
-  background-color: grey;
+  background-color: #FFFFFF;
 }
 header div img {
   margin-left: 4rem;
-  width: 14rem;
-  height: 14rem;
+  width: 18rem;
+  height: 18rem;
 }
 header div img.circular--square {
   border-radius: 50% 50%;
