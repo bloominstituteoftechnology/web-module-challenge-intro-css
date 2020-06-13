@@ -157,7 +157,9 @@ h5 {
 */
 
 /* Your code starts here! */
-
+* {
+  font-family: "Roboto Mono";
+}
 /* Navigation container */
 nav {
   display: flex;
@@ -266,7 +268,6 @@ nav .involve {
   margin-right: 20%;
   /* padding-bottom: 20px; */
   padding: 1%;
-  font-family: "Chelsea Market";
   font-size: 20px;
   font-weight: normal;
 }
