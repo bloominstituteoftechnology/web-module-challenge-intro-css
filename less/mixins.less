@@ -7,7 +7,7 @@
     align-content: center;
     justify-content: center;
 }
-
+/*nav bar in header*/
 .navcon(){
     display:@f;
 			flex-direction: @fr;
@@ -30,7 +30,14 @@
 							width:10%;
 							height:40%;
 }
-// Next column
+// button colors in nav
+.btninfo(@color){
+background-color: @color;
+color:white;
+font-family: 'Roboto Mono', monospace;
+}
+
+// Next column in header
 
 .divR(){
     display:@f;
@@ -172,7 +179,7 @@
 .footNavcon(){
     background-color: black;
 		width:@hn;
-		height:16rem;
+		height:12rem;
 }
 .footBtn(){
     margin:1rem;
@@ -189,5 +196,7 @@
 
 .navFootBtn(){
     display: @f;
-			align-self: @c;
+            align-self: @c;
+            
+            
 }
