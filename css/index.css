@@ -151,6 +151,9 @@ section {
   flex-direction: column;
   align-items: center;
 }
+section p.mp {
+  box-sizing: border-box;
+}
 footer {
   display: flex;
   flex-direction: column;
@@ -245,28 +248,49 @@ header div div.pcol p {
 section#tsec {
   width: 100%;
   height: 66rem;
-  margin: 0rem 3rem 0rem 3rem;
+  margin: 3rem 3rem 3rem 3rem;
+}
+section div {
+  background-color: red;
+  margin: 1rem;
 }
 section div#topSec {
   display: flex;
   flex-direction: column;
-  background-color: coral;
+  width: 70vw;
+  /* Move the black box top middle section */
+  height: 30vh;
+  background-color: black;
+  font-size: 1.1rem;
   color: white;
 }
-section div {
-  background-color: red;
-  width: 40%;
-  height: 16rem;
-  margin: 1rem;
+section div#topSec p {
+  width: 100%;
+  height: 100%;
+  margin: 0.4rem;
+}
+section div#topSec p.mp {
+  font-size: 1.1rem;
 }
 section div.bottomSec {
-  margin: 1rem;
-  width: 15rem;
-  height: 20rem;
+  padding: 0.2rem;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  width: 28rem;
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
 }
 section div.bottomSec img {
   width: 10rem;
   height: 10rem;
+}
+section div.bottomSec img.mImg {
+  display: flex;
+  align-self: center;
+  justify-self: space-between;
 }
 footer#foot {
   background-color: blueviolet;
