@@ -22,16 +22,23 @@
 }
 
 
-.button(){
+.button(@w,@h){
     align-self:@c;
 					
-							justify-content: @se;
-							margin: .6rem;
-							width:10%;
-							height:40%;
+					justify-content: @se;
+                    margin: .6rem;        
+                    width:@w;
+                    height:@h;
 }
 // button colors in nav
 .btninfo(@color){
+    @media @Desktop{
+        .button(10%,40%);
+    }
+    @media @Tablet{
+        .button('10vw','16vh');
+    }
+
 background-color: @color;
 color:white;
 border-radius: 20% 20% 20% 20% ;
@@ -81,8 +88,15 @@ font-family: 'Roboto Mono', monospace;
     //font-family:'Roboto Mono', monospace;
     font-family: 'Chelsea Market', 'cursive';
     width:@hn;
-							height:@hn;
-							font-size:5rem; // Change h1 font
+                            height:@hn;
+            @media @h1nav{
+                font-size:5rem; // Change h1 font
+                
+            }
+            @media @h1shrink{
+                font-size:3rem; // Change h1 font
+            }
+							
 }
 
 .h1Nav(){
@@ -202,3 +216,17 @@ font-family: 'Roboto Mono', monospace;
             
             
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
