@@ -57,9 +57,24 @@ font-family: 'Roboto Mono', monospace;
 			background-color: #FFFFFF;
 }
 .divRimg(){
-    margin-left:4rem;
-					width:18rem;
-					height:18rem;
+   
+       @media @Deskimg{
+        margin-left:4rem;
+        width:18rem;
+        height:18rem;
+       }
+       @media @Tabimg{
+        margin-left:2rem;
+        width:9rem;
+        height:9rem;
+       }
+       @media @Phoneimg{
+        margin-left:.6rem;
+        width:4rem;
+        height:5rem;
+       }
+    
+
 }
 .imgCirSq(){
     border-radius: 50% 50%;
