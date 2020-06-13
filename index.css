@@ -213,6 +213,34 @@ nav .involve {
   margin-right: 2%;
 }
 
+nav a {
+  color: Red;
+  text-decoration: none;
+
+  /*======= create a background property. Set the value to #F87B99 */
+  background: lightblue;
+  animation-name: change;
+  animation-duration: 4s;
+}
+
+@keyframes change {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+@keyframes change {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
 /* Upper header container */
 
 .header {
@@ -261,7 +289,7 @@ nav .involve {
 /* Upper body container */
 
 .description_container {
-  background-color: burlywood;
+  background-color: #ddb9a3;
   color: white;
   text-align: center;
   margin-left: 20%;
@@ -312,10 +340,14 @@ nav .involve {
   text-align: center;
 }
 
+.inline_bold {
+  font-weight: bold;
+}
+
 /* Beginning of footer styling */
 
 .footer_navbar {
-  background-color: burlywood;
+  background-color: #f9e7dc;
 }
 
 .footer_image_container {
