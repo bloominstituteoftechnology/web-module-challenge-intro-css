@@ -151,18 +151,21 @@ body {
 /* navigation*/
 
 .navbar-top {
-    margin: 15%;
+    display: flex;
+    justify-content: center;
+    /* margin: 15%;
     padding: 8px;
     overflow: none;
     display: inline;
-    overflow: hidden;
+    overflow: hidden; */
 }
 
-.nav1 {
-    margin-top: 5%;
+.parent-container {
+    display: flex;
+    /* margin-top: 5%;
     margin: 0 auto;
     background-color: aqua;
-    width: 55%;
+    width: 55%; */
 }
 
 button {
