@@ -142,17 +142,16 @@ table {
 /* END OF RESET
 */
 
-
-/* navigation*/
-
 body {
     font-family: 'Roboto Mono', monospace;
     font-size: 16px;
 }
 
+
+/* navigation*/
+
 button {
     border: none;
-    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -163,14 +162,17 @@ button {
 
 button.visit {
     background-color: #FF764E;
+    color: white;
 }
 
 button.park {
     background-color: #5ED3EB;
+    color: white;
 }
 
 button.involved {
     background-color: #FFCD69;
+    color: white;
 }
 
 div.nav1 {
@@ -181,6 +183,9 @@ div.nav1 {
     display: inline;
     overflow: hidden;
 }
+
+
+/* end of navigation */
 
 
 /* image */
@@ -257,3 +262,52 @@ div.bus img {
 span {
     font-weight: bold;
 }
+
+
+/* bottom navigation and image */
+
+button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    background-color: #F9E7DC;
+}
+
+button.visit {
+    background-color: #FF764E;
+    color: white;
+}
+
+button.park {
+    background-color: #5ED3EB;
+    color: white;
+}
+
+button.involved {
+    background-color: #FFCD69;
+    color: white;
+}
+
+div.nav2 {
+    list-style-type: none;
+    margin: 15%;
+    padding: 8px;
+    overflow: none;
+    display: inline;
+    overflow: hidden;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+footer img {}
