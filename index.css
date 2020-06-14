@@ -150,6 +150,21 @@ body {
 
 /* navigation*/
 
+.navbar-top {
+    margin: 15%;
+    padding: 8px;
+    overflow: none;
+    display: inline;
+    overflow: hidden;
+}
+
+.nav1 {
+    margin-top: 5%;
+    margin: 0 auto;
+    background-color: aqua;
+    width: 55%;
+}
+
 button {
     border: none;
     padding: 15px 32px;
@@ -158,30 +173,22 @@ button {
     display: inline-block;
     font-size: 16px;
     border-radius: 12px;
+    margin-left: 5%;
 }
 
-button.visit {
+.visit {
     background-color: #FF764E;
     color: white;
 }
 
-button.park {
+.park {
     background-color: #5ED3EB;
     color: white;
 }
 
-button.involved {
+.involved {
     background-color: #FFCD69;
     color: white;
-}
-
-div.nav1 {
-    list-style-type: none;
-    margin: 15%;
-    padding: 8px;
-    overflow: none;
-    display: inline;
-    overflow: hidden;
 }
 
 
@@ -292,13 +299,14 @@ button.involved {
     color: white;
 }
 
-div.nav2 {
+div.nav {
     list-style-type: none;
     margin: 15%;
     padding: 8px;
     overflow: none;
     display: inline;
     overflow: hidden;
+    background-color: yellow;
 }
 
 .footer {
@@ -309,5 +317,3 @@ div.nav2 {
     color: white;
     text-align: center;
 }
-
-footer img {}
