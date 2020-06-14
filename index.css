@@ -43,37 +43,69 @@ table {
 }
 
 
-
 /* begin styling*/
 h1 {
   font-family: Chelsea Market;
   font-size: 4rem;
-  
+  text-align: center;
 }
+/*html {
+  font-size: 16px
+}*/
+.content-row{
+  dislay: inline-block;
+}
+
+.first-image {
+  border-radius: 50%;
+  size: 1%;
+  /*margin: auto;*/
+}
+.third-section {
+  Border: 2px;
+  Background: #DDB9A3;
+}
+.med-section {
+  font-size: 1.5rem;
+  margin: 10%;
+  text-align: center;
+}
+
+/*.med-section.med-image {
+  
+  /*margin: 10%  auto;
+  align: center;
+  /*padding: 0%;
+  size: 5px;
+}*/
+
 P {
-  font-family: Roboto Mono ;
+  font-family: Roboto Mono light ;
   font-size: 1.3rem;
+  text-align: center;
 }
 nav a {
   font-family: Roboto Mono light;
   font-size: 1.3rem;
-}
+ }
+.container nav a .two {
+background: green;}
+
 img {
-  border-radius: 50%;
+  border-radius: 0%;
   width: 30%;
-  margin: 
-    
+  margin: top-bottom 10%;    
 }
 
-img .last-img{
-
-  width: 0%;
-  margin: }
+.last-img{
+  width: 100%;
+  height: 300px;
+  margin: 0%;}
 
 .container header nav a {
   margin: 5% 5% 5% 5%;
-  
-  padding: 2%;
+  text-align: center;
+  padding: 1.4% 3%;
   display: inline-block;
   border-radius: 20px;
   color: white;
@@ -81,9 +113,18 @@ img .last-img{
   margin-bottom: 6%;
   background: #FF764E;
 }
-section {
-  align-text: center; 
+
+.container footer nav a {
+  margin: 5% 5% 5% 5%;
+  text-align: center;
+  padding: 1.4% 3%;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 6%;
+  background: #FF764E;
 }
-div .first {
-  align-text: center;
+footer {
+  background: #F9E7DC;
 }
