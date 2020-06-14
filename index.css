@@ -53,7 +53,8 @@ h1 {
   font-size: 16px
 }*/
 .content-row{
-  dislay: inline-block;
+  display: flex;
+  text-align: center;
 }
 
 .first-image {
@@ -87,6 +88,7 @@ P {
 nav a {
   font-family: Roboto Mono light;
   font-size: 1.3rem;
+  display: flex;
  }
 .container nav a .two {
 background: green;}
