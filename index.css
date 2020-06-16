@@ -1,3 +1,54 @@
-body {
-    background-color:;
+
+  
+  .flex-container  {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+   #item1 {
+      background-color: #FF764E;
+      padding: 20px;
+      border-radius: 8%;
+  }
+
+  #item2 {
+    background-color: #5ED3EB;
+    padding: 20px;
+    border-radius: 8%;
+}
+
+#item3 {
+    background-color: #FFCD69;
+    padding: 20px;
+    border-radius: 8%;
+}
+
+#picture {
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.banner {
+    color: white;
+    background-color: #DDB9A3;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+#footer {
+    max-width: 5000px;
+    height: 300px;
+}
+
+p, h1 {
+  text-align: center;
+}
+
+img {
+  margin-top: 20px;
 }
