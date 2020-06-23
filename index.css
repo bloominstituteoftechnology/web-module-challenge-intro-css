@@ -1,0 +1,193 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+section{
+    padding:4% 0;
+    width:90%;
+    margin:0 auto;
+}
+
+header{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+nav a{
+    border-radius: 1rem;
+    height: 3rem;
+    text-align: center;
+    align-content: auto;
+    padding: 1% 0;
+    width: 10%;
+    font-size: 1.25rem;
+}
+
+.top{
+    display:flex;
+    margin: 0 auto;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.headerimg{
+    width: 25%;
+}
+
+.headerimg img{
+    border-radius: 50%;
+    width: 90%;
+}
+
+.title {
+    font-family: 'Chelsea Market', cursive;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.title h1{
+    font-size: 3.5rem;
+}
+
+.title h2{
+    font-size: 1.2rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.visit{
+    background-color: #FF764E;
+}
+
+.about{
+    background-color: #5ED3EB;
+}
+
+.involved{
+    background-color: #FFCD69;
+}
+
+#about{
+    background-color: #DDB9A3;
+    display: flex;
+    justify-content: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    flex-direction: column;
+    text-align: center;
+}
+
+#about p{
+    margin: 5px;
+}
+
+#fire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 700px;
+    margin-left: 700px;
+    text-align: center;
+}
+
+#fire img{
+    height: 19rem;
+    width: 10rem;
+}
+
+#reservations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 700px;
+    margin-left: 700px;
+    text-align: center;
+}
+
+#reservations img{
+    height: 19rem;
+    width: 10rem;
+}
+
+.footerimg{
+    background-image: url("assets/footer_img.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center top;
+    height:50vh;
+    width:100%;
+}
+
+footer{
+    background-color: #F9E7DC;
+    
+}

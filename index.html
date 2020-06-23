@@ -2,36 +2,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Link your CSS stylesheet -->
-    
+  <meta charset="utf-8">
+    <title>Yosemite Park Guide</title>
+    <meta name="description" content="Roughly 155 characters">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
+
 <body>
-        Plan your Visit
-        Learn about the Park
-        Get Involved
-   
+  <header>
+    <div class="links">
+      <nav>
+        <a href="#visit" class="visit">Plan your <br/> Visit</a>
+        <a href="#about" class="about">Learn about <br/> the Park</a>
+        <a href="#involved" class="involved">Get <br/> Involved</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="top">
+      <div class="headerimg">
+        <img src="assets/header_img.jpg">
+      </div>
+      <div class="title">
+        <h1>Yosemite Park Guide</h1>
+        <h2>Come explore California’s beautiful wilderness.</h2>
+        <h2>Always open. Reservations are not available </br> or required to enter the </br> park.</h2>        
+     </div>
+  </section>
+
+  <section>
+  <div id="about">
+
+      <p>Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.</p>
       
-      "header_img.jpg"
-      Yosemite Park Guide
-      Come explore California’s beautiful wilderness.
-      Always open. Reservations are not available or required to enter the park.
-      
-      Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.
-      
-      First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.
-      
-      "https://image.flaticon.com/icons/svg/2979/2979348.svg"
-      Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for current fire restrictions.
-      
-      "https://image.flaticon.com/icons/svg/820/820374.svg"
-      We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the park entrance fee upon arrival (there's no need to pay it in advance).
-    
-      "footer_img.png"
-      
-      
-        Plan your Visit
-        Learn about the Park
-        Get Involved
-      
-</body>
+      <p>First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.</p>
+  </div>
+  </section>
+
+  <section>
+  <div id="fire">
+  
+      <img src="https://image.flaticon.com/icons/svg/2979/2979348.svg">
+      <p>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for <span style="font-weight:900">current fire restrictions</span>.</p>
+  </div>
+  </section>
+
+  <section>
+  <div id=reservations>
+      <img src="https://image.flaticon.com/icons/svg/820/820374.svg">
+      <p>We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the <span style="font-weight:900">park entrance fee</span> upon arrival (there's no need to pay it in advance).</p>
+  </div>
+  </section>
+
+  <div class="footerimg">
+    <!-- <img src="assets/footer_img.jpg"> -->
+  </div>
+
+  <footer>
+      <div class="links">
+        <nav>
+            <a href="#visit" class="visit">Plan your Visit</a>
+            <a href="#about" class="about">Learn about the Park</a>
+            <a href="#involved" class="involved">Get Involved</a>
+        </nav>
+      </div>
+  </footer>
+  </body>
 </html>
