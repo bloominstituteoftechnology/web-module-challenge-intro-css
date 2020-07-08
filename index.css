@@ -50,3 +50,41 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.topBotnav {
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    margin: 50px;
+
+  }
+
+.topBotnav a{
+    display:inline-block;
+
+    font-family: "Roboto Mono";
+    color: white;
+    text-decoration: none;
+    width: 90px;
+    border-radius: 10px;
+    padding: 10px;
+
+    margin-left: 30px;
+    margin-right: 30px;
+    
+    background-color: violet;
+
+}
+
+#linkOne {
+    background-color: #FF764E;
+}
+
+#linkTwo {
+    background-color: #5ED3EB;
+}
+
+#linkThree {
+    background-color: #FFCD69;
+}
+
