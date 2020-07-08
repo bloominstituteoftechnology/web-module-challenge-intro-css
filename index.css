@@ -18,6 +18,113 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 }
-header, nav #planyourvisit{
+
+
+body{
+
+    text-align: center;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.logo p{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.logoimg{
+    border:50%;
+}
+
+body header nav .logo p{
+    text-align: center;
+}
+
+
+h1{
+    font-family:"chelsea market" ;
+    font-size: 300%;
+}
+
+p{
+
+    font-family: "roboto mono";
+}
+
+.links div{
+    display: inline-block;
+    margin: 3%;
+    font-family: "roboto mono";
+    text-align: center;
+    
+}
+
+.links div a{
+    color: white;
+    
+}
+
+
+.plan{
     background-color: #FF764E;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius:20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+ .learn{
+   
+    background-color: #5ED3EB;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius:20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.involved{
+    
+    background-color: #FFCD69;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius:20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+    
+
+#about{
+    background-color: #DDB9A3;
+    margin:3%;
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
+p.bold{
+    font-weight: bold;
+}
+
+footer{
+    background-color: #F9E7DC;
+}
+
+#info{
+
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+
+.fire{
+
+    width: 30%;
+    text-align: center;
+    margin: auto; 
 }
