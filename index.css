@@ -1,0 +1,50 @@
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.plan {
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  background-color: #ff764e;
+  margin-top: 10rem;
+  margin-right: 15rem;
+}
+
+.learn {
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  background-color: #5ed3eb;
+  margin-right: 10rem;
+}
+
+.get {
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  background-color: #ffcd69;
+  margin-right: 5rem;
+}
+img {
+  max-width: 20%;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 8rem;
+  margin-left: 5rem;
+}
+.yosemite {
+  text-align: left;
+  margin-bottom: auto;
+  margin-left: 25rem;
+}
