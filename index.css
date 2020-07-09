@@ -1,0 +1,108 @@
+/* ########################
+General
+######################## */
+
+body {
+  font-family: "Roboto Mono", monospace;
+  font: 62.5%;
+}
+
+h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: "Roboto Mono", monospace;
+}
+
+.centered {
+  text-align: center;
+}
+
+/* ########################
+Nav
+######################## */
+
+nav a {
+  font-size: 1.25rem;
+  display: inline-block;
+  border-radius: 25px;
+  height: 25px;
+  margin: 35px 50px;
+  padding: 20px;
+}
+
+/* ########################
+Title
+######################## */
+
+.title-img {
+  display: inline-block;
+}
+
+.title-img img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.title-text {
+  display: inline-block;
+}
+
+.title-text p {
+  margin: 10px;
+}
+
+/* ########################
+About
+######################## */
+
+.about {
+  padding: 40px;
+}
+
+.about p {
+  padding: 25px;
+  font-size: 1.5rem;
+}
+
+/* ########################
+Info
+######################## */
+
+.info {
+  margin: 25px 0;
+}
+
+.info img {
+  height: 100px;
+  width: 100px;
+}
+
+.info div {
+  margin: 10px 0;
+}
+
+.info div p {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* ########################
+Mountain Img
+######################## */
+
+.mountain-img {
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.mountain-img img {
+  width: 100%;
+}
