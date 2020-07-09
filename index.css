@@ -71,20 +71,25 @@ nav a {
      
         
 }
-.header1{
-    display: inline-block
-    vertical-align: middle;
+header{
+    display: inline-block;
+    width: 100%;
     }
-    header img{
+header img{
             border-radius: 50%;
             height: 25%;
             width: 25%;
-            vertical-align: middle;
-            margin-bottom: 0.75em;
-         
+            vertical-align: center;
+              
                
  }
-
+header span{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    vertical-align: center;
+    margin: right;
+}
  
  .title{
      font-family: 'Chelsea Market', cursive;
@@ -99,11 +104,6 @@ nav a {
     font-size: 1em;
     
     }
-.subheading2{
-        font-family: 'Roboto Mono', monospace;
-        font-size: 1em;
-        
-        }
 .body{
     font-family: 'Roboto Mono', monospace;
     font-size: 24px;
@@ -121,12 +121,11 @@ nav a {
 .firetext{
     font-family: 'Roboto Mono', monospace;
     font-size: 16px;
-    text-align: center;
+    display: inline-block
     padding: 1em;
-    margin: 1em;
+    margin: -1em;
     margin: auto;
-    word-wrap: normal;
-    }
+        }
 .camper{
     max-width: 10em;
     height: auto;
@@ -134,12 +133,20 @@ nav a {
 .campertext{
     font-family: 'Roboto Mono', monospace;
     font-size: 16px;
-    text-align: center;
-    padding: 1em;
+    display: inline-block;
+    padding: -1em;
     margin: 1em;
     margin: auto;
-    word-wrap: normal;
-    }
+        }
+        .clearfix {
+            overflow: auto;
+          }
+.firetext b{
+    font-weight: bold;
+}
+.campertext b{
+    font-weight: bold;
+}
 .footerimg{
     width:1264px;
     height: 305px;
@@ -148,13 +155,14 @@ nav a {
     text-decoration: none;
     border-radius: 5px;
     padding: 1em;
+    background-color: #F9E7DC;
     text-align: center;
     color: white;
     font-family: 'Roboto Mono', monospace;
     display: inline-block;
     margin-left: 10em;
     margin-top: 1em;
-    
+       
   }
 .buttonf{
     background:#FF764E;         
