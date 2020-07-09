@@ -1,3 +1,9 @@
+body {
+  border-left: 35rem solid black;
+  border-right: 34rem solid black;
+  margin: 0;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -36,15 +42,120 @@ nav {
   background-color: #ffcd69;
   margin-right: 5rem;
 }
-img {
-  max-width: 20%;
-  border-radius: 50%;
-  display: inline-block;
-  margin-top: 8rem;
-  margin-left: 5rem;
+.images {
+  border-radius: 100%;
+  width: 25%;
+  height: 25%;
+  padding: 1rem;
+  float: left;
+  margin-top: 5%;
+  margin-left: 10%;
 }
+
 .yosemite {
-  text-align: left;
-  margin-bottom: auto;
-  margin-left: 25rem;
+  padding: 5rem;
+}
+h1 {
+  font-family: "Chelsea Market";
+  font-size: 4rem;
+
+  display: inline-block;
+  width: 700px;
+  height: 100px;
+
+  float: right;
+}
+
+h2 {
+  font-family: "Roboto Mono";
+  font-size: 1.5rem;
+  float: right;
+  display: inline-block;
+  width: 700px;
+  height: 200px;
+}
+.firstparagraph {
+  font-family: "Roboto Mono";
+  font-size: 1.5rem;
+  display: inline-block;
+  background-color: #ddb9a3;
+  color: white;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+h3 {
+  font-family: "Roboto Mono";
+  font-size: 1.5rem;
+  float: right;
+  margin-top: -17rem;
+  width: 700px;
+  height: 1px;
+  text-indent: 2em;
+}
+.secondparagraph {
+  background-color: #ddb9a3;
+  font-family: "Roboto Mono";
+  font-size: 1.5rem;
+  margin-top: -24px;
+  color: white;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+.fire {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0%;
+}
+.thirdparagraph {
+  font-family: "Roboto Mono";
+  font-size: 1rem;
+  text-align: center;
+}
+.whitevan {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourthparagraph {
+  font-family: "Roboto Mono";
+  font-size: 1rem;
+  text-align: center;
+}
+.footer {
+  background-color: #f9e7dc;
+}
+.visit {
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  background-color: #ff764e;
+  margin-bottom: 5rem;
+  margin-right: 15rem;
+}
+
+.park {
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  background-color: #5ed3eb;
+  margin-right: 10rem;
+}
+
+.involve {
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  background-color: #ffcd69;
+  margin-right: 5rem;
 }
