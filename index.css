@@ -120,21 +120,42 @@ p{
     width: 10%;
     border-radius: 25px;
     text-align: center;
+    /* border: solid 1px black; */
 }
-
 .orange-box{
     background-color: #FF764E;
     padding: 0.8%;
     margin-left: 15%;
 }
+/* added hover on the nav boxes*/
+.orange-box:hover{
+    -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
 .blue-box{
     background-color: #5fd3ec;
     padding: 0.8%;
 }
-
+.blue-box:hover{
+    -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
 .yellow-box{
     background-color: #ffcd6a;
     padding: 0.8%;
+}
+.yellow-box:hover{
+    -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
 }
 
 /*Footer*/
@@ -148,10 +169,10 @@ p{
 }
 
 .bottom{
-    background-color: #f9e7dd;
+    background-color: #f9e7dc;
     height: 15vh;
     padding-top: 2%;
     padding-bottom: -5%;
     margin-bottom: -2%;
-    box-shadow: 0 4px 2px -2px gray;
+    box-shadow: 0 6px 2px -2px lightgray;
 }
