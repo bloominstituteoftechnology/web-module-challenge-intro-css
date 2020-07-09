@@ -51,12 +51,12 @@ table {
 	border-spacing: 0;
 }
 
+
 .topBotnav {
     background-color: white;
     overflow: hidden;
     text-align: center;
     margin: 50px;
-
   }
 
 .topBotnav a{
@@ -81,6 +81,8 @@ table {
 #Footer {
     background-color: #F9E7DC;
     margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #linkOne {
@@ -95,18 +97,17 @@ table {
     background-color: #FFCD69;
 }
 
-.centerFooterImage {
+/* Source: https://themetry.com/css-image-cropping/ */
+.container {
+    max-height: 350px;
+    overflow: hidden;
+}
 
-    display: block;
-width: 80%;
-  height: 300px;
+.container img {
+    max-width: initial
+}
 
-  background-size: 100% 100%;
 
-  margin-left: auto;
-  margin-right: auto;
-
-  }
 
   .smallParagraph {
       text-align: center;
@@ -139,12 +140,36 @@ width: 80%;
     display: inline-block;
     width: 20%;
     height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50%;
+
+    float:left;
   }
 
-  
+  #HeaderImageAndTextBlock {
+      display: inline-block;
+      width: 100%;
+      margin: auto;
+
+  }
+
+#YosemiteParkGuideIntro {
+    text-align: center;
+    margin-top: 5%;
+  }
+
+h3 {
+    font-size: xx-large;
+}
 
 /* Source:https://stackoverflow.com/a/25234345/1291940
 a paragraph proceeded by another paragraph will have a top margin */
 p + p {
-    margin-top: 8px;
+    margin-top: 20px;
+}
+
+/* Paragraph followed by a header will have a top margin */
+h3 + p {
+    margin-top: 20px;
 }
