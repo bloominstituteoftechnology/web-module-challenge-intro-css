@@ -1,3 +1,13 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {  margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+:focus { outline: 0; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: }
 html {
     font-size: 62.5%;
     font-family: 'Roboto Mono';
@@ -44,7 +54,7 @@ html {
 .title-container {
     text-align: center;
     display: inline-block;
-    /* margin: 1%; */
+    margin:1%
 }
 h1 {
     font-family: 'Chelsea Market';
@@ -61,7 +71,6 @@ h1 {
     max-width: 55%;
     margin: 0 auto;
 }
-/* --------------------------------------------*/
 
 /* main */
 .description {
@@ -95,9 +104,7 @@ h1 {
 .image-container {
     margin-bottom: 5%;
 }
-/* ------------------------------------ */
 
-/* Footer  */
 footer {
     background-image: url("assets/footer_img.jpg")
 }
@@ -120,27 +127,7 @@ footer .links a {
 span {
     font-weight: bold;
 }
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-	max-width: 100%;
-}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
