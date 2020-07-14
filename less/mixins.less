@@ -3,9 +3,9 @@
 
 .header(){
     display:@f;
-	flex-direction:@fc;
-	width:@hn;
-	height:@hn;
+    flex-direction:@fc;
+    align-content: center;
+    justify-content: center;
 }
 
 .navcon(){
@@ -30,7 +30,7 @@
 							width:10%;
 							height:40%;
 }
-
+// Next column
 
 .divR(){
     display:@f;
@@ -38,7 +38,7 @@
 			justify-content: @sb;
 			align-content: @sb;
 			width:@hn;
-			height:@hn;
+			height:50vh;
 			background-color: grey;
 }
 .divRimg(){
@@ -53,26 +53,33 @@
 				border-bottom-right-radius: 50% 50%;
 				border-bottom-left-radius: 50% 50%;
 }
+// End first element in the row
+// Yosimity Sam Area
 
 .divPcol(){
-    background: beige;
+    background: bisque;
 					display:@f;
 					flex-direction: @fc;
-					height:14rem;
+					height:18rem;
 					width:50%;
 					align-items: @c;
 					justify-items: @c;
 					padding:.5rem;
-					margin-right:1rem;
+					margin-right:21rem; /* Move the beige box over */
 							justify-content: @se;
 }
+// next row of that column 2
 .h1h(){
+    //font-family:'Roboto Mono', monospace;
+    font-family: 'Chelsea Market', 'cursive';
     width:@hn;
 							height:@hn;
-							font-size:4rem;
+							font-size:5rem; // Change h1 font
 }
 
 .h1Nav(){
+    
+   
     display: @f;
 							align-content: space-around;
 							flex-wrap: wrap;
@@ -80,10 +87,11 @@
 }
 
 .pPc(){
-    background-color:teal;
-							font-size:1rem;
-							width:60%;
-							height:@hn;
+    background-color:greenyellow;
+    font-family:'Roboto Mono', monospace;
+							font-size:1.2rem;
+							width:80%;
+							height:55vh;
 						//	margin-right:26rem; // Position p to be @ced
 }
 
@@ -91,13 +99,14 @@
 .pNav(){
 
     display: @f;
+    
     align-content: space-around;
     flex-wrap: wrap;
     justify-content: space-around;
     //align-self: @c;
 }
-
-/* Home-page*/
+// End header
+/* Home-page in the middle section*/
 .section(){
     display: @f;
 		flex-direction: @fc;
@@ -108,30 +117,34 @@
 .divTopSec(){
     display:@f;
 		flex-direction: @fc;
-	
-		background-color: coral;
+        width:70vw; /* Move the black box top middle section */
+        height:30vh;
+        background-color: black;
+		font-size:1.1rem; // Desktop sizing
 		color:white;
 }
 .secDiv(){
     background-color: red;
-		width:40%;
-		height:16rem;
+		//width:40%;
+		//height:16rem;
 		margin:1rem;
 }
 
 .secDivBtm(){
-		margin:1rem;
-		width:15rem;
-		height:20rem;
+    padding:.2rem;
+        margin-left:.1rem;
+		margin-right:.1rem;
+		width:28rem; // Controlls the red boxes
+		height:22rem;
 }
 .secDivBtmImg(){
-    width:10rem;
+             width:10rem;  //Controlls the images int he red box
 			height:10rem;
 }
 
 
 
-/* Footer */
+/* Footer laster area where the picture starts */
 
 .footerFoot(){
     background-color: blueviolet;
