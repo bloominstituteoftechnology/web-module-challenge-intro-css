@@ -85,6 +85,9 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+section {
+  box-sizing: border-box;
+}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -189,24 +192,72 @@ header div div.pcol p {
   width: 70%;
   height: 100%;
 }
+section#tsec {
+  width: 100%;
+  height: 66rem;
+  margin: 0rem 3rem 0rem 3rem;
+}
 section {
   display: flex;
   flex-direction: column;
-  width: 200%;
-  height: 300%;
+  align-items: center;
 }
 section div#topSec {
-  width: 80%;
-  height: 100%;
-  margin: 1rem;
+  display: flex;
+  flex-direction: column;
   background-color: coral;
   color: white;
 }
 section div {
-  width: 60rem;
-  height: 60rem;
+  background-color: red;
+  width: 40%;
+  height: 16rem;
+  margin: 1rem;
 }
 section div.bottomSec {
+  margin: 1rem;
   width: 15rem;
   height: 20rem;
+}
+section div.bottomSec img {
+  width: 10rem;
+  height: 10rem;
+}
+footer#foot {
+  background-color: blueviolet;
+  width: 100%;
+  height: 40rem;
+  margin: 0.7rem;
+}
+footer#foot img {
+  width: 85%;
+  height: 22rem;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+footer img {
+  display: flex;
+  align-self: center;
+}
+footer nav.navcon {
+  background-color: black;
+  width: 100%;
+  height: 20rem;
+}
+footer nav.navcon button {
+  margin: 1rem;
+  width: 20%;
+  height: 30%;
+}
+footer nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+footer nav button {
+  display: flex;
+  align-self: center;
 }
