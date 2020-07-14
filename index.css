@@ -1,7 +1,7 @@
-*{  background-origin: padding-box;
-    text-align: center;
+* { box-sizing: border-box;
+padding:0px;
+margin: 0px;
 }
-
 
 html{   font-family:'Roboto Mono', monospace;
         font-size: 60% ;  }
@@ -10,18 +10,25 @@ html{   font-family:'Roboto Mono', monospace;
     list-style-type: none;
     margin: 0;
     padding: 0;
+align-items: center;
   }
 
-  li {display: inline;}
+  li {
+      align-items: center;
+    float: none;
+    display: block;
+    padding: 8px;
+  }
 
-  header{       display:inline-block;
+
+  header{       display: inline-block;
                 padding: 5%;
                 margin: 0;
                 font-size: 20px;
   }
 
 
-  #winter{  display:inline-block;
+  #winter{  display: inline-block;
             border-radius: 50%;
             width: 25%;
             margin-right: inherit;
@@ -101,8 +108,12 @@ html{   font-family:'Roboto Mono', monospace;
     }
 
 
-    .toplink{ display: inline;    }
+    .toplink{  display: inline-block;        
+            
+      }
         
+
+
     #plan{
         margin: 4%;
         font-size: 24px;
