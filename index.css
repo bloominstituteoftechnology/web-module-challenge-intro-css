@@ -1,0 +1,133 @@
+*{  background-origin: padding-box;
+    text-align: center;
+}
+
+
+html{   font-family:'Roboto Mono', monospace;
+        font-size: 60% ;  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {display: inline;}
+
+  header{       display:inline-block;
+                padding: 5%;
+                margin: 0;
+                font-size: 20px;
+  }
+
+
+  #winter{  display:inline-block;
+            border-radius: 50%;
+            width: 25%;
+            margin-right: inherit;
+  }
+
+
+  h1{   display: inline-block;
+        font: 50px 'Chelsea Market', cursive;
+        font-weight: bold;
+        padding: 5%;
+  }
+
+  /* -----------------------------------------------------------------*/
+  
+  .joint{
+      display: inline-block;
+      margin: 5%;
+  }
+  .explore{
+      display:inline-block;
+  }
+  .reservations{
+      position: relative;
+      display:inline-block;
+  }
+
+/* -----------------------------------------------------------------*/
+
+  .info{
+    background-color:#DDB9A3;
+    font-size: 30px;
+    line-height:1.5;
+  }
+
+
+
+  .info2{
+      font-size: 26px;
+      line-height: 1.5;
+  }
+  .campfire{
+      width: 25%;
+      height: 25%;
+      position: relative;
+  }
+
+
+
+  .truck{
+      align-items: center;
+      width: 25%;
+      height: 25%;
+  }
+  
+  
+  
+  .current{
+      font-weight: bold;
+  }
+  
+  
+  
+  .park{
+      font-weight: bold;
+  }
+      
+  .nevada{
+      height: 30%;
+  }
+
+    footer{
+        background-image: url('./assets/footer_img.jpg');
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-attachment: fixed;
+        background-color: #F9E7DC;
+    }
+
+
+    .toplink{ display: inline;    }
+        
+    #plan{
+        margin: 4%;
+        font-size: 24px;
+        border-radius: 5px;
+        background-color: #FF764E;
+        display: inline-block;
+        text-decoration: none;
+        width: 100%;
+    }
+    #learn{
+        margin: 3%;
+        font-size: 24px;
+        border-radius: 5px;
+        background: #5ED3EB;
+        display: inline-block;
+        text-decoration: none;
+        width: 100%;
+    }
+    #involved{
+        margin: 4%;
+        font-size: 24px;
+        border-radius: 5px;
+        background:#FFCD69;
+        display:inline-block;
+        text-decoration: none;
+    }
+
+   
