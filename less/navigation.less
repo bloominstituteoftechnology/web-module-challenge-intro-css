@@ -2,102 +2,40 @@
 
 
 header{
-	display:@f;
-	//display:flex;
-	flex-direction:@fc;
-	width:@hn;
-	height:@hn;
-	
+	.header();
 		nav.navcon{
-			display:@f;
-			flex-direction: @fr;
-			
-			align-content: @c;
-			
-			justify-content: @se;
-			
-			background-color: black;
-			width:@hn;
-			height:8rem;
-			
-				
-						button{
-							align-self:@c;
-					
-							justify-content: @se;
-							margin: .6rem;
-							width:10%;
-							height:40%;
-						
-							
+			.navcon();
+				button{
+					.button();
 						}
 
 		}// end navcon col1
 		div{ //div with row
 
-			display:@f;
-			flex-direction:@fr;
-			justify-content: @sb;
-			align-content: @sb;
-			width:@hn;
-			height:@hn;
-			background-color: blue;
+			.divR();
 			
 			img{
-				margin-left:4rem;
-					width:14rem;
-					height:14rem;
+				.divRimg();
 			}
 			img.circular--square {
-				border-radius: 50% 50%;
-				border-top-left-radius: 50% 50%;
-				border-top-right-radius: 50% 50%;
-				border-bottom-right-radius: 50% 50%;
-				border-bottom-left-radius: 50% 50%;
+				.imgCirSq();
 			  }
 			div.pcol{
-					background: beige;
-					display:@f;
-					flex-direction: @fc;
-					height:14rem;
-					width:50%;
-					align-items: @c;
-					justify-items: @c;
-					padding:.5rem;
-					margin-right:1rem;
-					//justify-self: @se;
-							//-self:@se;
-							justify-content: @se;
+					.divPcol();
 					
 					
 						h1#h{
-							width:@hn;
-							height:@hn;
-							font-size:4rem;
+							.h1h();
 						}
 						h1{
-							display: @f;
-							align-content: space-around;
-							flex-wrap: wrap;
-							justify-content: space-around;
-							
-							
+							.h1Nav();
 						}
 						p.pc{
-							background-color:teal;
-							font-size:1rem;
-							width:60%;
-							height:@hn;
-						//	margin-right:26rem; // Position p to be @ced
+							.pPc();
 						}
 						p{ // TODO: see if making p a class will work to @c align
 							
-						
-							display: @f;
-							align-content: space-around;
-							flex-wrap: wrap;
-							justify-content: space-around;
-						//align-self: @c;
+						.pNav();
 							
 						}
 			} // end div row

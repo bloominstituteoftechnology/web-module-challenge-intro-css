@@ -7,39 +7,18 @@ section#tsec{
 }
 //// The section tag
 section{
-	display: @f;
-		flex-direction: @fc;
-		align-items: @c;
-	
+	/// Section has a global with a mixins
 	// todo center align content
 	div#topSec{
-		display:@f;
-		flex-direction: @fc;
-	//	width:80%;
-	//	height:20rem;
-	//	margin:1rem;
-		//display: flex;
-	//	flex-direction: @fc;
-		background-color: coral;
-		color:white;
+		.divTopSec();
 	}
 	div{
-		background-color: red;
-		width:40%;
-		height:16rem;
-		margin:1rem;
-		//display: flex;
-	//	flex-direction: @fc;
+		.secDiv();
 	}
 	div.bottomSec{
-		//display:flex;
-	//	flex-direction: @fc;
-		margin:1rem;
-		width:15rem;
-		height:20rem;
+		.secDivBtm();
 		img{
-			width:10rem;
-			height:10rem;
+			.secDivBtmImg();
 		}
 	}
 } //end section
