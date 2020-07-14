@@ -28,17 +28,40 @@ footer, header, hgroup, menu, nav, section {
 
 .link1{
     background-color: #FF764E;
+    border-radius: 80rem;
+
 
 }
 
 .link2{
     background-color: #5ED3EB;
+    border-radius: 80rem;
+
 }
 
 .link3{
     background-color: #FFCD69;
+    border-radius: 80rem;
 }
 
 h1{
-    font-family: chelsea market;
+    font-family: 'Chelsea Market';font-size: 22px;
+}
+
+body{
+    font-family: 'Roboto Mono';
+
+}
+
+.main{
+    background-color: #DDB9A3;
+}
+
+footer{
+    background-color: #F9E7DC;
+}
+
+span{
+    font-weight: bold;
+
 }
