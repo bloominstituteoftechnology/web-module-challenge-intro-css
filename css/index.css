@@ -142,7 +142,7 @@ body {
   margin: 0%;
   width: 96%;
   height: 100%;
-  background-color: brown;
+  background-color: #FFFFFF;
 }
 p {
   font-family: 'Roboto Mono', monospace;
@@ -170,13 +170,16 @@ header {
   flex-direction: column;
   align-content: center;
   justify-content: center;
+  /*
+            NEW ROW
+                    */
 }
 header nav.navcon {
   display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: space-evenly;
-  background-color: black;
+  background-color: #FFFFFF;
   width: 100%;
   height: 8rem;
 }
@@ -187,19 +190,22 @@ header nav.navcon button {
   width: 10%;
   height: 40%;
 }
-header nav.navcon button#plan {
+header nav.navcon button.plan {
   background-color: #FF764E;
   color: white;
+  border-radius: 20% 20% 20% 20% ;
   font-family: 'Roboto Mono', monospace;
 }
-header nav.navcon button#learn {
+header nav.navcon button.learn {
   background-color: #5ED3EB;
   color: white;
+  border-radius: 20% 20% 20% 20% ;
   font-family: 'Roboto Mono', monospace;
 }
-header nav.navcon button#getin {
+header nav.navcon button.getin {
   background-color: #FFCD69;
   color: white;
+  border-radius: 20% 20% 20% 20% ;
   font-family: 'Roboto Mono', monospace;
 }
 header div {
@@ -209,12 +215,12 @@ header div {
   align-content: space-between;
   width: 100%;
   height: 50vh;
-  background-color: grey;
+  background-color: #FFFFFF;
 }
 header div img {
   margin-left: 4rem;
-  width: 14rem;
-  height: 14rem;
+  width: 18rem;
+  height: 18rem;
 }
 header div img.circular--square {
   border-radius: 50% 50%;
@@ -224,7 +230,7 @@ header div img.circular--square {
   border-bottom-left-radius: 50% 50%;
 }
 header div div.pcol {
-  background: bisque;
+  background: #FFFFFF;
   display: flex;
   flex-direction: column;
   height: 18rem;
@@ -249,11 +255,11 @@ header div div.pcol h1 {
   justify-content: space-around;
 }
 header div div.pcol p.pc {
-  background-color: greenyellow;
+  background-color: #FFFFFF;
   font-family: 'Roboto Mono', monospace;
   font-size: 1.2rem;
   width: 80%;
-  height: 55vh;
+  height: 30rem;
 }
 header div div.pcol p {
   display: flex;
@@ -267,7 +273,7 @@ section#tsec {
   margin: 3rem 3rem 3rem 3rem;
 }
 section div {
-  background-color: red;
+  background-color: #FFFFFF;
   margin: 1rem;
 }
 section div#topSec {
@@ -276,7 +282,7 @@ section div#topSec {
   width: 70vw;
   /* Move the black box top middle section */
   height: 30vh;
-  background-color: black;
+  background-color: #DDB9A3;
   font-size: 1.1rem;
   color: white;
 }
@@ -309,21 +315,20 @@ section div.bottomSec img.mImg {
   justify-self: space-between;
 }
 footer#foot {
-  background-color: blueviolet;
+  background-color: #FFFFFF;
   width: 100%;
   height: 36rem;
-  margin: 0rem 0.7rem 0.7rem 0.7rem;
 }
 footer#foot img {
-  width: 85%;
-  height: 20rem;
+  width: 100%;
+  height: 63vh;
 }
 footer img {
   display: flex;
   align-self: center;
 }
 footer nav.navcon {
-  background-color: black;
+  background-color: #F9E7DC;
   width: 100%;
   height: 12rem;
 }
@@ -340,6 +345,24 @@ footer nav {
 footer nav button {
   display: flex;
   align-self: center;
+}
+footer nav button.plan {
+  background-color: #FF764E;
+  color: white;
+  border-radius: 20% 20% 20% 20% ;
+  font-family: 'Roboto Mono', monospace;
+}
+footer nav button.learn {
+  background-color: #5ED3EB;
+  color: white;
+  border-radius: 20% 20% 20% 20% ;
+  font-family: 'Roboto Mono', monospace;
+}
+footer nav button.getin {
+  background-color: #FFCD69;
+  color: white;
+  border-radius: 20% 20% 20% 20% ;
+  font-family: 'Roboto Mono', monospace;
 }
 footer nav button.ftbtn {
   display: flex;

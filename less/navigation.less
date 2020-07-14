@@ -14,47 +14,51 @@ header{
 				button{
 					.button();
                         }
-                button#plan{
+                button.plan{
                     
                     .btninfo(@btn1);
                     
                 }
-                button#learn{
+                button.learn{
                     .btninfo(@btn2);
                 }
-                button#getin{
+                button.getin{
                     .btninfo(@btn3);
                 }
 
-		}// end navcon col1
-		div{ //div with row
+        }// end navcon col1
+        /*
+            NEW ROW
+                    */
+
+div{ //div with row
 
 			.divR();
 			
 			img{
 				.divRimg();
 			}
-			img.circular--square {
-				.imgCirSq();
-			  }
-			div.pcol{
-					.divPcol();
-					
-					
-						h1#h{
-							.h1h();
-						}
-						h1{
-							.h1Nav();
-						}
-						p.pc{
-							.pPc();
-						}
-						p{ // TODO: see if making p a class will work to @c align
-							
-						.pNav();
-							
-						}
-			} // end div row
+                    img.circular--square {
+                        .imgCirSq();
+                    }
+                    div.pcol{
+                            .divPcol();
+                            
+                            
+                                h1#h{
+                                    .h1h();
+                                }
+                                h1{
+                                    .h1Nav();
+                                }
+                                p.pc{
+                                    .pPc();
+                                }
+                                p{ // TODO: see if making p a class will work to @c align
+                                    
+                                .pNav();
+                                    
+                                }
+                    } // end div row
 		} // end header > div col2
 }// end header
