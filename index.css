@@ -53,13 +53,17 @@ div {
 
 #box {
 	background-color: #003996b7;
+	padding: 10px 10px;
+	margin: 0 10%;
+	font-size: 1.25rem;
 }
 
-.buttons {
+.buttons-top {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-    text-align: center;
+	text-align: center;
+	margin: 5% 10%;
 }
 
 #head {
@@ -67,7 +71,7 @@ div {
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: center;
-    text-align: center;
+	text-align: center;
 }
 
 #button1 {
@@ -93,13 +97,6 @@ div {
 	padding: 1rem 2rem;
 }
 
-#button4 {
-    background-color: #d60c38;
-	border: none;
-	border-radius: 12px;
-	padding: 1rem 2rem;
-}
-
 a {
 	font-family: 'Permanent Marker';
 	font-size: 1rem;
@@ -108,12 +105,12 @@ a {
 }
 
 #round-photo {
-	display: flex;
-	align-self: flex-start;
 	border-radius: 55%;
 	height: 15rem;
 	width: 15rem;
 	float: left;
+	margin-left: 15%;
+	/* margin-bottom: 20%; */
 }
 
 span:first-child {
@@ -130,6 +127,8 @@ span {
 
 p {
 	font-family: 'Varela Round';
+	text-align: center;
+	margin: 5% 25%;
 }
 
 .center {
@@ -139,6 +138,10 @@ p {
 	width: 50%;
 	height: 300px;
 	width: 300px;
+}
+
+.center:nth-child(2) {
+	border-radius: 50%;
 }
 
 #bottom-photo {
@@ -151,10 +154,14 @@ p {
 
 footer {
 	background-color: #003996;
-	height: 10rem;
+	height: 10rem;	
 }
 
-footer.buttons {
+.buttons-bottom {
+	background-color: #003996;
 	display: flex;
-	vertical-align: center;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	padding: 5% 5%;
 }
