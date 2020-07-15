@@ -135,6 +135,12 @@ table {
   src: local('RobotoMono-Regular'), url('../assets/fonts/RobotoMono-Regular.ttf') format('ttf');
 }
 @font-face {
+  font-family: 'Roboto Mono Bold';
+  font-style: 'monospace';
+  font-weight: 500;
+  src: local('RobotoMono-Bold'), url('../assets/fonts/RobotoMono-Bold.ttf') format('ttf');
+}
+@font-face {
   font-family: 'Chelsea Market';
   font-style: 'cursive';
   font-weight: 40;
@@ -148,6 +154,10 @@ body {
   /* More Sepcific */
 }
 p {
+  font-family: 'Roboto Mono', monospace;
+}
+b {
+  font-weight: 700;
   font-family: 'Roboto Mono', monospace;
 }
 section {
