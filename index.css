@@ -53,7 +53,7 @@ footer, header, hgroup, menu, nav, section {
     top: 0;
     color: oldlace;
     margin-right: 18%;
-    margin-left: 18%;
+    margin-left: 16%;
 }
 
 .link3{
@@ -76,7 +76,7 @@ h1{
     font-size: 3.1rem;
     margin-top: 5%;
     display: inline-block;
-    margin-left: 5%;
+    margin-left: 13%;
 }
 
 body{
@@ -88,6 +88,8 @@ body{
     background-color: #DDB9A3;
     color: oldlace;
     margin-top: 5%;
+    text-align: center;
+    display: block;
 }
 
 footer{
@@ -148,13 +150,15 @@ p{
     text-align: center;
     margin-top: 1%;
     display: inline-block;
-    margin-left: 8%;
+    margin-left: 15%;
 }
 
 .explore2{
     text-align: center;
     margin-top: 1%;
     display: inline-block;
-    margin-left: 11%;
+    margin-left: 18%;
 }
+
+
 
