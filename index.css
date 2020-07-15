@@ -65,11 +65,9 @@ footer, header, hgroup, menu, nav, section {
     border-radius: .8rem;
     cursor: pointer;
     outline: none;
-    top: 0;
     color: oldlace;
     margin-right: 10%;
     margin-left: 10%;
-
 }
 
 h1{
@@ -77,6 +75,8 @@ h1{
     text-align: center;
     font-size: 3.1rem;
     margin-top: 5%;
+    display: inline-block;
+    margin-left: 5%;
 }
 
 body{
@@ -109,7 +109,6 @@ img{
 }
 
 #fire{
-    text-align: center;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -131,6 +130,8 @@ img{
 .headpic{
     border-radius: 50%;
     float: left;
+    display: block;
+    margin-left: 5%;
 }
 
 p{
@@ -141,5 +142,19 @@ p{
 .footpic{
     width:100%;
     height:15rem;
+}
+
+.explore{
+    text-align: center;
+    margin-top: 1%;
+    display: inline-block;
+    margin-left: 8%;
+}
+
+.explore2{
+    text-align: center;
+    margin-top: 1%;
+    display: inline-block;
+    margin-left: 11%;
 }
 
