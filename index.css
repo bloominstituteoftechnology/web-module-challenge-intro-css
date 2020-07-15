@@ -1,12 +1,148 @@
-<style>
+
 .button1{
     background-color:#FF764E;
-    margin: 0 10px;
+    margin-left: 100px;
     padding: 20px;
     display: inline-block;
     border-radius: 20px;
     color:white;
     margin-bottom: 20px;
-    
+    font-family: 'Roboto Mono', monospace;
+    border-color: white;
+
+
+
 }
-</style>
+
+.button2
+{
+    background-color:#5ED3EB;
+    margin-left: 100px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color:white;
+    margin-bottom: 20px;
+    font-family: 'Roboto Mono', monospace;
+    border-color: white;
+}
+
+.button3
+{
+    background-color:#FFCD69;
+    margin-left: 100px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color:white;
+    margin-bottom: 20px;
+    font-family: 'Roboto Mono', monospace;
+    border-color: white;
+}
+body{
+    width: 850px;
+}
+.Pic1
+{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left:30px;
+}
+.ParkG h1
+{
+    display:inline;
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.ParkG p
+{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.info1
+{
+    background-color: #DDB9A3;
+    color:white;
+    padding:10px;
+    margin-left: 10px;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.img2
+{
+    width:20%;
+    height: auto;
+    margin-left: 350px;
+}
+
+
+.img3
+{
+    width:20%;
+    height: auto;
+    margin-left: 350px;
+}
+
+.img4
+{
+    width: 850px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.buttonBG
+{
+    background-color: #F9E7DC;
+    padding: 20px;
+}
+
+.button4
+{
+    background-color:#FF764E;
+    margin-left: 100px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color:white;
+    margin-bottom: 20px;
+    font-family: 'Roboto Mono', monospace;
+    border-color: white;
+}
+
+.button5
+{
+    background-color:#5ED3EB;
+    margin-left: 100px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color:white;
+    margin-bottom: 20px;
+    font-family: 'Roboto Mono', monospace;
+    border-color: white;
+}
+
+.button6
+{
+    background-color:#FFCD69;
+    margin-left: 100px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color:white;
+    margin-bottom: 20px;
+    font-family: 'Roboto Mono', monospace;
+    border-color: white;
+}
+
+
+
+/* issues:
+    making the small text boxes
+    alligning the yosemite park guide to the image 
+    getting rid of the border around the buttons
+    weird border when clicking on the buttons */
