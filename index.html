@@ -1,37 +1,73 @@
-<!-- Markup the content below with tags and attributes such that it can be styled in CSS-->
-<!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Link your CSS stylesheet -->
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+
+  
+  <title>Intro to CSS Module</title>
 </head>
+
 <body>
-        Plan your Visit
-        Learn about the Park
-        Get Involved
-   
+  <div class="main-container">
+    <div>
+      <nav class="nav-main">    
+          <p class="white-text" id="orange-box">Plan your <br> Visit</p>
+          <p class="white-text" id="blue-box">Learn about <br> the Park</p>    
+          <p class="white-text" id="yellow-box"> Get <br> Involved</p>    
+      </nav> 
       
-      "header_img.jpg"
-      Yosemite Park Guide
-      Come explore California’s beautiful wilderness.
-      Always open. Reservations are not available or required to enter the park.
+      <div class="top-main">
+        <div id="logo">
+          <img src="images\header_img.jpg" alt="Yosemite Park Guide">
+        </div>  
+      </div>
+        
+      <section class="top-text">
+        <h1 id="head-text"> Yosemite Park Guide</h1> 
+          Come explore California’s beautiful wilderness.
+          Always open. Reservations are not available or required to enter the park.
+      </section>
+
+    </div>
+    
+    </div>
+    
+    <section>
+      Not just a great valley, but a shrine to human foresight, the strength of granite,
+      the power of glaciers, the persistence of life, and the tranquility of the High Sierra.
       
-      Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.
-      
-      First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.
-      
+      First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its
+      nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.
+    </section>
+
+
+    <section>
       "https://image.flaticon.com/icons/svg/2979/2979348.svg"
-      Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for current fire restrictions.
+      Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems.
+      This blog provides updates about fires in Yosemite. Check for current fire restrictions.
       
       "https://image.flaticon.com/icons/svg/820/820374.svg"
-      We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the park entrance fee upon arrival (there's no need to pay it in advance).
-    
-      "footer_img.png"
+      We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the park entrance fee upon arrival
+      (there's no need to pay it in advance).
+    </section>  
+
+
+    <section class="footer">
+      <div class="footer-image">
+      <img src="C:\Users\theha\Desktop\lambda-coding\wk-2\web-module-project-intro-css\web-module-project-intro-css\images\footer_img.jpg" alt="">
+      </div>
       
-      
-        Plan your Visit
-        Learn about the Park
-        Get Involved
-      
+      <nav class="nav-main">    
+        <p class="white-text" id="orange-box">Plan your <br> Visit</p>
+        <p class="white-text" id="blue-box">Learn about <br> the Park</p>    
+        <p class="white-text" id="yellow-box"> Get <br> Involved</p>       
+    </nav> 
+
+    </section>
+
+  </div>
+
 </body>
 </html>

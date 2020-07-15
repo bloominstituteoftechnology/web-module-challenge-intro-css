@@ -1,0 +1,62 @@
+
+.nav-main {
+    display: flex;
+    height: 100px;
+    column-gap: 10%;
+    justify-content: center;
+}
+
+#orange-box {
+    background-color: #FF764E;
+}
+
+#blue-box {
+    background-color: #5ED3EB;
+}
+
+#yellow-box {
+    background-color: #FFCD69;
+}
+
+.white-text {
+    color: white;
+    font-size: 13px;
+    text-align: auto;
+
+}
+
+p {
+    display: inline-block;
+    justify-content: center;
+    border-radius: 10px;
+    width: 100px;
+    height: 38px;
+    text-align: center;
+}
+
+/* logo section */
+
+.top-main {
+    display: inline-block;
+}
+
+#logo > img {
+    display: inline-block;
+    border-radius: 50%;
+    width: 135px;
+    height: 135px;
+}
+    
+.top-text {
+    display: inline-block;
+    background-color: lightsalmon;
+    font-family: 'Chelsea Market', cursive;
+
+}
+
+/* footer section */
+
+.footer-image > img {
+    width: 100%;
+    height: 15%;
+}
