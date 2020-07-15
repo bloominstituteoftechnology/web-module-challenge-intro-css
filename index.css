@@ -63,9 +63,10 @@ button {
 
 /* ------------------------------------------------ */
 
-.headerimg {    border-radius: 50%;
-                height: 5%;
-                width: 5%;
+.headerimg {    
+    border-radius: 50%;
+    height: auto;
+    width: 10em;
                 }
 
 /* ------------------------------------------------ */
