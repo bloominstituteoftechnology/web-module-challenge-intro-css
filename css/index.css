@@ -160,6 +160,11 @@ b {
   font-weight: 700;
   font-family: 'Roboto Mono', monospace;
 }
+b:hover {
+  color: red;
+  font-weight: 700;
+  font-family: 'Roboto Mono', monospace;
+}
 section {
   display: flex;
   flex-direction: column;
