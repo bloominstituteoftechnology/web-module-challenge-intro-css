@@ -21,8 +21,7 @@ html {
   }
   
   img {
-    max-width: 20%;
-    height: auto;
+    
   }
 
 /* ------------------------------------------------ */
@@ -54,6 +53,7 @@ button {
 
 .buttonbox {
     padding-bottom: 20px;
+    border-radius: 50%;
     padding-top: 20px;
     text-align: center;
 }
@@ -109,7 +109,7 @@ h1 {
 
 /* ------------------------------------------------ */
 
-.infoBox p{
+.info1 p{
  color:white; 
  font-size: 14px;
  text-align:center;
