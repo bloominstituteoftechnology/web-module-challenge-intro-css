@@ -22,19 +22,37 @@ vertical-align: baseline;
 * {
     box-sizing: border-box;
 }
-.nav_bar{
-    border: 2px;
-    margin: 1%;
-    padding: 1%;
-    width: 100%;
+.container{
+    margin: 0 auto;
+    width: 600px;
 
 }
 
-.nav_bar{
-    border: 2px;
-    margin: 2%;
+.container header nav a {
+    margin: 0 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: #F87B99;
+}
+
+h1{
+    font-family: 'Chelsea Market';
+    text-align: right;
+}
+.main-body{
+    background-color: #DDB9A3;
 }
 
 body{
-    color:pink;
+    color:black;
+    font-family: 'Roboto Mono';
 }   
+
+footer{
+    background-color:#F9E7DC;
+  }
