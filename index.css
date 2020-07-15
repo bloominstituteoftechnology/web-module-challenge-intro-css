@@ -21,7 +21,7 @@ html {
   }
   
   img {
-    max-width: 100%;
+    max-width: 20%;
     height: auto;
   }
 
@@ -58,15 +58,15 @@ button {
     text-align: center;
 }
 
-nav1 {
+.nav1 {
     background-color: #ff754e;
 }
 
-nav2 {
+.nav2 {
     background-color:#5fd3ec;  
 }
 
-nav3 {
+.nav3 {
     background-color: #ffcd6a;
 }
 
@@ -99,14 +99,11 @@ h1 {
 
 /* ------------------------------------------------ */
 
-.infoBox{
+.info1{
     background-color:#ddb9a3;
     margin-left:10% ;
     margin-right: 10%;
     width: 80%;
-    
-
-
 }
 
 
@@ -136,13 +133,6 @@ section img {
 
 
 /* ------------------------------------------------ */
-
-footimgs {
-    width: 100%;
-    height:250px;
-    padding-bottom:10px;
-}
-
 .menuFooter {
     background-color: #f9e7dd;
     padding-bottom: 20px;
