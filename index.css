@@ -47,10 +47,26 @@ table {
 	border-spacing: 0;
 }
 
+div {
+	display: inline;
+}
+
+#box {
+	background-color: #003996b7;
+}
+
 .buttons {
 	display: flex;
-	flex-align: center;
-	margin: auto;
+	justify-content: space-around;
+	align-items: center;
+    text-align: center;
+}
+
+#head {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
     text-align: center;
 }
 
@@ -64,7 +80,7 @@ table {
 
 #button2 {
     background-color: #FFD600;
-    color: white;
+    color: black;
 	border: none;
 	border-radius: 12px;
 	padding: 1rem 2rem;
@@ -85,43 +101,60 @@ table {
 }
 
 a {
+	font-family: 'Permanent Marker';
+	font-size: 1rem;
 	text-decoration: none;
 	color: white;
 }
 
 #round-photo {
+	display: flex;
+	align-self: flex-start;
 	border-radius: 55%;
+	height: 15rem;
+	width: 15rem;
+	float: left;
 }
 
-h1 {
+span:first-child {
     font-family: "permanent marker";
     font-size: 3.5rem;
-    text-align: center;
+	display: inline-block;
 }
 
-#head {
+span {
 	font-family: Raleway;
 	text-align: center;
 	font-size: 2rem;
 }
 
+p {
+	font-family: 'Varela Round';
+}
+
 .center {
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 	height: 300px;
-  width: 300px;
+	width: 300px;
 }
 
 #bottom-photo {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-	/* width: 100%;
-	max-height: 20rem; */
+	width: 100%;
+	max-height: 20rem;
 }
 
 footer {
 	background-color: #003996;
+	height: 10rem;
+}
+
+footer.buttons {
+	display: flex;
+	vertical-align: center;
 }
