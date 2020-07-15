@@ -1,0 +1,255 @@
+body{
+ box-sizing: border-box;
+ font-family: roboto mono, monospace;
+
+}
+
+.wrapper1{
+  margin-left: 40%;
+}
+
+#buttonA{
+  box-sizing: border-box;
+  font-family: roboto mono, monospace;
+  align-items: inline-block;
+  border: none;
+  color: oldlace;
+  background: #FF764E;
+  border-radius: .8rem;
+  height: 3rem;
+  cursor: pointer;
+  /*margin creates space between the other buttons*/
+  outline:none;
+  margin-right:3rem;
+  
+  }
+
+#buttonA:hover{
+background: #fa5f2f;
+color: white;
+
+}
+
+#buttonA:active{
+  background: #FF764E;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#buttonB {
+
+  box-sizing: border-box;
+  font-family: roboto mono, monospace;
+  margin-right:3rem;
+  align-items: inline-block;
+  border:none;
+  color: oldlace;
+  background: #5ED3EB;
+  height: 3rem;
+  border-radius: .8rem;
+  cursor: pointer;
+  outline: none;
+  top:0;
+
+}
+
+#buttonB:hover{
+background: #1ec4e6;
+color: white;
+}
+
+#buttonB:active{
+  background-color: #5ED3EB;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#buttonC {
+  box-sizing: border-box;
+  font-family: roboto mono, monospace;
+  margin-right:3rem;
+  align-items: inline-block;
+  border: none;
+  color: oldlace;
+  background: #FFCD69;
+  height: 3rem;
+  border-radius: .8rem;
+  cursor: pointer;
+  outline: none;
+  
+
+}
+
+#buttonC:hover{
+  background: #fac04b;
+  color: white;
+
+}
+
+#buttonC:active{
+  background: #FFCD69;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#upTown{
+  float:left;
+  border-radius: 50%;
+  width: 20%;
+  margin-left:30%;
+}
+
+.yosemite {
+  text-align: right;
+  font-family: Chelsea Market;
+  font-size: 3rem;
+  margin-left: 3%;
+  margin-right: 25%;
+}
+
+p{
+  text-align: center;
+  margin-left:49%;
+  margin-right: 20%;
+}
+
+.firstFlex{
+  color: oldlace;
+  margin-right:17rem;
+  margin-top:2rem;
+  margin-left:25rem;
+  display: flex;
+  flex-direction: row;
+  text-align:center;
+  background-color: #DDB9A3;
+
+}
+
+#fire{
+  border-radius: 25%;
+  width: 10%;
+  display: block;
+  margin-top: 1rem;
+  margin-left: 51%;
+  margin-right: auto;
+}
+
+.fireBlurb{
+  margin-top: 1rem;
+  margin-left: 35rem ;
+  margin-right: 25rem;
+}
+
+#camping{
+  border-radius: 25%;
+  width: 10%;
+  display: block;
+  margin-top: 1rem;
+  margin-left: 51%;
+  margin-right: auto;
+
+}
+
+.campingBlurb{
+  margin-top: 1rem;
+  margin-left: 35rem ;
+  margin-right: 25rem;
+}
+
+#downTown{
+  display: block;
+  height:15rem;
+  width: 100%;
+  margin-top: 2rem;
+  
+
+}
+
+.wrapper2{
+  margin-top: 1rem;
+  margin-left: 40%;
+}
+
+#buttonAbottom{
+  box-sizing: border-box;
+  font-family: roboto mono, monospace;
+  align-items: inline-block;
+  border: none;
+  color: oldlace;
+  background: #FF764E;
+  border-radius: .8rem;
+  height: 3rem;
+  cursor: pointer;
+  /*margin creates space between the other buttons*/
+  outline:none;
+  margin-right:3rem;
+  
+  }
+
+#buttonAbottom:hover{
+background: #fa5f2f;
+color: white;
+
+}
+
+#buttonAbottom:active{
+  background: #FF764E;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#buttonBbottom {
+
+  box-sizing: border-box;
+  font-family: roboto mono, monospace;
+  margin-right:3rem;
+  align-items: inline-block;
+  border:none;
+  color: oldlace;
+  background: #5ED3EB;
+  height: 3rem;
+  border-radius: .8rem;
+  cursor: pointer;
+  outline: none;
+  top:0;
+
+}
+
+#buttonBbottom:hover{
+background: #1ec4e6;
+color: white;
+}
+
+#buttonBbottom:active{
+  background-color: #5ED3EB;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#buttonCbottom {
+  box-sizing: border-box;
+  font-family: roboto mono, monospace;
+  margin-right:3rem;
+  align-items: inline-block;
+  border: none;
+  color: oldlace;
+  background: #FFCD69;
+  height: 3rem;
+  border-radius: .8rem;
+  cursor: pointer;
+  outline: none;
+  
+
+}
+
+#buttonCbottom:hover{
+  background: #fac04b;
+  color: white;
+
+}
+
+#buttonCbottom:active{
+  background: #FFCD69;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
