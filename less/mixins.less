@@ -36,7 +36,7 @@
         .button(10%,40%);
     }
     @media @Tablet{
-        .button('10vw','16vh');
+        .button(10vw,16vh);
     }
 
 background-color: @color;
@@ -57,9 +57,24 @@ font-family: 'Roboto Mono', monospace;
 			background-color: #FFFFFF;
 }
 .divRimg(){
-    margin-left:4rem;
-					width:18rem;
-					height:18rem;
+   
+       @media @Deskimg{
+        margin-left:4rem;
+        width:18rem;
+        height:18rem;
+       }
+       @media @Tabimg{
+        margin-left:2rem;
+        width:9rem;
+        height:9rem;
+       }
+       @media @Phoneimg{
+        margin-left:.6rem;
+        width:4rem;
+        height:5rem;
+       }
+    
+
 }
 .imgCirSq(){
     border-radius: 50% 50%;
@@ -139,10 +154,18 @@ font-family: 'Roboto Mono', monospace;
 .divTopSec(){
     display:@f;
 		flex-direction: @fc;
-        width:70vw; /* Move the black box top middle section */
-        height:30vh;
+        @media @mid{
+        width:60vw; /* Move the black box top middle section */
+        height:40vh;
+        font-size:1.1rem; // Desktop sizing
+        }
+        @media @midshrink{
+        width:60vw; /* Move the black box top middle section */
+        height:70vh;
+        font-size:1.1rem; // Desktop sizing
+        }
         background-color: #DDB9A3;
-		font-size:1.1rem; // Desktop sizing
+		
 		color:white;
 }
 .secDiv(){
@@ -201,7 +224,7 @@ font-family: 'Roboto Mono', monospace;
 .footBtn(){
     margin:1rem;
 					width:20%;
-					height:30%;
+					height:40%;
 }
 
 .navFoot(){
