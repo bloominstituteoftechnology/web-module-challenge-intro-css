@@ -19,8 +19,21 @@ font: inherit;
 vertical-align: baseline;  
 }
 
+* {
+    box-sizing: border-box;
+}
+.nav_bar{
+    border: 2px;
+    margin: 1%;
+    padding: 1%;
+    width: 100%;
 
+}
 
+.nav_bar{
+    border: 2px;
+    margin: 2%;
+}
 
 body{
     color:pink;
