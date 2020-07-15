@@ -23,30 +23,64 @@ vertical-align: baseline;
     box-sizing: border-box;
 }
 .container{
-    margin: 0 auto;
-    width: 600px;
+    margin: 1%;
+    width: 100%;
 
 }
 
 .container header nav a {
     margin: 0 10px;
-    border: 1px solid lightgray;
+    border: 1px solid black;
     padding: 20px;
     display: inline-block;
     border-radius: 20px;
     color: white;
     text-decoration: none;
     margin-bottom: 20px;
-    background: #F87B99;
+    background: ##FF764E;
 }
 
 h1{
     font-family: 'Chelsea Market';
-    text-align: right;
+    text-align: center;
+
+}
+
+.title{
+    text-align: center;
+    line-height: 1.4;
 }
 .main-body{
     background-color: #DDB9A3;
+    color:white;
+    text-align: justify;
 }
+
+.header-image{
+    border-radius: round;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1%;
+    width: 33%;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.fire-section{
+    text-align: center;
+    
+}
+
+.truck-section{
+    text-align: center;
+}
+
 
 body{
     color:black;
@@ -56,3 +90,4 @@ body{
 footer{
     background-color:#F9E7DC;
   }
+  
