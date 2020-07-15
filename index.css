@@ -1,0 +1,39 @@
+nav {
+    width: 66%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    border-radius: 10%;
+}
+
+a {
+    flex: 0 0 18%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+#plan {
+    background-color: #F06D00;
+    color: white;
+}
+
+#learn {
+    background-color: #15AAF4;
+    color: white;
+}
+
+#involved {
+    background-color: #FFFD6A;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
