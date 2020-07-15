@@ -66,15 +66,15 @@ button {
 .headerimg {    
     border-radius: 50%;
     height: auto;
-    width: 10em;
-                }
-
-/* ------------------------------------------------ */
+    width: 10em; 
+}
+    
 
 .title{
     font-family: 'Chelsea Market', cursive;
     font-size: 1.6em;
 }
+
 
 h1 {
     display: inline-block;
@@ -84,10 +84,8 @@ h1 {
     vertical-align: middle;
     padding-left: 50px;
     letter-spacing: 2px;
-
 }
 
-/* ------------------------------------------------ */
 
 .info1{
     background-color:#ddb9a3;
@@ -96,40 +94,34 @@ h1 {
     width: 80%;
 }
 
-
-/* ------------------------------------------------ */
-
-.info1 p{
- color:white; 
- font-size: 14px;
- text-align:center;
- padding: 10px 10px 10px 10px;
- letter-spacing: 2px;
-
-}
-
 .fire1 {
     color: red;
 }
 
-section {
-text-align: center;
-letter-spacing: 2px;
-font-size: 12px;
+.pic-info {
+    text-align: center;
+    font-size: 12px;
+}
+
+.valley {
+    text-align: center;
+    font-size: 12px;    
+    padding: 2px;
+}
+
+.title-sub {
+    padding: 2px;
 }
 
 
-section img {
+
+.pic-info img {
     width: 15%;
     padding-bottom: 10px;
-    
 }
 
 
-/* ------------------------------------------------ */
 .menuFooter {
     background-color: #f9e7dd;
     padding-bottom: 20px;
-    text-align: center;
-    
-}
+    text-align: center; }
