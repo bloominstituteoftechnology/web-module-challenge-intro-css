@@ -109,6 +109,11 @@
         box-sizing: border-box;
     }
     
+    body {
+        margin: 3rem 1rem;
+        width: 100%;
+    }
+    
     .nav a {
         color: white;
         font-family: 'Roboto Mono', monospace;
@@ -142,17 +147,12 @@
     .headerimg img {
         border-radius: 50%;
         height: 20rem;
-        width: 20%;
-        margin-top: 1rem;
-        margin-left: 9rem;
-        margin-right: 1rem;
-        margin-bottom: 1rem;
+        margin: 1rem -1rem 1rem 2rem;
         float: left;
     }
     
     .intro {
-        margin-left: 17rem;
-        margin-top: -5rem;
+        margin: -5rem 16rem;
         padding: 10rem;
         text-align: center;
     }
@@ -165,10 +165,14 @@
     .intro p {
         font-weight: bold;
         text-align: center;
+        margin: 2rem 6rem;
+        width: 76%;
     }
     
     h1 {
         font-family: 'Chelsea Market', cursive;
+        margin: 0 -35rem;
+        text-align: center;
     }
     
     p {
@@ -192,34 +196,30 @@
     
     .icon1 img {
         height: 150px;
-        width: 150px;
-        width: 40%;
-        margin: 10rem 31rem;
+        margin: 10rem 34rem;
     }
     
     .icon1 p {
-        width: 20%;
-        margin: -9rem 41rem;
+        width: 25%;
+        margin: -9rem 30rem;
         text-align: center;
     }
     
     .icon2 img {
         height: 180px;
-        width: 180px;
-        width: 40%;
-        margin: 10rem 31rem;
+        margin: 10rem 33rem;
     }
     
     .icon2 p {
-        width: 20%;
-        margin: -9rem 41rem 1rem 41rem;
+        width: 25%;
+        margin: -9rem 31rem;
         text-align: center;
     }
     
     .footerimg img {
         height: 350px;
         width: 100%;
-        margin: 0 auto;
+        margin: 10rem auto 0 auto;
     }
     
     footer {
