@@ -9,9 +9,8 @@
     margin-bottom: 20px;
     font-family: 'Roboto Mono', monospace;
     border-color: white;
-
-
-
+    border: none;
+    outline: none;
 }
 
 .button2
@@ -25,6 +24,8 @@
     margin-bottom: 20px;
     font-family: 'Roboto Mono', monospace;
     border-color: white;
+    border: none;
+    outline: none;
 }
 
 .button3
@@ -38,6 +39,8 @@
     margin-bottom: 20px;
     font-family: 'Roboto Mono', monospace;
     border-color: white;
+    border: none;
+    outline: none;
 }
 body{
     width: 850px;
@@ -55,13 +58,18 @@ body{
     display:inline;
     text-align: center;
     font-family: 'Chelsea Market', cursive;
+    margin-left: 200px;
+
 }
 
 .ParkG p
 {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
+    margin-left: 300px;
 }
+
+
 
 .info1
 {
@@ -74,6 +82,7 @@ body{
 }
 .img2
 {
+    margin-top: 20px;
     width:20%;
     height: auto;
     margin-left: 350px;
@@ -111,6 +120,8 @@ body{
     margin-bottom: 20px;
     font-family: 'Roboto Mono', monospace;
     border-color: white;
+    border: none;
+    outline: none;
 }
 
 .button5
@@ -124,6 +135,8 @@ body{
     margin-bottom: 20px;
     font-family: 'Roboto Mono', monospace;
     border-color: white;
+    border: none;
+    outline: none;
 }
 
 .button6
@@ -137,8 +150,17 @@ body{
     margin-bottom: 20px;
     font-family: 'Roboto Mono', monospace;
     border-color: white;
+    border: none;
+    outline: none;
 }
 
+.MiddleDiv
+{
+    width: 300px;
+    text-align: center;
+    margin-left:300px;
+
+}
 
 
 /* issues:
