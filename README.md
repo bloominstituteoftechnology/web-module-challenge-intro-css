@@ -47,7 +47,7 @@ Once your repository is set up, practice what you learned today to style the sit
 - [ ] Apply box model properties (content, padding, margin, and border) to all content such that your webpage matches the design file. This will include at least:
   - [ -] A round image in the header
   - [- ] Round corners on navigation and footer items
-  - [ ] Header image and text side by side
+  - [ -] Header image and text side by side
   - [ ] Centered content and margins around content
   - [ ] Footer image positioning
 
