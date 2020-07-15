@@ -1,25 +1,151 @@
-*{          box-sizing: border-box;
+/* ------------------------------------------------ */
 
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'Roboto Mono', monospace;
+  } 
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* ------------------------------------------------ */
+
+body {
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-html {      box-sizing: border-box;
-            font-size: 62.5%;
+/* ------------------------------------------------ */
+
+header {
+   width:100%;
+   text-align:center;
+   
 }
 
-body {      font-size: 1.6rem;
-            line-height: 1;
-            font-family: 'Roboto Mono', monospace;
+button {
+    border-radius: 25%;
+    padding: 12px 12px 12px 12px;
+    border-style: none;
+    width: 140px;
+    font-size: 16px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    margin-right: 90px;
 }
 
-#toplink {
+.buttonbox {
+    padding-bottom: 20px;
+    padding-top: 20px;
     text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding: 20px 10px;
-    width: 80%;
-    padding: 10%;
-    color: white; 
-} 
+}
 
+nav1 {
+    background-color: #ff754e;
+}
+
+nav2 {
+    background-color:#5fd3ec;  
+}
+
+nav3 {
+    background-color: #ffcd6a;
+}
+
+/* ------------------------------------------------ */
+
+.headerimg {     display: inline-block;
+                 position: relative;
+                 overflow: hidden;
+                 border-radius: 50%;
+                 box-sizing: border-box;
+}
+
+/* ------------------------------------------------ */
+
+.title{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 55px ;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 18px;
+    font-weight:lighter;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 50px;
+    letter-spacing: 2px;
+
+}
+
+/* ------------------------------------------------ */
+
+.infoBox{
+    background-color:#ddb9a3;
+    margin-left:10% ;
+    margin-right: 10%;
+    width: 80%;
+    
+
+
+}
+
+
+/* ------------------------------------------------ */
+
+.infoBox p{
+ color:white; 
+ font-size: 14px;
+ text-align:center;
+ padding: 10px 10px 10px 10px;
+ letter-spacing: 2px;
+
+}
+
+section {
+text-align: center;
+letter-spacing: 2px;
+font-size: 12px;
+}
+
+
+section img {
+    width: 100px;
+    padding-bottom: 10px;
+    
+}
+
+
+/* ------------------------------------------------ */
+
+footimgs {
+    width: 100%;
+    height:250px;
+    padding-bottom:10px;
+}
+
+.menuFooter {
+    background-color: #f9e7dd;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
