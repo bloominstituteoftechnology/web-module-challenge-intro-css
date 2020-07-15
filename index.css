@@ -1,0 +1,129 @@
+
+
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:ital,wght@1,300&display=swap');
+
+* {
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+
+/* End General Styles */
+
+/* Section 1 Styles */
+.top_sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.plan {
+    width: 200px;
+    background-color: #FF764E;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 15px;
+    color: white;
+}
+
+.learn {
+    width: 200px;
+    background-color: #5ED3EB;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 15px;
+    color: white;
+}
+
+.involved {
+    width: 200px;
+    background-color: #FFCD69;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 15px;
+    color: white;
+}
+
+/* End Section 1 Styles */
+
+/* Section 2 styles */
+.section_sec {
+    padding-top: 50px;
+    width: 40vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 2;
+}
+
+.header_img {
+    border-radius: 50%;
+    width: 250px;
+    height: auto;
+}
+
+.sec_2_head {
+    font-family: 'Chelsea Market', sans-serif
+}
+
+.header_txt_div {
+    text-align: center;
+    padding-left: 15px;
+}
+/* End Section 2 Styles */
+
+/* Third Section Styles */
+.third_sec {
+    width: 50vw;
+    background-color: #DDB9A3;
+    margin: 0 auto;
+    padding: 30px;
+    color: white;
+    font-size: 20px;
+}
+/* End Third Section Styles */
+
+/* Fire Section */
+.fire_sec {
+    width: 50vw;
+    margin: 0 auto;
+    padding-bottom: 10em;
+}
+
+.flat_icon {
+    width: 15em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section_txt {
+    width: 15vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bold_text {
+    font-weight: 800;
+}
+/* End Fire Section */
+
+/* Footer Styles */
+.footer {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0;
+    margin: 0;
+    background-color: #F9E7DC;
+}
+
+.footer_img {
+    width: 100vw;
+    height: 20em;
+    padding-bottom: 5em;
+}
+/* End Footer Styles */
