@@ -68,16 +68,16 @@ h1 {
 
 
 #open {
-    display: inline;
+    display: inline-block;
     border-style: dotted;
-    border-width: 5px;
+    border-width: 3px;
     border-color: white;
     text-align: center;
-    font-size: 2.5em;
-    font-style: italic;
-    padding-left: 20px;
-    padding-right: 200px; 
-    background-color: rgb(203, 214, 221);
+    font-size: 2em;
+    font-style: oblique;
+    color: teal;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 
@@ -101,9 +101,16 @@ h1 {
 }
 
 .valley {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 15px;    
-    padding: 2px;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .title-sub {
@@ -120,16 +127,21 @@ h1 {
 }
 
 
-.foot { 
+.foot img {
     display: inline-block;
-    align-content: center;
-}
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 80%;
+    height: 20%;
+    vertical-align: middle;
+ }
 
 .foot-nav { 
     display: inline-block;
     text-align: center;
-    margin-left: 5%;
-    margin-bottom: 5%;
+    margin-left: 10%;
     margin-right: 5%;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
