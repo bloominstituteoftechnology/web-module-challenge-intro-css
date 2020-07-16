@@ -5,49 +5,27 @@ html {
     font-size: 1.6em;
   }
 
-
-  body, h1 {
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
-    font-family: 'Roboto Mono', monospace;
-  } 
-  
-  /* ------------------------------------------------ */
-
-body {
-    width: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-/* ------------------------------------------------ */
-
-header {
-    text-align:center;
-    height: auto;
-    width: 100%;
-    border-radius: 50%
+.topnav {
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 80%;
+    height:auto;
 }
 
 button {
     border-radius: 25%;
-    padding: 12px 12px 12px 12px;
-    border-style: none;
-    width: 140px;
-    font-size: 16px;
+    padding: 10px;
+    border-style: dotted;
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    font-size: 10px;
     color: white;
-    font-family: 'Roboto Mono', monospace;
-    margin-right: 90px;
-}
-
-.info1 { 
-        display: inline-block;
-        padding-bottom: 20px;
-        padding-top: 20px;
-        padding-left: 20px;
-        text-align: center;
-}
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace; }
 
 .nav1 {
     background-color: #ff754e;
@@ -64,34 +42,53 @@ button {
 /* ------------------------------------------------ */
 
 .headerimg {    
+    display: inline-block;
     border-radius: 50%;
+    max-width: 60px;
     height: auto;
-    width: 10em; 
 }
     
 
 .title{
     font-family: 'Chelsea Market', cursive;
-    font-size: 1.6em;
+    font-size: 5em;
+    padding: 10px;
 }
 
 
 h1 {
     display: inline-block;
-    font-size: 18px;
+    font-size: 1.8em;
     font-weight:lighter;
-    text-align: center;
+    text-align: justify;
     vertical-align: middle;
     padding-left: 50px;
     letter-spacing: 2px;
 }
 
 
-.info1{
-    background-color:#ddb9a3;
-    margin-left:10% ;
+#open {
+    display: inline;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: white;
+    text-align: center;
+    font-size: 2.5em;
+    font-style: italic;
+    padding-left: 20px;
+    padding-right: 200px; 
+    background-color: rgb(203, 214, 221);
+}
+
+
+.pic-info{
+    background-color:#c9a894;
+    margin-left: 10%;
+    margin-top: 5em;
+    margin-bottom: 5%;
     margin-right: 10%;
-    width: 80%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 .fire1 {
@@ -100,28 +97,43 @@ h1 {
 
 .pic-info {
     text-align: center;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .valley {
     text-align: center;
-    font-size: 12px;    
+    font-size: 15px;    
     padding: 2px;
 }
 
 .title-sub {
+    text-align: center;
+    font-size: 12px;
     padding: 2px;
 }
 
 
 
 .pic-info img {
-    width: 15%;
-    padding-bottom: 10px;
+   width: 15%;
+   padding-bottom: 1em;
 }
 
 
-.menuFooter {
-    background-color: #f9e7dd;
-    padding-bottom: 20px;
-    text-align: center; }
+.foot { 
+    display: inline-block;
+    align-content: center;
+}
+
+.foot-nav { 
+    display: inline-block;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 80%;
+    height:auto ; 
+    background-color:#ddb9a3;
+}
