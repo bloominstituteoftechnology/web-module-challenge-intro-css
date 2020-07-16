@@ -38,25 +38,85 @@ p {
 
 .top-main {
     display: inline-block;
+    justify-content: ;
 }
+
+
 
 #logo > img {
     display: inline-block;
+    margin-left: 133px;
+
     border-radius: 50%;
-    width: 135px;
-    height: 135px;
+    width: 170px;
+    height: 170px;
 }
     
 .top-text {
     display: inline-block;
-    background-color: lightsalmon;
+    margin-top: -19%;
+    padding-left: 371px;
+    padding-left: 369px;
+    font-size: 12px;
+    text-align: center;
+    /* background-color: lightsalmon; */
     font-family: 'Chelsea Market', cursive;
 
 }
+
+.title {
+    font-size: 34px;
+}
+
+/* middle section */
+
+.mid-container {
+    background-color: #E9C5B5;
+    color: white;
+    height: 14%;
+    width: 95%;
+    margin-left: 22px;
+    text-align: center;
+    margin-top: 26px;
+
+}
+
+
+
+/* low section */
+
+.middle-logo {
+    width: 95px;
+    height: 19%;
+    display: block;
+    padding-left: 45%;
+    padding-top: 1%;
+
+}
+
+.low-text {
+    width: 95px;
+    height: 13%;
+    display: block;
+    padding-left: 45%;
+    font-size: 56%;
+    margin-top: -34px;
+
+
+}
+
+
 
 /* footer section */
 
 .footer-image > img {
     width: 100%;
-    height: 15%;
+    height: 20%;
+    margin-top: 36px;
+
+}
+
+.sub-footer {
+    background-color: #FFE9DF;
+    padding-top: 31px;
 }
