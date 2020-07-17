@@ -53,17 +53,60 @@ table {
 nav {
     display: flex;
     justify-content: space-evenly;
-    padding:5%
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: 'Roboto', sans-serif;
 }
 
-nav a {
+#one {
+    background-color: #ff764e;
+    display: inline-block;
+    font-family: 'Roboto Mono';
+    text-align: center;
+    text-decoration: none;
+    font-size: 150%;
+    border-radius: 18px;
     color: white;
-    font-size:1.3rem;
+    padding: 13px 30px 18px 30px;
+    width: 10em;
+    height: 7.5rem;
+    border: none;
 }
-#one{
-        border: 1px solid black;
-        padding: 3.5%;
+
+#two {
+    background-color: #5ED3EB;
+    display: inline-block;
+    font-family: 'Roboto Mono';
+    text-align: center;
+    text-decoration: none;
+    font-size: 150%;
+    border-radius: 18px;
+    color: white;
+    padding: 13px 30px 18px 30px;
+    width: 10em;
+    height: 7.5rem;
+    border: none;
+}
+
+#three {
+    background-color: #FFCD69;
+    display: inline-block;
+    font-family: 'Roboto Mono';
+    text-align: center;
+    text-decoration: none;
+    font-size: 150%;
+    border-radius: 18px;
+    color: white;
+    padding: 13px 30px 18px 30px;
+    width: 10em;
+    height: 7.5rem;
+    border: none;
+}
+
+#one:hover {
         animation: let 3s infinite ease-in-out;
+        text-align: center;
+
     }
 
     @keyframes let {
@@ -84,9 +127,7 @@ nav a {
         }
       }
 
-      #two{
-        border: 1px solid black;
-        padding: 3.5%;
+      #two:hover {
         animation: pulse 3s infinite;
     }
 
@@ -108,9 +149,7 @@ nav a {
         }
       }
 
-      #three{
-        border: 1px solid black;
-        padding: 3.5%;
+      #three:hover {
         animation: mark 3s infinite 0s;
     }
 
@@ -138,7 +177,7 @@ nav a {
 }
 
 #header_pic {
-    width:10%;
+    width:20%;
     height:auto;
     border-radius: 50rem;
 
@@ -150,4 +189,11 @@ h1 {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+
+.intro {
+    display: block;
+    font-family: 'Roboto Mono';
+    
 }
