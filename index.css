@@ -103,7 +103,7 @@ nav {
     border: none;
 }
 
-#one:hover {
+#one {
         animation: let 3s infinite ease-in-out;
         text-align: center;
 
@@ -127,7 +127,7 @@ nav {
         }
       }
 
-      #two:hover {
+      #two {
         animation: pulse 3s infinite;
     }
 
@@ -149,7 +149,7 @@ nav {
         }
       }
 
-      #three:hover {
+      #three {
         animation: mark 3s infinite 0s;
     }
 
