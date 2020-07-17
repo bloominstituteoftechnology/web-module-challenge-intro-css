@@ -1,8 +1,11 @@
 /* ------------------------------------------------ */
 
+*{ 
+    font-family: Roboto-Mono, monospace;
+}
+
 html {
     box-sizing: border-box;
-    font-size: 1.6em;
   }
 
 .topnav {
@@ -16,14 +19,11 @@ html {
 }
 
 button {
-    border-radius: 25%;
+    border-radius: 15%;
     padding: 10px;
-    border-style: dotted;
-    border-color: rgb(255, 255, 255);
-    border-width: 3px;
     font-size: .6em;
     color: white;
-    font-weight: bold;
+    font-weight: lighter;
     font-family: 'Roboto Mono', monospace; }
 
 .nav1 {
@@ -43,15 +43,17 @@ button {
 .headerimg {    
     display: inline-block;
     border-radius: 50%;
-    max-width: 60px;
+    vertical-align: middle;
+    max-width: 20%;
     height: auto;
 }
     
 
 .title{
+    display: block;
     font-family: 'Chelsea Market', cursive;
-    font-size: 5em;
-    padding: 10px;
+    font-size: 6em;
+    padding: 0;
 }
 
 
@@ -68,8 +70,6 @@ h1 {
 
 #open {
     display: inline-block;
-    border-style: dotted;
-
     text-align: center;
     font-size: 2em;
     margin-left: 10%;
@@ -77,33 +77,28 @@ h1 {
 }
 
 
-.pic-info{
-    background-color:#c9a894;
-    margin-left: 10%;
-    margin-top: 5em;
-    margin-bottom: 5%;
-    margin-right: 10%;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+.pic-info {
+    text-align: center;
+    font-size: 16px;
+}
 }
 
 .fire1 {
     color: red;
 }
 
-.pic-info {
-    text-align: center;
-    font-size: 15px;
-}
+
 
 .valley {
     text-align: center;
+    background-color:#c9a894;
     font-size: 12px;
     padding-left: 20px;
     padding-right: 20px; 
     margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 10%;
+    display: block;
 }
 
 .title-sub {
@@ -115,19 +110,15 @@ h1 {
 
 
 .pic-info img {
-   width: 15%;
-   padding-bottom: 1em;
+   width: 10%;
 }
 
 
 .foot img {
-    display: inline-block;
-    margin-left: 10%;
-    margin-right: 10%;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    width: 80%;
-    height: 20%;
+    width: 100%;
+    height: 200px;
     vertical-align: middle;
  }
 
@@ -140,5 +131,4 @@ h1 {
     padding-bottom: 0.5em;
     width: 80%;
     height:auto ; 
-    background-color:#ddb9a3;
 }
