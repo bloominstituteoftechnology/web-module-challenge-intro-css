@@ -49,7 +49,6 @@ html{
 }
 .container{
     margin: 0 20%;
-
 }
 .brown{
     background-color: #DDB9A3;
@@ -103,5 +102,4 @@ h1{
     height: 20rem;
     background-image: url('./assets/footer_img.jpg');
     background-size: 100% 200%;
-
 }
