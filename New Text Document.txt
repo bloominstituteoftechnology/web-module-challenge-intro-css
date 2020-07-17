@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">	
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">	   
+    	    
+    <title>Sam's Portfolio</title>
+
+</head>
+
+
+<!------------------------------------------------------------------>
+
+<body>
+
+    <h1>Samantha Barney</h1>
+    
+
+<nav>
+        <a href="User-Interface-II\about.html">About</a>
+        <a href="User-Interface-II\projects.html">Projects</a>
+        <a href="User-Interface-II\contact.html">Contact</a>
+</nav>
+
+<!------------------------------------------------------------------
+
+<section>
+        <img src='intro.png'>
+</section>
+
+<!------------------------------------------------------------------
+
+<div class='flexContainer1'>
+	<img src='https://picsum.photos/seed/picsum/300'>
+	<img src='https://picsum.photos/seed/picsum/300'>
+	<img src='https://picsum.photos/seed/picsum/300'>
+
+<!------------------------------------------------------------------
+
+    <div class='flexContainer1'>
+        <img src='https://picsum.photos/seed/picsum/300'>
+        <img src='https://picsum.photos/seed/picsum/300'>
+        <img src='https://picsum.photos/seed/picsum/300'>
+</div>
+
+<!------------------------------------------------------------------
+
+
+<footer>
+        <a href="User-Interface-II\contact.html">
+            Contact Me</a>
+</footer>
+</body>
+</html> 
