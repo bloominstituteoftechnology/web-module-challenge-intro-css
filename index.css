@@ -1,0 +1,153 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS starts */
+
+/* Start with nav */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding:5%
+}
+
+nav a {
+    color: white;
+    font-size:1.3rem;
+}
+#one{
+        border: 1px solid black;
+        padding: 3.5%;
+        animation: let 3s infinite ease-in-out;
+    }
+
+    @keyframes let {
+        0% {
+          background-color: #001427;
+        }
+        25% {
+            background-color: #708d81;
+        }
+        50%{
+            background-color: #f4d58d;
+        }
+        75%{
+            background-color: #bf0603;
+        }
+        100% {
+          background-color: #8d0801;
+        }
+      }
+
+      #two{
+        border: 1px solid black;
+        padding: 3.5%;
+        animation: pulse 3s infinite;
+    }
+
+    @keyframes pulse {
+        0% {
+          background-color: #bf0603;
+        }
+        25% {
+            background-color: #001427;
+        }
+        50%{
+            background-color: #708d81;
+        }
+        75%{
+            background-color: #f4d58d;
+        }
+        100% {
+          background-color: #bf0603;
+        }
+      }
+
+      #three{
+        border: 1px solid black;
+        padding: 3.5%;
+        animation: mark 3s infinite 0s;
+    }
+
+    @keyframes mark {
+        0% {
+          background-color: #bf0603;
+        }
+        25% {
+            background-color: #bf0603;
+        }
+        50%{
+            background-color: #001427;
+        }
+        75%{
+            background-color: #708d81;
+        }
+        100% {
+          background-color: #f4d58d;
+        }
+      }
+
+.title {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#header_pic {
+    width:10%;
+    height:auto;
+    border-radius: 50rem;
+
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Julius Sans One', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
