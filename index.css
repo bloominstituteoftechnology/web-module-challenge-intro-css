@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+html{
+    font-size: 62.5;
+}
+
+
+
+body {
+   font-family: 'Roboto Mono';
+}
+
+#header1{
+    color: white;  
+    
+}  
+
+.Planyourvisit{
+    background-color: #FF764E;
+    Font-size: 200%;
+    text-align: center;
+    display: inline-block;
+    text-decoration: None;
+    border-radius: 18px;
+    padding: 13px 3px 18px 30px;
+    width: 5em;
+    height: 5rem;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 115px;
+    font-family: 'Roboto Mono';
+    border: none;
+    
+}
+
+.Learnaboutthepark{
+    background-color: #5ED3EB;
+    Font-size: 200%;
+    text-align: center;
+    display: inline-block;
+    text-decoration: None;
+    border-radius: 18px;
+    padding: 13px 3px 18px 30px;
+    width: 5em;
+    height: 5rem;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 115px;
+    font-family: 'Roboto Mono';
+    border: none;
+}
+
+.Getinvolved{
+    background-color: #FFCD69;
+    Font-size: 200%;
+    text-align: center;
+    display: inline-block;
+    text-decoration: None;
+    border-radius: 18px;
+    padding: 13px 3px 18px 30px;
+    width: 5em;
+    height: 5rem;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 115px;
+    font-family: 'Roboto Mono';
+    border: none;
+}
+
+.topimage{
+    display: inline-block;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    text-align: center;
+    margin: 20px;
+    margin-top: auto;
+   
+
+}
+
+h1{
+    display: inline-block;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+    margin: 5rem;
+}
+
+.Paragraph1 {
+    text-align: center;
+    font-size: 1em;
+    
+
+
+}
+
+.second-section p{
+    background-color: #DDB9A3;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 2em;
+}
+
+.second-image{
+    display: block;
+    height: 15%;
+    width: 15%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.third-section p{
+    text-align: center;
+    font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 50px;
+    width: 20%;
+    height: 30%;
+    display: block;
+
+}
+
+.third-image{
+    display:block;
+    height: 15%;
+    width: 15%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-image{
+    width:100%;
+    height: 35vh;
+}
+
+#footer{
+    background-color: #F9E7DC;
+}
