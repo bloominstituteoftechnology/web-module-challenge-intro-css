@@ -1,7 +1,12 @@
+
+p {
+    font-family: helvetica;
+}
+
 nav {
     width: 66%;
     display: flex;
-    margin: auto;
+    margin: 2rem auto;
     justify-content: space-between;
     border-radius: 10%;
 }
@@ -11,6 +16,8 @@ a {
     height: 50px;
     text-align: center;
     line-height: 50px;
+    padding: 1%;
+    border-radius: 15px;
 }
 
 #plan {
@@ -28,12 +35,67 @@ a {
     color: white;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.circle{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+
 }
 
-li {
-    display: inline;
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7rem;
+}
+
+.section1 {
+    margin-left: -25rem;
+    text-align: center;
+}
+
+#firstParagraph {
+    max-width: 16rem;
+    margin-left: 12.5rem;
+}
+h1 {
+    font-size: 3.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.content1 {
+    background-color: #E2B774;
+    text-align: center;
+    padding: 1%;
+    max-width: 95%;
+    margin-left: 1.5%;
+    margin-top: 5%;
+    color: white;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+    justify-content:center;
+    width: 30em;
+    align-items: center;
+}
+
+.fire {
+  width: 15rem;
+  height: 15rem;
+}
+
+.truck {
+    width: 15rem;
+  height: 15rem;
+}
+
+.bottom{
+    width: 100%;
+    height: 15em;
+    margin-top: 5em;
+    object-position: center;
+    object-fit: fill;
 }
