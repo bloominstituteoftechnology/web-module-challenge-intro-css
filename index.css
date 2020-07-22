@@ -1,14 +1,39 @@
-h1 {
-    color= blue;
-}
+
 .title img {
     border-radius: 50%;
-    height: 150px;   
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 0px;   
 }
-
+.title {
+    text-align: left;
+    padding: 40px;
+}
+#container {
+    text-align: center;
+    padding: 10px;
+}
 footer img{
     height: 200px;
     width: 100%;
     margin: 10px;
     image-rendering: center;
+}
+.fire {
+    height: 150px; 
+    text-align: center;
+}
+.truck {
+    height: 150px; 
+    text-align: center;
+}
+.firestarter {
+    text-align: center;
+}
+.trucker {
+    text-align: center;
+}
+.container {
+    text-align: center;
+
 }
