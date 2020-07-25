@@ -1,7 +1,17 @@
-
+header {
+    text-align: center;
+    padding: 10px;
+}
+button {
+    border-radius: 25%;
+    height: 40px;
+}
+header .orange {
+    background-color: coral;
+}
 .title img {
     border-radius: 50%;
-    height: 100px;
+    height: 150px;
     margin-left: 10px;
     margin-top: 0px;   
 }
@@ -15,9 +25,9 @@
 }
 footer img{
     height: 200px;
-    width: 100%;
-    margin: 10px;
-    image-rendering: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .fire {
     height: 50px; 
@@ -33,7 +43,7 @@ footer img{
 .trucker {
     text-align: center;
 }
-.container {
+footer {
+    background-color: rgb(251, 238, 223);
     text-align: center;
-
 }
