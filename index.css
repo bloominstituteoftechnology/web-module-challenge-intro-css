@@ -1,0 +1,91 @@
+/* CSS Reset */
+body {
+    
+    max-width: 900px;
+    margin:0 auto;
+    padding: 5rem;
+    font-family: "Roboto Mono", monospace;
+    font-size:100%; 
+    line-height:1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+
+.footer-nav-bar a:hover,
+.nav-menu a:hover{
+    color: white;
+}
+
+#visit {
+    background: #FF764E;
+}
+
+#about {
+    background: #5ED3EB;
+}
+
+#involved {
+    background: #FFCD69;
+}
+
+.park-guide {
+    font-family: "Chelsea Market", cursive;
+}
+
+.main-text-body {
+    background: #DDB9A3
+}
+
+.footer-section {
+    background: #F9E7DC;
+}
+
+.img-class {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 20%;
+}
+
+.info-img-class {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+#fire-img {
+    margin-right: 60%;
+}
+
+#rv-img {
+    margin-left: 60%;
+}
+
+
+.header-box {
+    padding: 20px;
+    box-sizing: border-box;
+    background: #F9E7DC;
+    border-radius: 2rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+.footer-section {
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 2rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+
+#footer-img {
+    padding: 30px;
+}
+
+.footer-nav {
+    padding: 10px;
+}
+
