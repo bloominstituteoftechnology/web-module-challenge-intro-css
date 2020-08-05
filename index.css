@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@500&display=swap');
+
+html{
+    font-size:62.5%;
+}
+
+*{
+    margin:0;
+    box-sizing: border-box;
+    max-width:100%;
+}
+body{
+    font-family:"Chelsea Market", 'Roboto Mono';
+    font-size:1.6rem;
+    line-height:1.5;
+   
+}
+.container header nav a{
+    margin:0 2rem;
+    border: 1px solid lightgray;
+    padding: 2rem;
+    display: inline-block;
+    border-radius: 2rem;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 20px;
+  
+}
+
+.plan{
+    background-color: #FF764E;
+}
+
+.learn{
+    background-color: #5ED3EB;
+}
+
+.involved{
+    background-color: #FFCD69;
+}
+
+header img{
+    display:inline-block;
+    margin-right:70%;
+    margin-top:10%;
+    width:20%;
+    border-radius: 20rem;
+}
+
+.title{
+    height:5rem;
+    font-family:"Chelsea+Market",;
+    font-size:2.5rem;
+    margin-bottom:10%;
+    width:80%;
+    display:inline-block;
+    margin-left:25%;
+    margin-top:-15%;
+}
+
+.text{
+    background-color: #DDB9A3;
+    color:white;
+    width:85%;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 10%;
+    margin-right:5%;
+}
+
+.info{
+    background-color: #DDB9A3;
+}
+
+.links{
+    width:20%;
+    display: inline-block;
+}
+
+p{
+    text-align: center;
+}
+
+.title p{
+    font-size:62.5%;
+    width:60%;
+    margin-left:25%;
+}
+
+#fire p{
+    text-align: center;
+    width:60%;
+    margin-left: 25%;
+}
+
+#fire img{
+    width:9%;
+    height:9%;
+    display:inline-block;
+    margin:0 50%;
+    padding-top:5%;
+    padding-bottom: 5%;
+}
+
+#strongly img{
+    width:9%;
+    height:9%;
+    display:inline-block;
+    margin: 0 50%;
+    padding-top:5%;
+    padding-bottom: 5%;
+}
+
+#strongly p{
+    text-align: center;
+    width:60%;
+    margin-left: 25%;
+}
+
+header {
+    text-align:center;
+    display:inline-block;
+
+}
+
+footer nav a{
+    margin:0 2rem;
+    border: 1px solid lightgray;
+    padding: 2rem;
+    display: inline-block;
+    border-radius: 2rem;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+footer{
+    text-align:center;
+    height:2rem;
+    padding:0;
+    margin:0 auto;
+}
+
+ .foot-image .image-b{
+    width:100%;
+    height:;
+    display:inline-block;
+    padding-top: 10%;
+    margin:0 auto;
+}
+footer img {
+    height: 40vh;
+    object-fit: cover;
+    object-position: 100% 0;
+    width: 100%;
+  }
+
+
+.links-bottom{
+    background-color: #F9E7DC;
+    padding-top:5rem;
+    
+    
+}
