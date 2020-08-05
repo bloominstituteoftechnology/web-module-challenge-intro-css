@@ -1,0 +1,115 @@
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+/* Whole Page */
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto+Mono&family=Noto+Sans+JP&display=swap');
+
+*{
+    max-width: 100%;
+    box-sizing:border-box;
+    border:1px solid darkblue; /*TEST CODE, REMOVE BEFORE FINISH*/
+}
+
+html{
+    font-size:62.5%;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+i{
+    font-size:4rem;
+}
+
+/* Top Navigation */
+.links{
+    margin: 2%;
+    width: 80%;
+    display: inline-block;
+    text-align:center;
+    background-color: cyan;
+    font-family:'Noto Sans JP', sans-serif;
+}
+.nav-btn {
+    
+
+}
+
+.links a{
+    color:white;
+}
+
+/* #Plan{
+    background-color:red;
+} */
+
+/* Header */
+.top-section{
+    max-width:100%;
+}
+.mountain-image{
+    margin:10%;
+}
+h1{
+        font-family: 'Pangolin', cursive;
+        display:inline-block;
+}
+a{
+    size:10%;
+        width:10%;
+        margin-right:18%;
+
+}
+p{
+    font-family:inherit;
+}
+
+
+/* Intro Section */
+.intro{
+    margin: 5% 10%;
+    padding: 1% 2%;
+    color: white;
+    background-color: burlywood; /*COLOR MATCH LATER*/
+}
+
+
+
+/* Prep Info */
+.prep-info{
+    display:inline-block;
+    text-align: center;
+    margin: auto 30%;
+}
+
+/* Footer */
+
+.bottom-section{
+    
+}
+
+/* Bottom Navigation */
+.bottom-links{
+    background-color:blanchedalmond;
+    display:inline-box;
+}
+
