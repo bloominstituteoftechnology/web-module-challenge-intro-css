@@ -1,8 +1,35 @@
+
 *{
     box-sizing:border-box;
     padding:0;
     margin:0;
     max-width:100%;
+    font-family: 'Roboto Mono', monospace;
   }
 
-  
+  html{
+    font-size:62.5%;
+  }
+
+  body{
+    line-height:2;
+    font-size:1.5rem;
+    font-family: 'Chelsea Market', cursive;
+    color:black;
+  }
+
+.one{
+background-color:#FF764E;
+}
+
+.two{
+    background-color:#5ED3EB;
+}
+
+.three{
+    background-color:#FFCD69;
+}
+
+.pinktext{
+    background-color:#DDB9A3;
+}
