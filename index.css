@@ -1,0 +1,147 @@
+* {
+    font-family: "Roboto Mono";
+  }
+  
+  body {
+    margin: 0;
+  }
+
+  h1 {
+    font-family: "Chelsea Market";
+    color: black;
+    text-align: center;
+  }
+  
+  span {
+    font-weight: bold;
+  }
+  
+  nav {
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+.navButton {
+    margin: 0 25px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    width: 150px;
+
+  }
+
+  .navButton:hover {
+    opacity: 0.75;
+    color: black;
+  }
+  
+  .plan {
+    background-color: #ff764e;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  
+  .learn {
+    background-color: #5ed3eb;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  
+  .getInvolved {
+    background-color: #ffcd69;
+    opacity: 1;
+    transition: 0.3s;
+  }
+  
+  .picture {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5% 0;
+  }
+  
+  .pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5% 0;
+  }
+
+  .topYosemite {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+  }
+    
+  #headerphoto {
+    width: 20%;
+    border-radius: 100%;
+    float: left;
+  }
+  
+  .welcomeWords {
+    padding: 30px;
+    float: left;
+  }
+
+  .welcomeWords h1 {
+    font-size: 43pt;
+  }
+  
+  .top {
+    margin: 50px auto;
+    clear: both;
+    text-align: center;
+    color: white;
+    background-color: #ddb9a3;
+    width: 80%;
+    padding: 30px;
+  }
+  
+section.body {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+section.body div {
+    margin-bottom: 50px;
+}
+   
+section.body img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+section.body p {
+    width: 300px;
+    margin: 0 auto;
+}
+  footer {
+    background-color: #f9e7dc;
+    display: inline-block;
+    width: 100%;
+  }
+
+ #footerphoto {
+    /* margin: 0 auto; */
+    width: 100%;
+  }
+  
+  .footerContainer {
+    height: 400px;
+    overflow: hidden;
+  }
+
+  footer .nav {
+    text-align: center;
+    padding: 30px 0;
+  }
