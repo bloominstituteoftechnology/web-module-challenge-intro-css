@@ -170,7 +170,7 @@ a.orange {
 }
 a.blue {
   background-color: #5ed3eb;
-  margin: 0 18rem;
+  margin: 0 17rem;
 }
 a.yellow {
   background-color: #ffcd69;
@@ -218,4 +218,34 @@ footer {
 .footer-links {
   padding: 2.5rem 0;
   background-color: #f9e7dc;
+}
+.rv {
+  overflow: hidden;
+}
+.rv img {
+  animation: 6s linear 2s infinite both running slidein;
+}
+
+.fire img {
+  animation: 2s linear 1s infinite both alternate fire;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 450px;
+  }
+  to {
+    margin-left: -550px;
+  }
+}
+
+@keyframes fire {
+  from {
+    width: 30%;
+    padding-top: 1.2rem;
+  }
+  to {
+    width: 34.6%;
+    padding-top: 0;
+  }
 }
