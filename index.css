@@ -42,6 +42,10 @@ img {
     width: 20%;
 }
 
+span {
+    font-weight: bold;
+}
+
 nav {
     margin: 0 auto;
     width: 40%;
