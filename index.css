@@ -13,7 +13,8 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {  
 margin: 0;  
 padding: 0;  
-border: 1px solid white;  
+/* border: 1px solid white; */
+border: none;  
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
@@ -41,14 +42,14 @@ img {
     width: 20%;
 }
 
-header nav {
+nav {
     margin: 0 auto;
     width: 40%;
     text-align: center;
     
 }
 
-header nav a {
+nav a {
     display:inline-block;
     text-decoration: none;
     margin: 2rem;
@@ -73,7 +74,7 @@ header nav a {
     background-color: #FFCD69;
 }
 
-header nav a:hover {
+nav a:hover {
     background-color: lightgray;
 }
 
@@ -102,3 +103,44 @@ h1 {
     margin-bottom: 3rem;
 }
 
+.main_body {
+    margin: 0 auto;
+    background-color: #DDB9A3;
+    width: 50%;
+    color: white;
+    padding: 1.5rem;
+}
+
+.icon1 img {
+    display: inline-block;
+    width: 8%;
+    margin: 2rem;
+}
+
+.icon1 p {
+    margin: 0 auto;
+    width: 15%;
+}
+
+.icon2 img {
+    display: inline-block;
+    width: 8%;
+    margin: 2rem;
+}
+
+.icon2 p {
+    margin: 0 auto;
+    width: 15%;
+}
+
+footer img {
+    margin-top: 10rem;
+    width: 100%; /* width of container */
+    height: 30rem; /* height of container */
+    object-position: 0px -15rem;
+    object-fit: cover;
+}
+
+.footer_bg {
+    background-color: #F9E7DC;
+}
