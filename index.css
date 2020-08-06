@@ -18,7 +18,38 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 }
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 
 *{
     box-sizing: border-box;
+    border:1px solid rgb(21, 34, 2);
+}
+html{
+    font-size:62.5%;
+}
+nav href {
+    background-color:#FF764E;
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+}
+nav{
+    width:20%;
+}
+
+body{
+    background-color: #DDB9A3;
+    font-size:2rem;
+    
+}
+.href{
+    color:white;
+    background-color:#5ed3eb;
+    border:30px;
+    padding:15px;
+    display:inline-block;
+}
+footer{
+    background-color:#F9E7DC;
+    background-image: src="assets/footer_img.jpg";
 }
