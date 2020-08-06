@@ -13,7 +13,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {  
 margin: 0;  
 padding: 0;  
-border: 1px solid green;  
+border: 1px solid white;  
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
@@ -28,16 +28,13 @@ vertical-align: baseline;
 
 html {
     font-size: 62.5%;
+    /* 10px base */
 }
 
 body {
     background-color: white;
-    
     font-family: 'Roboto Mono', monospace;
-}
-
-h1 {
-    font-family: 'Chelsea Market', cursive;
+    font-size: 1.6rem;
 }
 
 img {
@@ -54,9 +51,11 @@ header nav {
 header nav a {
     display:inline-block;
     text-decoration: none;
-    margin: 20px;
-    border-radius: 10px;
-    padding: 10px;
+    margin: 2rem;
+    margin-left: 5.3rem;
+    margin-right: 5.3rem;
+    border-radius: 1rem;
+    padding: 1rem;
     border: white;
     color: white;
     width: 16%;
@@ -76,5 +75,30 @@ header nav a {
 
 header nav a:hover {
     background-color: lightgray;
+}
+
+.header_img {
+    display: inline-block;
+    border-radius: 20rem;
+    width: 10%;
+}
+
+.header_text {
+    display: inline-block;
+    width: 25%;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+}
+
+.header_text h2 {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    display: inline-block;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 4.5rem;
+    width: 100%;
+    margin-bottom: 3rem;
 }
 
