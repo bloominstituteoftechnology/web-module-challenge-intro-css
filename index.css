@@ -21,13 +21,23 @@ vertical-align: baseline;
 
 * {
     box-sizing: border-box;
-    max-width:100%;
+    max-width: 100%;
     text-align: center;
     
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     background-color: white;
+    
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
 }
 
 img {
@@ -36,15 +46,35 @@ img {
 
 header nav {
     margin: 0 auto;
-    width: 30%;
+    width: 40%;
     text-align: center;
+    
 }
 
 header nav a {
     display:inline-block;
+    text-decoration: none;
     margin: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 10px;
-    border: 2px solid red;
+    border: white;
+    color: white;
+    width: 16%;
+}
+
+.link1 {
+    background-color: #FF764E;
+}
+
+.link2 {
+    background-color: #5ED3EB;
+}
+
+.link3 {
+    background-color: #FFCD69;
+}
+
+header nav a:hover {
+    background-color: lightgray;
 }
 
