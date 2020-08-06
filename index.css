@@ -98,6 +98,10 @@ a {
   text-decoration: none;
 }
 
+span {
+  font-weight: 900;
+}
+
 body {
   font-family: "Roboto Mono", monospace;
   text-align: center;
@@ -110,7 +114,7 @@ header {
 
 .header {
   padding: 2rem 3rem;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .title {
@@ -119,7 +123,7 @@ header {
 }
 
 .title p {
-  margin: 20px auto;
+  margin: 1.5rem auto;
 }
 
 .secondPraph {
@@ -156,8 +160,8 @@ a.yellow {
   max-width: 9rem;
   padding: 0.5rem 1rem;
   text-align: center;
-  border-radius: 15px;
-  min-height: 43px;
+  border-radius: 1rem;
+  min-height: 3.5rem;
   color: white;
 }
 
@@ -179,7 +183,7 @@ a.yellow {
 }
 
 .more-info p {
-  margin: 10px auto;
+  margin: 2rem auto;
 }
 
 /* Content */
@@ -190,5 +194,28 @@ a.yellow {
   margin: 0 auto;
 }
 .content-wrapper img {
-  width: 26%;
+  width: 30%;
+}
+
+.content-wrapper p {
+  margin-bottom: 4rem;
+  letter-spacing: -0.05rem;
+}
+
+/* Footer */
+footer {
+  width: 100vw;
+}
+
+.img-container {
+  height: 30vh;
+  background-size: cover;
+  background-image: url("../assets/footer_img.jpg");
+  background-position: 0 20%;
+  background-repeat: no-repeat;
+}
+
+.footer-links {
+  padding: 2.5rem 0;
+  background-color: #f9e7dc;
 }
