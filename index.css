@@ -133,6 +133,10 @@ h1 {
     width: 15%;
 }
 
+footer {
+    margin: 0.5rem;
+}
+
 footer img {
     margin-top: 10rem;
     width: 100%; /* width of container */
@@ -143,4 +147,5 @@ footer img {
 
 .footer_bg {
     background-color: #F9E7DC;
+    box-shadow: -1px 2px #bfbfbf;
 }
