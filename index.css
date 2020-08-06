@@ -1,0 +1,154 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+.container{
+    
+    width:90%;
+    margin: 0 auto;
+}
+
+
+
+.nav{
+    display:flex;
+    justify-content: center;
+    padding: 2% 0;
+}
+a{
+    width: 120px;
+    padding: 0 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align:center;
+    
+    
+}
+.plan{
+   background-color: #FF764E;
+   transition: 3s;
+
+}
+.plan:hover{
+    background-color:#FF764E;
+    opacity: 50%;
+    color:black;     
+}
+
+.learn{
+    background-color:#5ED3EB ;
+    transition: 3s;
+}
+.learn:hover{
+    background-color:#5ED3EB ;
+    opacity: 50%;
+    color:black; 
+}
+.get{
+    background-color:#FFCD69;
+    transition: 3s;
+}
+.get:hover{
+    background-color:#FFCD69;
+    opacity: 50%;
+    color:black; 
+}
+#top-image img{
+    border-radius: 50%;
+    width:300px;
+    height:auto;
+}
+#intro p{
+    background-color: #DDB9A3;
+    color:white;
+    margin: 40px 0;
+    padding: 20px;
+}
+.fire{
+  width:27%;
+  margin:0 auto;  
+   
+   
+    
+}
+.fire div img{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+.fire div p{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+body{
+    
+    font-family: 'Roboto Mono', monospace;
+}
+.text h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 36px;
+}
+.container{
+    margin: 0 auto;
+    
+}
+.text{
+    width: 500px;
+    margin: 20px auto 0 200px;
+    text-align: center;
+    display: inline-block;
+    
+}
+.image{
+    display: inline-block;
+    vertical-align: middle;
+    width:400px;
+    margin-top: -40px;
+}
+.image img{
+    width:200px;
+    border-radius: 50%;
+    display:block;
+    margin-left: 200px;
+}
+footer{
+    background-color: #F9E7DC;
+}
+.bottom-image{
+    background-image:url('https://github.com/LambdaSchool/web-module-project-intro-css/blob/main/assets/footer_img.jpg?raw=true');
+    background-size:cover;
+    background-position:center;
+    height:80vh;
+  }
+  
+span{
+    font-weight:bolder ;
+}
+
