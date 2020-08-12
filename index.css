@@ -1,0 +1,99 @@
+body {
+  background-color: white;
+}
+
+* {
+  font-family: "Roboto Mino", monospace;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  padding-left: 15px;
+  width: 200px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.first-link {
+  background-color: #ff764e;
+}
+
+.second-link {
+  background-color: #5ed3eb;
+}
+
+.third-link {
+  background-color: #ffcd69;
+}
+
+.first {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px;
+}
+
+.head {
+  margin-left: -75px;
+}
+
+.head h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 50px;
+}
+
+.head p {
+  width: 20em;
+}
+
+.header-img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.about > p {
+  background-color: #ddb9a3;
+  max-width: 50%;
+  margin-left: 25%;
+}
+
+.about img {
+  width: 15em;
+  margin: 0 auto;
+}
+
+.facts p {
+  width: 50%;
+  margin: 0px auto;
+}
+
+.camping p {
+  width: 50%;
+  margin: 0px auto;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9e7dc;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer img {
+  height: 20em;
+  padding-bottom: 5em;
+}
