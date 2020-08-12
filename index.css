@@ -1,0 +1,114 @@
+body {
+    width: 100%;
+    
+}
+html {
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+ h1 {
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3rem;
+    margin-left: 20%;
+    
+   
+ }
+
+.btn1, .btn2, .btn3  {
+border: 0.0625rem white;
+padding: 2.1%;
+border-radius: 15%;
+margin: 0 6%;
+color: white; 
+font-size: 1rem;
+justify-content: space-between;
+}
+
+.btn1 {
+    background-color:  #FF764E;
+    
+}
+
+.btn2 {
+    background-color:#5ED3EB;
+    
+}
+
+.btn3 {
+    background-color: #FFCD69;
+}
+ .section-first p {
+     text-align: center;
+     margin-left: 40%;
+     width: 50%;
+     display: block;
+     
+ }
+
+.round-img {
+    width: 30%;
+    border-radius: 100%;  
+    margin-bottom: 5%;  
+    margin-top: auto;
+    vertical-align: middle;
+}
+
+.info {
+    background-color:#DDB9A3 ;
+    padding: 1.5%;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.last-section  img{
+    width: 15%;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+.last-section p {
+    width: 33%;
+    margin-left: 28%;
+}
+
+.footer-img {
+    width: 100%;
+    height: 500px;
+    margin-top: 5%;
+}
+
+footer {
+    width: 92%;
+    padding: 4%;
+    background-color: #F9E7DC;
+}
+
+.learn, .plan, .get {
+border: 0.0625rem white;
+padding: 2.1%;
+border-radius: 15%;
+margin: 0 9%;
+color: white; 
+font-size: 1rem;
+justify-content: space-between;
+}
+
+
+.learn {
+   background-color:  #FF764E;
+}
+
+.plan {
+   background-color:#5ED3EB;
+}
+
+.get {
+     background-color: #FFCD69;
+}
