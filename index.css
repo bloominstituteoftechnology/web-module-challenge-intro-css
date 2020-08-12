@@ -1,0 +1,57 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 460px;
+    height: 657px;
+    font-family: roboto-mono;
+  }
+  
+  a {
+    margin: 0rem;
+    display: inline;
+    margin-bottom: 200px;
+    background: #f87b99;
+  }
+  .guide, h1 {
+    font-family:Chelsea-Market;
+  }
+  .yosemite {
+    float: left;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding:5%;
+    
+  }
+  
+  .fire {height:105px;
+    
+  }
+  .bus {height:105px;}
+  
+  .visit {
+    background-color: #ff764e;
+     border-radius: 20%;
+  }
+  .learn {
+    background-color: #5ed3eb;
+    border-radius: 20%;
+  }
+  .involved {
+    background-color: #ffcd69;
+    border-radius: 20%;
+  }
+  
+  .footer {
+    background-color: #f9e7dc;
+  }
+  .about {
+    background-color: #ddb9a3;
+    padding:2%;
+   
+  }
+  .guide { margin-bottom:50px;}
+  .middle{margin-right:25%;
+  margin-left:25%;
+  padding-bottom:5%;}
+  
