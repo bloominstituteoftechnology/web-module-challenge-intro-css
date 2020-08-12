@@ -1,61 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 html{
     font-size:62.5%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 .container{
     width: 600px;
-    margin: auto;
-}
+    margin: 10px auto;
+  }
+.red-button{
+    width: 80px;
+    margin: 10px 43px;
+    padding: 6px 14px;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    background: #FF764E;
+    text-align: center;
+  }
+.blue-button{
+    width: 80px;
+    margin: 10px 43px;
+    padding: 6px 14px;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    background: #5ED3EB;
+    text-align: center;
+  }
+.yellow-button{
+    width: 80px;
+    margin: 10px 43px;
+    padding: 6px 14px;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    background: #FFCD69;
+    text-align: center;
+  }
 .headline{
     display: inline-block;
     text-align: center;
     width: 420px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 h1{
     display: inline;
-    color: rgb(122, 11, 33);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Chelsea Market', cursive;
     font-size: 3rem;
     text-align: center;
 }
 .subline{
     width: 240px;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 .top{
     padding: 20px 0px 0px;
 }
 p{
-    margin: 20px auto;
+    margin: 0px auto;
     text-align: center;
 }
 .brown-box{
     color: white;
-    background-color: tan;
-    border: 0;
-    padding: 2px;
-    font-size: 1.25rem;
+    background-color: #DDB9A3;
+    padding: 5px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.text-box{
+    padding: 5px;
+    width: 95%;
 }
 .text-group{
-    width: 150px;
-    margin: 20px auto;
-    font-size: 1rem;
+    width: 162px;
+    margin: 0px auto 0px;
+    font-size: .85rem;
+    line-height: .95rem;
 }
 img.dot-image {
-    padding: 10px 10px 0px 10px;
+    padding: 10px 10px 10px 10px;
     display: inline;
     width: 150px;
     border-radius: 100%;
   }
 img.icon-image {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto 0px;
+    border: 0px;
     width: 70px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
 img.banner-image{
+    margin-bottom: 5px;
     width: 600px;
     height: 133px;
     object-fit: cover;
     object-position: 0% -30px;
+}
+footer{
+    width: 600px;
+    background: #F9E7DC;
+    margin: 0px auto;
 }
