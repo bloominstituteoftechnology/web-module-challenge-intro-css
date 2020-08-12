@@ -46,97 +46,175 @@ table {
 	border-collapse: collapse;
     border-spacing: 0;
 }
-nav a {
-    text-decoration: none;
-    border-radius: 3em;
-    padding: 1em 2em;
+
+
+
+.buttons{
+    padding: 30px 15px;
+    display: table;
     text-align: center;
+    width: 65em;
     color: white;
     font-family: 'Roboto Mono', monospace;
-    display: inline-block;
-    margin-left: 10em;
-    margin-top: 1em;
-    
-  }
-.button1{
-    background:#FF764E;         
-    
+    font-size: 1em;
+    float: left;
+    white-space: normal;
+    word-wrap: break-word;
+    margin-left: 4em;
+    margin-bottom: 2em;
+
 }
-.button2{
-    background:#5ED3EB;
+      
+.buttons span{
+    display: table-cell;
+    text-align: center;
    
+    
+    
+    
+
+  }
+  .button1{
+    background:#FF764E;
+    border-radius: 12px;
+    border: 1px solid #FF764E;
+    padding: 8px;
+    padding-bottom: 2em;
+    outline: none;
+    margin: auto;
+    position: relative;
+    max-width: 40%;
+    display: flex;
+    max-height: 10px;
+    margin-right: 2em;
+       
  }
+ .button1:hover{
+     background: #5ED3EB;
+ }
+.button2{
+  background:#5ED3EB;
+  border-radius: 12px;
+  border: 1px solid #5ED3EB;
+  padding: 8px;
+  padding-bottom: 2em;
+  outline: none;
+  margin: auto;
+  position: relative;
+  max-width: 40%;
+  display: flex;
+  max-height: 14px;
+        
+     }
 .button3{
-    background: #FFCD69;     
-     
+    background: #FFCD69;
+    border-radius: 12px;
+    border: 1px solid #FFCD69;
+    padding: 10px;
+    outline: none;
+    margin: auto;
+    position: relative;
+    max-width: 46%;
+    display: flex;
+    min-height: 31px;  
+    text-align: center;
+    margin-left: 2em;
+        
+} 
+
+.headerbar{
+    display: inline-block;
+    margin-left: 6%
         
 }
-header{
-    display: inline-block;
-    width: 100%;
+
+#headerimg{
+    border-radius: 50%;
+    height: 20%;
+    width: 20%;
+    float: left; 
+    margin-left: 6em;
+  } 
+
+#headert{
+    display: inline;
+    float: left;
+    
     }
-header img{
-            border-radius: 50%;
-            height: 25%;
-            width: 25%;
-            vertical-align: center;
-              
-               
- }
-header span{
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    vertical-align: center;
-    margin: right;
-}
- 
- .title{
-     font-family: 'Chelsea Market', cursive;
-     font-size: 4em;
+  .title{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
     
-     
-    
-         
- }
-.subheading1{
+   
+}  
+.subtitle{
     font-family: 'Roboto Mono', monospace;
     font-size: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+    border: 0px;
+   
+              
+  }
+.sub2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    text-align: center;
+    padding: 0px 5px 0px;
+    max-width: 50%;
+    margin-left: 25%;
     
-    }
+                       
+}
+         
 .body{
     font-family: 'Roboto Mono', monospace;
-    font-size: 24px;
+    font-size: 1em;
     background: #DDB9A3;
     color: white;
     text-align: center;
-    padding: 1em 1em 1em 1em;
-    margin: 1em;
-    margin: auto;
-}
+    padding: 1em;
+    margin-top: 4em;
+    max-width: 67%;
+    margin-left: 13%; 
+    padding-left: 2em;
+    padding-right: 2em;
+    }
 .fire{
     max-width: 10em;
     height: auto;
+    margin-left: 42%;
+    margin-top: 2em;
 }
 .firetext{
     font-family: 'Roboto Mono', monospace;
     font-size: 16px;
-    display: inline-block
+    display: inline-block;
     padding: 1em;
     margin: -1em;
     margin: auto;
+    text-align: center;
+    margin-top: 1em;
+    max-width: 26%;
+    margin-left: 35%;
         }
 .camper{
     max-width: 10em;
-    height: auto;
-}
+    margin-left: 42%;
+    margin-top: 4em;
+    }
 .campertext{
     font-family: 'Roboto Mono', monospace;
     font-size: 16px;
     display: inline-block;
-    padding: -1em;
     margin: 1em;
     margin: auto;
+    text-align: center;
+    max-width: 27%;
+    margin-left: 35%;
         }
         .clearfix {
             overflow: auto;
@@ -147,31 +225,82 @@ header span{
 .campertext b{
     font-weight: bold;
 }
+
+        
 .footerimg{
-    width:1264px;
-    height: 305px;
-}
-nav a {
-    text-decoration: none;
-    border-radius: 5px;
-    padding: 1em;
-    background-color: #F9E7DC;
-    text-align: center;
-    color: white;
-    font-family: 'Roboto Mono', monospace;
-    display: inline-block;
-    margin-left: 10em;
-    margin-top: 1em;
-       
-  }
-.buttonf{
-    background:#FF764E;         
+    margin-top: 6em;
+    width: 100%;
+    height: 14em;
+    
+    
+    
+    
     
 }
-.buttonf1{
-    background:#5ED3EB;
-   
- }
-.buttonf2{
-    background: #FFCD69; 
+.buttonsb{
+    padding: 40px 150px;
+    width: 100%; 
+    background: #F9E7DC;
+    display: table;
+    text-align: center;
+    width: 64em;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    float: left;
+    word-wrap: break-word;
+    margin-right: 5em;
+    
+ 
+    }
+
+.buttonsb span{
+  display: table-cell;
   
+
+}
+.button4{
+    background:#FF764E;
+    border-radius: 12px;
+    border: 1px solid #FF764E;
+    padding: 10px;
+    padding-bottom: 2em;
+    outline: none;
+    margin: auto;
+    position: relative;
+    max-width: 45%;
+    display: flex;
+    max-height: 10px;
+    margin-right: 2em;
+       
+ }
+.button5{
+    background:#5ED3EB;
+    border-radius: 12px;
+    border: 1px solid #5ED3EB;
+    padding: 8px;
+    padding-bottom: 2em;
+    outline: none;
+    margin: auto;
+    position: relative;
+    max-width: 30%;
+    display: flex;
+    max-height: 13px;
+    margin-right: 6em;
+  
+}
+.button6{
+    background: #FFCD69;
+    border-radius: 12px;
+    border: 1px solid #FFCD69;
+    padding: 10px;
+    outline: none;
+    margin: auto;
+    position: relative;
+    max-width: 38%;
+    display: flex;
+    min-height: 30px;  
+    text-align: center;
+    margin-right: 7em;
+  
+} 
