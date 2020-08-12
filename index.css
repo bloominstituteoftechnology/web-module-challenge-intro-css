@@ -46,97 +46,163 @@ table {
 	border-collapse: collapse;
     border-spacing: 0;
 }
-nav a {
-    text-decoration: none;
-    border-radius: 3em;
-    padding: 1em 2em;
-    text-align: center;
-    color: white;
-    font-family: 'Roboto Mono', monospace;
-    display: inline-block;
-    margin-left: 10em;
-    margin-top: 1em;
-    
-  }
-.button1{
-    background:#FF764E;         
-    
-}
-.button2{
-    background:#5ED3EB;
+
+
+
+div nav{
+    display: inline;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 3em;
+    margin-top: 2em;
    
- }
-.button3{
-    background: #FFCD69;     
+    
      
+}
+
+.button1{
+    background:#FF764E;
+    border-radius: 8px;
+    color: white;
+    width: 8em;
+    min-height: 3em;
+    text-align: center;
+    font-size: 19px;    
+    margin-left: 4.5em;
+    margin-right: 4.5em;
+      
+ }
+ .button1:hover{
+     background: #FFCD69;
+    
+ }
+
+.button2{
+  background:#5ED3EB;
+  border-radius: 8px;
+  color: white;
+  width: 8em;
+  min-height: 3em;
+  font-size: 19px;
+  margin-left: 4.5em;
+  margin-right: 4.5em; 
+   
+}
+.button2:hover{
+    background:#FF764E;
+       
+}
+.button3{
+    background: #FFCD69;
+    border-radius: 8px;
+    color: white;
+    width: 8em;
+    min-height: 3em;
+    font-size: 19px;
+    margin-left: 4.5em;
+    margin-right: 4.5em;  
+} 
+.button3:hover{
+    background:#5ED3EB;
+
+       
+}
+
+.headerbar{
+    display: inline-block;
+    margin-left: 6%
         
 }
-header{
-    display: inline-block;
-    width: 100%;
+
+#headerimg{
+    border-radius: 50%;
+    height: 20%;
+    width: 20%;
+    float: left; 
+    margin-left: 6em;
+  } 
+
+#headert{
+    display: inline;
+    float: left;
+    
     }
-header img{
-            border-radius: 50%;
-            height: 25%;
-            width: 25%;
-            vertical-align: center;
-              
-               
- }
-header span{
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    vertical-align: center;
-    margin: right;
-}
- 
- .title{
-     font-family: 'Chelsea Market', cursive;
-     font-size: 4em;
+  .title{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
     
-     
-    
-         
- }
-.subheading1{
+   
+}  
+.subtitle{
     font-family: 'Roboto Mono', monospace;
     font-size: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+    border: 0px;
+   
+              
+  }
+.sub2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+    text-align: center;
+    padding: 0px 5px 0px;
+    max-width: 50%;
+    margin-left: 25%;
     
-    }
+                       
+}
+         
 .body{
     font-family: 'Roboto Mono', monospace;
-    font-size: 24px;
+    font-size: 1em;
     background: #DDB9A3;
     color: white;
     text-align: center;
-    padding: 1em 1em 1em 1em;
-    margin: 1em;
-    margin: auto;
-}
+    padding: 1em;
+    margin-top: 4em;
+    max-width: 67%;
+    margin-left: 7em; 
+    padding-left: 5em;
+    padding-right: 5em;
+    }
 .fire{
     max-width: 10em;
     height: auto;
+    margin-left: 42%;
+    margin-top: 2em;
 }
 .firetext{
     font-family: 'Roboto Mono', monospace;
     font-size: 16px;
-    display: inline-block
+    display: inline-block;
     padding: 1em;
     margin: -1em;
     margin: auto;
+    text-align: center;
+    margin-top: 1em;
+    max-width: 26%;
+    margin-left: 35%;
         }
 .camper{
     max-width: 10em;
-    height: auto;
-}
+    margin-left: 42%;
+    margin-top: 4em;
+    }
 .campertext{
     font-family: 'Roboto Mono', monospace;
     font-size: 16px;
     display: inline-block;
-    padding: -1em;
     margin: 1em;
     margin: auto;
+    text-align: center;
+    max-width: 27%;
+    margin-left: 35%;
         }
         .clearfix {
             overflow: auto;
@@ -147,31 +213,75 @@ header span{
 .campertext b{
     font-weight: bold;
 }
+
+        
 .footerimg{
-    width:1264px;
-    height: 305px;
-}
-nav a {
-    text-decoration: none;
-    border-radius: 5px;
-    padding: 1em;
-    background-color: #F9E7DC;
-    text-align: center;
-    color: white;
-    font-family: 'Roboto Mono', monospace;
-    display: inline-block;
-    margin-left: 10em;
-    margin-top: 1em;
-       
-  }
-.buttonf{
-    background:#FF764E;         
+    margin-top: 6em;
+    min-width: 79em;
+    height: 14em;
+    
+    
+    
+    
     
 }
-.buttonf1{
-    background:#5ED3EB;
+.footer{
+    display: inline;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 3em;
+    background: #F9E7DC;
+    padding: -1em;
    
+    
+     
+}
+
+.button4{
+    background:#FF764E;
+    border-radius: 8px;
+    color: white;
+    width: 8em;
+    min-height: 3em;
+    text-align: center;
+    font-size: 19px;    
+    margin-left: 4.5em;
+    margin-right: 4.5em;
+      
  }
-.buttonf2{
-    background: #FFCD69; 
-  
+ .button4:hover{
+    background: #FFCD69;
+   
+}
+
+.button5{
+  background:#5ED3EB;
+  border-radius: 8px;
+  color: white;
+  width: 8em;
+  min-height: 3em;
+  font-size: 19px;
+  margin-left: 4.5em;
+  margin-right: 4.5em; 
+ }
+ .button5:hover{
+    background:#FF764E;
+       
+}
+.button6{
+    background: #FFCD69;
+    border-radius: 8px;
+    color: white;
+    width: 8em;
+    min-height: 3em;
+    font-size: 19px;
+    margin-left: 4.5em;
+    margin-right: 4.5em;  
+} 
+.button6:hover{
+    background:#5ED3EB;
+
+       
+}
