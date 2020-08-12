@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap'); */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -13,89 +16,284 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	
-	font-size: 100%;
-	font: inherit;
+
 	vertical-align: baseline;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto Mono;
+    text-align: center;
+}
+.plan {
+    background-color: #FF764E;
+}
+#upper .plan:hover {
+    background-color: #e68f74;
+}
+
+.learn {
+    background-color: #5ED3EB;
+}
+#upper .learn:hover {
+    background-color: #7ec4d2;
+}
+
+.get {
+    background-color: #FFCD69;
+}
+#upper .get:hover {
+    background-color: #e6c88d;
+}
+
+@keyframes example {
+    0% {color: #FF764E;}
+    25% {color: #5ED3EB;}
+    50% {color: #FFCD69;}
+    75% {color: white;}
+    100% {color:lightyellow}
+   
+}
+
+h1 {
+    font-family: Chelsea Market;
+   
+    position: relative;
+    animation-name: example;
+    animation-duration: 8s;
+    
+    animation-direction: reverse;
+}
+#main {
+    background-color: #DDB9A3;
+}
+footer {
+    background-color: #F9E7DC;
+}
+#fire, #fee {
+    font-weight: bold;
+}
+.plan, .learn, .get {
+    border: none;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    color: #ffffff;
+    border-radius: 12px;
+    width: 115px;
+    height: 45px;
+}
+header {
+    display: inline-flex;
+    margin-bottom: 3%;
+}
+header img {
+    border-radius: 50%;
+    width: 275px;
+    height: auto;
+    margin-left: 5%;
+}
+#guide h1 {
+    line-height: 2.6;
+    font-size: 40px;
+    margin-top: 0;
+    word-spacing: 10px;
+}
+#guide p {
+    margin-right: 17%; 
+    margin-left: 17%;
+}
+.p1 {
+    margin-bottom: 3%;
+}
+#main {
+    margin: 0 15%;
+    margin-bottom: 3%;
+    color: #ffffff;
+    padding: 10px 15px;
+}
+#main .p1 {
+    margin-bottom: 15px;
+}
+#camping img {
+    width: 110px;
+    height: auto;
+}
+#camping {
+    margin: 0 40%;
+}
+#camping p {
+    margin-bottom: 50px;
+}
+footer {
+    margin: 0 1px;
+}
+footer img {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+/* 3 */
+/* 
 *{
     box-sizing: border-box;
     border: 2px dotted greenyellow;
+    font-family: 'roboto mono';
 }
 header{
-    border: 3px solid purple;
-    width: 100%;
+    /* border: 8px solid purple; */
+    /* width: 100%; */
     
-}
-nav a{
-    border: 5px solid skyblue;
-    display: inline-block;
-    font-size: 1.6rem; 
-    margin-left: 6.5rem;
+/* }
+h1{
+    font-family: 'Chelsea Market';
+    font-size: 1rem;
+} */
 
-}
-.button1{
+/* .topcontainer{ */
+    /* border: 5px solid slateblue; */
+    /* display: inline block;
+    padding-bottom: 100px;
+    padding-top: 100px;
+} */
+/* nav{
+    margin: 2rem;
+    margin-left: 160px;
+} */
+/* nav a{ */
+    /* border: 5px solid skyblue; */
+    /* display: inline-block;
+    font-size: 1.6rem; 
+    margin-left: 7rem;
+    border-radius: 20%;
+    height: 70%;
+    padding: 1rem;
+
+} */
+/* .button1{
     background-color: #ff764e;
     color: white;
     
 
-}
-.button2{
+} */
+/* .button2{
     background-color: #5ed3eb;
     color: white;
 }
 .button3{
     background-color: #ffcd69;
-    color: white;
-}
-header div img{
-    border: 3px solid tomato;
-    width: 30%;
+    color: white; */
+/* } */
+/* header div img{ */
+    /* border: 3px solid tomato; */
+    /* width: 30%;
     height: 30%;
     border-radius: 50%;
-} 
+    
+}  */
+/* .halfdome{
+    float: left;
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
 
-.headerTitle{
-    border: 3px solid orange;
-    display: inline-block;
-}
 
-.main-body{
+} */
+
+/* .headerTitle{
+    /* border: 3px solid orange; */
+    /* margin-top: 150px;
+    margin-right: 50px;
+    float: right; */
+    /* margin: 0 15%;
+    margin-bottom: 3%;
+    padding: 10px 15px;
+} */ 
+/* .headerTitle h1{
+    font-size: 2rem;
+
+} */
+/* .headerTitle p{
+    font-size: 1.6rem;
+} */
+/* .p1{ */
+    /* margin-bottom: 15px;
+    margin-left: 15px; */
+    /* margin-left: 17%; */
+
+
+/* .main-body{
+    color: white;
     background-color: #ddb9a3;
-    padding: 2rem;
+    padding: 3rem;
     font-size: 1.4rem;
-}
+    margin-top: 450px;
+    height: 10rem;
 
-.big-container{
-    border: 5px solid brown;
+} */
+
+/* .big-container{ */
+    /* border: 5px solid brown; */
     
-}
+/* } */
 
-.topimage{
-    border: 3px solid blue; 
+/* .topimage{ */
+    /* border: 3px solid blue;  */
+    /* width: 30%;
+    height: 35%;
+    margin: 10rem 20rem; */
     
-}
-.bottomimage{
-    border: 3px solid red;
-}
+/* } */
+/* .topimage img{
+    margin-left: 150px;
+    justify-content: end;
+    width: 350px;
+    height: 200px; */
+/* } */
+/* .topimage p{
+    width: 500px;
+    padding: 2rem;
+    margin-left: 100px;
+    font-size: 1.8rem;
+} */
+/* .bottomimage{
+    /* border: 3px solid red; */
+    /* width: 30%;
+    height: 35%;
+    margin: 10rem 20rem;
+} */ 
 
-.topimage img{
-    width: 18%;
-}
+/* .bottomimage img{
+    margin-left: 150px;
+    justify-content: end;
+    width: 350px;
+    height: 200px;
+} */
+/* .bottomimage p{
+    width: 500px;
+    padding: 2rem;
+    margin-left: 100px;
+    font-size: 1.8rem;
+} */
 
-.bottomimage img{
-    width: 18%;
-}
-
-.footerImage img{
-    border: 5px solid darkcyan;
-    width: 100%;
-    height: 15rem;
+/* .footerImage img{ */
+    /* border: 5px solid darkcyan; */
+    /* width: 100%;
+    height: 15rem; */
+     
     
-}
+/* } */
 
-footer{
+/* footer{
     background-color: #f9e7dc;
-    
-}
+
+} */
