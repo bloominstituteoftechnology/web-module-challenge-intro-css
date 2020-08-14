@@ -33,6 +33,7 @@ body{
     color: white;
     text-decoration: none;
     background-color: #FF764E;
+    width: 28%;
 }
 
 .H2{
@@ -42,6 +43,7 @@ body{
     color: white;
     text-decoration: none;
     background-color: #5ED3EB; 
+    width: 28%;
 }
 
 .H3{
@@ -50,6 +52,7 @@ body{
     border-radius: 20px;
     color: white;
     background-color: #FFCD69;
+    width: 28%;
 }
 
 .nav1{
@@ -59,7 +62,7 @@ body{
 
 .header1{
     width:100%;
-    margin-top: 60px;
+    margin: o auto;
 }
 
 h1{
@@ -67,12 +70,14 @@ h1{
     font-size: 60px;
     width: 80%;
     text-align: right;
+    display: inline-block;
+    padding-bottom: 20px;
+    margin: 0 auto;
 }
 nav{
     width:100%
 }
 nav a{
-    width: 27%;
     display: inline-block;
     font-size: 30px;
     text-align: center;
@@ -108,6 +113,19 @@ nav a{
       height: 100%;
       width:100%;
   }
+  .secondsection p{
+      text-align:center;
+      width: 50%;
+      margin-left: auto;
+      margin-right:auto;
+  }
+
+  .firstsection p{
+    text-align:center;
+    width: 50%;
+    margin-left: auto;
+    margin-right:auto;
+  }
 
   .secondimg{
     display: block;
@@ -129,11 +147,22 @@ nav a{
     font-weight: 700;
   }
 
+  .secondbold{
+    font-size: 20px;
+    font-weight: 700;
+  
+  }
+
   .headerpic{
       border-radius: 50%;
-      max-width: 20;
-      display: block;
+      display: inline-block;
       margin-left: auto;
       margin-right: auto;
-      width: 50%;
+      width: 25%;
+      margin-top: 50px;
+  }
+
+  .footerpic{
+      width: 100%;
+      height: 300px;
   }
