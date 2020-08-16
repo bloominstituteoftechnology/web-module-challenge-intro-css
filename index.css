@@ -42,8 +42,8 @@ table {
 	border-spacing: 0;
 }
 /*******END RESET********/
-@import "<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">";
-@import "<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">";
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 html{
   width:62.5%;
 }
@@ -53,19 +53,14 @@ body{
 #container{
   width: 80%;
   margin: 0 auto;
+
 }
+
 
 div .img-1{
   width: 20%;
   height: 60%
 }
-.container img .footer_img{
-
-}
-
-
-
-
 .links{
   width: 60%;
   color:red;
@@ -78,16 +73,25 @@ div .img-1{
   align-items: flex-end;
   text-align: center;
 
-
 }
 .top-section{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
   text-align: center;
   margin: 0 auto;
   width: 60%;
 }
+.top-section img{
+  width: 12rem;
+  display:flex;
+  flex-direction: column;
+  border-radius: 10rem;
+
+}
+
+
 .middle-section{
   display: flex;
   width: 90%;
@@ -102,6 +106,15 @@ div .img-1{
   background-color: #DDB9A3;
   text-shadow: 2px 2px 4px #000000;
 
+}
+p{
+  margin-top:5px;
+}
+
+.middle-section p{
+  font-family:'Roboto Mono', monospace;
+  letter-spacing: 3px;
+  padding:0 0 10px 5px;
 }
 .bottom-section{
   display:flex;
@@ -220,11 +233,17 @@ footer{
 } */
 
 .header h1{
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color:black;
   display: flex;
   margin-bottom: 1rem;
-  font-family: 'Chelsea Market', cursive;
+  font-family: 'Chelsea Market';
+  
+
+}
+.header p{
+  letter-spacing: 1.5px;
+  line-height: 2rem;
 
 }
 
