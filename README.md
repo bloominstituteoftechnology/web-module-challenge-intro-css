@@ -53,12 +53,6 @@ Once your repository is set up, practice what you learned today to style the sit
 
 **Throughout your design you should avoid static units (pixels), and should instead use responsive units wherever possible.**
 
-### Task 2b: Exit Ticket
-
-Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/DyGu5BAvk3m7jHqoz/AiMA3XzNTYpeQH).
-
-The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability without using external references.
-
 
 ### Task 3: Stretch Goals
 
