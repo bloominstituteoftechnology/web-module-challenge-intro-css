@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  /* border: 1px solid grey; */
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto Mono", monospace;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: normal;
+  margin: 4%;
+}
+
+h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 6rem;
+  letter-spacing: 4px;
+}
+
+section,
+footer {
+  padding: 4% 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  margin: 5% 10%;
+  padding: 0 2%;
+}
+
+span {
+  font-weight: bolder;
+}
+
+/*header section styles*/
+
+nav {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.orange {
+  background-color: #ff764e;
+  transition: 2s;
+}
+
+.orange:hover {
+  color: #ff764e;
+  border: 2px solid #ff764e;
+  background-color: #fff;
+}
+
+.blue {
+  background-color: #5ed3eb;
+  transition: 2s;
+}
+
+.blue:hover {
+  background-color: #fff;
+  color: #5ed3eb;
+  border: 2px solid #5ed3eb;
+}
+
+.yellow {
+  background-color: #ffcd69;
+  transition: 2s;
+}
+
+.yellow:hover {
+  background-color: #fff;
+  color: #ffcd69;
+  border: 2px solid #ffcd69;
+}
+
+.headWrapper {
+  width: 100%;
+}
+
+.left {
+  width: 25%;
+  display: inline-block;
+}
+.img {
+  width: 100%;
+  margin: 0 auto;
+}
+.left img {
+  border-radius: 50%;
+}
+.right {
+  width: 70%;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.right .text {
+  font-size: 2rem;
+  display: inline-block;
+  width: 100%;
+}
+
+.text p {
+  width: 50%;
+  margin: 0 auto;
+}
+/*about section styles*/
+
+.textOne {
+  width: 95%;
+  background-color: #ddb9a3;
+  margin: 0 auto;
+  padding: 2%;
+  color: #fff;
+}
+.textOne p {
+  margin: 2% 0;
+}
+
+/*plan section styles*/
+#plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box {
+  width: 35%;
+  margin: 4% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.box img {
+  width: 60%;
+}
+
+/*hero image section */
+.hero-image {
+  background-image: url("https://github.com/LambdaSchool/web-module-project-intro-css/blob/main/assets/footer_img.jpg?raw=true");
+  background-size: cover;
+  background-position: top;
+  height: 40vh;
+}
+
+footer {
+  background-color: #f9e7dc;
+}
