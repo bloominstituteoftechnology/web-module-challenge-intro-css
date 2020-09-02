@@ -12,7 +12,7 @@ body {
   line-height: 1.6em;
 }
 h1 {
-  font-size: 2.4em;
+  font-size: 3em;
   padding: 1em;
 }
 
@@ -45,18 +45,19 @@ h1 {
 .item-img {
   display: inline-block;
   width: 30%;
-  height: 40%;
-  margin-left: 2em;
+  
+  margin-left: 5em;
 }
 .item-text{
   display: inline-block;
-  width: 40%;
+  width: 50%;
   text-align: center;
-  height: 50%;
+  padding-right: 3em;
   padding-bottom: 3em;
   
 }
 .paragraph {
+  
   padding-bottom: .9em;
 }
 .wrapper2 {
@@ -71,11 +72,18 @@ h1 {
   margin: 1em 15em;
 }
 
-
 .wrapper-image {
-  width: 10%;
+  width: 30%;
 }
 
+
+.img {
+height: 300px;
+width: 100%;
+object-fit: cover;
+object-position: center top;
+   
+}
 
 
 
