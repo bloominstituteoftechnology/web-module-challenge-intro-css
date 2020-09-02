@@ -1,0 +1,44 @@
+nav {
+  text-align: center;
+}
+nav a {
+  margin: 0 10%;
+}
+
+.button1 {
+  display: inline-block;
+  width: 130px;
+  padding: 2% 0;
+  border-radius: 5px;
+  border: 7px;
+  transition: 2s;
+  background-color: #ff764e;
+  color: white;
+  text-decoration: none;
+}
+.button2 {
+  display: inline-block;
+  width: 130px;
+  padding: 2% 0;
+  border-radius: 5px;
+  border: 2px;
+  transition: 2s;
+  background-color: #5ed3eb;
+  color: white;
+  text-decoration: none;
+}
+.button3 {
+  display: inline-block;
+  width: 130px;
+  padding: 2% 0;
+  border-radius: 5px;
+  border: 2px;
+  transition: 2s;
+  background-color: #ffcd69;
+  color: white;
+  text-decoration: none;
+}
+.button:hover {
+  color: white;
+  background-color: black;
+}
