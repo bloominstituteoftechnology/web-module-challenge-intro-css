@@ -1,0 +1,81 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6em;
+}
+h1 {
+  font-size: 2.4em;
+  padding: 1em;
+}
+
+
+.wrapper { text-align: center;}
+
+.visit,
+.park,
+.involved {
+  display: inline-block;
+  margin: 2em;
+  padding: 1.5em 2em;
+  border-radius: 30px;
+  color: white;
+}
+.visit {
+  background-color: #ff764e;
+}
+.park {
+  background-color: #5ed3eb;
+}
+.involved {
+  background-color: #ffcd69;
+}
+
+.wrapper1-image {
+  width: 60%;
+  border-radius: 150px;
+}
+.item-img {
+  display: inline-block;
+  width: 30%;
+  height: 40%;
+  margin-left: 2em;
+}
+.item-text{
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  height: 50%;
+  padding-bottom: 3em;
+  
+}
+.paragraph {
+  padding-bottom: .9em;
+}
+.wrapper2 {
+  background-color: #DDB9A3;
+  color: white;
+  margin: 0em 3em;
+  padding: 2em;
+}
+
+.wrapper3 {
+  text-align: center;
+  margin: 1em 15em;
+}
+
+
+.wrapper-image {
+  width: 10%;
+}
+
+
+
+
