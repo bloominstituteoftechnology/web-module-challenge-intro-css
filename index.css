@@ -8,12 +8,18 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.6em;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.6;
+ 
 }
 h1 {
+  line-height: 1;
+  font-family: 'Chelsea Market', cursive;;
   font-size: 3em;
   padding: 1em;
+}
+span {
+  font-weight: bold;
 }
 
 
@@ -69,16 +75,19 @@ h1 {
 
 .wrapper3 {
   text-align: center;
-  margin: 1em 15em;
+  margin: 4em 15em;
 }
 
 .wrapper-image {
   width: 30%;
 }
-
+.footer {
+  background-color: #F9E7DC
+  ;
+}
 
 .img {
-height: 300px;
+height: 15em;
 width: 100%;
 object-fit: cover;
 object-position: center top;
