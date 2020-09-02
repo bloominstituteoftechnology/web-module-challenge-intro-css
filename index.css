@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:0;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    line-height:1.5;
+    font-size:1.6rem;
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    letter-spacing: 3px; 
+}
+section{
+    padding:4% 0;
+}
+a{
+    text-decoration: none;
+ 
+}
+nav{
+    padding:8%;
+}
+
+.link{
+    display:inline-block;
+    padding:3%;
+    border-radius:10px;
+    margin:0 3%;
+}
+.plan{
+
+    background-color:#F9E7DC;
+}
+.plan:hover{background-color: rgba(215,124,24,.7);
+    border:2px solid black;
+}
+
+.learn{
+    
+    background-color:#5ED3EB;
+}
+.learn:hover{background-color: rgba(1, 65, 124, 0.7);
+border:2px solid black;}
+
+
+.get{
+    background-color:#FFCD69;
+}
+.get:hover{background-color: rgba(255, 155, 47, 0.7);
+border:2px solid black}
+
+header .leftImg img{
+    width:60%;
+    border-radius:50%;
+    margin:2% 25%;
+}
+header .leftImg{
+    display:inline-block;
+    width:38%;
+    margin:4% 0;
+}
+header .rightText{
+    display:inline-block;
+    width:59%;
+    padding:3%;
+    margin:4% 0;
+}
+header .rigtText h1{
+    
+}
+.mainP{
+    width:85%;
+    margin:auto;
+    background-color:#DDB9A3;
+    color:rgba(255,254,254,.9);
+    padding: 1%;
+}
+
+p .mainP {
+    text-align: center;
+}
+#about{
+   padding:5%;
+    width: 45%; 
+    margin:auto;
+}
+.gifs{
+    margin:auto;
+    width:45%;
+    
+}
+.truckImg{
+    width:65%;
+    border-radius:50%;
+    background-image: url('https://image.flaticon.com/icons/svg/2979/2979348.svg');
+    background-size: cover;
+    height: 25vh;
+    background-position: top center;
+}
+.truckImg:hover{
+    background-image:url('assets/photo-1589903308904-1010c2294adc.jpeg');
+}
+.campImg{
+    width:65%;
+    border-radius:50%;
+    background-image: url('https://image.flaticon.com/icons/svg/820/820374.svg');
+    background-size: cover;
+    height: 25vh;
+    background-position: top center;
+}
+.campImg:hover{
+    background-image:url('assets/photo-1593713150481-de2e67b4bbf8.jpeg');
+}
+#about .text p{
+    padding:2%;
+}
+#about .text:hover{
+    background-color:orangered;
+    color:whitesmoke;
+}
+img{
+    margin:auto;
+}
+.landscape{
+    height: 35vh;
+    background-attachment: fixed;
+    background-image: url('assets/footer_img.jpg');
+    background-position: top right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-color:#F9E7DC;
+    
+    
+}
+footer .links{
+    width:100%;
+    display:inline-block;
+    
+}
