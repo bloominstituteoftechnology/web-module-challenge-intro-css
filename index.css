@@ -1,0 +1,87 @@
+
+.containter{
+    width:600;
+}
+#middle{
+    background-color: #DDB9A3;
+    width: 50%;
+    color: white;
+}
+#menuOne{
+    margin: 0 10px;
+    display: flex;
+    color:white
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration:none;
+    background-color: #FF754F;
+   
+
+}
+#menuTwo{
+    text-decoration:none;
+    background-color: #5FD3ED;
+    color: white
+    margin: 0 10px;
+    display: flex;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    
+}
+#menuThree{
+    margin: 0 10px;
+    color: white
+    display: flex;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration:none;
+    background-color: #FFCD6A;
+}
+a:link {
+    text-decoration: none;
+    color:white
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color:whitesmoke
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color:gray
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color:lightgray
+  }
+  #burning{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+     
+  }
+  #footer{
+    height: 250px;
+    width: 100%;
+  }
+  #fireText{
+      text-align: center;
+  }
+  #camping{
+      text-align: center;
+  }
+  #mountainOne{
+    height: 15%;
+    width: 15%;
+    border-radius: 50%;
+}
