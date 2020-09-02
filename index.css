@@ -6,7 +6,8 @@
     box-sizing: border-box;
     padding:0;
     margin:0;
-    max-width:100%; 
+    max-width:100%;
+    border:0.5px solid grey; 
 }
 
 /*body, html{
@@ -17,20 +18,27 @@
 }*/
 
 header{
-    height:15vh;
+    /*height:15vh;*/
     background-color:white;
 }
 
 header nav{
     width:100%;
     display:inline-block;
+    margin:auto;
 }
 
 #header-img{
     border-radius:50%;
-    height: 20%;
-    width: 20%;
-    display:block;
+    height:15%;
+    width:15%;
+    display:inline-block;
+}
+
+#text{
+    display:inline-block;
+    widows: 20%;
+    text-align:center;
 }
 
 h1{
@@ -82,13 +90,6 @@ button{
     display:inline-block;
 }
 
-.container-one{
-    display:block;
-    width: 70%;
-    text-align:center;
-    margin-left:20%;
-}
-
 .mainbody p{
     background-color:#DDB9A3;
     color: white;
@@ -99,18 +100,22 @@ button{
     display:inline-block;
     width:15%;
     text-align:center;
+    margin-left:20%;
+    border: 10%;
 }
 
 .container-three{
     display:inline-block;
     width:15%;
-    text-align:center; 
+    text-align:center;
+    margin-left:20%;
+    border: 10%; 
 }
 
 .footer-img{
     border-radius:0;
-    height:5%;
-    width:auto;
+    height:30vh;
+    width:100%;
 }
 
 footer{
