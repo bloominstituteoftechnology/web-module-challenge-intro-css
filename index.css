@@ -1,0 +1,28 @@
+.top-images a{
+    border-radius:20px;
+    text-decoration:none;
+    padding:75px;
+    font-size:25px;
+  }
+  nav a{
+    margin:100px;
+  }
+  
+  .one{
+    color:white;
+    background:#FF754E;
+  }
+  
+  .two{
+    color:white;
+    background:#5FD3EC;
+  }
+  
+  .three{
+    color:white;
+    background:#FFCD6A;
+  }
+  
+  .icon-2 img{
+    height:400px;
+  }
