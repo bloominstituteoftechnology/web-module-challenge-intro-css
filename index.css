@@ -1,0 +1,91 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+    }
+* {
+    border: 5px green dotted;
+}
+html {
+    font-size: 62.5%;
+}
+.head_nav{
+    text-align: center;
+    font-size: 1.5rem;  
+}
+.head_nav li {
+    display: inline-block;
+    border-radius:20px;
+    padding:15px 40px;
+    margin: 40px 65px;
+    color: white;
+}
+.nav_link1 {
+   background:#FF754E;
+   width:80px;
+}
+.nav_link2 {
+    background:#5FD3EC;
+    width: 80px;
+}
+.nav_link3 {
+    background:#FFCD6A;
+    width: 80px;
+}
+#rocks{
+    border-radius: 50%;
+    width: 200px;
+    display: inline-block;
+    
+}
+.rocks h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+.rocks1 {
+    font-size: 2rem;
+    display: inline-block;
+}
+.rocks_txt {
+    padding-left: 49%;
+    border: red solid 5px;
+    
+    
+}
