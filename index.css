@@ -1,0 +1,151 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /* border:1px solid grey; */
+  }
+
+html{
+    font-size:62.5%;
+  }
+
+body{
+    line-height:2;
+    font-size:1.5rem;
+    font-family: sans-serif;
+  }
+
+h1, h2, h3, h4{
+    font-family: sans-serif;
+    letter-spacing:3px;
+    padding:4% 0;
+  }
+
+.button-one {
+    background-color: #FF764E;
+    border: 1px solid black;
+    border-radius: 20px;
+    border-color: transparent;
+    color: white;
+    padding: 5px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 50px;
+    font-size: 2.5rem;
+}
+
+.button-two {
+    background-color: #5ED3EB;
+    border: 1px solid black;
+    border-radius: 20px;
+    border-color: transparent;
+    color: white;
+    padding: 5px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 50px;
+    font-size: 2.5rem;
+}
+
+.button-three {
+    background-color: #FFCD69;
+    border: 1px solid black;
+    border-radius: 20px;
+    border-color: transparent;
+    color: white;
+    padding: 5px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 50px;
+    font-size: 2.5rem;
+}
+
+.navigation {
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+}
+
+.header-info {
+    display: inline-block;
+    width: 100%;
+    margin: 100px;
+}
+.header-info img {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.header-info h1 {
+    display: inline-block;
+    padding: 0;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 6.5rem;
+}
+
+.header-info p {
+    display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+    margin: 20px 20px 20px 400px;
+}
+
+.container {
+    background-color: #DDB9A3;
+    display: inline-block;
+    margin: 0 300px;
+    padding: 0 60px;
+}
+
+.container p {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.fire p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.fire span {
+    font-weight: bold;
+}
+
+.reserve p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.reserve span {
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #F9E7DC;
+    width: 100%;
+}
+
+.footer img {
+    width: 100%;
+    height: 1%;
+}
+
+.footer-nav {
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+}
