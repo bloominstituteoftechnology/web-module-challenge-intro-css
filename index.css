@@ -24,15 +24,15 @@ header{
 
 header nav{
     width:100%;
+    margin-right: 2rem;
+    maring-left: 2rem;
     display:inline-block;
-    margin:auto;
 }
 
 #header-img{
     border-radius:50%;
     height:15%;
     width:15%;
-    display:inline-block;
 }
 
 #text{
@@ -94,27 +94,26 @@ button{
     background-color:#DDB9A3;
     color: white;
     text-align: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
-.container-two{
-    display:inline-block;
-    width:15%;
+.container-two, .container-three{
+    display:block;
+    width:20%;
     text-align:center;
-    margin-left:20%;
-    border: 10%;
-}
-
-.container-three{
-    display:inline-block;
-    width:15%;
-    text-align:center;
-    margin-left:20%;
+    margin: 0 auto;
     border: 10%; 
+}
+
+.container-two #fire{
+    width:15%;
+    margin: 0 auto;
 }
 
 .footer-img{
     border-radius:0;
-    height:30vh;
+    height:200px;
     width:100%;
 }
 
