@@ -1,7 +1,8 @@
-
+/*Import Text from Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;1,100&display=swap');
 
+/*Reset*/
 *{
     margin: 0;  
     padding: 0;  
@@ -12,33 +13,7 @@
     /*border:0.5px solid grey;*/
 }
 
-header{
-    height:15vh;
-    background-color:white;
-}
-
-header nav{
-    width:100%;
-    display:inline-block;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-#header-img{
-    border-radius:50%;
-    height:15%;
-    width:15%;
-}
-
-#text{
-    width: 75%;
-    text-align:center;
-}
-
-#header-img, #text{
-    display:inline-block;
-}
-
+/*General Styles*/
 h1{
     color: black;
     font-family: 'Chelsea Market', cursive;
@@ -55,6 +30,32 @@ button{
     font-family: 'Roboto Mono', monospace;
 }
 
+/*Header & Navigation Styles*/
+header{
+    height:20vh;
+    background-color:white;
+}
+
+header nav{
+    width:100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+section div #header-img{
+    border-radius:50%;
+    height:15%;
+    width:15%;
+    display:inline-block;
+}
+
+section #text{
+    width:50%;
+    display:inline-block;
+    text-align:center;
+}
+
+/*Header and Footer buttons*/
 #plan{
     background-color:#FF764E;
     border-radius: 1rem;
@@ -88,6 +89,7 @@ button{
     display:inline-block;
 }
 
+/*Body Styles*/
 .mainbody p{
     background-color:#DDB9A3;
     color: white;
@@ -114,14 +116,19 @@ button{
     height:30%;
 }
 
+/*Footer Styles*/
 .footer-img{
     border-radius:0;
     padding: 0px;
-
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-image:url('assets/footer_img.jpg');
+    max-width:100%;
 }
 
 footer{
-    background-color:#F9E7DC;
     width: 100%;
     padding-top: 1rem;
     padding-bottom: 1rem;
