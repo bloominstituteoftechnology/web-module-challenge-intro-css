@@ -22,8 +22,6 @@ vertical-align: baseline;
 *{
     box-sizing:border-box;
     text-decoration:none;
-    padding:0;
-    margin:0;
     max-width:100%;
     border: 1px solid grey;
 }
@@ -35,30 +33,116 @@ html{
 }
 
 body{
-    font-size:1.6rem;
-    font-family:'Roboto Mono', monospace;
+    font-size: 1.8rem;
     line-height:1.5;
-    color:#000000;
-}
-a{
-    color:#000000;
-    text-decoration:none;
-    border:10%;
-    padding:5%;
-    margin:3% 5%;
-}
-.logo{
-    
-    width:20%;
-    height:20%;
-    margin-top:5%;
-    margin-left:8%;
-    border-radius:50%;
-    border:1px solid black;
+    font-family: 'Roboto Mono', monospace;
 
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 6rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    padding:4% 0;
+}
+
+nav{
     
 }
-h1{
-    font-family:'Chelsea Market', cursive;
- 
+
+nav a{
+    display:inline-block;
+    width:22%;
+    text-align:center;
+    border-radius:10px;
+    padding:1% 0;
+    color:#ffffff;
+    margin:5%;
 }
+
+.orange{
+    background-color:#ff764e;
+}
+
+.blue{
+    background-color:#5ed3eb;
+}
+
+.yellow{
+    background-color:#ffcd69;
+}
+
+.headerContent{
+  
+  
+    padding:10% 0;
+  }
+
+  .headerContent img{
+    border-radius:50%;
+  }
+
+  .logo{
+    width:30%;
+    display:inline-block;
+    margin:0 2%;
+  }
+
+  .text{
+    width:60%;
+  display:inline-block;
+  margin:0 2%;
+  text-align:center;
+  }
+  
+  /*About Section Styles*/
+  #about{
+    background-color:#DDB9A3;
+    color:#fff;
+    padding:3%;
+    align-items:center;
+  }
+
+  .first{
+    margin-bottom:5%;
+  }
+  /*plan section styles*/
+ #learn{
+ margin: 0 0 0 33%;
+ }
+ 
+
+  #learn div{
+    width:50%;
+    margin:4% 0;
+ 
+    align-items:center;
+  }
+  #learn div img{
+    width:60%;
+  }
+
+  .bolded{
+    font-weight:900;
+  }
+
+  /*hero-image section styles*/
+  .bottom-image{
+    background-image:url('https://github.com/LambdaSchool/web-module-project-intro-css/blob/main/assets/footer_img.jpg?raw=true');
+    height:40vh;
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  
+  
+  /*footer section styles*/
+  footer{
+    background-color:#F9E7DC;
+    padding:4% 0;
+  }
