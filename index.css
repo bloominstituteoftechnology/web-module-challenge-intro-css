@@ -1,14 +1,66 @@
 
-.containter{
+
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
     width:600;
+    
+  }
+ 
+
+ h1{
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-bottom: 2%;
+    text-align: center;
+ }
+ h2, h3 {
+     font-family: 'Courier New', Courier, monospace;
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+ }
+
+ header{
+     display: inline-block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+     padding: 10px;
+     height: auto;
+ }
+.container{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 100%;
+    text-align: center;
+  
+    
+}
+
+.container header nav a{
+
+    display: inline-block;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+
 }
 #middle{
     background-color: #DDB9A3;
     width: 50%;
     color: white;
+    padding: 1%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #menuOne{
-    margin: 0 10px;
+    margin-right: 10%;
     display: flex;
     color:white
     border: 1px solid lightgray;
@@ -17,6 +69,7 @@
     border-radius: 20px;
     text-decoration:none;
     background-color: #FF754F;
+    
    
 
 }
@@ -24,13 +77,13 @@
     text-decoration:none;
     background-color: #5FD3ED;
     color: white
-    margin: 0 10px;
+    
     display: flex;
     border: 1px solid lightgray;
     padding: 20px;
     display: inline-block;
     border-radius: 20px;
-    
+    margin-right: 10%
 }
 #menuThree{
     margin: 0 10px;
@@ -62,26 +115,65 @@ a:link {
     text-decoration: underline;
     color:lightgray
   }
-  #burning{
+  #camper{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2%;
+    padding: 2%;
     width: 25%;
     height: 25%;
+    
      
   }
   #footer{
     height: 250px;
     width: 100%;
+    margin: 2%;
   }
   #fireText{
       text-align: center;
   }
   #camping{
       text-align: center;
+      padding: 2%;
+  }
+  #blaze{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+
   }
   #mountainOne{
-    height: 15%;
-    width: 15%;
+    height: 60%;
+    width: 60%;
     border-radius: 50%;
+    display: inline-block;
+    margin: 2%;
+    
+    
+   
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+  }
+.bold{
+    font-weight: 600;
+}
+#masthead{
+    display: inline-block;
+    
+    width: 70%;
+}
+#lastTry{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
 }
