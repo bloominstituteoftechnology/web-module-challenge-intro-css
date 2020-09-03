@@ -1,0 +1,124 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+*{
+    border:1px;
+    box-sizing:border-box;
+    padding:5px;
+    margin:10%;
+  
+   
+}
+body {
+  
+    font-family: 'Roboto Mono', monospace;
+}
+p{
+    margin:5%
+}
+header img{
+   width:250px;
+   height:250px;
+    display:inline-block;
+    border-radius:175px;
+
+
+}
+h1 {
+    font-size:34px;
+    font-family: 'Chelsea Market', cursive;
+    display:inline-block;
+    position:inherit;
+    float:right;
+    margin-right:30%;
+}
+.first {
+    text-align: center;
+    margin: 5px;
+    display: inline-block;
+    float: right;
+    margin-right: 30%;
+}
+#headerNav {
+  
+    text-align:center;
+    
+}
+#headerNav a{
+ 
+    text-decoration:none;
+    border-radius:10px;
+    font-size:24px;
+    padding:3%;
+    display:inline-block;
+    margin:5%;
+    text-align:justify;
+}
+.visit {
+    background-color: #FF764E;
+    
+   
+    border-radius:10%;
+}
+.park {
+    background-color: #5ED3EB
+}
+.involved {
+    background-color: #FFCD69
+}
+.headerImg{
+    border-radius:50%;
+    display:inline-block;
+}
+p{
+    border:10px;
+    width:50%;
+}
+p.main {
+    background-color: #DDB9A3;
+    width:65%;
+    position:center;
+}
+#truck{
+    display:inline-block;
+    margin-bottom:5px;
+}
+p.first{
+    width:50%;
+    font-size:18px;
+    border-width:inherit;
+    display:inline-block;
+}
+.second{
+    text-align:center;
+}
+#footerNav a {
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 2%;
+    display: inline-block;
+    margin: 5%;
+}
+#footerImg{
+    width:100%;
+   
+    
+}
