@@ -121,10 +121,10 @@ p {
 	font-size: 4rem;
 	font-family: 'Chelsea Market', cursive;
 }
-h3 {
-	text-align: right;
+.title h3 {
+	text-align: center;
 	color:black;
-	font-size: 25px;
+	font-size: 2rem;
 	font-family: ' Roboto Mono', monospace;
   }
 p {
