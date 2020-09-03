@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -45,4 +45,116 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	padding-top: 30px;
+	position: relative;
+	clear: both;
+}
+
+.col {
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+
+.button {
+	padding: 15px 30px;
+	border: none;
+	border-radius: 20px;
+	font-size: 1.4rem;
+	width: 220px;
+	color: #fff;
+}
+
+.button:hover {
+	background: transparent;
+	color: #000;
+	cursor: pointer;
+}
+
+.button,
+p {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.plan-your-visit {
+	background-color: #FF764E;
+}
+
+.learn-about-park {
+	background-color: #5ED3EB;
+}
+
+.get-involved {
+	background-color: #FFCD69;
+}
+
+.yosemite-park-guide {
+	padding-top: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.image {
+	flex-basis: 34%;
+}
+
+.image img {
+	width: 380px;
+	height: 380px;
+	border-radius: 190px;
+}
+
+.title {
+	text-align: center;
+}
+
+.title h1 {
+	font-size: 4rem;
+	font-family: 'Chelsea Market', cursive;
+}
+h3 {
+	text-align: right;
+	color:black;
+	font-size: 25px;
+	font-family: ' Roboto Mono', monospace;
+  }
+p {
+	font-size: 1.4rem;
+	line-height: 1.3em;
+	margin: 1.2em auto;
+}
+
+.brown-text {
+	background-color: #DDB9A3;
+	padding: 2px 30px;
+	color: #fff;
+	margin: 40px auto;
+}
+
+.pb {
+	padding-bottom: 50px;
+	text-align: center;
+	color: red;
+	font-size: 3rem;
+}
+
+.footer_img {
+	min-height: 300px;
+	background: url('/assets/footer_img.jpg') no-repeat;
+	background-size: cover;
+}
+
+.footer-button-container {
+	background-color: #F9E7DC;
+	min-height: 150px;
+	width: 100%;
 }
