@@ -48,3 +48,107 @@ table {
 	border-spacing: 0;
 }
 /*Reset*/
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration:none;
+    color:#fff;
+}
+
+header{
+    width: 90%;
+    margin: 10%;
+}
+
+img{
+    width:100%;
+    height:auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.8rem;
+}
+
+.link1, .link2, .link3{
+    padding:2%;
+    margin:1%;
+    border-radius:1rem;
+    text-align:center;
+}
+
+.link1{
+    background-color:#FF764E;
+}
+.link2{
+    background-color:#5ED3EB;
+}
+.link3{
+    background-color:#FFCD69;
+}
+
+.banner img{
+    width:25%;
+    height:auto;
+    border-radius:50%;
+}
+
+.banner{
+    display:flex;
+    text-align:center;
+    align-items:center;
+    margin: 3rem;
+}
+.banner-text{
+    margin: auto;
+}
+
+.banner-text h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.banner-text p{
+    padding:1rem;
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.intro{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align:center;
+    color: #fff;
+    background-color:#DDB9A3; 
+}
+
+.icons{
+    width: 50%;
+    height: auto;
+    margin: 2rem auto;
+    text-align:center;
+}
+
+.icons img{
+    width:25%;   
+}
+
+.icons p{
+    padding:0 30%;
+}
+span{
+    font-weight:bold;
+}
+
+footer img{
+    width:100%;
+}
+
