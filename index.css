@@ -1,0 +1,151 @@
+/* ------------------------------------------------ */
+
+html {
+    box-sizing: border-box;
+    font-size: 1.6em;
+  }
+
+.topnav {
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 80%;
+    height:auto;
+}
+
+button {
+    border-radius: 25%;
+    padding: 10px;
+    border-style: dotted;
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace; }
+
+.nav1 {
+    background-color: #ff754e;
+}
+
+.nav2 {
+    background-color:#5fd3ec;  
+}
+
+.nav3 {
+    background-color: #ffcd6a;
+}
+
+/* ------------------------------------------------ */
+
+.headerimg {    
+    display: inline-block;
+    border-radius: 50%;
+    max-width: 60px;
+    height: auto;
+}
+    
+
+.title{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5em;
+    padding: 10px;
+}
+
+
+h1 {
+    display: inline-block;
+    font-size: 1.8em;
+    font-weight:lighter;
+    text-align: justify;
+    vertical-align: middle;
+    padding-left: 50px;
+    letter-spacing: 2px;
+}
+
+
+#open {
+    display: inline-block;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: white;
+    text-align: center;
+    font-size: 2em;
+    font-style: oblique;
+    color: teal;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.pic-info{
+    background-color:#c9a894;
+    margin-left: 10%;
+    margin-top: 5em;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.fire1 {
+    color: red;
+}
+
+.pic-info {
+    text-align: center;
+    font-size: 15px;
+}
+
+.valley {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title-sub {
+    text-align: center;
+    font-size: 12px;
+    padding: 2px;
+}
+
+
+
+.pic-info img {
+   width: 15%;
+   padding-bottom: 1em;
+}
+
+
+.foot img {
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 80%;
+    height: 20%;
+    vertical-align: middle;
+ }
+
+.foot-nav { 
+    display: inline-block;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 80%;
+    height:auto ; 
+    background-color:#ddb9a3;
+}
