@@ -67,11 +67,11 @@ a:last-child {
     width: 20%;
     border-radius: 50%;
 }
-.g {
+.top-content {
     display: inline-block;
 }
 
-.mid {
+.mid-topContent {
     /* display: inline-block; */
     border:1px solid red;
     /* width: 10% */
