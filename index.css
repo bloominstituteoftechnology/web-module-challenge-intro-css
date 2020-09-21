@@ -35,11 +35,11 @@ vertical-align: baseline;
 nav a{
     /* border:1px solid red; */
     border-radius: 10px;
-    font-size: 2rem;
+    font-size: 1rem;
     display: inline-block;
-    width: 11%;
+    width: 7%;
     padding:1%;
-    margin-left: 15%;
+    margin-left: 20%;
     /* margin: 2px; */
     text-align: center;
     font-family: Helvetica,Arial, sans-serif;
@@ -50,14 +50,17 @@ nav a{
 a:first-child {
     /* border:1px solid green; */
     background-color: #FF764E;
+    font-family: 'Roboto Mono', monospace;
 }
 
 a:nth-child(2) {
     background-color: #5ED3EB;
+    font-family: 'Roboto Mono', monospace;
 }
 
 a:last-child {
     background-color: #FFCD69;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .section-1 {
@@ -72,41 +75,95 @@ a:last-child {
     border-radius: 50%;
 }
 .top-content {
+    font-family: 'Roboto Mono', monospace;
     display: inline-block;
+    width: 71%;
+    
 }
 
 .mid-topContent {
-    /* display: inline-block; */
-    border:1px solid red;
-    /* width: 10% */
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
     padding: 5%;
-    margin-right:50%;
-    /* margin: 0 10%; */
-    width: 100%;
+    margin: 0 2%;
+    text-align: center;
+}
+
+.mid-topContent-third {
+    font-family: 'Roboto Mono', monospace;
+
+    font-size: 1.2rem;
+    margin: 0 25%;
+    text-align: center;
+    width: 40%;
 }
 
 .first {
-    border: 1px solid blue;
     font-family: 'Chelsea Market', cursive;
     font-size: 5rem;
     margin: 7px 80px;
+}
 
+.c.second {
+    border:6px solid greenyellow
 }
 
 .middle-content {
-    border:1px solid red;
+    font-family: 'Roboto Mono', monospace;
+    /* border:1px solid red; */
     display: inline-block;
-    width: 70%;
-    margin: 0 5%;
+    width: 87%;
+    margin: 5% 5%;
     background-color: #DDB9A3;
     color: white;
     padding: 1%;
+    border: 2px solid purple;
 }
 
 .first-para {
-    border:1px solid green;
-    padding: 2%;
-    font-size: 2rem;
-
+    padding: 1%;
+    font-size: 1.6rem;
+    text-align: center;
 }
 
+.second-para {
+    padding: 1%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.middle-content1 {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.middle-content1 img {
+    width: 60%;
+    margin: 0 20%;
+}
+
+.firstContent {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.bolder {
+    font-weight: bold;
+}
+
+.middle-content2 {
+    width: 22%;
+    margin: 0 auto;
+}
+
+.middle-content2 img {
+    width: 50%;
+    margin: 0 20%;
+    padding-top: 15%
+}
+
+
+.secondP{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
