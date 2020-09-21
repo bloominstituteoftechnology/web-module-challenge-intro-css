@@ -43,6 +43,10 @@ nav a{
     color:white;
 }
 
+nav a:hover {
+    background-color: grey;
+}
+
 a:first-child {
     background-color: #FF764E;
     font-family: 'Roboto Mono', monospace;
