@@ -26,21 +26,17 @@ vertical-align: baseline;
 }
 
 .container{
-    /* border:1px solid red; */
     margin-top: 20px;
     
 }
 
-
 nav a{
-    /* border:1px solid red; */
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: 1.3rem;
     display: inline-block;
-    width: 7%;
+    width: 10%;
     padding:1%;
-    margin-left: 20%;
-    /* margin: 2px; */
+    margin-left: 15%;
     text-align: center;
     font-family: Helvetica,Arial, sans-serif;
     text-decoration: none;
@@ -48,7 +44,6 @@ nav a{
 }
 
 a:first-child {
-    /* border:1px solid green; */
     background-color: #FF764E;
     font-family: 'Roboto Mono', monospace;
 }
@@ -67,73 +62,64 @@ a:last-child {
     width: 90%;
     margin: 0 10%;
     margin-top:60px;
-    
 }
+
  .section-1 img {
-    border:1px solid red;
     width: 25%;
     border-radius: 50%;
 }
+
 .top-content {
     font-family: 'Roboto Mono', monospace;
     display: inline-block;
-    width: 71%;
-    
+    width: 71%;  
 }
 
 .mid-topContent {
     font-family: 'Roboto Mono', monospace;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     padding: 5%;
-    margin: 0 2%;
+    margin: 0 %; 2%;
     text-align: center;
 }
 
 .mid-topContent-third {
     font-family: 'Roboto Mono', monospace;
-
     font-size: 1.2rem;
     margin: 0 25%;
     text-align: center;
-    width: 40%;
 }
 
 .first {
     font-family: 'Chelsea Market', cursive;
-    font-size: 5rem;
+    font-size: 4rem;
     margin: 7px 80px;
-}
-
-.c.second {
-    border:6px solid greenyellow
 }
 
 .middle-content {
     font-family: 'Roboto Mono', monospace;
-    /* border:1px solid red; */
     display: inline-block;
     width: 87%;
     margin: 5% 5%;
     background-color: #DDB9A3;
     color: white;
     padding: 1%;
-    border: 2px solid purple;
 }
 
 .first-para {
-    padding: 1%;
-    font-size: 1.6rem;
+    padding: 2%;
+    font-size: 1.4rem;
     text-align: center;
 }
 
 .second-para {
     padding: 1%;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
 }
 
 .middle-content1 {
-    width: 20%;
+    width: 22%;
     margin: 0 auto;
 }
 
@@ -152,7 +138,7 @@ a:last-child {
 }
 
 .middle-content2 {
-    width: 22%;
+    width: 24%;
     margin: 0 auto;
 }
 
@@ -162,8 +148,25 @@ a:last-child {
     padding-top: 15%
 }
 
-
 .secondP{
     font-family: 'Roboto Mono', monospace;
     text-align: center;
+}
+
+footer {
+    width: 100%;
+    margin-top: 5%;
+    background-image: url('/assets/footer_img.jpg');
+    background-size: cover;
+    height: 50vh;
+}
+
+.navFoot {
+    background-color: #F9E7DC;
+    padding: 2%;
+}
+.navFoot a {
+    font-family: 'Roboto Mono', monospace;
+    width: 8%;
+    font-size: 1rem;
 }
