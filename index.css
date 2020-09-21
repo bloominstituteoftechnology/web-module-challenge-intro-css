@@ -22,13 +22,15 @@ vertical-align: baseline;
 *html {
     box-sizing: border-box;
     font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .container{
     /* border:1px solid red; */
-
+    margin-top: 20px;
     
 }
+
 
 nav a{
     /* border:1px solid red; */
@@ -37,7 +39,8 @@ nav a{
     display: inline-block;
     width: 11%;
     padding:1%;
-    margin: 5%;
+    margin-left: 15%;
+    /* margin: 2px; */
     text-align: center;
     font-family: Helvetica,Arial, sans-serif;
     text-decoration: none;
@@ -59,12 +62,13 @@ a:last-child {
 
 .section-1 {
     width: 90%;
-    margin: 0 auto;
+    margin: 0 10%;
+    margin-top:60px;
     
 }
  .section-1 img {
     border:1px solid red;
-    width: 20%;
+    width: 25%;
     border-radius: 50%;
 }
 .top-content {
@@ -76,14 +80,33 @@ a:last-child {
     border:1px solid red;
     /* width: 10% */
     padding: 5%;
-    margin-right:40%;
-    margin: 0 10%
+    margin-right:50%;
+    /* margin: 0 10%; */
+    width: 100%;
+}
+
+.first {
+    border: 1px solid blue;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+    margin: 7px 80px;
 
 }
 
 .middle-content {
     border:1px solid red;
     display: inline-block;
-    width: 90%;
-    margin: 0 5%
+    width: 70%;
+    margin: 0 5%;
+    background-color: #DDB9A3;
+    color: white;
+    padding: 1%;
 }
+
+.first-para {
+    border:1px solid green;
+    padding: 2%;
+    font-size: 2rem;
+
+}
+
