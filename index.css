@@ -1,0 +1,58 @@
+.main {
+    color: #DDB9A3;
+}
+/* -----------------buttons----------------- */
+.links {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.btn {
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    width: 150px;
+    height: 60px;
+    text-transform: capitalize;
+}
+
+.btn-orange {
+    background-color: #FF764E;
+}
+
+.btn-blue {
+    background-color: #5ED3EB;
+}
+
+.btn-yellow {
+    background-color:#FFCD69;
+}
+/* ------x----------buttons---------x------- */
+
+
+/* -----------------Hero----------------- */
+.hero {
+   /* height: 100vh; */
+   
+   margin: 100px auto;
+   width: 80%;
+   display: grid;
+    grid-template-columns: 1fr repeat(3, minmax(auto, 10em)) 1fr;
+    grid-template-rows: minmax(1em, auto) 1fr auto minmax(1em, auto);
+}
+
+.header-image {
+    border-radius: 50%;
+    height: 400px;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 4rem;
+}
+
+
+/* --------x--------Hero------x---------- */
