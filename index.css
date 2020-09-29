@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of CSS Reset */
+* {
+	box-sizing: border-box;
+	max-width: 100%;
+	/* border: 1px solid red; */
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	font-family: "Roboto Mono", monospace;
+}
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 9rem;
+	font-family: "Chelsea Market", cursive;
+	margin-top: 7%;
+}
+h4 {
+	font-size: 3rem;
+	font-weight: bolder;
+}
+h1,
+h4 {
+	text-align: center;
+	padding: 4% 0% 4% 0%;
+}
+
+/* End of General Styling*/
+
+/* Header Styling */
+nav {
+	display: flex;
+	justify-content: space-around;
+}
+nav a {
+	color: white;
+	font-size: 2.4rem;
+}
+.head1 {
+	background-color: #ff764e;
+}
+.head2 {
+	background-color: #5ed3eb;
+}
+.head3 {
+	background-color: #ffcd69;
+}
+.head1,
+.head2,
+.head3 {
+	width: 12%;
+	text-align: center;
+	padding: 1%;
+	border-radius: 13%;
+	margin: 1%;
+}
+
+header img {
+	border-radius: 100%;
+	width: 28%;
+	margin: 5% 5% 5% 2%;
+}
+.header {
+	display: flex;
+}
+
+.main-text {
+	color: white;
+	background-color: #ddb9a3;
+	font-size: 3rem;
+	padding: 2% 1% 2% 1%;
+}
+
+.icons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.icon1,
+.icon2 {
+	width: 10%;
+	padding-top: 3%;
+}
+.icons p {
+	width: 23%;
+	text-align: center;
+	padding-bottom: 3%;
+	padding-top: 2%;
+}
+span {
+	font-weight: bolder;
+}
+/* footer img {
+    max-width: 100%;
+} */
+.background-pic {
+	background-image: url("assets/footer_img.jpg");
+	background-size: cover;
+	height: 50vh;
+	width: 100%;
+}
