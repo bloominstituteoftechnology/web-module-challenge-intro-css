@@ -44,3 +44,33 @@ table {
 }
 /* -- End CSS reset */ 
 
+body {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  nav {
+    display: inline-block;
+    
+  }
+  /* Buttons */ 
+  button {
+    border-radius: 12px;
+    color: white;
+  }
+  .plan {
+    background: #FF764E;
+  }
+  .learn {
+    background: #5ED3EB;
+  }
+  .get {
+    background: #FFCD69;
+  }
+  
+  
+  header {
+    display: inline-block;
+  }
+
+  
