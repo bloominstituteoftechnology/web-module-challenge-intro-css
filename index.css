@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/** End of Reset File**/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+* {
+	Box-sizing: Border-box;
+	/* border: 1px solid black; */
+}
+
+html {
+	font-size: 62.5%;
+	font-family: 'Roboto Mono', monospace;
+}
+body {
+	font-size: 1.6rem;
+	line-height: 1.5;
+	text-align: center;
+}
+div.container {
+	width:90%;
+	margin:5%;
+}
+/**Nav Colors Start**/
+nav a.plan{
+	background: #FF764E;
+}
+nav a.learn{
+	background: #5ED3EB;
+}
+nav a.volunteer {
+	background: #FFCD69;
+}
+/*Nav Colors End*/
+nav{
+	text-align:center;
+}
+nav a{
+	display: inline-block;
+	width: 13%;
+	height: 100%;
+	padding:2%;
+	margin: 2% 2%;
+	border-radius:20px;
+	text-decoration:none;
+	color:white;
+}
+div.logo img{
+	width:100%;
+	border-radius: 100%;
+	/* display:inline-block; */
+	
+	
+}
+div.logo {
+	text-align:left;
+	/* border: 2px solid red; */
+	width:20%;
+}
+div.logo, section.info {
+	display:inline-block;
+}
+section.info {
+	position:relative;
+	bottom: 10px;
+}
+section.info p:last-child{
+	width: 50%;
+	text-align: center;
+	margin: 0% 25%;
+}
+section.content1 {
+	background: #DDB9A3;
+	color:white;
+	width:90%;
+	margin: auto 5%;
+	padding: 1%;
+}
+div.centercontent{
+	width:40%;
+	margin: auto 30%;
+}
+div.campfireLogo img {
+	width: 30%
+}
+div.camperLogo img {
+	width:30%;
+}
+.bold {
+	font-weight: bold;
+}
+section.info h1{
+	font-family: 'Chelsea Market', cursive;
+	font-size: 6rem;
+}
+footer {
+	background: #F9E7DC;
+	height: 50%;
+}
+footer div.footerBanner {
+	width: 100%;
+	height:200px;
+	background: url(/assets/footer_img.jpg);
+	background-size: 100% ;
+
+	/* background-position: center; */
+}
+/* footer div.footerBanner img{
+	width: 100%;
+	height:100%;
+
+} */
