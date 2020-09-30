@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    margin-top: 6%;
+    line-height: 1;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: .7em;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+nav {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    padding: 5% 5%;
+    border-radius: 20%;
+}
+
+.plan {
+    background-color:#FF764E;
+}
+
+.learn {
+    background-color: #5ED3EB;
+}
+
+.get {
+    background-color: #FFCD69;
+}
+
+
+header {
+    width: 90%;
+}
+
+.headertext {
+    display: inline-block;
+    width: 56%;
+    margin-left: 10%;
+}
+
+header h1 {
+    font-size: 3.5em;
+    font-family: 'Chelsea Market', cursive;
+    text-align: center;
+
+}
+
+header p {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.headerpone {
+    margin-top: 5%;
+}
+
+.headerptwo {
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 8%;
+}
+
+
+header img {
+    display: inline-block;
+    margin-left: 13%;
+    max-width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.first {
+    width: 90%;
+    margin-top: 8%;
+    margin-left: 5%;
+    background-color: #DDB9A3;
+    padding: 1% 1%;
+}
+
+.first p {
+    text-align: center;
+    font-size: 1.1em;
+    color: white;
+}
+
+.firstptwo {
+    margin-top: 1.5%;
+}
+
+.second {
+    margin-top: 3%;
+}
+
+.second p {
+    max-width: 23%;
+    display: block;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.second img {
+    max-width: 10%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lastpic img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
