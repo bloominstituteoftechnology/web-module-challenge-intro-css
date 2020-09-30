@@ -1,4 +1,4 @@
-/* -- Begin CSS reset */ 
+/* -- Begin CSS reset  */ 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,6 +20,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -42,35 +43,71 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* -- End CSS reset */ 
+ /* -- End CSS reset */ 
 
-body {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-  }
-  nav {
-    display: inline-block;
-    
-  }
-  /* Buttons */ 
-  button {
-    border-radius: 12px;
-    color: white;
-  }
-  .plan {
-    background: #FF764E;
-  }
-  .learn {
-    background: #5ED3EB;
-  }
-  .get {
-    background: #FFCD69;
-  }
-  
-  
-  header {
-    display: inline-block;
-  }
+ @import url('https://fonts.google.com/specimen/Chelsea+Market');
+ @import url('https://fonts.google.com/specimen/Roboto+Mono');
+ * {
+   font-family: 'Roberto Mono', regular;
+   border: 1px black solid; /* -- Border for position help */ 
+ }
+ 
+ body {
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+ }
+ nav {
+   display: inline-block;
+ }
+ /* Buttons */ 
+ button {
+   border-radius: 12px;
+   color: white;
+   border: 0px solid white;
+   font-size: 25px;
+ }
+ .plan {
+   background: #FF764E;
+ }
+ .learn {
+   background: #5ED3EB;
+ }
+ .get {
+   background: #FFCD69;
+ }
+ nav .button {
+   margin-top: 30px;
+ }
+ 
+ /* Header */
+ .park_guide {
+   display: inline-block;
+ }
+ .header_image {
+   display: inline-block;
+   border-radius: 50%;
+ }
+ h1 {
+   font-family: 'Chelsea Market';
+ }
+ 
+ section {
+   background: #DDB9A3;
+   margin: 5px 70px 5px 70px;
+   padding: 5px;
+   color: white;
+ }
+ 
+ /* Figures */ 
+ .figure_one {
+   width: 30%;
+   margin: 0 auto;
+   padding: 20px 0 20px 0;
+ }
+ .figure_two {
+   width: 30%;
+   margin: 0 auto;
+   padding: 20px 0 20px 0;
+ }
 
-  
