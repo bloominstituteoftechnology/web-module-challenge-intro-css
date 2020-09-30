@@ -21,17 +21,17 @@ The styles in your [design file](/design/desktop.jpg) include bright colors and 
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push -u origin `<firstName-lastName>`.
 
 ### Task 2: Minimum Viable Product
 
 Once your repository is set up, practice what you learned today to style the site according to the given design. Your complete project should look similar to the desktop image. You should take the following actions, at a minimum:
 
-- [ ] Link your CSS stylesheet in the `index.html` and impliment a CSS reset 
+- [x] Link your CSS stylesheet in the `index.html` and impliment a CSS reset 
 - [ ] Markup html semantically, such that it can be styled according to the given desktop image
 - [ ] Color the background of items in the navigation bar and footer with the following colors:
   - [ ] Plan your Visit: `#FF764E`
