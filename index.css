@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap");
+
+html {
+    text-align: center;
+    font-family: "Roboto Mono";
+}
+
+h1 {
+    font-size: 60px;
+    font-family: "Chelsea Market";
+}
+.navbar {
+    display: flex;
+    margin-left: 60px;
+}
+
+.foot {
+    display: flex;
+}
+
+.campfire {
+    max-height: 100px;
+}
+
+.vehicle {
+    max-height: 100px;
+}
+h2 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 20px;
+}
+.red {
+    color: white;
+    background-color: #FF764E;
+    padding: 20px 30px;
+    text-align: center;
+    border-radius: 20%;
+}
+
+.pink {
+    background-color: #ddb9a3;
+    color: white;
+}
+.blue {
+    color: white;
+    position: relative;
+    left: 20%;
+    padding: 20px 30px;
+    display: block;
+    background-color: #5ed3eb;
+    border-radius: 20%;
+    
+}
+.fee {
+    font-weight: bold;
+}
+.fire {
+    font-weight: bold;
+}
+.yellow {
+    color: white;
+    position: relative;
+    left: 40%;
+    padding: 20px 30px;
+    display: block;
+    background-color: #ffcd69;
+    border-radius: 20%;
+}
+
+.imgh {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    float: left;
+
+}
+
+.footing {
+    height: 300px;
+    width: 100%;
+}
+
+.foot {
+    background-color: #f9e7dc;
+}
