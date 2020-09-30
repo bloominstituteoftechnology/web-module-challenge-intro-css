@@ -47,6 +47,7 @@ table {
 
  @import url('https://fonts.google.com/specimen/Chelsea+Market');
  @import url('https://fonts.google.com/specimen/Roboto+Mono');
+ 
  * {
    font-family: 'Roberto Mono', regular;
    border: 1px black solid; /* -- Border for position help */ 
@@ -57,15 +58,23 @@ table {
    margin: 0 auto;
    text-align: center;
  }
- nav {
+ nav, .footer_nav {
    display: inline-block;
+   width: 85%;
  }
  /* Buttons */ 
+ nav, .footer_nav {
+    display: inline-block;
+
+ }
  button {
-   border-radius: 12px;
+    display: inline-block;
+    border-radius: 12px;
    color: white;
    border: 0px solid white;
-   font-size: 25px;
+   font-size: 16px;
+   margin-left: 5%;
+   margin-right: 5%;
  }
  .plan {
    background: #FF764E;
