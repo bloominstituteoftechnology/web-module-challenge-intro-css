@@ -49,11 +49,31 @@ table {
 }
 body {
 	background-color: white;
-	
+	font-style: font-family: 'Roboto Mono', monospace;
+	text color: #DDB9A3;
 }@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
 html{
 	font-family: 'Chelsea Market', cursive;
 	font-size: 100px;
 	background-color: white;
+
+}
+nav:first-child{
+	background-color:#FF764E;
+	padding: left;
+	bottom: 
+
+}
+nav:second-child{
+	background-color:#5ED3EB;
+}
+nav:last-child{
+	background-color:#FFCD69;
+}
+footer{
+	background-color:#F9E7DC;
+	text-align: center;
+
 }
 
