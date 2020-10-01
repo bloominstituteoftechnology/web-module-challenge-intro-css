@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 /* CSS Reset */
 
 
@@ -93,7 +96,7 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    border: 1px solid black;
+    /* border: 1px solid black;*/
 }
 
 
@@ -140,14 +143,14 @@ table {
     border-spacing: 0;
 }
 
-@import url(https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap);
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 .plan-visit {
     background: #FF764E;
+    margin-right: 10em;
 }
 
 .learn-park {
-    background: #5ED3EB
+    background: #5ED3EB;
+    margin-right: 10em;
 }
 
 .involved {
@@ -156,10 +159,7 @@ table {
 
 h1 {
     font-family: 'Chelsea Market';
-    font-size: 5em;
-    position: relative;
-    left: 30%;
-    bottom: 200px;
+    font-size: 4em;
 }
 
 body {
@@ -170,23 +170,34 @@ body {
     background: #DDB9A3;
     color: white;
     text-align: center;
-    padding: 2%;
-    margin: 5% 10%;
+    padding: 1%;
+    margin: 2em 2em 2em 2em;
+    font-size: 1.5em;
 }
 
 footer {
     background: #F9E7DC;
+    padding-bottom: .5em;
 }
 
-nav,
-a {
-    border-radius: 20%;
-    border: 1px solid black;
+nav {
+    margin: 0 auto;
     text-align: center;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+nav div {
+    border-radius: 9%;
+    text-align: center;
+    display: inline-block;
+    height: 4em;
+    width: 10em;
+    vertical-align: top;
 }
 
 #header-img {
-    width: 15%;
+    width: 25%;
     height: auto;
     border-radius: 50%;
     position: relative;
@@ -201,21 +212,60 @@ a {
     margin-right: auto;
 }
 
-p {
+b {
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4em;
+    padding-top: .5em;
+    margin: 0 auto;
+    display: block;
+}
+
+.header-area {
     display: inline-block;
+    vertical-align: top;
+    margin-left: 7em;
+    margin-top: 3em;
     text-align: center;
-    padding: 2%;
-    margin: 5% auto;
+    line-height: 5em;
+}
+
+.header-statement1 {
+    text-align: right;
+    font-size: 1.4em;
+    margin-right: 4em;
+}
+
+.header-statement2 {
+    font-size: 1.2em;
+    max-width: 50%;
+    line-height: 1em;
+    margin: 0 auto;
 }
 
 .content-row {
-    display: flex;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .content-row div {
-    margin: 20px;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
-b {
-    font-weight: bold;
+.content-row div div {
+    width: 23%;
+}
+
+.footer-image {
+    height: 25em;
+    background-image: url(./assets/footer_img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 20%;
 }
