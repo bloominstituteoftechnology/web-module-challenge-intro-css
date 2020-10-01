@@ -1,0 +1,276 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+
+/*b,*/
+
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* My CSS Starts Here */
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 1%;
+}
+
+header a {
+    padding: 1%;
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul li {
+    display: inline;
+    text-align: center;
+}
+
+header nav {
+    text-align: center;
+}
+
+footer nav {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1%;
+}
+
+.blue {
+    background-color: #5ed3eb;
+}
+
+.red {
+    background-color: #ff764e;
+}
+
+.yellow {
+    background-color: #ffcd69;
+}
+
+.info-background {
+    background-color: #ddb9a3;
+}
+
+.footer-background {
+    background-color: #f9e7dc;
+}
+
+a {
+    border-radius: 10%;
+    margin: 5% 5% 5% 5%;
+    width: 15%;
+}
+
+.heroimg {
+    border-radius: 50%;
+    float: left;
+    width: 20%;
+}
+
+.herotxt {
+    display: inline-block;
+    top: 20%;
+    width: 70%;
+    padding-left: 5%;
+    height: 50vh;
+    padding-top: 10vh;
+}
+
+.hero-container {
+    display: inline;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    font-family: 'Chelsea Market', monospace;
+}
+
+.iconsize {
+    width: 25%;
+}
+
+.fire {
+    width: 66%;
+    padding: 5% 5% 5% 5%;
+}
+
+.camper {
+    width: 66%;
+    padding: 5% 5% 5% 5%;
+}
+
+.blurb {
+    display: block;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.info {
+    padding: 1%;
+    text-align: center;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5%;
+}
+
+.footer-img {
+    height: 40vh;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer-img {
+    width: 100%;
+}
+
+html body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+li a {
+    color: #fff;
+}
