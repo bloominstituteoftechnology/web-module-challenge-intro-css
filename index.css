@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    width:100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}  
+/* My work starts here*/
+body{
+    font-family: "Roboto Mono", cursive;
+    width: 100%;
+}
+
+ nav {
+    margin: 5% 10%;
+    text-align: center;
+    
+} 
+nav a{
+    display:inline-block;
+    padding: 2% 4%;
+    color:white;
+    text-decoration: none;
+    border:0;
+    border-radius: 10px;
+    margin-right:12%;
+
+}
+.plan{
+    background:#FF764E ;
+}
+.about{
+    background: #5ED3EB;
+}
+.involve{
+    background:#FFCD69 ;
+}
+.header-div{
+    width:100%;
+}
+.sec1{
+    display: inline-block;
+    width:100%;
+
+}
+.sec1 img{
+    
+    border-radius: 100%;
+    width: 100%;
+ }
+
+ .img{
+    display: inline-block;
+    margin-left: 10%;
+    width: 25%;
+    
+}
+
+.sec1-div h1{
+    font-family: "Chelsea Market", cursive;
+    font-size: 4em;
+    line-height: 2;
+
+}
+.sec1-div h3{
+font-size: 1.3em;
+line-height: 3;
+
+}
+.sec1-div p{
+    font-size: 1.3em;
+
+}
+
+
+ .sec1-div {
+  display: inline-block;
+  position: relative;
+  top: -10vh;
+  width: 60%;
+  text-align: center;
+   
+}
+.sec2{
+    margin:5%;
+    background:#DDB9A3;
+    text-align: center;
+    border:1px solid green;
+}
+.sec2 div{
+    padding: 2% 2%;
+}
+.sec2 p{
+    font-size: 1.2em;
+    color: white;
+}
+.sec2 p:first-child{
+    margin-bottom: 30px;
+}
+.sec3{
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.sec3 img{
+    width: 30%;
+    margin-bottom: 3%;
+}
+.sec3 div{
+    padding: 3%;
+}
+.sec3 span{
+    font-weight: bold;
+}
+footer{
+    background:#F9E7DC;
+    position: relative;
+    bottom: -10vh;
+    border:0;
+}
+footer div{
+    background: url("assets/footer_img.jpg");
+    background-position: center;
+    padding: 15%;
+}
+footer nav{
+
+    padding: 3%;
+    border: 0;
+    
+}
+
