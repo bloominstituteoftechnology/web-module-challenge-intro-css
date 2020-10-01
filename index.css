@@ -47,11 +47,16 @@ table {
 	border-spacing: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-head{
-    font-family: "Roboto Mono";
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap');
+*{
+    border: 1px solid black;
+}
+body{
+    font-family: "Roboto Mono",cursive;
+    font-size: 20px;
 }
 nav a{
 display:inline-block;
@@ -96,16 +101,18 @@ div{
 #intro{
     display:inline-block;
     position: relative;
-    left: -500px;
-    top: -200px;
+    left: 700px;
+    top: -400px;
     text-align: center;
     background-color: white;
     line-height: 50px;
     margin-top: 200px;
 }
 #intro h1{
-    font-size: 36px;
-    font-family: "Chelsea Market";
+    font-size: 45px;
+    font-family: "Chelsea Market", cursive;
+    font: bold;
+
 }
 #body{
     background-color:#DDB9A3;
@@ -125,7 +132,7 @@ div{
     text-align: center;
     background-color: white;
 }
-.undericons{
+#icons .undericons{
     text-align: center;
     margin-bottom: 80px;
     margin-top: 20px;
@@ -133,6 +140,7 @@ div{
 #campfire{
     height: 100px;
     width:100px;
+    margin-top: 15px;
 }
 #rv{
     width: 100px;
