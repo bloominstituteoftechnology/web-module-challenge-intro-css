@@ -54,7 +54,7 @@ table {
 }
  
 body {
-   width: 100%;
+   width: 75%;
    margin: 0 auto;
    text-align: center;
 } 
@@ -114,7 +114,7 @@ button {
 }
 h1 {
     font-family: 'Chelsea Market';
-    font-size: 400%;
+    font-size: 300%;
     /* display: inline-block; */
 } 
  
