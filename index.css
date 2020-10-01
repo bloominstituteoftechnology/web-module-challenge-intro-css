@@ -57,66 +57,79 @@ table {
    width: 100%;
    margin: 0 auto;
    text-align: center;
- }
- nav, .footer_nav {
-   display: inline-block;
-   width: 85%;
- }
+ } 
+
  /* Buttons */ 
  nav, .footer_nav {
     display: inline-block;
-
+    width: 85%;
  }
  button {
     display: inline-block;
     border-radius: 12px;
-   color: white;
-   border: 0px solid white;
-   font-size: 16px;
-   margin-left: 5%;
-   margin-right: 5%;
+    color: white;
+    border: 0px solid white;
+    font-size: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
  }
  .plan {
-   background: #FF764E;
+    background: #FF764E;
  }
  .learn {
-   background: #5ED3EB;
+    background: #5ED3EB;
  }
  .get {
-   background: #FFCD69;
+    background: #FFCD69;
  }
  nav .button {
-   margin-top: 30px;
+    margin-top: 30px;
  }
  
  /* Header */
+ .header {
+    width: 80%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+ } 
+ .header_image img {
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    left: -20%;
+ }
  .park_guide {
-   display: inline-block;
+    display: inline-block;
+    position: relative;
+    /* border: 1px solid black; */
  }
- .header_image {
-   display: inline-block;
-   border-radius: 50%;
- }
- h1 {
-   font-family: 'Chelsea Market';
- }
+h1 {
+    font-family: 'Chelsea Market';
+    /* display: inline-block; */
+ } 
  
+ /* Content Section*/ 
  section {
-   background: #DDB9A3;
-   margin: 5px 70px 5px 70px;
-   padding: 5px;
-   color: white;
+    background: #DDB9A3;
+    margin: 5px 70px 5px 70px;
+    padding: 20px;
+    color: white;
  }
  
  /* Figures */ 
- .figure_one {
-   width: 30%;
-   margin: 0 auto;
-   padding: 20px 0 20px 0;
+ .figure_one, .figure_one img {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px 0 25px 0;
  }
- .figure_two {
-   width: 30%;
-   margin: 0 auto;
-   padding: 20px 0 20px 0;
+ .figure_two, .figure_two img {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+ }
+ span {
+     font-weight: bold;
  }
 
