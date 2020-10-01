@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@500&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+
+h1{
+    line-height: 2;
+    font-family: 'Chelsea Market', cursive;
+    font-size:4rem;
+    margin: 0% 3% 12% 40%;
+}
+
+h2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.3rem;
+}
+
+p{
+    font-size: .8rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header{
+    text-align: center;
+}
+
+button {
+    border-radius: 12px;
+    padding: 3%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.1rem;
+    color: white;
+    margin: 5% 6%; 
+    display: inline-block; 
+    border:none;
+    width: relative;
+    
+}
+
+button#clr1{
+    background-color:#FF764E;
+    align-self: center;
+}
+
+button#clr2{
+    background-color:#5ED3EB ;
+}
+
+button#clr3{
+    background-color:#FFCD69 ;
+
+}
+
+
+p.main{
+    background-color: #DDB9A3;
+    padding: 5% 0%;
+    font-size: 1.2em;
+    margin:5% 0%;
+    color: white;
+    line-height: 2rem;
+} 
+
+img.value {
+    border-radius: 50%;
+    width: 20%;
+    margin-left: 7%;
+
+
+}
+
+footer{
+    background-color: #F9E7DC;
+}
