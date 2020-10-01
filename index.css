@@ -72,6 +72,7 @@ table {
     font-size: 16px;
     margin-left: 5%;
     margin-right: 5%;
+    width: 10%;
  }
  .plan {
     background: #FF764E;
@@ -103,10 +104,12 @@ table {
  .park_guide {
     display: inline-block;
     position: relative;
+    padding-bottom: 5%;
     /* border: 1px solid black; */
  }
 h1 {
     font-family: 'Chelsea Market';
+    font-size: 400%;
     /* display: inline-block; */
  } 
  
@@ -119,17 +122,23 @@ h1 {
  }
  
  /* Figures */ 
- .figure_one, .figure_one img {
-    width: 30%;
-    margin: 0 auto;
-    padding: 20px 0 25px 0;
- }
- .figure_two, .figure_two img {
-    width: 30%;
+ .figure_one {
+    width: 20%;
     margin: 0 auto;
     padding: 20px 0 20px 0;
+ }
+ .figure_two {
+    width: 20%;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+ }
+ .figure_one img, .figure_two img {
+    width: 20%;
+    padding-bottom: 5%;
  }
  span {
      font-weight: bold;
  }
+
+ /* 
 
