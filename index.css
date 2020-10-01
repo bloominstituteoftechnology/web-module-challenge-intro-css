@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --orange: #FF764E;
+    --blue: #5ED3EB;
+    --yellow: #FFCD69;
+}
+/* Font family */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
+
+/* main styles */
+body{
+    background-color: darkgray;
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style-type: none;
+}
+/* classes */
+.orange{
+    background-color: var(--orange);
+}
+.blue{
+    background-color: var(--blue);
+}
+.yellow{
+    background-color: var(--yellow);
+}
+
+/* header */
+/* =============== nav header */
+#mainHeader{
+    padding-bottom: 5rem;
+}
+#mainNav, #footerNav{
+    padding: 40px 0;
+    text-align: center;
+}
+#mainNav ul, .container, #footerNav ul{
+    max-width: 1450px;
+    margin: 0 auto;
+}
+#mainNav ul li, #footerNav ul li{
+    display: inline-block;
+    border-radius: 20px;
+    padding: 12px 14px;
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+}
+#mainNav ul li:not(:last-child),
+#footerNav ul li:not(:last-child){
+    margin-right: 350px;
+}
+/* ================== hero */
+.hero{
+    position: relative;
+}
+.hero img{
+    width: 360px;
+    border-radius: 50%;
+}
+.hero .content{
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 80px;
+    right: 25%;
+}
+.content h1{
+    font-size: 4rem;
+    padding-bottom: 20px;
+}
+.content p{
+    font-size: 20px;
+}
+.miniPar{
+    padding-top: 2rem;
+    width: 400px;
+    margin: 0 auto;
+}
+
+/* main section */
+main{
+    text-align: center;
+}
+main .intro{
+    background-color: #DDB9A3;
+    padding: 10px;
+    color: #fff;
+    font-size: 26px;
+}
+main .intro p:not(:last-child){
+    padding-bottom: 2rem;
+}
+main section{
+    padding-top: 30px;
+}
+section .fireRec img,
+section .reserverRec img{
+    width: 200px;
+}
+section .fireRec{
+    padding-bottom: 60px;
+}
+section .fireRec{
+    width: 300px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+section .reserverRec{
+    width: 400px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+#mainFooter{
+    width: 100%;
+    height: 700px;
+    padding-top: 5rem;
+}
+#mainFooter .imageCover{
+    width: 100%;
+    height:450px;
+    background: #000 url(./assets/footer_img.jpg) no-repeat top center/cover;
+    
+}
