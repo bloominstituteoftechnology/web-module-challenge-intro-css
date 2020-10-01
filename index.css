@@ -10,10 +10,10 @@
 }
 /* Font family */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 
 /* main styles */
 body{
-    background-color: darkgray;
     font-family: 'Roboto Mono', monospace;
     width: 100%;
 }
@@ -78,6 +78,7 @@ ul{
 .content h1{
     font-size: 4rem;
     padding-bottom: 20px;
+    font-family: 'Chelsea Market', cursive;
 }
 .content p{
     font-size: 20px;
@@ -91,6 +92,7 @@ ul{
 /* main section */
 main{
     text-align: center;
+    padding-bottom: 50px;
 }
 main .intro{
     background-color: #DDB9A3;
@@ -123,12 +125,11 @@ section .reserverRec{
 }
 #mainFooter{
     width: 100%;
-    height: 700px;
-    padding-top: 5rem;
+    height: 600px;
+    background-color: #F9E7DC;
 }
 #mainFooter .imageCover{
     width: 100%;
     height:450px;
     background: #000 url(./assets/footer_img.jpg) no-repeat top center/cover;
-    
 }
