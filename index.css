@@ -70,6 +70,9 @@ nav a{
     margin-right:12%;
 
 }
+nav a:hover{
+    background: sandybrown;
+}
 .plan{
     background:#FF764E ;
 }
