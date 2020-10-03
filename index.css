@@ -1,17 +1,38 @@
-header {
-    text-align: center;
-    padding: 10px;
+    header {
+      text-align: center;
+      padding: 10px;
 }
-button {
-    border-radius: 25%;
-    height: 40px;
-}
+    button  {
+      font-family: sans-serif;
+      font-size: .9rem;
+      font-weight: 500;
+      padding: .75rem 1.75rem;
+      border: none;
+      border-radius: .25rem;
+      background: orange;
+      color: #212121;
+      transition: all .2s ease
+  }
+  
+    button:focus {
+      outline: none;
+      box-shadow: 0 0 0 0.2rem rgba(66, 153, 225, 0.6);
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background: #e2e8f0;
+  }
+  
+  button:active {
+    background: #cbd5e0;
+  }
 header .orange {
     background-color: coral;
 }
 .title img {
     border-radius: 50%;
-    height: 150px;
+    height: 135px;
     margin-left: 10px;
     margin-top: 0px;   
 }
@@ -46,4 +67,8 @@ footer img{
 footer {
     background-color: rgb(251, 238, 223);
     text-align: center;
+}
+
+aside {
+    float: right;
 }
