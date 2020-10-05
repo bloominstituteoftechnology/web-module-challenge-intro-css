@@ -49,10 +49,8 @@ table {
 @import url('https://fonts.google.com/specimen/Roboto+Mono');
  
 
-
- 
 body {
-   /* width: 75%; */
+   width: 100%;
    margin: 0 auto;
    text-align: center;
 } 
@@ -60,20 +58,23 @@ body {
 /* Buttons */ 
 nav, .footer_nav {
     display: inline-block;
-    width: 85%;
+    width: 95%;
+    margin-top: 30px;
 }
+
 button {
     display: inline-block;
+    height: 65px;
+    width: 10%;
+    font-size: 16px;
+    padding: 15px 15px 15px 15px;
     border-radius: 12px;
     color: white;
     border: 0px solid white;
-    font-size: 16px;
     margin-left: 5%;
     margin-right: 5%;
-    width: 16%;
-    padding-left: 20px;
-    padding-right: 20px;
     text-align: center;
+    vertical-align: middle;
  }
 .plan {
     background: #FF764E;
@@ -84,15 +85,13 @@ button {
 .get {
     background: #FFCD69;
 }
- nav .button {
-    margin-top: 30px;
-}
 
- 
 /* Header */
 header {
     width: 80%;
     margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 5%;
 }
 .header_image {
     display: inline-block;
@@ -108,7 +107,6 @@ header {
 .park_guide {
     display: inline-block;
     position: relative;
-    padding-bottom: 5%;
     vertical-align: middle;
 }
 h1 {
@@ -154,6 +152,6 @@ footer {
 }
 .footer_nav {
     margin-bottom: 30px;
-    padding: 25px;
+    /* padding: 25px; */
 }
 
