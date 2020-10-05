@@ -45,9 +45,9 @@ table {
 }
 /* -- End CSS reset */ 
 
-@import url('https://fonts.google.com/specimen/Chelsea+Market');
-@import url('https://fonts.google.com/specimen/Roboto+Mono');
- 
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
 
 body {
    width: 100%;
@@ -66,8 +66,8 @@ button {
     display: inline-block;
     height: 65px;
     width: 10%;
-    font-size: 16px;
-    padding: 15px 15px 15px 15px;
+    font-size: 14px;
+    padding: 15px 10px 15px 10px;
     border-radius: 12px;
     color: white;
     border: 0px solid white;
@@ -75,6 +75,7 @@ button {
     margin-right: 5%;
     text-align: center;
     vertical-align: middle;
+    font-family: 'Roboto Mono', monospace;
  }
 .plan {
     background: #FF764E;
@@ -88,10 +89,10 @@ button {
 
 /* Header */
 header {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
-    padding-top: 2%;
-    padding-bottom: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 .header_image {
     display: inline-block;
@@ -99,18 +100,22 @@ header {
 .header_image img {
     border-radius: 50%;
     position: relative;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    left: -30%;
     vertical-align: middle;
 }
 .park_guide {
+    width: 70%;
     display: inline-block;
     position: relative;
     vertical-align: middle;
+    font-family: 'Roboto Mono', monospace;
+}
+.park_guide .info {
+    display: inline-block;
+    width: 50%;
+    margin:0 auto;
 }
 h1 {
-    font-family: 'Chelsea Market';
+    font-family: 'Chelsea Market', cursive;
     font-size: 300%;
 } 
  
@@ -120,18 +125,21 @@ section {
     margin: 5px 70px 5px 70px;
     padding: 20px;
     color: white;
+    font-family: 'Roboto Mono', monospace;
 }
  
 /* Figures */ 
 .figure_one {
-    width: 30%;
+    width: 25%;
     margin: 0 auto;
     padding: 20px 0 20px 0;
+    font-family: 'Roboto Mono', monospace;
 }
 .figure_two {
-    width: 30%;
+    width: 25%;
     margin: 0 auto;
     padding: 20px 0 60px 0;
+    font-family: 'Roboto Mono', monospace;
 }
 .figure_one img, .figure_two img {
     width: 40%;
@@ -142,16 +150,21 @@ span {
 }
 
 /* Footer */ 
-.sub_footer {
-    width: 100%;
-}
 footer {
     width: 100%;
-    background-color: #F9E7DC;
-    margin: auto;
+    margin: 0 auto;
+}
+.sub_footer img {
+    width: 100%;
+    margin-bottom: 0%;
+    object-fit: cover;
 }
 .footer_nav {
-    margin-bottom: 30px;
+    margin-top: 0px;
+    width: 100%;
+    background-color: #F9E7DC;
+    padding-top: 40px;
+    padding-bottom: 40px;
     /* padding: 25px; */
 }
 
