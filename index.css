@@ -48,13 +48,11 @@ table {
 @import url('https://fonts.google.com/specimen/Chelsea+Market');
 @import url('https://fonts.google.com/specimen/Roboto+Mono');
  
-* {
-   font-family: 'Roberto Mono', regular;
-   border: 1px black solid; /* -- Border for position help */ 
-}
+
+
  
 body {
-   width: 75%;
+   /* width: 75%; */
    margin: 0 auto;
    text-align: center;
 } 
@@ -92,25 +90,31 @@ button {
 
  
 /* Header */
-.header {
+header {
     width: 80%;
     margin: 0 auto;
-    display: inline-block;
+    /* display: inline-block; */
     /* border: 1px solid red; */
-} 
-.header_image img {
-    border-radius: 50%;
+}
+
+.header_image {
     display: inline-block;
+}
+
+.header_image img {
+    border: 1px solid red;
+    border-radius: 50%;
     position: relative;
     margin-top: 5%;
     margin-bottom: 5%;
     left: -30%;
+    /* display: inline-block; */
 }
 .park_guide {
     display: inline-block;
     position: relative;
     padding-bottom: 5%;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 h1 {
     font-family: 'Chelsea Market';
