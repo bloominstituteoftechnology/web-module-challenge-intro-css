@@ -93,33 +93,27 @@ button {
 header {
     width: 80%;
     margin: 0 auto;
-    /* display: inline-block; */
-    /* border: 1px solid red; */
 }
-
 .header_image {
     display: inline-block;
 }
-
 .header_image img {
-    border: 1px solid red;
     border-radius: 50%;
     position: relative;
     margin-top: 5%;
     margin-bottom: 5%;
     left: -30%;
-    /* display: inline-block; */
+    vertical-align: middle;
 }
 .park_guide {
     display: inline-block;
     position: relative;
     padding-bottom: 5%;
-    border: 1px solid black;
+    vertical-align: middle;
 }
 h1 {
     font-family: 'Chelsea Market';
     font-size: 300%;
-    /* display: inline-block; */
 } 
  
 /* Content Section*/ 
