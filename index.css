@@ -52,6 +52,11 @@ table {
 
 html {
 	font-size: 62.5%;
+
+}
+
+.wrapper {
+	margin:0 100px;
 }
 
 nav a {
@@ -63,4 +68,21 @@ nav a {
 	border-radius: 100%;
 	width: 25%;
 	float: left;
+}
+h1 {
+	font-size: 4rem;
+	text-align: center;
+}
+h2 {
+	text-align: center;
+	font-size: 3rem;
+}
+
+header {
+	display: block;
+}
+main {
+	display: block;
+	width: 80%;
+	background-color: pink;
 }
