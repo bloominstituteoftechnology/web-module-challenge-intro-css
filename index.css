@@ -23,6 +23,11 @@
     border: none
 }
 
+.btn:hover {
+    filter: brightness(130%);
+
+}
+
 .btn-orange {
     background-color: #FF764E;
 }
@@ -102,7 +107,7 @@ h2 {
 
 /* -----------------info----------------- */
 .info {
-    margin: 0 auto;
+    margin: 3rem auto;
     width: 80%;
 }
 
@@ -127,5 +132,16 @@ h2 {
 
 /* -----------------foooter---------------- */
 
+.footer {
+    background-color:#F9E7DC;
+    padding-bottom: 1.5rem;
+}
+
+.footer img {
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
 
 /* -----------------footer----------------- */
