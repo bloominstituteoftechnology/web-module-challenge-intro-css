@@ -30,3 +30,20 @@ body {
 footer {
     background-color: #F9E7DC;
 }
+
+.first-image {
+    width: 250px;
+}
+
+.second-image {
+    width: 50px;
+}
+
+.third-image {
+    width: 50px;
+}
+
+.fourth-image {
+    height: 150px;
+    width: max-content;
+}
