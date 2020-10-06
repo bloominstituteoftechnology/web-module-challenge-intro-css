@@ -1,4 +1,69 @@
-/* CSS reset */
+/* CSS reset
+
+If you want to use my reset styles, then feel free! It's all explicitly in the public domain (I have to formally say that or else people ask me about licensing). You can grab a copy of the file to use and tweak as fits you best. If you're more of the copy-and-paste type, or just want an in-page preview of what you'll be getting, here it is.
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/*
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*/
+/*
+Previous Versions
+v1.0 (200802)
+Acknowledgments
+Thanks to Paul Chaplin for the blockquote / q rules.
+*/
+
+/*
+BUG REPORT - When my CSS reset code is live, it overrides and breaks my HTML inline styling <strong>.  I tried to insert alternative CSS reset by Meyer and it broke several other elements in terms of alignment.  So I decided to stick with CSS reset version one (form the Lambda Website) even though it breaks the inline HTML styling for <strong>.
+*/
+
+
 html, body, div, span, applet, object, iframe,  
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
 a, abbr, acronym, address, big, cite, code,  
@@ -29,10 +94,11 @@ main {
     background: white;
 }
 
+/* navigation bar styling */
 
 nav ul { 
     list-style-type: none;
-    padding: 3em 2em;
+    padding: 0em 2em;
     text-align: center;
     flex-direction:row;
     display: flex;
@@ -41,18 +107,25 @@ nav ul {
   }
 
 nav ul a {
-    padding: 1em 20px;
+    padding: .5em 2em;
     color: white;
     border-radius: 10px;
     text-decoration: none;
     box-sizing: border-box;
-    width: 11em;
+    width: auto;
+    display: flex;
     text-align: center;
-    margin: 3em;
+    margin: 2em 5em;
 }
 
+/* header banner styling */
+
 .header-text-container {
-    margin: 0em 4em;
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5em;
 }
 
 .header-image {
@@ -65,22 +138,19 @@ nav ul a {
 h1 {
     font-family: "Chelsea Market";
     font-size: 3em;
+    font-weight: lighter;
+    text-align: center;
 }
 
 .title-text {
     display: inline-block;
     align-content: center;
-    box-sizing: border-box;
     width: 60%;
-    padding-left: 1em;
-    padding-top: 1em;
-    padding-bottom: 3em;
-    padding-right: 0em;
-    margin-left: 1em;
     text-align: center;
     font-weight: bold;
-    position: absolute;
 }
+
+/* main body text / color block */
 
 .info-text {
     background: #DDB9A3;
@@ -89,6 +159,8 @@ h1 {
     padding: 1em 2em;
     text-align: center;
 }
+
+/* flaticon section text */
 
 .flaticon-text-container {
     box-sizing: border-box;
@@ -113,14 +185,15 @@ h1 {
     text-align: center;
     margin-bottom: 50px;
     margin-top: 20px;
-    font-weight: bold;
+
 }
 
-p span .bold-emphasis {
-    font-weight: bolder;
+.bold-emphasis {
+    font-weight: strong;
 }
 
-/* Begin footer section */
+/* footer section */
+
 footer nav ul {
     background: #F9E7DC; 
 }
@@ -130,10 +203,9 @@ footer nav {
 }
 
 .footer-image {
-    height: border-box;
     width: 100%;
     display: block;
     height: 200px; /* height of container */
     object-fit: cover;
-    object-position: 50% 0px; /* try 20% 10% */ 
+    object-position: 100% 0%;
 }
