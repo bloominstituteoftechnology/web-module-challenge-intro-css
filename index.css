@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    width: auto;
+}
+
+nav {
+    text-align: center;
+    margin-top: 2rem;
+    
+}
+
+nav a {
+    padding: 1.5rem 1rem;
+    border-radius: 15px;
+    margin: 7rem;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+.plan-your-visit {
+    background-color: #FF764E;
+}
+
+.learn-about-the-park {
+    background-color: #5ED3EB;
+}
+
+.get-involved {
+    background-color: #FFCD69;
+}
+
+.header-img {
+    width: 200px;
+    border-radius: 100%;
+}
+
+header {
+    font-family: 'Chelsea Market', cursive;
+}
