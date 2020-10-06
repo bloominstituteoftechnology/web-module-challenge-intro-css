@@ -75,7 +75,7 @@ section blockquote {
   font-size: 28px;
   text-align: center;
   width: 90%;
-  margin-top: 50px;
+  margin-top: 120px;
   margin-left: 50px;
   background: #D0B0A5;
   color: white;
@@ -83,7 +83,7 @@ section blockquote {
 }
 .small-pics {
   width: 10%;
-  margin: 0 625px;
+  margin: 20px 625px;
 }
 .image-frame {
   background-image: url("https://assets.codepen.io/4996277/footer_img.jpg");
