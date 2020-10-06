@@ -1,13 +1,14 @@
-header ul {
+header ul li {
     display: inline;
 }
 
-footer ul {
+footer ul li {
     display: inline;
 }
 
 .first {
     background-color: #FF764E;
+    text-align: center;
 }
 
 .second {
@@ -16,4 +17,16 @@ footer ul {
 
 .third {
     background-color: #FFCD69;
+}
+
+body {
+    text-align: center;
+}
+
+.main-background {
+    background-color: #DDB9A3;
+}
+
+footer {
+    background-color: #F9E7DC;
 }
