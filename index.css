@@ -37,8 +37,89 @@ nav a {
 .header-img {
     width: 200px;
     border-radius: 100%;
+    float: left;
+    margin-top: 3.5rem;
+    margin-left: 15rem;
 }
 
-header {
+.head header {
     font-family: 'Chelsea Market', cursive;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    margin-bottom: 1.4rem;
+}
+
+.head p.a {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-left: 35rem;
+    margin-right: 35rem;
+    margin-bottom: 1.4rem;
+}
+
+.head p.b {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-left: 37rem;
+    margin-right: 37rem;
+    margin-bottom: 2rem;
+}
+
+.description {
+    background-color: #ddb9a3;
+    padding: 1.5rem;
+    margin: 0 5rem;
+    margin-top: 3rem;
+}
+
+.description p {
+    color: white;
+}
+
+.description p {
+    font-size: 1.3rem;
+}
+
+.description p.a {
+    padding-bottom: 1rem;
+}
+
+.fire-img {
+    width: 7rem;
+    margin: 1rem 45rem;
+}
+
+.fire-p {
+    text-align: center;
+    margin: 0 40rem;
+    padding-left: 1.9rem;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+
+.truck-img {
+    width: 7rem;
+    margin: 1rem 45rem;
+}
+
+.truck-p {
+    text-align: center;
+    margin: 0 40rem;
+    padding-left: 1.9rem;
+    font-size: 1.1rem;
+    margin-bottom: 5rem;
+}
+
+.footer-img {
+    width: 100rem;
+    height: 20rem;
+    margin-bottom: -2.2rem;
+}
+
+.footer-nav {
+    background-color: #ddb9a3;
+    padding: 3rem 0;
 }
