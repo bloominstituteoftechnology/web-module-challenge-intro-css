@@ -56,14 +56,14 @@ html {
 }
 
 .wrapper {
-	margin: 0 10% 0 10%;
+	margin: 15%;
 }
 
 nav a {
 	display: inline-block;
 	padding: 125px;
 	font-size: 3rem;
-	text-align: center;
+	
 	
 }
 .headerImage {
@@ -72,17 +72,30 @@ nav a {
 	float: left;
 }
 h1 {
-	font-size: 4rem;
+	font-size: 6rem;
 	text-align: center;
+	font-family: 'Chelsea Market', cursive;
 }
 h2 {
 	text-align: center;
-	font-size: 3rem;
+	font-size: 4rem;
 }
 
 header {
 	display: block;
 	height: 400px;
 	width: 100%;
-	background: green;
+}
+section {
+	font-size: 4rem;
+}
+.img-container {
+	width: 10rem;
+	height: 10rem;
+	
+}
+.footerImage {
+	width: 100%;
+	height: 100rem;
+	
 }
