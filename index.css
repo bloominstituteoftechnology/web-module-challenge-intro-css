@@ -4,23 +4,73 @@ body {
 
 h1 {
     font-family: 'Chelsea Market', cursive;
+    font-size: 36px;
+    margin-bottom: 0.67em;
 }
 
-nav {
-    /* margin: 0 auto; */
+p {
+    margin-bottom: 1em;
 }
 
-.nav-plan {
+/* Navbar */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.flex-container-item {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.flex-container button {
+    font-family: 'Roboto-Mono', monospace;
+    color: white;
+    width: 110px;
+    height: 50px;
+    margin: 0 auto;
+    border: 0 none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.flex-container button:hover {
+    color: black;
+    opacity: 0.5;
+    transition: 0.2s;
+}
+
+.flex-container button:active {
+    color: white;
+    opacity: 1;
+    transition: 0s;
+}
+
+.item-plan {
     background-color: #FF764E;
 }
 
-.nav-learn {
+.item-learn {
     background-color: #5ED3EB;
 }
 
-.nav-involve {
+.item-involve {
     background-color: #FFCD69;
 }
+
+/* Header Content */
+
+.header-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+/* Main Content */
 
 .main-content {
     margin: 0 auto;
