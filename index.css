@@ -49,3 +49,18 @@ table {
 
 /* End CSS Reset */
 
+
+html {
+	font-size: 62.5%;
+}
+
+nav a {
+	display: inline-block;
+	padding: 100px;
+	font-size: 3rem;
+}
+.headerImage {
+	border-radius: 100%;
+	width: 25%;
+	float: left;
+}
