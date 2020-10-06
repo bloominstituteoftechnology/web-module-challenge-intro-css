@@ -5,12 +5,16 @@ body {
 
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 36px;
+    font-size: 3em;
     margin-bottom: 0.67em;
 }
 
 p + p {
     margin-top: 1em;
+}
+
+strong {
+    font-weight: bolder;
 }
 
 /* Navbar */
@@ -28,24 +32,25 @@ p + p {
     padding: 20px;
 }
 
-.flex-container button {
+.flex-container a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     font-family: 'Roboto-Mono', monospace;
     color: white;
     width: 110px;
-    height: 50px;
-    padding: 0 10px;
-    border: 0 none;
-    outline: none;
+    height: 20px;
+    text-decoration: none;
     border-radius: 10px;
 }
 
-.flex-container button:hover {
+.flex-container a:hover {
     color: black;
     opacity: 0.5;
     transition: 0.2s;
 }
 
-.flex-container button:active {
+.flex-container a:active {
     color: white;
     opacity: 1;
     transition: 0s;
@@ -87,14 +92,15 @@ section .flex-container {
     flex-direction: column;
 }
 
-.section-img {
+.favicon {
     width: 150px;
     height: 150px;
     padding: 0px;
+    border-radius: 100%;
 }
 
 .section-content {
-    width: 300px;
+    width: 30%;
 }
 
 /* Footer */
@@ -114,7 +120,6 @@ footer nav .flex-container {
     background-color: #F9E7DC;
     height: 100px;
     width: 100%;
-    margin-bottom: 0px;
     margin-top: auto;
 }
 
