@@ -1,0 +1,27 @@
+body {
+    font-family: "Roboto Mono", Roboto;
+}
+
+.headerimg {
+    border-radius: 50%;
+    width: 150px;
+}
+
+img {
+    width: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.plan {
+    color: #FF764E;
+}
+
+.learn {
+    color: #5ED3EB;
+}
+
+.get {
+    color: #FFCD69;
+}
