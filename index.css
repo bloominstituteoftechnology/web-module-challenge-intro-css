@@ -49,62 +49,52 @@ table {
 /* RESET is above, CSS for page below */
 
 
-
-h1 {
-    font-weight: bold;
-    font-size: 40px;
-    text-align: center;
-    
-}
-
-
-#buttons {
-    text-align: center;
-    color: white;
-    font-family: chelsea-market;
-    margin: 2% 0;
-    
-
-    
-}
-
-.visit {
-    background-color: #FF764E;
-    padding: 10px;
-    border-radius: 50px;
-}
-.park {
-    background-color: #5ED3EB;
-    padding: 10px;
-    border-radius: 50px;
-}
-.involved {
-    background-color:#FFCD69;
-    padding: 10px;
-    border-radius: 50px;
-}
-
-
-
 .headerimg {
     height: 200px;
     width: 200px;
     border-radius: 100px;
 }
-#icons {
-    height: 100px;
-    width: 100px;
+
+.icons {
+	Width: 10%;
+	
+	
+}
+
+nav {
     text-align: center;
-
-}
-
-.footerimg {
-    margin: auto;
-}
-
-
-@font-face {
+    color: white;
     font-family: chelsea-market;
-    src: url('https://fonts.google.com/specimen/chelsea+market');
-    
+	margin: 2% 0;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.visit {
+	background-color: #FF764E;
+    padding: 10px;
+    border-radius: 10px;
+}
+.park {
+	background-color: #5ED3EB;
+    padding: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.involved {
+	background-color:#FFCD69;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+	font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
