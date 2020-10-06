@@ -1,0 +1,19 @@
+header ul {
+    display: inline;
+}
+
+footer ul {
+    display: inline;
+}
+
+.first {
+    background-color: #FF764E;
+}
+
+.second {
+    background-color: #5ED3EB;
+}
+
+.third {
+    background-color: #FFCD69;
+}
