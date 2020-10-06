@@ -8,15 +8,21 @@ footer ul li {
 
 .first {
     background-color: #FF764E;
-    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+    
 }
 
 .second {
     background-color: #5ED3EB;
+    padding: 10px;
+    border-radius: 30px;
 }
 
 .third {
     background-color: #FFCD69;
+    padding: 10px;
+    border-radius: 30px;
 }
 
 body {
@@ -32,7 +38,7 @@ footer {
 }
 
 .first-image {
-    width: 250px;
+    width: 200px;
 }
 
 .second-image {
@@ -46,4 +52,16 @@ footer {
 .fourth-image {
     height: 150px;
     width: max-content;
+}
+
+header ul li {
+    margin: 40px;
+}
+
+footer ul li {
+    margin: 40px;
+}
+
+.two-items section {
+    display: inline-block;
 }
