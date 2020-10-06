@@ -56,13 +56,15 @@ html {
 }
 
 .wrapper {
-	margin:0 100px;
+	margin: 0 10% 0 10%;
 }
 
 nav a {
 	display: inline-block;
-	padding: 100px;
+	padding: 125px;
 	font-size: 3rem;
+	text-align: center;
+	
 }
 .headerImage {
 	border-radius: 100%;
@@ -80,9 +82,7 @@ h2 {
 
 header {
 	display: block;
-}
-main {
-	display: block;
-	width: 80%;
-	background-color: pink;
+	height: 400px;
+	width: 100%;
+	background: green;
 }
