@@ -1,0 +1,124 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+  font-family: Inconsolata;
+}
+.container header nav a {
+    list-style-type: none;
+    margin-top: 25px;
+    margin-left: 200px;
+    padding: 10px 10px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 26px;
+    font-weight: 400;
+    width: 180px;
+    color: white;
+}
+.button-one {
+  background: #FF764E;
+}
+.button-two {
+  background: #58D3EB;
+}
+.button-three {
+  background: #FFCD69;
+}
+header h1 {
+  font-family: chelsea market;
+  font-size: 68px;
+  margin-top: 90px;
+  margin-right: 170px;
+  text-align: right;  
+}
+header h2 blockquote {
+  font-size: 28px;
+  text-align: right;
+  margin-right: 170px;
+}
+header p {
+  font-size: 28px;
+  text-align: center;
+  padding: 10px;
+  margin-left: 350px;
+}
+header img {
+  width: 23%;
+  display: inline;
+  position: absolute;
+  margin-top: 60px;
+}
+.photo-clip{
+  clip-path: circle(160px at center);
+}
+section blockquote {
+  font-size: 28px;
+  text-align: center;
+  width: 90%;
+  margin-top: 50px;
+  margin-left: 50px;
+  background: #D0B0A5;
+  color: white;
+  padding: 20px 40px;
+}
+.small-pics {
+  width: 10%;
+  margin: 0 625px;
+}
+.image-frame {
+  background-image: url("https://assets.codepen.io/4996277/footer_img.jpg");
+  width: 100%;
+  height: 300px;
+}
+.container div footer img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+footer nav {
+  width: 100%;
+  height: 125px;
+  background: #F5E1E1;
+  padding-top: 10px;
+  opacity: 0.9;
+}
+.container footer nav a {
+    list-style-type: none;
+    margin-top: 25px;
+    margin-left: 200px;
+    padding: 10px 10px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 26px;
+    font-weight: 400;
+    width: 180px;
+    color: white;
+}
+main blockquote p {
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+}
