@@ -1,5 +1,9 @@
 .main {
+    font-family: 'Roboto', sans-serif;
 }
+
+
+
 /* -----------------buttons----------------- */
 .links {
     width: 80%;
@@ -95,3 +99,33 @@ h2 {
 }
 
 /* --------x--------main------x---------- */
+
+/* -----------------info----------------- */
+.info {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.info img {
+    max-width: 8rem;
+    display: block;
+    margin: 2rem auto;
+}
+
+.info p {
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
+    font-weight: 400;
+}
+
+.info p strong {
+    font-weight: 700;
+}
+
+/* --------x--------info------x---------- */
+
+/* -----------------foooter---------------- */
+
+
+/* -----------------footer----------------- */
