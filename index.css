@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto-Mono', monospace;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+
+nav {
+    /* margin: 0 auto; */
+}
+
+.nav-plan {
+    background-color: #FF764E;
+}
+
+.nav-learn {
+    background-color: #5ED3EB;
+}
+
+.nav-involve {
+    background-color: #FFCD69;
+}
+
+.main-content {
+    margin: 0 auto;
+}
