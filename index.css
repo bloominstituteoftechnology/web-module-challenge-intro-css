@@ -2,26 +2,53 @@ body {
     font-family: "Roboto Mono", Roboto;
 }
 
+
 .headerimg {
     border-radius: 50%;
     width: 150px;
 }
 
-img {
+.footerimg {
+    width: 100%;
+    height: -50%;
+}
+
+.footerimg img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    object-position: 100% 15%;
+}
+
+.icon {
     width: 75px;
     margin-left: auto;
     margin-right: auto;
 }
 
-
-.plan {
-    color: #FF764E;
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px 0;
 }
 
-.learn {
-    color: #5ED3EB;
+button {
+    background: none;
+    color:white;
+    border: none;
+    border-radius: 12px;
+    padding: 8px 25px;
 }
 
-.get {
-    color: #FFCD69;
+button.plan {
+    background-color: #FF764E;
+}
+
+button.learn {
+    background-color: #5ED3EB;
+}
+
+button.get {
+    background-color: #FFCD69;
 }
