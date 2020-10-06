@@ -1,67 +1,77 @@
 header ul li {
-    display: inline;
+  display: inline;
 }
 
 footer ul li {
-    display: inline;
+  display: inline;
 }
 
 .first {
-    background-color: #FF764E;
-    padding: 10px;
-    border-radius: 30px;
-    
+  background-color: #ff764e;
+  padding: 10px;
+  border-radius: 30px;
 }
 
 .second {
-    background-color: #5ED3EB;
-    padding: 10px;
-    border-radius: 30px;
+  background-color: #5ed3eb;
+  padding: 10px;
+  border-radius: 30px;
 }
 
 .third {
-    background-color: #FFCD69;
-    padding: 10px;
-    border-radius: 30px;
+  background-color: #ffcd69;
+  padding: 10px;
+  border-radius: 30px;
 }
 
 body {
-    text-align: center;
+  text-align: center;
+}
+
+#container {
+  width: 800px;
+  margin: 0 auto;
 }
 
 .main-background {
-    background-color: #DDB9A3;
+  background-color: #ddb9a3;
 }
 
 footer {
-    background-color: #F9E7DC;
+  background-color: #f9e7dc;
 }
 
 .first-image {
-    width: 200px;
+  width: 200px;
 }
 
 .second-image {
-    width: 50px;
+  width: 50px;
 }
 
 .third-image {
-    width: 50px;
+  width: 50px;
 }
 
 .fourth-image {
-    height: 150px;
-    width: max-content;
+  height: 150px;
+  width: 100%;
 }
 
 header ul li {
-    margin: 40px;
+  margin: 40px;
 }
 
 footer ul li {
-    margin: 40px;
+  margin: 40px;
 }
 
-.two-items section {
-    display: inline-block;
+#section2 {
+  display: table;
+  width: 100%;
+}
+
+#section2 > * {
+  display: table-cell;
+  vertical-align: middle;
 }
