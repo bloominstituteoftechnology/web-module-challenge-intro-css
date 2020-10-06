@@ -48,23 +48,34 @@ table {
 }
 /* RESET is above, CSS for page below */
 
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 
+
+
+body { 
+    width: 50%; 
+    padding: 0px; 
+	margin: 0 25% 0 25%;
+	font-size: 25px;
+	position: center;
+}
 .headerimg {
     height: 200px;
     width: 200px;
-    border-radius: 100px;
+	border-radius: 100px;
+	margin: 0 0 0 10%;
+	margin-top: 10%
 }
 
+
 .icons {
-	Width: 10%;
-	
-	
+	max-width: 10%;	
 }
 
 nav {
     text-align: center;
     color: white;
-    font-family: chelsea-market;
+    font-family: ;
 	margin: 2% 0;
 }
 
@@ -96,5 +107,33 @@ h1 {
     text-align: center;
 }
 
+.top-container {
+	margin: -175px 0 0 200px;
+	font-family: Chelsea-Market;
+	font-family: 'Chelsea Market', cursive;
 
+}
+.top-container p {
+	text-align:center;
+	font-family: 'Chelsea Market', cursive;
+}
 
+.middle-container .p1 {
+	background-color: #DDB9A3;
+	padding: 50px;
+}
+
+#buttons {
+	background-color: #F9E7DC;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.icon-container {
+	font-size: .5em;
+	text-align: center;
+}
+
+.footerimg {
+	max-width: 100%;
+}
