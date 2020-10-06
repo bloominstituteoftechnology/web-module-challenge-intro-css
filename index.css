@@ -5,10 +5,6 @@ body{
     margin: 0 auto; 
 }
 
-nav {
-    
-}
-
 li {
     display: inline-block;
     width: 300px;
@@ -54,7 +50,7 @@ ul {
 }
 
 
-img {
+.headerImg > img {
     border-radius: 50%;
     width: 20%;
     height:auto;
@@ -74,4 +70,32 @@ h1 {
 .pText {
     font-size: 24px;
     font-family: 'Roboto Mono', monospace;
+}
+
+#mainInfo {
+    font-size:  18px;
+    background: #DDB9A3;
+    font-family: 'Roboto Mono', monospace;
+    margin: 5% 5% 1% 5%;
+    padding-left: 1%;
+    text-align: center;
+    color: white;
+}
+.fire {
+    
+    font-family: 'Roboto Mono', monospace;
+    font-size:  16px;
+    
+}
+
+.fire > #fireImg > img {
+    width: 15%;
+    height: auto;
+    margin: 1% 45% 1%;
+}
+
+.fire > #fireText >p {
+    text-align: center;
+    width: 25%;
+    margin: 2% 40% 
 }
