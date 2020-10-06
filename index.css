@@ -11,13 +11,13 @@ body {
 header {
     display: grid;
     grid-template-columns: 2;
-    grid-gap: 10px;
+    grid-gap: 5px;
 }
 
 .headerimg {
     grid-column: 1 / 2;
     grid-row: 1;
-    margin-left: 75px;
+    margin-left: 100px;
     border-radius: 50%;
     width: 150px;
 }
@@ -26,10 +26,11 @@ header {
     grid-column: 2 / 2;
     grid-row: 2;
     margin-top: -160px;
-    margin-left: -180px;
+    margin-left: -155px;
 }
 
 h1 {
+    font-size: 36px;
     font-family: "Chelsea Market"!important;
     letter-spacing: 2px;
     margin-left: -70px;
@@ -40,8 +41,7 @@ h1 {
     font-weight: bold;
     width: 300px;
     text-align: center;
-    flex: 1 1 auto;
-    margin-left: -40px;
+    margin-left: -25px;
 }
 
 .first-section {
