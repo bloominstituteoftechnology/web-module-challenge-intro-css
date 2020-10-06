@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+
+
+
+li {
+    display: inline-block;
+}
+
+a {
+   
+}
+
+.visit {
+    background: #FF764E;
+    padding: 10px;
+    border-radius: 20%;
+    text-align: center;
+    width: 100px;
+    color: white;
+    font-family: 'Chelsea Market', cursive;
+    height
+}
+
+.park {
+    background: #5ED3EB;
+    padding: 10px;
+    border-radius: 20%;
+    text-align: center;
+    width: 100px;
+    color: white;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.Involved {
+    background: #FFCD69;
+    padding: 10px;
+    border-radius: 20%;
+    text-align: center;
+    width: 100px;
+    color: white;
+    font-family: 'Chelsea Market', cursive;
+}
