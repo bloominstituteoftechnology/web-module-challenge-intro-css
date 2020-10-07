@@ -48,7 +48,7 @@ Once your repository is set up, practice what you learned today to style the sit
   - [x] Round corners on navigation and footer items
   - [x] Header image and text side by side
   - [x] Centered content and margins around content
-  - [ ] Footer image positioning
+  - [x] Footer image positioning
 
 **Throughout your design you should avoid static units (pixels), and should instead use responsive units wherever possible.**
 
