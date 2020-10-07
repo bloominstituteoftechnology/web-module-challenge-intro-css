@@ -76,6 +76,7 @@ section blockquote {
   font-size: 28px;
   text-align: center;
   width: 90%;
+  margin-top: 100px;
   margin-top: 50px;
   margin-left: 50px;
   background: #D0B0A5;
@@ -83,6 +84,8 @@ section blockquote {
   padding: 20px 40px;
 }
 .small-pics {
+  width: 7%;
+  margin: 40px 660px;
   width: 10%;
   margin: 0 625px;
 }
@@ -117,6 +120,10 @@ footer nav {
     width: 180px;
     color: white;
 }
+main blockquote p {
+  text-align: center;
+  width: 30%;
+  margin: 20px auto;
 main blockquote p {
   text-align: center;
   width: 30%;
