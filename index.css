@@ -83,3 +83,25 @@ footer ul li {
   display: table-cell;
   vertical-align: middle;
 }
+
+.secondimage {
+  text-align: center;
+}
+
+.thirdimage {
+  text-align: center;
+}
+
+.text {
+  font-size: 10px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text2 {
+  font-size: 10px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
