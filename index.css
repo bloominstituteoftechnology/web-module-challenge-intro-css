@@ -48,23 +48,48 @@ table {
 }
 /* RESET is above, CSS for page below */
 
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 
-
-
-body { 
-    width: 50%; 
-    padding: 0px; 
-	margin: 0 25% 0 25%;
-	font-size: 25px;
-	position: center;
+html {
+	box-sizing:border-box;
+	max-width: 100%;
+	text-align:center;
+	font-family: 'Roboto Mono', monospace;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	font-size: 100%
 }
+
+body {
+	line-height:1.5;
+	font-size:1.5rem;
+
+}
+
+h1 {
+	font-size: 5rem;
+	text-align: center;
+	font-family: 'Chelsea Market', cursive;
+
+}
+
+#boxes {
+	display:table;
+}
+a {
+	text-decoration: none;
+	color:white;
+	padding: 5%;
+}
+
 .headerimg {
-    height: 200px;
-    width: 200px;
-	border-radius: 100px;
+    height: 15em;
+    width: 15em;
+	border-radius: 100%;
 	margin: 0 0 0 10%;
-	margin-top: 10%
+	margin-top: 10%;
+	float:left;
+
 }
 
 
@@ -72,68 +97,63 @@ body {
 	max-width: 10%;	
 }
 
-nav {
-    text-align: center;
-    color: white;
-    font-family: ;
-	margin: 2% 0;
+.icon-container {
+		text-align: center;
+		margin: 5% 0;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+.icon-text {
+	margin: 0 35%
 }
 
 .visit {
 	background-color: #FF764E;
-    padding: 10px;
-    border-radius: 10px;
+    padding: .5em;
+	border-radius: 10px;
+	margin: 0 5%
 }
 .park {
 	background-color: #5ED3EB;
-    padding: 10px;
+    padding: .5em;
 	border-radius: 10px;
-	text-decoration: none;
+	margin: 0 5%
 }
 .involved {
 	background-color:#FFCD69;
-    padding: 10px;
-    border-radius: 10px;
+    padding: .5em;
+	border-radius: 10px;
+	margin: 0 5%
 }
 
-h1 {
-	font-weight: bold;
-    font-size: 40px;
-    text-align: center;
+.text-container {
+	margin: 10% 10% 1% 10%
 }
 
-.top-container {
-	margin: -175px 0 0 200px;
-	font-family: Chelsea-Market;
-	font-family: 'Chelsea Market', cursive;
-
-}
-.top-container p {
-	text-align:center;
-	font-family: 'Chelsea Market', cursive;
+nav {
+	margin: 2%
 }
 
-.middle-container .p1 {
+.p1 {
+	color: white;
 	background-color: #DDB9A3;
-	padding: 50px;
-}
-
-#buttons {
-	background-color: #F9E7DC;
-	padding-top: 5%;
-	padding-bottom: 5%;
-}
-
-.icon-container {
-	font-size: .5em;
-	text-align: center;
+	
 }
 
 .footerimg {
-	max-width: 100%;
+width: 100%;
+height: 350px;
+background-position: center center;
+background-repeat: no-repeat;
+margin: -1% 0
 }
+
+footer {
+	background-color: #F9E7DC;
+	height: ;
+	padding: 1% 0 
+	
+}
+
+/*========================================*/
+
+
