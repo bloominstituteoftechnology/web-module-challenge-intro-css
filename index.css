@@ -79,4 +79,5 @@ header img {
 #bottomNav{
     display: flex;
     justify-content: space-evenly;
+    background-color: #F9E7DC;
 }
