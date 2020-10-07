@@ -10,18 +10,21 @@ footer ul li {
   background-color: #ff764e;
   padding: 10px;
   border-radius: 30px;
+  color: white;
 }
 
 .second {
   background-color: #5ed3eb;
   padding: 10px;
   border-radius: 30px;
+  color: white;
 }
 
 .third {
   background-color: #ffcd69;
   padding: 10px;
   border-radius: 30px;
+  color: white;
 }
 
 body {
@@ -35,6 +38,10 @@ body {
 
 .main-background {
   background-color: #ddb9a3;
+  color: white;
+  padding: 20px;
+  width: 85%;
+  margin: auto;
 }
 
 footer {
@@ -43,6 +50,7 @@ footer {
 
 .first-image {
   width: 200px;
+  border-radius: 50%;
 }
 
 .second-image {
