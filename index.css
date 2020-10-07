@@ -58,7 +58,7 @@ header img {
 }
 #mainText{
     background-color: #DDB9A3;
-    padding: 5px;
+    padding: 1px 20px;
     color: white;
     font-size: 15px;
 }
@@ -72,12 +72,21 @@ header img {
     max-height: 200px;
 }
 .middleContainers {
-    max-width: 200px;
+    max-width: 250px;
     font-size: 12px;
     margin: 25px auto;
+    line-height: 15px;
 }
 #bottomNav{
     display: flex;
     justify-content: space-evenly;
     background-color: #F9E7DC;
+    height: 100px;
+
+}
+.imageFrame{
+    background-image: url("assets/footer_img.jpg");
+    width: 100%;
+    height: 300px; 
+    background-color: red;
 }
