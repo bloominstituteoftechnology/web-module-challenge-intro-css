@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+.container {
+    padding: 10px; 
+}
 nav a{  
     margin: 0 10px; 
     padding: 20px;
@@ -8,25 +13,35 @@ nav a{
     margin-bottom: 20px;
     background-color: blue; 
     }
+    body {
+        margin: 10;
+    }
     .main-section {
         display: flex;
         margin: 0 auto;
-        border: 1px solid black;
+        
     }
     .main-img {
-        border: 1px solid black;
+        
         display: flex;
         width: 30%;
+        padding: 10px;
+    }
+    .yosemite {
+        ;
+
     }
     .main-section {
         text-align: center;
     }
     .main-section h1 {
         text-align: center;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     }
     .main-info h1 {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'Chelsea Market', cursive;
+    }
+    .main-info p {
+        font-family: 'Roboto Mono', monospace;
     }
     .main-info {
         text-align: center;
@@ -45,8 +60,11 @@ nav a{
         background-color: #5ed3eb;
     }
     .first-section {
-        width: 75%;
         margin: 0 auto;
+        padding: 10px;
+        background-color: #DDB9A3;
+        font-family: 'Roboto Mono', monospace;
+        color: white;
     }
     .involved {
         background-color: #FFCD69;
@@ -56,7 +74,6 @@ nav a{
         justify-content: left;
         height: 10%;
         display: flex;
-        border: 1px solid black;
         
     }
     .yosemite {
@@ -66,10 +83,65 @@ nav a{
         width:  100%;
         height: 100%;
         flex-direction: row-reverse;
+        p
         
     }
 
     nav {
         display: flex;
         justify-content: space-around;
+    }
+    .icon {
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+    }
+    .fire {
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+        height: 150px;
+    }
+    .truck {
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+        height: 150px;
+
+    }
+    .para1 {
+        box-sizing: border-box;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 100px;
+        background: white;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .para2 {
+        box-sizing: border-box;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 100px;
+        background: white;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .last-container {
+        display: flex;
+        padding: 0px;
+        height: 5%; 
+        width: 100%;
+    }
+    .last-image {
+        display: flex;
+        padding: 0px;
+        width: 100%;
+        height: 5%;
+    }
+    .footer-bar {
+        padding: 10px;
+        background-color: #F9E7DC;
     }
