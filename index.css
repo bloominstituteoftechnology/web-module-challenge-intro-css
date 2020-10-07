@@ -1,5 +1,5 @@
 .main {
-    font-family: 'Roboto', sans-serif;
+   
 }
 
 
@@ -72,7 +72,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
 }
@@ -87,6 +87,7 @@ h2 {
 /* -----------------main text----------------- */
 
 .main-text {
+    font-family: 'Roboto Mono', sans-serif;
     background-color: #DDB9A3;
     width: 90%;
     margin: 0 auto;
@@ -97,6 +98,7 @@ h2 {
 }
 
 .main-text p {
+    font-family: 'Roboto Mono', sans-serif;
     display: block;
     padding-bottom: 1rem;
     /* text-align: center; */
@@ -118,6 +120,7 @@ h2 {
 }
 
 .info p {
+    font-family: 'Roboto Mono', sans-serif;
     text-align: center;
     margin: 0 auto;
     width: 30%;
