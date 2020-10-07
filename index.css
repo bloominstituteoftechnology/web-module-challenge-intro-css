@@ -25,6 +25,7 @@ button {
 
 .btn:hover {
     filter: brightness(130%);
+    cursor: pointer;
 
 }
 
