@@ -1,0 +1,102 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+nav {
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.planyourvist {
+    background-color:#FF764E;
+    padding:25px;
+    border-radius:35%;
+    margin:10px;
+    font-size:18px;
+    font-family:'Roboto Mono', cursive;
+    Margin-left:10px;
+    color:white;
+    text-align:center;
+    width:150px;
+    margin-right:100px;
+}
+
+.learnaboutthepark {
+    background-color:#5ED3EB;
+    padding:25px;
+    border-radius:35%;
+    margin:10px;
+    font-size:18px;
+    font-family:'Roboto Mono', cursive;
+    Margin-left:10px;
+    color:white;
+    text-align:center;
+    width:150px;
+    margin-left:50px;
+}
+
+.getinvolved {
+    background-color:#FFCD69;
+    padding:25px;
+    border-radius:35%;
+    margin:10px;
+    font-size:18px;
+    font-family:'Roboto Mono', cursive;
+    Margin-left:10px;
+    color:white;
+    text-align:center;
+    width:150px;
+    Margin-left:150px;
+}
+
+.headercropper {
+    width:150px;
+    height:150px;
+    position:relative;
+    overflow:hidden;
+    border-radius:50%;
+}
+
+.headerimg {
+    width:150px;
+    height:150px;
+    position:relative;
+    overflow:hidden;
+    border-radius: 50%;
+    float:left;
+}
+
+.heading {
+    text-align:center;
+    font-family:'Roboto Mono'
+}
+
+h1 {
+    font-family:'Chelsea Market'
+    height:150px;
+    width:150px;
+    padding-left:400px;
+    font-size:50px;
+    white-space:nowrap;
+}
+
+.firstpart {
+
+}
