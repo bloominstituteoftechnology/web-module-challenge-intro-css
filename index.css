@@ -90,3 +90,15 @@ header img {
     height: 300px; 
     background-color: red;
 }
+#bplanVisit{
+    background-color: #FF764E;
+    margin-top: 20px;
+}
+#blearnAbout{
+    background-color: #5ED3EB;
+    margin-top: 20px;
+}
+#bgetInvolved{
+    background-color: #FFCD69;
+    margin-top: 20px;
+}
