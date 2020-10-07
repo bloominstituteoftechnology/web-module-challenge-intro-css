@@ -1,0 +1,77 @@
+
+.nav_flexbox{
+    justify-content: space-between;
+    display: flex;
+    padding: 50px;
+    margin: 20px;
+}
+.nav_button{
+    padding: 15px;
+    border-radius: 18px;
+}
+
+#logo-image img {
+    float: left;
+	border-radius: 50%;
+	max-width: 25%;
+	height: auto;
+}
+
+#logo-container{
+    float:right;
+}
+
+.menu-first-color {
+	background-color: #FF764E;
+}
+
+.menu-second-color {
+    background-color: #5ED3EB;
+}
+
+.menu-third-color {
+	background-color: #FFCD69;
+}
+
+.white-font{
+    color:white;
+}
+#logo-image {padding-left: 4%;}
+
+
+#brown-paragraph {
+    background-color: #DDB9A3;
+    margin: 5%;
+    padding: 4px;
+}
+
+body{
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.chelsea-market-font{
+    font-size: 280%;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.content-paragraph-div{
+    max-width:16%;
+    margin: auto;
+}
+.content-image-svg-1{
+    max-width:24%;
+    min-width: 5%;
+    margin: auto;
+}
+.content-image-svg-2{
+    max-width:245px;
+    min-width: 5%;
+    margin: auto;
+    text-align: center;
+}
+
+footer {
+    
+    background-color: #F9E7DC;
+}

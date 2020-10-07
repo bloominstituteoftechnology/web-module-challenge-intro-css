@@ -1,37 +1,65 @@
 <!-- Markup the content below with tags and attributes such that it can be styled in CSS-->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<!-- Link your CSS stylesheet -->
-    
-</head>
-<body>
-        Plan your Visit
-        Learn about the Park
-        Get Involved
-   
+   <head>
+      <!-- Link your CSS stylesheet -->
+      <link rel="stylesheet" href="index.css">
+      <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap" rel="stylesheet">
+   </head>
+   <body>
       
-      "header_img.jpg"
-      Yosemite Park Guide
-      Come explore California’s beautiful wilderness.
-      Always open. Reservations are not available or required to enter the park.
+      <header>
+         <nav>
+            <div class = "nav_flexbox">
+               <div class = "nav_button white-font menu-first-color">Plan your<br/>Visit</div>
+               <div class = "nav_button white-font menu-second-color">Learn About<br/>the Park</div>
+               <div class = "nav_button white-font menu-third-color">Get<br/>Involved</div>
+            </div><!-- end .nav_flexbox -->
+         </nav>
+         <div class= "logo-container">
+         <div id="logo-image">
+            <img src= "assets/header_img.jpg" alt="" >
+         </div>
+         <div id="logo-words">
+            <p class = "chelsea-market-font"> Yosemite Park Guide</p>
+            <p>Come explore California’s beautiful wilderness.</p>
+            <p>Always open. Reservations are not available or required to enter the park. </p>
+         </div>
+      </header>
+
+      <div style = "width: 100%; clear:both;"></div><!-- clearfix -->
+       
+      <div id = "brown-paragraph">
+         <p> Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.</p>
+         <p>First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.</p>
+      </div>
+
+      <div class = "content-paragraph-div">
+         <div class = "content-image-svg-2">
+            <img src= "https://image.flaticon.com/icons/svg/2979/2979348.svg" width = "30%">
+         </div>
+         <p>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for current fire restrictions.</p>
+      </div>
       
-      Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.
+      <div class = "content-paragraph-div">
+         <div class = "content-image-svg-1">
+            <img src= "https://image.flaticon.com/icons/svg/820/820374.svg" alt="">
+         </div>
+         <p>We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the park entrance fee upon arrival (there's no need to pay it in advance).</p>
+      </div>
+     
       
-      First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.
-      
-      "https://image.flaticon.com/icons/svg/2979/2979348.svg"
-      Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for current fire restrictions.
-      
-      "https://image.flaticon.com/icons/svg/820/820374.svg"
-      We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the park entrance fee upon arrival (there's no need to pay it in advance).
-    
-      "footer_img.png"
-      
-      
-        Plan your Visit
-        Learn about the Park
-        Get Involved
-      
-</body>
+      <footer>
+         <img src= "assets/footer_img.jpg" alt="">
+         <nav>
+            <div class = "nav_flexbox">
+               <div class = "nav_button white-font menu-first-color">Plan your<br/>Visit</div>
+               <div class = "nav_button white-font menu-second-color">Learn About<br/>the Park</div>
+               <div class = "nav_button white-font menu-third-color">Get<br/>Involved</div>
+            </div><!-- end .nav_flexbox -->
+         </nav>
+  
+      </footer>
+   </body>
 </html>
