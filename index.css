@@ -82,8 +82,8 @@ section blockquote {
   padding: 20px 40px;
 }
 .small-pics {
-  width: 10%;
-  margin: 20px 625px;
+  width: 7%;
+  margin: 40px 660px;
 }
 .image-frame {
   background-image: url("https://assets.codepen.io/4996277/footer_img.jpg");
@@ -119,6 +119,5 @@ footer nav {
 main blockquote p {
   text-align: center;
   width: 30%;
-  margin: 0 auto;
+  margin: 20px auto;
 }
-
