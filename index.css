@@ -13,12 +13,12 @@
     
 }
 
-.btn {
+button {
     color: white;
-    border-radius: 15px;
-    padding: 10px;
-    width: 150px;
-    height: 60px;
+    border-radius: 0.9rem;
+    padding: 0.625rem;
+    width: 9.3rem;
+    height: 3.75rem;
     text-transform: capitalize;
     border: none
 }
