@@ -16,6 +16,15 @@ button {
     
 
 }
+button.b1:hover {
+    background-color: black;
+}
+button.b2:hover {
+    background-color: black;
+}
+button.b3:hover {
+    background-color: black;
+}
 
 button.b1 {
             background-color:#FF764E ;
@@ -43,7 +52,7 @@ div.headline img{
                 
 }
 
-}
+
 div.headline {
     text-align: center;
 }
