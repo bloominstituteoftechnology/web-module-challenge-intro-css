@@ -1,8 +1,38 @@
+/* RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+}
+/* CSS START */
+
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap');
 body{
     width: 60%;
     margin: 0 auto; 
+}
+
+nav {
+    margin-left: 5%;
+    font-size:20px;
 }
 
 li {
@@ -48,39 +78,68 @@ ul {
     font-family: 'Chelsea Market', cursive;
     margin: 10%;
 }
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+}
 
+.headerImg {
+    
+    width: 25%;
+    height: auto;
+}
 
 .headerImg > img {
     border-radius: 50%;
-    width: 20%;
-    height:auto;
-    float: left;
-    
+    width: 100%;
+    height:auto;    
 }
+
 #heading {
-    display: inline;
-    text-align: center;
-    
+    text-align: center;    
 }
+
 h1 {
-    font-size: 54px;
+    font-size: 72px;
     font-family: 'Roboto Mono', monospace;
 }
 
-.pText {
+#heading > .pTextOne > p{
     font-size: 24px;
     font-family: 'Roboto Mono', monospace;
+    padding-top: 40px;
+    text-align: center;
+    margin-left: 5%;
+    height: 90%;
+}
+
+#heading > .pTextTwo > p{
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 40px;
+    text-align: center;
+    margin-left: 22%;
+    height: 90%;
+    width: 55% 
 }
 
 #mainInfo {
-    font-size:  18px;
+    font-size:  22px;
     background: #DDB9A3;
     font-family: 'Roboto Mono', monospace;
-    margin: 5% 5% 1% 5%;
-    padding-left: 1%;
+    margin: 5% 5% 0% 0%; 
     text-align: center;
     color: white;
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    
 }
+
+#mainInfo > #p1 > p {
+    margin: 0 0 2.5%;
+}
+
 .fire {
     
     font-family: 'Roboto Mono', monospace;
@@ -91,11 +150,40 @@ h1 {
 .fire > #fireImg > img {
     width: 15%;
     height: auto;
-    margin: 1% 45% 1%;
+    margin: 5% 45% 1%;
 }
 
 .fire > #fireText >p {
     text-align: center;
     width: 25%;
     margin: 2% 40% 
+}
+.info {
+    margin-bottom: 10%;
+    font-family: 'Roboto Mono', monospace
+}
+.info > img {
+    width: 15%;
+    height: auto;
+    margin: 4% 45% 1%;
+}
+
+.info > p {
+    text-align: center;
+    width: 25%;
+    margin: 2% 40% 
+}
+
+.footerImg {
+    overflow: hidden;
+}
+
+.footerImg > img {
+   width: 100%;
+   margin-bottom: -30%; 
+   
+}
+
+#footerBk {
+    background: #F9E7DC;
 }
