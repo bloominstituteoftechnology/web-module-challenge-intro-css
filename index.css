@@ -1,0 +1,75 @@
+nav a{  
+    margin: 0 10px; 
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background-color: blue; 
+    }
+    .main-section {
+        display: flex;
+        margin: 0 auto;
+        border: 1px solid black;
+    }
+    .main-img {
+        border: 1px solid black;
+        display: flex;
+        width: 30%;
+    }
+    .main-section {
+        text-align: center;
+    }
+    .main-section h1 {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    .main-info h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .main-info {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .main-section p {
+        text-align: center;
+    }
+
+    .visit {
+
+        background-color: #FF764E;
+
+    }
+    .learn {
+        background-color: #5ed3eb;
+    }
+    .first-section {
+        width: 75%;
+        margin: 0 auto;
+    }
+    .involved {
+        background-color: #FFCD69;
+    }
+    .container-img {
+        margin: 0 auto;
+        justify-content: left;
+        height: 10%;
+        display: flex;
+        border: 1px solid black;
+        
+    }
+    .yosemite {
+        display: flex;
+        border-radius: 50%;
+        margin: 0 auto;
+        width:  100%;
+        height: 100%;
+        flex-direction: row-reverse;
+        
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
