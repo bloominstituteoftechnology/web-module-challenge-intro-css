@@ -18,3 +18,43 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 }
+
+
+html {
+    font-size: 62.5%;
+    font-family: 'Chelsea Market' cursive;
+}
+.nav-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+button {
+    color: white;
+    padding: 25px;
+    font-size: 1.6rem;
+    /* margin-left: 35px; */
+    text-align: center;
+    border: white;
+    border-radius: 13%;
+    
+}
+.orange {
+    background: #FF764E;
+}
+.blue {
+    background: #5ED3EB;
+}
+.yellow {
+    background: #FFCD69;
+}
+.whole {
+    display: flex;
+    flex-direction: row;
+}
+.header-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
