@@ -47,8 +47,95 @@ table {
 	border-spacing: 0;
 }
 
-body{font-family: Chelsea+Market;}
-main{background-color: #DDB9A3;}
-footer{background-color: #F9E7DC;}
-span strong{font-weight: bold;}
-div.Title h1{font-weight: bold;}
+body{font-family: 'Roboto Mono', monospace;
+text-align: center;
+margin: auto;
+margin-left: 45px;
+margin-right: 75px;}
+
+main{background-color: #DDB9A3;
+    color: white;
+    margin: auto;
+height: 100px;
+width: 90%;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 1opx;
+padding-left: 10px;
+text-align: center;
+}
+
+footer{background-color: #F9E7DC;
+	margin: auto;}
+	
+footer img{
+	width: 100%;
+	padding-bottom: 20px;
+	margin-left: 0;
+margin-right: 0;
+height: 350px;}
+
+div strong{font-weight: bold;}
+
+div p.FireText{width:30%;
+margin: auto;}
+
+div p.RecommendReservations{width:30%;
+	margin: auto;}
+
+div img{width: 150px;
+		height: 150px;
+	align-items: center;
+		padding: 10px;
+		margin: auto;}
+
+div.Title div{
+	width: 800px;
+	height: 300px;
+	margin: 0em;
+	border: 0rem;
+	padding: 0em;
+display: inline-block;}
+
+header div.Title div h2.Always{width: 300px;
+	display: inline-block;}
+
+div.Title img{
+	border-radius: 50%;
+	border: 5em;
+	width: 300px;
+	height: 300px;
+	padding: 5em;
+	margin-top: 0em;
+display: inline-block;}
+
+div.Title h1{font-weight: bold;
+    font-family: 'Chelsea Market', cursive;
+font-size: 50px;
+}
+
+nav{font-size: 10px;}
+
+nav #button1{font-size: 3em;
+background-color: red;
+color: seashell;
+padding: 25px;
+border-radius: 18%;
+margin: 15px;
+margin-left: 35px;}
+
+nav #button2{font-size: 3em;
+background-color: springgreen;
+color: white;
+padding: 25px;
+border-radius: 18%;
+margin: 15px;
+margin-left: 35px;}
+
+nav #button3{font-size: 3em;
+background-color: turquoise;
+color: white;
+padding: 25px;
+border-radius: 18%;
+margin: 15px;
+margin-left: 35px;}
