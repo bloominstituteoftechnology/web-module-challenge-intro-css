@@ -366,8 +366,12 @@ html {
 }
 nav {
   padding: 3%; auto;
+  width: 80%;
+  margin-bottom: 1.5%;
 }
-
+footer nav {
+  margin-bottom: 0;
+}
 button {
   width: 19%;
   border-radius: 10px;
@@ -409,7 +413,7 @@ header img:hover {
   width: 25%;
 }
 .header-right {
-  width: 74%;
+  width: 70%;
   display: inline-block;
 }
 .header-right h1, .header-right p {
@@ -424,7 +428,7 @@ header img:hover {
   padding-bottom: 3%;
 }
 .header-right p:last-child {
-  width: 70%;
+  width: 65%;
 }
 .header-right p, .overview {
   font-size: 1.18rem;
@@ -436,7 +440,7 @@ header img:hover {
   background-color: #DDB9A3;
   color: white;
   text-align: center;
-  padding: 2%;
+  padding: 1.5% 2%;
   margin-bottom: 0;
 }
 .overview p:last-child {
@@ -446,6 +450,7 @@ header img:hover {
 img {
   width: 50%;
   margin-top: 12%;
+  margin-bottom: 3%;
 }
 img:hover {
   opacity: .5;
@@ -454,7 +459,7 @@ img:hover {
 .important-info {
   text-align: center;
   font-size: .8rem;
-  margin-bottom: 5%;
+  margin-bottom: 6%;
 }
 .important-info a {
   text-decoration: none;
@@ -465,6 +470,14 @@ img:hover {
   display: block;
   margin: 0 auto;
 }
+.sub-info {
+  padding-bottom: 1%;
+  text-align: center;
+  display: inline-block;
+  font-size: .8rem;
+  width: 22%;
+  min-width: 100px;
+  }
 
 footer {
   background: #F9E7DC;
@@ -495,14 +508,6 @@ footer {
   max-width: 800px;
   flex-wrap: wrap;
   margin-bottom: 30px;
-}
-.sub-info {
-margin: 30px 2px 0 2px;
-text-align: center;
-display: inline-block;
-font-size: .8rem;
-width: 20%;
-min-width: 100px;
 }
 
 .icons {
