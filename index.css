@@ -4,13 +4,13 @@
 }
 
 body{
-    width: 100%
+    width: 600px;
     margin: 0 auto;
 }
-
+/* navigation */
 .box{
-    margin: 0 auto;
-    padding:1rem;
+    margin: 10% auto;
+    padding: .5rem;
     border-radius: 10%;
     color: white;
     display: inline-block;
@@ -29,9 +29,22 @@ body{
     background-color: #FFCD69;
 }
 
+/*header*/
 .header{
     border-radius: 50%;
-    width: 10%;
-    height: 10%;
+    width: 20%;
+    height: 20%;
     margin: 2.5rem;
 }
+.image{
+    width:50%;
+    height: auto;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.image-text{
+    width: 49%;
+    display: inline-block;
+}
+
