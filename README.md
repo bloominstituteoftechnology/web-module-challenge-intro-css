@@ -1,7 +1,5 @@
 # Intro CSS Module Project
 
-Sheely
-
 ## User Interface and Git
 
 ## Objectives
