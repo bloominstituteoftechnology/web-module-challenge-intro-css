@@ -353,6 +353,7 @@ template {
 * {
   margin: 0 auto;
 }
+
 html {
   font-size: 10px;
   font-family: "Roboto Mono", monospace;
@@ -376,7 +377,7 @@ button {
 button a {
   text-decoration: none;
   color: white;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 button.plan {
   background: #FF764E;
@@ -389,7 +390,7 @@ button.get-involved {
 }
 button:hover {
   opacity: .5;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   width: 102px;
 }
 header {
@@ -402,19 +403,22 @@ header img {
   border-radius: 50%;
   height: 175px;
 }
+header img:hover {
+  height: 175px;
+}
 .header-right {
-  display: inline-block;
   margin-left: 22px;
+  display: inline-block;
 }
 .header-right h1, .header-right p {
   text-align: center;
 }
 .header-right h1{  
   font-family: 'Chelsea Market', cursive;
-  font-size: 3.25em;
+  font-size: 3.25rem;
   font-weight: lighter;
-
   padding: 10px auto;
+
 }
 .header-right p {
   padding-bottom: 20px;
@@ -423,9 +427,9 @@ header img {
   width: 70%;
 }
 .header-right p, .overview {
-  font-size: 1.18em;
+  font-size: 1.18rem;
   font-weight: lighter;
-  letter-spacing: .03em;
+  letter-spacing: .03rem;
   line-height: 1.1
 }
 .overview {
@@ -437,19 +441,22 @@ header img {
 .overview p {
   margin: 10px;
 }
-.important-info img {
+.important-info img, .reminders img {
   height: 75px;
-  display: block;
   padding: 10px;
 }
-.important-info img:hover {
+img:hover {
   opacity: .5;
   height: 80px;
 }
 .important-info {
   width: 160px;
   text-align: center;
-  font-size: .8em;
+  font-size: .8rem;
+}
+.important-info p {
+  padding-bottom: 30px;
+
 }
 .important-info a {
   text-decoration: none;
@@ -457,11 +464,11 @@ header img {
   font-weight: 700;
 }
 .sub-info {
-  margin: 20px auto 50px auto;
+  display: inline-b
+  width: 160px;
 }
 footer {
   background: #F9E7DC;
-  padding-bottom: 20px;
 
 }
 .footer-image {
@@ -473,7 +480,31 @@ footer {
   transition-duration: 4s;
 }
 .footer-image:hover {
-  height: 500px;
+  height: 300px;
   transition-duration: 4s;
   transition-delay: .25s;
+}
+.reminders h2 {
+  margin-top: 30px;
+  text-align: center;
+}
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 90%;
+  max-width: 800px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.sub-info {
+margin: 30px 2px 0 2px;
+width: 160px;
+text-align: center;
+display: inline-block;
+font-size: .8rem;
+}
+
+.icons {
+  padding-top: 20px;
 }
