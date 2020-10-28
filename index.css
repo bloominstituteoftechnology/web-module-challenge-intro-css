@@ -50,7 +50,7 @@ header {
 }
 nav {
     width: 100%;
-    margin: 10% 0;
+    padding: 5% 0;
 }
 .nav-link {
     display: inline-block;
@@ -86,4 +86,39 @@ p {
 }
 .header-text p {
     text-align: center;
+}
+#main-text {
+    width: 90%;
+    margin: 5% 5%;
+    background-color: #DDB9A3;
+}
+
+#main-text p {
+    text-align: center;
+    color: azure;
+}
+.card {
+    margin:0 auto;
+    width:20%;
+    
+}
+
+.card p {
+    text-align: center;
+}
+.icon{
+    margin:0 auto;
+    width: 45%;
+}
+
+footer {
+    background-color: #F9E7DC;
+    margin:0;
+    
+}
+footer img {
+    width: 100%;
+    object-fit: cover;
+    height: 30vh;
+    object-position: 0% 20%;
 }
