@@ -352,6 +352,7 @@ template {
 
 * {
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 html {
@@ -360,19 +361,22 @@ html {
 }
 .container {
   width: 90%;
-  max-width: 800px;
+  max-width: 1000px;
   margin-bottom: 0;
 }
 nav {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 20px auto;
+  padding: 3%; auto;
 }
+
 button {
-  width: 100px;
+  width: 19%;
   border-radius: 10px;
   border: none;
-  padding: 5px 0;
+  padding: 1% 0;
+  margin-right: 19%;
+}
+button:last-child {
+  margin-right: 0;
 }
 button a {
   text-decoration: none;
@@ -390,24 +394,22 @@ button.get-involved {
 }
 button:hover {
   opacity: .5;
-  font-size: 1.1rem;
-  width: 102px;
 }
 header {
-  display: flex;
   width: 90%;
-  margin-top: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 2%;
 }
 header img {
   border-radius: 50%;
-  height: 175px;
+  width: 25%;
+  margin: 0 auto;
+  padding: 0;
 }
 header img:hover {
-  height: 175px;
+  width: 25%;
 }
 .header-right {
-  margin-left: 22px;
+  width: 74%;
   display: inline-block;
 }
 .header-right h1, .header-right p {
@@ -417,11 +419,9 @@ header img:hover {
   font-family: 'Chelsea Market', cursive;
   font-size: 3.25rem;
   font-weight: lighter;
-  padding: 10px auto;
-
 }
 .header-right p {
-  padding-bottom: 20px;
+  padding-bottom: 3%;
 }
 .header-right p:last-child {
   width: 70%;
@@ -436,37 +436,36 @@ header img:hover {
   background-color: #DDB9A3;
   color: white;
   text-align: center;
-  padding: 3px 10px;
+  padding: 2%;
+  margin-bottom: 0;
 }
-.overview p {
-  margin: 10px;
+.overview p:last-child {
+  margin-top: 2%;
 }
-.important-info img, .reminders img {
-  height: 75px;
-  padding: 10px;
+
+img {
+  width: 50%;
+  margin-top: 12%;
 }
 img:hover {
   opacity: .5;
-  height: 80px;
+  width: 60%;
 }
 .important-info {
-  width: 160px;
   text-align: center;
   font-size: .8rem;
-}
-.important-info p {
-  padding-bottom: 30px;
-
+  margin-bottom: 5%;
 }
 .important-info a {
   text-decoration: none;
   color: inherit;
   font-weight: 700;
 }
-.sub-info {
-  display: inline-b
-  width: 160px;
+.important-info .sub-info {
+  display: block;
+  margin: 0 auto;
 }
+
 footer {
   background: #F9E7DC;
 
@@ -488,7 +487,7 @@ footer {
   margin-top: 30px;
   text-align: center;
 }
-.flexbox {
+.reminders-container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -499,10 +498,11 @@ footer {
 }
 .sub-info {
 margin: 30px 2px 0 2px;
-width: 160px;
 text-align: center;
 display: inline-block;
 font-size: .8rem;
+width: 20%;
+min-width: 100px;
 }
 
 .icons {
