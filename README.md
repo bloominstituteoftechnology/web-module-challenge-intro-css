@@ -22,6 +22,7 @@ The styles in your [design file](/design/desktop.jpg) include bright colors and 
 Follow these steps to set up and work on your project:
 
 - [ ] Create a forked copy of this project.
+- [ ] Add your Team Lead as collaborator on Github.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
@@ -73,4 +74,5 @@ The following goals are designed to stretch your knowledge and may require addit
 Follow these steps for completing your project.
 
 - [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-
+- [ ] Add your Team Lead as a reviewer on the pull request
+- [ ] Your Team Lead will count the project as complete by merging the branch back into master
