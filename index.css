@@ -1,0 +1,160 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+    }
+/* Reset code above */
+
+*{
+    border:3px solid red;                          /*CLEAR THIS WHEN DONE*/
+}
+
+nav{
+    text-align:center;
+}
+body{
+    width:100%;
+    /*text-align:center;*/
+}
+.planbutton{
+    text-decoration: none;
+    color:white;
+    display:inline-block;
+    width:110px;
+    height:15px;
+    text-align:center;
+    padding:2% 0;
+    border-radius: 10px;
+    background-color:#FF764E;
+}
+
+.learnbutton{
+    text-decoration: none;
+    color:white;
+    margin-left:10%;
+    display:inline-block;
+    width:110px;
+    height:15px;
+    text-align:center;
+    padding:2% 0;
+    border-radius: 10px;
+    background-color:#5ED3EB;
+}
+.involvedbutton{
+    text-decoration: none;
+    color:white;
+    margin-left:10%;
+    display:inline-block;
+    width:110px;
+    height:15px;
+    text-align:center;
+    padding:2% 0;
+    border-radius: 10px;
+    background-color:#FFCD69;
+}
+header{
+    width:100%;
+}
+.headerimg{
+    vertical-align: top;
+    width: 20%;
+    display:inline-block;
+    border-radius: 50%;
+    padding:5%;
+    
+}
+.boldtext{
+    font-weight:bold;
+}
+h1{
+    vertical-align: middle;
+    font-size: 35px;
+    font-family: 'Chelsea Market', cursive;
+    display:inline-block;
+}
+
+p{
+    vertical-align: middle;
+    font-family: 'Roboto Mono', monospace;
+    display:inline-block;
+}
+.mainimg{
+    vertical-align: auto;
+}
+
+.maintext{
+    padding-top: 10%;
+    text-align:center;
+    vertical-align: middle;
+    display:inline-block;
+    width:60%;
+}
+.mainBodyText{
+    text-align:center;
+    background-color:#DDB9A3;
+    color:white;
+}
+.campfireIcon{
+    margin-left:45%;
+    margin-right:50%;
+    width:10%;
+    height:10%;
+}
+.campfireText{
+    text-align:center;
+    margin-left:35%;
+    margin-right:35%;
+}
+.rvIcon{
+    margin-left:45%;
+    margin-right:50%;
+    width:10%;
+    height:10%;
+}
+
+.rvText{
+    text-align:center;
+    margin-left:35%;
+    margin-right:35%;
+}
+
+.footerImg{
+    
+}
