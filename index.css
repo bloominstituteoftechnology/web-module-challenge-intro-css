@@ -40,10 +40,13 @@ blockquote:before, blockquote:after, q:before, q:after {
 blockquote, q {
 	quotes: "" "";
     }
+html{
+    font-size:62.5%;
+}
 /* Reset code above */
 
 *{
-    border:3px solid red;                          /*CLEAR THIS WHEN DONE*/
+    /*border:2px solid grey;     */                     /*CLEAR THIS WHEN DONE*/
 }
 
 nav{
@@ -54,38 +57,39 @@ body{
     /*text-align:center;*/
 }
 .planbutton{
+    font-family: 'Roboto Mono', monospace;
     text-decoration: none;
     color:white;
     display:inline-block;
     width:110px;
-    height:15px;
+    /*height:15px;*/
     text-align:center;
-    padding:2% 0;
+    padding:20px;
     border-radius: 10px;
     background-color:#FF764E;
 }
 
 .learnbutton{
+    width:110px;
+    font-family: 'Roboto Mono', monospace;
     text-decoration: none;
     color:white;
     margin-left:10%;
     display:inline-block;
-    width:110px;
-    height:15px;
     text-align:center;
-    padding:2% 0;
+    padding:20px;
     border-radius: 10px;
     background-color:#5ED3EB;
 }
 .involvedbutton{
+    width:110px;
+    font-family: 'Roboto Mono', monospace;
     text-decoration: none;
     color:white;
     margin-left:10%;
     display:inline-block;
-    width:110px;
-    height:15px;
     text-align:center;
-    padding:2% 0;
+    padding:20px;
     border-radius: 10px;
     background-color:#FFCD69;
 }
@@ -127,6 +131,9 @@ p{
     width:60%;
 }
 .mainBodyText{
+    padding: 2.5rem;
+    margin: 0 auto;
+    width:90%;
     text-align:center;
     background-color:#DDB9A3;
     color:white;
@@ -154,7 +161,13 @@ p{
     margin-left:35%;
     margin-right:35%;
 }
+footer{
+    text-align:center;
+    background-color:#F9E7DC;
+}
 
 .footerImg{
-    
+    width:100%;
+    height:30vh;
+    overflow:hidden;
 }
