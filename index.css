@@ -47,3 +47,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+#header {
+    border: 10px purple;
+    border-radius: 50%;
+}
