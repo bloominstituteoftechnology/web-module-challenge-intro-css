@@ -25,7 +25,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    width: 100%;
 }
 ol, ul {
 	list-style: none;
@@ -45,23 +46,38 @@ table {
 
 
 header {
-    width: 100;
+
     margin: 5% 5%;
+    line-height: 2.5;
 }
 nav {
     width: 100%;
     padding: 5% 0;
 }
+li {
+    display: inline;
+}
 .nav-link {
-    display: inline-block;
-    background-color: aqua;
-    width:100px;
+  
+    color: azure;
+   
     border-radius: 15px;
     padding: 1% 1%;
     text-decoration: none;
     margin: auto 10%;
+    text-align: center;
+    font-weight: 200;
 }
 
+#plan {
+    background-color: #FF764E;
+}
+#learn {
+    background-color: #5ED3EB;
+}
+#getinvolved{
+    background-color: #FFCD69;
+}
 .header-img {
     display: inline-block;
     width: 20%;
@@ -72,9 +88,11 @@ nav {
 
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-weight: 700;
-    font-size: 2rem;
+    font-weight: 600;
+    font-size: 2.5rem;
     text-align: center;
+    margin: 2%;
+    letter-spacing: .4rem;
 }
 p {
     font-family: 'Roboto Mono', monospace;
@@ -88,25 +106,32 @@ p {
     text-align: center;
 }
 #main-text {
-    width: 90%;
+    max-width: 100%;
     margin: 5% 5%;
     background-color: #DDB9A3;
+    padding: 2%;
 }
 
 #main-text p {
+    font-size: 1rem;
     text-align: center;
     color: azure;
 }
 .card {
     margin:0 auto;
     width:20%;
-    
+    padding: 2% 0;
 }
 
 .card p {
     text-align: center;
 }
+
+.card b {
+    font-weight: bold;
+}
 .icon{
+    display: block;
     margin:0 auto;
     width: 45%;
 }
