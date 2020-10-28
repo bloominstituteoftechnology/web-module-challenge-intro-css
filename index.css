@@ -1,3 +1,10 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    max-width:100%;
+    border:1px solid black;
+
+  }
 html{
     font-size:62.5%;
 }
@@ -5,7 +12,7 @@ body{
     font-size:1.8rem;
     line-height: 1.5;
     color:#4F4F4F;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT serif', serif;
     background-color:#FFFAFA;
 }
 h1, h2, h3, h4{
@@ -17,18 +24,34 @@ h1{
     font-size: 5rem;
     color:#000;
 }
-h2{
-    font-size: 3rem;
+header{
+    inline
 }
-h3{
-    font-size:2.5rem;
-}
-section{
+
+.section{
     padding: 4% 0;
 }
-a{
-    text-decoration:none;
-    letter-spacing:3px;
-    color:#4F4F4F;
-    font-family: 'PT Sans', sans-serif;
+.notice{
+    font-weight: bold;
 }
+
+.circle{
+    border-radius:20%;
+    background-size: 100%;
+
+}
+.button{
+    display:inline-block;
+    width:20%;
+    text-align:center;
+    padding:2% 0;
+    margin:4%;
+    border-radius:10px;
+    border:1px solid black;
+    transition:3s;
+  }
+  
+  .button:hover{
+    background-color:forestgreen;
+    color:#fff;
+  }
