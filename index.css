@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+*{
+    /* border: 1px solid red; */
+    font-family:'Roboto Mono';
+}
+
+ .header-text{
+    display: inline-block;
+    position: absolute;
+  top: 28%;
+  right: 5%;
+}
+
+header{
+    display: inline-block;
+    width: 95%;
+    height: 150vh;
+}
+
+h1{
+    font-family:'Chelsea Market', cursive;
+font-size:8rem;
+margin: auto;
+width:100%;
+text-align: center;
+}
+
+.round-image{
+    border-radius: 50%;
+    width: 25%;
+    padding:4% 7%;
+}
+
+header p{
+margin:auto;
+font-size: 3rem;
+text-align: center;
+font-weight:500;
+}
+
+.first-p{
+margin-top:2%;
+margin-bottom:2%;
+color:black;
+}
+
+.second-p{
+    width:50%;
+    color:black;
+}
+
+h2{
+    display:inline-block;
+border-radius: 20px;
+font-size: 2.5rem;
+padding: 10px 25px;
+width: 9%;
+text-align: center;
+color:white;
+font-weight: 300;
+}
+
+.plan{
+background-color:#FF764E;
+margin-left: 16%;
+margin-right: 16%;
+}
+
+.learn{
+background-color:#5ED3EB;
+margin: 0%
+}
+
+.involved{
+    background-color:#FFCD69;
+    margin-left: 16%;
+margin-right: 16%;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+footer{
+    background-color: #F9E7DC;
+
+}
+
+.icon-1{
+    width:10%;
+    margin: 0 auto;
+    position: absolute;
+    top:108%;
+    right:45%;
+}
+
+.icon-2{
+    width:10%;
+    margin: 0 auto;
+    position: absolute;
+    top:160%;
+    right:45%;
+}
+
+.first-section{
+    width:90%;
+    margin:auto;
+    position: absolute;
+    top: 78%;
+    right:4%;
+    background-color:#DDB9A3;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.a-p{
+width: 100%;
+color:white;
+}
+
+.b-p{
+    width: 80%;
+    padding-left: 10%;
+    color:white;
+}
+
+.footer-image{
+    width:100%;
+    height:45vh;
+    object-fit: cover;
+    object-position: 0% 10%;
+}
+
+footer{
+    position: absolute;
+    top: 218%;
+}
+
+ .fire{
+position: absolute;
+width:21%;
+top:127%;
+right: 39%;
+font-size: 2rem;
+text-align: center;
+ }
+
+ .lodging{
+ position: absolute;
+ width: 23%;
+ top: 180%;
+ right:38%;
+ text-align: center;
+ font-size: 2rem;
+ 
+ }
