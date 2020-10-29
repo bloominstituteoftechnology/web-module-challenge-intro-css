@@ -51,12 +51,19 @@ table {
 * {
   box-sizing: border-box;
 }
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
 .box1 {
   display: inline-block;
   width: 50%
   height: 50%;
   padding: 1%;
   background-color: #FF764E;
+  margin: 2% 10%;
   border-radius: 10px;
 }
 
@@ -65,7 +72,8 @@ table {
   width: 50%
   height: 50%;
   padding: 1%;
-  background-color: #5ED3EB; 
+  background-color: #5ED3EB;
+  margin: 2% 10%;
   border-radius: 10px; 
 }
 
@@ -75,12 +83,13 @@ table {
   height: 50%%;
   padding: 1%;
   background-color: #FFCD69;
+  margin: 2% 10%;
   border-radius: 10px
 }
 #header {
-    padding: 10%;
-    border: 10px purple;
-    border-radius: 50%;
+  padding: 10%;
+  border: 10px purple;
+  border-radius: 50%;
 }
 
 .icon {
