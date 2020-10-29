@@ -23,12 +23,6 @@ h1{
     display:inline-block;
     width:100%;
 }
-.container{
-    display:inline-block;
-    width:80%;
-    margin:10%;
-    padding:0%;
-}
 .circle{
     display:inline-block;
     border-radius:50%;
@@ -36,12 +30,20 @@ h1{
     height:35%;
     padding:0;
     margin:0 auto;
+    vertical-align: middle;
+}
+.container{
+    display:inline-block;
+    width:80%;
+    height:0%;
+    margin:10%;
+    padding:0%;
 }
 .top{
     display:inline-block;
     width:50%;
-    height:100%;
-    
+    height:auto;
+    vertical-align:middle;
 }
 .notice{
     font-weight: bold;
