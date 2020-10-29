@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	font-family: 'Roboto Mono', monospace;
+    font-family: 'Chelsea Market', cursive;
+    font-family: 'Roboto Mono', monospace;
     line-height: 1;
 }
 ol, ul {
@@ -108,4 +109,8 @@ table {
   width: 30%;
   height: auto;
   margin: center;
+}
+
+h1 {
+  font-family: 'Chelsea Market';
 }
