@@ -57,6 +57,7 @@ table {
   height: 50%;
   padding: 1%;
   background-color: #FF764E;
+  border-radius: 10px;
 }
 
 .box2 {
@@ -64,7 +65,8 @@ table {
   width: 50%
   height: 50%;
   padding: 1%;
-  background-color: #5ED3EB;  
+  background-color: #5ED3EB; 
+  border-radius: 10px; 
 }
 
 .box3 {
@@ -73,6 +75,7 @@ table {
   height: 50%%;
   padding: 1%;
   background-color: #FFCD69;
+  border-radius: 10px
 }
 #header {
     padding: 10%;
