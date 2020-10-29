@@ -1,12 +1,17 @@
 * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  border: 1px solid grey;
 }
-#top-boxes {
-  margin: o auto;
+header {
+  margin: 5% auto;
 }
 .nav a {
   max-width: 100%;
   display: inline block;
-  width: 80%;
+  width: 20%;
   margin: 0 4%;
   padding: 1rem;
   color: white;
@@ -18,20 +23,38 @@
 .nav a.plan {
   background-color: #ff764e;
 }
-
 .nav a.learn {
   background-color: #5ed3eb;
 }
 .nav a.involved {
   background-color: #ffcd69;
 }
-#headerimage {
-  border-radius: 50%;
+
+#circleimage {
+  border-radius: 60%;
   width: 20%;
-  margin: 0 auto;
 }
 
 h1 {
   font-family: "Chelsea Market";
   text-align: center;
+  font-size: 3rem;
+}
+.topsection p {
+  text-align: center;
+  font-family: "Chelsea Market";
+}
+
+#about {
+  text-align: center;
+  width: 40%;
+  margin: 1rem 5rem;
+}
+#fireimage {
+  width: 10%;
+  margin: 1rem 5rem;
+}
+#truck {
+  width: 10%;
+  margin: 1rem 5rem;
 }
