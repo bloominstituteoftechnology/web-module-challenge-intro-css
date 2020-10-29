@@ -59,7 +59,7 @@ table {
 }
 
 .container2 {
-    width: 100%;
+    width: 75%;
     height: auto;
     display: inline-block;
 }
@@ -72,6 +72,7 @@ table {
   background-color: #FF764E;
   margin: 2% 10%;
   border-radius: 10px;
+  color: white;
 }
 
 .box2 {
@@ -81,7 +82,8 @@ table {
   padding: 1%;
   background-color: #5ED3EB;
   margin: 2% 10%;
-  border-radius: 10px; 
+  border-radius: 10px;
+  color: white; 
 }
 
 .box3 {
@@ -91,18 +93,22 @@ table {
   padding: 1%;
   background-color: #FFCD69;
   margin: 2% 10%;
-  border-radius: 10px
+  border-radius: 10px;
+  color: white;
 }
 #header {
   padding: 10%;
-  border: 10px purple;
   border-radius: 50%;
-  width: 40%;
+  width: 25%;
   height: auto;
+  display: inline-block;
+  vertical-align: text-bottom;
 }
 
 .icon {
   margin: center;
+  width: 30%;
+  height: auto;
 }
 
 .icon1zone {
@@ -119,5 +125,5 @@ table {
 
 h1 {
   font-family: 'Chelsea Market';
-
+  font-size: 200%;
 }
