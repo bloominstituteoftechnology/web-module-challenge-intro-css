@@ -58,6 +58,12 @@ table {
     height: auto;
 }
 
+.container2 {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
 .box1 {
   display: inline-block;
   width: 50%
@@ -113,4 +119,5 @@ table {
 
 h1 {
   font-family: 'Chelsea Market';
+
 }
