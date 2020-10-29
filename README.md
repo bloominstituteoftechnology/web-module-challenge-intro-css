@@ -21,25 +21,25 @@ The styles in your [design file](/design/desktop.jpg) include bright colors and 
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [done ] Create a forked copy of this project.
+- [done ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [done ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [done ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
 
 ### Task 2: Minimum Viable Product
 
 Once your repository is set up, practice what you learned today to style the site according to the given design. Your complete project should look similar to the desktop image. You should take the following actions, at a minimum:
 
-- [ ] Link your CSS stylesheet in the `index.html` and impliment a CSS reset 
-- [ ] Markup html semantically, such that it can be styled according to the given desktop image
-- [ ] Color the background of items in the navigation bar and footer with the following colors:
-  - [ ] Plan your Visit: `#FF764E`
-  - [ ] Learn About the Park: `#5ED3EB`
-  - [ ] Get Involved: `#FFCD69`
+- [ done] Link your CSS stylesheet in the `index.html` and impliment a CSS reset 
+- [done ] Markup html semantically, such that it can be styled according to the given desktop image
+- [ done] Color the background of items in the navigation bar and footer with the following colors:
+  - [done ] Plan your Visit: `#FF764E`
+  - [done ] Learn About the Park: `#5ED3EB`
+  - [ done] Get Involved: `#FFCD69`
 - [ ] Change all font colors and styles according to design file
-  - [ ] Yosemite Park Guide font is called Chelsea Market and can be found on [google fonts](https://fonts.google.com/specimen/Chelsea+Market)
-  - [ ] All other text is Roboto Mono, also available on [google fonts](https://fonts.google.com/specimen/Roboto+Mono)
+  - [Done ] Yosemite Park Guide font is called Chelsea Market and can be found on [google fonts](https://fonts.google.com/specimen/Chelsea+Market)
+  - [done ] All other text is Roboto Mono, also available on [google fonts](https://fonts.google.com/specimen/Roboto+Mono)
 - [ ] Color the background of the main text body with `#DDB9A3`
 - [ ] Color the background of the footer with `#F9E7DC`
 - [ ] Bold the words "current fire restrictions" and "park entrance fee" according to the design file
