@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+  padding: 0;  
+  margin: 0;
+  max-width: 100%;
+  border: 1px solid grey;
+  font-family:'Chelsea Market', cursive;
+}
+.one{
+    color:white;
+    background-color: #FF764E;
+    display: inline-block;
+    border-radius: 1rem;
+    width:15%;
+    padding:1%;
+    margin:1% 10% 1% 10%;
+    text-align: center;
+}
+.two{
+    color:white;
+    background-color: #5ED3EB;
+    display: inline-block;
+    border-radius: 1rem;
+    width: 15%;
+    padding:1%;
+    margin:1% 10% 1% 2%;
+    text-align: center; 
+}
+.three{
+    color:white;
+    background-color:#FFCD69 ;
+    display: inline-block;
+    border-radius: 1rem;
+    width: 15%;
+    padding: 1%;
+    margin: 1% 10% 1% 2%;
+    text-align: center;
+}
+.info{
+    margin:0 0 0 0;
+    width:100%;
+    
+
+
+}
+.facts{
+    color:white;
+    background-color:#DDB9A3;
+    text-align: center;
+    font-size:3rem;
+    
+}
+.circleimg{
+    border-radius: 50%;
+    width: 18%;
+    display:inline-block;
+    margin:1% 0 0 2%
+}
+.words{
+    Width:30%;
+    display:inline-block;
+    text-align: center;
+    margin: 0 20% 0 20%;
+    letter-spacing: 5px;
+    font-size: 1rem;
+    font-weight: lighter;
+
+    
+
+}
+.fire{
+width:20%;
+margin: 0 50% 0 40%;
+}
+.camp{
+    text-align: center;
+    letter-spacing: 5px;
+    margin:0 20% 0 20%;
+}
+.rv{
+    width:20%;
+    margin:0 50% 0 40%;
+}
+.camping{
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 0 20% 0 20%;
+}
+.endpic{
+    width:100%;
+    height: min-content;
+    background-position: top;
+    background-size: cover;
+    margin: 0 0 0 0;
+}
+.endnav{
+    background-color:#F9E7DC ;
+    margin:0 0 0 0;
+}
+
+
