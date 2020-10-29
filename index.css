@@ -1,21 +1,67 @@
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*/
 *{
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    border: solid red;
-    
+}
 
-}
-nav{
-    border: solid red;
-    
-}
 .button{
     border-radius: 20%;
     border: none;
     display: inline-block;
-   /* margin: 0 12%;*/
-   height: 100%;
+    
+   
+   width: 20%;
+   height: 70px;
+   font-size: 1.2rem;
+   margin: 1% 6.1%;
+   
+   
+  
     
 }
 
@@ -26,6 +72,8 @@ nav{
 }
 #learn{
     background-color: #5ED3EB;
+    padding: 0;
+    
     
 
 }
@@ -33,14 +81,7 @@ nav{
     background-color: #FFCD69;
 }
     
-.button{
-    width: auto;
-    height: 60px;
-    font-size: 2rem;
-    margin: 1% 9%;
-    
-    
-}
+
 body{
     border: none;
 }
@@ -49,26 +90,54 @@ body{
     width: 20%;
     border-radius: 50%;
     margin-left: 10%;
+    margin-top: 5%;
     
     
     
 }
+
 .heading{
     display: inline-block;
-    width: 50%;
-    margin-left: 10%;
+    width: 60%;
+    
     margin-top: 5%;
     
 }
+#h1{
+    font-size: 4.5rem;
+    font-family: 'Chelsea Market', cursive;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    margin-left: 5%;
+    
 
-
-/*
-h3{
-    width: 50%;
-    margin-left: 50%;
-
+    
+    
+    
+}
+span{
+    
+    text-align: center;
     
 }
 
-*/
+#center{
+    text-align: center;
+    width: 50%;
+    
+
+}
+h3{
+    margin-left: 20%;
+    font-size: 1.5rem;
+    width: 65%;
+}
+#notcenter{
+    
+    width: 100%;
+    margin-left: 10%;
+    width: 90%;
+
+}
+
 
