@@ -1,0 +1,17 @@
+body{
+    background-color:whitesmoke;
+}
+.orange_button, .blue_button, .yellow_button{
+    font-family:roboto-mono;
+    font-size: 16px;
+    margin:20px 100px
+    padding:20px;
+    text-align:center;
+    border:none;
+    border-radius: 25px;
+    color:white;
+}
+
+.orange_button{
+    background:orange;
+}
