@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 1px solid grey; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -59,13 +59,16 @@ table {
 }
 
 .container2 {
-    width: 75%;
-    height: auto;
+    max-width: 40%;
+    max-height: 100px;
     display: inline-block;
 }
 
 .container3 {
-
+  display: inline-block;
+  max-width: 59%;
+  vertical-align: top;
+  margin-top: 8%;
 }
 
 .container4 {
@@ -74,11 +77,13 @@ table {
     padding: 5%;
     margin: 12%;
     width: 75%;
+    display: inline-block;
 }
 
 .footer{
     width: 100%;
-    height: auto;
+    height: 10%;
+    
 }
 .container5 {
     width: 100%;
@@ -88,7 +93,7 @@ table {
 
 .box1 {
   display: inline-block;
-  width: 50%
+  width: 12%;
   height: 50%;
   padding: 1%;
   background-color: #FF764E;
@@ -99,7 +104,7 @@ table {
 
 .box2 {
   display: inline-block;
-  width: 50%
+  width: 16%;
   height: 50%;
   padding: 1%;
   background-color: #5ED3EB;
@@ -110,8 +115,8 @@ table {
 
 .box3 {
   display: inline-block;
-  width: 50%
-  height: 50%%;
+  width: 10%;
+  height: 10%;
   padding: 1%;
   background-color: #FFCD69;
   margin: 2% 10%;
@@ -122,14 +127,14 @@ table {
 #header {
   padding: 10%;
   border-radius: 50%;
-  width: 60%;
-  height: auto;
+  width: 50%;
+  height: 50%;
   display: inline-block;
   vertical-align: text-bottom;
 }
 
 .icon {
-  margin: 35%;
+  margin: 15%;
   width: 30%;
   height: auto;
 }
@@ -137,16 +142,25 @@ table {
 .icon1zone {
   width: 30%;
   height: auto;
-  margin: 35%;
+  margin: 50%;
+  text-align: vertical;
 }
 
 .icon2zone  {
   width: 30%;
   height: auto;
-  margin: 35%;
+  margin: 50%;
+  text-align: vertical;
 }
 
 h1 {
   font-family: 'Chelsea Market';
   font-size: 200%;
+}
+
+.footer img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: 0% 20%;
 }
