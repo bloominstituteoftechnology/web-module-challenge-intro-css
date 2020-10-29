@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: solid red;
+    
+
+}
+nav{
+    border: solid red;
+    
+}
+.button{
+    border-radius: 20%;
+    border: none;
+    display: inline-block;
+   /* margin: 0 12%;*/
+   height: 100%;
+    
+}
+
+#plan{
+    background-color: #FF764E;
+    
+    
+}
+#learn{
+    background-color: #5ED3EB;
+    
+
+}
+#get{
+    background-color: #FFCD69;
+}
+    
+.button{
+    width: auto;
+    height: 60px;
+    font-size: 2rem;
+    margin: 1% 9%;
+    
+    
+}
+body{
+    border: none;
+}
+#canyon{
+    display: inline-block;
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 10%;
+    
+    
+    
+}
+.heading{
+    display: inline-block;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 5%;
+    
+}
+
+
+/*
+h3{
+    width: 50%;
+    margin-left: 50%;
+
+    
+}
+
+*/
+
