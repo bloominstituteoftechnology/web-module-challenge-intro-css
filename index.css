@@ -71,6 +71,19 @@ table {
 .container4 {
     color: white;
     background-color: #DDB9A3;
+    padding: 5%;
+    margin: 12%;
+    width: 75%;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+}
+.container5 {
+    width: 100%;
+    height: auto;
+    background-color: #F9E7DC;
 }
 
 .box1 {
@@ -105,17 +118,18 @@ table {
   border-radius: 10px;
   color: white;
 }
+
 #header {
   padding: 10%;
   border-radius: 50%;
-  width: 25%;
+  width: 60%;
   height: auto;
   display: inline-block;
   vertical-align: text-bottom;
 }
 
 .icon {
-  margin: center;
+  margin: 35%;
   width: 30%;
   height: auto;
 }
@@ -123,13 +137,13 @@ table {
 .icon1zone {
   width: 30%;
   height: auto;
-  margin: center;
+  margin: 35%;
 }
 
 .icon2zone  {
   width: 30%;
   height: auto;
-  margin: center;
+  margin: 35%;
 }
 
 h1 {
