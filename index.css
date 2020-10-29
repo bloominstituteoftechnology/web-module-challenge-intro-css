@@ -47,12 +47,14 @@ table {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 .button{
     border-radius: 20%;
     border: none;
     display: inline-block;
+    
     
    
    width: 20%;
@@ -63,6 +65,9 @@ table {
    
   
     
+}
+a{
+    color: white;
 }
 
 #plan{
@@ -139,5 +144,39 @@ h3{
     width: 90%;
 
 }
-
-
+#para{
+    background-color: #DDB9A3;
+    width: 90%;
+    margin: 20% auto 0;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+}
+#bold{
+    font-weight: bold;
+}
+#fire{
+    width: 20%;
+    margin: 4% 0 0 40%;
+}
+#firep{
+    width: 25%;
+    margin: auto;
+    text-align: center;
+}
+#ambu{
+    width: 20%;
+    margin: 4% 0 0 40%;
+}
+#ambup{
+    width: 25%;
+    margin: auto;
+    text-align: center;
+}
+#mount{
+    width: 100%;
+    height: 50%;
+}
+footer{
+    background-color: #F9E7DC;
+}
