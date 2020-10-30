@@ -92,8 +92,8 @@ button {
     max-height: 60px;
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
-    padding: 5px;
-    line-height: 15px;
+    padding: 6px;
+    line-height: 16px;
 }
 #planVisit{
     background-color: #FF764E;
