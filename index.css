@@ -1,0 +1,33 @@
+html{
+    font-size: 62.5%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#header_img{
+    border-radius: 50%;
+}
+
+header{
+    font-size: 2rem;
+}
+
+p{
+
+}
+
+#container{
+
+}
+
+.icon{
+
+}
+
+footer{
+
+}
+
