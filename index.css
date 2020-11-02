@@ -1,0 +1,13 @@
+* { 
+    text-align: center;
+}
+body {
+    background-color: black;
+}
+div.header-container {
+    width: 300px;
+    border: 15px; color: #a81515;
+}
+.icon {
+align-content: center;
+}
