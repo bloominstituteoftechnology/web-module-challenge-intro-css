@@ -1,0 +1,182 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;	
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+* {
+	box-sizing: border-box;
+	/* border: 1px solid black; */
+}
+
+html {
+	font-size: 62.5%;
+}
+
+nav {
+	margin: 1% 0;
+	padding: 3% 0;
+	text-align: center;
+}
+
+.btn {
+	text-decoration: none;
+	color: #fff;
+	margin: 0 9%; 
+	padding: 1%;
+	text-align: center;
+	font-size: 1.5rem;
+	border-radius: 15px;
+
+}
+
+.orangeBtn {
+	background-color:#FF764E;
+}
+
+.aquaBtn {
+	background-color:#5ED3EB;
+}
+
+.goldBtn {
+	background-color:#FFCD69;
+}
+
+.welcomeImg {
+	display: inline-block;
+	margin-left: 10% ;
+	width: 29%;
+}
+
+.headerImage {
+	height: 20%;
+	width: 90%;
+	border-radius: 50%;
+}
+
+.welcomeContent {
+	width: 60%;
+	margin-bottom: 3%;
+	display: inline-block;
+}
+
+span {
+	font-weight: 900;
+}
+
+.welcomeTitle {
+	font-size: 4.5rem;
+	font-family: 'Chelsea Market', cursive;
+	width: 100%;
+	margin-bottom: 4%;
+	text-align: center;
+}
+
+.welcomeOpening, .welcomeInfo {
+	padding: 2.5% 0;
+}
+
+.welcomeContent p, .opening p {
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+
+.opening {
+	width: 90%;
+	margin: auto;
+	color: #fff;
+	background-color: #DDB9A3;
+}
+
+.upperText, .lowerText {
+	margin: 2%;
+}
+
+.fire{
+	margin: 2% 45% 0;
+	width: 12%;
+}
+.fireText {
+	margin: 0 auto;
+	width: 30%;
+	padding: 3% 0;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.camperVan {
+	margin: 2% 45% 0;
+	width: 12%;
+}
+
+.camperText {
+	margin: 0 auto;
+	width: 30%;
+	padding: 3% 0;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.mountains {
+	display: block;
+	width: 100%;
+	
+}
+
+.footerImage {
+	overflow: hidden;
+	height: 250px;
+}
+
+.btmLinks {
+	background-color: #F9E7DC;
+	margin: 0;
+}
