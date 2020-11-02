@@ -2,9 +2,33 @@ html{
     font-size: 62.5%;
 }
 
-nav{
+.test{
+    margin: 0 auto;
+    width: 600px;
+}
+
+nav a{
     display: flex;
     justify-content: space-between;
+    margin: 0 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+nav a:nth-child(1){
+    background: #FF764E;
+}
+
+nav a:nth-child(2){
+    background: #5ED3EB;
+}
+
+nav a:nth-child(3){
+    background: #FFCD69;
 }
 
 #header_img{
@@ -29,5 +53,9 @@ p{
 
 footer{
 
+}
+
+footer div{
+    background: coral;
 }
 
