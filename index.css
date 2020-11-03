@@ -8,12 +8,10 @@ html{
 }
 
 nav a{
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
     margin: 0 10px;
     border: 1px solid lightgray;
     padding: 20px;
-    display: inline-block;
     border-radius: 20px;
     text-decoration: none;
     margin-bottom: 20px;
