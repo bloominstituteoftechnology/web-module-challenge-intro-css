@@ -47,6 +47,11 @@ table {
 	border-spacing: 0;
 }
 
+.buttons {
+    width: 98%;
+    height: 10%
+    padding: 1%;
+}
 nav li{
     color:white;
     width: 120px;
@@ -81,11 +86,40 @@ nav #li3 {
 
 img {
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
     margin: 0px 50px;
+    width: 100%;
+    height: auto;
 }
 
 .intro {
     display: inline-block;
+}
+
+.divHeader {
+    width: 98%;
+    margin: 1%;
+
+}
+
+.leftHeader {
+    width: 23%;
+    margin: 1%;
+    display:inline-block;
+}
+
+.rightHeader {
+    width: 72%;
+    margin: 1%;
+    padding: 10px 0;
+    display:inline-block;
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+
+.rightHeader h1 {
+    font-size: 3rem;
+}
+.rightHeader p {
+    letter-spacing: 1px;
+    font-size: 1.25rem;
 }
