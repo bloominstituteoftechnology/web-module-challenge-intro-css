@@ -46,14 +46,21 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-div.bottom-nav nav ul {list-style-type:none; margin: 0; padding: 0; text-decoration:none; 
+div.bottom-nav a:link {text-decoration: none;
+color:black;
 }
-div.top-nav nav ul { list-style-type: none; margin: 0; padding: 0; text-decoration:none;
+div.bottom-nav nav ul {list-style-type:none; margin: 0; padding: 0; 
 }
-img.headerpic_img { border-radius: 3rem;
-	margin-top: auto; 
-	margin-bottom: auto;
+div.top-nav a:link {text-decoration: none;color:black;}
+div.top-nav nav ul { list-style-type: none; margin: 0; padding: 0;
+}
+
+div.headerpicture {width:60px; height:60px;
+	border-radius: 30px;
 	float:left;
-	margin-left:auto;
-	margin-right:auto;
+	
+}
+div.description {background:#DDB9A3;
+	color:white;
+
 }
