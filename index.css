@@ -50,25 +50,23 @@ table {
 
 div.bottom-nav a:link {text-decoration: none;
 color:black;
-display:inline-block;
 }
-div.bottom-nav nav ul li {list-style-type:none; 
+div.bottom-nav nav ul li {list-style-type:inline-block; 
 	margin: 0; 
 	padding: 0; 
-	display:inline-block;
+	
 }
 div.top-nav a:link {text-decoration: none;
 	color:black; 
-	display:inline-block;
 }
-div.top-nav nav ul li { list-style-type: none; 
+div.top-nav nav ul li { list-style-type: inline-block; 
 	margin: 0; 
 	padding: 0;
-	display:inline-block;
 }
 
-div.headerpicture { width: 33%;
-	border-radius: 30px;
+div.headerpicture { width: 200px;
+	height:200px;
+	border-radius: 100px;
 	float:left;
 }
 div.description {background:#DDB9A3;
@@ -88,7 +86,6 @@ p.icon-one {text-align:center;
 margin-bottom:5%;
 margin-left:33%;
 margin-right:33%;
-
 }
 div#icon-two{ padding-left: 47%;
 	padding-right:47%;
@@ -100,6 +97,4 @@ p.icontwo{ text-align:center;
 	margin-bottom:5%;
 	margin-left:33%;
 	margin-right:33%;
-	
-
 }
