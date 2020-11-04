@@ -1,0 +1,31 @@
+.bg-orange { background-color: #ff764e;}
+.bg-blue{ background-color: #5ed3eb;}
+.bg-yellow{background-color: #ffcd69;}
+.bg-brown{background-color: #ddb9a3;}
+.bg-lightbrown{background-color: #f9e7dc;}
+h1{font-family:"Chelsea Market";}
+.icon{ height: 200px;
+width: 200px;
+border-radius: 60%; 
+padding: 45px;}
+.center{ text-align: center;}
+body{ font-family: "Roboto Mono";
+margin:0;
+padding:0;}
+.txt-white{color: #ffffff;}
+.intro{ float:right;
+    padding-left:200x;
+padding-right:900px
+;
+}
+.other{display: inline-block;
+    padding-left:400px;
+padding-right:200px;
+;}
+   
+.content{ margin: 0 10px;
+  padding: 80px;
+  display: inline-block;
+  border-radius: 100px;
+  color: white;
+  ;}
