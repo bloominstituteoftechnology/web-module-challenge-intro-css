@@ -1,0 +1,47 @@
+section{
+    text-align: center;
+    color: white;
+    background: #DDB9A3;
+    padding: 5px;
+    margin: 10px;
+   
+  }
+  
+  middle p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:15em;
+   
+  
+  }
+  
+  nav{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-right: 75px;
+   }
+  nav button{
+    font-size: 14px;
+    text-align: center;
+    width:100px;
+    color: white;
+    border-radius: 10px;
+    border:none;
+    padding: 5px;
+    
+  }
+  
+  .plan{
+    background-color: #FF754E;
+    
+  }
+  .get{
+    background-color: #FFCD6A;
+    
+  }
+  .learn{
+    background-color: #5FD3EC;
+    
+  }
