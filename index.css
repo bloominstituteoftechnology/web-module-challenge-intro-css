@@ -79,15 +79,27 @@ div.description {background:#DDB9A3;
  padding-left:1.5rem;
  padding-right:1.5rem;
 }
-div#icon-one img { padding-left: 50%;
-padding-right:50%;
-text-align:center;
+div#icon-one img { padding-left: 47%;
+padding-right:47%;
 width: 100px;
 height:200px;
 }
 p.icon-one {text-align:center;
-margin-bottom:15%;
+margin-bottom:5%;
 margin-left:33%;
 margin-right:33%;
+
+}
+div#icon-two{ padding-left: 47%;
+	padding-right:47%;
+	width: 100px;
+	height:200px;
+
+}
+p.icontwo{ text-align:center;
+	margin-bottom:5%;
+	margin-left:33%;
+	margin-right:33%;
+	
 
 }
