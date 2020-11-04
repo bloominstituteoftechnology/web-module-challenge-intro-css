@@ -32,7 +32,7 @@ body {
 	line-height: 1;
 }
 ol, ul {
-	list-style: none;
+	list-style-type: none;
 }
 blockquote, q {
 	quotes: none;
@@ -46,5 +46,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.bottom-nav {list-style-type:none; 
+div.bottom-nav nav ul {list-style-type:none; margin: 0; padding: 0; text-decoration:none; 
+}
+div.top-nav nav ul { list-style-type: none; margin: 0; padding: 0; text-decoration:none;
+}
+img.headerpic_img { border-radius: 3rem;
+	margin-top: auto; 
+	margin-bottom: auto;
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
 }
