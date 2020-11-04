@@ -47,3 +47,12 @@ table {
 	border-spacing: 0;
 }
 
+nav li{
+    color: black;
+    width: 8%;
+    margin: 12%;
+    display: inline-block;
+    text-align: center;
+    
+}
+
