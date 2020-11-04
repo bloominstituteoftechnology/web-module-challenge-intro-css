@@ -48,11 +48,44 @@ table {
 }
 
 nav li{
-    color: black;
-    width: 8%;
-    margin: 12%;
+    color:white;
+    width: 120px;
+    height: 40px;
+    margin: 10%;
+    padding: 20px;
     display: inline-block;
     text-align: center;
-    
+    letter-spacing: 2px;
+    border-radius: 25px;
 }
 
+nav #li1 {
+        background-color:orangered;
+}
+
+nav #li1:hover {
+    background-color: peachpuff;
+}
+
+nav #li2 {
+    background-color: lightskyblue;
+}
+
+nav #li2:hover {
+    background-color: lightblue;  
+}
+
+nav #li3 {
+    background-color:#FFCD6A;
+}
+
+img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 0px 50px;
+}
+
+.intro {
+    display: inline-block;
+}
