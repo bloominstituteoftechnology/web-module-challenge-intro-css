@@ -51,7 +51,7 @@ table {
 div.bottom-nav a:link {text-decoration: none;
 color:black;
 }
-div.bottom-nav nav ul li {list-style-type:inline-block; 
+div.bottom-nav nav ul li {list-style-type:block; 
 	margin: 0; 
 	padding: 0; 
 	
@@ -59,15 +59,15 @@ div.bottom-nav nav ul li {list-style-type:inline-block;
 div.top-nav a:link {text-decoration: none;
 	color:black; 
 }
-div.top-nav nav ul li { list-style-type: inline-block; 
+div.top-nav nav ul li { list-style-type:block; 
 	margin: 0; 
 	padding: 0;
 }
 
-div.headerpicture { width: 200px;
-	height:200px;
-	border-radius: 100px;
-	float:left;
+div.headerpicture img { width:250px;
+	height:250px;
+	border-radius: 125px;
+	float:left; 
 }
 div.description {background:#DDB9A3;
 	color:white;
@@ -76,6 +76,9 @@ div.description {background:#DDB9A3;
  padding-bottom:1.5rem;
  padding-left:1.5rem;
  padding-right:1.5rem;
+ margin-right: 5%;
+ margin-left: 5%;
+
 }
 div#icon-one img { padding-left: 47%;
 padding-right:47%;
