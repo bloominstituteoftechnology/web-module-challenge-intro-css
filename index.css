@@ -1,0 +1,138 @@
+/* CSS Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/* Navigation Menu Styles */
+
+nav{
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+}
+ul{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+li{
+    flex: 1;
+}
+
+.nav-btn{
+    color: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    width: 10rem;
+    height: 4rem;
+}
+
+.nav-btn-1{
+    background-color: #ff764e;
+}
+
+.nav-btn-2{
+    background-color: #5ed3eb;
+}
+
+.nav-btn-3{
+    background-color: #ffcd69;
+}
+
+/* Main Layout Styles */
+
+
+main{
+    width: 80vw;
+    text-align: center;
+    margin: 0 auto;;
+}
+
+.top-section{
+    display: flex;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3.5rem;
+    padding: 2rem;
+}
+
+h5{
+    font-size: 1.2rem;
+    padding: 2rem;
+}
+
+.top-section p{
+    width: 16rem;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.top-left{
+    flex: 1;
+}
+
+.top-right{
+    flex: 3;
+}
+
+.top-left img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+
+.middle-section{
+    background-color: #ddb9a3;
+    padding: 4rem;
+}
+.middle-section p{
+    color: #fff;
+    width: 60vw;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.bottom-section div{
+    width: 20vw;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.bottom-section{
+    margin-bottom: 10vh;
+}
+
+.bottom-section img{
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+footer{
+    background-color: #f9e7dc;
+}
+
+footer img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
