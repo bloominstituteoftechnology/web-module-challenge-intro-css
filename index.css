@@ -1,0 +1,217 @@
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+html {
+  font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+  font-family: Chelsea Market;
+  text-align: center;
+}
+
+nav {
+  margin: 5% auto;
+  width: 90%;
+  text-align: center;
+  font-size: 12px;
+}
+.left {
+  display: inline-block;
+  width: 30%;
+}
+
+.right {
+  display: inline-block;
+  width: 50%;
+}
+.right h1 {
+  font-size: 3rem;
+}
+.info {
+  text-align: center;
+  background-color: #ddb9a3;
+  font-size: 12px;
+  color: white;
+  margin-top: 50px;
+}
+
+.fire {
+  hieght: 30%;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+.fire_text {
+  padding: 0 150px;
+  text-align: center;
+}
+.camping {
+  height: 30%;
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  background-color: ;
+}
+.camping_text {
+  padding: 0 150px;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.left img {
+  width: 80%;
+  border-radius: 50%;
+  margin-left: -30px;
+}
+
+.footer {
+  object-fit: cover;
+  width: 100%;
+  height: 10em;
+  background-color: #f9e7dc;
+}
+.nav1 {
+  background-color: #ff764e;
+  padding: 25px 10px;
+  display: inline-block;
+  color: white;
+  margin-right: 100px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.nav2 {
+  background-color: #5ed3eb;
+  padding: 25px 10px;
+  display: inline-block;
+  color: white;
+  margin-right: 100px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.nav3 {
+  background-color: #ffcd69;
+  padding: 25px 10px;
+  display: inline-block;
+  color: white;
+  border-radius: 10px;
+  margin-top: 25px;
+  width: 200px;
+}
+
+.bold_text {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #f9e7dc;
+  height: 100px;
+  margin-top: -40px;
+  margin-left: -38px;
+  margin-right: -38px;
+}
+
+.header_title {
+  text-align: center;
+}
