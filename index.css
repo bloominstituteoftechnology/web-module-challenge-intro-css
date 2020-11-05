@@ -1,16 +1,66 @@
-html{
-    font-size: 62.5%;
+/* reset css */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
 }
 
+/* HTML5 display reset */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Roboto Mono';
+    display: inline-block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Nav */
+
+nav{
+    margin: 1%;
+    padding: 1%;
+    width: 100%;
+
+}
 
 nav a{
-    display: inline-block;
+    /* display: inline-block;
     margin: 0 10px;
     border: 1px solid lightgray;
     padding: 20px;
     border-radius: 20px;
     text-decoration: none;
-    margin-left: 20%;
+    margin-left: 20%; */
+    border-radius: 20px;
+    margin-left: 15%;
+    padding: 1%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
 }
 
 nav a:nth-child(1){
@@ -25,32 +75,69 @@ nav a:nth-child(3){
     background: #FFCD69;
 }
 
+/* header */
+
 #header_img{
     border-radius: 50%;
     float: left;
+    margin: 0 0 20% 5%;
+    width: 20%;
+    height: auto;
 }
 
 header{
     font-size: 2rem;
 }
 
-p{
-
+h1{
+    font-family: 'Chelsea Market';
+    text-align: center;
+    font-size: 5rem;
 }
 
-#container{
+header div p{
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 10px;
+    margin: 1%;
+    line-height: 1.6;
+}
 
+/* Section */
+
+#par{
+    text-align: center;
+    background: #DDB9A3;
+    color: white;
+    margin: 10%;
+    font-size: 2rem;
+    padding: 1%;
+}
+
+span{
+    font-weight: bold;
 }
 
 .icon{
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
 }
 
-footer{
+.imgDescription{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5%;
+}
 
+footer img{
+    width: 100%;
 }
 
 footer div{
-    background: coral;
+    background: #F9E7DD;
+    width: 100%;
+    height: 100%;
 }
 
