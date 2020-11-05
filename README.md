@@ -33,11 +33,11 @@ Once your repository is set up, practice what you learned today to style the sit
 
 - [x] Link your CSS stylesheet in the `index.html` and impliment a CSS reset 
 - [x] Markup html semantically, such that it can be styled according to the given desktop image
-- [ ] Color the background of items in the navigation bar and footer with the following colors:
+- [x] Color the background of items in the navigation bar and footer with the following colors:
   - [x] Plan your Visit: `#FF764E`
   - [x] Learn About the Park: `#5ED3EB`
   - [x] Get Involved: `#FFCD69`
-- [ ] Change all font colors and styles according to design file
+- [x] Change all font colors and styles according to design file
   - [x] Yosemite Park Guide font is called Chelsea Market and can be found on [google fonts](https://fonts.google.com/specimen/Chelsea+Market)
   - [x] All other text is Roboto Mono, also available on [google fonts](https://fonts.google.com/specimen/Roboto+Mono)
 - [x] Color the background of the main text body with `#DDB9A3`
