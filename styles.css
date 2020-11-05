@@ -49,15 +49,12 @@ table {
 
 .buttons {
     width: 98%;
-    height: 10%
+    height: 10%;
     padding: 1%;
+    border: 1px solid black;
 }
 nav li{
     color:white;
-    width: 120px;
-    height: 40px;
-    margin: 10%;
-    padding: 20px;
     display: inline-block;
     text-align: center;
     letter-spacing: 2px;
@@ -66,14 +63,23 @@ nav li{
 
 nav #li1 {
         background-color:orangered;
+        width: 120px;
+        height: 40px;
+        padding: 20px;
+        margin: 0 5%;
 }
 
 nav #li1:hover {
     background-color: peachpuff;
+    
 }
 
 nav #li2 {
     background-color: lightskyblue;
+    width: 120px;
+    height: 40px;
+    padding: 20px;
+    margin: 0 5%;
 }
 
 nav #li2:hover {
@@ -82,6 +88,13 @@ nav #li2:hover {
 
 nav #li3 {
     background-color:#FFCD6A;
+    width: 120px;
+    height: 40px;
+    padding: 20px;
+    margin: 0 5%;
+}
+nav #li3:hover {
+    background-color: #ffe0a8;
 }
 
 img {
