@@ -1,4 +1,11 @@
-section{
+body{
+  
+    margin-left:auto;
+    margin-right:auto;
+    width: 500px;
+  }
+  
+  section{
     text-align: center;
     color: white;
     background: #DDB9A3;
@@ -19,8 +26,7 @@ section{
   nav{
     display:flex;
     justify-content: space-between;
-    margin-left: 75px;
-    margin-right: 75px;
+    
    }
   nav button{
     font-size: 14px;
@@ -44,4 +50,21 @@ section{
   .learn{
     background-color: #5FD3EC;
     
+  }
+  footer{
+    background: #F9E7DD;
+    background-size: 500px 500px;
+    
+  }
+  footer nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
+  .container{
+    text-align: center;
+    margin-left: 175px;
   }
