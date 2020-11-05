@@ -96,9 +96,16 @@ nav #li3:hover {
     background-color: #ffe0a8;
 }
 
+img {
+    width: 16%;
+    height: auto;
+    padding: 0 42%;
+
+}
+
 #headerimg {
     border-radius: 50%;
-    margin: 0px 50px;
+    margin: 10px 0;
     width: 100%;
     height: auto;
 }
@@ -120,8 +127,9 @@ nav #li3:hover {
 }
 
 .rightHeader {
-    width: 72%;
-    padding: 10px 0;
+    width: 62%;
+    padding: 10px;
+    margin-left: 10%;
     display:inline-block;
     text-align: center;
     font-family: "Comic Sans MS";
@@ -147,4 +155,19 @@ nav #li3:hover {
     margin: 2.5%;
     background-color: burlywood;
     font-family: "Lucida Sans Unicode";
+}
+
+.middle p{
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    width: 30%;
+    height: auto;
+    margin: 1% 35% 5%;
+}
+
+#mountains {
+    width: 100%;
+    height: auto;
+    padding: 0;
 }
