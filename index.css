@@ -1,7 +1,7 @@
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
+del, dfn, em, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
@@ -51,22 +51,63 @@ h1 {
 .box1 {
     background-color: #FF764E;
     color: white;
+    padding: 5%;
+    padding-top: 1%;
+    margin-right: 15%;
+    border-radius: 20%;
+
+    
 }
 .box2 {
     background-color: #5ED3EB;
     color: white;
+    padding: 5%;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    margin-right: 15%;
+    border-radius: 20%;
+    
 }
+
 .box3 {
     background-color: #FFCD69;
     color: white;
+    padding: 5%;
+    padding-top: 1%;
+    border-radius: 20%;
 }
+
 p {
     color: white;
     background-color: #DDB9A3;
 }
+
 footer {
     background-color: #F9E7DC;
 }
+
 b {
     font-weight: bold;
+}
+
+.headerDiv {
+    display: flex;
+    margin: 6%;
+    padding: 10%;
+
+}
+
+.headerImg {
+    border: 5%;
+
+}
+
+.fire {
+    display: flex;
+    flex-direction: column;
+    
+}
+.van {
+    display: flex;
+    flex-direction: column;
 }
