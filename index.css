@@ -1,0 +1,176 @@
+/* CSS Reset  */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+/* CSS  */
+
+html {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+}
+
+body {
+    margin: 6%;
+}
+
+img {
+    width: 100%;
+}
+
+#header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 2%;
+}
+
+.headPlan {
+    background-color: #ff764e;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    color: #ffffff;
+    margin: 9%;
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+}
+
+.headLearn {
+    background-color: #5ed3eb;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    color: white;
+    margin: 9%;
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+}
+
+.headInvolved {
+    background-color: #ffcd69;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    color: white;
+    margin: 9%;
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+}
+
+button {
+    border: none;
+}
+
+button:hover {
+    background-color: #000000;
+    text-transform: uppercase;
+}
+
+div.historical-facts {
+    width: 80%;
+    background-color: #ddb9a3;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem;
+    display: inline-block;
+}
+
+div.footer-container {
+    background-color: #f9e7dc;
+}
+
+h1 {
+    margin-left: auto;
+    display: inline;
+    font-size: 40px;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.park_guide_box {
+    margin: 1%;
+    width: 100%;
+}
+
+.park_guide_box img {
+    width: 33%;
+    height: auto;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 5%;
+}
+
+div.center-images img {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    display: block;
+    width: 15%;
+    height: 15%;
+}
+
+.center-images p {
+    padding: 1.5rem;
+    margin: 3rem;
+    width: 67%;
+    text-align: center;
+}
+
+.footer-container {
+    width: 100%;
+    margin: 0;
+}
+
+.footer-container img {
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    display: block;
+}
+
+.footPlan {
+    background-color: #ff764e;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    color: #ffffff;
+    margin: 5%;
+    padding: 0.7rem;
+    border-radius: 0.7rem;
+}
+
+.footLearn {
+    background-color: #5ed3eb;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    color: #ffffff;
+    margin: 5%;
+    padding: 0.7rem;
+    border-radius: 0.7rem;
+}
+
+.footInvolved {
+    background-color: #ffcd69;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    color: #ffffff;
+    margin: 5%;
+    padding: 0.7rem;
+    border-radius: 0.7rem;
+}

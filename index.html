@@ -1,37 +1,62 @@
 <!-- Markup the content below with tags and attributes such that it can be styled in CSS-->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <!-- Link your CSS stylesheet -->
-    
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
 </head>
+
 <body>
-        Plan your Visit
-        Learn about the Park
-        Get Involved
-   
-      
-      "header_img.jpg"
-      Yosemite Park Guide
-      Come explore California’s beautiful wilderness.
-      Always open. Reservations are not available or required to enter the park.
-      
-      Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.
-      
-      First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.
-      
-      "https://image.flaticon.com/icons/svg/2979/2979348.svg"
-      Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for current fire restrictions.
-      
-      "https://image.flaticon.com/icons/svg/820/820374.svg"
-      We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the park entrance fee upon arrival (there's no need to pay it in advance).
-    
-      "footer_img.png"
-      
-      
-        Plan your Visit
-        Learn about the Park
-        Get Involved
-      
+<!----Header; includes three menu buttons, a cirlcular image, and header content to the right of the image---->
+  <header>
+    <nav id="header-menu">
+        <button class="headPlan">Plan your Visit</button>
+        <button class="headLearn">Learn About the Park</button>
+        <button class="headInvolved">Get Involved</button>
+    </nav> 
+  
+  <div class="park_guide_box">
+    <section class="park_guide_text">
+      <img src="C:\Users\trvrs\Downloads\header_img.jpg"/>
+      <header><h1>Yosemite Park Guide</h1></header></img>
+        <p>Come explore California's beautiful wilderness.</p>
+        <p>Always open. Reservations are not available or required to enter the park.</p>
+    </section>
+  </div>
+</header>
+
+<!----Colored text box section; includes two paragraphs of text---->
+  <div class="historical-facts">    
+    <p>Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.
+      </p>
+      <br>
+    <p>First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.
+      </p>
+  </div>
+  
+<!----Centered sections with icon images and text---->
+  <div class="center-images">
+    <img src="https://image.flaticon.com/icons/svg/2979/2979348.svg" alt="Fire"></img>
+    <p>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. <strong>Check for current fire restrictions.</strong>
+      </p>
+    <img src="https://image.flaticon.com/icons/svg/820/820374.svg" alt="Camper"></img>
+    <p>We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the <strong>park entrance fee</strong> upon arrival (there's no need to pay it in advance).
+      </p>
+  </div>
+
+  <!----Footer; includes image and bottom buttons---->
+  <footer>
+    <div class="footer-container">
+    <img src="C:\Users\trvrs\Downloads\footer_img.jpg" alt="Yosemite Skyline"></img>
+        <div class="footer buttons">
+            <button class="footPlan">Plan your Visit</nav>
+            <button class="footLearn">Learn about the Park</nav>
+            <button class="footInvolved">Get Involved</nav>
+        </div>
+    </div> 
+  </footer>
 </body>
 </html>
