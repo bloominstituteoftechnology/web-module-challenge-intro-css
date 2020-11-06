@@ -1,1 +1,99 @@
-test
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+nav a {
+  max-width: 12%;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+nav .first {
+  background: #FF754E;
+}
+nav .second {
+  background: #5FD3EC;
+}
+nav .third {
+  background: #FFCD6A;
+}
+.banner {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  text-align: center;
+}
+.banner img {
+  max-width: 27%;
+  border-radius: 150px;
+}
+.banner .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 70%;
+  font-size: 20px;
+}
+.banner h1 {
+  font-size: 45px;
+  text-decoration: bold;
+  letter-spacing: 1px;
+}
+.banner .details p:last-child {
+  max-width: 45%;
+  margin: 0 auto;
+}
