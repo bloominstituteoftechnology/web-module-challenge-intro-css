@@ -43,7 +43,7 @@ table {
 }
 
 .page {
-  max-width: 1080px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 50px;
 }
@@ -53,10 +53,10 @@ nav {
   justify-content: space-evenly;
 }
 nav a {
-  max-width: 12%;
+  max-width: 14%;
   text-decoration: none;
   text-align: center;
-  padding: 10px;
+  padding: 10px 15px;
   border-radius: 15px;
   font-size: 20px;
   letter-spacing: 1px;
@@ -94,6 +94,40 @@ nav .third {
   letter-spacing: 1px;
 }
 .banner .details p:last-child {
-  max-width: 45%;
+  max-width: 56%;
   margin: 0 auto;
 }
+.intro p {
+  padding: 10px 20px;
+  color: #fff;
+  background: #DDB9A2;
+  text-align: center;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+.highlights {
+  display: flex;
+  flex-direction: column;
+  max-width: 34%;
+  margin: 0 auto;
+  text-align: center;
+}
+.highlights .column {
+  padding: 20px;
+}
+.highlights img {
+  max-width: 100px;
+}
+footer {
+  border-bottom: 2px solid lightgrey;
+}
+.foot_banner {
+  background-image: url(assets/footer_img.jpg);
+  background-size: 100%;
+  height: 200px;
+}
+footer nav {
+  padding: 25px 0;
+  background: #F9E7DD;
+}
+
