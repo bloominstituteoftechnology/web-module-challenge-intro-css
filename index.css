@@ -45,7 +45,7 @@ h4 {
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    border: 1px solid red;
+    box-shadow: 0px 0px 2px 2px #e8e8e8;
 }
 
 /* main navigation */
@@ -65,14 +65,39 @@ h4 {
     justify-content: center;
     align-items: center;
     height: 100%;
-    min-height: 78px;
+    min-height: 77px;
     min-width: 207px;
 }
 
+.main-nav div:hover {
+    -webkit-animation-name: ;
+    animation-name: ;
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
 .main-nav div a {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-decoration: none;
     color:white;
+    line-height: 1.7rem;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .nav-plan {
@@ -80,6 +105,7 @@ h4 {
 }
 .nav-learn {
   background: #5ED3EB;
+  margin-left: 4px;
 }
 .nav-involve {
   background: #FFCD69
@@ -95,10 +121,11 @@ header {
     padding: 20px;
 }
 
-header img {
+.index-header-bg {
+    background: url("/assets/header_img.jpg") center/cover no-repeat;
     height: 330px;
     margin: 17px 0 17px 93px;
-    width: 330px;
+    min-width: 330px;
     border-radius: 50%;
 }
 
@@ -165,6 +192,10 @@ header img {
     text-align: center;
 }
 
+bold {
+    font-weight: 800;
+}
+
 .reservations img {
     width: 147px;
 }
@@ -196,3 +227,51 @@ footer img {
     width: 100%;
 }
 /* eof footer */
+
+/* learn html css */
+
+.learn-header-bg {
+    background: url("https://www.nps.gov/common/uploads/grid_builder/yose/crop16_9/EB5C2226-A378-A3B1-ED60E0D68DBD2212.jpg?width=950&quality=90&mode=crop") center/cover no-repeat;
+    height: 330px;
+    margin: 17px 0 17px 93px;
+    min-width: 330px;
+    border-radius: 50%;
+}
+
+.nature {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.nature div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+.nature img {
+    margin: 10px;
+    width: 140px;
+}
+
+/* eof learn html css */
+
+/* involve css */
+.involved-header-bg {
+    background: url("https://www.nps.gov/common/uploads/grid_builder/yose/crop1_1/D70D5AA2-1DD8-B71B-0BA3900635CA7F7F.jpg?width=640&quality=90&mode=crop") center/cover no-repeat;
+    height: 330px;
+    margin: 17px 0 17px 93px;
+    min-width: 330px;
+    border-radius: 50%;
+}
+
+.involved-main-text {
+    padding: 40px;
+}
+
+
+/* eof involve css */
