@@ -2,7 +2,7 @@
 
 ## User Interface and Git
 
-## Objectives
+<!-- ## Objectives -->
 
 - learn about the box model and be able to explain its properties
 - demonstrate CSS specificity and inheritance to create and update styles
