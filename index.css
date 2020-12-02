@@ -21,7 +21,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px solid black;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -61,7 +61,7 @@ nav {
 	color:white;
 	text-align:center;
 	margin-left: 100px;
-	margin-top: 40px;
+	margin-top: 20px;
 	padding: 10px;
 	font-size: 20px;
 	text-decoration: none;
@@ -91,6 +91,7 @@ nav a{
 .container {
 	padding: 20px 40px 40px;
 	display: inline-block;
+	margin-top: 45px;
 }
 
 .heading {
@@ -106,6 +107,7 @@ h1 {
 	letter-spacing: 5px;
 	margin-left: 5%;
 	font-size: 3.7rem;
+	margin-bottom: 30px;
 }
 
 #circle {
@@ -116,7 +118,7 @@ h1 {
 	float: left;
 }
 .heading p{
-	margin: 20px;
+	margin: 25px;
 	font-size: 22px;
 }
 
@@ -133,21 +135,18 @@ h1 {
 	width: 85%;
 	margin-left: 100px;
 	font-size: 23px;
+	margin-top: 40px;
 }
 .info p{
 	display:inline-block;
-}
-
-footer {
-	background-color: #F9E7DC;
-	overflow:none;
+	margin: 10px;
 }
 
 .midpart {
 	text-align: center;
 	width: 400px;
 	margin-left: 550px;
-	font-size: 20px;
+	font-size: 19px;
 }
 
 span{
@@ -155,6 +154,21 @@ span{
 }
 
 .camp{
-	height: 80px;
-	width: 80px;
+	height: 140px;
+	width: 140px;
+	margin-top: 50px;
+}
+
+footer {
+	background-color: #F9E7DC;
+	margin-top: 100px;
+}
+
+.imgcontainer{
+	width: 100%;
+	height: 350px;
+	overflow:hidden;
+}
+footer img{
+	overflow: hidden;
 }
