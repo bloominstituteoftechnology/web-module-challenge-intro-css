@@ -51,6 +51,61 @@ table {
 
 * {
   box-sizing: border-box;
+  border:2px solid black;
+}
+
+.navigation{
+  display:inline-block;
+  height:100%;
+  width:100%;
+}
+.buttonOne{
+  display:inline-block;
+  margin:4% 0% 4% 15%;
+  padding:1%;
+  width:12%;
+  height:10%;
+  border-radius: 10px;
+  color:white;
+  background-color: #FF764E;
+  text-align:center;
+}
+
+.buttonTwo{
+  display:inline-block;
+  margin:4% 0% 4% 16%;
+  padding:1%;
+  width:12%;
+  height:10%;
+  border-radius: 10px;
+  color:white;
+  background-color: #5ED3EB;
+  text-align:center;
+}
+
+.buttonThree{
+  display:inline-block;
+  margin:4% 0% 4% 16%;
+  padding:1% 1% 1% 1%;
+  width:12%;
+  height:10%;
+  border-radius: 10px;
+  color:white;
+  background-color: #FFCD69;
+  text-align:center;
+}
+
+.circlePic img{
+  display:inline-block;
+  border-radius: 50%;
+  width:20%;
+  height:auto;
+  margin:2% 0% 0% 7%;
+}
+
+.circleText{
+  display:inline-block;
+  width:20%;
 }
 
 /*.container {
