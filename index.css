@@ -53,7 +53,7 @@ table {
   box-sizing: border-box;
 }
 
-.container {
+/*.container {
     width: 100%;
     height: auto;
 }
@@ -163,4 +163,4 @@ h1 {
     height: 40vh;
     object-fit: cover;
     object-position: 0% 20%;
-}
+}*/
