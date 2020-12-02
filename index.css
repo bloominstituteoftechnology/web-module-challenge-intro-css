@@ -2,22 +2,23 @@ body {
 	font-family: 'Roboto Mono', monospace;
 }
 
-h1 {
-	font-family: 'Chelsea Market', cursive;
-}
-
 nav {
 	color:white;
 	text-align:center;
-	display:inline-block;
-	padding: 10rem;
+	display:flex;
+	justify-content: space-evenly;
+	padding: 50px;
+	font-size: 20px;
+	width: 100%;
 }
 
-.button {
-	border-radius: 20%;
-	display: inline-block;
-	height: 100%;
-	margin: 10%;
+nav a{
+	border-radius: 10%;
+	height: 60px;
+	width: 170px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
 }
 
 .nav1 {
@@ -32,9 +33,48 @@ nav {
 	background-color:#FFCD69;
 }
 
+.container {
+	padding: 20px 40px 40px;
+
+}
+
+.heading {
+	display: inline;
+	text-align: center;
+	justify-content: center;
+	margin-left: 210px;
+	font-size: 1.2rem;
+}
+
+h1 {
+	font-family: 'Chelsea Market', cursive;
+	word-spacing: 5px;
+	letter-spacing: 5px;
+	margin-left: 10%;
+	font-size: 3.3rem;
+}
+
 #circle {
 	border-radius: 50%;
-	padding: 20px;
 	width: 20%;
 	display:inline-block;
+	float: left;
 }
+
+.info {
+	background-color:#DDB9A3;
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+
+footer {
+	background-color: #F9E7DC;
+}
+
+.midpart {
+	text-align: center;
+	justify-content: center;
+}
+
+
