@@ -46,7 +46,81 @@ html {
     font-size: 62.5%;
 }
 
-/* HEADER */
-.home-container {
-
+* {
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
 }
+
+/* HEADER */
+.home-container header {
+    
+}
+
+.home-container header .top-header-container .nav-container {
+    margin: 65px 0;
+}
+
+/* NAV */
+.home-container header .top-header-container nav {
+text-align: center;
+}
+
+/* NAV LINKS */
+.home-container header .top-header-container nav a {
+margin-right: 7%;
+margin-left: 7%;
+text-decoration: none;
+padding: 10px 39px;;
+border-radius:20px;
+color: white;
+font-size: 3rem;
+display:inline-block;
+}
+ /* Individual Links for Background Color */
+.plan {
+    background: #FF764E;
+}
+
+.learn {
+    background: #5ED3EB;
+}
+
+.get {
+    background: #FFCD69;
+}
+
+/* Bottom Header Container */
+.home-container header .bottom-header-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Image */
+.home-container header .bottom-header-container .header-image-container img.logo {
+    width: 330px;;
+	border-radius: 50%;
+	display:inline-block;
+}
+/* Header Text Container */
+.home-container header .bottom-header-container .header-text-container {
+	display:block;
+	margin-left: 36%;
+    margin-top: -24%;
+    margin-bottom: 22%;
+}
+
+/* HEADER H1 */
+.home-container header .bottom-header-container .header-text-container h1 {
+	font-size: 7.5rem;
+	margin-bottom: 5%;
+}
+
+/* HEADER BOTTOM TEXT */
+.home-container header .bottom-header-container .header-text-container p {
+	font-size: 2.5rem;
+	margin-bottom: 45px;
+	text-align: center;
+}
+
+/* MAIN CONTENT */
