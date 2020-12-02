@@ -65,13 +65,15 @@ body {
 
 nav {
     color: white;
-    display: flex;
-    justify-content: space-between;
+    display: block;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 
 .Plan {
     background-color: #ff764e;
-    border: none;
+    border: ;
     border-radius: 20px;
     color: white;
     padding: 15px 25px;
@@ -79,12 +81,14 @@ nav {
     text-decoration: none;
     display: inline-block;
     font-size: 22px;
-    margin-left: 220px;
+    margin-left: 170px;
+    width: 150px;
+    max-width: 150px;
 }
 
 .Learn {
     background-color: #5ed3eb;
-    border: none;
+    border: ;
     border-radius: 20px;
     color: white;
     padding: 15px 25px;
@@ -92,11 +96,15 @@ nav {
     text-decoration: none;
     display: inline-block;
     font-size: 22px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 150px;
+    max-width: 150px;
 }
 
 .Get {
     background-color: #ffcd69;
-    border: none;
+    border: ;
     border-radius: 20px;
     color: white;
     padding: 15px 25px;
@@ -105,14 +113,14 @@ nav {
     display: inline-block;
     font-size: 22px;
     margin-right: 220px;
+    width: 150px;
+    max-width: 150px;
 }
 
 header {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     justify-content: space-between;
-    vertical-align: middle;
-    text-align: center;
-    align-items: center;
     margin: 80px 125px 60px 125px;
 }
 
@@ -120,19 +128,18 @@ header {
     border-radius: 50%;
     height: 330px;
     width: 330px;
-    display: inline;
+}
+
+.words {
+    min-height: 10em;
+    text-align: center;
+    vertical-align: middle;
 }
 
 h1 {
     font-family: 'Chelsea Market', cursive;
     font-size: 57px;
     margin-bottom: 55px;
-}
-
-.words {
-    min-height: 10em;
-    display: table-cell;
-    vertical-align: middle
 }
 
 .beige {
