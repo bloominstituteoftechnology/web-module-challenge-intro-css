@@ -1,0 +1,16 @@
+.navbar a {
+    margin: 0 10px;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+  background-color: #F87B99;
+  text-align: center;
+  padding-right: 
+}
+nav {
+    border: 1px solid black;
+    text-align:center;
+}
