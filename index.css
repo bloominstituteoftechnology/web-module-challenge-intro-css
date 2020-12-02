@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap'); /*for bold characters*/
+
+
+
+
+/* PAGE SETUP */
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border: 1px solid transparent;
+    
+    vertical-align: top;
+	
+	outline: 0;
+	
+  }
+html{
+    font-size:62.5%;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 4rem;
+}
+  
+
+
+
+  /* LINKS */
+nav {
+    margin: 30px auto; 
+    width: 100%;
+}
+
+a {
+    border: 0;
+    padding: 2px 5px;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    width: 15%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.plan{
+    background-color: #FF764E;
+    margin: 0 13%;
+}
+
+.learn {
+    background: #5ED3EB;
+   
+}
+
+.get {
+    background: #FFCD69;
+    margin: 0 13%
+}
+
+
+
+#first{
+    border-radius: 50%;
+    width: 25%;
+}
+
+.fireicon {
+    width: 50%;
+}
+
+
+
+.second {
+    background-color: #DDB9A3;
+    width: 90%;
+    margin: 20px auto;
+    color: white;
+    text-align: center;
+
+    
+}
+.second p {
+    padding: 2%;
+    font-size: 1.4rem;
+}
+
+footer {
+    background-color:#F9E7DC;
+    height: 18vh;
+    padding-top: 2%;
+}
+
+#footerPic {
+    
+    background-image:url('assets/footer_img.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 100%;
+    
+}
+
+
+.firstimg {
+    width: 85%;
+    margin: 0 auto 10px;;
+}
+
+.firstimg img {
+    display: inline-block;
+    margin-top: 2vh;
+}
+
+.headtext {
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+    margin: 5vh 0 0 12%;
+    font-size: 1.4rem;
+
+}
+.headtext p {
+    padding-top: 15px;
+}
+
+
+.firesection {
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+.firesection p {
+    margin-bottom: 20%;
+}
+
+
+
+.boldText {
+    font-weight: bold;
+}
