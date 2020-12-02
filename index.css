@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -46,5 +47,42 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
+html {
+	font-size: 62.5%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+/* .navigation nav  {
+display:inline-block;
+height: 4.5rem;
+background-color:white;
+width:100%;
+padding-top:4rem;
+padding-bottom:3rem;
+text-align:center;
+} */
+.navigation nav a {
+	font-size:2.2rem;
+	text-decoration:none;
+	text-align:
+	width:
+	margin:
+	padding:
+	display:
+	border-radius:
+	
+}	
+.plan a{
+	background-color:#FF764E;
+	font-family:'Roboto Mono', monospace;
+	color:white;
+}
+.navigation nav .learn a{
+	background-color: #5ED3EB;
+	font-family:'Roboto Mono', monospace;
+	color:white;
+}
+.navigation nav .involved a{
+	background-color:#FFCD69;
+	font-family:'Roboto Mono', monospace;
+	color:white;
+}
