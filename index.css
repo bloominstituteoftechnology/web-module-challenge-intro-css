@@ -49,8 +49,9 @@ table {
 /**********MEYERS RESET************/
 *{
 border: 1px solid black;
-
-nav{
-    display:inline-block;
-    
+margin:0;
+padding:0;
+max-width:100%;
 }
+.imagecontainer{
+    width:40%;
