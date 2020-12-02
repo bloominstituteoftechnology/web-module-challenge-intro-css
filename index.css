@@ -47,3 +47,75 @@ table {
 	border-spacing: 0;
 }
 
+
+/*@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+font-family: 'Chelsea Market', cursive;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+
+font-family: 'Roboto Mono', monospace;*/
+
+.navigation nav a{
+	
+		text-align: center;
+		font-size: 25px;
+		width: auto;
+		margin-top:20px;
+		margin-bottom:20px;
+		margin-left:120px;
+		margin-right:120px;
+		padding: 18px;
+		display: inline-block;
+		border-radius: 35px;
+		font-family: 'Roboto Mono', monospace;
+		text-decoration: none;
+	}
+
+	.plan a{
+	
+		color: white;
+		background: #FF764E;
+		}
+
+		.learn a{
+			color:white;
+			background-color:#5ED3EB;
+
+		}
+		
+		.involve a{
+			color:white;
+			background-color:#FFCD69;
+		}
+
+		
+
+
+
+		h1{
+			font-family: 'Chelsea Market', cursive;
+			font-size: 80px;
+			text-align:center;
+		}
+
+		.img1{
+			border-radius:10px;
+			width:10%;
+		}
+		
+		.info{
+			background-color:#DDB9A3;
+			color:white;
+			font-size: 20px;
+			margin:40px;
+			padding:3rem;
+			width:60%;
+			line-spacing:1.5rem;
+
+		}
+
+
+
+		
+
