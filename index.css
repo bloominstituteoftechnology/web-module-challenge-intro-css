@@ -121,14 +121,21 @@ table {
   color: white;
   background-color: #DDB9A3;
   padding: 3%;
-  margin: 10%;
+  margin: 2% 0% 0% 10%;
   width: 80%;
 }
 
 .icon{
-  height:20%;
-  width:20%;
-  margin:0% 0% 0% 35%;
+  height:15%;
+  width:15%;
+  margin:3% 0% 0% 40%;
+}
+
+.iconTextContainer{
+  width:30%;
+  height:30%;
+  margin:3% 0% 0% 32%;
+  text-align: center;
 }
 
 
