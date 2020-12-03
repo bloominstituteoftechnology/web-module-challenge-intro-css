@@ -1,59 +1,81 @@
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 /*font-family: 'Chelsea Market', cursive;*/ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+/*font-family: 'Roboto Mono', monospace;*/
 
 
+*{
+    
+    font-family: 'Roboto Mono', monospace;
+}
 header{
-    margin-right:5%;
-  text-decoration:none;
-  font-family:arial;
+    text-decoration:none ;
+    display:block;
+    font-family: 'Roboto Mono', monospace;
   color:white;
   font-size:14px;
   padding:12px 30px;
-  text-align: center;
+  text-align:center;
+
 }
 .container{
     
     display:inline;
-    text-align:left ;
+    text-align:center ;
     border:2px solid tan ;
 }
 h1{
+    padding: 2%;
+    margin-bottom:1%;
     font-size:60px;
     font-family: 'Chelsea Market', cursive; 
     
 }
 .tan{
-    border:4px dotted tan;
+    font-size:30px ;
+    padding:100px ;
+    margin-left:10%;
+    margin-right:10%;
+    text-align: center;
+    font-size:15px ;
+    background-color:#DDB9A3 ;
+    color:white;
 
 }
 .fire{
+    text-align: center;
     height:160px ;
     width:180px ;
     border:4px dotted black ;
 }
 .bus{
+    text-align: center;
     height:160px ;
     width:180px ;
     border:2px solid red ;
 }
 footer{
+    height:50px ;
+    width:200px;
+    margin:5% ;
     border:1px dotted red ;
 }
 
 
 .red{
   text-decoration:none;
-  font-size:2.5rem;/*25px*/
+  font-size:25px;
   border:3px solid black;
   border-radius:10px;
   padding:5px;
   display:inline-block;
     background-color:#FF764E ;
+    color:white
 
 }
 .blue{
     text-decoration:none;
-  font-size:2.5rem;/*25px*/
+  font-size:25px;
   border:3px solid black;
   border-radius:10px;
   padding:5px;
@@ -62,7 +84,7 @@ footer{
 }
 .yellow{
     text-decoration:none;
-  font-size:2.5rem;/*25px*/
+  font-size:25px;
   border:3px solid black;
   border-radius:10px;
   padding:5px;
@@ -82,8 +104,17 @@ h1, p{
     text-align: center;
     margin-top:20px ;
 
+    }
 }
-footer{
+footer{ 
+    display:block;
+    height:30px;
+    background-color:#eb3a45;
+    width:100%;
+    margin-top:-70px;
+    margin-left:70px;
+    padding-top:20px;
+    text-align:center;
     height:60px ;
     width:80px ;
 }
