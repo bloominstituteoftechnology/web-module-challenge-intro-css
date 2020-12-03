@@ -67,20 +67,33 @@ header nav a .get-involved{
     color: white;
     font-family: "Roboto Mono";
     text-align: center;
+    margin: 0 auto;
+    width: 95%;
 }
 
 /* Restrictions and Recommendations */
 .fires{
     text-align: center;
 }
+.fires img{
+    width:15%;
+    margin: 0 auto;
+}
 .fires p{
     font-family: "Roboto Mono";
+    width:25%;
+    margin: 0 auto;
 }
 .campers{
     text-align: center;
 }
+.campers img{
+    width: 15%;
+}
 .campers p{
-    font-family: "Roboto Mono"
+    font-family: "Roboto Mono";
+    width:25%;
+    margin: 0 auto;
 }
 /* Footer */
 footer{
@@ -92,7 +105,6 @@ footer{
 footer nav{
     background-color: #F9E7DC;
     height:100px;
-    margin-top: 300px;
 }
 footer nav a{
     margin: 3%;
