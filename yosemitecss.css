@@ -1,0 +1,31 @@
+.container { width: 600px;
+  /*======= create a width property. Set the value to 600px */
+  margin: 0 auto;
+}
+
+.container header nav a {
+  margin: 0 10px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+  
+   /*======= create a background property. Set the value to #F87B99 */
+ background-color: #5dcef9; 
+}
+
+
+img{
+  src="https://c.stocksy.com/a/Bza900/z9/2287129.jpg"
+}
+
+img {
+  border-radius: 50%;
+  style="width:2%; height:3%;"
+}
+
+.center {
+  text-align: center;}
