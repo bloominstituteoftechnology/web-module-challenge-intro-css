@@ -49,17 +49,15 @@ html {
 * {
     /* border: 1px solid red; */
     margin: 0;
-    padding: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 /* GENERAL */
 .boldness {
 	font-weight: 700;
 }
-p {
-	font-family: 'Roboto Mono', monospace;
-}
-a	{
+p, a {
 	font-family: 'Roboto Mono', monospace;
 }
 
