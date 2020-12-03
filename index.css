@@ -5,11 +5,11 @@
 
 
 *{
-    
+    padding:0 ;
+    margin: 0;
     font-family: 'Roboto Mono', monospace;
 }
 header{
-    text-decoration:none ;
     display:block;
     font-family: 'Roboto Mono', monospace;
   color:white;
@@ -20,7 +20,7 @@ header{
 }
 .container{
     
-    display:inline;
+    display:block;
     text-align:center ;
     border:2px solid tan ;
 }
@@ -45,30 +45,48 @@ h1{
 
 
 .red{
-    text-decoration:none;
+    
     font-size:25px;
-    border:3px solid black;
+    
     border-radius:10px;
     padding:5px;
     display:inline-block;
       background-color:#FF764E ;
-      color:white;
+     
+    }
+    div a{
+        margin:10%;
     }
 
+nav{
+   display:block;
+    padding:12px 30px;
+    width:100%;
+    
+    margin-left:70px;
+    padding-top:20px;
+    text-align:center;
+}
 
+nav a{
+    
+    margin-right:2%;
+    text-decoration: none;
+    color:white ;
+}
 .blue{
-    text-decoration:none;
+    
   font-size:25px;
-  border:3px solid black;
+ 
   border-radius:10px;
   padding:5px;
   display:inline-block;
   background-color:#5ED3EB ;
 }
 .yellow{
-    text-decoration:none;
+    
   font-size:25px;
-  border:3px solid black;
+  
   border-radius:10px;
   padding:5px;
   display:inline-block;
@@ -80,10 +98,7 @@ h1{
     width:300px;
     height:300px;
     border-radius:50%;
-
-
-
-    }
+    
 }
 .bottom-container{ 
     display:inline-block;
@@ -93,3 +108,18 @@ h1{
     width:80px ;
     
 }
+ .footer{
+     height:400px ;
+     width:100%;
+ }
+ footer{
+    text-decoration:none ;
+    display:block;
+    font-family: 'Roboto Mono', monospace;
+  color:white;
+  font-size:14px;
+  padding:12px 30px;
+  text-align:center;
+     background-color:#DDB9A3 ;
+    padding:0 30px ;
+ }
