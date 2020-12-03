@@ -54,7 +54,13 @@ html {
 
 /* GENERAL */
 .boldness {
-	font-weight: bold;
+	font-weight: 700;
+}
+p {
+	font-family: 'Roboto Mono', monospace;
+}
+a	{
+	font-family: 'Roboto Mono', monospace;
 }
 
 /* HEADER */
@@ -117,8 +123,9 @@ display:inline-block;
 
 /* HEADER H1 */
 .home-container header .bottom-header-container .header-text-container h1 {
-	font-size: 7.5rem;
+	font-size: 7rem;
 	margin-bottom: 5%;
+	font-family: 'Chelsea Market', cursive;
 }
 
 /* HEADER BOTTOM TEXT */
@@ -163,11 +170,21 @@ display:inline-block;
 	margin-bottom: 50px;
 	padding-bottom: 50px;
 	margin: 0 auto;
-	width:50%;
+	/* width:80%; */
+}
+
+.home-container main .second-section .main-image-container {
+	width: 50%;
+	margin: 0 auto;
 }
 
 .home-container main .second-section .main-image-container img {
 	width: 250px;
+}
+
+.home-container main .second-section .main-text-container {
+	width: 60%;
+	margin: 0 auto;
 }
 
 .home-container main .second-section .main-text-container p {
