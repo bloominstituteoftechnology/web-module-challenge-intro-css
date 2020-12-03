@@ -50,6 +50,7 @@ table {
 html {
 	font-size: 62.5%;
 }
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 /* .navigation nav  {
 display:inline-block;
@@ -59,30 +60,130 @@ width:100%;
 padding-top:4rem;
 padding-bottom:3rem;
 text-align:center;
-} */
-.navigation nav a {
-	font-size:2.2rem;
+} *
+*/
+
+header,body {
+	width: 100%;
+	margin: 0rem auto;
+}
+nav a{
+	display:inline-block;
 	text-decoration:none;
-	text-align:
-	width:
-	margin:
-	padding:
-	display:
-	border-radius:
-	
-}	
+	text-align:center;
+	font-size: 2.5rem;
+	margin: 40px 100px;
+	padding:10px 40px;
+	border-radius:25px;
+}
 .plan a{
 	background-color:#FF764E;
 	font-family:'Roboto Mono', monospace;
 	color:white;
+	margin-left:400px;
+	margin-right:120px;
 }
-.navigation nav .learn a{
+.learn a{
 	background-color: #5ED3EB;
 	font-family:'Roboto Mono', monospace;
 	color:white;
 }
-.navigation nav .involved a{
+.involved a{
 	background-color:#FFCD69;
 	font-family:'Roboto Mono', monospace;
 	color:white;
+	margin-left:120px;
+}
+header img  {
+	height:25rem;
+	width: 25rem;
+	border-radius: 50%;
+	margin: 20px 350px;
+}
+ header h1 { 
+	display: inline-block;
+	font-family:'Chelsea Market', cursive;;
+	font-size: 80px;
+	text-align:center;
+	margin-top: -100rem;
+	margin-left: 80rem;
+	margin-bottom:2rem;
+	font-weight:bolder;
+ }
+header p {
+	display: inline-block;
+	font-family:;
+	font-size: 20px;
+	text-align:center;
+	margin-top: 2rem;
+	margin-left: 70rem;
+	margin-bottom:3rem;
+	padding-left:0.2rem;
+	padding-bottom:2rem;
+	font-family:'Roboto Mono', monospace;
+
+}
+
+.about {
+	background-color:#DDB9A3;
+	color:white;
+	font-size:3rem;
+	max-width: 70%;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2rem 2rem;
+	font-family:font-family:'Roboto Mono', monospace;
+}
+.animation1 {
+	border-radius: 10px;
+	width:10%;
+	margin-left: 70rem;
+	margin-right:10px;
+	padding-top: 5rem;
+	padding-bottom:2rem;
+}
+
+.animation2 {
+	border-radius: 10px;
+	width:10%;
+	margin-left: auto;
+	margin-right:auto;
+	padding-top: 5rem;
+	padding-bottom:2rem;
+}
+.recommendations {
+	text-align:center;
+	font-size:2rem;
+	font-family:font-family:'Roboto Mono', monospace;
+	margin-right: 75rem;
+	margin-left:75rem;
+	padding-bottom: 5rem;
+}
+.recommendations span {
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+footer nav a{
+	display:inline-block;
+	text-decoration:none;
+	text-align:center;
+	font-size: 2.5rem;
+	margin: 40px 100px;
+	padding:10px 40px;
+	border-radius:25px; 
+}
+footer {
+	background-color:#F9E7DC;
+}
+footer img {
+	height:30rem;
+	width:100%;
 }
