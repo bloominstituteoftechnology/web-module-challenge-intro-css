@@ -61,6 +61,11 @@ p, a {
 	font-family: 'Roboto Mono', monospace;
 }
 
+.home-container {
+	width: 1430px;
+	margin: 0 auto;
+}
+
 /* HEADER */
 .home-container header {
     
@@ -194,6 +199,12 @@ display:inline-block;
 /* FOOTER */
 footer  {
 	background: #F9E7DC;
+	/* max-width: 90%; */
+}
+
+footer .footer-image-container {
+	/* width: 95%; */
+	/* margin: 0 auto; */
 }
 
 /* FOOTER IMAGE */
