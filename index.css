@@ -35,17 +35,25 @@ header nav a:last-child{
 }
 .header-picture{
   height:50px;
-  width:20px;
+  width:50px;
 }
-header img{
-  border-radius:50%;
-/*   margin-left: 20%; */
-/*   display:inline-block; */
+#picture{
+  height:100%;
+  width:100%;
 }
 h1{
   font-family: 'Chelsea Market', cursive;
   display:inline-block;
   position:center;
+}
+.header-banner{
+  text-align:center;
+}
+.header-banner p{
+  color:blue;
+}
+.header-nav{
+  background-color:blue;
 }
 .body img{
   display: block;
@@ -53,21 +61,10 @@ h1{
   margin-right: auto;
   width: 25%;
 }
-header img{
-  border-radius:50%;
-  width:25%;
-  position:left;
-}
-.header-nav{
-  background-color:blue;
-}
  footer nav a:first-child{
   background-color:#FF764E;
   border-radius:20%;
   height:; */
-}
-.header-banner{
-  text-align:center;
 }
 footer nav a:nth-child(2){
   background-color:#5ED3EB;
