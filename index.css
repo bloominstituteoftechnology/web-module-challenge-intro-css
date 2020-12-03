@@ -27,7 +27,7 @@ body {
   font-family: "Roboto Mono", monospace;
   max-width: 1536px;
   margin: 0 auto;
-  font-size:1.5rem;
+  font-size: 1.5rem;
 }
 
 a {
@@ -57,7 +57,7 @@ a {
 
 .image-container {
   display: inline-block;
-  border: 1px solid black; 
+  /* border: 1px solid black;  */
 }
 
 #yosemite {
@@ -67,39 +67,72 @@ a {
 
 .text-container {
   display: inline-block;
-  vertical-align:top;
+  vertical-align: top;
   text-align: center;
-  padding: 3rem 8rem 8rem 8rem; 
-  border: 1px solid black;
+  padding: 3rem 8rem 8rem 8rem;
+  /* border: 1px solid black; */
 }
 
-.section1{
-    align-content:center;
-    margin: 0 auto;
-    width:90%;
+.section1 {
+  align-content: center;
+  margin: 0 auto;
+  width: 90%;
 }
 
-#top{
-    line-height: 6rem;
+#top {
+  line-height: 6rem;
 }
 
 /* beige part */
-.container2{
-    border:1px solid black;
-    margin:2rem;
-    padding:1.5rem 3rem;
-    background-color:#DDB9A3;
-    color:white;
-    font-size:1.5rem;
+.container2 {
+  /* border:1px solid black; */
+  margin: 2rem;
+  padding: 1.5rem 3rem;
+  background-color: #ddb9a3;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
-#bottom{
-    margin-top: 2rem;
-}
-.container3{
-    border:1px solid black;
+#bottom {
+  margin-top: 2rem;
 }
 
-.container4{
-    border:1px solid black;
+/* fire part */
+
+#fire {
+  height: 12rem;
+}
+
+.container3 {
+  /* border:1px solid black; */
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+#trailer {
+  height: 12rem;
+}
+
+.container4 {
+  /* border:1px solid black; */
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.finalpic {
+  height: 15em;
+  width: 1536px;
+}
+
+.footers {
+  background-color: #f9e7dc;
+}
+
+.fNav {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 5%;
+  padding-bottom: 5%;
 }
