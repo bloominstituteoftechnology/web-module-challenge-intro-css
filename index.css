@@ -51,7 +51,7 @@ table {
 
 * {
   box-sizing: border-box;
-  border:2px solid black;
+  /*border:2px solid black;*/
 }
 
 .navigation{
@@ -95,8 +95,14 @@ table {
   text-align:center;
 }
 
-.circlePic img{
+.circlePicSection{
   display:inline-block;
+  max-width:100%;
+  height:20%;
+  border:1px solid red;
+}
+
+.circlePic img{
   border-radius: 50%;
   width:20%;
   height:auto;
@@ -104,9 +110,28 @@ table {
 }
 
 .circleText{
-  display:inline-block;
   width:20%;
 }
+
+.boxTextSection{
+  margin: 0% 0% 0% 0%;
+}
+
+.textInBoxContainer{
+  color: white;
+  background-color: #DDB9A3;
+  padding: 3%;
+  margin: 10%;
+  width: 80%;
+}
+
+.icon{
+  height:20%;
+  width:20%;
+  margin:0% 0% 0% 35%;
+}
+
+
 
 /*.container {
     width: 100%;
