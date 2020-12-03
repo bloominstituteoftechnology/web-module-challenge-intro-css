@@ -1,0 +1,110 @@
+/* Fonts */
+@font-face {
+    font-family: "Roboto Mono";
+    src: url("fonts/RobotoMono-VariableFont_wght.ttf");
+  }
+@font-face {
+    font-family: "Chelsea Market";
+    src: url("fonts/ChelseaMarket-Regular.ttf")
+}
+
+/* CSS RESET */
+*{
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+header{
+    width: 100%;
+    text-align: center;
+}
+header nav a button{
+    font-family: "Roboto Mono";
+    color: white;
+    border-radius: 24px;
+    border: none;
+    font-size:25px;
+    width: 200px;
+}
+header nav a .plan-your-visit{
+    background-color: #FF764E;
+}
+header nav a .learn-about-the-park{
+    background-color: #5ED3EB;
+}
+header nav a .get-involved{
+    background-color: #FFCD69;
+}
+.logo{
+    width: 331px;
+    height: 331px;
+    display:inline-block;
+}
+.logo img{
+    width: 331px;
+    height: 331px;
+    border-radius: 50%;
+}
+.header-content{
+    display:inline-block;
+    
+}
+.header-content h1{
+    font-family: "Chelsea Market";
+}
+.header-content p{
+    font-family: "Roboto Mono";
+}
+
+/* Main Text Body */
+.main-text-body{
+    background-color: #DDB9A3;
+    color: white;
+    font-family: "Roboto Mono";
+    text-align: center;
+}
+
+/* Restrictions and Recommendations */
+.fires{
+    text-align: center;
+}
+.fires p{
+    font-family: "Roboto Mono";
+}
+.campers{
+    text-align: center;
+}
+.campers p{
+    font-family: "Roboto Mono"
+}
+/* Footer */
+footer{
+    background-image: url("assets/footer_img.jpg");
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+footer nav{
+    background-color: #F9E7DC;
+    height:100px;
+    margin-top: 300px;
+}
+footer nav a button{
+    font-family: "Roboto Mono";
+    color: white;
+    border-radius: 24px;
+    border: none;
+    font-size:25px;
+    width: 200px;
+}
+footer nav a .plan-your-visit{
+    background-color: #FF764E;
+}
+footer nav a .learn-about-the-park{
+    background-color: #5ED3EB;
+}
+footer nav a .get-involved{
+    background-color: #FFCD69;
+}
