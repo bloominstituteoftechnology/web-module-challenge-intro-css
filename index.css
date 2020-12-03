@@ -20,6 +20,9 @@ header{
     width: 100%;
     text-align: center;
 }
+header nav a{
+    margin: 3%;
+}
 header nav a button{
     font-family: "Roboto Mono";
     color: white;
@@ -90,6 +93,9 @@ footer nav{
     background-color: #F9E7DC;
     height:100px;
     margin-top: 300px;
+}
+footer nav a{
+    margin: 3%;
 }
 footer nav a button{
     font-family: "Roboto Mono";
