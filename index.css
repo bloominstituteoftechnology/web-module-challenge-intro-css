@@ -18,40 +18,24 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+
 /**********MEYERS RESET************/
 *{
 border: 1px solid black;
-margin:0;
-padding:0;
+box-sizing:border-box;
 max-width:100%;
+
 }
 .imagecontainer{
     width:40%;
+}
+nav button{
+	text-decoration:none;
+	border-radius:10%;
+
+}
