@@ -88,6 +88,23 @@ font-family: 'Roboto Mono', monospace;*/
 			color:white;
 			background-color:#FFCD69;
 		}
+		header img{
+			height: 25rem;
+			border-radius: 50rem;
+			padding:2rem;
+		}
+
+		header .p1{
+			
+			font-family:'Roboto Mono', monospace;
+			margin-left: 40%;
+			font-size:20px;
+			text-align:center;
+		}
+
+		
+			
+	
 
 		
 
@@ -97,24 +114,72 @@ font-family: 'Roboto Mono', monospace;*/
 			font-family: 'Chelsea Market', cursive;
 			font-size: 80px;
 			text-align:center;
+			margin-top: -20rem;
+			margin-left: 30rem;
+			margin-bottom: 2rem;
+			font-weight:bolder;
+			
 		}
 
+		.fire{
+			width:15%;
+			margin-left: 400px;
+			margin-top: 2rem;
+			
+
+	
+		}
+
+	
 		.img1{
 			border-radius:10px;
-			width:10%;
+			width:15%;
+			margin-left:auto;
+			margin-right:auto;
 		}
 		
 		.info{
 			background-color:#DDB9A3;
 			color:white;
 			font-size: 20px;
-			margin:40px;
-			padding:3rem;
-			width:60%;
-			line-spacing:1.5rem;
+			margin-top:8rem;
+			padding:2rem;
+			width:95%;
+			line-height:1.5rem;
+			text-align:center;
 
 		}
 
+		.text p{
+			margin:20px;
+			margin-bottom: 30px;
+			padding:10px;
+			text-align:center;
+			font-family:'Roboto Mono', monospace;
+		}
+		 .text p span{
+			 font-weight:bold;
+		 }
+
+		footer img{
+			height:20rem;
+			width:100%;
+		}
+		
+
+		
+
+		footer{
+			background-color:#F9E7DC;
+		}
+
+		
+		
+			
+			
+		
+
+	
 
 
 		
