@@ -25,17 +25,55 @@ time, mark, audio, video {
 }
 
 /**********MEYERS RESET************/
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 *{
 border: 1px solid black;
 box-sizing:border-box;
 max-width:100%;
-
 }
-.imagecontainer{
-    width:40%;
+p{
+	font-family: 'Roboto Mono', monospace;
 }
 nav button{
 	text-decoration:none;
 	border-radius:10%;
+	display:inline-block;
+	
+	}
+
+.imagecontainer{
+	width:40%;
+	display: inline-block;
+	
+}
+h1{
+	font-family: 'Chelsea Market', cursive;
+	font-size: 25px;
+
+}
+.firstportion{
+	width:60%;
+	
+}
+.Plan{
+	background:#FF764E;
+
+}
+.Learn{
+	background:#5ED3EB;
+}
+.Get{
+	background:#FFCD69;
+}
+b{
+	font-size:24px;
+}
+.secondsection{
+	background:#DDB9A3;
+	color:white;
+	padding:2%;
+	text-align:center;
+	
 
 }
