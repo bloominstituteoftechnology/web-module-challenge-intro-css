@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+nav{
+    margin: 40px 0 100px 175px;
+}
+
+
+.HeaderPic{
+    border-radius: round;
+}
+
+
+.PlanYourVisit{
+    background-color: #FF764E;
+    font-family: 'Roboto Mono';
+    font-size: larger;
+    text-align: center;
+    color: white;
+    border: solid white;
+    border-radius: 20px;
+    padding: 30px 60px;
+}
+
+
+.LearnAboutThePark{
+    background-color: #5ED3EB;
+    font-family: 'Roboto Mono';
+    font-size: larger;
+    text-align: center;
+    color: white;
+    border: solid white;
+    border-radius: 20px;
+    padding: 30px 60px;
+    margin: 0 200px 0 200px;
+}
+
+
+.GetInvolved{
+    background-color: #FFCD69;
+    font-family: 'Roboto Mono';
+    font-size: larger;
+    text-align: center;
+    color: white;
+    border: solid white;
+    border-radius: 20px;
+    padding: 30px 60px;
+}
+
+
+.Header{
+    font-family: 'Chelsea Market';
+    font-size: 100px;
+    margin: 0 0 100px 800px;
+}
+
+
+.Come{
+    font-family: 'Roboto Mono';
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+
+.Open{
+    font-family: 'Roboto Mono';
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0 0 0;
+    padding: 0 100px 0 100px;
+}
+
+.Main{
+    background-color: #DDB9A3;
+    font-family: 'Roboto Mono';
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    border: solid white;
+    margin: 0 3% 0 3%;
+    padding: 1% 5% 1% 5%;
+}
+
+
+.Fire{
+    height: 200px;
+    margin: 2% 0 0 43%;
+    text-align: center;
+
+}
+
+
+.Paragraph{
+    font-family: 'Roboto Mono';
+    margin: 2% 0 0 20%;
+    padding: 0 40% 0 18%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
+.Bold{
+    font-weight: 900;
+}
+
+
+.Bus{
+    height: 200px;
+    margin: 2% 0 0 43%;
+    text-align: center;
+}
+
+
+.FooterPic{
+    margin: 5% 0 0 0;
+}
+
+
+footer{
+    color:#F9E7DC
+}
