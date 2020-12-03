@@ -1,3 +1,284 @@
-* {
-  color: green;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: 'Roboto Mono', monospace;
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav a {
+  margin: 2rem;
+  border: 2px solid green;
+  height: 1.5rem;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-top: 2%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  height: 20px;
+}
+
+#plan {
+  background-color: #ff764e;
+  color: white;
+}
+
+section {
+  width: 90%;
+}
+
+.firstSection {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.head {
+}
+
+.head img {
+  display: inline-block;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+.text {
+  display: inline-block;
+  text-align: center;
+  margin: 5%;
+  width: 50%;
+}
+
+h1 {
+  height: 3rem;
+  font-size: 2rem;
+  font-family: 'Chelsea Market', cursive;
+}
+
+.text p {
+  font-size: 1rem;
+}
+
+.secondSection {
+  display: flex;
+  widows: 90%;
+  border: 2px solid green;
+  margin: 0 auto;
+  height: 6rem;
+  background-color: #ddb9a3;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.secondSection p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.thirdSection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.thirdSection img {
+  height: 6rem;
+}
+
+footer {
+  background-position: center;
+}
+
+footer img {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.end {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: center;
+  border: 1px solid green;
+}
+
+.end a {
+  margin: 5rem;
+}
+
+/*
+.container {
+  background-color: hotpink;
+  background-position: center;
+  width: 70%;
+  display: flex;
+  margin-left: 15%;
+  border: 2px solid green;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: Red;
+}
+li {
+  float: left;
+}
+li a {
+  display: inline-block;
+  color: Red;
+  background-color: aqua;
+  padding: 0;
+  margin: 20px;
+  text-decoration: none;
+}
+
+
+}
+li:hover {
+  background-color: green;
+}
+*/
