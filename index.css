@@ -96,30 +96,41 @@ table {
 }
 
 .circlePicSection{
-  display:inline-block;
   max-width:100%;
   height:20%;
-  border:1px solid red;
+  /*border:1px solid red;*/
 }
 
 .circlePic{
-  border:1px solid purple;
+  /*border:1px solid purple;*/
   display:inline-block;
   width:40%;
 }
 .circlePic img{
-  display:inline-block;
+  /*display:inline-block;*/
+  display:inline;
   border-radius: 50%;
   width:70%;
   height:auto;
-  margin:2% 0% 0% 7%;
-  border:1px solid green;
+  margin:2% 0% 0% 10%;
+  /*border:1px solid green;*/
 }
 
 .circleText{
   display:inline-block;
-  width:20%;
-  border:1px solid blue;
+  width:50%;
+  /*border:1px solid blue;*/
+  margin:0%;
+  /*vertical-align: top;*/
+  position:relative;
+  bottom:100px;
+  right:30px;
+  text-align:center;
+}
+
+.circleText h1{
+  font-family: 'Chelsea Market', cursive;
+  font-size:2.5em;
 }
 
 .boxTextSection{
