@@ -1,3 +1,11 @@
+body {
+  padding: 0 100px 0 100px;
+  background-color: #ddb9a3;
+  font-family: "Roboto Mono", cursive;
+}
+@import url(https://fonts.google.com/specimen/Chelsea+Market);
+@import url(https://fonts.google.com/specimen/Roboto+Mono);
+
 .navbar a {
   margin: 0 10px;
   padding: 20px;
@@ -6,7 +14,6 @@
   color: white;
   text-decoration: none;
   margin-bottom: 20px;
-  background-color: #f87b99;
   text-align: center;
   margin-right: 7%;
   margin-left: 7%;
@@ -16,33 +23,77 @@ nav {
   text-align: center;
 }
 a.first {
-  background-color: #ff7f50;
+  background-color: #ff764e;
 }
 a.sec {
-  background-color: #00ffff;
+  background-color: #5ed3eb;
 }
 a.third {
-  background-color: #daa520;
+  background-color: #ffcd69;
 }
 .globe {
   height: 200px;
   border-radius: 50%;
   display: inline-block;
+
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 h1 {
   display: inline-block;
-  border: 1px solid black;
 }
 title {
   display: inline-block;
-  border: 1px solid black;
 }
 header {
-  display: inline-block;
+  display: flex;
 }
 .fire {
   height: 130px;
 }
 .sect {
-  background-color: red;
+  background-color: #e9967a;
+  padding-left: 30px;
+  margin-left: 30px;
+  padding-right: 30px;
+  margin-right: 30px;
+  color: white;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+.car {
+  display: inline-flex;
+  height: 130px;
+}
+section {
+  text-align: center;
+}
+.lowerMountains {
+  height: 200px;
+  width: 1207px;
+}
+.firelet {
+  margin-left: 450px;
+  margin-right: 450px;
+}
+.carlet {
+  margin-left: 450px;
+  margin-right: 450px;
+}
+.content {
+  border-left: 50px;
+  padding-top: 50px;
+  padding-right: 200px;
+  text-align: center;
+}
+.title {
+  font-size: 3rem;
+  font-family: "Chelsea Market";
+}
+footer {
+  background-color: #f9e7dc;
+  padding-top: 20px;
 }
