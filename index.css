@@ -102,15 +102,24 @@ table {
   border:1px solid red;
 }
 
+.circlePic{
+  border:1px solid purple;
+  display:inline-block;
+  width:40%;
+}
 .circlePic img{
+  display:inline-block;
   border-radius: 50%;
-  width:20%;
+  width:70%;
   height:auto;
   margin:2% 0% 0% 7%;
+  border:1px solid green;
 }
 
 .circleText{
+  display:inline-block;
   width:20%;
+  border:1px solid blue;
 }
 
 .boxTextSection{
@@ -153,7 +162,10 @@ table {
 }
 
 
-/*.container {
+/*
+Old work lol
+
+.container {
     width: 100%;
     height: auto;
 }
