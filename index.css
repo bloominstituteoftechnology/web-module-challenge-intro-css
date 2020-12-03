@@ -59,7 +59,7 @@ body{
     font-size: 1rem;
     line-height:1.5;
     color:#4F4F4F;
-    background-color:#FFFAFA; 
+    background-color:#FFFAFA;
 }
 header{
     display: inline-block;
@@ -68,21 +68,19 @@ header{
 .navBar{
     display: inline-block;
     width:100%;
-    height:30%;
+    height:20%;
     align-items: center;
     text-align: center;
 }
 .navBar a{
     display: inline-block;
-    border-radius: 10%;
+    border-radius: 7%;
     color:white;
-    font-size:2rem;
+    font-size:1.2rem;
     width:15%;
-    height:30%;
+    height:20%;
     margin:auto 2%;
-
-
-    
+    padding:2% 3%;
 }
 .button1{
     background-color:#FF764E;
@@ -95,14 +93,14 @@ header{
 }
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size: 2.6rem;
+    font-size: 3rem;
     letter-spacing: 3px;
 }
 .top-container{
     display:inline-block;
     width:90%;
     align-items: center;
-
+    margin: auto 5%;
 }
 .top-container img{
     width:35%;
@@ -118,13 +116,18 @@ h1{
     text-align: center;
 }
 .top-info p{
-    width: 50%;
+    display: inline-block;
+    width: 60%;
+    font-weight: bold;
 }
 .mainBody{
     background:#DDB9A3;
+    display: inline-block;
+    align-items: center;
     text-align:center;
     color:white;
     width:80%;
+    margin:auto 10%;
 }
 .third-container{
     display: inline-block;
@@ -137,17 +140,18 @@ h1{
     display: inline;
     align-items: center;
     align-content: center;
-    width:40%;
+    width:45%;
     margin:0% auto;
 }
 .third-container img{
-    width:30%;
-    margin:auto;
+    width:25%;
+    margin:auto 35%;
 }
 .third-container p{
     width:50%;
     text-align: center;
     align-content: center;
+    margin:auto 25%;
 }
 
 footer{
@@ -158,7 +162,7 @@ footer{
 }
 .footerImg{
     background-image:url(assets/footer_img.jpg);
-    height: auto;
+    height: 50%;
     width: 100%;
     background-size: cover;
     background-position: center;
