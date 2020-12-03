@@ -38,7 +38,7 @@ Once your repository is set up, practice what you learned today to style the sit
   - [ ] Learn About the Park: `#5ED3EB`
   - [ ] Get Involved: `#FFCD69`
 - [ ] Change all font colors and styles according to design file
-  - [ ] Yosemite Park Guide font is called Chelsea Market and can be found on [google fonts](https://fonts.google.com/specimen/Chelsea+Market)
+  - [ ] Yosemite Park Guide font is called Chelsea Market and can be found on [google fonts](httbmkps://fonts.google.com/specimen/Chelsea+Market)
   - [ ] All other text is Roboto Mono, also available on [google fonts](https://fonts.google.com/specimen/Roboto+Mono)
 - [ ] Color the background of the main text body with `#DDB9A3`
 - [ ] Color the background of the footer with `#F9E7DC`

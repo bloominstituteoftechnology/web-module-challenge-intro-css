@@ -1,0 +1,208 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'Roboto Mono', monospace;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    align-items: center;
+}
+header{
+    max-height: 450px;
+    
+    
+
+}
+.logo{
+    
+}
+.logo img{
+    border-radius: 50%;    
+}
+.topNav{
+    height: 6rem;
+    margin: 2rem 3rem 0 0;
+    width: 1500px;
+
+}
+.topNav a{
+    font-family: 'Chelsea Market', cursive;
+    margin:3rem 10rem;
+    padding: 1.5rem 1.5rem;
+    border-radius: 1.3rem;
+    font-size: 12px; 
+    text-decoration: none;   
+}
+.plan{
+    color: white;
+    background-color: #FF764E;
+    text-align: center;
+}
+.learn{
+    color: white;
+    background-color: #5ED3EB;
+}
+.get{
+    color: white;
+    background-color:#FFCD69;
+}
+.topSection{
+    display: flex;
+    flex-direction: row;
+    max-width: 1500px;
+    max-height: 350px;
+    align-content: center;
+    justify-content: center;
+}
+.topText h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 60px;
+    margin: 1rem 6rem;
+    flex-direction: column;
+    text-align: center;
+
+    
+}
+.topText{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+}
+.topTextSub1{
+    font-size: 1.3rem;
+    margin: 2rem 4rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+.topTextSub2{
+    font-size: 1.1rem;
+    padding: 0 150px 0 200px;
+    width: 350px;
+
+    
+    
+   
+    height: 100px;
+    font-size: 1rem;
+    margin: .5rem 5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    
+
+}
+.secSection{
+    background-color: #DDB9A3;
+    height: 100px;
+    color: white;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding: 20PX;
+    margin: 30px 10rem;
+    text-align: center;
+}
+.secSectiontext2{
+    margin-top: 15px;
+}
+.firePitSection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.fireLogo{
+
+}
+.fireLogo img{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.fireSubtext{
+    width: 250px;
+}
+.lodgeSection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px 0;
+}
+.lodgePic{
+
+}
+.lodgePic img{
+    width: 150px;
+    height: 150px;
+}
+.lodgeSubtext{
+    width: 242px;
+    height: 155px;
+}
+footer{
+    background-color: #F9E7DC;
+    height: 170px;
+    width: 1300px;
+}
+.bottompic{
+    align-items: center;
+}
+.bottompic img{
+    width: 1250px;
+    height:300px;
+    margin-left: 20px;
+}
+.bottomNav{
+    margin-top: 50px;
+}
+.bottomNav a{
+    font-family: 'Chelsea Market', cursive;
+    margin:6rem 8rem;
+    padding: 1.5rem 1.5rem;
+    border-radius: 1.3rem;
+    font-size: 12px; 
+    text-decoration: none;   
+
+}
