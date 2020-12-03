@@ -138,6 +138,19 @@ table {
   text-align: center;
 }
 
+.footerHeroContainer img{
+  background-size: cover;
+  object-fit:cover;
+  object-position: 0% 20%;
+  height:40vh;
+  width:100%;
+  max-width:100%;
+  margin:7% 0% 0% 0%;
+}
+
+.footerNav{
+  background-color:#F9E7DC;
+}
 
 
 /*.container {
