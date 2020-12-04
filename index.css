@@ -6,6 +6,12 @@
   font-family: 'Roboto Mono', monospace;
   color:black;
   border:1px solid black;
+  padding:0;
+  nargin:0;
+}
+body{
+  width:98vw;
+  position:center;
 }
 header{
   width:100%;
@@ -33,18 +39,22 @@ header nav a:last-child{
   border-radius:20%;
   margin:0 10%
 }
-.header-picture{
+.titles{
   height:50px;
-  width:50px;
+  width:40%;
+  display:inline-block;
+  position:75%;
+  text-align:center;
+  margin-left:15%;
 }
 #picture{
-  height:100%;
-  width:100%;
+  height:25%;
+  width:25%;
+  display:inline-block;
+  border:25%;
 }
 h1{
   font-family: 'Chelsea Market', cursive;
-  display:inline-block;
-  position:center;
 }
 .header-banner{
   text-align:center;
@@ -61,10 +71,17 @@ h1{
   margin-right: auto;
   width: 25%;
 }
+.body p{
+  width:40%;
+  margin-left:auto;
+  margin-right:auto;
+}
+footer nav{
+}
  footer nav a:first-child{
   background-color:#FF764E;
   border-radius:20%;
-  height:; */
+  margin-left:auto;
 }
 footer nav a:nth-child(2){
   background-color:#5ED3EB;
