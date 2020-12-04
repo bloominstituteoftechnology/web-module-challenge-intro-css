@@ -1,0 +1,139 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    border:1px solid black;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* CSS Reset */
+
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    font-family:'Chelsea Market',cursive;
+    font-size:2rem;
+    text-align:right;
+    
+
+}
+header p{
+    text-align:right;
+}
+header nav{
+    text-align:center;
+    border-radius:75%;
+}
+div.history{
+    background:#DDB9A3
+}
+
+header nav #plan{
+background:#FF764E;
+text-decoration:none;
+border-radius:25px;
+}
+header nav #learn{
+background:#5ED3EB;
+text-decoration:none;
+border-radius:25px;
+}
+header nav #involved{
+background:#FFCD69;
+text-decoration:none;
+border-radius:25px;
+}
+nav{
+    text-decoration:none;
+}
+div.fire{
+    display:flex wrap;
+    align-items:center;
+    justify-content:space-around;
+
+}
+div.fire img{
+    display:flex wrap;
+    align-content:center;
+    width: 50px;
+    height: 50px;
+    
+}
+div.camper img{
+    width:50px;
+    height:50px;
+}
+header img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+footer img{
+    width:50px;
+    height:50px;
+}
+footer{
+    background:#F9E7DC;
+
+}
+span.cfr{
+    font-weight:bold;
+}
+span.pef{
+    font-weight:bold;
+}
+footer{
+    text-align:center;
+}
+footer nav #plan2{
+    background:#FF764E;
+    text-decoration:none;
+    border-radius:25px;
+    }
+    footer nav #learn2{
+    background:#5ED3EB;
+    text-decoration:none;
+    border-radius:25px;
+    }
+    footer nav #involved2{
+    background:#FFCD69;
+    text-decoration:none;
+    border-radius:25px;
+    }
