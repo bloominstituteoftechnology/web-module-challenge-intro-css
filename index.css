@@ -6,8 +6,8 @@
 body{                                 /* adds bacground color to the whole page */
  
     font-size: 50px;
-    font-family: "roboto mono";
-    font-family: "Chelsea Market";
+    font-family: 'Chelsea Market', cursive;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .image img{                   /* makes mountain picture rounded and sets size on page */
@@ -79,11 +79,14 @@ body{                                 /* adds bacground color to the whole page 
 .fire{
     height: 80px;
     width: 80px;
+    margin: 0 350px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
-    
+}
+
+.info{
+    width: 18%;
 }
 
 .camper{
@@ -93,10 +96,11 @@ body{                                 /* adds bacground color to the whole page 
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 18%;
 }
 
 
-.mountain {;
+.mountain {
     display:block;
     position:relative;
     overflow:hidden;
