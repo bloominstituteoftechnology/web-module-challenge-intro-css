@@ -1,3 +1,5 @@
+/*** CSS Reset ***/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -41,3 +43,44 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/**general styles*/
+html{
+    font-size:62.5%; /*then 1rem === 10px - and it gives the user control*/
+  }
+  body{
+    font-family: 'Noto Serif', serif;
+    font-size:1.6rem;
+    line-height:1.5;
+    color:#4f4f4f;
+  }
+
+  header{
+    background-color:coral;
+    /*height:90vh;*/
+  }
+
+  
+  h1, h2, h3, h4, h5, h6{
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing:3px;
+  }
+  a{
+    color:#4f4f4f;
+    text-decoration:none;
+    letter-spacing:3px;
+  }
+  section{
+    padding:4% 0;
+    width:80%;
+    border:1px solid red;
+  }
+  p{
+    width:90%;
+    border:1px solid blue;
+  }
+  
+  
+
+  
