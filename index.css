@@ -1,3 +1,11 @@
+#headerimg {
+    border-radius: 50%;
+    width: 25%;
+    margin: 50px;
+    position: relative;
+
+}
+
 #RV {
     width: 125px;
     height: auto;
@@ -26,42 +34,52 @@
 
 .topbuttons {
     border-radius: 12px;
-    padding: 12px 28px;
+    padding: 16px 28px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border-color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-size-adjust: 36px;
     margin:25px 175px 25px 175px;
     position: center;
+    color: white;
 }
 
 .bottombuttons {
     border-radius: 12px;
-    padding: 12px 28px;
+    padding: 16px 28px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-size-adjust: 36px;
     margin:25px 175px 25px 175px;
     position: center;
+    color: white;
+    background-size: auto;
+    background-color: chocolate;
 }
 
 #plantop {
-    background-color: coral;
+    background-color: crimson;
+    border-color: crimson;
 }
 #learntop {
     background-color: lightblue;
+    border-color: lightblue;
 }
 #gettop {
-    background-color: yellow;
+    background-color: orange;
+    border-color: orange;
 }
 
 #planbottom {
-    background-color: coral;
+    background-color: crimson;
+    border-color: crimson;
 }
 #learnbottom {
     background-color: lightblue;
+    border-color: lightblue;
 }
 #getbottom {
-    background-color: yellow;
+    background-color: orange;
+    border-color: orange;
 }
+
