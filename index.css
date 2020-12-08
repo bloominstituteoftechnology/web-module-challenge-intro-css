@@ -15,6 +15,14 @@ body{                                 /* adds bacground color to the whole page 
     font-family: "chelsea market" , cursive;
 }
 
+.h2{
+    text-align: center;
+}
+
+.openingp p {
+    text-align: center;
+}
+
 .button1 {                                           /*  button classes set background colors for nav buttons above and in footer */
     background-color: #FF764E;
     border: none;
@@ -23,6 +31,7 @@ body{                                 /* adds bacground color to the whole page 
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
+    margin: 10%;
 }
 
 
@@ -34,6 +43,7 @@ body{                                 /* adds bacground color to the whole page 
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
+    margin: 7%;
 }
 
 .button3{
@@ -44,24 +54,36 @@ body{                                 /* adds bacground color to the whole page 
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
+    margin: 5%;
 }
 
 .fire{
     height: 80px;
     width: 80px;
-    margin: 0 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
 }
 
 .camper{
     height: 80px;
     width: 80px;
     margin: 0 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
-.mountain{
-    height: 280px;
-
+.mountain {;
+    display:block;
+    position:relative;
+    overflow:hidden;
+    height: 300px;
+    width: 100%;
+    
 }
 
 
@@ -74,6 +96,7 @@ body{                                 /* adds bacground color to the whole page 
 
 .footer{                                     /* changed background color for whole footer box */
     background-color: #F9E7DC;
+    
 }
 
 .bottom {
