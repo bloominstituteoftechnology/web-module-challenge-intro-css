@@ -5,12 +5,12 @@
 <link rel="stylesheet" href="index.css">    
 </head>
 <body>
-       <button class="top buttons" onclick="document.location'planyourvisit.html'">Plan your Visit</button>
-       <button class="top buttons" onclick="document.location'learnaboutthepark.html'">Learn About the Park</button>
-       <button class="top buttons" onclick="document.location'getinvolved.html'">Get Involved</button>
+       <button class="topbuttons" id="plantop" onclick="document.location'planyourvisit.html'">Plan your Visit</button>
+       <button class="topbuttons" id="learntop" onclick="document.location'learnaboutthepark.html'">Learn About the Park</button>
+       <button class="topbuttons" id="gettop" onclick="document.location'getinvolved.html'">Get Involved</button>
    
       
-      <img src="header_img.jpg">
+      <a href="default.asp"><img src="header_img.jpg" style="width:175px;height:auto;"></a>
       <h1>Yosemite Park Guide</h1>
       <h2>Come explore California’s beautiful wilderness.</h2>
       <h2>Always open. Reservations are not available or required to enter the park.</h2>
@@ -22,16 +22,34 @@
       </div>
      
       <img id="campfire" src="https://image.flaticon.com/icons/svg/2979/2979348.svg">
-    <h5>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for current fire restrictions.</h5>
+    
+    <div id="fireis">
+      <h5>Fire is a natural and essential</h5>
+    <h5> part of Yosemite. We manage fire</h5>
+    <h5> carefully and study how it</h5>
+    <h5> interacts with the park’s</h5>
+    <h5> ecosystems. This blog provides</h5>
+    <h5> updates about fires in Yosemite.</h5>
+    <h5> Check for current fire</h5>
+    <h5> restrictions.</h5>
+  </div>
       
      <img id="RV" src="https://image.flaticon.com/icons/svg/820/820374.svg">
-     <h5> We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the park entrance fee upon arrival (there's no need to pay it in advance).</h5>
+    <div id="westrongly">
+     <h5> We strongly recommend that you make</h5>
+        <h5>reservations for lodging, camping,</h5>
+         <h5>and backpacking. You can pay the</h5>
+          <h5>park entrance fee upon arrival</h5>
+           <h5>(there's no need to pay it in</h5>
+            <h5>advance).</h5>
+      </div>
+      
       <img src="footer_img.jpg">
       
       
-      <button class="bottom buttons" onclick="document.location'planyourvisit.html'">Plan your Visit</button>
-      <button class="bottom buttons" onclick="document.location'learnaboutthepark.html'">Learn About the Park</button>
-      <button class="bottom buttons" onclick="document.location'getinvolved.html'">Get Involved</button>
+      <button class="bottombuttons" id="planbottom" onclick="document.location'planyourvisit.html'">Plan your Visit</button>
+      <button class="bottombuttons" id="learnbottom" onclick="document.location'learnaboutthepark.html'">Learn About the Park</button>
+      <button class="bottombuttons" id="getbottom" onclick="document.location'getinvolved.html'">Get Involved</button>
   
       
 </body>

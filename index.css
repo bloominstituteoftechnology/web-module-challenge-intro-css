@@ -1,0 +1,67 @@
+#RV {
+    width: 125px;
+    height: auto;
+    position: relative;
+    left: 707px;
+    margin: 75px;
+}
+
+#campfire {
+    width: 125px;
+    height: auto;
+    position: relative;
+    left: 717px;
+    margin: 75px;
+}
+
+#westrongly {
+    text-align: center;
+    line-height: 0.15cm;
+}
+
+#fireis {
+    text-align: center;
+    line-height: 0.15cm;
+}
+
+.topbuttons {
+    border-radius: 12px;
+    padding: 12px 28px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-size-adjust: 36px;
+    margin:25px 175px 25px 175px;
+    position: center;
+}
+
+.bottombuttons {
+    border-radius: 12px;
+    padding: 12px 28px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-size-adjust: 36px;
+    margin:25px 175px 25px 175px;
+    position: center;
+}
+
+#plantop {
+    background-color: coral;
+}
+#learntop {
+    background-color: lightblue;
+}
+#gettop {
+    background-color: yellow;
+}
+
+#planbottom {
+    background-color: coral;
+}
+#learnbottom {
+    background-color: lightblue;
+}
+#getbottom {
+    background-color: yellow;
+}
