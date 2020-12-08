@@ -1,0 +1,21 @@
+.container nav a{
+    margin: 0 67.5px;
+    margin-right:100px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 16px;
+    color: yellow;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: purple;
+    
+
+}
+img{
+    border-radius: 50%
+}
+h1 ,h6, p{
+    text-align: center;
+}
+
