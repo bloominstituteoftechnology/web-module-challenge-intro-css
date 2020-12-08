@@ -1,0 +1,56 @@
+body{
+	font-family: 'Roboto Mono', monospace;
+	
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 3% 5% 0% 5% ;
+}
+
+.Nav-link{
+	border-radius: 1px;
+	background: #FF764E;
+	text-decoration: none
+}
+
+
+.imgContainer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 3%; 
+}
+.imgContainer h1{
+	font-size: 35px
+}
+
+.imgContainer img{
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+}
+
+.Title{
+	text-align: center;
+	font-family: 'Chelsea Market', cursive; 
+}
+
+.faviconHolder{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.faviconHolder img{
+	width: 150px;
+	
+}
+
+.introText{
+background: #DDB9A3;
+color: white;
+padding: .05% 4%
+}
