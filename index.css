@@ -1,0 +1,81 @@
+body{                                 /* adds bacground color to the whole page */
+    background-color: `#DDB9A3`;
+    font-family: "roboto", sans-serif;
+}
+
+.image1 img {                   /* makes mountain picture rounded and sets size on page */
+
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+
+.h1 {
+    text-align: center;
+    font-family: "chelsea market" , cursive;
+}
+
+.button1 {                                           /*  button classes set background colors for nav buttons above and in footer */
+    background-color: #FF764E;
+    border: none;
+    border-radius: 8px;
+    padding: 7px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+
+.button2 {
+    background-color: #5ED3EB;
+    border: none;
+    border-radius: 8px;
+    padding: 7px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.button3{
+    background-color: #FFCD69;
+    border: none;
+    border-radius: 8px;
+    padding: 7px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.fire{
+    height: 80px;
+    width: 80px;
+    margin: 0 350px;
+}
+
+.camper{
+    height: 80px;
+    width: 80px;
+    margin: 0 350px;
+}
+
+
+.mountain{
+    height: 280px;
+
+}
+
+
+
+.box1 {
+    background-color: #DDB9A3;
+}
+
+
+
+.footer{                                     /* changed background color for whole footer box */
+    background-color: #F9E7DC;
+}
+
+.bottom {
+    text-decoration: none;
+}
