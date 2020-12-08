@@ -1,21 +1,46 @@
+*{
+margin: 0 20px;
+    padding: 10px;
+    text-align: center;
+    
+}
 .container nav a{
-    margin: 0 67.5px;
-    margin-right:100px;
-    border: 1px solid lightgray;
+   margin: 0 20px;
     padding: 20px;
-    display: inline-block;
-    border-radius: 16px;
-    color: yellow;
-    text-decoration: none;
-    margin-bottom: 20px;
-    background: purple;
+    text-align: center;
     
 
 }
 img{
     border-radius: 50%
+
+
+}
+.center{
+    display:block;
+    margin-left: auto;
+  margin-right auto;
+  width: 50%;
 }
 h1 ,h6, p{
     text-align: center;
+    margin 0
 }
-
+.link1{
+    text-align: center;
+    margin: 0 20px;
+    padding: 20px;
+}
+.link2{
+    text-align: center;
+    margin: 0 20px;
+    padding: 20px;
+}
+.footer nav a{
+    margin: 0 20px;
+    padding: 10px;
+    text-align: center;
+}
+footer img{
+    width: 50%;
+}
