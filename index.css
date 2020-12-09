@@ -3,3 +3,15 @@ body{
     width:800px;
     margin: 0 auto;
 }
+
+ul{
+    list-style-type: none;
+    display: row;
+}
+
+li{
+    float: left;
+    display: block;
+    padding: 50px;
+}
+
