@@ -12,14 +12,19 @@ ul{
 li{
     float: left;
     display: block;
-    padding: 40px 100px;
+    padding-top: 30px;
+    padding-left: 160px;
+    padding-bottom: 60px;
 }
 
 
 .plan-visit{
     background-color:#FF764E ;
-    border-radius: 10px;
-    padding: 20px;
-    font-size: 1.4em;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    width: 180px;
 
 }
