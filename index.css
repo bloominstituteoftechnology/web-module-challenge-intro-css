@@ -12,7 +12,7 @@ ul{
 li{
     float: left;
     display: block;
-    padding-top: 30px;
+    padding-top: 28px;
     padding-left: 160px;
     padding-bottom: 60px;
 }
@@ -21,10 +21,30 @@ li{
 .plan-visit{
     background-color:#FF764E ;
     border-radius: 15px;
-    padding: 10px 15px;
+    padding: 8px 15px;
     font-size: 25px;
     color: white;
     text-align: center;
     width: 180px;
 
+}
+
+.about{
+    background-color:#5ED3EB;
+    border-radius: 15px;
+    padding: 8px 15px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    width: 180px;
+}
+
+.involved{
+    background-color:#FFCD69;
+    border-radius: 15px;
+    padding: 8px 15px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    width: 180px;
 }
