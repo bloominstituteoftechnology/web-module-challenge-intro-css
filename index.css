@@ -21,17 +21,24 @@ vertical-align: baseline;
 
 body {
     text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 button {
     font-family: "Roboto Mono";
     border: 0;
-    margin-left: 100px;
-    margin-top: 10px;  
-    margin-bottom: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+.btn {
+    margin-bottom: 30px;
     
 }
 .red-btn {
-  width: 130px;
+  width: 110px;
   height: 50px;
   color: white;
   background-color: #FF764E;
@@ -40,7 +47,7 @@ button {
   font-size: 14px;
 }
 .blu-btn {  
-  width: 130px;
+  width: 110px;
   height: 50px;
   color: white;
   background-color: #5ED3EB;
@@ -49,7 +56,7 @@ button {
   font-size: 14px;
 }
 .yel-btn {  
-  width: 130px;
+  width: 110px;
   height: 50px;
   color: white;
   background-color: #FFCD69;
@@ -88,7 +95,7 @@ p {
     text-align: center;
     margin-right: 5%;
     margin-left: 5%;
-    padding: 2%;
+    padding: 1%;
     font-size: 14px;
 }
 .sec-2{
