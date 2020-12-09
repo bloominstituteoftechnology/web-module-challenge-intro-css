@@ -1,0 +1,35 @@
+.container header nav a {
+    margin: 0 10px;
+    padding: 10px;
+    
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    max-width: 200px;
+    max-height: 50px;
+    text-align: center;
+    width: 150px;
+   
+  }
+header {
+    width: 100%;
+}
+  .navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+
+.container header nav a:first-child{
+	background-color: #FF764E
+}
+
+nav a:nth-child(2){
+	background-color: #5ED3EB
+}
+
+nav a:last-child{
+	background-color: #FFCD69
+}
