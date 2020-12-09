@@ -1,0 +1,120 @@
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+body {
+    text-align: center;
+}
+button {
+    font-family: "Roboto Mono";
+    border: 0;
+    margin-left: 100px;
+    margin-top: 10px;  
+    margin-bottom: 10px;
+    
+}
+.red-btn {
+  width: 130px;
+  height: 50px;
+  color: white;
+  background-color: #FF764E;
+  border-radius: 13px;
+  text-align: center;
+  font-size: 14px;
+}
+.blu-btn {  
+  width: 130px;
+  height: 50px;
+  color: white;
+  background-color: #5ED3EB;
+  text-align: center;
+  border-radius: 13px;
+  font-size: 14px;
+}
+.yel-btn {  
+  width: 130px;
+  height: 50px;
+  color: white;
+  background-color: #FFCD69;
+  text-align: center;
+  border-radius: 13px;
+  font-size: 14px;
+}
+header {
+    display: inline-flex;
+    text-align: center;
+    line-height: 1.6;
+}
+.img-hdr {
+    display: inline-block;
+    border-radius: 50%;
+    width: 200px; 
+    height: auto;
+}
+.hdr-text{
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1 {
+    font-family: "Chelsea Market";
+    font-size: 40px;
+}
+
+p {
+    font-family: "Roboto Mono";
+    margin: 10px;
+}
+.sec-1 {
+    color: white;
+    background-color: #DDB9A3;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 2%;
+    font-size: 14px;
+}
+.sec-2{
+    font-size: 10px;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+span {
+    font-weight: bold;
+}
+.img-ftr{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center 25%;
+}
+.fire-img {
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+}
+.bus-img {
+    width: 40%;
+    height: auto;
+    margin-top: 20px;
+}
+.ftr-txt {
+    background-color: #F9E7DC;
+}
