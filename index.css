@@ -1,0 +1,220 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* RESET ABOVE */
+/* STYLING BELOW */
+
+body {
+	/* margin:0 50px; */
+	font-family: 'Roboto Mono', monospace;
+}
+
+.bodyMargin {
+	margin:0 5%;
+}
+
+html {
+	font-size:62.5%;
+	letter-spacing: .12rem;
+}
+
+h1 {
+	font-family: 'Chelsea Market', cursive;
+}
+
+header div nav {
+	display:flex;
+	justify-content:space-evenly;
+	margin:3% 0;
+}
+
+header div nav a {
+	display:block;
+	border-radius:25px;
+}
+
+footer {
+	background-color:#F9E7DC;
+	padding:0 0 3rem 0;
+	margin:3rem 0 0 0;
+}
+
+footer div nav {
+	display:flex;
+	justify-content:space-evenly;
+	/* margin:3% 0; */
+}
+
+footer div nav a {
+	display:block;
+	border-radius:25px;
+	font-size: 2rem;
+}
+
+nav a {
+	margin:auto 0;
+	text-align:center;
+	max-width:13rem;
+}
+nav .buttonOne, .buttonTwo, .buttonThree {
+	text-decoration: none;
+	color:white;
+	padding: 10px 20px;
+	border-radius:20px;
+	font-size:1.75rem;
+}
+
+.buttonOne {
+	background-color:#FF764E ;
+}
+
+.buttonTwo {
+	background-color: #5ED3EB;
+}
+
+.buttonThree {
+	background-color:#FFCD69;
+}
+
+.guide {
+	display:grid;
+	grid-template-columns: 1fr 1fr; 
+	margin:0 0 3rem 0;
+}
+
+.guide img {
+	grid-area:1;
+}
+
+section.guideText {
+	margin:auto 0;
+}
+
+.imgHeader {
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+/* FOUNDATION STYLING */
+
+
+
+h1 {
+	font-size:4rem;
+}
+
+h2 {
+	font-size:2rem;
+
+}
+h1, h2 {
+	grid-area:2;
+	text-align:center;
+	vertical-align: middle;
+	margin:auto;
+
+}
+
+/* IMAGE STYLING */
+
+header img {
+	max-width:25rem;
+	height:auto;
+	border-radius:240px;
+	display:inline;
+}
+
+.icons {
+	display:block;
+	max-width:100px;
+	height:auto;
+	margin: 0 auto;
+}
+
+footer img {
+	height:200px;
+	width:100%;
+	object-fit: cover;
+	object-position:100% 20%;
+	background-position:center;
+	margin:0 0 3rem 0;
+}
+
+
+.coloredContainer {
+	background-color:#DDB9A3;
+	color:white;
+	font-size:1.6rem;
+	padding:25px;
+	margin:25px 0;
+	text-align:center;
+} 
+
+.campfire p {
+	font-size:1.2rem;
+	max-width:40%;
+	margin:0 auto;
+	text-align:center;
+}
+
+.truck p {
+	font-size:1.2rem;
+	max-width:40%;
+	margin:0 auto;
+	text-align:center;
+}
+
+strong {
+	font-weight: bold;
+} 
