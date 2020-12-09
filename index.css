@@ -1,7 +1,22 @@
+h1 {
+	font-family:'Chelsea Market';
+}
+.headerimg{
+	display:inline-block;
+	margin:1em;
+	width:25%;
+	border-radius:50%;
+}
+.toolbar li{
+	display:inline-block;
+	justify-content:space-between;
+	width:10%;
+	margin:auto;
+}
 .plan {
 	background-color:#FF764E;
-	padding:15px;
 	border-radius:15%;
+	padding:15px;
 	color:white;
 }
 .about {
@@ -20,6 +35,11 @@
 	color:white;
 }
 .fire {
+	align-content:center;
+	width:5%;
+	height:5%;
+}
+.truck {
 	align-content:center;
 	width:5%;
 	height:5%;
