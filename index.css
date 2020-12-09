@@ -2,26 +2,53 @@ nav {
     width: 100%;
 }
 
-nav a {
-    width: 27%;
-    padding: 1% 1.5%;
-    margin: 1% 1.5%;
+.container header nav  {
+    align-content: space-evenly;
 }
 
 .container header nav .btn-plan  {
     color: white;
     background: #FF764E;
+    border-radius: 25px;
+    border: none;
+    width: 200px;
+    height: 80px;
+    margin: 20px 80px 20px 180px ;
 }
 
 .container header nav .btn-learn{
     color: white;
     background: #5ED3EB;
+    border-radius: 25px;
+    border: none;
+    width: 200px;
+    height: 80px;
+    margin: 20px 80px;
+     
 }
 
 .container header nav .btn-get {
     color: white;
     background: #FFCD69;
+    border-radius: 25px;
+    border: none;
+    width: 200px;
+    height: 80px;
+    margin: 20px 180px 20px 80px;
 }
+
+.content-row {
+    display: flex;
+}
+
+.content-row div {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
 header img {
     width: 25vw;
     height: 50vh;
@@ -29,17 +56,59 @@ header img {
     margin: 5%
 }
 
-header .header-img-text {
-    display: inline-block;
-    width: 100vw;
-}
-.header-text {
-    width: 35vw;
-}
-
 h1 {
-    font-family: 'ChelseaMarket';
+    font-style: ChelseaMarket;
+    margin: 50px 40px;
+    font-size: 80px;
+    text-align: center;
+    color: black;
+}
 
+.title-text div p {
+    margin: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+main p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: #DDB9A3;
+    margin: 5%;
 }
 
 
+
+
+
+footer nav .btn-plan  {
+    color: white;
+    background: #FF764E;
+    border-radius: 25px;
+    border: none;
+    width: 200px;
+    height: 80px;
+    margin: 20px 80px 20px 180px ;
+}
+
+footer nav .btn-learn{
+    color: white;
+    background: #5ED3EB;
+    border-radius: 25px;
+    border: none;
+    width: 200px;
+    height: 80px;
+    margin: 20px 80px;
+     
+}
+
+footer nav .btn-get {
+    color: white;
+    background: #FFCD69;
+    border-radius: 25px;
+    border: none;
+    width: 200px;
+    height: 80px;
+    margin: 20px 180px 20px 80px;
+}
