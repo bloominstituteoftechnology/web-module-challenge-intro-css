@@ -127,13 +127,6 @@ body{                                 /* adds bacground color to the whole page 
 }
 
 
-.footerimg img{
-    height:200px;
-    width:100%;
-    object-fit: cover;
-    object-position:100% 20%;
-    margin:0 0 3rem 0; 
-}
 
 
 
@@ -144,10 +137,32 @@ body{                                 /* adds bacground color to the whole page 
 
 
 
-.navigation nav{
-    margin-bottom: 100px;
+
+
+footer {
+    background-color: #F9E7DC;
+    
 }
 
-.navigation {
-    background-color: #F9E7DC;
+
+.footerimg img{
+    height:200px;
+    width:100%;
+    object-fit: cover;
+    object-position: 100% 20%;
+    margin:0 0 3rem 0; 
+}
+
+
+nav{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+
+
+footer nav{
+    padding: 20px;
+    margin-top: 10x;
+    margin-bottom: 20px;
 }
