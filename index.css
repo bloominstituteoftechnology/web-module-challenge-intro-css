@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto Mono', monospace;
-    width: 800;
+    width: 1200;
     margin: 0 auto;
 }
 
@@ -66,7 +66,7 @@ li{
     font-family: 'Chelsea Market', cursive;
     font-size: 70px;
     margin-left: 80px;
-    margin-top: 80px;
+    margin-top: 75px;
     margin-bottom: 28px;
 }
 
@@ -81,3 +81,18 @@ li{
     margin-left: 210px;
     
 }
+
+.park-info{
+    background-color: #DDB9A3;
+    font-size: 24px;
+    margin-right: 60px;
+    margin-left: 60px;
+    color: #fff;
+}
+
+.park-info :nth-child(1){
+    text-align: center;
+    padding: 10px 13px 10px 13px;
+    
+}
+
