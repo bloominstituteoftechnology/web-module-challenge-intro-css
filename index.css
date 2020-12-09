@@ -1,22 +1,48 @@
-header {
-
+html {
+    font-size 62.5%;
 }
 
-nav {
-    border: 0.2em solid crimson;
-    border-radius: 0.9rem;
-    padding: 10px;
-
+* {
+    font-family: 'Roboto Mono', monospace;
 }
 
-main {
-    #DDB9A3
+.navigate {
+    text-align: center;
+    margin: 1.5rem;
 }
 
-img {
-
+.navigate buttons {
+    background-color: red;
+    border: 0.4rem solid red;
 }
 
-footer {
-    color: #F9E7DC;
+.header {
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+}
+
+#header-title {
+    
+}
+
+.body {
+    align-content: center;
+}
+
+.header img {
+    max-width: 25%;
+    border-radius: 3rem;
+}
+
+.main {
+    max-width: 75%;
+    text-align: center;
+}
+
+.main img {
+    max-width: 12%;
+}
+
+.footer {
+    max-width: 100%;
 }
