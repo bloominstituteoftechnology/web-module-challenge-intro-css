@@ -70,3 +70,14 @@ li{
     margin-bottom: 28px;
 }
 
+.sub-title{
+    font-size:  25px;
+    text-align: center;
+    kerning: auto;
+}
+
+.sub-title :nth-child(2){
+    width: 55%;
+    margin-left: 210px;
+    
+}
