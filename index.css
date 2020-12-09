@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* RESET ENDS HERE */
+body {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 62.5%;
+}
+
+.bodyMargin {
+	margin:0 5%;
+}
+
+
+nav {
+	margin-top: 30px; 
+	text-align: center;
+	
+}
+
+
+nav a{
+	margin: 0 50px 25px;
+	padding: 16px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+	text-align:center;
+	max-width:20px;
+	color: white;
+}
+
+nav a:first-child{
+	background-color: #FF764E
+}
+
+nav a:nth-child(2){
+	background-color: #5ED3EB
+}
+
+nav a:last-child{
+	background-color: #FFCD69
+}
+
+header div {
+	display:inline-block;
+	border: 1px green solid;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.openingimgtxt {
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+div.openingimage {
+	margin-left: 150px;
+	/* margin-top: 50px; */
+}
+
+.openingimg{
+	width: 185px;
+	border-radius: 100%;
+}
+
+div.openingtext{
+		margin-left: 100px;
+
+}
+
+h1 {
+
+	font-size: 60px;
+	font-family: 'Chelsea Market', cursive;
+}
+
+h2 {
+	font-size: 15px;
+	padding: 15px 0;
+}
+
+.secondh2 {
+	width: 50%;
+	text-align: center;
+}
+
+.coloredbox {
+	background-color:#DDB9A3;
+	font-size: 15px;
+	color: white;
+	padding: 10px 50px 10px 50px;
+	margin: 0 100px 0 100px;
+	text-align: center;
+}
+
+.cboxp2 {
+	margin: 15px;
+}
+
+.icons {
+    display:block;
+    max-width:100px;
+    height:auto;
+    margin: 0 auto;
+}
+
+.campfire p {
+    font-size:13px;
+    max-width:20%;
+    margin:0 auto;
+    text-align:center;
+}
+
+.truck p {
+    font-size:13px;
+    max-width:20%;
+    margin:0 auto;
+    text-align:center;
+}
+
+strong {
+	font-weight: bold;
+}
+
+footer img {
+    height:200px;
+    width:100%;
+    object-fit: cover;
+    object-position:100% 20%;
+    margin:0 0 3rem 0;
+}
+
+footer {
+	background-color: #F9E7DC;
+	margin-top: 30px;
+}
+
+.footernav {
+	padding: 30px 0;
+	background-color: #F9E7DC;
+
+}
