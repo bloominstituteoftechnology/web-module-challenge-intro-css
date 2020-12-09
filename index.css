@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    flex-direction:column;
+    border: 4em solid black;
+    padding:o.3rem;
+    margin: 0em
+  }
+  h1 {
+    font-family: 'Chelsea Market';
+  }
+  p {
+    font-family: 'Roboto Mono';
+  }
+  nav ul li {
+    list-style: none;
+    width: 30%;
+    float: left;
+  text-align: center;
+   
+  }
+  nav {
+    border: 0;
+    margin: 0 ;
+  }
+  .plan {
+    background-color: #ff764e;
+    margin: 0 8em;
+      padding: 0.2em;
+    border-radius: 0.5em;
+    width: 10em;
+  }
+  .learn {
+    background-color: #5ED3EB;
+    margin: 0 8em;
+      padding: 0.2em;
+    border-radius: 0.5em;
+    width: 10em;
+  }
+  .get {
+    background-color: #FFCD69;
+    margin: 0 8em;
+      padding: 0.2em;
+    border-radius: 0.5em;
+    width: 10em;
+   
+  }
+  .header-ext {
+    display: flex;
+      
+  }
+  .img1 {
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+    margin: 0 3em;
+  }
+  .txt1 {
+   
+    margin: 0 3em;
+    text-align: center;
+  
+  }
+  span {
+  font-weight: bold;  
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .fire {
+    width: 30%;
+    height: 30%;
+    margin: 1em;
+  }
+  .bonfire {
+    text-align: center;
+    margin: 3em 30em;
+  }
+  .truck {
+    width: 40%;
+    height: 40%;
+    margin: 1em;
+    
+  }
+  .reserve {
+    text-align: center;
+    margin: 3em 30em;
+  }
+  .info {
+    background-color: #DDB9A3;
+    text-align: center;
+    margin: 8em;
+  }
+  .img-footer {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center 25%;
+    background-color: white;
+  }
+  #footer-content {
+    background-color: #F9E7DC ;
+    justify-content: center;
+  }
+  footer {
+    background-color: #F9E7DC;
+  }
