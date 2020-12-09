@@ -27,11 +27,18 @@ body{                                 /* adds bacground color to the whole page 
 .float-right h1, h2, p  {
     text-align: center;
     font-weight: normal;
-
-
+    font-family: 'Chelsea Market', cursive;
 }
-.main h1{
-    font-weight: bold;
+
+.float-right h1{
+    font-size: 50px;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.float-right h2, {
+    margin-bottom: 150px;
 }
 
 
