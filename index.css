@@ -1,178 +1,139 @@
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-
-}
-
-
-
-
-
 .header {
-width: 600px;
-margin: 60px;
-
+    width: 600px;
+    margin: 60px;
 }
 
-.header .nav-item1 {
-    box-sizing: border-box;
-    border: 3px solid black;
-    float: left;
-    
-
-}
-.box {
-    width: 500px
-    padding: 15px;
-    height: 100px;
-    background: blueviolet;
-    margin: 20px;
-
-
-}
-
-
-.content {
+.container{
     max-width: 800px;
     margin: auto;
     font-size: 16px;
-    font-family: 'Roboto Mono', monospace;
-    text-align: center;
+    text-align: center;    
+}
 
-}
-nav {
-    display: flex;
-    justify-content: space-evenly;
-}
-button {
-    color: white;
+
+button{
     border: 0px;
-    border-radius: 10px;
-    max-width: 110px;
-    max-height: 60px;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: normal;
-    padding: 6px;
-    line-height: 16px;
+    font-family: 'Roboto Mono' monospace;
 }
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
 #planVisit{
-    background-color: #FF764E;
+    background-color:#FF764E;
+    border-radius: 15px; 
+    padding: 5px;
+    line-height: 15px;
+    color: white;
 }
+
 #learnAbout{
-    background-color: #5ED3EB;
+    background-color:#5ED3EB ;
+    border-radius: 15px;
+    color: white;
+    padding: 10px
 }
+
 #getInvolved{
     background-color: #FFCD69;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;  
 }
-h1{
+
+h1  {
     font-family: 'Chelsea Market', cursive;
+    text-align: center;  
+     
 }
-p{
+
+p {
     font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    width: 90%;
+    padding-left: 50px;
+    height: 15px;
+    padding-bottom: 50px;
 }
+
 header nav button{
     margin: 20px;
 }
 
-.header_block {
+
+.imageContainer{
     display: flex;
-    padding: 25px;
+    padding: 15px;
 }
 
-.header_text{
+.header-text{
     padding: 20px;
     text-align: center;
 }
 
-header img {
-    height: 200px;
-    width: 210px;
+.headerImg{
+    height: 150px;
+    width: 150px;
     border-radius: 100px;
 }
-#mainText{
-    background-color: #DDB9A3;
+
+.first{
     padding: 1px 20px;
+    background-color: salmon;
     color: white;
     font-size: 15px;
 }
+ .second{
+     max-width: 250px;
+     font-size: 12px;
+     margin: auto;
+     line-height: 15px;
+ }
 
-.middle_pictures{
-    width: 100px;
-    margin: 0 auto;
-}
+ .middlePics{
+     width: 70px;
+     padding-left: 120px;
+ }
+
 #footerImage{
-    width: 100%;
-    max-height: 200px;
+    width: 100%
+    height: 0px;
 }
-.middleContainers {
-    max-width: 250px;
-    font-size: 12px;
-    margin: 25px auto;
-    line-height: 15px;
-}
-#bottomNav{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #F9E7DC;
-    height: 100px;
 
-}
-.imageFrame{
-    background-image: url("assets/footer_img.jpg");
+  
+ 
+
+ .imageFrame {
+    background-image: url("assets\footer_img.jpg") ;
     width: 100%;
-    height: 300px; 
-    background-color: red;
+    height: 300px;
+ }
+
+ #bottomNav{
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 200px;
+ }
+
+ #aplanVisit{
+    background-color:#FF764E;
+    border-radius: 15px; 
+    padding: 10px;
+    color: white;
 }
-#bplanVisit{
-    background-color: #FF764E;
-    margin-top: 20px;
+
+#alearnAbout{
+    background-color:#5ED3EB ;
+    border-radius: 15px;
+    color: white;
+    padding: 10px
 }
-#blearnAbout{
-    background-color: #5ED3EB;
-    margin-top: 20px;
-}
-#bgetInvolved{
+
+#agetInvolved{
     background-color: #FFCD69;
-    margin-top: 20px;
-}
-
+    border-radius: 15px;
+    color: white;
+    padding: 10px;  
+} 
