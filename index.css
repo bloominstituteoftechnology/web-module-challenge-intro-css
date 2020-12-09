@@ -2,45 +2,77 @@
 margin: 0 20px;
     padding: 10px;
     text-align: center;
-    
+    border: 1px solid:black;
 }
-.container nav a{
-   margin: 0 20px;
-    padding: 20px;
+body{
+    font-family: "Roboto Mono", monospace;
+}
+.container{
     text-align: center;
+}
+nav a{
+    margin: 0 20px; 
+     padding: 20px; 
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+
+
+}
+nav a:nth-child(1){
+    background-color:#FF764E;
+}
+nav a:nth-child(2){
+    background-color:#5ED3EB;
+}
+    nav a:nth-child(3){
+    background-color:#FFCD69;
+    }
     
+.header-logo img{
+    border-radius: 50%;
+    width: 200px;
+    float: left;
+}
+.second-container{
+display:inline;
+color: brown;
 
 }
-img{
-    border-radius: 50%
-
-
+.third-container{
+    background:#DDB9A3;
+    color: white;
 }
-.center{
-    display:block;
-    margin-left: auto;
-  margin-right auto;
-  width: 50%;
+
+h1{
+    font-family: "Chelsea Market",cursive;
 }
-h1 ,h6, p{
+ h2, p{
     text-align: center;
     margin 0
 }
 .link1{
     text-align: center;
-    margin: 0 20px;
-    padding: 20px;
-}
+    margin: 60px auto;
+    width: 18%;
+    font-size: 14px;
+} 
 .link2{
-    text-align: center;
-    margin: 0 20px;
-    padding: 20px;
+   text-align: center;
+    margin: 60px auto;
+    width: 18%;
+    font-size: 14px; 
 }
-.footer nav a{
-    margin: 0 20px;
-    padding: 10px;
-    text-align: center;
+ .footer  { 
+    background-color:#f9e7dc;
+ }  
+.footer-logo img{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: center top;
 }
-footer img{
-    width: 50%;
+.bold{
+    font-weight: bold;
 }
