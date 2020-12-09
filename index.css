@@ -1,0 +1,84 @@
+.header {
+    display: flex;
+  }
+  nav ul li {
+    float: left;
+    text-align: center;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .plan {
+    background-color: #FF764E;
+    padding: 0.2em;
+    margin:0 8em;
+    border-radius: 0.5em;
+    width: 10em;
+  }
+  .learn {
+    background-color: #5ED3EB;
+    padding: 0.2em;
+    margin:0 8em;
+    border-radius: 0.5em;
+    width: 10em;
+  }
+  .get {
+    background-color: #FFCD69;
+    padding: 0.2em;
+    margin:0 8em;
+    border-radius: 0.5em;
+    width:10em;
+  }
+  .img1 {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin: 0 8em;
+  }
+  h1 {
+    font-family: 'Chelsea Market';
+  }
+  .text1 {
+    text-align: center;
+    margin: 0 3em;
+  }
+  .text2 {
+    text-align: center;
+    background-color: #DDB9A3;
+    margin: 8em;
+  }
+  p {
+    font-family: Roboto Mono;
+  }
+  .fire {
+    width: 40%;
+    height: 40%;
+    margin: 1em;
+  }
+  .text3 {
+    text-align: center;
+    margin: 3em 40em;
+  }
+  .car {
+    width:40%;
+    height:40%;
+    margin: 1em;
+  }
+  .text4 {
+    text-align: center;
+    margin: 3em 40em;
+  }
+  span {
+    font-weight: bold;
+  }
+  .footer img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center 25%;
+  }
+  .footernav {
+    background-color: #F9E7DC;
+  }
