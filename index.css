@@ -2,47 +2,114 @@ html {
     font-size 62.5%;
 }
 
-* {
-    font-family: 'Roboto Mono', monospace;
-}
-
 .navigate {
+    margin-top: 5%;
     text-align: center;
-    margin: 1.5rem;
+    border-radius: 10rem;
 }
 
-.navigate buttons {
-    background-color: red;
-    border: 0.4rem solid red;
-}
-
-.header {
+/*.header-title {
+    box-sizing: border-box;
+    max-width: 80%;
     text-align: center;
+}*/
+
+.header-title {
     font-family: 'Chelsea Market', cursive;
 }
 
-#header-title {
-    
+.header-text {
+    text-align: center;
+    float: right;
+    max-width: 50%;
+}
+
+.header-title img {
+    max-width: 30%;
+    float: left;
+    border-radius: 50%;
 }
 
 .body {
-    align-content: center;
-}
-
-.header img {
-    max-width: 25%;
-    border-radius: 3rem;
-}
-
-.main {
-    max-width: 75%;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 90%;
+    margin: auto;
     text-align: center;
 }
 
+.main-text {
+    color: white;
+    margin: 0.9rem;
+    padding-top: 0.4rem;
+    padding-right: 1rem;
+    padding-bottom: 0.8rem;
+    padding-left: 1rem;
+    background-color: #DDB9A3;
+}
+
+.main-text2 {
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.main-text2 img {
+    max-width: 30%;
+    margin: auto;
+}
+
 .main img {
-    max-width: 12%;
+    max-width: 20rem;
+    max-height: 20rem;
+    border-radius: 50%;
+}
+
+.main-paragraph {
+    max-width: 45%;
+    margin: auto;
+    text-align: center;
 }
 
 .footer {
-    max-width: 100%;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    background-color: #F9E7DC;
+}
+
+.footer img {
+    max-height: 10rem;
+}
+
+.buttons {
+    display: inline-block;
+    text-align: center;
+}
+
+#plan {
+    background-color: #FF764E;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25%;
+    width: 9rem;
+    height: auto;
+}
+
+#learn {
+    background-color: #5ED3EB;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 25%;
+    width: 9rem;
+    height: auto;
+}
+
+#getinvolved {
+    background-color: #FFCD69;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 25%;
+    width: 9rem;
+    height: auto;
 }
