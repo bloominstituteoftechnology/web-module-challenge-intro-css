@@ -1,21 +1,47 @@
 body{
 	font-family: 'Roboto Mono', monospace;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	margin: 20px;
+    flex-direction: row;
+    align-items: center;
+    display: inline-block;
+}
+ul{
+	list-style: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Nav-link1{
+  background: #FF764E;
+  padding: 5px 30px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;;
+}
+
+.Nav-link2{
+
+  background: #5ED3EB;
+  padding: 5px 30px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;;
 	
 }
 
-nav{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding: 3% 5% 0% 5% ;
+.Nav-link3{
+  background: #FFCD69;
+  padding: 5px 30px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;;
+	
 }
-
-.Nav-link{
-	border-radius: 1px;
-	background: #FF764E;
-	text-decoration: none
-}
-
 
 .imgContainer{
 	display: flex;
@@ -24,7 +50,7 @@ nav{
 	padding: 3%; 
 }
 .imgContainer h1{
-	font-size: 35px
+	font-size: 45px
 }
 
 .imgContainer img{
@@ -38,6 +64,9 @@ nav{
 	font-family: 'Chelsea Market', cursive; 
 }
 
+.p2{
+	text-align: justify-all;
+}
 .faviconHolder{
 	display: flex;
 	flex-direction: column;
@@ -52,5 +81,25 @@ nav{
 .introText{
 background: #DDB9A3;
 color: white;
-padding: .05% 4%
+padding: .05% 4%;
+margin: 15px;	
+max-height: 115px;
+font-size: 12px
+}
+
+.footImg{
+	display: flex;
+	height: 150px;
+	margin: 0;		
+	overflow-x:hidden;
+    overflow-y:hidden;
+}
+footer img{
+	background-size: cover;
+}
+span{
+	font-weight: bold;
+}
+.faviconHolder p{
+	text-align: center;
 }
