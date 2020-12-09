@@ -48,3 +48,16 @@ li{
     text-align: center;
     width: 180px;
 }
+
+.container{
+    flex: left;
+}
+
+#header-img{
+    border-radius: 50%;
+    width: 320px;
+    height: 320px;
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
