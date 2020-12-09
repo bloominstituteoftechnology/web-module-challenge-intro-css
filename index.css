@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto Mono', monospace;
-    width:800px;
+    width: 800;
     margin: 0 auto;
 }
 
@@ -12,6 +12,12 @@ ul{
 li{
     float: left;
     display: block;
-    padding: 50px;
+    padding: 40px 80px;
 }
 
+.tab{
+    border-radius: 20%;
+    padding: 15px 20px;
+    font-size: 1.5em;
+    color: white;
+}
