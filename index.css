@@ -123,6 +123,14 @@ nav .buttonOne, .buttonTwo, .buttonThree {
 	margin:auto 0;
 }
 
+.guideText h2 {
+	margin-top:3rem;
+}
+
+.guideText .shortH2 {
+	max-width:80%;
+}
+
 .imgHeader {
 	margin:0 auto;
 }
