@@ -5,6 +5,7 @@
 nav a{
     text-decoration: none;
     color: white;
+   
 }
 
 nav{
@@ -24,7 +25,8 @@ body{                                 /* adds bacground color to the whole page 
     border-radius: 50%;
     height: 180px;
     width: 180px;
-    margin-left: 50px;
+    margin-right: 100px;
+    margin-left: 80px;
 }
 
 .header section{
@@ -43,11 +45,15 @@ body{                                 /* adds bacground color to the whole page 
     font-size: 50px;
     text-align: center;
     margin-left: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 17px;
 }
 
 .float-right h2, {
     margin-bottom: 150px;
+}
+
+.float-right p{
+    margin-top: 20px;
 }
 
 
@@ -138,11 +144,10 @@ body{                                 /* adds bacground color to the whole page 
 
 
 
-.footer{                                     /* changed background color for whole footer box */
-    background-color: #F9E7DC;
-    
-}
-
 .navigation nav{
     margin-bottom: 100px;
+}
+
+.navigation {
+    background-color: #F9E7DC;
 }
