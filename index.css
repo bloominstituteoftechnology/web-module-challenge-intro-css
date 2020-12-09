@@ -1,0 +1,45 @@
+nav {
+    width: 100%;
+}
+
+nav a {
+    width: 27%;
+    padding: 1% 1.5%;
+    margin: 1% 1.5%;
+}
+
+.container header nav .btn-plan  {
+    color: white;
+    background: #FF764E;
+}
+
+.container header nav .btn-learn{
+    color: white;
+    background: #5ED3EB;
+}
+
+.container header nav .btn-get {
+    color: white;
+    background: #FFCD69;
+}
+header img {
+    width: 25vw;
+    height: 50vh;
+    border-radius: 50%;
+    margin: 5%
+}
+
+header .header-img-text {
+    display: inline-block;
+    width: 100vw;
+}
+.header-text {
+    width: 35vw;
+}
+
+h1 {
+    font-family: 'ChelseaMarket';
+
+}
+
+
