@@ -1,85 +1,151 @@
 #headerimg {
     border-radius: 50%;
     width: 25%;
-    margin: 50px;
-    position: relative;
+    padding: 20px;
+    margin: 35px;
 
+}
+
+.firsttext {
+    position: relative;
+    text-align: center;
+}
+
+#footerimg {
+    width: 100%;
+    position: relative;
+}
+h1 {
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.yosemite {
+    text-align: right;
+    padding: 75px;
+    font-weight: bolder;
+    display:flex;
+    justify-content: space-around;
+}
+
+.middlesection {
+    text-align: center;
+    background-color: darksalmon;
+    padding: 20px;
+    font-size: 24px;
+    color: white;
+    font-family: monospace;
+    letter-spacing: 1.5px;
 }
 
 #RV {
     width: 125px;
+    padding: 45px;
+    border: 50px;
     height: auto;
+    object-position: center;
     position: relative;
-    left: 707px;
-    margin: 75px;
+    display: inline;
+    left: 1600px;
 }
 
 #campfire {
     width: 125px;
+    padding: 45px;
+    border: 50px;
     height: auto;
+    display: inline;
     position: relative;
-    left: 717px;
-    margin: 75px;
+    left: 1600px;
 }
 
 #westrongly {
-    text-align: center;
     line-height: 0.15cm;
+    font-size: 24px;
+    text-align: center;
 }
 
 #fireis {
-    text-align: center;
     line-height: 0.15cm;
+    font-size: 24px;
+    text-align: center;
 }
-
 .topbuttons {
-    border-radius: 12px;
-    padding: 16px 28px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 48px 16px;
+    text-decoration: white;
+    border: none;
     font-family: Arial, Helvetica, sans-serif;
-    text-size-adjust: 36px;
-    margin:25px 175px 25px 175px;
-    position: center;
-    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 1.5px;
+    text-align: center;
 }
 
 .bottombuttons {
-    border-radius: 12px;
-    padding: 16px 28px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border-color: white;
+    padding: 48px 16px;
+    text-decoration: white;
+    border: none;
     font-family: Arial, Helvetica, sans-serif;
-    text-size-adjust: 36px;
-    margin:25px 175px 25px 175px;
-    position: center;
-    color: white;
-    background-size: auto;
-    background-color: chocolate;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 1.5px;
+    text-align: center;
+    background-color: darksalmon;
 }
 
 #plantop {
     background-color: crimson;
     border-color: crimson;
+    border-radius: 14px;
+    width: 250px;
+    height: 48px;
 }
 #learntop {
     background-color: lightblue;
     border-color: lightblue;
+    border-radius: 14px;
+    width: 250px;
+    height: 48px;
 }
+
 #gettop {
     background-color: orange;
     border-color: orange;
+    border-radius: 14px;
+    width: 250px;
+    height: 48px;
 }
 
 #planbottom {
     background-color: crimson;
     border-color: crimson;
+    border-radius: 14px;
+    width: 250px;
+    height: 48px;
 }
 #learnbottom {
     background-color: lightblue;
     border-color: lightblue;
+    border-radius: 14px;
+    width: 250px;
+    height: 48px;
 }
 #getbottom {
     background-color: orange;
     border-color: orange;
+    border-radius: 14px;
+    width: 250px;
+    height: 48px;
 }
 
