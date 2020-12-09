@@ -50,14 +50,30 @@ li{
 }
 
 .container{
-    flex: left;
+    display: inline-flex;
 }
 
 #header-img{
     border-radius: 50%;
-    width: 320px;
-    height: 320px;
-    margin-left: 120px;
-    margin-top: 30px;
+    width: 330px;
+    height: 330px;
+    margin-left: 100px;
+    margin-top: 25px;
     margin-bottom: 40px;
+}
+
+.title{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 70px;
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.sub-title{
+    text-align: center;
+}
+
+.title-content{
+    text-align: center;
 }
