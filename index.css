@@ -1,0 +1,26 @@
+.plan {
+	background-color:#FF764E;
+	padding:15px;
+	border-radius:15%;
+	color:white;
+}
+.about {
+	background-color:#5ED3EB;
+	margin-left:33%;
+	padding:15px;
+	border-radius:15%;
+	color:white;
+}
+.involved {
+	background-color:#FFCD69;
+	border:5px;
+	margin-left:33%;
+	padding:15px;
+	border-radius:15%;
+	color:white;
+}
+.fire {
+	align-content:center;
+	width:5%;
+	height:5%;
+}
