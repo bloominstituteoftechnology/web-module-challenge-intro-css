@@ -141,3 +141,14 @@ flex-direction: column;
     margin: auto;
     padding-bottom: 90px;
 }
+
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
