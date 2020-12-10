@@ -96,3 +96,9 @@ li{
     
 }
 
+.park-info :nth-child(2){
+    text-align: center;
+    padding: 10px 13px 20px 13px;
+}
+
+
