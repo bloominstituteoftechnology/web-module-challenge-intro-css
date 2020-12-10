@@ -104,12 +104,19 @@ li{
 .fire-restriction{
 display: flex;
 flex-direction: column;
-
-
 }
 
 .fire-graphic{
     width: 160px;
     height: 160px;
     margin: auto;
+    padding-bottom: 10px;
 }
+
+.fire-restriction p{
+    text-align: center;
+    font-size: 18px;
+    width: 300px;
+    margin: auto;
+}
+
