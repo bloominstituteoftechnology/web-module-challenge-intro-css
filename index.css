@@ -115,8 +115,8 @@ flex-direction: column;
 
 .fire-restriction p{
     text-align: center;
-    font-size: 18px;
-    width: 300px;
+    font-size: 16px;
+    width: 280px;
     margin: auto;
     padding-bottom: 50px;
 }
@@ -134,3 +134,10 @@ flex-direction: column;
 
 }
 
+.entrance-fee p{
+    text-align: center;
+    font-size:  16px;
+    width: 300px;
+    margin: auto;
+    padding-bottom: 90px;
+}
