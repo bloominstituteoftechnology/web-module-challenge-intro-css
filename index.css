@@ -118,5 +118,19 @@ flex-direction: column;
     font-size: 18px;
     width: 300px;
     margin: auto;
+    padding-bottom: 50px;
+}
+
+.entrance-fee{
+    display: flex;
+    flex-direction: column;
+}
+
+.truck-graphic{
+    height: 160px;
+    width: 160px;
+    margin: auto;
+    padding-bottom: 10px;
+
 }
 
