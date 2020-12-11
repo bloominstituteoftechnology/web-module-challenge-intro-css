@@ -1,0 +1,235 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+* {
+    /* box-sizing: border-box; */
+    
+   
+
+}
+
+body {
+    width: 1000px;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 400;
+    
+}
+
+.container .title {
+    display: flex;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Chelsea Market';
+}
+
+h4 {
+    font-size: 1rem;
+    font-family: 'roboto mono';
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1150px ;
+    max-width: 5000px;
+    margin: 0 auto;
+    height: 400;
+}
+
+header .topnav {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.container header nav .nav1 {
+    margin: 20px 30px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: #FF764E;
+    font-size: 25px;
+    font-family: 'roboto mono';
+}
+
+.container header nav .nav2 {
+    margin: 20px 30px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: #5ED3EB;
+    font-size: 25px;
+    font-family: 'roboto mono';
+}
+
+.container header nav .nav3 {
+    margin: 20px 30px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: #FFCD69;
+    font-size: 25px;
+    font-family: 'roboto mono';
+}
+
+.container header section img {
+    width: 325px;
+    height: auto;
+    border-radius: 50%;
+    margin: 50px;
+}
+
+.container header .title .titl {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.container .main {
+    background-color: #DDB9A3;
+    font-family: 'roboto mono';
+    color: white;
+    width: auto;
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+}
+
+strong {
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9E7DC;
+    width: 1175px;
+    margin-top: 20px; 
+}
+
+footer img {
+    height: 300px;
+    /* padding-right: 600px; */
+  
+}
+
+footer .footnav {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    text-align: center;
+    
+}
+
+footer nav .nav1 {
+    margin: 20px 30px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: #FF764E;
+    font-size: 25px;
+    font-family: 'roboto mono';
+}
+
+footer nav .nav2 {
+    margin: 20px 30px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: #5ED3EB;
+    font-size: 25px;
+    font-family: 'roboto mono';
+}
+
+footer nav .nav3 {
+    margin: 20px 30px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: #FFCD69;
+    font-size: 25px;
+    font-family: 'roboto mono';
+}
+
+.fire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'roboto mono';
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+.fire  img {
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    text-align: center;    
+}
+
+.camper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'roboto mono';
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+
+.camper img {
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px
+}
+
+
