@@ -1,0 +1,80 @@
+html{
+    width: 1000px;
+    display: flex;
+    margin: auto;
+    padding: 0 10% ;
+}
+body{
+    margin: 0 auto;
+}
+h1{
+    font-style: Chelsea Market;
+    margin: 20px 0;
+    font-size:60px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    flex-direction:  center;
+    justify-content: space-evenly;
+}
+
+nav a {
+    margin: 0 10px;
+    border: white;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+   font-style: Roboto Mono;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.orange{
+    background-color: #FF764E;
+}
+.blue{
+    background-color: #5ED3EB; 
+}
+.yellow{
+    background-color: #FFCD69; 
+}
+
+section{
+    font-style: Roboto Mono;
+    color:black;
+    padding: auto;
+    background-color: #F9E7DC;
+    margin: auto;
+    height: auto;
+    text-align: center;
+}
+
+img{
+   width: 100px;
+   height: auto;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture1{
+border-radius: 50%;
+width: 20%;
+}
+
+.mountains{
+ display: flex;
+}
+
+.landscape{
+    display: flex;
+height: auto;
+max-width: auto; 
+}
