@@ -46,3 +46,40 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.color1 {
+    background-color: #FF764E;
+}
+
+.color2 {
+    background-color: #5ED3EB;
+}
+
+.color3 {
+    background-color: #FFCD69;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+}
+  
+h1 {
+    font-size: 3.5rem;
+    font-family: 'Chelsea Market'; 
+}
+
+h2 {
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container header nav a  {
+    color: white;
+    text-decoration: none;
+}
+
+.container footer nav a  {
+    color: white;
+    text-decoration: none;
+}
