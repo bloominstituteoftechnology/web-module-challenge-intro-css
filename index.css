@@ -83,3 +83,17 @@ h2 {
     color: white;
     text-decoration: none;
 }
+
+.main-body {
+    background-color: #DDB9A3;
+    color: white;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+strong {
+    font-weight: bold;
+}
