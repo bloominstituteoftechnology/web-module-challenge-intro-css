@@ -101,7 +101,16 @@ header {
     padding: 1%;
     color: white;
     text-decoration: none;
+    transition: width 2s, height 2s, transform 2s;
 }
+
+.container header nav a:hover {
+    background: green;
+    color: black;
+    width: .5rem;
+    height: .5rem;
+    transform: rotate(360);
+  }
 
 .color1 {
     background-color: #FF764E;

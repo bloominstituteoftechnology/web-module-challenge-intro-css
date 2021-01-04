@@ -57,9 +57,9 @@ Once your repository is set up, practice what you learned today to style the sit
 
 The following goals are designed to stretch your knowledge and may require additional research beyond what was learned in class today.
 
-- [ ] Add CSS animations (hover, mouseover, etc.)
+- [X] Add CSS animations (hover, mouseover, etc.)
 - [ ] Design and execute your own pages for `Plan your Visit`, `Learn About the Park`, or `Get Involved`
-- [ ] Use [favicon.io](https://favicon.io/favicon-converter/) to convert the campfire and RV images to real favicons and use them in your project
+- [X] Use [favicon.io](https://favicon.io/favicon-converter/) to convert the campfire and RV images to real favicons and use them in your project
 - [ ] Host your website on Netlify.com
 
 ## Resources
@@ -72,5 +72,5 @@ The following goals are designed to stretch your knowledge and may require addit
 
 Follow these steps for completing your project.
 
-- [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [X] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
