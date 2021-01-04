@@ -47,6 +47,62 @@ table {
 	border-spacing: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    line-height: 1;
+    text-align: center;
+}
+
+p {
+    padding: 5px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: 'Chelsea Market', cursive; 
+    padding: 20px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    padding: 3%;
+}
+
+header {
+    width: 90%;
+    height: 50px;
+    border: 1px;
+    margin: 0 auto;
+    margin-top: 3%;
+    padding: 10px;
+}
+
+.container header nav a  {
+    width: 40px;
+    height: 90px;
+    border: 1px;
+    border-radius: 20px;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+}
+
 .color1 {
     background-color: #FF764E;
 }
@@ -59,39 +115,89 @@ table {
     background-color: #FFCD69;
 }
 
-body {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 15px;
-}
-  
-h1 {
-    font-size: 3.5rem;
-    font-family: 'Chelsea Market'; 
-}
-
-h2 {
-    font-size: 1rem;
-    font-family: 'Roboto Mono', monospace;
+.image-box {
+    border: 2px;
+    border-radius: 50%;
+    vertical-align: top;
+    margin: 3%;
+    width: 30%;
+    height: auto;
+    padding: 5px;
+    float: left;
 }
 
-.container header nav a  {
-    color: white;
-    text-decoration: none;
+.container-2 {
+    margin: 2%;
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    border: 2px;
+    display: inline-block;
 }
 
-.container footer nav a  {
-    color: white;
-    text-decoration: none;
+.title {
+    border: 2px;
+    display: inline-block;
+    margin: 1%;
+    width: 58%;
+    min-width: 150px;
+    text-align: center;
 }
 
 .main-body {
     background-color: #DDB9A3;
     color: white;
     font-size: 1rem;
+    width: 95%;
+    height: 10rem;
+    border: 2px;
+    margin: 3%;
+    padding: 1%;
+    text-align: center;
+}
+
+.image-3 {
+    margin: 0 auto;
+    width: 100%;
+    height: 10rem;
+    border: 2px;
+    padding: 1px;
+}
+
+.container-3 {
+    margin: 0 auto;
+    width: 30%;
+    height: auto;
+    border: 2px;
+    padding: 3%;
+    text-align: center;
+}
+
+.footer-image {
+    width: 100%;
+    height: auto;
+    margin: auto;
 }
 
 footer {
     background-color: #F9E7DC;
+    width: 100%;
+    height: 100px;
+    border: 1px;
+    padding: 3%;
+    margin: auto;
+}
+
+.container footer nav a  {
+    color: white;
+    text-decoration: none;
+    width: 40px;
+    height: 90px;
+    border: 1px;
+    border-radius: 20px;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 1%;
 }
 
 strong {
