@@ -1,0 +1,15 @@
+html {
+	background-color: #333;
+	color: #eee;
+}
+.round-image {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+/* colors:
+pink: #DDB9A3;
+orange: #FF764E
+blue: #5ED3EB
+yellow: #FFCD69
+footer background: #F9E7DC */
