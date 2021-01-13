@@ -1,0 +1,53 @@
+*{
+    font-family: "Roboto-Mono";
+}
+
+.a {
+    background-color: #FF764E;
+    border-radius: 30%;
+    display: inline-block;
+    padding: 20%;
+}
+
+.b {
+    background-color: #5ED3EB;
+    border-radius: 30%;
+    display: inline-block;
+    padding: 20%;
+}
+
+.c {
+    background-color: #FFCD69;
+    border-radius: 30%;
+    display: inline-block;
+    padding: 20%;
+}
+
+nav {
+    color: white;
+}
+
+.d {
+    font-family: "Chelsea Market";
+    text-align: center;
+}
+
+.e {
+    color: white;
+    background-color: #DDB9A3;
+}
+
+.footer {
+    background-color: #F9E7DC;
+    text-align: center;
+}
+
+.headerimage {
+    border-radius: 50%;
+}
+
+.f {
+    text-align: center;
+    vertical-align: middle;
+}
+
