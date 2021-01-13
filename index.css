@@ -46,6 +46,38 @@ table {
 
 /* styling begins here */
 
-nav {
+.nav {
+    text-align: center;
+}
+
+#nav1 {
+    background-color: #FF764E;
+
+}
+
+#nav2 {
+    background-color: #5ED3EB;
+
+}
+
+#nav3 {
+    background-color: #FFCD69;
+
+}
+
+
+
+#nav4 {
+    background-color: #FF764E;
+
+}
+
+#nav5 {
+    background-color: #5ED3EB;
+
+}
+
+#nav6 {
+    background-color: #FFCD69;
     
 }
