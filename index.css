@@ -47,9 +47,11 @@ header {
     /* padding: 100px; */
     justify-content: center;
 }
+
 header .imgContainer img {
     width: 230px;
     border-radius: 50%;
+    
 }
 
 header .textContainer h1 {
@@ -87,7 +89,7 @@ section .banner {
 }
 
 section .iconContainer {
-    margin: 10px;
+    margin: 70px 0;
     width: 200px;
     height: 200px;
 }
