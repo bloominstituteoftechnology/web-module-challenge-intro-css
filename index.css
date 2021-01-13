@@ -46,38 +46,49 @@ table {
 
 /* styling begins here */
 
-.nav {
+body { 
     text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #nav1 {
     background-color: #FF764E;
-
+    border-radius: 12px;
+    padding: 10px;  
 }
 
 #nav2 {
     background-color: #5ED3EB;
-
+    border-radius: 12px;
+    padding: 10px;
 }
 
 #nav3 {
     background-color: #FFCD69;
-
+    border-radius: 12px;
+    padding: 10px;
 }
-
-
-
+  
+  
+  
 #nav4 {
     background-color: #FF764E;
-
+    border-radius: 12px;
+    padding: 10px;
 }
 
 #nav5 {
     background-color: #5ED3EB;
-
+    border-radius: 12px;
+    padding: 10px;
 }
 
 #nav6 {
     background-color: #FFCD69;
-    
+    border-radius: 12px;
+    padding: 10px;
 }
