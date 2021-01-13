@@ -73,7 +73,7 @@ body {
     padding: 10px;
 }
 
-.header h1 {
+.header h1, p1, p2 {
     margin-left: 180px;
 }
 
