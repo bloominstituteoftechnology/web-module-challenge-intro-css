@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+
+* {
+   
+    box-sizing: border-box;
+}
+
+html {
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    width: 90vw;
+    margin-top: 5%;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 40px;
+}
+
+#description {
+    background-color: #DDB9A3;
+    color: white;
+    padding: 1%;
+    margin: 0 auto;
+    width: 90%;
+}
+
+footer {
+    background-color: #F9E7DC;
+    padding-bottom: 30px;
+    
+}
+
+nav a{
+    margin: 20px 3%;
+    padding: 30px;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.link1, .link4 {
+    background-color: #FF764E;
+}
+
+.link2, .link5 {
+    background-color: #5ED3EB;
+}
+
+.link3, .link6 {
+    background-color: #FFCD69;
+}
+
+#myHeader {
+    margin: 10% 0%;
+}
+
+header img {
+    display: inline-block;
+    width: 20%;
+    border-radius: 50%;
+    
+}
+
+header div {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+#rules img {
+    width: 100px;
+}
+
+#rules {
+    margin: 5% 30%;
+    font-size: .8em;
+}
+
+#rules div {
+    margin-bottom: 40px;
+}
+
+footer {
+    margin: 0% 5%;
+}
+
+footer .imageContainer {
+    background: url(assets/footer_img.jpg);
+    padding: 10%;
+    background-position: 100% 20%;
+    background-size: 100% 200%;
+}
+
+footer nav {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+span {
+    font-weight: 900;
+}
