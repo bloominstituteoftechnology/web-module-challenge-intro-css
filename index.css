@@ -1,0 +1,156 @@
+/*css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end of reset*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    width: 1080px;
+    margin: 0 auto;
+}
+b{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+}
+h1{
+    margin: 40px 0;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 60px;
+}
+.picWords{
+    text-align: center;
+    width: 40%;
+    margin: 20px auto;
+}
+img{
+    display: block;
+    margin:10px auto;
+    width: 20%;
+}
+nav{
+    height: 10%;
+    width:100%;
+}
+header{
+    
+    display: inline-block;
+    margin: 30px 0;
+}
+header img{
+    float:left;
+    margin-left: 35px;
+    border-radius: 50%;
+    width:30%;
+}
+
+header div{
+    float:right;
+    width: 65%;
+    text-align: center;
+}
+
+header div p{
+    width:70%;
+    margin: 20px auto;
+}
+
+.open{
+    width:50%;
+    margin: 20px auto;
+}
+
+a{
+    height:50%;
+    width:150px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 40px 7%;
+}
+
+.main{
+    margin: 20px;
+    padding:10px;
+    background-color: #DDb9a3;
+    color:white;
+    text-align: center;
+}
+
+footer{
+    background-color: #f9e7dc;
+    
+}
+footer div{
+    height: 300px;
+    width:100%;
+    overflow: hidden;
+}
+
+footer img{
+    width:100%;
+}
+
+.link1{
+    background-color: #ff764e;
+}
+
+.link2{
+    background-color: #5ed3eb;
+}
+
+.link3{
+    background-color: #ffcd69;
+    width:130px;
+    padding:10px 35px; 
+}
