@@ -1,0 +1,176 @@
+* {
+    font-family: "Roboto Mono", monospace;
+}
+
+button {
+    color:white;
+    border-radius: .9375rem;
+    /* border-radius: 15px; */
+    border: 0;
+    /* padding:10px; */
+    padding: .625rem;
+    /* margin:25px 7%; */
+    margin: 1.5625rem 7%;
+    font-size: 2.25rem;
+    /* width:300px; */
+    width:20%;
+}
+
+button a {
+    text-decoration: none;
+    color:inherit;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+footer, .yos-nav {
+    display:block;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Chelsea Market", sans-serif;
+    font-weight: normal;
+    font-size: 6rem;
+    margin-block-start: 0.25em;
+    margin-block-end: 0.25em;
+}
+
+h1 a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+h1 a {
+    font-family: "Chelsea Market", sans-serif;
+    text-decoration: none;
+    color:black;
+}
+
+.adventure {
+    display:block;
+    /* margin:  30px auto; */
+    margin: 1.5% auto;
+    width: 22%;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.adventure2 {
+    display:block;
+    /* margin:  50px auto; */
+    margin: 2.5% auto;
+    width: 23%;
+    text-align: center;
+    font-size:1.25rem;
+}
+
+.img-info {
+    display:block;
+    margin: auto;
+}    
+
+.involve {
+    background-color: #FFCD69;
+    transition: .3s;
+}
+
+.involve:hover {
+    background-color: white;
+    color: #ffCD69;
+    border: 1px solid black;
+}
+
+.learn {
+    background-color: #5ED3EB;
+    transition: .3s;
+}
+
+.learn:hover {
+    background-color:white;
+    color: #5ed3eb;
+    border: 1px solid black;
+}
+
+.nav {
+    /* margin: 30px 0 0 0 ;
+    padding: 10px 5px; */
+    margin: 1.875rem 0 0 0;
+    padding: .625rem .3125rem;
+}
+
+.pink {
+    background-color: #DDB9A3;
+    /* margin: auto 100px; */
+    margin: auto 5%;
+    /* padding: 15px; */
+    padding: .9375rem;
+    /* border:50px; */
+    border:32.5%;
+    color:white;
+    font-size:1.9375rem;
+    text-align: center;
+}
+
+.plan {
+    background-color:#FF764E;
+    transition: .3s;
+}
+
+.plan:hover {
+    background-color:white;
+    color: #ff764e;
+    border: 1px solid black;
+}
+
+.rounded, .yos-box {
+    height: 400px;
+}
+
+.rounded {
+    border-radius: 50%;
+    float: left;
+    /* margin: auto 50px auto 0; */
+    margin: auto 2.5% auto 0;
+}
+
+.skyline {
+    object-fit:cover;
+    object-position: 0% 15%;
+    /* height:360px; */
+    height:22.5rem;
+    width:100%;
+}
+
+.yos-box {
+    display:table-cell;
+    text-align:center;
+    vertical-align: middle;
+    width:200%;
+    
+    font-size:2rem;
+}
+
+.yos-p {
+    /* padding: 0 175px; */
+    padding: 0 10%;
+}
+
+.yos-nav{
+    /* margin: 50px auto; */
+    margin: .5% auto;    
+}
+
+.yos-nav, .yosemite-header {
+    width: 80%;
+}
+
+.yosemite-header {
+    margin: 75px auto;
+    text-align: center;
+}
+
