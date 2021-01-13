@@ -1,0 +1,89 @@
+nav a, footer a{
+    width:110px;
+    margin: 0;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-align: center;
+    color:white;
+    text-decoration:none;
+    height:40px;
+}
+.orange{
+    background-color:#FF764E;
+}
+.teal{
+    background-color:#5ED3EB;
+}
+.yellow{
+    background-color:#FFCD69;
+}
+.orange:hover{
+    background-color:#c25a3a;
+    transition-duration:1s;
+}
+.teal:hover{
+    background-color:#49a5b8;
+    transition-duration:1s;
+}
+.yellow:hover{
+    background-color:#be994e;
+    transition-duration:1s;
+}
+nav, footer{
+    justify-content:space-evenly;
+    display: flex;
+}
+footer{
+    background-color:#F9E7DC;
+    height:150px;
+    vertical-align: middle;
+}
+footer a{
+    margin-top:45px;
+}
+nav{
+    margin:40px 0px;
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:50px;
+    margin:0;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+    margin:0;
+}
+.header{
+    display:flex;
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.icons{
+    width: 200px;
+    height: 200px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header{
+    text-align:center;
+    display:inline-block;
+    width:100%;
+}
+#header p{
+    font-size:25px;
+}
+.description{
+    width:90%;
+    padding:10px 40px;
+    margin:10px auto;
+    background-color:#DDB9A3;
+    color:white;
+    text-align: center;
+}
+.body{
+    width:400px;
+    margin:10px auto;
+    text-align: center;
+}
