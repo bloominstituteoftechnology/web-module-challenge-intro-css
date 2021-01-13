@@ -72,7 +72,14 @@ body {
     border-radius: 12px;
     padding: 10px;
 }
-  
+
+.header h1 {
+    margin-left: 180px;
+}
+
+.header img {
+    text-align: left;
+}
   
   
 #nav4 {
