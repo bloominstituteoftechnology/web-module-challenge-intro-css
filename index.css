@@ -1,11 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	font-size: 100%;
+}
 html {
-	background-color: #333;
-	color: #eee;
+	background-color: #fff;
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.8rem;
+	color: #4f4f4f;
+	line-height: 1.5;
+	font-family: 'Roboto Mono', monospace;
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+}
+h1 {
+	font-family: 'chelsea market, cursive';
+	letter-spacing: 3px;
+	font-size: 6rem;
+}
+section {
+	padding: 4% 0;
+}
+nav {
+	padding: 2% 0;
+}
+nav a {
+	display: inline-block;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.round-image-container {
+	width: 30%;
+	text-align: center;
+	display: inline-block;
 }
 .round-image {
-	height: 200px;
-	width: 200px;
+	width: 75%;
+	padding: 20px;
 	border-radius: 50%;
+}
+
+.header-section {
+	width: 55%;
+	margin: 0 10px 50px 100px;
+	text-align: center;
+	display: inline-block;
+}
+.header-section h1 {
+	margin: 20px auto;
+	text-align: center;
+	font-size: 8rem;
+	font-family: 'Chelsea Market', cursive;
+}
+.header-section h2 {
+	font-size: 2rem;
+}
+.header-section p {
+	margin: 20px auto;
+	width: 50%;
+	font-size: 2rem;
+}
+.info-section {
+	background-color: #ddb9a3;
+	color: white;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	padding: 1%;
+	font-size: 2rem;
+}
+.nav-container {
+	width: 100%;
+	text-align: center;
+}
+.empty-section {
+	background-image: url('./assets/footer_img.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	width: 100%;
+	height: 40vh;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+	display: inline-block;
+	width: 8%;
+	padding: 1%;
+	border-radius: 10px;
+}
+
+.disclaimer-container {
+	text-align: center;
+	width: 100%;
+}
+
+.disclaimer-section {
+	width: 25%;
+	margin: 10px auto;
+}
+.disclaimer-section img {
+	width: 50%;
+	margin: 0 auto;
+}
+.disclaimer-section p {
+	font-size: 1.5rem;
+}
+.bold-text {
+	font-weight: bold;
+}
+nav a.orange {
+	background-color: #ff764e;
+	margin: 0 25% 0 12%;
+}
+nav a.blue {
+	background-color: #5ed3eb;
+}
+nav a.yellow {
+	background-color: #ffcd69;
+	margin: 0 12% 0 25%;
+}
+footer {
+	background-color: #f9e7dc;
 }
 /* colors:
 pink: #DDB9A3;
