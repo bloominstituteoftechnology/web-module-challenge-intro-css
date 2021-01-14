@@ -100,4 +100,13 @@ nav a{
 }
 
 /*Footer*/
+footer{
+    background-color: #F9E7DC;
+}
+.bg-img{
+    height: 40vh;
+    background-image: url('assets/footer_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
