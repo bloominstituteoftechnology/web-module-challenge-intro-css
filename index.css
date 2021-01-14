@@ -73,15 +73,22 @@ body {
     padding: 10px;
 }
 
-.header h1, p1, p2 {
-    margin-left: 180px;
-}
+/* .header p1, p2 {
+    text-align: center;
+} 
 
 .header img {
     text-align: left;
+    width: 200px;
+    border-radius: 50%;
 }
-  
-  
+*/
+
+.intro {
+    color: white;
+    background-color: #DDB9A3;
+}
+
 #nav4 {
     background-color: #FF764E;
     border-radius: 12px;
