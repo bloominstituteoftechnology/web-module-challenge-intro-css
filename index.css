@@ -67,24 +67,39 @@ table {
     border-radius: 10px;
 }
 
-.header h1{
+.header .right .title{
     font-family: 'Chelsea Market';
+    font-size: 40px;
+    margin: 10% 5% 10% 15%;
 }
 
 .header .circle_img{
-    margin-left: 90px;
+    margin-left: 40px;
     border-radius: 50%;
     width: 85%;
 }
 
 .header .left{
-    width: 25%;
+    width: 30%;
     float: left;
+    
 }
 
 .header .right{
-    width: 70%
+    width: 70%;
     float: left;
+    
+}
+
+.header .right .tagline{
+    font-size: 16px;
+    padding-top: 10px;
+    float: left;
+}
+
+.header .right .minor-tagline{
+    font-size: 16px;
+    padding-top: 10px;
 }
 
 .visit{
@@ -100,4 +115,19 @@ table {
 a{
     text-decoration: none;
     color:white;
+}
+
+.firewoodsection {
+    width: 10%;
+    /* display:inline-block; */
+    text-align:center;
+}
+
+.campersection img{
+    width:10%;
+    /* height:10px; */
+    display:inline-block;
+}
+.greatvalleysection{
+    background: #DDB9A3;
 }
