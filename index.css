@@ -76,18 +76,28 @@ body {
 /* .header p1, p2 {
     text-align: center;
 } 
-
+*/
 .header img {
     text-align: left;
-    width: 200px;
+    width: 300px;
     border-radius: 50%;
 }
-*/
+
 
 .intro {
     color: white;
     background-color: #DDB9A3;
+    letter-spacing: 2px;
+    line-height: 1.5;
 }
+/*dont forget font families*/
+
+.main img {
+    width: 100px;
+    height: 100px;
+}
+
+
 
 #nav4 {
     background-color: #FF764E;
