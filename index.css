@@ -1,4 +1,29 @@
 .plan{
+    display:inline-block;
     background: #ff764e;
 }
+.learn{
+    display:inline-block;
+    background: #5ED3EB;
+}
+.get{
+    display:inline-block;
+    background: #ffcd69;
+}
 
+.parkguide{
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+font-family: 'Chelsea Market', Arial;
+}
+
+body{
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+font-family: 'Roboto Mono', Arial;
+background: #ddb9a3;
+
+}
+
+footer{
+    background: #f9e7dc;
+}
