@@ -119,24 +119,25 @@ nav .buttonThree{
   
 .title {
     /* border: 1px solid black; */
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
+    vertical-align: middle;
     text-align: center;
     margin: 0 auto;
     max-width: 90%;
-    justify-content: center; 
+    /* justify-content: center;  */
 }
 .title img{
-    /* display: flex;
-    margin: auto; */
+    /* display: flex;*/
+    vertical-align: middle;
     padding:5%;
+    float:left;
 }
 
-.title div{
+/* .title div{
     display:flex;
     flex-direction: column;
     justify-content: center;
-}
+} */
 
 .title h1{
     /* border: 1px solid black; */
