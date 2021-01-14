@@ -1,0 +1,233 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html {
+  font-size: 62.5%;
+  border: 1px solid red;
+}
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap");
+/* font-family: 'Chelsea Market', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+/* font-family: 'Roboto Mono', monospace; */
+* {
+  border: 1px solid black;
+}
+.top-bar a {
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  padding: 1em;
+
+  font-size: 2rem;
+  margin: 2em 8em;
+  border-radius: 1em;
+  color: white;
+}
+h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 5rem;
+  margin-left: 60rem;
+  
+ 
+}
+#visit {
+  background: #ff764e;
+  color: white;
+}
+#park {
+  background: #5ed3eb;
+  color: white;
+}
+#involved {
+  background: #ffcd69;
+  color: white;
+}
+.headerImage img {
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 7em 10em;
+  width: 15%;
+  border-radius: 20em;
+}
+
+.midParagraph {
+  display: inline-block;
+  background: #ddb9a3;
+  font-size: 2rem;
+  padding: 2%;
+  color: white;
+  line-height: 2rem;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+p {
+  font-family: "Roboto Mono", monospace;
+}
+.fire img {
+  width: 20%;
+  margin: 0 58rem;
+}
+
+.rv img {
+  width: 20%;
+  margin: 0 58rem;
+}
+
+.midImage p {
+  margin: 0 45rem;
+  font-size: 2rem;
+}
+
+.footerImage img {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 60vh;
+  background-position: top;
+}
+
+#footerNavBar a {
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  padding: 1em;
+  font-size: 2rem;
+  margin: 2em 8em;
+  border-radius: 1em;
+  color: white;
+}
+#footerNavBar {
+  background: #f9e7dc;
+}
