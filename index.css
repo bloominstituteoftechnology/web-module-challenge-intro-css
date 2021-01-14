@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
-/* font-family: 'Chelsea Market', cursive; */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-/* font-family: 'Roboto Mono', monospace; */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -53,11 +49,123 @@ table {
 	border-spacing: 0;
 }
 
+/* @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap'); */
+/* font-family: 'Chelsea Market', cursive; */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/* font-family: 'Roboto Mono', monospace; */
 
 
 html{
-    font-family: 'Roboto Mono', monospace;
+    font-family:'Roboto Mono', monospace;
+    font-size: 62.5%;
+}
 
+body{
+   font-size: 1.3rem; 
+   
+}
 
+nav{
+    padding: 2rem;
+    width: 100%;
+    border: 1px solid black;
+    padding-left: 25%;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-right: 10%;
+    
+}
+
+nav .buttonOne{
+    background: #FF764E;
+}
+
+nav .buttonTwo{
+    background: #5ED3EB;
+}
+
+nav .buttonThree{
+    background: #FFCD69;
+}
+
+.view{
+    float: left;
+    margin-left: 2rem;
+}
+  
+.title {
+    border: 1px solid black;
+    display: inline-block;
+    
+}
+
+.title h1{
+    border: 1px solid black;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3rem;
+    width: 75%;
+}
+
+.title p{
+    border: 1px solid black;
+}
+
+ .history{
+    background: #DDB9A3;
+    margin: 2rem;
+    padding: .5rem;
+    text-align: center;
+}
+
+.history p{
+    padding: 1rem;
+}
+
+.view{
+    border-radius: 50%;
+    width: 20%;
+}
+
+div .recreation{ 
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 100vw;
+    text-align: center;
+}
+
+ .recreation section  {
+    margin: 2rem 20%;
+    display: block;
+    width: 25%;
+    border: 12px solid rgb(100, 56, 56);
+}
+
+.recreationText{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.panorama{
+    height: 20vh;
+    background-image: url("./assets/footer_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-position: 0% 20%;
+    /* top: 50px; */
+}
+
+footer{
+    background: #F9E7DC;
 }
