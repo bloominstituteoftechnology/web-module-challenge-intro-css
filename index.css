@@ -1,4 +1,8 @@
-html, body, div, span, applet, object, iframe,
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -16,19 +20,16 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
-}
+    vertical-align: baseline;
+} */
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+
+/* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-    line-height: 1;
-    font-size: 62.5%;
-    font-family: 'Roboto Mono';
-    max-width: 800px;
-    margin: auto;
+	line-height:1;
 }
 ol, ul {
 	list-style: none;
@@ -41,90 +42,101 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-table {
+* table {
 	border-collapse: collapse;
 	border-spacing: 0;
+} */
+
+*{
+    box-sizing: border-box;
+    max-width:100%;
+    border:1px solid grey;
 }
 
-
-.headerNav {
-  margin: auto;
-  width: 80%;
+/*styling*/
+html{
+    font-size: 62.5%rem;
 }
-
-.headerNav button {
-    border: none;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 18px 25px;
-    border-radius: 10px;
+body{
+    font-size: 1.6rem;
+    font-family: 'Roboto Mono', monospace;
+    line-height:1.5;
 }
-
-.header .right .title{
-    font-family: 'Chelsea Market';
-    font-size: 40px;
-    margin: 10% 5% 10% 15%;
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
 }
-
-.header .circle_img{
-    margin-left: 40px;
-    border-radius: 50%;
-    width: 85%;
+section{
+    padding:4% 0;
+    width:90%;
+    margin:0 auto;
 }
-
-.header .left{
-    width: 30%;
-    float: left;
-    
-}
-
-.header .right{
-    width: 70%;
-    float: left;
-    
-}
-
-.header .right .tagline{
-    font-size: 16px;
-    padding-top: 10px;
-    float: left;
-}
-
-.header .right .minor-tagline{
-    font-size: 16px;
-    padding-top: 10px;
-}
-
-.visit{
-    background:#FF764E;
-}
-.learn{
-    background:#5ED3EB;
-}
-.involve{
-    background:#FFCD69;
-}
-
 a{
-    text-decoration: none;
-    color:white;
+    text-decoration:none;
 }
+nav{
+    padding:2% 0;
+    display:flex;
+    justify-content:space-around;
+}
+nav a{
+    display:inline-block;
+    border-radius:10px;
+    text-align:center;
+    padding:1% 0;
+}
+.orange{
+    background-color:#FF764E;
+}
+.blue{
+    background-color:#5ED3EB;
+}
+.yellow{
+    background-color:#FFCD69;
+}
+/*top section styles*/
+.top{
+    display:flex;
+}
+.left{
+    width:40%;
+    display:flex;
+    justify-content: center;
+    align-items: middle;
+}
+.right{
+    width:60%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle_img img{
+    border-radius:50%;
+    width:80%;
+}
+/*middle section styles*/
 
-.firewoodsection {
-    width: 10%;
-    /* display:inline-block; */
+.info{
+    background-color:#DDB9A3;
+    padding:4%;
+}
+.info p{
+    margin:2% 0;
+}
+.campfire{
+    display:block;
+    flex-direction:column;
+    text-align:center;
+    widows:80px;
+}
+.campfire, .camper{
+    width:40%;
     text-align:center;
 }
-
-.campersection img{
-    width:10%;
-    /* height:10px; */
-    display:inline-block;
+.camper img, .camfire img{
+    width: 60%;
+    align-items: center;
 }
-.greatvalleysection{
-    background: #DDB9A3;
+.bold{
+    font-weight: bold;
 }
