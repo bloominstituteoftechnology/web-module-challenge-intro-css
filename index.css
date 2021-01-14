@@ -155,7 +155,7 @@ h1 {
   font-family: "Chelsea Market", cursive;
   font-size: 5rem;
   margin-left: 60rem;
-  
+  text-align: center;
  
 }
 #visit {
@@ -176,6 +176,13 @@ h1 {
   margin: 7em 10em;
   width: 15%;
   border-radius: 20em;
+}
+.headerImage h1{
+display: inline-block;
+box-sizing: border-box;
+margin: -7em -10em;
+width: 15%;
+
 }
 
 .midParagraph {
