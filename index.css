@@ -1,27 +1,60 @@
-.plan{
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+
+*{
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    background: white;
+}
+
+    button{
+        color:white;
+        margin-right:10%;
+        margin-left: 10%;
+        font-size: 20px;
+        padding:12px 30px;
+        border-radius: 15px;
+    }
+
+    .plan{
     display:inline-block;
     background: #ff764e;
+
 }
-.learn{
+    .learn{
     display:inline-block;
     background: #5ED3EB;
 }
-.get{
+    .get{
     display:inline-block;
     background: #ffcd69;
 }
 
-.parkguide{
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+.logo{
+    margin-left: 20%;
+    height: 35%;
+    width: 35%;
+    border-radius:50%;
+}
 
+.fire{
+    height:10%;
+    width: 10%;
+}
+
+.rv{
+    height: 10%;
+    width: 10%;
+}
+
+.parkguide{
 font-family: 'Chelsea Market', Arial;
 }
 
 body{
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
 font-family: 'Roboto Mono', Arial;
 background: #ddb9a3;
-
 }
 
 footer{
