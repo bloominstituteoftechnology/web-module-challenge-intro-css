@@ -28,7 +28,7 @@ time, mark, audio, video {
 /*HTML and Body*/
 *{
     box-sizing: border-box;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     max-width: 100%;
 }
 html {
@@ -106,6 +106,22 @@ nav a{
     text-align: center;
     margin-left: 2%;
     margin-right: 2%;
+    margin-bottom: 2%;
+}
+.interesting-facts{
+    text-align: center;
+}
+.icons{
+    font-size: 1px;
+}
+p{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2%;
+}
+span{
+    font-weight: 700;
 }
 
 /*Footer*/
