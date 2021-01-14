@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');	
+/* font-family: 'Chelsea Market', cursive; */	
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');	
+/* font-family: 'Roboto Mono', monospace; */	
+* {	
+    margin: 0;	
+	padding: 0;	
+	border: 0;	
+	font-size: 100%;	
+	font: inherit;	
+	vertical-align: baseline;	
+}	
+* {	
+    /* border: 1px solid grey;	 */
+    border: 1px solid white; /* I don't know why but it doesn't format right without a border */
+    font-family: 'Roboto Mono', monospace;	
+    text-align: center;	
+}	
+html,body {	
+    height: 100%;	
+}	
+body {	
+    display: flex;	
+    flex-direction: column; /*allows stuff inside to be stretched vertically*/	
+}	
+.container {	
+    flex: 1 0 auto; /*fills up empty space if any to fill whole page vertically	
+    must be in the very top container below body it seems*/	
+    width: 50%;	
+    margin: 0 auto;	
+    min-width: 800px;	
+}	
+nav {	
+    display: flex;	
+    flex-direction: row;	
+    justify-content: space-around;	
+    padding: 3% 10%;	
+    text-align: center;	
+}	
+nav a {	
+    border-radius: 15%/40%;	
+    color: white;	
+    text-align: center;	
+    text-decoration: none;	
+    transition: .3s;	
+    padding: .2% 1%;	
+    width: 140px;	
+}	
+a.plan {	
+    background-color: #FF764E;	
+}	
+a.learn {	
+    background-color: #5ED3EB;	
+}	
+a.involve {	
+    background-color: #FFCD69;	
+}	
+a.plan:hover, a.learn:hover, a.involve:hover {	
+    background-color: #449141;	
+}	
+.alignLeft {	
+    text-align: left;	
+}	
+header img {
+    border-radius: 100%;	
+    width: 25%;	
+}	
+.title {	
+    margin-left: 25%;	
+    width: 75%;	
+}	
+.title h1 {	
+    font-family: 'Chelsea Market', cursive;	
+    font-size: 3.5em;	
+    margin-top: -38%;	
+}	
+.title span {	
+    display: inline-block;	
+    width: 40%;	
+}	
+#description {	
+    background-color: #DDB9A3;	
+    box-sizing: border-box;	
+    color: white;	
+    padding: 1%;	
+    width: 100%;	
+}	
+.content {	
+    padding: 2% 0;	
+}	
+.content img {	
+    width: 12%;	
+    padding: 2% 0;	
+}	
+.content p {	
+    margin: 0 auto;	
+    width: 30%;	
+    padding-bottom: 5%;	
+}	
+footer {	
+    width: 50%;	
+    margin: 0 auto;	
+    min-width: 800px;	
+    background-color: #F9E7DC;	
+    flex-shrink: 0; /*stops the footer from shrinking*/	
+}	
+#trimFooter {	
+    overflow: hidden;	
+}	
+#trimFooter img {	
+    width: 100%;	
+}	
