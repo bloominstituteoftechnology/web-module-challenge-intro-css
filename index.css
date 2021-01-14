@@ -90,13 +90,22 @@ nav a{
     border-radius: 50%;
 }
 .text{
-    width:55%;
+    width:50%;
     position: absolute;
     bottom:35%;
 }
 .text div{
     width:80%;
     margin:0 auto;
+}
+
+/*Main Text*/
+.main-text{
+    color:white;
+    background-color: #DDB9A3;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 /*Footer*/
