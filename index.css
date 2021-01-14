@@ -1,0 +1,163 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+/*ACTUAL CODE STARTS HERE*/
+
+
+body{
+    overflow-x: hidden;
+    font-size: medium;
+     font-family: 'Roboto', sans-serif;
+}
+nav{
+  margin:3%;
+  text-align:center;
+  width:100%;
+}
+nav a{
+  margin:10%;
+    text-decoration:none;
+  color:white;
+    border-radius:20px;
+  padding:1%;
+}
+nav a:hover{
+  color:black;
+}
+.visit{
+  background:#FF764E;
+}
+.learn{
+  background:#5ED3EB;
+}
+.get{
+  background:#FFCD69;
+}
+
+.best {
+  text-align:center;
+  width:100%;
+  vertical-align:middle;
+}
+.best img {
+  border-radius:50%;
+  height:300px;
+  width:300px;
+  margin-top:3%;
+  margin-left:-20%;
+  margin-bottom:3%;
+  vertical-align:bottom;
+}
+.yosemite{
+  display:inline-block;
+  text-align:center;
+  margin-left:5%; 
+  margin-bottom:4%;
+}
+.yosemite h1{
+  font-family: 'Chelsea Market',cursive;
+font-size:500%;
+}
+.yosemite h2{
+    padding-top:5%;
+    font-size:110%;
+}
+
+
+.centertext{
+  width:92%;
+  margin:0 auto;
+  text-align:justify;
+  text-align-last:center;
+  color:white;
+  background:#DDB9A3;
+  padding:1%;
+}
+.fire{
+    margin:1%;
+  text-align:center;
+}
+.fire img{
+width:120px;
+}
+.natural{
+  width:15%;
+  margin:auto;
+  text-align:center;
+}
+.reservation{
+  text-align:center;
+}
+.reservation img{
+  padding-top:10%;
+  padding-bottom:2%;
+  width:120px;
+}
+
+.bottomtext{
+  width:15%;
+  margin:auto;
+  text-align:center;
+ padding-bottom:10%;
+ 
+}
+
+
+.bottom img
+{
+    height:250px;
+    min-width:100%;
+    object-fit:cover;
+    object-position: 0% 20%; 
+  margin-bottom:-1%}
+
+.bottomcolor{
+  background:#F9E7DC;
+  padding:2%;
+}
