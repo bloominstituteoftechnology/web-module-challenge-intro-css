@@ -81,6 +81,7 @@ nav a{
     color: white;
     text-align: center;
     margin-right: 10%;
+    transition: .3s;
     
 }
 
@@ -88,12 +89,27 @@ nav .buttonOne{
     background: #FF764E;
 }
 
+.buttonOne:hover{
+    color: #FF764E;
+    background: cornflowerblue;
+}
+
 nav .buttonTwo{
     background: #5ED3EB;
 }
 
+.buttonTwo:hover{
+    color:#5ED3EB;
+    background: #FF764E;
+
+}
+
 nav .buttonThree{
     background: #FFCD69;
+}
+.buttonThree:hover{
+    color: #FFCD69;
+    background: slateblue;
 }
 
 /* .view{
@@ -128,14 +144,14 @@ nav .buttonThree{
     font-size: 3rem;
     text-align: center;
     padding: .5rem;
-    max-width: 50%;
+    max-width: 100%;
 }
 
 .title p{
     /* border: 1px solid black; */
     display: block;
     text-align: center;
-    max-width: 50%;
+    max-width: 70%;
     padding: .5rem;
 }
 
