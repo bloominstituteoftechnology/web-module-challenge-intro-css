@@ -1,0 +1,87 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+/*header*/
+
+a
+{
+    text-decoration:none;
+    margin: 0 10px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+header nav .plan
+{ 
+    
+    background-color:#FF764E;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+header nav .learn
+{
+    background-color:#5ED3EB;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+header nav .get
+{
+    background-color:#FFCD69;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+header img
+{
+    border-radius: 50%;
+    width:20%;
+}
+
+h1
+{
+    font-family: 'Chelsea Market', cursive;
+    font-size:400%;
+}
+
+h2
+{
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/*about*/
+
+
+/*warnings*/
+p
+{
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*footer*/
+
+
+footer nav .plan2
+{ 
+    background-color:#FF764E;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+footer nav .learn2
+{
+    background-color:#5ED3EB;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+footer nav .get2
+{
+    background-color:#FFCD69;
+    border-radius: 20px;
+    display: inline-block;
+}
