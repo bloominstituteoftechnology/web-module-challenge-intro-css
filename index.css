@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    border:1px solid grey;
+    max-width:100%; /*you can never be bigger that your parent*/
+
+}
+/*general styles*/
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.8rem;
+    color: #4f4f4f;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    letter-spacing: 3px;
+    font-size: 6rem;
+}
+section{
+    padding:4% 0;
+}
+
+/*header styles*/
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+.orange{
+    background: #ff764e;
+}
+.blue{
+    background: #5ed3eb;
+}
+.yellow{
+    background: #ffcd69;
+}
