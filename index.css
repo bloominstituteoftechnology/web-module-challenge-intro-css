@@ -21,12 +21,14 @@ vertical-align: baseline;
 }
 
 body{
+	margin-top: 40px;
 	font-family: 'Roboto Mono', monospace;
-	margin: 40px 60px 80px 60px;
 	max-width: 100%; 
 }
 .container{
-  margin: 0 auto;
+	margin: 40px 60px 80px 60px;
+	margin: auto;
+
   width: 90%;
 
   }
