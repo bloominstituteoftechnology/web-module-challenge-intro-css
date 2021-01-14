@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+font-family: 'Roboto Mono', monospace;
+font-size: 0.9rem:
+}
+
+body {
+	width: 90%;
+ 	max-width: 960px;
+ 	min-width: 640px;
+ 	margin: auto;
+}
+
+header {
+ margin-top: 30px;
+}
+/* Header Nav */
+header > nav,
+footer{
+ text-align: center;
+}
+
+header > nav > a,
+footer>nav>a{
+	display: inline-block;
+ 	text-decoration: none;
+ 	margin-right: 100px;
+ 	color: white;
+ 	text-align: center;
+ 	border-radius: 10px;
+ 	padding: 5px 15px;
+ 	width: 100px;
+}
+
+.nav_Style1{
+ background-color: #FF764E;
+}
+.nav_Style2{
+ background-color: #5ED3EB;
+}
+.nav_Style3{
+ background-color: #FFCD69;
+}
+
+.header_img img{
+	width: 200px;
+	border-radius: 50%;
+}
+
+.header_img {
+	float: left;
+	width: 25%;
+	margin-top: 50px;
+	margin-left: 60px;
+}
+
+.header_text{
+	width: 52%;
+	float: left;
+	margin-top: 80px;
+	text-align: center;
+}
+
+.header_float {
+	clear: left;
+	margin: auto;
+}
+
+.header_text h1{
+ font-family: 'Chelsea Market', cursive;
+ font-size: 2.8rem;;
+}
+
+.header_text p{
+	margin-top: 20px;
+ 	text-align: center;
+}
+
+.header_text_p{
+	width: 50%;
+	margin: auto;
+}
+
+.info {
+	background: #ddb9a3;
+	margin-top: 290px;
+	color: white;
+	text-align: center;
+	font-size: 1.2rem;
+	line-height: 1.2;
+}
+.info_p1 {
+	padding: 10px 10px 20px 10px;
+}
+
+.info_p2 {
+	padding: 0px 10px 15px 10px;
+}
+
+section.fire {
+	text-align: center;
+	padding-top: 15px;
+}
+
+section.fire img {
+	width: 200px;
+}
+
+section.fire p {
+	width: 310px;
+	margin: auto;
+	padding-top: 15px;
+}
+
+div.bus {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+footer>div>a {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 100px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 15px;
+  width: 100px;
+}
+
+div.footer_img {
+	background-image: url('./assets/footer_img.jpg');
+	height: 220px;
+	background-size: cover;
+}
+
+div.footer_nav {
+	background-color: #f9e7dc;
+	height: 100px;
+}
+
+div.footer_nav a {
+	margin-top: 30px;
+}
