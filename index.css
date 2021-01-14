@@ -107,6 +107,7 @@ nav .buttonTwo{
 nav .buttonThree{
     background: #FFCD69;
 }
+
 .buttonThree:hover{
     color: #FFCD69;
     background: slateblue;
@@ -124,8 +125,14 @@ nav .buttonThree{
     text-align: center;
     margin: 0 auto;
     max-width: 90%;
+    padding-top: 2rem;
     /* justify-content: center;  */
 }
+
+.title div{
+    padding-top: ;
+}
+
 .title img{
     /* display: flex;*/
     vertical-align: middle;
@@ -156,7 +163,7 @@ nav .buttonThree{
     padding: .5rem;
 }
 
-.titletext{
+.title text{
     text-align: center;
 }
 
