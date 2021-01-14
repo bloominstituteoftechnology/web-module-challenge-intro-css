@@ -1,73 +1,74 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap'); 
 
-html {
-    font-family: 'Roboto Mono', monospace;
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap'); 
+
+html { 
+    font-family: 'Roboto Mono', monospace; 
 }
 
-body {
-    margin: 0 40px;
-}
-
+body { 
+    margin: 0 40px; 
+} 
+ 
 h1 {
-    font-family: 'Chelsea Market', cursive;
+    font-family: 'Chelsea Market', cursive; 
+} 
+
+nav { 
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    padding: 20px 0; 
 }
 
-nav {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
+nav > div { 
+    width: 30%; 
+    text-align: center; 
 }
 
-nav > div {
-    width: 30%;
-    text-align: center;
-}
-
-nav > div > a {
-    display: inline-block;
-    width: 140px;
-    height: 50px;
-    color: white;
-    text-decoration: none;
-    border-radius: 14px;
+nav > div > a { 
+    display: inline-block;  
+    width: 140px;  
+    height: 50px;  
+    color: white; 
+    text-decoration: none;  
+    border-radius: 14px; 
 }
 
 nav > div > a.first {
-    background:#FF764E;
+    background:#FF764E; 
 }
 
-nav > div > a.second{
-    background:#5ED3EB;
+nav > div > a.second{ 
+    background:#5ED3EB; 
 }
-
+ 
 nav > div > a.third{
-    background:#FFCD69;
+    background:#FFCD69;  
 }
 
 .headerImage {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-bottom: 20px;
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%; 
+    display: inline-block; 
+    margin-bottom: 20px; 
 }
 
-.headerInfo {
-    display: inline-block;
-    width: 500px;
-    height: 300px;
-    text-align: center;
-    vertical-align: top;
+.headerInfo { 
+    display: inline-block; 
+    width: 500px;  
+    height: 300px; 
+    text-align: center; 
+    vertical-align: top; 
 }
 
-.firstSection {
-    background: #DDB9A3;
-    color: white;
-    padding: 20px;
+.firstSection { 
+    background: #DDB9A3; 
+    color: white; 
+    padding: 20px; 
 }
 
 .fireBlurb {
@@ -76,17 +77,17 @@ nav > div > a.third{
     margin: 20px auto;
 }
 
-.smallImage {
-    width: 100px;
-    height: 100px;
-    display: block;
-    margin: 0 auto;
+.smallImage { 
+    width: 100px; 
+    height: 100px; 
+    display: block; 
+    margin: 0 auto; 
 }
 
-footer {
-    background: #F9E7DC;
+footer { 
+    background: #F9E7DC; 
 }
 
-footer img {
-    width: 100%;
+footer img { 
+    width: 100%; 
 }
