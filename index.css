@@ -53,8 +53,8 @@ table {
 body{
     overflow-x: hidden;
     font-size: medium;
-     font-family: 'Roboto', sans-serif;
-}
+    font-family: 'Roboto Mono', monospace;
+  }
 nav{
   margin:3%;
   text-align:center;
