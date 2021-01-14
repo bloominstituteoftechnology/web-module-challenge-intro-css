@@ -1,0 +1,57 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	border:1px solid black;
+	max-width:100%;
+}
+
+html{
+	font: size 62.5%;
+}
+body{
+	font-size:1.8rem;
+	color:#4f4f4f;
+	line-height:1.5;
+	font-family: 'Roboto Mono' monospace;
+}
+h1{
+	font-family: 'Chelsea Market' cursive;
+	letter-spacing: 3px;
+	font-size:6rem;
+}
+section{
+	padding:4% 0;
+}
+/*header styles*/
+nav a{
+	display: inline-block;
+	border-radius:10px;
+	padding:1px 5px;
+	text-align:center;
+	width: 10%;
+	color:white;
+	text-decoration:none;
+	margin-left:300px ;
+	margin-right:10px ;
+}
+.red{
+	background-color: #FF764E;
+}
+.blue{
+	background-color: #5ED3EB;
+}
+.orange{
+	background-color: #FFCD69;
+}
+.cta img{
+	width:25%;
+  border-radius:50%; 
+  vertical-align:middle;
+}
+.mountain{
+	width:50%;
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+}
