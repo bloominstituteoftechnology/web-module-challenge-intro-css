@@ -1,0 +1,185 @@
+/*CSS Reset */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+body{
+	font-family: 'Roboto Mono', monospace;
+	margin: 40px 60px 80px 60px;
+	max-width: 100%; 
+}
+.container{
+  margin: 0 auto;
+  width: 90%;
+
+  }
+.container header {
+ margin-bottom: 70px;
+
+}
+.container header nav {
+	margin: auto;
+	max-width: 80%
+}
+.container header nav ul {
+ display: flex;
+ flex-direction: row;
+  list-style-type: none;
+ justify-content: space-between;
+}
+ li{
+	align-content: center;
+   border: 1px solid lightgray;
+   border-radius: 20px;
+   text-decoration: none;
+   color: white;
+   text-align: center;
+   font-size: 1.5em;
+	padding: 10px 15px 5px 15px;
+	width: 220px;
+	height: 85px;
+	box-sizing: border-box;	
+	
+}
+li:nth-child(1) {
+  background-color: #FF764E;
+}
+li:nth-child(2) {
+  background-color: #5ED3EB;
+}
+li:nth-child(3) {
+  background-color: #FFCD69;
+}   
+
+.image-block{
+	display: block;
+	width: 95%;
+	margin: 0 auto;
+}
+.header-img img{
+	max-width: 350px;
+	max-height: auto;
+	border-radius: 50%;
+	float: left;
+	margin-right: 40px;
+	
+}
+section{ 
+margin-bottom: 40px;
+}
+#title {
+	font-family: 'Chelsea Market', cursive;
+	font-size: 4.2em;
+	margin-top: 80px;
+	margin-bottom: 40px;
+
+}
+.middle-content-container {
+	float: center;
+	font-size: 1.4em;
+}
+
+.section {
+	width: 90%;
+}
+.title-paragraph1 {
+	display: block;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.title-paragraph2 {
+	display: flex;
+	margin: 0 auto;
+	max-width: 45%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.title-paragraph3{
+	display: flex;
+	clear: both;
+	border: 1px solid #DDB9A3;
+	background-color: #DDB9A3;
+	color: white;
+	justify-content: space-around;
+	text-align: center;
+	text-justify: inter-word;
+	font-size: 1.4em;
+	padding: 10px 20px 25px 20px;	
+	margin-top: 50px;
+	
+}
+
+.fig-container {
+	display: flex;
+ 	justify-content: center;
+	margin: 0 auto;
+	max-width: 340px;
+}
+.figure-img {
+	display: flex;
+	max-width: 150px;
+	max-height: auto;
+	margin: 0 auto;
+
+}
+
+figure {
+	
+}
+figcaption{
+	font-size: 1em;
+	text-align: center;
+	
+}
+span{
+	font-weight: bold;
+}
+footer {
+	margin: 0;	
+	background-color: #F9E7DC;
+	padding-bottom: 40px;
+	font-family: 'Roboto Mono', monospace;
+	width: 100%;
+	position: absolute;	
+	padding-bottom: 40px;
+}
+
+#footer-img{
+	background-image: url("https://raw.githubusercontent.com/mzteepowell/web-module-project-intro-css/main/assets/footer_img.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	max-width: auto;
+	height: 300px;
+	padding: 0;
+	margin:0;
+
+}
+ footer  nav  {
+	margin: auto;
+	 padding-top:40px;
+	max-width: 80%
+}
+ footer nav ul {
+ display: flex;
+ flex-direction: row;
+  list-style-type: none;
+ justify-content: space-between;
+}
