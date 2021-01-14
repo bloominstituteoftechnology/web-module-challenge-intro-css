@@ -88,6 +88,9 @@ body {
     border-radius: 50%;
 }
 
+#header {
+    display: flex;
+}
 
 .intro {
     display: block;
