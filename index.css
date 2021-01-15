@@ -2,7 +2,9 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* html, body, div, span, applet, object, iframe,
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -21,13 +23,13 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
-} */
+}
 /* HTML5 display-role reset for older browsers */
 
-/* article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
+} 
 body {
 	line-height:1;
 }
@@ -45,7 +47,7 @@ q:before, q:after {
 * table {
 	border-collapse: collapse;
 	border-spacing: 0;
-} */
+}
 
 *{
     box-sizing: border-box;
@@ -59,17 +61,20 @@ html{
 }
 body{
     font-size: 1.6rem;
-    font-family: 'Roboto Mono', monospace;
     line-height:1.5;
 }
 h1{
     font-family: 'Chelsea Market', cursive;
     font-size: 5rem;
+    color: black;
 }
 section{
     padding:4% 0;
     width:90%;
     margin:0 auto;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    text-align: center;
 }
 a{
     text-decoration:none;
@@ -124,18 +129,26 @@ nav a{
     margin:2% 0;
 }
 .campfire{
-    display:block;
+    display:flex;
     flex-direction:column;
-    text-align:center;
-    widows:80px;
+    justify-content: center;
+    text-align: center;
+    width: 18%;
+    margin-left: 40%;
+    margin-top: 5%;
 }
-.campfire, .camper{
-    width:40%;
+.camper{
     text-align:center;
+    width: 18%;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40%;
 }
-.camper img, .camfire img{
-    width: 60%;
-    align-items: center;
+.camper p{
+    font-family: 'Roboto Mono', monospace;
+}
+.campfire p{
+     font-family: 'Roboto Mono', monospace;
 }
 .bold{
     font-weight: bold;
