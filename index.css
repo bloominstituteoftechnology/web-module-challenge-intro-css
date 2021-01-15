@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+body{
+  font-family: 'Roboto Mono', monospace;
+   
+}
+.top{
+  text-align:center;
+}
+#container{
+  font-family: 'Roboto Mono', monospace;
+  display:inline;
+  text-align:center;
+  font-size: 22px;
+  
+}
+#topimage{
+  display:inline;
+border-radius: 50%;
+width: 300px;
+float:left;
+ margin-top:75px;
+}
+h1{
+font-family:'Chelsea Market', cursive;
+  text-align:center;
+  font-size:65px;
+  margin-left:35px;
+  display:inline-block;
+  margin-top:95px;
+    margin-bottom:5px;
+  letter-spacing:7px
+}
+#p1{
+  text-align:center;
+    margin-right:15%
+}
+#p2{
+  width:50%;
+  margin-left:15%
+  
+}
+.top{
+  font-family: 'Roboto Mono', monospace;
+  margin-top:50px
+}
+.plan{ 
+  font-family: 'Roboto Mono', monospace;
+background-color:#FF764E;
+color:white;
+padding:8px 25px 8px 25px;
+  display:inline-block;
+  text-align:center;
+  font-size:25px;
+  border-radius: 15px 
+}
+.learn{
+Background-color:#5ED3EB;
+  color:white;
+  padding:8px 25px 8px 25px;
+margin-left:200px;
+  display:inline-block;
+  text-align:center;
+    font-size:25px;
+  border-radius: 15px
+}
+.involved{
+background-color:#FFCD69;
+  color:white;
+ padding:8px 25px 8px 25px; 
+margin-left:200px;
+  display:inline-block;
+  text-align:center;
+    font-size:25px;
+  border-radius: 15px;
+}
+#section1{
+  font-family: 'Roboto Mono', monospace; 
+  font-size:23px;
+  background-color:#DDB9A3;
+   color:white;
+  text-align:center;
+ margin:0 auto;
+  padding-left: 35px;
+  padding-right:35px;
+  width:63%
+}
+
+footer{
+ background-image:url(https://raw.githubusercontent.com/Fabian-Gorka/web-module-project-intro-css/main/assets/footer_img.jpg);
+  background-position:top center;
+  background-size:100% auto;
+  padding-top:23%;
+  padding-bottom:0;
+}
+
+.bold{
+  font-weight: bold;
+}
+#fire-re{
+  display:block;
+   text-align:center;
+  margin-top: 15px;
+  margin:0 auto;
+  width:18%;
+}
+#campfire{
+  width:150px;
+}
+#fee{
+  display:block;
+   text-align:center;
+ margin:0 auto;
+  width:18%;
+}
+.car{
+  margin-bottom:2.5%;
+  margin-top:15%;
+  width:150px;
+}
+
+.bottom{
+  text-align:center;
+  margin-top:2.5%;
+  background-color:#F9E7DC;
+  padding-bottom:3%;
+  padding-top:3%;
+}
