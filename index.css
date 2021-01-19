@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Start of tdubs code */
+* {
+  box-sizing: border-box;
+}
+
+main {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* navigation bar styling -- both top and bottom */
+#nav-top-left, #nav-bottom-left {
+  background-color: #ff764e;
+}
+
+#nav-top-center, #nav-bottom-center {
+  background-color: #5ed3eb;
+}
+
+#nav-top-right, #nav-bottom-right {
+  background-color: #ffcd69;
+}
+
+#top-nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 2% 15% 2%;
+}
+
+.top-nav-item {
+  color: white;
+  text-decoration: none;
+  height: 3em;
+  width: 9em;
+  padding: 0.5em;
+  border-radius: 0.75em;
+}
+
+footer {
+  padding: 2.5em;
+}
+
+#bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 0% 15% 0%;
+}
+
+.bottom-nav-item {
+  color: white;
+  text-decoration: none;
+  height: 3em;
+  width: 9em;
+  padding: 0.5em;
+  border-radius: 0.75em; 
+}
+
+/* title-block styling */
+#top-photo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  height: 25%;
+  padding: 0em 2em 0em 5em;
+  border-radius: 100%;
+}
+
+h1 {
+  font: 3em 'Chelsea Market', cursive;
+}
+
+/* info styling */
+#info {
+  background-color: #ddb9a3;
+}
+
+/* bold words */
+b, em {
+  font-weight: bold;
+}
+
+/* footer styling */
+footer {
+  background-color: #f9e7dc;
+}
