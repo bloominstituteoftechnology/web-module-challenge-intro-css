@@ -52,6 +52,20 @@ table {
   box-sizing: border-box;
 }
 
+/* Building my Base Grid */
+/* html {
+  display: inline-grid;
+  width: 100%;
+  grid-template-areas: "";
+  grid-auto-columns: 5.68%;
+  grid-auto-rows: 8.35%;
+} */
+
+header {
+  width: 100vw;
+}
+
+/* Styling Begins Here */
 main {
   text-align: center;
   font-family: 'Roboto Mono', monospace;
@@ -70,48 +84,34 @@ main {
   background-color: #ffcd69;
 }
 
+#align-top-nav {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+}
 #top-nav {
   display: flex;
-  justify-content: space-around;
-  padding: 2% 15% 2%;
+  justify-content: space-between;
+  width: 50vw;
 }
 
-.top-nav-item {
+.top-nav-item, .bottom-nav-item {
   color: white;
   text-decoration: none;
-  height: 3em;
-  width: 9em;
-  padding: 0.5em;
+  font-size: 1.25em;
+  width: 12vw;
+  padding: 0.75em;
   border-radius: 0.75em;
 }
 
-footer {
-  padding: 2.5em;
-}
-
-#bottom-nav {
-  display: flex;
-  justify-content: space-around;
-  padding: 0% 15% 0%;
-}
-
-.bottom-nav-item {
-  color: white;
-  text-decoration: none;
-  height: 3em;
-  width: 9em;
-  padding: 0.5em;
-  border-radius: 0.75em; 
-}
-
 /* title-block styling */
-#top-photo {
-  display: flex;
-  flex-wrap: wrap;
-  width: 25%;
-  height: 25%;
-  padding: 0em 2em 0em 5em;
-  border-radius: 100%;
+#title-photo {
+  width: 15%;
+  height: 15%;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: 10vh;
+  margin-right: 60vw;
 }
 
 h1 {
