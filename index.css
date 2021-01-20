@@ -1,0 +1,140 @@
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+body{
+    animation: gradientBG 10s ease infinite;
+    background: linear-gradient(-45deg, #ffd591, #abfcf8, #f2c1f5, #fad1bb);
+    background-size: 500% 500%;
+}
+
+nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ nav a {
+    margin: 1%;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    padding: 7px;
+    color: #ffffff;
+    text-decoration: none;
+    width: 120px;
+    text-align: center;
+}
+
+ nav a:first-child {
+    background-color: #FF764E;
+}
+nav a:nth-child(2) {
+    background-color: #5ED3EB;
+}
+
+nav a:last-child {
+    background-color: #FFCD69;
+}
+/* Adding animations here:*/
+
+@keyframes gradientBG{
+  0%{
+    background-position:0% 50%;
+  }
+  
+  50%{
+    background-position:100% 50%;
+  }
+  
+  100%{
+    background-position:0% 50%;
+  }
+}
+.aboutSection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.aboutSection img {
+    width: 20%;
+    border-radius: 50%;
+}
+.aboutSection .banner_text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutSection .banner_text .heading {
+    font-size: 3.0rem;
+    font-family: 'Chelsea Market', cursive;
+}
+.aboutSection .banner_text p {
+    font-size: 1.2rem;
+}
+
+.aboutSection .banner_text p:nth-child(3) {
+    width: 300px;
+    padding: 10px;
+}
+
+.containerTwo {
+    background-color:#DDB9A3;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+}
+
+.containerThree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerThree div {
+    text-align: center;
+    padding: 30px;
+}
+
+.containerThree div img {
+    width: 100px;
+}
+
+.containerThree p {
+    width: 400px;
+}
+footer img {
+    width: 100%;
+    height: 600px;
+}
