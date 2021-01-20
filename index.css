@@ -1,0 +1,190 @@
+body{
+    width: 1200px;
+}
+.header{
+    background-image: url(https://travel.usnews.com/dims4/USNEWS/78113ef/2147483647/resize/1280x350%5E%3E/crop/1280x350/quality/85/?url=https://travel.usnews.com/images/hero_yosemite_94_1280x350_UiYrieB.jpg);
+    background-color:azure;
+    width:1200px;
+    height:350px;
+}
+#headerbar {
+    background-color: black;
+    color: white;
+    height: 40px;
+}
+
+#headertitle {
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 10px 0px ;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#headertext{
+    display: inline-block;
+    margin: 10px 0px;
+    position:relative;
+    left:800px;
+    font-family: 'Roboto Mono', monospace;
+}
+#bar {
+    display: block;
+    background-color: rgba(0,0,0,0.5);
+    height: 50px;
+    position: relative;
+    bottom: -260px;
+}
+
+#barlink{
+    display: inline-block;
+    Color: rgba(255,255,255,1.0);
+    text-decoration: none;
+    font-size: 25px;
+    position:relative;
+    top: 210px;
+    left: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+#pheader{
+    display: inline-block;
+    Color: rgba(255,255,255,1.0);
+    text-decoration: none;
+    position: relative;
+    left: 50px;
+    top: 210px;
+    font-family: 'Roboto Mono', monospace;
+}
+.dropbtn1 {
+    background-color: #FF764E;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin: 10px 5px 10px 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: 'Roboto Mono', monospace;
+  }
+  .dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content1 a:hover {background-color: #ddd;}
+  .dropdown1:hover .dropdown-content1 {display: block;}
+  .dropdown1:hover .dropbtn1 {background-color: #3e8e41;}
+  
+.dropbtn2 {
+    background-color: #5ED3EB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    margin: 10px 5px 10px 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Roboto Mono', monospace;
+  }
+  .dropdown-content2 a:hover {background-color: #ddd;}
+  .dropdown2:hover .dropdown-content2 {display: block;}
+  .dropdown2:hover .dropbtn2 {background-color: #3e8e41;}
+
+  .dropbtn3 {
+    background-color: #FFCD69;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-family: 'Roboto Mono', monospace;
+}
+.dropdown3 {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: 'Roboto Mono', monospace;
+}
+  .dropdown-content3 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  .dropdown-content3 a:hover {background-color: #ddd;}
+  .dropdown3:hover .dropdown-content3 {display: block;}
+  .dropdown3:hover .dropbtn3 {background-color: #3e8e41;}
+
+.maintxt {
+    width: 1180px;
+    height: 270px;
+    background-color: #DDB9A3;
+    padding: 10px;
+    font-family: 'Chelsea Market', cursive;
+    color: white;
+}
+
+.maintxt2 {
+    display: block;
+    position: relative;
+    left: 25%;
+    width: 600px;
+    margin: 2%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.footer {
+    background-image: url(https://odis.homeaway.com/odis/destination/aa3645b8-735e-427d-b19c-2e95178b5b0a.hw5.jpg);
+    background-color:#F9E7DC;
+    width:1200px;
+    height:350px;
+}
+.footerlinks {
+    background-color: black;
+    height: 40px;
+    display: block;
+    padding: 10px;
+}
+.footerlinks a{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    height: 40px;
+    display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+    padding: 0px 0px 0px 190px;
+}
