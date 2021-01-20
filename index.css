@@ -194,8 +194,8 @@ main {
 
 #title-photo {
   flex: 1;
-	width: 25%;
-	height: 25%;
+	width: 10%;
+	height: 10%;
 	overflow: hidden;
 	border-radius: 50%;
 }
