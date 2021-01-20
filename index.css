@@ -199,8 +199,8 @@ main {
   background-position: center;
 	overflow: hidden;
   border-radius: 50%;
-  max-height: 175px;
-  max-width: 175px;
+  height: 9em;
+  width: 9em;
 }
 
 h1 {
