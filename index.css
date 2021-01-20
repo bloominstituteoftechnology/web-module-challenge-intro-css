@@ -89,12 +89,12 @@ h1{
   font-family: "Chelsea Market" cursive;
 }
 
-.top-text{
+.top{
+  display: flex;
+  flex-flow: column;
   margin-right: 10%;
-	margin-top: 5em;
-	text-align: center;
-	font-size: 2em;
-	width:90%
+  margin-left: 25%;
+  margin-bottom:2%;
 }
 
 #top-pic {
