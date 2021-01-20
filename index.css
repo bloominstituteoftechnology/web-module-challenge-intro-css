@@ -184,7 +184,8 @@ main {
 
 /* title-block styling */
 #header-container {
-	display: flex;
+  display: flex;
+  max-height: 200px;
 	justify-content: safe center;
 	padding: 0;
 }
