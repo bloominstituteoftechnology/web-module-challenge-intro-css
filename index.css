@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto Mono', Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin: 2rem;
+}
+
+h1 {
+    font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+.plan-link {
+    background-color: #FF764E;
+}
+
+.learn-link {
+    background-color: #5ED3EB;
+}
+
+.involved-link {
+    background-color: #FFCD69;
+}
+
+#header-img {
+    width: 22%;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-left: 6%;
+}
+
+#header-text {
+    display: inline-block;
+    text-align: center;
+    width: 69%;
+    vertical-align: middle;
+    margin-right: 1%;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+#second-header-p {
+    max-width: 350px;
+    margin: auto;
+}
+
+section {
+    background-color: #DDB9A3;
+    color: #fff;
+    margin: 3rem;
+    padding: 0.1rem 1rem;
+    text-align: center;
+}
+
+article {
+    width: 38%;
+    margin: auto;
+    text-align: center;
+}
+
+article img { 
+    width: 40%;
+}
+
+article span {
+    font-weight: 700;
+}
+
+footer {
+    background-color: #F9E7DC;
+    padding-bottom: 1rem;
+}
+
+#footer-img {
+    width: 100%;
+    background-image: url('./assets/footer_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 18%;
+    height: 20vw;
+}
