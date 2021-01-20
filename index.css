@@ -194,10 +194,13 @@ main {
 
 #title-photo {
 	width: 10%;
-	height: 10%;
+  height: 10%;
+  background-image: url("assets/header_img.jpg");
+  background-position: center;
 	overflow: hidden;
   border-radius: 50%;
-  max-height: 200px;
+  max-height: 150px;
+  max-width: 150px;
 }
 
 h1 {
