@@ -1,0 +1,181 @@
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+b {
+    color: #77331e;
+}
+b:hover {
+    background-color: #feffc6;
+}
+body {
+    font-family: 'Roboto Mono', monospace;
+    text-align:center;
+}
+
+/* NAVIGATION */
+
+.navigation {
+    margin: 2em;
+}
+
+a {
+    -webkit-border-radius: 30%;
+    padding: 10px;
+    color:white;
+    font-size:1em;
+    width:13%;
+    margin: 10px 10px 10px 10px;
+}
+
+a.involved {
+    background-color:#FFCD69;
+}
+
+a.learn {
+    background-color:#5ED3EB;
+}
+
+a.plan {
+    background-color:#FF764E;
+}
+/* hover */
+a.involved:hover {
+    background-color:#FFFFFF;
+    color:#FFCD69;
+    border: .1em solid #FFCD69;
+    text-transform: uppercase;
+    text-decoration-style:wavy;
+    }
+    
+ a.learn:hover {
+    background-color:#FFFFFF;
+    color:#5ED3EB;
+    border: .1em solid #5ED3EB;
+    text-transform: uppercase;
+    text-decoration-style:wavy;
+    }
+    
+a.plan:hover {
+    background-color:#FFFFFF;
+    color:#FF764E;
+    border: .1em solid #FF764E;
+    text-transform: uppercase;
+    text-decoration-style:wavy;
+    }
+/* NAVIGATION END */
+
+/*WELCOME*/
+#Welcome {
+     display:flex;
+     justify-content:space-evenly;
+     align-items: center;
+     padding: 20px;
+     padding-left:0px;
+}
+#Skyline1 {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+    float:left;
+    margin-left:100px;
+    border: .2em solid #FF764E;
+}
+
+#Skyline1:hover {
+    background-color: #FF764E; 
+    opacity: 0.8; 
+    transform: scale(105%);
+    transition: all .3s ease-in-out;
+}
+
+#Yosemite {
+    font-size: 3.0rem;
+    font-family: 'Chelsea Market', cursive;
+    text-shadow: .05em .05em #DDB9A3;
+    margin-right:10%;
+}
+
+#Yosemite:hover {
+    font-size: 3.2rem;
+    font-family: 'Chelsea Market', cursive;
+    text-shadow: .08em .08em #DDB9A3;
+    margin-right:10%;
+}
+
+#Welcometext {
+    width: 55%;
+    line-height:1.5em;
+    margin-left:auto;
+    margin-right:15%;
+    font-variant: small-caps;
+    font-size: larger;
+}
+/*WELCOMEEND*/
+
+.maintextbody {
+    background-color:#DDB9A3;
+    color: #FFFFFF;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:3%;
+    padding:.5em;
+}
+
+.maintextbody p {
+    padding:.5em;
+
+}
+
+.adviceimg {
+    width:8%;
+    height:8%;
+    padding:1em;
+
+}
+
+.advicetext {
+    width:30%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 1.5em;
+}
+
+footer {
+    background-color:#F9E7DC;
+    height: 17em;
+    width:auto;
+}
+#Skyline2 {
+    max-width: 100%;
+    width:100%;
+    max-height:200px;
+    overflow:hidden;
+    object-fit:cover;
+    object-position: 0% 20%;
+}
+#Skyline2:hover {
+    background-color: #FF764E; 
+    opacity: 0.8; 
+    transform: scale(102%);
+    transition: all .3s ease-in-out;
+}
