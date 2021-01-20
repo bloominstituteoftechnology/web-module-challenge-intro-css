@@ -1,11 +1,46 @@
-#plan {
-    background-color: #FF764E;
+p {
+    font-family: "Roboto+Mono", sans-serif;
+    text-align: center;
 }
 
-#learn {
-    background-color: #5ED3EB;
+h1 {
+    font-family: "Chelsea+Market", sans-serif;
+    text-align: center;
 }
 
-#involved {
-    background-color: #FFCD69;
+h2 {
+    text-align: center;
+}
+
+.content {
+    background-color: #DDB9A3;
+}
+
+p.content {
+    color: white;
+}
+
+.end {
+    background-color: #F9E7DC;
+}
+
+.imgcontainer {
+    border-radius: 30px;
+    width: 10%;
+}
+
+.fire {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 3%;
+}
+
+.bus {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 10%;
 }
