@@ -1,0 +1,101 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* My css starts here */
+
+.top_navigation a {
+    color: #ffffff;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: "Roboto Mono";
+    display: inline-flex;
+    border-radius: 6%;
+    width: 8%;
+    padding: 2%;
+    margin: 5% 0% 0% 15%;
+}
+
+
+.box_1 {
+    background-color:#FF764E;
+  
+}
+.box_2 {
+    background-color:#5ED3EB;
+
+}
+.box_3 {
+    background-color:#FFCD69;
+}
+
+.top-section {
+    /* width: 75%; */
+    /* display: flex; */
+    text-align: left;
+    /* margin: 10%, 10% 10% 10%; */
+}
+.section_1 {
+    display: block;
+    /* margin: 10%, 10% 10% 10%; */
+    padding: 2%, 10%, 5%, 10%;
+}
+
+.top-section p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Roboto Mono";
+}
+
+.top-image {
+    width: 350px;
+    height: 350px;
+    border-image: initial;
+    margin: 0em 4em;
+    border-radius: 50%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-family: "Chelsea Market";
+}
+
+/* p {
+    text-align: center;
+} */
