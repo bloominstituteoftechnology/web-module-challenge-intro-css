@@ -193,14 +193,12 @@ main {
 }
 
 #title-photo {
-	width: 10%;
-  height: 10%;
+	width: 10em;
+  height: 10em;
   background-image: url("assets/header_img.jpg");
   background-position: center;
 	overflow: hidden;
   border-radius: 50%;
-  height: 13em;
-  width: 13em;
 }
 
 h1 {
