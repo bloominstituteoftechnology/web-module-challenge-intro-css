@@ -1,0 +1,136 @@
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+
+nav{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+nav a{
+    margin:1%;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    padding:7px;
+    color:#ffffff;
+    text-decoration: none;
+    width:120px;
+    text-align:center;
+
+}
+
+nav a:nth-child(1){
+    background-color: #FF764E;
+
+}
+nav a:nth-child(2){
+    background-color: #5ED3EB;
+
+}
+nav a:nth-child(3){
+    background-color: #FFCD69;
+
+}
+
+.middlecontainer1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.middlecontainer1 .circleimage{
+    width:20%;
+    border-radius: 50%;
+}
+
+.middlecontainer1 .middlecontainer1text{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono', cursive;
+}
+
+.middlecontainer1 .middlecontainer1text h1{
+    font-size: 3.0rem;
+    font-family: 'Chelsea Market', cursive;
+   
+}
+
+.middlecontainer1 .middlecontainer1text p{
+    font-size: 1.2rem;
+    font-family: 'Roboto Mono', cursive;
+}
+
+.middlecontainer1text p:nth-child(3){
+    width: 300px;
+    padding: 10px;
+}
+
+.middlecontainer2{
+    background-color: #DDB9A3;
+    color: #ffffff;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 100px;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+}
+.middlecontainer2 p{
+    font-family: 'Roboto Mono', cursive;
+}
+
+.middlecontainer3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middlecontainer3 div{
+    text-align: center;
+    padding: 30px;
+}
+.middlecontainer3 div img{
+    width: 100px;
+}
+
+.middlecontainer3 p {
+width: 250px;
+font-family: 'Roboto Mono', cursive;
+}
+
+.footerimage img {
+    margin: 0 auto;
+    width:100%;
+    height:30rem;
+   
+}
