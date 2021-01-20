@@ -3,19 +3,87 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -24,22 +92,34 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
 body {
 	line-height: 1;
 }
-ol, ul {
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: none;
 }
 table {
@@ -49,86 +129,148 @@ table {
 
 /* Start of tdubs code */
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-/* Building my Base Grid */
-/* html {
-  display: inline-grid;
-  width: 100%;
-  grid-template-areas: "";
-  grid-auto-columns: 5.68%;
-  grid-auto-rows: 8.35%;
-} */
-
 header {
-  width: 100vw;
+	width: 100vw;
 }
 
 /* Styling Begins Here */
 main {
-  text-align: center;
-  font-family: 'Roboto Mono', monospace;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
 }
 
 /* navigation bar styling -- both top and bottom */
-#nav-top-left, #nav-bottom-left {
-  background-color: #ff764e;
+#nav-top-left,
+#nav-bottom-left {
+	background-color: #ff764e;
 }
 
-#nav-top-center, #nav-bottom-center {
-  background-color: #5ed3eb;
+#nav-top-center,
+#nav-bottom-center {
+	background-color: #5ed3eb;
 }
 
-#nav-top-right, #nav-bottom-right {
-  background-color: #ffcd69;
+#nav-top-right,
+#nav-bottom-right {
+	background-color: #ffcd69;
 }
 
-#align-top-nav {
-  display: flex;
-  justify-content: center;
-  margin: 2em;
+#align-top-nav,
+#align-bottom-nav {
+	display: flex;
+	justify-content: center;
+	margin: 2em;
 }
-#top-nav {
-  display: flex;
-  justify-content: space-between;
-  width: 50vw;
+#top-nav,
+#bottom-nav {
+	display: flex;
+	justify-content: space-between;
+	width: 50vw;
 }
 
-.top-nav-item, .bottom-nav-item {
-  color: white;
-  text-decoration: none;
-  font-size: 1.25em;
-  width: 12vw;
-  padding: 0.75em;
-  border-radius: 0.75em;
+.top-nav-item,
+.bottom-nav-item {
+	color: white;
+	text-decoration: none;
+	font-size: 1.25em;
+	line-height: 1.25;
+	width: 12vw;
+	padding: 0.75em;
+	border-radius: 0.75em;
 }
 
 /* title-block styling */
+#header-container {
+	display: flex;
+	justify-content: safe center;
+	padding: 0;
+}
+#only-headers {
+	min-width: 50vw;
+}
+
 #title-photo {
-  width: 15%;
-  height: 15%;
-  overflow: hidden;
-  border-radius: 50%;
-  margin-top: 10vh;
-  margin-right: 60vw;
+  flex: 1;
+	width: 25vw;
+	height: 25vh;
+	overflow: hidden;
+	border-radius: 50%;
 }
 
 h1 {
-  font: 3em 'Chelsea Market', cursive;
+	font: 3.5em 'Chelsea Market', cursive;
+	padding: 3%;
+}
+
+h2 {
+	font-size: 1.15em;
+	padding-bottom: 2%;
+}
+
+h3 {
+	font-size: 1.15em;
+	padding-top: 2%;
 }
 
 /* info styling */
 #info {
-  background-color: #ddb9a3;
+	padding: 2% 3%;
+	margin: 5%;
+	background-color: #ddb9a3;
+}
+
+#pt1,
+#pt2 {
+	color: white;
+	font-size: 1.6em;
+	line-height: 1.25;
+}
+
+#pt1 {
+	padding: 1% 1% 3%;
+}
+
+#pt2 {
+	padding: 3% 1% 1%;
+}
+
+#top-section,
+#bottom-section {
+	font-size: 1.25em;
+}
+
+#top-section {
+	padding: 0% 40%;
+}
+
+#bottom-section {
+	padding: 10% 40% 9% 40%;
+}
+
+#rv,
+#fire {
+	width: 7vw;
+	height: auto;
 }
 
 /* bold words */
-b, em {
-  font-weight: bold;
+b,
+em {
+	font-weight: bold;
 }
 
 /* footer styling */
+#bottom-photo {
+	width: 100vw;
+	height: 75vh;
+	background-image: url('assets/footer_img.jpg');
+	background-position: center;
+}
+
 footer {
-  background-color: #f9e7dc;
+	background-color: #f9e7dc;
+	padding: 1em;
 }
