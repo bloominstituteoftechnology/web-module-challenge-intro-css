@@ -194,8 +194,8 @@ main {
 
 #title-photo {
   flex: 1;
-	width: 25vw;
-	height: 25vh;
+	width: 25%;
+	height: 25%;
 	overflow: hidden;
 	border-radius: 50%;
 }
@@ -265,7 +265,7 @@ em {
 /* footer styling */
 #bottom-photo {
 	width: 100vw;
-	height: 75vh;
+	height: 50vh;
 	background-image: url('assets/footer_img.jpg');
 	background-position: center;
 }
