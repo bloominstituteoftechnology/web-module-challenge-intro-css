@@ -109,8 +109,10 @@ section img {
 
 footer {
     background-color: #F9E7DC;
+    width: 80%;
+    padding: 0 10%;
     margin: 33px 0 0 0;
-    height: 25vh;
+    height: 250px;
 }
 
 footer img{
