@@ -53,27 +53,25 @@ table {
 
 .box_1 {
     background-color:#FF764E;
-  
 }
 .box_2 {
     background-color:#5ED3EB;
-
 }
 .box_3 {
     background-color:#FFCD69;
 }
 
 .top-section {
-    width: 70%;
+    width: 75%;
     display: flex;
-    /* text-align: left; */
-    /* margin: 10%, 10% 10% 10%; */
+    justify-content: center;
     padding: 10%;
 }
 
 .brown-text {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: "Roboto Mono";
+    line-height: 2rem;
     padding: 2% 10% 2% 10%;
     margin: 2% 10% 2% 10%;
     text-align: center;
@@ -81,7 +79,6 @@ table {
 }
 .section_1 {
     display: block;
-    /* margin: 10%, 10% 10% 10%; */
     padding: 2%, 10%, 5%, 10%;
 }
 
@@ -89,12 +86,12 @@ table {
     text-align: center;
     font-size: 1.5rem;
     font-family: "Roboto Mono";
+    line-height: 2;
 }
 
 .top-image {
     width: 350px;
     height: 350px;
-    /* border-image: initial; */
     margin: 0em 4em;
     border-radius: 50%;
 }
@@ -108,6 +105,7 @@ h1 {
 p {
     font-family: "Roboto Mono";
     text-align: center;
+    line-height: 3;
 }
 
 .midleman {
@@ -116,6 +114,10 @@ p {
     align-content: center;
     align-items: center;
     margin: 5% 40% 5% 40%;
+}
+
+.truck {
+    margin-top: 10%;
 }
 .midleman img {
     width: 40%;
@@ -127,7 +129,6 @@ p {
 }
 footer {
     background-color: #F9E7DC;
-    /* width: 75%; */
 }
 footer a {
     color: #ffffff;
@@ -151,3 +152,4 @@ footer a {
 .p03 {
     background-color:#FFCD69;
 }
+
