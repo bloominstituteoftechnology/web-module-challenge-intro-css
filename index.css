@@ -1,3 +1,27 @@
+* {
+    border: 1px solid black;
+}
+
+nav a {
+    text-decoration: none;
+    border-radius: 30px; 
+    padding: 2%;
+    border: 1px solid black;
+}
+
+nav .plan {
+    background-color: #FF764E;
+    border-radius: 10px;
+}
+
+nav .learn {
+    background-color: #5ED3EB;
+}
+
+nav .involved {
+    background-color: #FFCD69
+}
+
 p {
     font-family: "Roboto+Mono", sans-serif;
     text-align: center;
@@ -14,10 +38,12 @@ h2 {
 
 .content {
     background-color: #DDB9A3;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-p.content {
-    color: white;
+.content p {
+    color: white
 }
 
 .end {
@@ -29,18 +55,34 @@ p.content {
     width: 10%;
 }
 
-.fire {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
-  width: 3%;
+.fire img {
+    width: 10%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.bus {
+.fire p {
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.bus img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: auto;
     width: 10%;
+}
+
+.bus p {
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.photo img {
+    border-radius: 50%;
+    width: 15%;
+    height: auto;
 }
