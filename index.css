@@ -3,6 +3,8 @@
 }
 
 nav a {
+    display: inline-block;
+    margin: 200px;
     text-decoration: none;
     border-radius: 30px; 
     padding: 2%;
@@ -11,15 +13,17 @@ nav a {
 
 nav .plan {
     background-color: #FF764E;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 nav .learn {
     background-color: #5ED3EB;
+    border-radius: 20px;
 }
 
 nav .involved {
-    background-color: #FFCD69
+    background-color: #FFCD69;
+    border-radius: 20px;
 }
 
 p {
@@ -32,10 +36,6 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    text-align: center;
-}
-
 .content {
     background-color: #DDB9A3;
     margin-left: 5%;
@@ -44,10 +44,6 @@ h2 {
 
 .content p {
     color: white
-}
-
-.end {
-    background-color: #F9E7DC;
 }
 
 .imgcontainer {
@@ -85,4 +81,19 @@ h2 {
     border-radius: 50%;
     width: 15%;
     height: auto;
+}
+
+.itle_block {
+    display: inline-block;
+}
+
+.sunset {
+    display: inline-block;
+    width: 60%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.footer {
+    background-color: #F9E7DC;
 }
