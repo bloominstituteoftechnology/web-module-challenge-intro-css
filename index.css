@@ -1,0 +1,140 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+  }
+  #plan {
+    background-color: #ff764e;
+    height: 4em;
+    border: 3px #ff764e;
+    border-radius: 15px;
+    color: white;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    width: 9em;
+  }
+  
+  #learn {
+    background-color: #5ed3eb;
+    height: 4em;
+    border: 3px #5ed3eb;
+    border-radius: 15px;
+    color: white;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    width: 9em;
+  }
+  
+  #involved {
+    background-color: #ffcd69;
+    height: 4em;
+    border: 3px #ffcd69;
+    border-radius: 15px;
+    color: white;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    width: 9em;
+  }
+  
+  .top {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 0 auto;
+    margin: 2em;
+    color: black;
+  }
+  
+  #topPic {
+    border-radius: 50%;
+    height: 15em;
+    margin-left: 4em;
+    margin-top: 1em;
+    float: left;
+  }
+  
+  .yosemite h2 {
+    font-family: "Chelsea Market", sans-serif;
+    font-size: 4em;
+    margin-top: 1em;
+    text-align: center;
+    margin-left: 40%;
+  }
+  
+  .yosemite {
+    width: 85%;
+    margin-right: 10%;
+    text-align: center;
+    float: center;
+    vertical-align: right;
+    font-family: "Roboto Mono", "Chelsea Market";
+  }
+  .yosemite p {
+    margin: 0 auto;
+    width: 20em;
+    margin-right: 17%;
+  }
+  #wilderness {
+    width: 30em;
+    margin-right: 10%;
+    margin-top: 1px;
+  }
+  .intro {
+    width: 90%;
+    margin: 4em;
+    padding:0 2%;
+    border: solid 3px #ddb9a3;
+    background-color: #ddb9a3;
+    color: white;
+    font-size: 0.9em;
+  }
+  
+  .fire {
+    margin: 0 auto;
+    width: 15em;
+    text-align: center;
+    color: black;
+  }
+  
+  .fire img {
+    height: 7em;
+  }
+  
+  .reservation img {
+    float: center;
+    height: 7em;
+    margin: 2em;
+    object-fit: cover;
+    margin: 0 auto;
+    padding-left: 25%;
+  }
+  .reservation {
+    padding: 2em;
+    margin-bottom: 15em;
+    margin: 0 auto;
+    width: 17em;
+    color: black;
+  }
+  
+  .jiacu{
+     font-weight: bold;
+  }
+  
+  #lastPic {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+  }
+  
+  footer {
+    background-color: #f9e7dc;
+  }
+  
+  .bottom {
+    text-align: center;
+  }
+  .bottom button {
+    margin: 30px 60px;
+    justify-content: space-around;
+  
+  }
+  
