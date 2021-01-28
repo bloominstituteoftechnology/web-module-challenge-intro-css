@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+*{
+  box-sizing:border-box;
+/*   border:1px solid grey; */
+  max-width:100%;
+}
+/*General Styles*/
+html{
+  font-size:62.5%;
+}
+body{
+  font-size:1.8rem;
+  line-height:1.5;
+  font-family: 'Roboto Mono', monospace;
+}
+h1{
+  font-family: 'Chelsea Market', cursive;
+  font-size:6rem;
+}
+a{
+  text-decoration:none;
+}
+section{
+  padding:4% 0;
+}
+/*Styles for the header*/
+nav{
+  display:flex;
+  justify-content:space-around;
+}
+nav a{
+  display:inline-block;
+  width:22%;
+  text-align:center;
+  border-radius:10px;
+  padding:1% 0;
+  color:#fff;
+}
+.orange{
+  background-color:#FF764E;
+}
+.blue{
+  background-color:#5ED3EB;
+}
+.yellow{
+  background-color:#FFCD69;
+}
+
+.headerContent{
+  display:flex;
+  justify-content:space-around;
+  padding:15% 0;
+}
+.headerContent img{
+  border-radius:50%;
+}
+.logo{
+  width:30%;
+}
+.text{
+  width:60%;
+  display:flex;
+  align-items:center;
+}
+
+/*About Section Styles*/
+#about{
+  background-color:#DDB9A3;
+  color:#fff;
+  padding:4%;
+}
+.first{
+  margin-bottom:5%;
+}
+/*plan section styles*/
+
+#plan{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+#plan div{
+  width:50%;
+  margin:4% 0;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+#plan div img{
+  width:60%;
+}
+.bolded{
+  font-weight:900;
+}
+/*hero-image section styles*/
+.hero-image{
+  background-image:url('https://github.com/LambdaSchool/web-module-project-intro-css/blob/main/assets/footer_img.jpg?raw=true');
+  height:40vh;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
+/*footer section styles*/
+footer{
+  background-color:#F9E7DC;
+  padding:4% 0;
+}
