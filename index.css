@@ -84,7 +84,7 @@ a{
 }
 
 .mountain{
-    width:40%;
+    width:200px;
     border-radius: 50%;
     border:1px solid black;
     
@@ -107,12 +107,19 @@ a{
 }
 
 .about{
-    width:60%;
-    height:100%;
-    padding-bottom:20px;
+    width:70%;
     text-align:center;
     border:1px solid black;
 
+}
+h1{
+    font-size:49px;
+}
+h2{
+    font-size:25px;
+}
+h3{
+    font-size:20px ;
 }
 
 
