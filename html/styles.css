@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@400;700&display=swap');
-/*CSS Rest*/
+
 html, body, div, span, applet, object, iframe,  
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
 a, abbr, acronym, address, big, cite, code,  
@@ -15,7 +15,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {  
 margin: 0;  
 padding: 0;  
-/* border: 0;   */
+
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
@@ -23,9 +23,9 @@ vertical-align: baseline;
 *{
   box-sizing:border-box;
   max-width:100%;
-/*   border:1px solid grey; */
+
 }
-/*general styles*/
+
 html{
   font-size:62.5%;
 }
@@ -45,9 +45,11 @@ span{
   font-weight:bold;
 }
 
-/*nav section styles*/ 
+
 nav{
   padding:2% 0;
+  transition: transform 1s;
+
 }
 nav a{
   display:inline-block;
@@ -57,6 +59,7 @@ nav a{
   color:#fff;
   border-radius:10px;
   text-decoration:none;
+  transition: transform 1s;
 }
 .orange{
   background-color:#FF764E;
@@ -71,7 +74,7 @@ nav a{
   margin-right:5%;
 }
 
-/*header section styles*/
+
 .left, .right{
   display:inline-block;
 }
