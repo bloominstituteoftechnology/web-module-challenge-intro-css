@@ -9,6 +9,9 @@ html{
     font-size: 62.5%;
 }
 body {
+    font-size:1.8rem;
+    line-height:1.5;
+
 }
 .Guide img{
     border-radius: 50%;
@@ -29,4 +32,24 @@ body {
 .guidetxt p{
     padding:10% 0 0 0;
     text-align: top;
+}
+.intro p{
+    background: rosybrown;
+    color: white;
+    width: 90%;
+    height: 1;
+    margin: 2% auto;
+    padding: 4%;
+    
+}
+.icon1 p{
+    text-align: center;
+    width: 18%;
+    margin: auto;
+}
+.icon1 img{
+    width:10%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
 }
