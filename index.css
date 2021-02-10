@@ -1,13 +1,23 @@
 *{
-    border-sizing: border-box;
+    box-sizing: border-box;
     margin: 0%;
     padding: 0%;
     max-width: 100%;
     border: 1px solid black;
 }
 html{
-    font-size: 62.55;
+    font-size: 62.5%;
 }
 body {
-    ;
+}
+.Guide img{
+    border-radius: 50%;
+    width:25%;
+    display:inline-block;
+    
+}
+.Guide div.guidetxt{
+    width: 100%;
+    display:inline-block;
+    background-color: red;
 }
