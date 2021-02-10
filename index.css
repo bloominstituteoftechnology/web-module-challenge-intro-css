@@ -15,23 +15,28 @@ body {
 }
 .Guide img{
     border-radius: 50%;
-    width:30%;
+    width: 20%;
+    
     display:inline-block;
     
 }
+.Guide .guidetxt1{
+    padding: 
+}
 .Guide .guidetxt{
-    width: aut;
+    width: 50%;
     display:inline-block;
     background-color: red;
-    margin: %;
-
+    margin-left: ;
 }
 .guidetxt h1{
-    padding:10%
+    padding:5%;
+    font-size: 5rem;
 }
 .guidetxt p{
-    padding:10% 0 0 0;
-    text-align: top;
+    width: 30;
+    text-align: center;
+    font-size: 2.5rem;
 }
 .intro p{
     background: rosybrown;
@@ -39,7 +44,8 @@ body {
     width: 90%;
     height: 1;
     margin: 2% auto;
-    padding: 4%;
+    padding: 1% 2%;
+    font-size: 2.5rem;
     
 }
 .icon1 p{
