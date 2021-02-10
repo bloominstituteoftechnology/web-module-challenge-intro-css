@@ -15,30 +15,34 @@ body {
 }
 .Guide img{
     border-radius: 50%;
-    width: 20%;
-    
+    width: 30%;
+    margin-left:;
     display:inline-block;
     
-}
-.Guide .guidetxt1{
-    padding: 
 }
 .Guide .guidetxt{
-    width: 50%;
+    width: 60%;
     display:inline-block;
-    background-color: red;
-    margin-left: ;
+    margin-left: 5%;
+    margin-bottom: 5%
 }
 .guidetxt h1{
-    padding:5%;
-    font-size: 5rem;
+    padding:2%;
+    font-size: 7rem;
+    text-align: center;
 }
 .guidetxt p{
-    width: 30;
     text-align: center;
     font-size: 2.5rem;
+
 }
-.intro p{
+.guidetxt .p2{
+    width: 48%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.intro {
     background: rosybrown;
     color: white;
     width: 90%;
@@ -50,12 +54,25 @@ body {
 }
 .icon1 p{
     text-align: center;
-    width: 18%;
+    width: 28%;
     margin: auto;
+    font-size: 2rem;
 }
 .icon1 img{
     width:10%;
     margin-left:auto;
     margin-right:auto;
     display:block;
+}
+.icon2 img{
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.icon2 p{
+    width: 10%;
+    text-align: center;
+    margin: auto;
+    font-size: 2rem;
 }
