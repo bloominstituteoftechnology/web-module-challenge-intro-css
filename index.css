@@ -39,6 +39,7 @@ blockquote, q {
 box-sizing: border-box; /*be the width that I tell you to be, if I give you padding or a border apply within your given width*/  
   max-width:100%;/*you can never be bigger than your parent*/
   /*border:1px solid grey;*/
+  font-family: 'Roboto Mono', monospace;
 }
 /*General Styles*/
 html{
@@ -81,6 +82,7 @@ a{
 .link3{
     background-color: #FFCD69;
     color:white;
+    
 }
 
 .mountain{
@@ -107,19 +109,62 @@ a{
 }
 
 .about{
-    width:70%;
+    width:75%;
     text-align:center;
     border:1px solid black;
 
 }
 h1{
     font-size:49px;
+    font-family: 'Chelsea Market', cursive;
 }
 h2{
-    font-size:25px;
+    font-size:20px;
 }
 h3{
-    font-size:20px ;
+    font-size:14px ;
+}
+.middle{
+    background-color: #DDB9A3;
+    color:white;
+    display:inline-block;
+    margin:5%;
+    padding:10px;
+    width:100%;
+    
 }
 
+.fire{
+    width:25%;
+    text-align: center;
+    border:1px solid black;
+    margin-left:40%;
+}
+.fire-text{
+    text-align: center;
+    width:30%;
+    margin-left: 38%;
+    font-size: 
+}
 
+.car{
+    width:25%;
+    text-align: center;
+    border:1px solid black;
+    margin-left:40%;
+    margin-top:20px;
+}
+.car-text{
+    text-align: center;
+    width:30%;
+    margin-left: 38%;
+    font-size: 
+}
+.background-image{
+    width:100%;
+    height:40vh;
+    background-image:url('https://images.unsplash.com/photo-1612909848757-da4e9886e0dd?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
