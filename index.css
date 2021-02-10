@@ -12,12 +12,21 @@ body {
 }
 .Guide img{
     border-radius: 50%;
-    width:25%;
+    width:30%;
     display:inline-block;
     
 }
-.Guide div.guidetxt{
-    width: 100%;
+.Guide .guidetxt{
+    width: aut;
     display:inline-block;
     background-color: red;
+    margin: %;
+
+}
+.guidetxt h1{
+    padding:10%
+}
+.guidetxt p{
+    padding:10% 0 0 0;
+    text-align: top;
 }
