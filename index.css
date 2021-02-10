@@ -1,4 +1,47 @@
-body{
-    background-color:gray;
+*{border: 1px solid black}
 
+  .navigation{
+      text-align:center;
+  }
+  .navigation a {
+      text-align:center;
+      display:inline-block;
+      color:white;
+      height:100%;
+      width:20%;
+      margin:0 11%;
+      border-radius:10px;
+      font-family: 'Roboto Mono', monospace;
+  }
+  .navigation .plan{
+    background-color:#FF764E;
+  }
+  .navigation .learn{
+    background-color:#5eD3EB;
+  }
+  .navigation .get{
+    background-color:#FFCD69;
+  }
+#image1 {
+    border-radius:50%;
+    width:20%;
+    height:20%;
+}
+h1{
+    font-family: Chelsea Market, cursive;
+    display:inline-block;
+    width:49%;
+}
+.part1{
+    background-color:#DDB9A3;
+}
+.part2{
+    text-align:center;
+}
+
+
+
+
+footer{
+    background-color:#F9E7DC;
 }
