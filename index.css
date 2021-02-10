@@ -86,8 +86,8 @@ h1{
   font-family: "Chelsea Market" cursive;
 }
 
-.top{
-  /* margin: auto; */
+ .top{
+  margin: auto; 
   margin-left: 5%;
   margin-bottom:2%;
 }
@@ -97,13 +97,27 @@ h1{
 }
 
 .yose {
-  width: 300px;
+  display: inline-block;
+  width: 75%;
+  text-align: center;
 }
+
+.yose h1{
+  margin-bottom: 5%;
+}
+
+.yose p{
+  margin-bottom: 3%;
+}
+
 #top-pic {
   border-radius: 50%; 
 	margin-top:5em;
 	width: 250px;
 }
+
+
+
 
 .firstbox {
   font-size: 1.5rem;
