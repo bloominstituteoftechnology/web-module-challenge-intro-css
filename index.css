@@ -45,34 +45,46 @@ body {
 .intro {
     background: rosybrown;
     color: white;
-    width: 90%;
-    height: 1;
-    margin: 2% auto;
+    margin-bottom:%;
     padding: 1% 2%;
     font-size: 2.5rem;
+    text-align: center;
     
+    
+}
+.icon1{
+    padding: 1%;
 }
 .icon1 p{
     text-align: center;
-    width: 28%;
+    width: 20%;
     margin: auto;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 .icon1 img{
-    width:10%;
+    width:12%;
     margin-left:auto;
     margin-right:auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
     display:block;
+    margin:
+}
+.icon2{
+    padding: 1%;
 }
 .icon2 img{
-    width: 10%;
+    width: 12%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
     display: block;
+    
 }
 .icon2 p{
-    width: 10%;
+    width: 20%;
     text-align: center;
     margin: auto;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
