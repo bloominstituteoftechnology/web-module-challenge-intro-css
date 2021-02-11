@@ -128,10 +128,13 @@ h3{
     background-color: #DDB9A3;
     color:white;
     display:inline-block;
-    margin:5%;
+    margin:5% 10%;
     padding:10px;
     width:100%;
     
+}
+.bold{
+    font-weight: bold;
 }
 
 .fire{
@@ -162,9 +165,16 @@ h3{
 }
 .background-image{
     width:100%;
-    height:40vh;
-    background-image:url('https://images.unsplash.com/photo-1612909848757-da4e9886e0dd?ixid=MXwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+    height:50vh;
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment:fixed;
+    
+
+}
+.footer-bar{
+    display:inline-block;
+    width:100%;
+    background-color:white;
+    padding-bottom:13%;
 }
