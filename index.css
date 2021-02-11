@@ -13,8 +13,9 @@ body {
     line-height:1.5;
 
 }
-.button{
-    
+.b1{
+    width: 20%;
+
 }
 .Guide img{
     border-radius: 50%;
@@ -48,7 +49,7 @@ body {
 .intro {
     background: rosybrown;
     color: white;
-    margin-bottom:%;
+    margin-bottom:;
     padding: 1% 2%;
     font-size: 2.5rem;
     text-align: center;
@@ -71,7 +72,6 @@ body {
     margin-top: 2%;
     margin-bottom: 2%;
     display:block;
-    margin:
 }
 .icon2{
     padding: 1%;
@@ -91,9 +91,4 @@ body {
     margin: auto;
     font-size: 1.8rem;
 }
-.footerImg{
-    width:100%;
-    height: 
-    padding:;
-    margin:20% 0 0 0 ; 
-}
+.footerImg{}
