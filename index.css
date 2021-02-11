@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200&display=swap');
+/* font-family: 'Roboto Mono', monospace; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200&display=swap');
+/* font-family: 'Roboto Mono', monospace; */
+
+* {
+    border: 1px solid black;
+}
+html {
+    font: size 62.5%;
+    font-family: 'Roboto Mono', monospace;
+    background: white;
+    margin: 0 20%;
+    padding: 20px;
+}
+
+
+
+.top {
+    display: inline-block;
+}
+
+.top text {
+    font-family: 'Roboto Mono', monospace;
+    width: 49%;
+    display: inline-block;
+}
+
+.top img {
+    border-radius: 50%;
+    width: 49%;
+    display: inline-block;
+}
+
+.top 
+
+
+.navButtons {
+    width: auto;
+    text-align: center;
+}
+
+.navButtons nav {
+    width: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.navButtons nav a {
+        margin: 20px 20px;
+        margin-right: 10%;
+        border: 1px solid lightgray;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+}
+
+.button1 {
+    background-color: #ff754e;
+
+}
+
+.button2 {
+    background-color: #5fd3ec;
+
+}
+
+.button3 {
+    background-color: #ffcd6a;
+
+}
+
+
+.main {
+    background-color: #DDB9A3;
+    margin: 20px     auto;
+    text-align: center;
+    letter-spacing: 2px;
+    color: whitesmoke;
+
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.main p {
+}
+
+
+.fire {
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    font-weight: 300;
+}
+
+.fire img {
+    width: 50%
+}
+
+
+.reservations {
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    font-weight: 300;
+}
+
+.reservations img {
+    width: 50%
+}
+
+
+.footer {
+    width: 100;
+    height: 100;
+    background-color: #F9E7DC;
+}
+
+.footer img {
+    max-width: 100%;
+}
+
+.footer nav {
+    width: auto;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.footer nav a {
+    margin: 10 10px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    margin-right: 10%;
+    
+}
+
+.bold {
+    font-weight: bold;
+}
