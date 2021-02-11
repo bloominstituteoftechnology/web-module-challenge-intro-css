@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body{
+    padding:10%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header{
+    width:100%;
+}
+
+header, nav a{
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    
+}
+
+.planVisit{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    border: 0px;
+    padding: 10px 35px;
+    background-color:#FF764E;
+    color:white;
+    margin: 0 auto;
+    border-radius: 25px;
+    font-size: 30px;
+   
+}
+
+.learn{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    border: 0px;
+    padding: 10px 20px;
+    background-color: #5ED3EB;
+    color: white;
+    margin:0 20%;
+    border-radius: 25px;
+    font-size: 30px;
+}
+
+.get{
+    font-family: 'Roboto Mono', monospace;
+    background-color:#FFCD69;
+    text-decoration: none;
+    border: 0px;
+    padding: 10px 35px;
+    color: white;
+    margin: 0 auto;
+    border-radius: 25px;
+    font-size: 30px;
+}
+
+
+.logo img{
+    padding: 10px 0;
+    border-radius: 50%;
+    width: 25%;
+    margin-top: 50px;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    text-align: center;
+    font-size: 80px;
+    margin-left: 15%;
+    margin-top: -22%;
+}
+.statement{
+    font-family: 'Roboto Mono', monospace;
+    text-align:center;
+    font-size: 25px;
+    margin-left: 15%;
+}
+
+.valley{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    color: white;
+    margin-top: 5%;
+    background-color:#DDB9A3;
+    padding: 1%;  
+}
+.campfire img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 2%;;
+}
+
+.campfire{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.camper img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 10%;
+    
+}
+
+.camper{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.footerPhoto img{
+    padding-top: 50px;
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+footer{
+    height:150px;
+    width: 100%;
+    background-color:#F9E7DC;
+    
+    padding-top: 25px;
+}
+
+footer,.nav a{
+    text-decoration: none;
+    text-align: center;
+}
