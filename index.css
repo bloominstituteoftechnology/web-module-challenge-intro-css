@@ -67,9 +67,10 @@ a{
     letter-spacing:3px;
     font-family:sans-serif;
     text-align:center ;
-    padding:10px;
+    padding:20px;
     margin:0 8%;
     border-radius: 10px;
+    margin-left:12%;
 }
 .link1{
     background-color: #FF764E;
@@ -112,6 +113,7 @@ a{
     width:75%;
     text-align:center;
     border:1px solid black;
+    padding:3% 0;
 
 }
 h1{
@@ -133,36 +135,26 @@ h3{
     width:100%;
     
 }
+.middle p{
+    padding:1%;
+}
 .bold{
     font-weight: bold;
 }
 
-.fire{
-    width:25%;
+.icon{
+    width:15%;
     text-align: center;
     border:1px solid black;
-    margin-left:40%;
+    margin-left:45%;
 }
-.fire-text{
+.text{
     text-align: center;
     width:30%;
     margin-left: 38%;
     font-size: 
 }
 
-.car{
-    width:25%;
-    text-align: center;
-    border:1px solid black;
-    margin-left:40%;
-    margin-top:20px;
-}
-.car-text{
-    text-align: center;
-    width:30%;
-    margin-left: 38%;
-    font-size: 
-}
 .background-image{
     width:100%;
     height:50vh;
@@ -176,5 +168,5 @@ h3{
     display:inline-block;
     width:100%;
     background-color:white;
-    padding-bottom:13%;
+    padding:4% 0 9% 0;
 }
