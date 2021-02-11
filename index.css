@@ -1,6 +1,20 @@
 nav a {
-background:#FF764E
+    
+    display:inline-block;
+
+    }
+a.nav-1 {
+    background:#FF764E;
 }
+a.nav-2 {
+    background:#5ED3EB;
+
+}
+a.nav-3 {
+    background:#FFCD69;
+}
+
+
 h1 {
     font-family: 'Chelsea Market', cursive;
 }
@@ -9,5 +23,8 @@ div{
     font-family: 'Roboto Mono', monospace;
 }
 p1 {
-    background:#DDB9A3
+    background:#DDB9A3;
+}
+footer{
+    background:#F9E7DC;
 }
