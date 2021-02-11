@@ -9,9 +9,12 @@ html{
     font-size: 62.5%;
 }
 body {
-    font-size:1.8rem;
+    font-size:1.6rem;
     line-height:1.5;
 
+}
+.button{
+    
 }
 .Guide img{
     border-radius: 50%;
@@ -87,4 +90,10 @@ body {
     text-align: center;
     margin: auto;
     font-size: 1.8rem;
+}
+.footerImg{
+    width:100%;
+    height: 
+    padding:;
+    margin:20% 0 0 0 ; 
 }
