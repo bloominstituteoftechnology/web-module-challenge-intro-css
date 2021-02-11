@@ -1,3 +1,153 @@
-body{
-    background-color:pink;
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+    font-family:
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* body{
+    background-color:pink;
+} */
+
+
+.main{
+    width:100%;
+    display:inline-block;
+    text-align:center;
+    letter-spacing: 3px;
+}
+
+nav{
+    border:solid black 1px;
+    display:inline-block;
+    width:100%;
+    /* margin:10px 0px;
+    padding:10px 20%; */
+
+}
+
+.pictureone{
+    width:25%;
+    border-radius:50%;
+}
+
+
+.yosemite{
+    margin:20px 30%;
+    line-height:15px;
+    width:30%;
+}
+
+h1{
+    font-size:150%;
+}
+
+
+.middle{
+    text-align: center;
+    font-size:1.8rem;
+    color:white;
+    background-color:#DDB9A3;
+    width:80%;
+    height:180px;
+    margin: 0 auto;
+    padding:30px 4%;
+}
+
+/* .firelogo{
+    margin-left:50%;
+} */
+
+
+.logos{
+    background-color:purple;
+    margin:0 auto;
+    width:80%;
+    
+}
+
+.logos p{
+    background-color:blue;
+    text-align: center;
+    font-size:1.2rem;
+    width:60%;
+    height:50%
+    
+}
+
+.campfire{
+    width:250px;
+    background-color:red;
+    margin:70px auto;
+}
+
+.rv{
+    width:250px;
+    
+}
+
+
+
+
+
+
+
+footer {
+    width:97%;
+    background-color:#F9E7DC;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+    box-sizing:border-box;
+
+}
+
+.boxes{
+    border:solid 1px black;
+    width:30px;
+    height:30px;
+}
+
+
