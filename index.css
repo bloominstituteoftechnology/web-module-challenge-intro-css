@@ -8,25 +8,29 @@
     font-family: 'Roboto Mono', monospace;
     font-size: 100%;
 }
-
-body {
-    margin: 0 5%;
+html {
+    border-style: outset;
 }
-
+body {
+    margin: 0%;
+}
 /*  */
+
 header {
-    padding: 2% 0;
+    padding: 3% 0 5% 0;
+    width: 100%;
+    margin-left: 0%;
 }
 header nav a {
-    border: 1px solid lightgray;
-    margin: 0 9%;
-    padding: 6px 25px;
+    margin: 0 9.5%;
+    padding: 8px 25px;
     display: inline-block;
-    border-radius: 20px;
+    border-radius: 15px;
     color: white;
     background: #FF764E;
     text-align: center;
     font-size: .75rem;
+    text-decoration: none;
     
 }
 header nav a:nth-child(2) {
@@ -41,8 +45,9 @@ header nav a:nth-child(2) {
 /*  */
 
 .titles{ 
-    width: 100%;
+    width: 94%;
     padding-bottom: 3%;
+    margin: 0 3%;
 }
 .headerimage {
     display:inline-block;
@@ -51,7 +56,7 @@ header nav a:nth-child(2) {
 }
 .headerimage img {
     display:inline-block;
-    height: 220px;
+    height: 200px;
     width: auto;
     border-radius: 200px;
     border: 1px solid coral;
@@ -71,7 +76,7 @@ header nav a:nth-child(2) {
     font-weight: bold;
 }
 .alwaysopen {
-    margin: 0 15%;
+    margin: 0 20%;
     font-weight: bold;
 }
 
@@ -81,30 +86,34 @@ header nav a:nth-child(2) {
     text-align: center;
     background-color: #DDB9A3;
     color: white;
-    margin: 0%;
+    margin: 0% 3%;
+    padding: .5%;
 }
 
 /*  */
-
+.camping {
+    padding-top: 3%;
+}
 .campfire img{
     height: 150px;
     width: auto;
-    margin: 0 40%;
+    margin: 0 42.5%;
 }
 .camping p {
     text-align: center;
-    margin: 0 34%;
+    margin: 0 33%;
+    padding-bottom: 8%;
 }
 .camping span {
     font-weight: bold;
 }
 
-/*  */
+ /*  *//*  */
 
 .bus img{
     height: 150px;
     width: auto;
-    margin: 0 40%;
+    margin: 0 42.5%;
 }
 .bus p {
     text-align: center;
@@ -115,27 +124,32 @@ header nav a:nth-child(2) {
 /*  */
 
 .footerimage {
-    background-position: center;
-    width: 100%;
+    background-image: url("assets/footer_img.jpg");
     height: 20vh;
-    margin: 0%;
+    width: 100%;
+    background-position:0% 20%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 /*  */
 footer {
     margin: 0%;
-    padding-top: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #F9E7DC;
 }
 footer nav a {
-    border: 1px solid lightgray;
-    margin: 0 8%;
+    margin: 0 9%;
     padding: 6px 25px;
     display: inline-block;
-    border-radius: 20px;
+    border-radius: 15px;
     color: white;
     background: #FF764E;
     text-align: center;
     font-size: .75rem;
+    text-decoration: none;
 }
 footer nav a:nth-child(2) {
       background-color: #5ED3EB;
