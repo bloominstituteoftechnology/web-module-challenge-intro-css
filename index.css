@@ -1,67 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 *{
     box-sizing: border-box;
     border: 1px solid black;
     max-width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 100%;
+}
+
+body {
+    margin: 0 5%;
+}
+
+/*  */
+header {
+    padding: 2% 0;
 }
 header nav a {
-    margin: 0 12%;
     border: 1px solid lightgray;
-    padding: 20px;
+    margin: 0 9%;
+    padding: 6px 25px;
     display: inline-block;
     border-radius: 20px;
     color: white;
     background: #FF764E;
-  }
-  header nav a:nth-child(2) {
-      background-color: #5ED3EB;
-  }
-  header nav a:nth-child(3) {
+    text-align: center;
+    font-size: .75rem;
+    
+}
+header nav a:nth-child(2) {
+    background-color: #5ED3EB;
+    text-align: center;
+}
+ header nav a:nth-child(3) {
     background-color: #FFCD69;
-  }
+    text-align: center;
+}
 
-  .headerimage{
+/*  */
+
+.titles{ 
+    width: 100%;
+    padding-bottom: 3%;
+}
+.headerimage {
     display:inline-block;
-  }
-  .headerimage img {
+    width: auto;
+    margin:  0 0 0 5%;
+}
+.headerimage img {
     display:inline-block;
-    height: 200px;
+    height: 220px;
     width: auto;
     border-radius: 200px;
     border: 1px solid coral;
-  }
-  .yosemitetitle {
+}
+.yosemitetitle {
       display:inline-block;
       text-align: center;
-      width: 50%;
-      margin: 0 auto;
-  }
+      width: 60%;
+      margin: 0% 0% 0% 5%;
+}
+.titles h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 2.5rem;
+    padding: 1%;
+}
+.titles p {
+    font-weight: bold;
+}
+.alwaysopen {
+    margin: 0 15%;
+    font-weight: bold;
+}
+
+/*  */
+
+.firevalley {
+    text-align: center;
+    background-color: #DDB9A3;
+    color: white;
+    margin: 0%;
+}
+
+/*  */
 
 .campfire img{
-    height: 200px;
+    height: 150px;
     width: auto;
-    margin: 0 45%;
+    margin: 0 40%;
 }
+.camping p {
+    text-align: center;
+    margin: 0 34%;
+}
+.camping span {
+    font-weight: bold;
+}
+
+/*  */
+
 .bus img{
-    height: 200px;
+    height: 150px;
     width: auto;
-    margin: 0 45%;
+    margin: 0 40%;
 }
+.bus p {
+    text-align: center;
+}
+.bus span {
+    font-weight: bold;
+}
+/*  */
 
 .footerimage {
-
+    background-position: center;
+    width: 100%;
+    height: 20vh;
+    margin: 0%;
 }
 
+/*  */
+footer {
+    margin: 0%;
+    padding-top: 2%;
+}
 footer nav a {
-    margin: 0 12%;
     border: 1px solid lightgray;
-    padding: 20px;
+    margin: 0 8%;
+    padding: 6px 25px;
     display: inline-block;
     border-radius: 20px;
     color: white;
     background: #FF764E;
-  }
+    text-align: center;
+    font-size: .75rem;
+}
 footer nav a:nth-child(2) {
       background-color: #5ED3EB;
-  }
+} 
 footer nav a:nth-child(3) {
     background-color: #FFCD69;
+}
