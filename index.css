@@ -1,5 +1,14 @@
-(https://fonts.google.com/specimen/Chelsea+Market)
+*{
+    font-family: 'Chelsea Market', cursive;    
+}
 
+html{
+    font-family: 'Roboto Mono', monospace;
+}
+
+main{
+    background-color: #DDB9A3;
+}
 .plan{
     background-color: #FF764E;
 }
@@ -10,4 +19,8 @@
 
 .get{
     background-color: #FFCD69;
+}
+
+footer{
+    background-color: #F9E7DC;
 }
