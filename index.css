@@ -1,0 +1,55 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+
+img {
+  height: 100px;
+}
+
+.icon {
+  height: 100px;
+  display: inline-block;
+  width: 100%;
+}
+
+.plan {
+  background-color: #FF764E;
+  padding: 10px;
+  margin: 100px;
+  border: 1px #FF764E;
+  border-radius: 10px;
+}
+.learn {
+  background-color: #5ED3EB;
+  padding: 10px;
+  margin: 100px;
+  border: 1px #5ED3EB;
+  border-radius: 10px;
+}
+
+.get {
+  background-color: #FFCD69;
+  padding: 10px;
+  margin: 100px;
+  border: 1px #FFCD69;
+  border-radius: 10px;
+}
+
+main {
+  background-color: #DDB9A3;
+}
+
+footer {
+  background-color: #F9E7DC;
+}
+
+nav {
+  border: 40px solid white;
+  
+  
+}
+
