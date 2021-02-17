@@ -254,6 +254,10 @@ nav .three {
 	font-weight: bold;
 }
 
+footer {
+	background-color: #f9e7dc;
+}
+
 footer img {
 	height: 40vh;
 	width: 100%;
