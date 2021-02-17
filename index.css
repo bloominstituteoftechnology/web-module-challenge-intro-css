@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 /* CSS reset */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -21,8 +24,8 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
+    font-size: 100%;
+    font-family: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -51,18 +54,31 @@ table {
 
 /* start of the CSS */
 
-* {}
+body {
+    font-family: "Roboto Mono", sans-serif;
+}
 
-html {}
+#title {
+    font-family: "Chelsea Market", sans-serif;
+    font-size: 60px;
+}
+
+.description {
+    background-color: #DDB9A3;
+    color: white;
+}
 
 #option1 {
     background-color: #FF764E;
+    color: white;
 }
 
 #option2 {
     background-color: #5ED3EB;
+    color: white;
 }
 
 #option3 {
     background-color: #FFCD69;
+    color: white;
 }
