@@ -5,31 +5,41 @@
 
     
   <!-- Link your CSS stylesheet -->
-    <link rel="stylesheet" href="index.css">   
+    <link rel="stylesheet" href="/index.css"/>   
   </head>
 
   <body>
-    <header id="home">
-      <div class ="links">
-        <a href="Plan">Plan your Visit</a> 
-        <a href="Learn">Learn about the Park</a>
-        <a href="Get">Get Involved</a>
-      </div>
-    </header>
+    <header>
+      <nav>
+        <div class ="links">
+          <div class="Plan">  
+            <a href="#Plan">Plan your Visit</a> 
+          </div>  
+          <div class="Learn">
+            <a href="#Learn" id="Learn">Learn about the Park</a>
+          </div>
+          <div class ="Get">
+            <a href="#Get">Get Involved</a>
+          </div>  
+        </div>
+      </nav>
+   
     
-    <div class ="Parksite"> 
-      <img src="assets/header_img.jpg">
-    </div>
-      
+      <div class ="Parksite"> 
+        <img src="assets/header_img.jpg" alt id="Park">
+      </div>
+    </header>  
+    
     <div class ="Title">
       <h1>Yosemite Park Guide</h1>
     </div>
 
     <section id="always-open"> 
-      <div class="container"></div>  
-        <h2>Come explore California’s beautiful wilderness.</h2> 
-        <p>Always open.</p>
-        <p>Reservations are not available or required to enter the park.</p>
+      <div class="container"> 
+        <h2>Come explore California’s beautiful wilderness. 
+          <p>Always open.</p>
+          <p>Reservations are not available or required to enter the park.</p>
+        </h2>  
       </div>
     </section>
       
@@ -42,27 +52,36 @@
 
         
     <div class="fire">
-      <img src="https://image.flaticon.com/icons/svg/2979/2979348.svg">
+      <img src="https://image.flaticon.com/icons/svg/2979/2979348.svg" id="fire">
           <h4>
             Fire is a natural and essential part of Yosemite.<br>
             We manage fire carefully and study how it interacts with the park’s ecosystems. </p>
           </h4>
-          <h5>This <span>blog</span> provides updates about fires in Yosemite. Check for current fire restrictions.</h5>
+          <h5>This blog provides updates about fires in Yosemite. Check for <span>current fire restrictions</span>.</h5>
     </div>
 
     <div class="staying">
       <img src="https://image.flaticon.com/icons/svg/820/820374.svg">
 
-      We strongly recommend that you make reservations for lodging, camping, and backpacking.<br>
-      You can pay the park entrance fee upon arrival (there's no need to pay it in advance).
+      <h4>We strongly recommend that you make reservations for lodging, camping, and backpacking.</h4>
+      <h5>You can pay the <span>park entrance fee</span> upon arrival (there's no need to pay it in advance).</h5>
     </div>
-      <img src="assets/footer_img.jpg"/>
-      
-    <div class="navigation">
-        <button>Plan your Visit</button>
-        <button>Learn about the Park</button>
-        <button>Get Involved</button>
-    </div>
-        
+      <img src="assets/footer_img.jpg" alt id="mountains"/>
   </body>
+  <footer>
+    <nav>
+      <div class="navigation">
+        <div class ="links">
+          <div class="Plan">  
+            <a href="#Plan">Plan your Visit</a> 
+          </div>  
+          <div class="Learn">
+            <a href="#Learn" id="Learn">Learn about the Park</a>
+          </div>
+          <div class ="Get">
+            <a href="#Get">Get Involved</a>
+          </div>  
+      </div>
+    </nav>  
+  </footer>    
 </html>
