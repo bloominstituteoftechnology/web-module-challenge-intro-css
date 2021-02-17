@@ -1,0 +1,108 @@
+/* html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+html{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%
+}
+
+nav .one {
+    background-color:#FF764E;
+    display:inline-block;
+    text-align: center;
+    border-radius: 15%;
+    padding:1vw 1vh;
+    margin-right: 5vw;
+    color:white;
+}
+nav .two {
+    background-color:#5ED3EB;
+    display:inline-block;
+    text-align: center;
+    border-radius: 15%;
+    padding:1vw 1vh; 
+    margin-right: 5vw;
+    color: white;
+}
+nav .three{
+    background-color:#FFCD69;
+    display:inline-block;
+    text-align: center;
+    border-radius: 15%;
+    padding:1vw 1vh;
+    color:white;
+}
+
+header{
+    display:flex;
+    
+}
+    
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    display:flex;
+    position: relative;
+    text-align: right;
+}
+header h1 p{
+    display: flex;
+    position:relative;
+}
+ header img{
+    display:flexbox;
+    border-radius: 50%;
+    height:15%;
+    width:15%;
+    margin: 0%;
+    text-align: left;
+}
+
+.section1{
+    background-color: #DDB9A3;
+    color: white
+}
+
+footer{
+    background-color: #F9E7DC
+}
+span{
+    font-weight: bold;
+    
+}
+.section2{
+    margin-left: 25%;
+    margin-right:25%
+}
+.section2 img{
+height: 25%;
+width:25%;
+border-radius: 0;
+}
+footer img{
+   width:100%;
+   height:auto;
+}
