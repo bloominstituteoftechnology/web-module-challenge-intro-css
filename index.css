@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+/*
+font-family: 'Roboto Mono', monospace;
+font-family: 'Chelsea Market', cursive;
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	margin-left: 12%;
+	margin-right: 12%;
+	font-family: 'Roboto Mono', monospace;
+	
+	
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.links {
+	height: 20%;
+	text-align: center;
+
+}
+
+.links a{
+	margin: 0 auto;
+	text-align: center;
+	font-size: .55rem;
+	width: 50px;
+	height: 10%;
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    background: #F87B99;
+	
+}
+
+
+header .title-container {
+	text-align: center;
+
+}
+
+header .title-container h1 {
+	font-family: 'Chelsea Market', cursive;
+	display: inline;
+	font-size: 1.5rem;
+	margin-bottom: 20%;
+}
+
+header .title-container p {
+	padding-left: 25%;
+	font-size: .5rem;
+}
+
+header .title-container img {
+	margin-left: 5%;
+	display: inline-block;
+	position: relative;
+	
+}
+
+header nav {
+	text-align: center;
+	margin-bottom: 3%;
+}
+ 
+footer {
+	margin-bottom: 4%;
+	background: #F9E7DC;
+}
+
+footer .footer_top {}
+
+#yosemitephoto {
+	width:25%;
+	height: auto;
+	border-radius: 50%;
+	display: block;
+
+	
+}
+
+#bottom_photo {
+	width:50%;
+	height: 100%;
+}
+
+#about {
+	margin: 4%;
+	padding: 1%;
+	background-color: #DDB9A3;
+	color: white;
+	text-align: center;
+	font-size: .5rem;
+}
+
+#about div{
+	background: DDB9A3;
+}
+
+
+#clipart div p{
+	font-size: .4rem;
+	margin: 0 40% 2% 40%;
+	text-align: center;
+	
+
+}
+
+#clipart img{
+	display: block;
+	width: 8%;
+	height: auto;
+	margin: auto;
+}
+
+#bottom_photo {
+	width: 100%;
+	height: 100px;
+	object-fit: fill;
+	
+}
+
