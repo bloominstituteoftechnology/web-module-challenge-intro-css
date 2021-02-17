@@ -23,6 +23,7 @@ span {
 }
 
 .navbar a {
+    display: flex;
     color: white;
     margin: 3rem;
     text-decoration: none;
@@ -81,8 +82,9 @@ header {
     font-size: 1.5rem;
     width: 50%;    
     height: auto;
-    margin-right: 15rem;
-    margin-left: 5rem;
+    justify-content: flex-start;
+    /* margin-right: 15rem; */
+    /* margin-left: 5rem; */
 }
 
 .text-content p {
