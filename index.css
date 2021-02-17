@@ -60,12 +60,16 @@ body {
 
 #title {
     font-family: "Chelsea Market", sans-serif;
-    font-size: 60px;
+    font-size: 3rem;
 }
 
 .description {
     background-color: #DDB9A3;
     color: white;
+}
+
+.sections span {
+    font-weight: bolder;
 }
 
 #option1 {
