@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+html {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+	font-size: 2.5rem;
+	line-height: 2.5rem;
+	text-align: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+.navbar {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+
+.navbar a {
+    color: white;
+    margin: 3rem;
+    text-decoration: none;
+
+}
+
+.navlink1 {
+    background-color: #FF764E;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.navlink1:hover {
+    background-color: grey;
+}
+
+.navlink2 {
+    background-color: #5ED3EB;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.navlink2:hover {
+    background-color: grey;
+}
+
+.navlink3 {
+    background-color: #FFCD69;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.navlink3:hover {
+    background-color: grey;
+}
+
+header img {
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+    margin-top: -1rem;
+    align-self: center;
+    margin-left: 5rem;
+}
+
+header {
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 50%;    
+    height: auto;
+    margin-right: 15rem;
+    margin-left: 5rem;
+}
+
+.text-content p {
+    text-align: center;
+}
+
+.first-section {
+    background-color: #DDB9A3;
+    color: white;
+    text-align: center;
+    margin: 5rem;
+    padding: 2rem;
+}
+
+.first-section img {
+    height: 10rem;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    margin-bottom: 10rem;
+}
+
+.second-section img {
+    height: 10rem;
+}
+
+footer img {
+    height: 20rem;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-nav {
+    margin: 3rem;
+    display:flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.footerlink1 {
+    background-color: #FF764E;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.footerlink1:hover {
+    background-color: grey;
+}
+
+.footerlink2 {
+    background-color: #5ED3EB;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.footerlink2:hover {
+    background-color: grey;
+}
+
+.footerlink3 {
+    background-color: #FFCD69;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.footerlink3:hover {
+    background-color: grey;
+}
+
