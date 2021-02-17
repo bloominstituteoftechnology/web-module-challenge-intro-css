@@ -134,7 +134,7 @@ table {
 
 body {
 	font-family: 'Chelsea Market', Times;
-	color: red;
+	color: black;
 }
 
 nav a {
@@ -165,4 +165,89 @@ nav .three {
 	color: white;
 	padding: 1%;
 	margin: 0 15%;
+}
+
+.explore {
+	display: inline-block;
+	width: 100%;
+	margin: 2%;
+	vertical-align: middle;
+}
+
+.explore img {
+	width: 30%;
+	height: auto;
+	display: inline-block;
+	border-radius: 200px;
+}
+
+.explore div {
+	width: 60%;
+	display: inline-block;
+	text-align: center;
+	line-height: 1.5rem;
+}
+
+.explore div h2 {
+	font-size: 2.5rem;
+	padding: 2%;
+	margin: 2%;
+}
+
+.explore div p {
+	margin: 2%;
+	padding: 2%;
+}
+
+.facts {
+	text-align: center;
+	background-color: #ddb9a3;
+	color: white;
+	padding: 2%;
+	margin: 1%;
+}
+
+.facts p {
+	margin: 1%;
+	line-height: 1.2rem;
+}
+
+.iconFire {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.iconFire img {
+	width: 20vh;
+	height: auto;
+}
+
+.iconFire p {
+	padding: 5%;
+	margin: 0 15%;
+}
+
+.bold {
+	font-weight: 100;
+}
+
+.iconTruck {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.iconTruck img {
+	width: 20vh;
+	height: auto;
+}
+
+.iconTruck p {
+	padding: 5%;
+	margin: 0 15%;
+}
+
+footer img {
+	height: 40vh;
+	width: 100%;
+	padding: 0;
 }
