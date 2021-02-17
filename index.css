@@ -1,9 +1,23 @@
 *{
-    font-family: 'Chelsea Market', cursive;    
-}
+    font-family: 'Chelsea Market', cursive; 
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;
+    }
 
 html{
     font-family: 'Roboto Mono', monospace;
+}
+
+header img{
+    border: radius 50%;
+    display: inline-block;
+    width: 20%;
+    margin: 0 2%;
+}
+
+nav{
+    border-radius: 15px;
 }
 
 main{
@@ -23,4 +37,10 @@ main{
 
 footer{
     background-color: #F9E7DC;
+    border-radius: 15px;
+}
+
+footer img{
+   text-align: center;
+
 }
