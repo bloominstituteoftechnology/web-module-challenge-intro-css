@@ -133,7 +133,7 @@ table {
 }
 
 body {
-	font-family: 'Chelsea Market', Times;
+	font-family: 'Roboto', Times;
 	color: black;
 }
 
@@ -189,14 +189,17 @@ nav .three {
 }
 
 .explore div h2 {
-	font-size: 2.5rem;
+	font-size: 3rem;
 	padding: 2%;
-	margin: 2%;
+	margin-bottom: 8%;
+	font-family: 'Chelsea Market';
 }
 
 .explore div p {
 	margin: 2%;
+	margin-bottom: 5%;
 	padding: 2%;
+	font-size: 1.6rem;
 }
 
 .facts {
@@ -210,6 +213,7 @@ nav .three {
 .facts p {
 	margin: 1%;
 	line-height: 1.2rem;
+	letter-spacing: 2px;
 }
 
 .iconFire {
@@ -227,8 +231,8 @@ nav .three {
 	margin: 0 15%;
 }
 
-.bold {
-	font-weight: 100;
+.iconFire .bold {
+	font-weight: bold;
 }
 
 .iconTruck {
@@ -244,6 +248,10 @@ nav .three {
 .iconTruck p {
 	padding: 5%;
 	margin: 0 15%;
+}
+
+.iconTruck .bold {
+	font-weight: bold;
 }
 
 footer img {
