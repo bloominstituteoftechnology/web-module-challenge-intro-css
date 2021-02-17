@@ -49,3 +49,20 @@ table {
 	border-spacing: 0;
 }
 
+/* start of the CSS */
+
+* {}
+
+html {}
+
+#option1 {
+    background-color: #FF764E;
+}
+
+#option2 {
+    background-color: #5ED3EB;
+}
+
+#option3 {
+    background-color: #FFCD69;
+}
