@@ -1,0 +1,275 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/* Universal */
+html {
+    font-size: 62.5%;
+}
+
+.under-banner {
+    margin: 0 30px;
+}
+
+/* Covid Banner */
+.covid-banner {
+    height: 130px;
+    background-color: maroon;
+}
+
+.covid-banner .covid-banner-text {
+    padding: 20px 200px;
+    color: white;
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header styling */
+.black-bar {
+    height: 50px;
+    background-color: black;
+}
+
+.header {
+    position: relative;
+    background-image: url("assets/header_img.jpg");
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#overlay {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+#text-1 {
+    display: inline-block;
+    color: white;
+    font-size: 3rem;
+    margin: 25px 0 25px 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#text-2 {
+    display: inline-block;
+    color: white;
+    font-size: 0.5rem;
+    margin: 0 0 25px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Stylings above were done because of confusion on instructions... haha */
+/* Correct assignment stylings */
+
+#inline-button-block {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.inline {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.inline-buttons {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button-1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 70px;
+    background-color:#ff764e;   
+    border-radius: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    color: white;
+    font-size: 2.3rem;
+    width: 200px;
+}
+
+#button-2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 70px;
+    background-color:#5ED3EB;
+    border-radius: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    color: white;
+    font-size: 2.3rem;
+    width: 200px;
+}
+
+#button-3 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 70px;
+    background-color:#FFCD69;
+    border-radius: 10px; 
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    color: white;
+    font-size: 2.3rem; 
+    width: 200px;
+}
+
+.inline-image-block {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inline-text-block {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#title {
+    font-size: 7rem;
+    font-family: 'Chelsea Market', cursive;
+}
+
+#sub-title {
+    font-size: 3rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+}
+
+#main-text-body {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+    margin: 0;
+    margin-top: 50px;
+    height: 170px;
+    background-color: #DDB9A3;
+    color: white;
+    font-size: 2.4rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+}
+
+.center {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.center img {
+    height: 150px;
+    width: 150px;
+    border-radius: 0;
+}
+
+.text {
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    margin-left: 35%;
+    margin-right: 35%
+}
+
+#bold {
+    font-weight: 500;
+}
+
+img#footer-image {
+    margin: 100px 0 0 0;
+    height: 400px;
+    width: 100%;
+    border-radius: 0;
+}
+
+#inline-button-block-bottom {
+    background-color: #F9E7DC;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
