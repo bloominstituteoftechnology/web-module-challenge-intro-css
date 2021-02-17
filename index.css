@@ -27,7 +27,6 @@ span {
     color: white;
     margin: 3rem;
     text-decoration: none;
-
 }
 
 .navlink1 {
@@ -64,14 +63,15 @@ header img {
     border-radius: 50%;
     height: 20rem;
     width: 20rem;
-    margin-top: -1rem;
+    margin-top: 1rem;
     align-self: center;
-    margin-left: 5rem;
+    margin-left: 2rem;
 }
 
 header {
-    display:flex;
+    display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 
@@ -82,7 +82,7 @@ header {
     font-size: 1.5rem;
     width: 50%;    
     height: auto;
-    justify-content: flex-start;
+    justify-content: center;
     /* margin-right: 15rem; */
     /* margin-left: 5rem; */
 }
@@ -128,8 +128,8 @@ footer a {
 }
 
 .footer-nav {
+    display: flex;
     margin: 3rem;
-    display:flex;
     justify-content: space-around;
     text-decoration: none;
 }
