@@ -54,39 +54,115 @@ table {
 
 /* start of the CSS */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto Mono", sans-serif;
+}
+
+header {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem 2rem;
+    margin: 0 4rem;
+    border-radius: 0.7rem;
+}
+
+.intro {
+    text-align: center;
+}
+
+.header_image img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 15rem;
+    margin: 2rem 2rem;
+}
+
+.header_image {
+    display: inline-block;
+}
+
+.header_text {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 4rem;
 }
 
 #title {
     font-family: "Chelsea Market", sans-serif;
     font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.header_text p {
+    padding-bottom: 2rem;
 }
 
 .description {
     background-color: #DDB9A3;
     color: white;
+    padding: 1rem 1rem;
+    margin: 1rem 4rem;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.sections {
+    text-align: center;
+    margin: 2rem 35% 0 35%;
+}
+
+.sections p {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 .sections span {
     font-weight: bolder;
 }
 
+.sections img {
+    width: 10rem;
+    height: 10rem;
+}
+
 #option1 {
     background-color: #FF764E;
-    color: white;
 }
 
 #option2 {
     background-color: #5ED3EB;
-    color: white;
 }
 
 #option3 {
     background-color: #FFCD69;
-    color: white;
+}
+
+.footer_image img {
+    width: 100%;
+    margin-top: 4rem;
+    height: 15rem;
+}
+
+.footer_nav a {
 }
 
 footer {
     background-color: #F9E7DC;
+    padding-bottom: 5%;
+    width: 100%;
+    height: 10rem;
 }
