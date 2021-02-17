@@ -1,20 +1,8 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 *{
     font-family: 'Roboto Mono';
-}
-.nav{
-    width: 100%;
-    display: inline;
-}
-.nav ul li{
-    display: inline-flex;
-    width: 110px;
-    color: white;
-    border-radius: 15px;
-    padding: 10px;
-    text-align: center;
-    background-position: center;
 }
 .plan{
     background-color: #FF764E;
@@ -25,19 +13,63 @@
 .involved{
     background-color: #FFCD69;
 }
-.feature{
+header{
     width: 100%;
-    display: block;
-}
-.feature img{
-    width: 25%;
     padding: 0;
+    margin: 0;
+}
+ul{
+    width: auto;
+    display:inline-block;
+    margin: auto;
+}
+ul li{
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+    width: 115px;
+    color: white;
+    display: inline-block;
+}
+div.feature{
+    padding:0;
+    margin:0;
+}
+div.feature img{
+    margin-top: 25px;
+    width: 15%;
+    display: inline-block;
     border-radius: 100%;
 }
 .feature-content{
-    width: auto;
-    padding: 0;
+    width: 50%; 
+    display: inline-block;
+    padding-bottom: 25px;
+    text-align: center;
 }
-h1{
-    font-family: 'Roboto Mono';
+div.main{
+    background-color: #DDB9A3;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    margin: 10px;
+}
+div.small-section{
+    width: 33%;
+    margin: auto;
+    text-align: center;
+}
+div.small-section img{
+    width: 75%;
+}
+footer{
+    background-color: #F9E7DC;
+}
+footer img{
+    width: 100%;
+    margin: 0;
+    height:150px
+}
+footer nav ul {
+    width: auto;
 }
