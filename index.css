@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-/*
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -50,8 +50,9 @@ table {
 }
 
 */
- * {
-    border: 10px solid red;
+
+div {
+    /* border: 10px solid red; */
  }
  
 
@@ -81,34 +82,42 @@ h5 span {
 }
 
  header {
-    font: inline;
-    
+    /* font: inline; */
+
+}
+
+nav {
+    float: left;
+    margin: 2rem;
 }
 
  nav .Plan {
     background-color: #FF764E;
-    font-size: 3rem;
+    font-size: 2rem;
+    padding: 2rem;
 }
 
 nav .Learn {
     background-color: #5ED3EB;
     font-size: 2rem;
+    padding: 2rem;
+
 }
 
 nav .Get {
     background-color: #FFCD69;
     font-size: 1.75rem;
+    padding: 2rem;
+
 }
 
-.staying {
-    font-size: 2rem;
-}
 
 .links {
 
     width: 100%;
-    display: inline-block;
+    display: flex;
     font-weight: bold;
+    /* float: left; */
 }
 
 .Parksite {
@@ -139,6 +148,37 @@ h1 {
   border: black;
 }
 
-#fire {
-    margin: auto;
+.iconContainer {
+    margin: 10em;
+    width:25%;
+    height:25%;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    padding: 50px;
+    border-radius: 40px;
+    margin-left: 50px;
+    text-align: center;
+    color: grey;
+    font-size: 2em;
+
+}
+ .icon {
+     border-width: 10px;
+     border-color: orange;
+     border-style: solid;
+     margin-left: 150px;
+     border-radius: 75px;
+     padding: 30px;
+     margin-bottom: 30px;
+ }
+
+#Park {
+    width: 25%;
+    
+}
+
+#stay {
+  float: right;
+  margin-left: 1000px
 }
