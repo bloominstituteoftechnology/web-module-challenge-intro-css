@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.links {
+  display: block;
+  /* width: 100%; */
+   height: 200px; 
+  margin: 0 5%;
+  text-align: center; 
+}
+
+.button {
+ /*   display: inline; */
+    width: 12%;
+   height: 60px;
+    margin: 3% 10% 3% 10%;
+  border: none;
+    border-radius: 8px;
+   font-family: 'Roboto Mono', monospace;
+  color: white;
+    font-size: 1rem;
+}
+
+.pyv {
+  background-color: #FF754E;
+}
+
+.latp {
+  background-color: #5FD3EC;
+}
+
+.gi {
+  background-color: #FFCD6A;
+}
+
+.header-text {
+  width: 50%;
+  display: inline-block;
+}
+
+#header-img {
+  border-radius: 50%;
+  display: inline-block;  
+  padding: 0px 100px;
+}
+
+#h1 {
+font-family: 'Chelsea Market' ;
+  font-size: 3.8rem;
+  text-align: center;
+}
+
+.header-text p {
+  text-align: center;
+/*   margin: 0% 0% 10% 0%; */
+  
+}
+
+.header-subtext {
+   font-family: 'Roboto Mono', monospace;
+}
+
+.body-text {
+  background-color: #DDB9A3;
+  width: 100%;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  margin: 4% 0%;
+/*   border: 50px 0%; */
+  padding: 2% 0%;
+}
+
+.fire {
+  text-align: center;
+  padding: 50px 400px;
+  margin-bottom: 0;
+}
+
+.rv {
+  text-align: center;
+   padding: 50px 400px;
+}
+
+.footer {
+  background-color: #F9E7DD;
+}
+
+
+
+.copyright {
+  text-align: center;
+}
+
