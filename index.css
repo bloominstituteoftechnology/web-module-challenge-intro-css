@@ -1,0 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+.about {
+    margin-top: 1rem;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container nav a {
+    margin:  1rem;
+    border: 0.5rem solid;
+    padding: 1rem;
+    display: inline-block;
+    border-radius: 1.5rem;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+  a.book {
+      background: #FF764E;
+      font-family: 'Roboto Mono', monospace;
+      width: 20%; 
+      height: 50%;
+      text-align: center;
+  }
+
+  a.novel {
+      background: #5ED3EB;
+      font-family: 'Roboto Mono', monospace;
+      width: 20%; 
+      height: 50%;
+      text-align: center;
+  }
+
+  a.read {
+      background: #FFCD69;
+      font-family: 'Roboto Mono', monospace;
+      width: 20%; 
+      height: 50%;
+      text-align: center;
+  }
+
+  .about img{
+      border-radius: 50%;
+      max-width: 100%;
+      height: auto;
+  }
+
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+
+  img {
+      max-width: 100%;
+  }
+
+  .senku {
+      flex-basis: 40%;
+  }
+
+  .dazai {
+    font-size: 2rem;
+    padding-left: 2rem;
+    margin: 1rem;
+  }
+
+  h1 {
+      margin: 1rem;
+      font-size: 2.9rem;
+      font-family: 'Chelsea Market', cursive;
+      text-align: left;
+      margin-bottom: 1.5rem;
+      margin-left: 0rem;
+      margin-top: 1.5rem;
+  }
+
+  h2 {
+      margin: 1rem;
+      font-size: 1rem;
+      text-align: center;
+      margin-bottom: 1.5rem;
+  }
+
+  .dazai p {
+      margin: 1rem;
+      font-size: 1rem;
+      text-align: center;
+      padding-left: 10%;
+      padding-right: 10%;
+  }
+
+  .info {
+      background-color: #DDB9A3;
+      text-align: center;
+      margin: 1rem;
+      color: white;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      width: 100%;
+      padding-right: 2%;
+      padding-left: .5%;
+  }
+
+  .info p {
+      margin: .5rem;
+      width: 100%; 
+      height: 30%;
+  }
+
+.look img {
+    max-width: 10%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+}
+
+.look p{
+    height: 20%;
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3rem;
+}
+
+
+.ereh {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F9E7DC;
+}
+
+a.aot {
+    background: #FF764E;
+    font-family: 'Roboto Mono', monospace;
+    width: 20%; 
+    height: 50%;
+    text-align: center;
+}
+
+a.manga {
+    background: #5ED3EB;
+    font-family: 'Roboto Mono', monospace;
+    width: 20%; 
+    height: 50%;
+    text-align: center;
+}
+
+a.goat {
+    background: #FFCD69;
+    font-family: 'Roboto Mono', monospace;
+    width: 20%; 
+    height: 50%;
+    text-align: center;
+}
