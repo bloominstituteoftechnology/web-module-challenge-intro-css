@@ -1,5 +1,14 @@
 /* GLOBAL */
 
+
+/* FONTS */
+
+
+/* font-family: 'Chelsea Market',
+cursive;
+font-family: 'Roboto Mono',
+monospace; */
+
 * {
     border: 1px solid lightgray;
 }
@@ -23,9 +32,26 @@ h6 {
     letter-spacing: 3px;
 }
 
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 4rem;
+    margin-bottom: 3%;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+p,
+button {
+    font-family: 'Roboto Mono', monospace;
+}
+
 section {
     padding: 4% 0;
-    width: 50%;
+    width: 80%;
+    margin: 0 auto;
 }
 
 a {
@@ -35,6 +61,10 @@ a {
 
 
 /* HEADER */
+
+header {
+    margin: 0 auto;
+}
 
 nav {
     display: flex;
@@ -61,6 +91,22 @@ button {
 
 .yellow {
     background-color: yellow;
+}
+
+header img {
+    width: 175px;
+    height: 175px;
+    border-radius: 100%;
+}
+
+.slogan {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slogan div {
+    width: 70%;
+    margin: 5%;
 }
 
 
