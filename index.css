@@ -86,15 +86,15 @@ button {
 }
 
 .orange {
-    background-color: orange;
+    background-color: #FF764E;
 }
 
 .blue {
-    background-color: blue;
+    background-color: #5ED3EB;
 }
 
 .yellow {
-    background-color: yellow;
+    background-color: #FFCD69;
 }
 
 header img {
@@ -147,6 +147,7 @@ header img {
 
 footer {
     background-color: #F9E7DC;
+    padding-bottom: 5%;
 }
 
 footer div {
