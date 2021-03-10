@@ -116,18 +116,41 @@ header img {
 
 /* INTRO */
 
-#intro {
+.intro {
     background-color: #DDB9A3;
     color: white;
     padding: 3%;
 }
 
-#intro p {
+.intro p {
     opacity: 0.9;
 }
 
 
 /* ICONS */
 
+.icons img {
+    width: 50px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 1%;
+}
+
+.icons p {
+    margin-bottom: 3%;
+}
+
 
 /* FOOTER */
+
+footer {
+    background-color: #F9E7DC;
+}
+
+footer div {
+    height: 200px;
+    width: 100%;
+    background-image: url("./assets/footer_img.jpg");
+    background-size: cover;
+    background-position: center;
+}
