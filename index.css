@@ -58,11 +58,6 @@ section {
     margin: 0 auto;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
 
 /* HEADER */
 
@@ -79,23 +74,41 @@ nav {
 }
 
 button {
+    text-decoration: none;
+    color: white;
     width: 125px;
     height: 50px;
     border: 0;
     border-radius: 1.3rem;
     margin: 10px;
+    cursor: pointer;
 }
 
 .orange {
     background-color: #FF764E;
 }
 
+.orange:hover {
+    background-color: #d76442;
+    transition: background-color 0.5s;
+}
+
 .blue {
     background-color: #5ED3EB;
 }
 
+.blue:hover {
+    background-color: #53b3c6;
+    transition: background-color 0.5s;
+}
+
 .yellow {
     background-color: #FFCD69;
+}
+
+.yellow:hover {
+    background-color: #dcb15b;
+    transition: background-color 0.5s;
 }
 
 header img {
