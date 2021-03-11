@@ -73,9 +73,9 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 80%;
     height: 10%;
-    margin: 20px 0;
+    margin: 20px auto;
 }
 
 button {
@@ -83,6 +83,7 @@ button {
     height: 50px;
     border: 0;
     border-radius: 1.3rem;
+    margin: 10px;
 }
 
 .orange {
@@ -98,8 +99,10 @@ button {
 }
 
 header img {
-    width: 175px;
-    height: 175px;
+    min-width: 225px;
+    min-height: 225px;
+    width: 20%;
+    height: 20%;
     border-radius: 100%;
 }
 
@@ -113,13 +116,18 @@ header img {
     margin: 5%;
 }
 
+.slogan div p:last-child {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
 
 /* INTRO */
 
 .intro {
     background-color: #DDB9A3;
     color: white;
-    padding: 3%;
+    padding: 2% 3% 4% 3%;
 }
 
 .intro p {
