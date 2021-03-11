@@ -53,7 +53,12 @@ table {
 }
 
 .Main {
+  border-left: 5px solid #F9E7DC;
+  border-right: 5px solid #F9E7DC;
+  text-align: center;
   width: 100%;
+  max-width: 1500px;
+  margin: auto;
   font-family: 'Roboto Mono', monospace;
   font-weight: normal;
 }
@@ -71,13 +76,13 @@ a:link, a:visited {
 }
 
 .Nav {
-  margin: 0 100px;
+  margin: 0 250px;
 }
 
 .Nav a {
   text-transform: capitalize;
   font-weight: bold;
-  font-size: 12.5px;
+  font-size: 25px;
   display: inline-block;
   padding: 25px;
 }
@@ -119,7 +124,8 @@ a:link, a:visited {
 
 .Body {
   background-color: #DDB9A3;
-  margin: 0 100px;
+  margin: 0 250px;
+  font-size: 25px;
 }
 
 #Header {
@@ -290,7 +296,7 @@ button:hover {
 .Footer button {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 12.5px;
   color: #FFFFFF;
   margin-left: -25px;
   margin-right: 25px;
@@ -302,7 +308,6 @@ button:hover {
 }
 
 #Button-1 {
-  margin-left: 75px;
   background-color: #FF764E;
   transition: var(--Smooth);
 }
