@@ -1,0 +1,336 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  background-color: #DDB9A3;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root {
+  --Smooth: ease-in-out 0.25s;
+}
+
+.Main {
+  width: 100%;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: normal;
+}
+
+.Top {
+  background-color: #F9E7DC;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #FFFFFF;
+}
+
+.Nav {
+  margin: 0 100px;
+}
+
+.Nav a {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 12.5px;
+  display: inline-block;
+  padding: 25px;
+}
+
+#Nav-1 {
+  margin-right: -10px;
+  background-color: #FF764E;
+  transition: var(--Smooth);
+}
+
+#Nav-2 {
+  margin-right: -11px;
+  background-color: #5ED3EB;
+  transition: var(--Smooth);
+}
+
+#Nav-3 {
+  background-color: #FFCD69;
+  transition: var(--Smooth);
+}
+
+#Nav-1:hover {
+  background-color: #808080;
+  text-shadow: 0px 0px 5px #FFFFFF;
+  transition: var(--Smooth);
+}
+
+#Nav-2:hover {
+  background-color: #808080;
+  text-shadow: 0px 0px 5px #FFFFFF;
+  transition: var(--Smooth);
+}
+
+#Nav-3:hover {
+  background-color: #808080;
+  text-shadow: 0px 0px 5px #FFFFFF;
+  transition: var(--Smooth);
+}
+
+.Body {
+  background-color: #DDB9A3;
+  margin: 0 100px;
+}
+
+#Header {
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-family: 'Chelsea Market', cursive;
+  color: #000000;
+  margin-bottom: 50px;
+  padding: 25px;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  box-shadow: 0px 0px 25px #000000;
+  transition: var(--Smooth);
+}
+
+h1:hover {
+  color: #FFFFFF;
+  background-color: #808080;
+  text-shadow: 0px 0px 5px #FFFFFF;
+  transition: var(--Smooth);
+}
+
+#Box {
+  margin-bottom: 50px;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  box-shadow: 0px 0px 25px #000000;
+  transition: var(--Smooth);
+}
+
+#Box:hover {
+  background-color: #808080;
+  transition: var(--Smooth);
+}
+
+.Para {
+  padding: 25px;
+}
+
+.Para p {
+  color: #000000;
+  transition: var(--Smooth);
+}
+
+.Para p:hover {
+  color: #FFFFFF;
+  text-shadow: 0px 0px 5px #FFFFFF;
+  transition: var(--Smooth);
+  cursor: default;
+}
+
+p + p {
+  margin-top: 25px;
+}
+
+b {
+  font-weight: bold;
+  color: #FFFFFF;
+  transition: var(--Smooth);
+}
+
+p:hover b {
+  color: #000000;
+  transition: var(--Smooth);
+}
+
+#Fire {
+  display: flex;
+  flex-direction: row;
+}
+
+#Vehicle {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.Icon {
+  border-radius: 100%;
+  width: 100%;
+  max-width: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 25px #000000;
+  transition: var(--Smooth);
+  display: flex;
+  align-items: center;
+}
+
+.Icon:hover {
+  background-color: #808080;
+  transition: var(--Smooth);
+}
+
+.Icon img {
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+  transform: scale(0.5, 0.5);
+  transition: var(--Smooth);
+}
+
+.Icon img:hover {
+  transform: scale(0.75, 0.75);
+  transition: var(--Smooth);
+}
+
+.Text {
+  display: flex;
+  align-items: center;
+}
+
+.Text p {
+  color: #000000;
+  width: 500px;
+  margin: 0 5%;
+  transition: var(--Smooth);
+}
+
+.Text p:hover {
+  color: #FFFFFF;
+  transition: var(--Smooth);
+  cursor: default;
+}
+
+.Contain {
+  overflow: hidden;
+  border: 5px solid rgba(0, 0, 0, 1);
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+  margin: 50px 0;
+  box-shadow: 0px 0px 25px #000000;
+}
+
+.Image {
+  filter: contrast(125%);
+  vertical-align: middle;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: var(--Smooth);
+}
+
+.Image:hover {
+  filter: contrast(150%);
+  transform: scale(1.25, 1.25);
+  transition: var(--Smooth);
+}
+
+button {
+  box-shadow: 0px 0px 5px #000000;
+  outline: none;
+  border-radius: 100px;
+}
+
+button:hover {
+  text-shadow: 0px 0px 5px #FFFFFF;
+}
+
+.Footer {
+  display: block;
+  background-color: #F9E7DC;
+  padding: 25px;
+  margin-top: -4px;
+}
+
+.Footer button {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  color: #FFFFFF;
+  margin-left: -25px;
+  margin-right: 25px;
+  border: 0px;
+}
+
+.Footer button {
+  padding: 10px;
+}
+
+#Button-1 {
+  margin-left: 75px;
+  background-color: #FF764E;
+  transition: var(--Smooth);
+}
+
+#Button-2 {
+  background-color: #5ED3EB;
+  transition: var(--Smooth);
+}
+
+#Button-3 {
+  background-color: #FFCD69;
+  transition: var(--Smooth);
+}
+
+#Button-1:hover {
+  color: #FFFFFF;
+  background-color: #808080;
+  transition: var(--Smooth);
+}
+
+#Button-2:hover {
+  color: #FFFFFF;
+  background-color: #808080;
+  transition: var(--Smooth);
+}
+
+#Button-3:hover {
+  color: #FFFFFF;
+  background-color: #808080;
+  transition: var(--Smooth);
+}
