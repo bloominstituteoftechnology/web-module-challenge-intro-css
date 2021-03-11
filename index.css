@@ -77,6 +77,7 @@ width: 100px;
     border-radius: 10px;
     background: #FF764E;
     transition: .2s;
+    padding: 1.5em;
 }
 .orange:hover{
     background: #ddb9a3;
@@ -87,6 +88,7 @@ width: 100px;
     border-radius: 10px;
     background: #5ED3EB;
     transition: .2s;
+    padding: 1.5em;
 }
 .blue:hover {
     background:#ddb9a3;
@@ -97,6 +99,7 @@ width: 100px;
     border-radius: 10px;
     background: #FFCD69;
     transition: .2s;
+    padding: 1.5em;
 }
 .yellow:hover {
     background: #ddb9a3;
