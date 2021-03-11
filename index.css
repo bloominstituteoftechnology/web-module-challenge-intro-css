@@ -1,16 +1,10 @@
-*{
+/* *{
     border: solid black 1px;
-}
+} */
 header{
-   
-margin: 0 10px;
-  border: 1px solid lightgray;
-  padding: 20px;
-  display: inline-block;
-  border-radius: 20px;
-  color: white;
-  text-decoration:none;
-  margin-bottom: 20px;
+    border-radius: 50%;
+    width: 150%;
+    margin: 2% 50% 0 0;
 }
 .circle{
     border-radius: 50%;
@@ -36,7 +30,11 @@ p{
     margin-right: 10em;
 }
 footer{
-    display:flex;
+    
+    border-radius: 50%;
+    width: 150%;
+    margin: 2% 50% 0 0;
+    /* display:flex;
     margin: 0 10px;
       border: 1px solid lightgray;
       padding: 20px;
@@ -45,8 +43,9 @@ footer{
       border-radius: 20px;
       color: white;
       text-decoration:none;
-      margin-bottom: 20px;
-}
+      margin-bottom: 20px;*/
+        
+} 
 img{
     width:10%
 }
@@ -71,3 +70,34 @@ width: 100px;
     margin-down: 5%;
 }
 
+
+
+.orange{
+    margin: 0 12% 0 20%;
+    border-radius: 10px;
+    background: #FF764E;
+    transition: .2s;
+}
+.orange:hover{
+    background: #ddb9a3;
+    color:#FF764E;
+}
+.blue {
+    margin: auto;
+    border-radius: 10px;
+    background: #5ED3EB;
+    transition: .2s;
+}
+.blue:hover {
+    background:#ddb9a3;
+    color: #5ED3EB;
+}
+.yellow {
+    margin: 0 20% 0 12%;
+    border-radius: 10px;
+    background: #FFCD69;
+    transition: .2s;
+}
+.yellow:hover {
+    background: #ddb9a3;
+    color: #FFCD69;
