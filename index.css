@@ -1,0 +1,181 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+ /* importing fonts link */
+ @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+
+ /* Start of my CSS */
+  
+  nav {
+      display:flex;
+      justify-content:space-between;
+      padding: 5% 10%;
+      font-family: 'Roboto Mono', monospace;
+  }
+  
+  nav a {
+      text-decoration:none;
+      text-align:center;
+      color:white;
+      border: 2px solid gray;
+      border-radius: 25px;
+      padding: 2%;
+  }
+  
+  .Visit {
+      background: #D98360;
+      border: 2px solid orange;
+  }
+  .Learn {
+      background: #8399B0;
+      border: 2px solid #648fba;
+  }
+  .Involv {
+      background: #FECC69;
+      border: 2px solid #ffbd44;
+  }
+  
+  #header {
+      text-align: center;
+      display:flex;
+      justify-content: center;
+      margin: 0% 5% 5% 0%;
+  }
+  
+  #headerImg {
+      height: 15em;
+      border-radius: 50%;
+      margin-left: 5%;
+      margin-top: 2%;
+  }
+  
+  .headerText {
+      margin-top:5%;
+      margin-left:-2.5%;
+  }
+  
+  h1 {
+      font-family: 'Chelsea Market', cursive;
+      font-size:3em;
+  }
+  
+  div.headerText {
+      font-size:1rem;
+      margin-top: 2%;
+  }
+  
+  p#subHead {
+      margin-left: 25%; margin-right:25%;
+  }
+  
+  p {
+      font-family: 'Roboto Mono', monospace;
+  }
+  
+  .intro {
+      border:1px solid #D98360;
+      background:#DDB9A3;
+      margin: 0% 5% 0% 5%;
+      padding: 5%;
+      text-align:center;
+      color:white;
+      
+  }
+  
+  .body {
+      width:30%;
+      margin:5% 35% 5% 35%;
+      text-align:center;
+      line-height:2;
+      font-size: .75em;
+  }
+  
+  .clipArt {
+      height:10em;
+  }
+  
+  #footer {
+      background:#F9E7DD;
+      width: 100%;
+  }
+  
+  div.body a {
+      text-decoration:none;
+      color:white;
+      padding:1.5%;
+      transition:1s;
+  }
+  
+  a#fireStatus {
+      background:#57df35;
+  }
+  
+  #fireStatus:hover {
+      border:1px solid;
+      color:#131211;
+      background:white;
+  }
+  
+  a#entry {
+      background:#ad1694;	
+  }
+  
+  #entry:hover {
+      border:1px solid;
+      color:#131211;
+      background:white;
+  }
+  
+  .footerImg {
+      width:100%; height:20em;
+  }
+  
+  .footerImg img { 
+      width: 100%; 
+      height: 20em; 
+      object-fit: cover;
+      object-position: 0% 15%;	
+  }
+  
