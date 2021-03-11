@@ -1,0 +1,156 @@
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+* {
+    font-size: 10px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+#button1 {
+    margin: 5% 5% 10% 10%;
+    padding: 10px 40px 10px 40px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: #FF764E;
+}
+
+#button2 {
+    margin: 5% 5% 10% 10%;
+    padding: 10px 40px 10px 40px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+
+  background: #5ED3EB;
+}
+
+#button3 {
+    margin: 5% 5% 10% 10%;
+    padding: 10px 40px 10px 40px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+   /*======= create a background property. Set the value to #F87B99 */
+  background: #FFCD69;
+}
+
+#footbutton1 {
+    margin: 5% 5% 10% 10%;
+    padding: 10px 40px 10px 40px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    background: #FF764E;
+}
+
+#footbutton2 {
+    margin: 5% 5% 10% 10%;
+    padding: 10px 40px 10px 40px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  background: #5ED3EB;
+}
+
+#footbutton3 {
+    margin: 5% 5% 10% 10%;
+    padding: 10px 40px 10px 40px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+   /*======= create a background property. Set the value to #F87B99 */
+  background: #FFCD69;
+}
+
+
+.intro {
+    display: inline-block;
+    margin: 5% 10% 0% 10%;
+}
+
+.intro .introtext {
+    margin: 20px;
+}
+
+.intro h1 {
+    font-size: 1rem;
+    font-family: 'Chelsea Market', cursive;
+    margin-bottom: 5%;
+}
+
+.intro img {
+    border-radius: 50%;
+    max-height: 25%;
+    max-width: 25%;
+    margin: 1% 10% 5% 10%;
+    float: left;
+    position: relative
+}
+
+
+.mainContent  {
+    color: white;
+    background: #DDB9A3;
+    padding: 1% 2% 1% 2%;
+    margin: auto 5% auto 5%;
+}
+
+.iconContent {
+    margin: 5%;
+}
+
+.iconContent img {
+    height: 100px;
+    width: 100px;
+}
+
+.iconContent span {
+    font-weight: bold;
+}
+
+footer img {
+    width: 100%;
+}
+
+footer div {
+    background: #F9E7DC;
+}
+
+
+
