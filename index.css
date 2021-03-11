@@ -1,0 +1,73 @@
+*{
+    border: solid black 1px;
+}
+header{
+   
+margin: 0 10px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  text-decoration:none;
+  margin-bottom: 20px;
+}
+.circle{
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-right: 110%;
+    
+    
+}
+
+.section2{
+    background:  #ddb9a3;
+    color: white;
+    padding: 0%;
+    text-align: center;
+    font-family:sans-serif;
+    margin-top: 5%;
+}
+p{
+    margin: 1em ;
+}
+.middle{
+    margin-left: 10em;
+    margin-right: 10em;
+}
+footer{
+    display:flex;
+    margin: 0 10px;
+      border: 1px solid lightgray;
+      padding: 20px;
+      text-align: center;
+      display: inline-block;
+      border-radius: 20px;
+      color: white;
+      text-decoration:none;
+      margin-bottom: 20px;
+}
+img{
+    width:10%
+}
+.carandpdiv{
+    align-items: center;
+}
+.firepic, .carpic{
+    margin-top: 1.5em;
+    margin-bottom: -1em;
+}
+.middle{
+text-align: center;
+}
+.otherimg{
+width: 100px;
+}
+.hardpart{
+    margin-left: 25% ;
+    text-align: center;
+}
+.always{
+    margin-down: 5%;
+}
+
