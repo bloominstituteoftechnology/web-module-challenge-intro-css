@@ -104,3 +104,12 @@ width: 100px;
 .yellow:hover {
     background: #ddb9a3;
     color: #FFCD69;
+}
+.footpic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+    height: 30px;
+    object-fit:contain;
+}
