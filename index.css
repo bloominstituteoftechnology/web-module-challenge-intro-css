@@ -6,6 +6,11 @@ header{
     width: 150%;
     margin: 2% 50% 0 0;
 }
+header .a:hover{
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+}
 .circle{
     border-radius: 50%;
     margin-top: 5%;
