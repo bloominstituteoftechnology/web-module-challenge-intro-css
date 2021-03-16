@@ -1,0 +1,174 @@
+/* 
+=================================
+RESET
+=================================
+*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*
+========================================
+custom styles
+========================================
+*/
+
+html, body {
+    font: 62.5% 'Roboto Mono', sans-serif;
+}
+
+h1 {
+    font: 3rem 'Chelsea Market', sans-serif;
+}
+
+
+/*
+===========================================
+navbar
+===========================================
+*/
+
+.navbar button {
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    width: 16%;
+    margin: 8.33%;
+}
+
+.navbar button.plan {
+    background: #FF764E;
+}
+
+.navbar button.learn {
+    background: #5ED3EB;
+}
+
+.navbar button.involved{
+    background: #FFCD69;
+}
+
+/*
+===========================================
+image
+===========================================
+*/
+header img {
+    width:20%;
+    border-radius: 50%;
+    padding: 0 5%;
+}
+
+header section {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+header .four {
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 5px 100px 20px 0;
+    width: 74%;
+    position: absolute;
+    top: 0;
+}
+
+header .four p {
+    padding-top: 10px;
+}
+
+#p2 {
+    text-align: center;
+    padding: 10px 25%;
+}
+
+.brown-band {
+    text-align: center;
+    background: #DDB9A3;
+    color: white;
+    margin: 15px;
+}
+
+.brown-band p {
+    padding: 5px 5px;
+}
+
+article {
+    width: 100%;
+    text-align: center;
+}
+
+article img {
+    width: 10%;
+    padding: 0 45%
+}
+
+article p {
+    width: 26%;
+    padding:  0 37% 30px 37%;
+}
+
+footer section {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #F9E7DC;
+}
+footer img  {
+    width: 100%;
+}
