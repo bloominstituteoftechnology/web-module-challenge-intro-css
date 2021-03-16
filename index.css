@@ -188,15 +188,26 @@ header img {
 }
 
 .flexSection {
-  display: flex;
+  /* display: flex;
   flex-flow: row nowrap;
-  justify-content: center;
+  justify-content: center; */
   margin: 25px 30px;
   padding: 0 25px;
 }
 
 .flexSection div {
-  margin: 0 15px;
+  /* margin: 0 15px; */
+  display: inline-block;
+}
+
+#titleDiv {
+  width: 60%;
+  position: relative;
+  top: -20px;
+}
+
+#titleImage {
+  width: 25%;
 }
 
 .flexSection p {
@@ -206,7 +217,7 @@ header img {
 
 h1 {
   font-family: "Chelsea Market", cursive;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   margin-top: 20px;
 }
 
@@ -257,6 +268,35 @@ footer img {
   }
   #fireAndReservations {
     width: 60%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .flexSection {
+    margin: 25px 3%;
+    padding: 0 25px;
+  }
+
+  .flexSection div {
+    /* margin: 0 15px; */
+    display: inline-block;
+  }
+
+  #titleDiv {
+    top: -13px;
+    width: 60%;
+  }
+
+  #titleImage {
+    width: 35%;
+  }
+
+  header img {
+    width: 160px;
+  }
+
+  .flexSection h1 {
+    font-size: 2rem;
   }
 }
 
