@@ -56,119 +56,118 @@ body {
 }
 
 nav {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  padding-top: 2%;
-}
-
-button {
-  height: 40px;
-  width: 100px;
-  border-radius: 10px;
-  border: none;
-  color: white;
-  font-size: 15px;
+  display: block;
+  justify-content: center;
+  align-content: center;
+  min-width: 600px;
   text-align: center;
+  margin-top: 2em;
 }
 
-.visit {
-  background-color: #FF764E;
-}
 
-.learn {
-  background-color: #5ED3EB;
-}
-
-.involved {
-  background-color: #FFCD69;
-}
-
-h1 {
-  font-family: 'Chelsea Market',
-  cursive;
-}
-
-.main {
-  background-color: #DDB9A3;
+section.main {
+  background-color: #ddb9a3;
   width: 90%;
-  margin: 0 auto;
-  text-align: center;
+  margin: auto;
+  padding: 1.5em;
+  border-radius: 5px;
   color: white;
-  padding: 2px 10px;
-  font-size: .85rem;
 }
-
-footer {
-  background-color: #F9E7DC;
-  margin: 30px 0 0 0;
-  height: 23vh;
+.main-container {
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
-
-footer img {
-  width: 100%;
-  height: 200px;
-}
-
-footer nav {
-  padding-top: 25px;
-  align-items: center;
-}
-
-header img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  grid-column-start: 1;
-}
-
 header {
-  display: flex;
-  margin: 3%;
-  justify-content: center;
+  display: block;
+}
+footer {
+  background-color: #f9e7dc;
+  padding-bottom: 1em;
+  width: 100%;
+  margin-top: 2em;
+}
+h1 {
+  font-family: "Chelsea Market";
+  font-size: 3em;
+  display: inline-block;
+}
+nav a {
+  display: inline-block;
+  border-radius: 0.5em;
+  width: 7em;
+  height: 3em;
+  text-align: center;
+  text-transform: capitalize;
+   margin-left: 4.5em;
+  color: white;
+  padding-top: 1em;
+}
+nav a::after {
+  width: 100%;
+  display: inline-block;
+}
+.footer-nav {
+  margin-top: 1em;
+}
+.sidebar {
+  display: block;
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  padding-top: 2em;
 }
 
-header div {
-  padding-left: 20px;
-  justify-items: flex-start;
-  align-items: center;
+.right {
+  float: right;
+  width: calc(100%-400px);
+}
+
+.right h2 {
+  margin-top: 2em;
+}
+.orange-background {
+  background-color: #ff764e;
+}
+.teal-background {
+  background-color: #5ed3eb;
+}
+.yellow-background {
+  background-color: #ffcd69;
+}
+.subP {
+  margin-top: 3em;
+  width: 20em;
+  margin: auto;
+  font-size: 0.8em;
   text-align: center;
 }
-
-header h1 {
-  font-size: 2.5rem;
-}
-
-header p {
-  font-size: .9rem;
-  font-weight: 550;
-  width: 40vw;
-}
-
-section {
-  width: 10rem;
-  justify-content: center;
-}
-
-section img {
-  width: 90px;
-  height: 90px;
-}
-
-.fire {
-  margin: 15px auto;
+section.supP > p {
   text-align: center;
-  align-items: center;
-  width: 30%;
-  font-size: 11px;
-  padding-bottom: 20px;
+  font-size: 0.5em;
+  margin-top: em;
 }
-
-.camping {
-  margin: 10px auto;
+img.header-img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin: auto;
+}
+#footer-img {
+  background-image: url(./assets/footer_img.jpg);
+  height: 200px;
+  /* background-position: initial; */
+  background-repeat: no-repeat;
+}
+#fire-icon {
+  width: 9.5em;
+  height: auto;
+  margin: auto;
   text-align: center;
-  align-items: center;
-  width: 30%;
-  font-size: 11px;
-  padding-bottom: 30px;
-} 
+  display: block;
+}
+#camper-icon {
+  width: 9.5em;
+  height: auto;
+  margin: auto;
+  display: block;
+}
