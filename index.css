@@ -1,18 +1,38 @@
+
 *{
-   
+
     margin: 0;
     padding: 0;
+    
 }
 a{
-    list-style: none;
-    width:200px;
+    
+    width: 15%;
+    height: 185px;
+    margin-left: 10%;
+    border-radius: 1rem;
+    text-decoration: none;
+    padding:2%;
+}
+nav{
+    margin-top:60px;
+}
+nav a{
+    align-items: center;
 }
 img {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 6rem;
-   
+    width: 200px;
+    height: 200px; 
 
+}
+.title h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 54px;
+}
+.title p {
+    font-family: 'Roboto Mono', monospace; 
+    line-height: 3rem;
+    
 }
 .logo{
     width: 20%;
@@ -31,13 +51,9 @@ img {
     height:100px;
     
 }
-h1{
-    font-family: 'Anton', sans-serif;
-}
 
-.main-container{
-    width: 100%;
-}
-.main-logo{
- width: 50%;
+.main-paragraph {
+    background-color: #DDB9A3;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
 }
