@@ -1,0 +1,43 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+}
+a{
+    list-style: none;
+    width:200px;
+}
+img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 6rem;
+   
+
+}
+.logo{
+    width: 20%;
+}
+.plan {
+    background-color: #FF764E;
+}
+.learn{
+    background-color: #5ED3EB;
+}
+.involve {
+    background-color: #FFCD69;
+}
+.nav-link{
+    width:200px;
+    height:100px;
+    
+}
+h1{
+    font-family: 'Anton', sans-serif;
+}
+
+.main-container{
+    width: 100%;
+}
+.main-logo{
+ width: 50%;
+}
