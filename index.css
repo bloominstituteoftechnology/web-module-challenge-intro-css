@@ -14,6 +14,10 @@ body {
     color: var(--color-text-primary);
     background-color: var(--color-bg-canvas);
 }
+.header-p {
+    padding-left: 30px;
+    padding-right:30px;
+}
 a{
     
     width: 15%;
@@ -22,14 +26,18 @@ a{
     border-radius: 1rem;
     text-decoration: none;
     padding:2%;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
 }
 a:hover {
-    color: white;
+    color: red;
     font-size: large;
-    background-color: black;
+    background-color: white;
 }
 nav{
     margin-top:60px;
+
 }
 nav a{
     align-items: center;
@@ -128,8 +136,8 @@ h1::first-letter{
 
 .carImage {
     width: 20%;
-    margin-left: 30%;
-    padding-top: 30px;
+    margin-top: 5%;
+    margin-left:40%;
 }
 
 .footer-image{
