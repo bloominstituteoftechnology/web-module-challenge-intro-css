@@ -3,7 +3,10 @@
 
     margin: 0;
     padding: 0;
-    
+    box-sizing: border-box;
+}
+body {
+    border: 1px solid black;
 }
 a{
     
@@ -13,6 +16,11 @@ a{
     border-radius: 1rem;
     text-decoration: none;
     padding:2%;
+}
+a:hover {
+    color: white;
+    font-size: large;
+    background-color: black;
 }
 nav{
     margin-top:60px;
@@ -36,6 +44,21 @@ img {
 }
 .logo{
     width: 20%;
+   
+}
+.main-logo {
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    padding: 50px;
+    display: inline;
+    
+}
+.title {
+    float: right;
+    padding-top:100px;
+    text-align: left;
+    width: 70%;
 }
 .plan {
     background-color: #FF764E;
@@ -56,4 +79,17 @@ img {
     background-color: #DDB9A3;
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;
+    line-height: 2.2rem;
+    margin: 0 20px 0 20px;
+}
+.footer-container{
+    background-color: rgb(252,231,219) ;
+    height:300px;
+}
+.footer-container img {
+    width: 100%;
+}
+.footer-nav {
+    margin-top:60px;
+    margin-bottom: 140px;
 }
