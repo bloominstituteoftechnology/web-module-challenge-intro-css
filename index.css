@@ -48,6 +48,9 @@ img {
     align-items: center;
 
 }
+img:hover {
+    opacity: 0.5 ;
+}
 h1 {
     font-family: 'Chelsea Market', cursive;
     font-size: 75px;
