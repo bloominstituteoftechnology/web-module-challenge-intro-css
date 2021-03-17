@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+  font-family:"Roboto Mono";
+
+  
+}
+
+.alinks{
+  padding: 3% 0% 3% 0%;
+  display: flex;
+  justify-content: center;
+}
+
+.alinks a{
+  border-radius: 15%;
+  padding: 1%;
+  margin:0% 10% 0% 10%;
+  color:white;
+  font-size:140%;
+  text-align: center;
+  width:20%;
+  text-transform: capitalize;
+  text-decoration:none;
+}
+
+.plan{
+  background-color: #FF764E;
+}
+
+.learn{
+  background-color: #5ED3EB;
+}
+
+.get{
+  background-color: #FFCD69;
+}
+
+.plan:hover{
+  background-color: #FF76AA;
+}
+
+.learn:hover{
+  background-color: #5ED3BB;
+}
+
+.get:hover{
+  background-color: #FFCDCC;
+}
+
+.headerimg{
+  width: 100%;
+  height:100%;
+  border-radius: 100%;
+}
+
+.sec1{
+  display: flex;
+  width:100%;
+}
+.imgdiv{
+  width:30%;
+  margin-left:2%;
+}
+
+.h1pdiv{
+  font-size: 150%;
+  margin-left:3%;
+  text-align: center;
+}
+
+h1{
+  font-size:300%;
+  font-family:"Chelsea Market";
+}
+
+.sec2{
+  background-color: #DDB9A3;
+  font-size: 140%;
+  padding:2% 3%;
+  text-align: center;
+  margin:2% 4%;
+  color:white;
+}
+
+.sec3{
+  padding-bottom: 7%;
+}
+.sec3 img{
+  width: 10%;
+  margin:0% 50%;
+}
+.sec3 p{
+  width: 30%;
+  font-size:118%;
+  text-align: center;
+  margin:0% 40%;
+}
+
+.footerimg{
+  width:100%;
+  height: 40%;
+}
+.footerimg img{
+  width:100%;
+  height: 50vh;
+}
+
+footer{
+  background-color:#F9E7DC;
+}
