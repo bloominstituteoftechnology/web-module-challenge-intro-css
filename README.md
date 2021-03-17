@@ -27,7 +27,7 @@ Follow these steps to set up and work on your project:
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
 
-### Task 2: Minimum Viable Product
+### Task 2: Minimum Viable Productw
 
 Once your repository is set up, practice what you learned today to style the site according to the given design. Your complete project should look similar to the desktop image. You should take the following actions, at a minimum:
 
