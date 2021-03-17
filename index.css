@@ -119,6 +119,10 @@ h1::first-letter{
 .footer-container img {
     width: 100%;
 }
+.footer-container a:hover {
+    background-color: rgb(252,231,219) ;
+    font-size: 34px;
+}
 .footer {
    
     padding-bottom: 140px;
