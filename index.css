@@ -1,0 +1,215 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+* {
+
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+
+
+
+
+/*General Styles*/
+
+html{
+    font-size:62.5%;
+}
+   
+
+
+body{
+line-height: 1.5;
+font-size:1.6rem;
+font-family: 'Roboto Mono', monospace;
+
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+p{ 
+    line-height: 15px;
+}
+
+
+
+
+
+section{
+    padding: 4% 0;
+}
+
+/*header section styles*/
+ nav {
+     padding :2% 0;
+ }
+
+ nav a{
+     display: inline-block;
+     padding: 1% 0;
+     border-radius: 20px;
+     width: 10%
+     text-align: center;
+     color: #fff;
+     text-decoration: none;
+
+ }
+ .orange{
+     background-color: #FF764E;
+     margin-left: 15%;
+     text-align: center;
+     padding: 1.5%;
+ }
+
+
+ .blue {
+     background-color: #5ED3EB;
+     margin: 0 24%;
+     text-align: center;
+     padding: 1.5%;
+ }
+
+ .yellow{
+     background-color: #FFCD69;
+     margin-right: 10%
+     text-align: center;
+     padding: 1.5%;
+ }
+ 
+ /* Top Section styles*/
+ .top {
+     position: ;
+
+ }
+ .top div {
+     display: inline-block;
+     width: 45%;
+     margin:  2%;
+     text-align:center;
+ }
+
+ .left img {
+     border-radius: 100%;
+     width:50%;
+ }
+
+ .right{
+     padding: 4%;
+     line-height: 2;
+     position: absolute;
+     bottom: 20%;
+
+ }
+
+.right p {
+    padding : 5%;
+}
+
+
+ .para{
+     background-color: #DDB9A3;
+     padding: 20px;
+     line-height: 1;
+     margin-left:5%;
+     margin-right: 5%;
+     color: white;
+ }
+
+ .para1. {
+    line-height: 1.25;
+    font-family: 'Roboto Mono', monospace;
+ }
+
+ .para2 {
+    line-height: 1.25;
+    font-family: 'Roboto Mono', monospace;
+ }
+
+ .campfire img{
+     border-radius: 10%;
+     width: 10%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     
+ }
+
+ .hello{
+   
+    text-align: center;
+    padding: 2% 35% 5% 35%;
+    line-height: 1.25;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+
+
+.rv img{
+     border-radius: 20%;
+     width: 10%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+ 
+.rv1 {
+    text-align: center;
+    padding: 2% 35% 5% 35%;
+    line-height: 1.25;
+    font-family: 'Roboto Mono', monospace;
+}
+section.sunset {
+    padding: 0%;
+}
+.sunset img{
+    height:300px;
+   width:100%;
+    
+}
+
+footer:hover{
+    background-color: #F9E7DC;
+}
