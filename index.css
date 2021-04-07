@@ -55,6 +55,7 @@ table {
 
 html {
     font-size: 62.5%;
+    min-height: 100%;
 }
 
 body {
@@ -70,11 +71,6 @@ h1 {
 
 section {
     padding: 4% 0;
-}
-
-footer {
-    background-color: #F9E7DC;
-    margin-bottom: -10%;
 }
 
 nav {
@@ -119,6 +115,7 @@ nav a {
 .left img {
     border-radius: 50%;
     width: 60%;
+    margin-left: 20%;
 }
 
 .right {
@@ -141,13 +138,9 @@ nav a {
     font-size: large;
 }
 
-div.transcript > p {
-    margin-top: 2%;
-}
-
 section.notice img {
-    width: 20%;
-    height: 20%;
+    width: 50%;
+    height: 50%;
 }
 
 section.notice {
@@ -166,9 +159,27 @@ section.notice {
 }
 
 .panorama {
-    background: url("./assets/footer_img.jpg") no-repeat center; 
-    background-size: 200vh;
-    height: 100vh;
-    margin-bottom: -30%;
-    overflow-y: hidden;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+ 
+  overflow-y: hidden;
+  
+}
+.panorama::before {
+  position: absolute;
+  content: '';
+  z-index: -1;
+  width: 100%;
+  height: 57vh;
+  background-image: url("./assets/footer_img.jpg");
+  background-repeat: no-repeat;
+  background-size: 200vh;
+  bottom: 0;
+
+}
+
+footer {
+    background-color: #F9E7DC;
+    bottom: 0;
 }
