@@ -21,6 +21,7 @@ time, mark, audio, video {
 
 body {
     max-width: 100%;
+    min-height: 30%;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -120,4 +121,53 @@ nav a {
     line-height: 2;
     position: absolute;
     bottom: 20%;
+}
+
+.transcript {
+    width: 90%;
+    background-color: #b68e8e;
+    text-align: center;
+}
+
+.intro {
+    margin-left: 10%;
+    color: white;
+    line-height: 2;
+    font-size: large;
+}
+
+div.transcript > p {
+    margin-top: 2%;
+}
+
+section.notice img {
+    width: 20%;
+    height: 20%;
+}
+
+section.notice {
+    text-align: center;
+    width: 20%;
+    margin: auto;
+}
+
+.embolden {
+    font-weight: bold
+}
+
+.camping-truck {
+    display: block;
+    margin-top: 20%;
+}
+
+.panorama {
+    background: url("./assets/footer_img.jpg") no-repeat center; 
+    background-size: cover;
+    height: 150vh;
+    margin-bottom: -20%;
+}
+
+.footer {
+    background-color: brown;
+    height: 20%;
 }
