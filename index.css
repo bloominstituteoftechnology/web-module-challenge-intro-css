@@ -1,0 +1,22 @@
+body{
+    font-size:62.5%
+}
+
+[name='Plan']{
+    background: #FF764E
+}
+[name='Learn']{
+    background: #5ED3EB
+}
+[name='Involved']{
+    background:#FFCD69;
+}
+
+button {
+    padding: 2rem;
+    border-radius:10px;
+    border: 0px;
+    color: whitesmoke;
+    font-size:3rem;
+    max-width: 20%;
+    height: 20%;
