@@ -72,6 +72,11 @@ section {
     padding: 4% 0;
 }
 
+footer {
+    background-color: #F9E7DC;
+    margin-bottom: -10%;
+}
+
 nav {
     padding: 2% 0;
 }
@@ -125,7 +130,7 @@ nav a {
 
 .transcript {
     width: 90%;
-    background-color: #b68e8e;
+    background-color: #DDB9A3;
     text-align: center;
 }
 
@@ -162,12 +167,8 @@ section.notice {
 
 .panorama {
     background: url("./assets/footer_img.jpg") no-repeat center; 
-    background-size: cover;
-    height: 150vh;
-    margin-bottom: -20%;
-}
-
-.footer {
-    background-color: brown;
-    height: 20%;
+    background-size: 200vh;
+    height: 100vh;
+    margin-bottom: -30%;
+    overflow-y: hidden;
 }
