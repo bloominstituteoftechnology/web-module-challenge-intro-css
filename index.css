@@ -38,7 +38,7 @@ blockquote, q {
 * {
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid grey;
+   
 }
 
 /* general styles */
@@ -105,6 +105,32 @@ nav a {
     bottom: 20%;
 }
 
+/* main text section styles */
+.mainText div {
+    background-color: #DDB9A3;
+    margin: 0 5%; 
+}
+.bold {
+    font-weight: bold;
+}
+
+/* icon section styles */
+.iconPart {
+    margin-top: -18%;
+}
+.iconPart div {
+    width: 40%;
+    margin: 10% auto;
+    text-align: center;
+}
+.iconPart img {
+    width: 20%;
+}
+
+/* footer image styles */
+.footerImage img {
+    margin-top: -15%;
+}
 
 
 
