@@ -105,3 +105,20 @@ blockquote, q {
 		position:absolute;
 		bottom:20%;
 	}
+	.main{
+		background-color:#DDB9A3;
+		color:white;
+		text-align:center;
+		margin:2% 2%;
+	}
+	.main div{
+		margin:0 2%;
+		padding:1%;
+		font-size:3rem;
+	}
+	span{
+		font-weight:bold;
+	}
+	footer{
+		background-color:#F9E7DC;
+	}
