@@ -99,7 +99,8 @@ q {
 * {
   box-sizing: border-box;
   max-width: 100%;
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
+  color: #333333;
 }
 
 /* General Styles */
@@ -115,7 +116,7 @@ h1 {
   font-family: "Chelsea Market", cursive;
   font-size: 5.5rem;
 }
-section {
+.top {
   padding: 4% 0;
 }
 
@@ -161,8 +162,47 @@ nav a {
   margin: 0 auto;
 }
 .right{
-    padding: 4%;
+    padding: 5%;
     line-height: 2;
     position:absolute;
     bottom: 25%;
+}
+.sub{
+    width: 100%;
+}
+
+.middle p{
+    background-color: #DDB9A3;
+    width: auto;
+    padding: 8px 13px;
+    margin: 1% 2%;
+    color: #fff;
+}
+.bold{
+    font-weight: bold;
+}
+.middle-two{
+  display:inline-block;
+  margin:0.5% 40% 0.6%;
+  width:30%;
+  text-align: center;
+}
+
+.clipart{
+  display:inline-block;
+  width:20%;
+  margin:2% 40% 0;
+}
+#camper{
+  width:10%;
+  margin:0 auto;
+}
+.half{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+.footer{
+    background-color: #F9E7DC;
 }
