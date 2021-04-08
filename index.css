@@ -104,12 +104,15 @@ nav a{
 
 .left img {
     border-radius:50%;
-    width:60%
+    width:60%;
+    margin-left:15%;
+    
 }
 
 .right {
-    padding:4%;
     line-height:2;
+    margin-right:30%;
+    
 }
 /* first brown box*/
 .box1 {
@@ -170,3 +173,18 @@ footer  {
     margin-top:-1%;
     background-color:#F9E7DC;
     }
+
+nav .orange:hover{
+        background-color:red;
+        color:black;
+    }
+
+nav .blue:hover {
+    background-color:white;
+    color:blue;
+}
+
+nav .yellow:hover {
+    background-color:white;
+    color:rgb(46, 46, 35);
+}
