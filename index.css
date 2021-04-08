@@ -38,7 +38,6 @@ blockquote, q {
     *{
         box-sizing:border-box;
         max-width:100%;
-        border:1px solid grey;
     }
 
     /*general styles*/
@@ -46,14 +45,18 @@ blockquote, q {
         font-size:62.5%
     }
     body{
+		border:1px solid grey;
         font-size:1.6rem;
         line-height:1.5;
         font-family: 'Roboto Mono', monospace;
     }
 	h1{
 		font-family: 'Chelsea Market', cursive;
-		font-size:5.5rem;
+		font-size:5.8rem;
 	}	
+	h2{
+		font-size:2rem;
+	}
 	section{
 			padding:4% 0;
 	}
@@ -105,6 +108,9 @@ blockquote, q {
 		position:absolute;
 		bottom:20%;
 	}
+	.right p{
+		margin:0 9%;
+	}
 	.main{
 		background-color:#DDB9A3;
 		color:white;
@@ -116,9 +122,33 @@ blockquote, q {
 		padding:1%;
 		font-size:3rem;
 	}
+	.campfire img{
+		text-align:center;
+		margin:0 44%;
+		width:12%;
+	}
+	.campfire p{
+		text-align:center;
+		margin:0 40%;
+	}
+	.camper img{
+		text-align:center;
+		margin:0 45%;
+		max-width:100%;
+		height:200px;
+	}
+	.camper p{
+		text-align:center;
+		margin:0 40%;
+	}
 	span{
 		font-weight:bold;
 	}
 	footer{
 		background-color:#F9E7DC;
+	}
+	footer img{
+		max-width:100%;
+		width:100%;
+		height:50%;
 	}
