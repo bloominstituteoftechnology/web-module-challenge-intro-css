@@ -39,7 +39,7 @@ blockquote, q {
 *{
     box-sizing:border-box;
     max-width:100%;
-    border:1px solid grey;
+    
 }
 
 html {
@@ -69,13 +69,13 @@ nav {
 
 nav a{
     display:inline-block;
-    margin:0 auto;
     text-align:center;
-    padding:1.5%;
-    border-radius:10%;
+    padding:1% 0;
+    border-radius:10px;
     color:white;
     text-decoration:none;
     font-size:1.2rem;
+    width:10%;
 }
 
 .orange {
@@ -110,5 +110,63 @@ nav a{
 .right {
     padding:4%;
     line-height:2;
-    margin-top:
 }
+/* first brown box*/
+.box1 {
+    background-color:#DDB9A3;
+    text-align:center;
+    padding:1%;
+    color:white;
+    margin:0 5%;
+    line-height:
+}
+
+/*fireicon and text*/
+
+.fireicon{
+    text-align:center;
+    width:10%;
+    height:5%;
+    margin:2% auto;
+}
+
+.firetext {
+    text-align:center;
+    width:25%;
+    height:15%;
+    margin:0 auto;
+    line-height:2rem;
+    max-width:100%;
+}
+span {
+    font-weight:bold;
+}
+
+/*bus icon and text*/
+
+.busicon {
+    text-align:center;
+    width:10%;
+    height:5%;
+    margin:2rem auto;
+}
+
+.bustext {
+    text-align:center;
+    width:25%;
+    height:15%;
+    margin: auto;
+    line-height:2rem;
+    max-width:100%;
+}
+
+.yosemite img{
+    height:25vh;
+    background-size:cover;
+    width:fit-content;
+    margin-top:10%;
+}
+footer  {
+    margin-top:-1%;
+    background-color:#F9E7DC;
+    }
