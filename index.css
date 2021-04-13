@@ -60,6 +60,10 @@ html {
 	margin-left: 80px;
 	width: 34rem;
 }
+.headwrapper img:hover {
+	animation-name: circle;
+	animation-duration: 1s;
+}
 .headercontainer {
 	display: inline-block;
 	margin-bottom: 10px;
@@ -126,4 +130,13 @@ html {
 
 .footer {
 	background: #f9e7dc;
+}
+
+@keyframes circle {
+	from {
+		width: 34rem;
+	}
+	to {
+		width: 35rem;
+	}
 }
