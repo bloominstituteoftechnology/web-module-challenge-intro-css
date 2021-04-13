@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html{
+	font-size: 62.6%;
+	box-sizing: border-box;
+	font-family: 'Roboto Mono', monospace;
+	}
+
+header{
+	display: flex;
+	justify-content: space-around;
+}
+
+h1{
+	font-family: 'Chelsea Market', monospace;
+	font-size: 4.5rem;
+	margin-top: 5rem;
+}
+h2{
+	font-size: 1.4rem;
+}
+
+.reservations{
+	word-spacing: 1rem;
+	font-size: 1.4rem;
+}
+
+.first-section{
+	float: right;
+	margin-right: 16rem;
+	text-align: center;
+}
+
+#header-img{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	object-fit: contain;
+	margin-left: 100px;
+	float: left;
+	margin-top: 4rem;
+	margin-left: 14rem;
+}
+
+.body{
+	background-color: #DDB9A3;
+	margin: 6rem;
+	font-size: 1.5rem;
+	color: white;
+	word-spacing: .4rem;
+	padding: 3rem;
+	margin-top: 30rem;
+	text-align: center;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+footer{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	background-color: #F9E7DC;
+}
+
+.Plan{
+	font-size: 2rem;
+	margin: 2rem;
+	background-color: #FF764E;
+	background-position: center;
+	color: white;
+	border-style: hidden;
+	display: inline-block;
+	border-radius: 10px;
+	border-width: 20px;
+	padding: 20px 30px;
+	text-decoration: none;
+	font-size: 2.5rem;
+	
+}
+
+.Learn{
+	font-size: 2rem;
+	margin: 2rem;
+	background-color: #5ED3EB;
+	color: white;
+	background-position: center;
+	border-style: hidden;
+	display: inline-block;
+	border-radius: 10px;
+	border-width: 30px;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.Involved{
+	font-size: 2rem;
+	margin: 2rem;
+	background-color: #FFCD69;
+	color: white;
+	background-position: center;
+	border-style: hidden;
+	display: inline-block;
+	border-radius: 10px;
+	border-width: 30px;
+	padding: 20px;
+	text-decoration: none;
+}
+
+#campfire{
+	width: 20rem;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#rv{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20rem;
+}
+
+.content{
+	text-align: center;
+	font-size: 1.4rem;
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-bottom: 10rem;
+}
+
+
+#footer-image{
+    width: 100%;
+    object-fit: cover;
+    height: 175px;
+    object-position: center 20%;
+}
