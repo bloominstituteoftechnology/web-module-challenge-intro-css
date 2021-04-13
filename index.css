@@ -16,8 +16,8 @@ p {
 
 }
 
-.header_img {
-    border-radius:50%;
+.header-img {
+    border-radius: 50%;
     width:150px;
     height:150px;
 }
@@ -27,6 +27,9 @@ p {
 }
 
 .container header nav a {
+    border-radius: 30px;
+    height:150px;
+    width:150px
 
 }
 
