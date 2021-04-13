@@ -83,7 +83,7 @@ nav {
     border: 80% 45px;
     margin: 20px;
     padding: 25px;
-    background-color: #b107ba;
+    background-color: #de9502;
 }
 
 p {
@@ -101,8 +101,12 @@ p {
 
 .infoSection img {
     width: 60%;
+    position: center;
 }
 
 .infoSection p {
     font-size: 14px;
+}
+footer {
+    background-color: #de9502;
 }
