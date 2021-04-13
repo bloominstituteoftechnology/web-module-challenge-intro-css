@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@200&display=swap');
 
 * {
-color:white;
+color:black;
 
-}
 
 h1 {
-font-family: 'Chelsea Market', cursive;
-margin: 20px 0;
-font-size: 60px;
-text-align: center;
+
 }
 
 h2 {
@@ -37,6 +33,10 @@ img {
 }
 
 .about {
-
+    margin-top:10px;
+    margin-right:10px;
+    margin-left:10px;
+    margin-bottom:10;
+    background-color: #DDB9A3;
 }
 
