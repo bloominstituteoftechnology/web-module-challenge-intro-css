@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap");
+
+html {
+	font-family: "Roboto Mono", monospace;
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+.parentwrap {
+	margin: 0 10%;
+}
+.navheader {
+	margin: auto;
+	width: 80%;
+	align-content: center;
+}
+
+.navitem {
+	display: inline-block;
+	margin: auto;
+}
+
+.navheader a {
+	padding: 1% 2%;
+	text-decoration: none;
+	border-radius: 10%;
+	color: white;
+	width: 17rem;
+	height: 5rem;
+	font-size: 2.2rem;
+	text-align: center;
+	line-height: 1.2;
+	margin: 2% 6%;
+}
+
+#plan {
+	background: #ff764e;
+}
+
+#learn {
+	background: #5ed3eb;
+}
+#get {
+	background: #ffcd69;
+}
+
+.headwrapper {
+	margin: 3% auto;
+}
+.headwrapper img {
+	display: inline-block;
+	border-radius: 50%;
+	margin-left: 80px;
+	width: 34rem;
+}
+.headercontainer {
+	display: inline-block;
+	margin-bottom: 10px;
+	vertical-align: top;
+}
+.mainheader {
+	font-family: "Chelsea Market", cursive;
+	width: 100%;
+	font-size: 6rem;
+	text-align: center;
+	display: inline-block;
+}
+.headerpara {
+	font-size: 2rem;
+	text-align: center;
+}
+#headparbot {
+	padding: 0 25%;
+}
+.information {
+	background-color: #ddb9a3;
+	margin: 0 5%;
+}
+.indexpara {
+	font-size: 2.5rem;
+	color: white;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+	line-height: 30px;
+	padding: 1% 5%;
+	font-weight: 400;
+}
