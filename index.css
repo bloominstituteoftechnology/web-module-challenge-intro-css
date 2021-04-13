@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@200&display=swap');
 
 * {
+color:white;
 
 }
 
 h1 {
-
+font-family: 'Chelsea Market', cursive;
+margin: 20px 0;
+font-size: 60px;
+text-align: center;
 }
 
 h2 {
@@ -29,7 +33,7 @@ img {
 }
 
 .container footer nav a {
-    
+
 }
 
 .about {
