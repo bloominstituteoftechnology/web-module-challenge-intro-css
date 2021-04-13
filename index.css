@@ -53,22 +53,28 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 * {
     box-sizing: border-box;
-    width: 800px;
-    margin: 0 auto;
-    background-color: black;
+    
+    
+    background-color: white;
 }
 html {
     margin: 0 auto;
     font-size:62.5%;
+    width: 800px;
+    border: 1px solid black;
+    background-color: black;
     
 
 }
 nav a {
+    display: inline-block;
     color:whitesmoke;
-    width: 15%;
-    height: 50%;
-    display: float;
+    width: 130px;
+    height: 50px;
+    font-size:2.5rem;
+    font:'Roboto Mono';
     text-align: center;
+    text-decoration: none;
     
     margin: 7%;
     
@@ -89,15 +95,59 @@ background-color:#5ED3EB;
 .get {
 background-color:#FFCD69;
 }
-
+.header {
+    display: flex;
+    
+}
 #park {
     width: 33%;
     border-radius: 50%;
+    background: whitesmoke;
 }
 h1 {
     font: 'Chelsea Market' ;
-    font-size:  7rem ;
+    font-size:  5rem ;
     text-shadow: .1px .1px white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
 
 }
+.header-p {
+    text-align: center;
+    font-size: 1.7rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    word-spacing: 8px;
+}
+.header-p-1 {
+    width: 380px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.header-p-2 {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.paragraph {
+    color:white;
+    background-color: #DDB9A3;
+    height: 80px;
 
+    font: 4rem;
+    font: inherit;
+    text-align: center;
+    
+    text-align: center;
+    padding: 5px 20px;
+
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
