@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+.bold{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.top_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 10%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.top_container a{
+
+    width: 13%;
+    height: 5%;
+    color: white;
+    padding: 0.8%;
+    border-radius: 15.5%;
+    text-align:center;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#button1{
+    background: #FF764E;
+}
+#button2{
+    background: #5ED3EB;
+}
+#button3{
+    background: #FFCD69;
+    display: flex;
+    flex-direction: column;
+}
+.top_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position:relative;
+    padding: 1%;
+}
+.top_header h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 260%;
+    letter-spacing: 6px;
+    font-weight: lighter;
+    padding-bottom: 1%;
+    padding-right: 15%;
+}
+.top_header img{
+    width: 25%;
+    height: 25%;
+    position:relative;
+    border-radius: 50%;
+}
+.first_paragraph{
+    width: 85%;
+    padding:3%;
+    font-weight: lighter;
+}
+.second_paragraph{
+    width: 45%;
+    padding-left: 20%;
+    padding-top: 2%;
+    font-weight: lighter;
+}
+
+*.title{
+    text-align: center;
+    padding-top: 4%;
+}
+.images{
+    width: 35%;
+}
+.first_body{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #DDB9A3;
+    padding: 5%;
+    margin: 7%;
+}
+.second_body{
+    width: 32%;
+    text-align: center;
+    padding-left: 35%;
+}
+.second_body p{
+font-size: 15px;
+}
+.second_body b{
+    font-size: 15px;
+    }
+footer img{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    object-fit: cover; 
+    object-position: 80% 20%;
+}
