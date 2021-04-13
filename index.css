@@ -44,6 +44,13 @@ html {
 	background: #ffcd69;
 }
 
+#plan:hover,
+#learn:hover,
+#get:hover {
+	color: black;
+	animation: heartBeat;
+	animation-duration: 2s;
+}
 .headwrapper {
 	margin: 3% auto;
 }
@@ -84,4 +91,39 @@ html {
 	line-height: 30px;
 	padding: 1% 5%;
 	font-weight: 400;
+}
+
+.smalltxt {
+	font-size: 1.5rem;
+	margin: auto;
+	width: 22%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+.smallimg {
+	height: 15rem;
+	width: 15rem;
+	align-content: center;
+	margin: auto;
+	width: 100%;
+}
+
+.smalltxtlink {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.footerimg {
+	background-image: url(assets/footer_img.jpg);
+	margin: ;
+	width: 100%;
+	padding: 2% 0;
+	position: center;
+	height: 30rem;
+}
+
+.footer {
+	background: #f9e7dc;
 }
