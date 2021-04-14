@@ -1,0 +1,64 @@
+/* ELEMENTS */
+a {
+  font-size: 2rem;
+  color: white;
+  padding: 30px;
+  border-radius: 10%;
+  width: 100%;
+  margin: 10 auto;
+}
+
+footer {
+  background-color: #f9e7dc;
+}
+
+html {
+  font-family: "Roboto Mono", Arial, sans-serif;
+  font-size: 62.5%;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+nav {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* CLASSES */
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header-title {
+  font-family: "Chelsea Market";
+}
+
+.main-text {
+  background-color: #ddb9a3;
+  color: white;
+}
+
+.top-content {
+  background-color: bisque;
+}
+
+/* IDS */
+#nav-involve {
+  background-color: #ffcd69;
+}
+#nav-learn {
+  background-color: #5ed3eb;
+}
+#nav-plan {
+  background-color: #ff764e;
+}
