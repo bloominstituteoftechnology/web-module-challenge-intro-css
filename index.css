@@ -16,7 +16,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	/* margin: 0; */
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -45,4 +45,172 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+
+
+
+/* Main Styles */
+html {
+font-size: 62.5%;
+box-sizing: border-box; 
+}
+
+.container {
+margin: 0 auto;
+width: 100%;
+
+}
+
+body {
+font-family: "Roboto", serif;
+}
+
+.p {
+font-family: "Roboto", serif;
+
+}
+
+/* Header Styles */
+header {
+width: 75%;
+margin: 0 auto;
+}
+
+.container header .headerP {
+color: black;
+font-size: 3rem;
+font-weight: 500;
+letter-spacing: .15rem;
+}
+
+.container .header-img {
+border-radius: 50%;
+width: 25%;
+}
+
+h1 {
+font-family: "Chelsea Market", sans-serif;
+font-size: 7.5rem;
+margin-bottom: 2%;
+}
+
+#top-right-info{
+    /* background-color: yellow; */
+    width: 70%;
+    text-align: center;
+    float: right;
+    margin-top: -28%;
+
+    }
+
+#top-right-info .headerP {
+/* background-color: cyan; */
+padding: 1%;
+
+}
+/* Nav Styles */
+nav {
+/* margin-top: 8%; */
+
+}
+
+nav a {
+color: white;
+display: inline-block;
+text-decoration: none;
+text-align: center;
+font-size: 2.75rem;
+font-weight: 100;
+padding: 1%;
+margin: 5%;
+margin-left: 11%;
+width: 200px;
+border-radius: 12px;
+/* how do i round my corners better? Use pixels*/
+/* how do i get my nav to line up? <br> */
+}
+.plan {
+background: #FF764E;
+   }
+   
+.learn {
+background: #5ED3EB;
+}
+
+.get-involved {
+background: #FFCD69; 
+}
+
+/* Body Styles */
+p {
+letter-spacing: 15rem;
+line-height: 3.5rem;
+/* text-align: center; */
+}
+
+.first-section {
+margin: 100px 100px 40px 100px;
+background-color: #DDB9A3;
+width: 90%;
+text-align: center;
+}
+
+.first-section p{
+color: #fcfcfc;
+font-size: 3rem;
+font-weight: 500;
+letter-spacing: .15rem;
+padding: 1.5% 2%;
+
+}
+
+.second-section {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.second-section p{
+/* background-color: red; */
+font-size: 2rem; 
+font-weight: 500;
+letter-spacing: .1rem;
+line-height: 2.5rem;
+width: 22%;
+padding-bottom: 2%;
+text-align: center;
+margin-top: 1%;
+}
+
+.second-section .icon-img {
+width: 15%;
+}
+
+span {
+font-weight: 700;
+}
+
+
+/* Footer Styles */
+/* How do I expand my footer????????????? */
+footer {
+background-color: #F9E7DC;
+margin-top: 5%;
+}
+
+footer div .footer-img{
+width: 100%;
+/* object-fit: cover; */
+object-fit: cover;
+object-position: top;
+height: 450px;
+
+}
+
+.footer-nav a {
+color: white;
+text-decoration: none;   
 }
