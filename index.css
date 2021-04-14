@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+    background: white;
+}
+.top_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-left: 1px;
+    text-align: center;
+    border-radius: 45%;
+}
+
+#click1 {
+    font-family: 'Roboto Mono', monospace;
+    background:#FF764E;
+}
+#click2 {
+    font-family: 'Roboto Mono', monospace;
+    background:#5ED3EB;
+}
+#click3 {
+    font-family: 'Roboto Mono', monospace;
+    background:#FFCD69;
+}
+
+
+
+*.top_buttons a{
+    width: 100px;
+    height: 50px;
+    background: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 15.5%;
+}
+
+.top_header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: left;
+}
+.top_header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+.banner h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 50px;
+    color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.banner p{
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    width: 490px;
+
+}
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap);
+
+
+.middle_p p{
+    background-color: #DDB9A3;
+    position: relative;
+    color:white;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+    word-spacing: 3%;
+    line-height: 3;
+    font-size: 20px;
+}
+
+
+.middle img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.bottom_p {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    height: auto;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.last_p {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    height: auto;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom_header img{
+    display: block;
+    width: 100%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+}
+.bottom_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 1px;
+    text-align: center;
+    background-color: #F9E7DC;
+    padding-block: 10%;
+    scroll-padding-top: 25%;
+}
+*.bottom_buttons a{
+    width: 100px;
+    height: 50px;
+    background: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 15.5%;
+}
+#click4 {
+    font-family: 'Roboto Mono', monospace;
+    background:#FF764E;
+}
+#click5 {
+    font-family: 'Roboto Mono', monospace;
+    background:#5ED3EB;
+}
+#click6 {
+    
+    font-family: 'Roboto Mono', monospace;
+    background:#FFCD69;
+}
