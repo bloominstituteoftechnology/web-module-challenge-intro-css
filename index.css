@@ -1,20 +1,25 @@
+@import url('https://fonts.google.com/specimen/Chelsea+Market');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=New+Tegomin&family=Roboto+Mono:wght@300;500;700&display=swap');
+
+
+
 body {
-    width: 80%;
-    display: inline-block;
-    position: center;
-    margin: 45px 10px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
 }
+
 
 nav {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     border: 160px 50px;
+    padding: 40px;
     text-align: center;
 }
 
 .navButton {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'New Tegomin', serif;
     text-decoration: none;
     font-size: 24px;
     border-radius: 20px;
@@ -24,36 +29,25 @@ nav {
     color: white;
 }
 
-#navbutton1 {
+#button1 {
     background-color: #c70a4f;
 }
 
-#navbutton2 {
-    background-color: #0badb0;
-    font-family: 'Courier New', Courier, monospace;
-    text-decoration: none;
-    font-size: 24px;
-    border-radius: 20px;
-    margin: 20px;
-    padding: 25px;
-    background-color: #e68c05;
-    color: white;
+#button2 {
+    background: #0badb0;
 }
 
-#navbutton3 {
+#button3 {
     background-color: #259416;
-    font-family: 'Courier New', Courier, monospace;
-    text-decoration: none;
-    font-size: 24px;
-    border-radius: 20px;
-    margin: 20px;
-    padding: 25px;
-    color: white;
 }
 
 .navButton:hover {
     color: black;
     font-size: 26px;
+}
+
+.topText {
+
 }
 
 .topSection {
@@ -62,8 +56,13 @@ nav {
     padding: 45px;
 }
 
+.topSection h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-weight: 600;
+}
+
 #headerImg {
-    width: 25%;
+    width: 800px 800px;
     border-radius: 50%;
 
 }
@@ -71,16 +70,13 @@ nav {
 .topText {
     width: 75%;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: inline-block;
-
 }
 
 .middleSection {
     text-align: center;
     position: center;
     border: 80% 45px;
+    border-radius: 12px;
     margin: 20px;
     padding: 25px;
     background-color: #de9502;
@@ -96,6 +92,7 @@ p {
     display: block;
     position: center;
     text-align: center;
+    margin: 0 auto;
     padding: 45px;
 }
 
@@ -109,4 +106,8 @@ p {
 }
 footer {
     background-color: #de9502;
+}
+
+#footerImg {
+    width: 100%;
 }
