@@ -7,8 +7,17 @@ html {
 }
 
 header img {
+    border: 30px;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 350px;
+    height: 350px;
+    padding: 100px    
+}
+
+header plan-button {
+    color:#FF764E;
+    text-align: center;
+    justify-content: space-between;
     
+
 }
