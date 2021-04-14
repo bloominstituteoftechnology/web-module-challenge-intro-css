@@ -6,6 +6,13 @@ p {
 
 }
 
+.fire-safety {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+
+}
+
 header img {
     border: 30px;
     border-radius: 50%;
@@ -38,11 +45,28 @@ h2 {
     
 }
 
-#fire {
-    box-sizing: content-box;
-    border-radius: 10px;
-    justify-content: center;
-    height: 1%
+.fire {
+    border: 30px;
+    border-radius: 1px;
+    width: 600px;
+    height: 600px;
+    padding: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px; 
+}
+
+.lodging {
+    border: 30px;
+    border-radius: 1px;
+    width: 600px;
+    height: 600px;
+    padding: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
 
 }
 
