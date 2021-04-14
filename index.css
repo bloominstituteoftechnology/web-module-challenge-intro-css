@@ -51,3 +51,146 @@ table {
     box-sizing: border-box;
 }
 
+nav {
+    margin: 100px 0 100px 0;
+}
+
+
+
+
+.first {
+    border: 0 solid white;
+    width: 250px;
+    height: 125px;
+    padding: 35px;
+    margin: 60px;
+    background-color:#FF764E;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 130%;
+    color: white;
+    border-radius: 20%;
+
+}
+
+.second {
+    border: 0 solid white;
+    width: 250px;
+    height: 125px;
+    padding: 35px;
+    margin: 60px;
+    background-color:#5ED3EB; 
+    font-family: 'Roboto Mono', monospace;
+    font-size: 130%;
+    color: white;
+    border-radius: 20%;
+}
+
+.third {
+    border: 0 solid white;
+    width: 250px;
+    height: 125px;
+    padding: 35px;
+    margin: 60px;
+    background-color: #FFCD69;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 130%;
+    color: white;
+    border-radius: 20%;
+}
+
+h1 {
+    font-size: 500%;
+    font-family: 'Chelsea Market', cursive;
+    margin: 0 0 0 700px;
+    padding: 35px;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+
+#headerImg {
+    border-radius: 50%; 
+    width: 350px;
+    height: 350px;
+    margin: 100px 0 0 100px;
+}
+
+.mainText {
+    color: white;
+    background-color: #DDB9A3;
+    width: auto;
+    height: 175px;
+    text-align: center;
+    padding: 30px;
+    font-size:150%;
+
+}
+
+.firstText {
+    border: 0 solid white;
+    margin: 0 0 0 800px;
+    font-size: 150%;
+
+}
+
+.secondText {
+    border: 0 solid white;
+    margin: 0 0 0 830px;
+    font-size: 130%;
+    text-align: center;
+    width: 425px;
+    padding: 35px;
+
+}
+
+.mainImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 10%;
+    height: 10%;
+    
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 655px;
+    width: 265px;
+    height: 30px;
+
+
+}
+.lowerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 175px;
+    width: 10%;
+    height: 10%;
+}
+
+.container2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 655px;
+    width: 265px;
+    height: 30px;
+}
+
+.bottomImage {
+    margin-left: 10px;
+    margin-top: 200px;
+    height: 300px;
+    width: 1500px;
+
+}
+
+footer {
+    background-color: #F9E7DC;
+    margin-top: 250px;
+    margin-bottom: 10px;
+
+}
