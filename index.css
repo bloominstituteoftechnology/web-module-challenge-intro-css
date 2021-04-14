@@ -1,1 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@200&display=swap');
+html {
+    border: 10px;
+    margin: 20px;
+    font-family: Chelsea Market;
+    font-size: 10px;
+
+
+}
