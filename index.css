@@ -14,10 +14,12 @@ header img {
     padding: 100px    
 }
 
-header plan-button {
-    color:#FF764E;
-    text-align: center;
-    justify-content: space-between;
-    
+nav {
+    text-align:center;
+    justify-content:space-between;
+    display:flex;
+    flex-direction:row;
+    padding:10% 0;
+
 
 }
