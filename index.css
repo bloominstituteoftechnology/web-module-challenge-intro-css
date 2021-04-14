@@ -4,6 +4,9 @@
 
 h1 {
     font-family: 'Chelsea Market', cursive;
+    text-align: center;
+    font-size: 60px;
+    margin-left: 200px;
 }
 
 img {
@@ -12,8 +15,10 @@ img {
 
 .icon {
   height: 100px;
-  display: inline-block;
+  display: block;
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .plan {
@@ -58,18 +63,20 @@ header {
 
 nav {
   text-align: center;
+  /* word-wrap: normal; */
 }
 
 .mid {
-  text-align: center;
   display: inline-block;
-  width: 300px;
-  margin-left: 720px;
+  text-align: center;
+  margin-right: 550px;
+  margin-left: 550px;
+  
 }
 
 .bottomimg {
     display: block;
-    width: 1734px;
+    width: 98%;
     height: 225px;
 }
 
@@ -77,9 +84,19 @@ nav {
     border-radius: 50%;
     width: 250px;
     height: 250px;
+    
 }
 
 .toptext {
     text-align: right;
     display: inline-block;
+    font-weight: bold;
+}
+
+.toptext p {
+  margin-left: 50px;
+}
+
+.topcontainer {
+  margin-left: 150px;
 }
