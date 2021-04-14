@@ -38,7 +38,11 @@ h2 {
     
 }
 
-.fire image {
+#fire {
+    box-sizing: content-box;
+    border-radius: 10px;
+    justify-content: center;
+    height: 1%
 
 }
 
