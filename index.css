@@ -70,6 +70,7 @@ a {
 }
 
 .text-body {
+    background-color: #DDB9A3;
     max-width: 1000px;
     margin-right: auto;
     margin-left: auto;
@@ -89,4 +90,21 @@ p {
     margin-bottom: 2rem;
     font-family: Arial;
     font-weight: 100;
+}
+
+.footer {
+    display: flex;
+    background-color: #F9E7DC;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.footer-a {
+    color: gray;
+}
+
+b {
+    font-weight: bold;
 }
