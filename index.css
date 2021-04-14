@@ -10,16 +10,23 @@ a {
 
 footer {
   background-color: #f9e7dc;
+  height: 30%;
+}
+
+footer img {
+  display: block;
+  width: 100%;
+  height: 350px;
+}
+
+header {
+  display: inline;
+  margin: 10px;
 }
 
 html {
   font-family: "Roboto Mono", Arial, sans-serif;
   font-size: 62.5%;
-}
-
-img {
-  width: 200px;
-  height: 200px;
 }
 
 nav {
@@ -39,13 +46,27 @@ strong {
   padding: 20px;
 }
 
-.header-title {
-  font-family: "Chelsea Market";
+.header-paragraph {
+  font-size: 3rem;
 }
 
 .main-text {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 30px;
   background-color: #ddb9a3;
   color: white;
+}
+
+.picture-paragraph {
+  text-align: center;
+  padding: 30px;
+  margin: 20px auto;
+}
+
+.picture-paragraph p {
+  margin-top: 30px;
+  font-size: 2rem;
 }
 
 .top-content {
@@ -61,4 +82,45 @@ strong {
 }
 #nav-plan {
   background-color: #ff764e;
+}
+
+#header-image {
+  border-radius: 50%;
+  width: 30%;
+  height: 30%;
+  object-fit: cover;
+  float: left;
+}
+
+#header-title {
+  font-size: 5rem;
+  font-family: "Chelsea Market", Arial, Helvetica, sans-serif;
+  padding-top: 150px;
+}
+
+/* Mid Section */
+
+/* .mid-content-infographic {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+} */
+
+.mid-content-infographic {
+  margin: 60px auto;
+}
+
+.mid-content-infographic img {
+  display: block;
+  margin: auto;
+  height: 20%;
+  width: 20%;
+}
+
+.mid-content-infographic p {
+  display: block;
+  margin: auto;
+  width: 30%;
+  text-align: center;
+  font-size: 2rem;
 }
