@@ -79,3 +79,17 @@ h2 {
     margin: 5px;  
 }
 
+footer {
+
+}
+
+.footer image {
+    border: 30px;
+    border-radius: 1px;
+    width: 150px;
+    height: 150px;
+    padding: 100px; 
+    border: 2px;
+    padding: .5em;
+}
+
