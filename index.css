@@ -1,12 +1,4 @@
 /* ELEMENTS */
-a {
-  font-size: 2rem;
-  color: white;
-  padding: 30px;
-  border-radius: 10%;
-  width: 100%;
-  margin: 10 auto;
-}
 
 footer {
   background-color: #f9e7dc;
@@ -19,6 +11,24 @@ footer img {
   height: 350px;
 }
 
+a {
+  color: white;
+  font-size: 3rem;
+  padding: 30px;
+  border-radius: 20%;
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 10%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+
 header {
   display: inline;
   margin: 10px;
@@ -27,12 +37,6 @@ header {
 html {
   font-family: "Roboto Mono", Arial, sans-serif;
   font-size: 62.5%;
-}
-
-nav {
-  width: 70%;
-  margin: 0 auto;
-  padding: 20px;
 }
 
 strong {
