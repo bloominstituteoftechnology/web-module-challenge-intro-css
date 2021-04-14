@@ -79,17 +79,17 @@ h2 {
     margin: 5px;  
 }
 
-footer {
-
-}
-
-.footer image {
-    border: 30px;
+.footer {
+    box-sizing: content-box;
+    border: 5px;
     border-radius: 1px;
     width: 150px;
-    height: 150px;
-    padding: 100px; 
-    border: 2px;
-    padding: .5em;
+    height: 350px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding: 25px;
+  
 }
 
