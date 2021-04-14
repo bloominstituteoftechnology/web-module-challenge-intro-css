@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 62.5%;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+  font-size: 4.5rem;
+  margin-left: 35%;
+}
+
+#first-section {
+  background-color: #DDB9A3;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  padding: 10px 10px 10px 10px;
+}
+
+#first-section p {
+  font-size: 1.5rem;
+  color: white;
+  padding: 10px 10px 10px 10px
+}
+
+footer {
+  background-color: #F9E7DC;
+  width: 60%;
+  height: 225px;
+  text-align: center;
+  margin: auto;
+}
+
+#fire {
+  font-weight: bold;
+}
+
+#fee {
+  font-weight: bold;
+}
+
+nav {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+header {
+  width: 100%;
+  height: 50%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+#header-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-left: 20%;
+}
+
+header p {
+  font-size: 1.5rem;
+  padding: 15px 15px 15px 15px;
+  margin-left: 37%;
+}
+
+header #second-p {
+  text-align: center;
+  width: 21%;
+  margin-left: 40%;
+}
+
+.little-pics {
+  width: 100px;
+  height: 100px;
+  margin-left: 46.5%;
+}
+
+#footer-image {
+  width: 100%;
+  height: 150px;
+}
+
+#second-section p {
+  width: 20%;
+  text-align: center;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+#second-section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.plan {
+  background-color: #FF764E;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  width: 7rem;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 10px 10px 10px 10px;
+}
+
+.learn {
+  background-color: #5ED3EB;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  width: 7em;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 10px 10px 10px 10px;
+}
+
+.involved {
+  background-color: #FFCD69;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  width: 7em;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 10px 10px 10px 10px;
+}
+
+footer nav {
+  margin: 30px
+}
