@@ -1,0 +1,92 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header {
+    background-image: url("https://www.nps.gov/common/uploads/banner_image/pwr/homepage/F70D1E85-1DD8-B71B-0B330C026FB6CF02.jpg?width=2400&height=700&mode=crop&quality=90");
+    background-size: cover;
+    width: 100%;
+    height: 20rem;
+}
+
+.flex-container {
+    display: flex;
+    background-color: black;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.text-body {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    font-family: Georgia;
+    font-size: 2.5rem;
+}
+
+img {
+    width: 20%;
+}
+
+p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: Arial;
+    font-weight: 100;
+}
