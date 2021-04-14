@@ -1,10 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@200&display=swap');
-html {
-    border: 10px;
-    margin: 20px;
-    font-family: Chelsea Market;
-    font-size: 50px;
-}
 
 header img {
     border: 30px;
@@ -20,6 +14,20 @@ nav {
     display:flex;
     flex-direction:row;
     padding:10% 0;
+    font-size: 30px;
+}
 
+h1 {
+    font-size: 50px;
+    font-family: Chelsea Market;
+    margin-top: 5%;
+    margin-left: 60%;
+    margin-block-end: 30%;
+}
 
+h2 {
+    font-size: 25px;
+    font-family: Roboto;
+    margin-left: 60%;
+    
 }
