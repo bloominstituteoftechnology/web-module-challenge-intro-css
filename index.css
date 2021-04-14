@@ -49,7 +49,7 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@100&display=swap');
 
 body{
-    margin:0 175px;
+    margin:10px 175px;
     text-align: center;
 }
 
@@ -75,20 +75,23 @@ p{
 }
 #introBox{
     display: flex;
-    justify-content: space-around;
+    flex-wrap: nowrap;
+    justify-content: center;
     margin: 40px 0;
     padding: 0 20px;
 }
 #headerImg{
-    width: 200px;
+    width: 20%;
     border-radius: 100%;
 }
 #intro{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
 }
 #tighter{
+    margin-top:20px;
     padding: 0 120px;
 }
 
@@ -102,3 +105,25 @@ p{
     margin: 0 0 20px;
 }
 
+#secTwo{
+    display: flex;
+    flex-direction: column;
+    margin:20px 0;
+    align-items: center;
+}
+.clipArt{
+    width: 150px;
+    margin: 10px;
+}
+.textBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 50%;
+    margin: 20px 0;
+}
+
+#footerImg{
+    height: 15vh;
+    width: 100%;
+}
