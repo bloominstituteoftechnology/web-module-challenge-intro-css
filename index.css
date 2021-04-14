@@ -71,9 +71,6 @@ nav {
 }
 
 nav a {
-    
-    
-
     width: 125px;
     height: 60%;
     margin: 15px 20px 15px 20px;
@@ -85,7 +82,6 @@ nav a {
     text-decoration: none;
     color: white;
     border-radius: 15px;
-    
 }
 
 .plan {
@@ -113,11 +109,8 @@ h1 {
     text-shadow: .1px .1px white;
     padding-top: 20px;
     padding-bottom: 20px;
-    
-
 }
 .header-p {
-    
     text-align: center;
     font-size: 1.7rem;
     padding-top: 15px;
@@ -144,13 +137,10 @@ h1 {
     font-family:'Roboto Mono' monospace;
     background-color: #DDB9A3;
     height: 80px;
-
     font-size: 1.7rem;
     font-family:'Roboto Mono';
     text-align: center;
     letter-spacing: 2px;
-    
-    
     text-align: center;
     padding: 5px 20px;
 
@@ -173,8 +163,6 @@ section {
     flex-direction: column;
     margin: 10px auto;
     width: 20%;
-    
-    
 }
 
 .footer-img {
@@ -185,7 +173,6 @@ section {
 
 span {
     font-weight:900;
-    
 }
 
 section p {
