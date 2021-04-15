@@ -34,11 +34,12 @@ header img {
 }    
 
 .boxItem {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  
+   border-width: 50% 50%;
+   border-radius: 30px;
+   background-color: #4CAF50; /* Green */
+   color: white;
+   margin: 100px;
+    
   }
 
 
