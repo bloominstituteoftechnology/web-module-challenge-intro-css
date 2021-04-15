@@ -28,6 +28,7 @@ nav {
     flex-direction:row;
     padding:10% 0;
     font-size: 30px;
+    border-radius: 1px;
 }
 
 h1 {
@@ -45,7 +46,7 @@ h2 {
     
 }
 
-.fire {
+#fire {
     border: 30px;
     border-radius: 1px;
     width: 600px;
