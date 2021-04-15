@@ -22,11 +22,27 @@ header img {
 }
 
 .boxContainer {
-  display:flex;
-  flex-direction: row;
-  justify-content: space-between;
-   
-}
+  display: flex;
+  flex-wrap: wrap; 
+  flex-flow: nowrap;
+  justify-content:space-evenly;
+  flex-direction:row;
+  align-items: stretch;
+
+  
+
+}    
+
+.boxItem {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  
+  }
+
+
+
 
 
 
