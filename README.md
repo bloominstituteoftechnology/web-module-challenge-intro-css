@@ -31,7 +31,7 @@ Follow these steps to set up and work on your project:
 
 Once your repository is set up, practice what you learned today to style the site according to the given design. Your complete project should look similar to the desktop image. You should take the following actions, at a minimum:
 
-- [ ] Link your CSS stylesheet in the `index.html` and implement a CSS reset 
+- [ ] Link your CSS stylesheet in the `index.html` and implement a CSS reset
 - [ ] Markup html semantically, such that it can be styled according to the given desktop image
 - [ ] Color the background of items in the navigation bar and footer with the following colors:
   - [ ] Plan your Visit: `#FF764E`
@@ -41,7 +41,7 @@ Once your repository is set up, practice what you learned today to style the sit
   - [ ] Yosemite Park Guide font is called Chelsea Market and can be found on [google fonts](https://fonts.google.com/specimen/Chelsea+Market)
   - [ ] All other text is Roboto Mono, also available on [google fonts](https://fonts.google.com/specimen/Roboto+Mono)
 - [ ] Color the background of the main text body with `#DDB9A3`
-- [ ] Color the background of the footer with `#F9E7DC`
+- [ ] Color the background of the footer with `F9E7DC#`
 - [ ] Bold the words "current fire restrictions" and "park entrance fee" according to the design file
 - [ ] Apply box model properties (content, padding, margin, and border) to all content such that your webpage matches the design file. This will include at least:
   - [ ] A round image in the header
@@ -51,7 +51,6 @@ Once your repository is set up, practice what you learned today to style the sit
   - [ ] Footer image positioning
 
 **Throughout your design you should avoid static units (pixels), and should instead use responsive units wherever possible.**
-
 
 ### Task 3: Stretch Goals
 
@@ -72,5 +71,4 @@ The following goals are designed to stretch your knowledge and may require addit
 
 Follow these steps for completing your project.
 
-- [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-
+- [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**

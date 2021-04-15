@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 62.5%;
+  font: inherit;
+  vertical-align: bottom;
+  font-family: "Roboto Mono", monospace;
+  /* overflow: 100%; */
+  /* border: 1px solid black; */
+}
+
+h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+body {
+  min-width: 1140px;
+}
+
+header {
+  width: 100%;
+}
+
+/* <!-- NAVBAR WITH THREE ELEMENTS --> */
+
+.navContainer {
+  width: 100%;
+  margin: 20px 20px 20px -40px;
+  /* use justify to distribute horizontally */
+  text-align: center;
+  vertical-align: bottom;
+  min-width: 1140px;
+}
+
+.navBtn {
+  /* use inline-box to distribute horizontally */
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  width: 120px;
+  min-height: 40px;
+  margin: 20px 40px 20px 40px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.PlanBtn {
+  background-color: #ff764e;
+}
+
+.LearnBtn {
+  background-color: #5ed3eb;
+}
+
+.EngageBtn {
+  background-color: #ffcd69;
+}
+
+.EngageBtn span {
+  padding: 1px 20px;
+  text-align: center;
+  display: table;
+}
+
+/* <!-- PICTURE AND DESCRIPTION BELOW NAVBAR --> */
+
+.imgAndH1Section {
+  margin: 5rem 0 5rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+.imgMountain {
+  display: inline-block;
+  margin: 0 -30px 0 40px;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+.divWelcomeText {
+  display: inline-block;
+  width: 50rem;
+  height: 10rem;
+}
+
+/* <!-- COLORED BOX BELOW INITIAL SECTION --> */
+
+.aboutThePark {
+  text-align: center;
+  background-color: #ddb9a3;
+  color: white;
+  margin: 0 400px 0 400px;
+  vertical-align: middle;
+  width: auto;
+  padding: 40px 0 40px 0;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+/* <!-- ICONS SECTION --> */
+
+.iconsSection {
+  width: auto;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  margin: 60px 0 60px 100px;
+}
+
+.icons {
+  width: auto;
+  /* margin: 0 auto; */
+  justify-content: center;
+  height: 5rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.divIcon {
+  width: auto;
+  /* margin: 0 auto; */
+  margin: 30px 0 30px 0;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+/* <!-- FOOTER IMG AND NAVBAR --> */
+
+.imgContainer {
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+  vertical-align: middle;
+  justify-content: center;
+  position: relative;
+}
+
+.footerImg {
+  /* position: absolute; */
+  /* object-position: 50% -200%; */
+  /* height: fit-content; */
+  height: min-content;
+  min-width: 5000px;
+  /* margin: auto; */
+  /* top: 0; */
+  /* bottom: 0; */
+}
+
+footer {
+  background-color: #f9e7dc;
+}
+
+/* .navContainerBottom {
+  margin: 5rem 5rem 5rem 5rem;
+  width: 100%;
+} */
