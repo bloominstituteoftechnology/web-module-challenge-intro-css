@@ -1,0 +1,86 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 5%;
+}
+
+#headerText {
+  flex-direction: column;
+  text-align: center;
+  padding: 5%;
+}
+
+#headerSection img {
+  width: 30%;
+  height: auto;
+}
+
+h1 {
+  font-family: "Chelsea Market", cursive;
+}
+
+.navBar {
+  margin-bottom: 5%;
+}
+
+.navBar,
+#headerSection {
+  display: flex;
+  justify-content: center;
+}
+
+.navOne,
+.navTwo,
+.navThree {
+  text-decoration: none;
+  padding: 1%;
+}
+
+.navOne {
+  background-color: #ff764e;
+}
+
+.navTwo {
+  background-color: #5ed3eb;
+}
+
+.navThree {
+  background-color: #ffcd69;
+}
+
+#headerSection {
+  border: 1px solid black;
+}
+
+#headerSection img {
+  border-radius: 50%;
+}
+
+#secondSection {
+  background-color: #ddb9a3;
+}
+
+#lastSection img {
+  width: 30%;
+  height: 10%;
+}
+
+#lastsection p {
+  text-align: center;
+}
+
+#lastSection {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+#footerSection .navBar {
+  background-color: #f9e7dc;
+}
+
+#footerSection img {
+  width: 1440px;
+  height: 400px;
+  margin-top: 20px;
+}
