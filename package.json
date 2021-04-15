@@ -1,0 +1,27 @@
+{
+  "name": "web-module-project-intro-css",
+  "version": "1.0.0",
+  "description": "The module challenge is the afternoon project or assignment that students work through independently. This expands on the guided project completed earlier with the instructor.",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LambdaSchool/web-module-project-intro-css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LambdaSchool/web-module-project-intro-css/issues"
+  },
+  "homepage": "https://github.com/LambdaSchool/web-module-project-intro-css#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
