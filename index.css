@@ -21,15 +21,18 @@ header img {
     padding: 100px    
 }
 
-nav {
-    text-align:center;
-    justify-content:space-between;
-    display:flex;
-    flex-direction:row;
-    padding:10% 0;
-    font-size: 30px;
-    border-radius: 1px;
+.boxContainer {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+   
 }
+
+
+
+
+
+
 
 h1 {
     font-size: 50px;
