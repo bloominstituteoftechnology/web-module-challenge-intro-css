@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+.bold{
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.top-buttons div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+nav{
+    width: 100%;
+}
+.top-buttons a{
+    width: 130px;
+    height: 50px;
+    color: white; 
+    padding: 1%;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+
+#button1{
+    background: #ff764e;
+}
+#button2{
+    background: #5ed3eb;
+}
+#button3{
+    background: #ffcd69;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-header h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 230%;
+    letter-spacing: 6px;
+    font-weight: lighter;
+    padding-bottom: 1%;
+}
+.top-header{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10%;
+}
+
+.top-header img{
+    width: 25%;
+    height: 25%;
+    position: relative;
+    border-radius: 80%;
+}
+
+.first-body{
+    width: 85%;
+    padding: 3%;
+    font-weight: lighter;
+}
+.first-paragraph{
+    font-size: 80%;
+    width: auto;
+}
+
+.second-paragraph{
+    width: auto;
+    font-size: 80%;
+}
+.second-paragraph img{
+    width: 50%;
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+    padding-top: 4%;
+    padding-left: 4%;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.image{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.first-body{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #ddb9a3;
+    padding: 5%;
+    margin: 7%;
+}
+
+.second-body{
+    width: 32%;
+    text-align: center;
+    padding-left: 35%;
+}
+.second-body p{
+    font-size: 15px;
+}
+
+.second-body b{
+font-size: 15px;
+}
+
+.footer img{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 80% 20%;
+}
