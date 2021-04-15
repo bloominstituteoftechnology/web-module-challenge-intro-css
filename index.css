@@ -48,6 +48,53 @@ table {
 
 * {
     box-sizing:border-box;
-    max: width 100%;
+    max-width: 100%;
     border: 1px solid grey;
 }
+/*General Styles!*/
+html{
+    font-size:62.5%;
+
+}
+body {
+    font-size:1.6rem;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.5;
+
+}
+h1 {
+    font-family: 'Chelsea Marker', cursive;
+    font-size:5rem;
+}
+section {
+    padding: 4% 0;
+    width:90%;
+    margin:0 auto;
+}
+
+/*nav section styles*/
+nav {
+    padding:2% 0;
+}
+nav a {
+    display:inline-block;
+    border-radius: 10px;
+    text-align:center;
+    padding: 1% 2%;
+    color: #fff;
+  
+}
+
+.orange {
+    background-color: #FF764E;
+
+}
+.blue {
+    background-color: #5ED3EB;
+
+}
+.yellow {
+    background-color: #FFCD69;
+}
+
+
