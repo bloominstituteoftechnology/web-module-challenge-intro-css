@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto';
+}
+
+.image{
+    margin: auto;
+    display:flex;
+    align:center;
+}
+.top-menu a {
+    margin: 45px;
+    color:white;
+    padding:20px;
+    border-radius: 13px;
+    display:inline-block;
+    text-decoration:none;
+    font-size:16px;
+}
+
+.top-menu  {
+    color:white; 
+    text-align:center;
+}
+    #left{
+        background:#FF764E;
+    }
+    #middle{
+        background:#5ED3EB;
+    }
+    #right{
+        background:#FFCD69;
+    }
+
+.top-image img{
+    border-radius: 50%;
+    height:200px;
+    width: 200px;
+}
+
+header{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    font-style:"Chelsea Market";
+}
+
+.bottom-menu a {
+    margin: 45px;
+    color:white;
+    padding:20px;
+    border-radius: 13px;
+    display:inline-block;
+    text-decoration:none;
+    font-size:16px;
+}
+.bottom-menu{
+    background:#F9E7DC;
+}
+
+h1{
+        font-size:30px;
+        font-family: 'Chelsea Market';
+    }
+
+
+.bottom-image img{
+   height:200px;
+   width:860px;
+}
+
+.top-content{
+    text-align:center;
+}
+
+.section1{
+    margin-top:5%;
+    margin-bottom:5%;
+    text-align:center;
+    padding-left:30%;
+    font-size:15px;
+    width:35%;
+    font-style:"Chelsea Market";
+}
+
+.section{
+    text-align:center;
+    background-color:#DDB9A3;
+    color:white;
+    padding:3%;
+    margin:30px;
+}
+.image{
+    width:30%;
+}
