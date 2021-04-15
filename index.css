@@ -45,13 +45,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 * {
     box-sizing:border-box;
     max-width: 100%;
-    border: 1px solid grey;
+    
 }
-/*General Styles!*/
 html{
     font-size:62.5%;
 
@@ -60,7 +58,6 @@ body {
     font-size:1.6rem;
     font-family: 'Roboto Mono', monospace;
     line-height: 1.5;
-
 }
 h1 {
     font-family: 'Chelsea Marker', cursive;
@@ -71,10 +68,13 @@ section {
     width:90%;
     margin:0 auto;
 }
-
-/*nav section styles*/
+a {
+    text-decoration: none;
+}
 nav {
     padding:2% 0;
+    display:flex;
+    justify-content:space-around;
 }
 nav a {
     display:inline-block;
@@ -82,19 +82,75 @@ nav a {
     text-align:center;
     padding: 1% 2%;
     color: #fff;
-  
 }
-
 .orange {
     background-color: #FF764E;
-
 }
 .blue {
     background-color: #5ED3EB;
-
 }
 .yellow {
     background-color: #FFCD69;
+}
+.top{
+    display: flex;
+}
+.left {
+    width: 40%;
+}
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgContainer img {
+    border-radius: 50%;
+    width: 80%;
+}
+.right {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    width: 80%;
+    
+}
+.about {
+    background-color: #DDB9A3;
+    padding: 2%;
+}
+.about p {
+    margin: 2% 0;
+
+}
+.parkInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fire, .lodging {
+    width: 40%;
+    text-align: center; 
+    margin: 4% 0; 
+}
+.fire img, .lodging img {
+    width: 60%;
+}
+.bold {
+    font-weight: bold;
+}
+.footer-image {
+    width: 100%;
+    height: 45vh;
+    background-image: url('footer_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+ }
+footer {
+    background-color: #F9E7DC;
 }
 
 
