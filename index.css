@@ -1,3 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:ital,wght@0,100;1,700&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+#topNav {
+    display: flex;
+    justify-content: space-around;
+    margin: 7rem 0;
+}
+
+.navBar {
+    
+}
+
+.navBar a{
+    text-decoration: none;
+    font-size: 2.5em;
+    font-weight: bolder;
+    color:white;
+    padding:1.75rem;
+    border-radius: 1.5rem;
+}
+
+.plan {
+    background-color: #FF764E;
+}
+
+.learn {
+    background-color: #5ED3EB;
+}
+
+.get {
+    background-color: #FFCD69;
+}
+
+#headerWrap {
+    margin-top:12rem;
+    margin-bottom:15rem;
+}
+
+#headerImg {
+    width:20%;
+    border-radius:25rem;
+    display: inline-block;
+    margin-left: 12rem;
+    float: left;
+}
+
+#headerContent {
+    text-align: center;
+    padding-top: 1rem;
+    margin-right: 12rem;
+   
+}
+
 h1 {
-    color: red;
+    font-size: 9rem;
+    font-family: 'Chelsea Market', cursive;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding-left:20rem;
+    margin-left:12rem;
+}
+
+#sectionOne {
+    text-align: center;
+    font-size: 2.5rem;
+    color:white;
+    background-color:#DDB9A3;
+    padding: 1rem 2.5rem;
+    margin: 9rem;
+}
+
+#fire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fireImg {
+    width: 15%;
+    height: auto;
+}
+
+#fire p{
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 300px;
+}
+
+#car {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#carImg {
+    width: 15%;
+    height: auto;
+}
+
+#car p {
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 300px;
+    
+}
+
+#footerImg {
+    margin-top:11rem;
+    width:100%;
+    height: 30rem;
+}
+
+
+#bottomNav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+    background: #F9E7DC;
 }
