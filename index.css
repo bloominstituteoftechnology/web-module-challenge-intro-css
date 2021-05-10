@@ -1,0 +1,88 @@
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    font-size:62.5%;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+*{
+    box-sizing: border-box; 
+     max-width:100%;
+     font-size:3rem;
+     padding:1% 5% 0;
+    text-align:center;
+}
+
+.headimg{
+    border-radius: 50%;
+    height: 60vh;
+    padding:5%;
+    display:block
+}
+
+nav{
+    padding:1% 5% 0;
+    text-align:center;
+}
+
+header{
+    display:inline-flex;
+    padding: 5% 0;
+    
+}
+
+.info2 img{
+    height: 20vh;
+    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
+    display:inline;
+    box-align:center;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+}
+
+.info2{
+    justify-content: center;
+}
+
+.plan{
+    border:1vh solid #FF764E;
+    background-color: #FF764E;
+    border-radius:15px;
+}
+.learn{
+    border:1vh solid #5ED3EB;
+    background-color: #5ED3EB;
+    border-radius:15px;
+}
+
+.involved{
+    border:1vh solid #FFCD69;
+    background-color: #FFCD69;
+    border-radius:15px;
+}
+
+footer img{
+
+    height:25vh;
+    width:90%;
+    }
