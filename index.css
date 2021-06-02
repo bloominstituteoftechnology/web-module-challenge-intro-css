@@ -1,4 +1,6 @@
 /* Meyers Reset */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
 html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
 del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
@@ -105,8 +107,8 @@ nav a
     height: 6rem;
     width: 12rem;
     text-align: center;
-    margin-left: 13%;
-    margin-right: 13%;
+    margin-left: 12%;
+    margin-right: 5%;
     transition: 1s;
 }
 
