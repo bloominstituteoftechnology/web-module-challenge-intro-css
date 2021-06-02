@@ -115,10 +115,13 @@ nav {
     width: 40%;
     display: inline-block;
 }
+#header-picture {
+    margin-left: 4%;
+}
 .text-container {
     display: inline-block;
     text-align: center;
-    width: 57%;
+    width: 55%;
     height: 100%;
 }
 .picture {
