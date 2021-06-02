@@ -1,4 +1,186 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+*{
+    box-sizing:border-box;
+    max-width:100%;
+}
+html{
+    font-size:62.5%;
+}
 body{
-    color:red;
-    font-size:20px;
+    font-family: 'Roboto Mono', monospace;
+    font-size:1.6rem;
+    line-height:1.5;
+    letter-spacing: 1.5;
+}
+.navigation{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 5rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+    padding:2rem 10rem;
+}
+div.plan{
+    border-radius: 2rem;
+    background:#FF764E;
+    color:white;
+    padding:1rem 3rem;
+    text-align:center;
+}
+div.learn{
+    border-radius: 2rem;
+    background:#5ED3EB;
+    color:white;
+    padding:1rem 3rem;
+    text-align:center;
+}
+div.involved{
+    border-radius: 2rem;
+    background:#FFCD69;
+    color:white;
+    padding:1rem 3rem;
+    text-align:center;
+}
+div.head {
+    display:flex;
+}
+div.head img{
+    border-radius:50%;
+    width:22.5%;
+    height:22.5%;
+    margin: 5rem 5rem;
+}
+div.group1{
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    padding: 8rem 2rem;
+}
+div.group1 h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:5rem;
+    margin:0 15rem;
+}
+.explorep{
+    width:75%;
+    margin:2.5rem 20rem;
+    font-size:1.6rem;
+}
+.explorep2{
+    width:40%;
+    margin:0 20rem;
+    text-align:center;
+    font-size:1.6rem;
+}
+.footerimg {
+    height:60vh;
+    background-image:url('assets/footer_img.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+div.firstp{
+    display:inline-block;
+    background-color:#DDB9A3;
+    align-items:center;
+    color:white;
+    padding:1rem 3rem;
+    margin:0 45rem;
+    width:55%;
+    text-align:center;
+}
+div.secondp{
+    display:inline-block;
+    align-items:center;
+    padding:3rem 10rem;
+    margin:0 73rem;
+    width:25%;
+    text-align:center;
+}
+div.secondp img{
+    width:50%;
+}
+div.thirdp{
+    display:inline-block;
+    align-items:center;
+    padding:3rem 10rem;
+    margin:0 73rem;
+    width:25%;
+    text-align:center;
+}
+div.thirdp img{
+    width:50%;
+}
+
+
+
+
+
+
+section.nav2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0rem 0rem;
+    font-size: 2rem;
+    padding:2rem 40rem;
+    background-color:#F9E7DC;
+}
+div.plan2{
+    border-radius: 2rem;
+    background:#FF764E;
+    color:white;
+    padding:1rem 3rem;
+    text-align:center;
+}
+div.learn2{
+    border-radius: 2rem;
+    background:#5ED3EB;
+    color:white;
+    padding:1rem 3rem;
+    text-align:center;
+}
+div.involved2{
+    border-radius: 2rem;
+    background:#FFCD69;
+    color:white;
+    padding:1rem 3rem;
+    text-align:center;
 }
