@@ -31,9 +31,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
 ol, ul {
 	list-style: none;
 }
@@ -53,40 +50,46 @@ table {
 html {
     font-size: 62.5%;
 }
-
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+}
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 0;
+    margin: 0px;
+    border: 1px solid grey;
+}
 /* 2. header */
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column wrap;
 }
 nav {
     width: 100%;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-evenly;
-    margin: 3em;
+    margin: 1rem 0;
 }
 .link {
+    display: inline-block;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     border-radius: .5em;
-    height: 2em;
-    width: 5em;
-    padding: .2em 1em;
+    width: 10%;
     color: white;
-    font-size: 2em;
+    font-size: 2rem;
 }
 .red {
     background-color: #FF764E;
+    margin-left: 17%;
 }
 .blue {
     background-color: #5ED3EB;
+    margin: 0 17%;
 }
 .yellow {
     background-color: #FFCD69;
+    margin-right: 17%;
 }
 .header-bottom {
     width: 100%;
@@ -107,5 +110,16 @@ nav {
     align-items: center;
     flex-flow: column wrap;
 }
+h1 {
+    font-family: "Chelsea Market", cursive;
+    font-size: 5rem;
+}
 /* 3. main */
 /* 4. footer */
+.footer-image {
+    height: 40vh;
+    background-image: url(./assets/footer_img.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: top;
+}
