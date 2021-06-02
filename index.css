@@ -50,6 +50,10 @@ table {
 	border-spacing: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 /* 2. header */
 header {
     display: flex;
@@ -60,17 +64,20 @@ header {
 nav {
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-evenly;
+    margin: 3em;
 }
 .link {
     cursor: pointer;
+    text-align: center;
     text-decoration: none;
-    border-radius: 1em;
-    height: 4em;
-    width: 4em;
+    border-radius: .5em;
+    height: 2em;
+    width: 5em;
     padding: .2em 1em;
     color: white;
+    font-size: 2em;
 }
 .red {
     background-color: #FF764E;
@@ -81,6 +88,24 @@ nav {
 .yellow {
     background-color: #FFCD69;
 }
-
+.header-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .2em;
+}
+#header-picture {
+    border-radius: 100%;
+    width: 12vw;
+    height: 12vw;
+}
+.text-container {
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
 /* 3. main */
 /* 4. footer */
