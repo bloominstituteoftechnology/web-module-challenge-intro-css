@@ -10,15 +10,18 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* Dont Copy pasta my code */
+time, mark, audio, video
+ {
+     vertical-align: baseline;
+     font-family: inherit;
+     font-weight: inherit;
+     font-style: inherit;
+     font-size: 100%;
+     outline: 0;
+     padding: 0;
+     margin: 0;
+ }
+/* Dont Copy pasta my code - Rev */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -42,80 +45,118 @@ table {
 	border-spacing: 0;
 }
 
-
-body {
-  font-family: "Roboto Mono", monospace;
-}
-nav a {
-  margin: 40px;
-  border: none;
-  border-radius: 12px;
-  width: 10%;
-  color: white;
-  padding: 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+*{
+    box-sizing:border-box;
+    /*border: 1px solid grey;*/
+    max-width:100%;
 }
 
-#button1 {
-  background-color: #ff764e;
+/*General Styles*/
+
+html{
+    font-size: 62.5%;
 }
 
-#button2 {
-  background-color: #5ed3eb;
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
 }
 
-#button3 {
-  background-color: #ffcd69;
-}
-nav {
-  text-align: center;
-  padding: 30px;
-}
-header img {
-  border-radius: 50%;
-  width: 30%;
-  margin: 0px 20px 0px 120px;
-  float: left;
-}
-header {
-  display: inline-block;
-}
-h1 {
-  font-family: "Chelsea Market", monospace;
-  font-size: 50px;
-  text-align: center;
-  margin: 40px 70px 0 0;
-}
-header h4 {
-  text-align: center;
-}
-.container {
-  background: #ddb9a3;
-  color: white;
-  text-align: center;
-  font-size: 16px;
-  padding: 2px 40px;
-  margin: 40px;
-}
-.pics {
-  width: 170px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-p {
-  text-align: center;
-}
-footer nav {
-  background: #f9e7dc;
-  padding: 0 0 0 0;
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 6rem;
 }
 
-#1234 {
-  object-fit: cover;
-  width: 516;
-  height: 150px;
+section{
+    padding: 4% 0;
+    width: 90%;
+    margin: 0 auto;
 }
+
+/* header sections styles */
+
+nav{
+    padding: 2% 0;
+}
+
+nav a{
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.orange{
+    background-color: #ff764e;
+    margin-left: 10%;
+}
+
+.blue{
+    background-color: #5ed3eb;
+    margin: 0 24%;
+}
+
+.yellow{
+    background-color:#ffcd69;
+    margin-right: 10%;
+}
+
+/* title section */
+.cta{
+    position: relative;
+}
+
+.text, .image{
+    display: inline-block;
+}
+
+.image{
+    width: 30%;
+}
+
+.round{
+    border-radius: 50%;
+}
+
+.text {
+    width: 55%;
+    margin-left: 5%;
+    text-align: center;
+    line-height: 3;
+    position: absolute;
+    top: 150px;
+}
+
+/* main */
+
+.main{
+    background-color: #ddb9a3;
+    color: #fff;
+    padding: 2%;
+}
+
+.info div{
+    width: 30%;
+    margin: 5% auto;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bg-img{
+    background-image: url('assets/footer_img.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+}
+
+footer{
+    background-color: #f9e7dc;
+} 
