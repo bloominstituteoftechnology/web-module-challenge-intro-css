@@ -70,14 +70,14 @@ nav {
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    border-radius: .5em;
+    border-radius: .5rem;
     width: 10%;
     color: white;
     font-size: 2rem;
     transition-duration: 300ms;
 }
 .red {
-    background-color: #FF764E;
+    background-color: hsl(14, 100%, 65%);
     margin-left: 17%;
 }
 .red:hover, .red:focus {
@@ -178,7 +178,7 @@ b {
 }
 /* 4. footer */
 footer {
-    background-color: #F9E7DC;
+    background-color: hsl(23, 71%, 92%);
     padding: 2rem 0;
 }
 .footer-image {
@@ -198,7 +198,9 @@ form {
     color: #4f4f4f;
     text-align: center;
     font-size: 4rem;
-    height: 60vh;
+    height: 65vh;
+    border-radius: 20px;
+    background-color: hsl(174, 71%, 92%);
 }
 input {
     font-size: 4rem;
@@ -207,4 +209,21 @@ input {
 input, label {
     display: inline-block;
     width: 40%;
+    margin-top: 4%;
+}
+button {
+    display: block;
+    width: 17%;
+    font-size: 4rem;
+    color: white;
+    background-color: hsl(130, 100%, 65%);
+    margin: 10% auto 0;
+    border: none;
+    border-radius: .5rem;
+    transition-duration: 300ms;
+}
+button:hover, button:focus {
+    background-color: white;
+    color: hsl(130, 100%, 65%);
+    border:hsl(130, 100%, 65%) solid 2px;
 }
