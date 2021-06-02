@@ -188,3 +188,23 @@ footer {
     background-size: cover;
     background-position: top;
 }
+/* plan page */
+.plan-page {
+    height: 100vh;
+}
+form {
+    display: block;
+    border: #4f4f4f 2px dotted;
+    color: #4f4f4f;
+    text-align: center;
+    font-size: 4rem;
+    height: 60vh;
+}
+input {
+    font-size: 4rem;
+    height: max-content;
+}
+input, label {
+    display: inline-block;
+    width: 40%;
+}
