@@ -1,140 +1,204 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* CSS Reset */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
 ol, ul {
 	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
+	}
+/* tables still need cellspacing="0" in the markup */
 table {
-	border-collapse: collapse;
+	border-collapse: separate;
 	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+/* Code Begins - General Styles */
+
+* {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
 }
 
-/* Code Begins */
-
-
-p {
-    font-size: 1.6rem;
-    padding-bottom: 15px;
-    line-height: 1.5rem;
+html {
+    font-size:62.5%;
 }
 
-body {
-    font-family: 'Roboto Mono', monospace;
-    font-size:62.5%
+section {
+    padding 4% 0;
 }
 
 h1 { 
     font-family: 'Chelsea Market', cursive;
-    font-size: 5rem;
-    padding-bottom: 60px;
-}
-.section-1 {
-    background-color: #DDB9A3;
-    color: white;
-    margin: 0% 10% 10% 10%;
-    padding: 1% 2% 1% 2%;
+    font-size: 4.8rem;
+    padding-bottom: 10px;
 }
 
-.section-2 {
-    width: 30%;
+h2 {
+    font-size: 1.8rem;
+    padding-bottom: 10px;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f; /* easier to read */ 
+}
+
+strong {
+    font-weight: bold;
+}
+
+p {
+    padding-bottom: 30px;
+}
+
+/* header section begins */
+
+nav {
+    padding 2% 0;
+    margin-top: 3%;
     text-align: center;
 }
 
-.navigation {
-    display: flex;
-    justify-content: space-around;
-    margin: 10px;
+nav a {
+    display: inline-block;
+    padding: 1% 0;
+    width: 12%;
+    border-radius: 15px;
+    color: white;
+    line-height: 1.2;
+    text-align:center;
+    text-decoration: none;
 }
 
 .nav1 {
     background-color:#FF764E;
-    padding: 1%;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    border-radius: 15px;
-    font-size: 1.6rem;
-    width: 10rem;
+    margin-left: 18%;
 }
 
 .nav2 {
     background-color:#5ED3EB;
-    padding: 1%;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    border-radius: 15px;
-    font-size: 1.6rem;
-    width: 10rem;
+    margin: 0 10%;
 }
 
 .nav3 {
     background-color:#FFCD69;
-    padding: 1%;
+    margin-right: 18%;
+}
+
+.top {
+   position: relative;
+   margin: 2% 15%;
+}
+
+.left img {
+    border-radius: 999px;
+    width: 100%;
+}
+
+.left, .right {
+    display: inline-block;
     text-align: center;
+    
+}
+
+.left {
+    width: 30%;
+}
+
+.right {
+    width: 55%;
+    position: absolute;
+    bottom: 25%;
+    margin-left: 5%;
+}
+
+/* section box begins */
+
+.section-1 {
+    background-color: #DDB9A3;
     color: white;
-    text-decoration: none;
-    border-radius: 15px;
-    font-size: 1.6rem;
-    width: 10rem;
+    margin: 0 10%;
+    padding: 1% 2% 0% 2%;
+    font-size: 2rem;
+}
+
+/* icons section */
+
+.section-2 {
+    margin: 3% 40%;
+    width: 25%;
+    max-width: 300px;
+    text-align: center;
+    
+}
+
+.info, .info img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info img {
+    width: 100px;
+    padding-bottom: 10px;
+
+}
+
+/* footer begins */
+
+.section-3 {
+    background-image: url("assets/footer_img.jpg");
+    height: 50vh;
+    max-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
 }
 
 footer {
     background-color: #F9E7DC;
-}
-
-.header {
-    display: flex;
-    justify-content: center;
-    margin: 100px;
-}
-
-.img-header img {
-    border-radius: 999px;
-    width: 400px;
-    
-}
-
-.title {
+    padding: 2%;
     text-align: center;
-    margin: 100px;
-    padding: 0px 30px 0px 30px;
 }
+
+footer a {
+    display: inline-block;
+    padding: 1% 0;
+    width: 12%;
+    line-height: 1.2;
+    border-radius: 10px;
+    color: white;
+    text-align:center;
+    text-decoration: none;
+}
+
