@@ -154,20 +154,20 @@ footer{
     background-color: #DDB9A3;
     color: white;
     margin: 0 10% 0;
+    padding: 2% 2% 2%;
 }
 
 .bullets{
-    margin: 0;
+    margin: 0 auto;
     padding: 0%;
-}
-.bullets img {
-    width: 20%;
-    margin: 0 50% 0;
-    
+    text-align: center;
+    width: 45%;
 }
 
-.bullets p{
-    width: 25%;
-    margin: 0 50% 0;
-    text-align: center;
+.bullets img{
+    width: 20%;
+}
+
+.bold  {
+    font-weight: 700;
 }
