@@ -182,18 +182,24 @@ nav a {
   margin-right: 10%;
 }
 
+/*  */
 /* Top Section Styles */
+/*  */
+
 .top {
   position: relative;
 }
 .left img {
   border-radius: 50%;
+
+  width: 60%;
 }
 
 .left,
 .right {
   display: inline-block;
   text-align: center;
+  margin: 0;
 }
 .left {
   width: 40%;
@@ -202,7 +208,38 @@ nav a {
   width: 45%;
   margin-left: 3%;
   position: absolute;
-  top: 40%;
+  top: 35%;
+}
+
+/*  */
+/* second section with paragraphs */
+/*  */
+.second {
+  background-color: #ddb9a3;
+  margin: 0 6% 5% 6%;
+  padding: 2% 3%;
+  color: white;
+}
+
+/*  */
+/* third section with icons */
+/*  */
+.third {
+  margin: 0 30% 0;
+  display: block;
+  text-align: center;
+}
+.top-third {
+  margin: 0 0 10%;
+}
+.fire {
+  width: 40%;
+}
+.bottom-third {
+  /* n/a */
+}
+.rv {
+  width: 40%;
 }
 
 /* background image section */
