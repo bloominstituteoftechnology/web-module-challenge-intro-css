@@ -5,6 +5,31 @@ span,
 applet,
 object,
 iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
 h1,
 h2,
 h3,
@@ -21,26 +46,6 @@ address,
 big,
 cite,
 code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
 dl,
 dt,
 dd,
@@ -50,172 +55,120 @@ li,
 fieldset,
 form,
 label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
+legend {
   vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
 }
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
 }
-body {
-  line-height: 1;
-}
+
 ol,
 ul {
   list-style: none;
 }
-blockquote,
-q {
-  quotes: none;
+/* tables still need cellspacing="0" in the markup */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
 }
+caption,
+th,
+td {
+  font-weight: normal;
+  text-align: left;
+}
+/* remove possible quote marks (") from <q> & <blockquote> */
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
   content: "";
-  content: none;
 }
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+blockquote,
+q {
+  quotes: "" "";
 }
 
 * {
-  margin: 0;
+  box-sizing: border-box;
   padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+a {
   text-decoration: none;
-  font-family: "Roboto Mono", monospace;
-  font-size: 20px;
 }
-
-.bold {
-  font-weight: bolder;
-  font-size: 1rem;
-}
-
-.top-buttons {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+nav a {
+  display: inline-block;
+  text-align: center;
+  padding: 1.5% 0;
   border-radius: 10px;
+  width: 15%;
+  color: #fff;
 }
 nav {
-  width: 100%;
+  padding: 2% 0;
 }
-.top-buttons a {
-  width: 130px;
-  height: 50px;
-  color: white;
-  padding: 1%;
-  text-align: center;
-  font-size: 15px;
-  letter-spacing: 1px;
-  border-radius: 10px;
-}
-
-#button1 {
+.orange {
   background: #ff764e;
+  margin-left: 10%;
 }
-#button2 {
+.blue {
   background: #5ed3eb;
+  margin: 0 15%;
 }
-#button3 {
+.yellow {
   background: #ffcd69;
-  display: flex;
-  flex-direction: column;
+  margin-right: 10%;
 }
 
-.top-header h1 {
+.left,
+.right {
+  display: inline-block;
+}
+.left img {
+  border-radius: 80%;
+  max-width: 80%;
+  margin-left: 10%;
+}
+.left {
+  width: 33%;
+}
+
+.right {
+  width: 55%;
+  margin-left: 10%;
+}
+
+.right h1 {
   font-family: "Chelsea Market", cursive;
-  font-size: 230%;
+  font-size: 220%;
   letter-spacing: 6px;
   font-weight: lighter;
   padding-bottom: 1%;
 }
-.top-header {
-  display: flex;
-  flex-direction: row;
-  padding-top: 10%;
-}
-
-.top-header img {
-  width: 25%;
-  height: 25%;
-  position: relative;
-  border-radius: 80%;
-}
 
 .first-body {
-  width: 85%;
-  padding: 3%;
-  font-weight: lighter;
-}
-.first-paragraph {
-  font-size: 80%;
-  width: auto;
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: #ddb9a3;
+  padding: 6%;
+  margin: 8%;
 }
 
-.second-paragraph {
-  width: auto;
-  font-size: 80%;
-}
 .second-paragraph img {
   width: 50%;
   margin: 0 auto;
 }
-.title {
-  text-align: center;
-  padding-top: 4%;
-  padding-left: 4%;
-  display: flex;
-  flex-direction: column;
-  width: 70%;
-}
-
 .image {
   width: 60%;
   display: flex;
@@ -225,36 +178,16 @@ nav {
   margin-top: auto;
   margin-bottom: auto;
 }
-
-.first-body {
-  position: relative;
-  text-align: center;
-  color: white;
-  background-color: #ddb9a3;
-  padding: 5%;
-  margin: 7%;
-}
-
 .second-body {
-  width: 32%;
+  width: 30%;
+  margin-left: 35%;
+  margin-bottom: 10%;
   text-align: center;
-  padding-left: 35%;
+  position: relative;
 }
 .second-body p {
   font-size: 15px;
 }
-
 .second-body b {
   font-size: 15px;
-}
-
-.footer img {
-  padding-top: 5%;
-  padding-bottom: 5%;
-  position: relative;
-  display: flex;
-  height: 300px;
-  width: 100%;
-  object-fit: cover;
-  object-position: 80% 20%;
 }
