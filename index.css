@@ -184,6 +184,7 @@ nav a {
 
 /* Top Section Styles */
 .top {
+  position: relative;
 }
 .left img {
   border-radius: 50%;
@@ -191,6 +192,7 @@ nav a {
 
 .left,
 .right {
+  display: inline-block;
   text-align: center;
 }
 .left {
@@ -199,4 +201,15 @@ nav a {
 .right {
   width: 45%;
   margin-left: 3%;
+  position: absolute;
+  top: 40%;
+}
+
+/* background image section */
+.heroImg {
+  height: 40vh;
+  background-image: url("assets/footer_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
