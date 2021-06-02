@@ -62,11 +62,9 @@ body {
     border: 1px solid grey;
 }
 /* 2. header */
-header {
-}
 nav {
     width: 100%;
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 .link {
     display: inline-block;
@@ -96,9 +94,8 @@ nav {
     width: 100%;
 }
 .image-container {
-    display: inline-block;
     width: 40%;
-    margin-left: 2%;
+    display: inline-block;
 }
 .text-container {
     display: inline-block;
@@ -106,10 +103,12 @@ nav {
     width: 57%;
     height: 100%;
 }
-#header-picture {
-    border-radius: 100%;
+.picture {
     width: 80%;
     height: 80%;
+}
+.round {
+    border-radius: 100%;
 }
 h1 {
     font-family: "Chelsea Market", cursive;
@@ -127,7 +126,7 @@ h1 {
     color: white;
     display: block;
     width: 90%;
-    margin: 0 auto;
+    margin: 1rem auto;
     font-family: "Roboto", monospace;
     font-size: 2rem;
 }
@@ -138,9 +137,28 @@ h1 {
 .section-two p:first-child {
     padding-bottom: 2rem;
 }
+.picture-card {
+    width: 40%;
+    margin: 1rem auto;
+}
+.section-three {
+    margin-bottom: 2rem;
+}
+.section-three .image-container {
+    margin: 0 auto;
+    display: block;
+}
+.section-three p {
+    text-align: center;
+    font-family: "Roboto", monospace;
+}
 /* 4. footer */
+footer {
+    background-color: #F9E7DC;
+    padding: 2rem 0;
+}
 .footer-image {
-    height: 40vh;
+    height: 60vh;
     background-image: url(./assets/footer_img.jpg);
     background-repeat: none;
     background-size: cover;
