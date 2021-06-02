@@ -54,7 +54,7 @@ table {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 
 /* GENERAL STYLES */
@@ -165,7 +165,7 @@ footer{
 
 .bullets{
     margin: 0 auto;
-    padding: 0%;
+    padding: 2.5%;
     text-align: center;
     width: 45%;
 }
