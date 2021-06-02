@@ -11,7 +11,7 @@
 
 ## Introduction
 
-In this project you will be styling a single page with more advanced CSS. This page is a take on the government's [national parks website](https://www.nps.gov/yose/index.htm) and includes some basic information about Yosemite National Park in California.
+In this project you will be styling a single page with more advanced CSS. This page is a take on the government's [national parks website](https://codepen.io/klove-adams/pen/QWpQqME?editors=1100) and includes some basic information about Yosemite National Park in California.
 
 The styles in your [design file](/design/desktop.jpg) include bright colors and fun icons to get people excited about exploring the outdoors. With a little work, this could even be refactored into a 3rd-party national parks guide site or blog.
 
