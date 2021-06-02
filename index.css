@@ -75,18 +75,37 @@ nav {
     width: 10%;
     color: white;
     font-size: 2rem;
+    transition-duration: 300ms;
 }
 .red {
     background-color: #FF764E;
     margin-left: 17%;
 }
+.red:hover, .red:focus {
+    outline: none;
+    background-color: white;
+    color: #FF764E;
+    border: #FF764E solid 2px;
+}
 .blue {
     background-color: #5ED3EB;
     margin: 0 17%;
 }
+.blue:hover, .blue:focus {
+    outline: none;
+    background-color: white;
+    color: #5ED3EB;
+    border: #5ED3EB solid 2px;
+}
 .yellow {
     background-color: #FFCD69;
     margin-right: 17%;
+}
+.yellow:hover, .yellow:focus {
+    outline: none;
+    background-color: white;
+    color: #FFCD69;
+    border: #FFCD69 solid 2px;
 }
 /* 3. main */
 
@@ -113,13 +132,13 @@ nav {
 h1 {
     font-family: "Chelsea Market", cursive;
     font-size: 5rem;
-    margin: 5% auto;
+    margin: 5% auto 0%;
 }
 .text-container :is(p,h2) {
     font-family: "Roboto", monospace;
-    font-size: 2rem;
+    font-size: 3rem;
     width: 80%;
-    margin: 10% auto 0%;
+    margin: 5% auto 0%;
 }
 .section-two {
     background-color: #DDB9A3;
@@ -151,6 +170,9 @@ h1 {
 .section-three p {
     text-align: center;
     font-family: "Roboto", monospace;
+}
+b {
+    font-weight: 900;
 }
 /* 4. footer */
 footer {
