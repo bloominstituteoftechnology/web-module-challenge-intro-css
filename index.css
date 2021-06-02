@@ -1,0 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Code Begins */
+
+
+p {
+    font-size: 1.6rem;
+    padding-bottom: 15px;
+    line-height: 1.5rem;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size:62.5%
+}
+
+h1 { 
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+    padding-bottom: 60px;
+}
+.section-1 {
+    background-color: #DDB9A3;
+    color: white;
+    margin: 0% 10% 10% 10%;
+    padding: 1% 2% 1% 2%;
+}
+
+.section-2 {
+    width: 30%;
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.nav1 {
+    background-color:#FF764E;
+    padding: 1%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 1.6rem;
+    width: 10rem;
+}
+
+.nav2 {
+    background-color:#5ED3EB;
+    padding: 1%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 1.6rem;
+    width: 10rem;
+}
+
+.nav3 {
+    background-color:#FFCD69;
+    padding: 1%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 1.6rem;
+    width: 10rem;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.img-header img {
+    border-radius: 999px;
+    width: 400px;
+    
+}
+
+.title {
+    text-align: center;
+    margin: 100px;
+    padding: 0px 30px 0px 30px;
+}
