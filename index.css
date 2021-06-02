@@ -94,41 +94,29 @@ nav a{
     background-color: #ff764e;
     margin-left: 10%;
     display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}
 
+}
+:hover.orange {
+    background-color: gray;
+}
 .blue{
     background-color: #5ed3eb;
     margin: 0 24%;
     display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}
 
+}
+:hover.blue {
+    background-color: gray;
+}
 .yellow{
     background-color:#ffcd69;
     margin-right: 10%;
     display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}
 
+}
+:hover.yellow {
+    background-color: gray;
+}
 /* title section */
 .cta{
     position: relative;
@@ -137,15 +125,12 @@ nav a{
 .text, .image{
     display: inline-block;
 }
-
 .image{
     width: 30%;
 }
-
 .round{
     border-radius: 50%;
 }
-
 .text {
     width: 55%;
     margin-left: 5%;
@@ -154,21 +139,16 @@ nav a{
     position: absolute;
     top: 150px;
 }
-
-
 /* main */
-
 .main{
     background-color: #ddb9a3;
     color: #fff;
     padding: 2%;
 }
-
 .info div{
     width: 30%;
     margin: 5% auto;
 }
-
 .bold{
     font-weight: bold;
 }
