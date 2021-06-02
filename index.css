@@ -21,7 +21,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -91,30 +90,38 @@ nav {
     background-color: #FFCD69;
     margin-right: 17%;
 }
-.header-bottom {
+/* 3. main */
+
+.section-one {
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: .2em;
+}
+.image-container {
+    display: inline-block;
+    width: 40%;
+    margin-left: 2%;
+}
+.text-container {
+    display: inline-block;
+    text-align: center;
+    width: 57%;
+    height: 100%;
 }
 #header-picture {
     border-radius: 100%;
-    width: 12vw;
-    height: 12vw;
-}
-.text-container {
-    width: max-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
+    width: 80%;
+    height: 80%;
 }
 h1 {
     font-family: "Chelsea Market", cursive;
     font-size: 5rem;
+    margin: 5% auto;
 }
-/* 3. main */
+.text-container :is(p,h2) {
+    font-family: "Roboto", monospace;
+    font-size: 2rem;
+    width: 80%;
+    margin: 10% auto 0%;
+}
 /* 4. footer */
 .footer-image {
     height: 40vh;
