@@ -1,0 +1,177 @@
+* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.b1 {
+  font-family: 'Roboto Mono';
+  background-color: #FF764E;
+  font-size: 1rem;
+  color: white;
+  margin-left:5rem;
+  margin-right: 5rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+.b2{
+  font-family: 'Roboto Mono';
+  background-color: #5ED3EB;
+  font-size: 1rem;
+  color: white;
+  margin-left:5rem;
+  margin-right: 5rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+.b3{
+ font-family: 'Roboto Mono';
+  background-color: #FFCD69;
+  font-size: 1rem;
+  color: white;
+  margin-left:5rem;
+  margin-right: 5rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+.header-image {
+  float:left;
+  padding: 5rem;
+  border-radius: 50%;
+}
+
+.intro h1{
+  font-family:'Chelsea Market';
+  font-size: 3rem;
+  margin-left: 15rem;
+  margin-top: 5rem;
+}
+.intro p{
+  font-family:'Roboto Mono';
+  font-size: 1rem;
+  padding: .5rem;
+  margin-left: 15rem;
+}
+
+.paragraph-one p{
+  font-family:'Roboto Mono';
+  margin: 1.5rem;
+  }  
+.paragraph-one{
+  font-family:'Mono Roboto';
+  color:white;
+  background-color:#DDB9A3;
+  margin: 1rem;
+  padding: .1rem;
+}
+.fire img{
+  height:10rem;
+  padding: 1rem;
+}
+.fire p{
+  font-family: 'Roboto Mono';
+  width: 20rem;
+  margin: auto;
+}
+
+.reservations img {
+  height:10rem;
+  padding-top: 3rem;
+}
+
+.reservations p {
+  font-family: 'Roboto Mono';
+  width: 29rem;
+  margin: auto;
+}
+
+.footer img{
+  width: 100%
+  height: auto;
+}
+.footer-buttons{
+  padding-top:2rem;
+}
+
+#f1{
+ font-family: 'Roboto Mono';
+  background-color: #FF764E;
+  font-size: 1rem;
+  color: white;
+  margin-left:5rem;
+  margin-right: 5rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+} 
+#f2{
+ font-family: 'Roboto Mono';
+  background-color: #5ED3EB;
+  font-size: 1rem;
+  color: white;
+  margin-left:5rem;
+  margin-right: 5rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem; 
+}
+#f3{
+  font-family: 'Roboto Mono';
+  background-color: #FFCD69;
+  font-size: 1rem;
+  color: white;
+  margin-left:5rem;
+  margin-right: 5rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+}
