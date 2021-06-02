@@ -122,6 +122,22 @@ h1 {
     width: 80%;
     margin: 10% auto 0%;
 }
+.section-two {
+    background-color: #DDB9A3;
+    color: white;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    font-family: "Roboto", monospace;
+    font-size: 2rem;
+}
+.section-two p {
+    text-align: center;
+    padding: .1rem .2rem;
+}
+.section-two p:first-child {
+    padding-bottom: 2rem;
+}
 /* 4. footer */
 .footer-image {
     height: 40vh;
