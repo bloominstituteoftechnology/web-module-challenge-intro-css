@@ -58,8 +58,7 @@ body {
     box-sizing: border-box;
     max-width: 100%;
     padding: 0;
-    margin: 0px;
-    border: 1px solid grey;
+    margin: 0;
 }
 /* 2. header */
 nav {
