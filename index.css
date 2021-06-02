@@ -63,7 +63,24 @@ nav {
     align-items: center;
     justify-content: space-evenly;
 }
-
+.link {
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 1em;
+    height: 4em;
+    width: 4em;
+    padding: .2em 1em;
+    color: white;
+}
+.red {
+    background-color: #FF764E;
+}
+.blue {
+    background-color: #5ED3EB;
+}
+.yellow {
+    background-color: #FFCD69;
+}
 
 /* 3. main */
 /* 4. footer */
