@@ -1,0 +1,215 @@
+/* Meyers Reset */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend 
+{
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus 
+{
+	outline: 0;
+}
+body 
+{
+	background: white;
+	line-height: 1;
+	color: black;
+}
+ol, ul 
+{
+	list-style: none;
+}
+/* tables still need cellspacing="0" in the markup */
+table 
+{
+	border-collapse: separate;
+	border-spacing: 0;
+	
+}
+caption, th, td 
+{
+	font-weight: normal;
+	text-align: left;
+}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after
+{
+	content: "";
+}
+blockquote, q 
+{
+	quotes: "" "";
+}
+
+*
+{
+    box-sizing: border-box;
+    padding: 1%;
+    margin: 0;
+    max-width: 100%;
+    
+}
+
+/* General Styles*/
+html
+{
+    font-size:62.5%;
+}
+
+body
+{
+    font-size:1.6rem;
+    line-height:1.5;
+    color:#4F4F4F; /*easier to read then back on white*/
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1
+{
+    font-family: 'Chelsea Market', cursive;
+    font-size:5rem;
+}
+
+section
+{
+    padding: 4% 0;
+}
+
+*html
+{
+    border: 1px solid gray; 
+}
+/* Header */
+
+
+nav
+{
+    margin: 3rem 0;
+    
+}
+
+nav a
+{
+    display: inline-block;
+    border-radius: 10px;
+    height: 6rem;
+    width: 12rem;
+    text-align: center;
+    margin-left: 13%;
+    margin-right: 13%;
+    transition: 1s;
+}
+
+
+/* Classes */
+.orange
+{
+    background-color: #ff764e;
+}
+
+.blue
+{
+    background-color: #5ed3eb;
+}
+
+.yellow
+{
+    background-color: #FFCD69;
+}
+
+/* Top Section */
+.top
+{
+    position: relative;
+}
+
+.left           /* This styles the left class */
+{
+    width: 25%;
+    display: inline-block;
+}
+
+.left img       /* This styles the image */
+{
+    border-radius:  50%;
+    width: 70%
+}
+
+.left, .right   /* Aligns left and right */
+{
+    display: inline-block;
+    text-align: center;
+}
+
+.right          /* Styles the right class */
+{
+    width: 45%;
+    margin-left: 3%;
+    
+}
+
+h1, h2
+{
+    text-align:center ;
+}
+/* Information section */
+.infoSection
+{
+    
+    background-color: wheat;
+    margin: 3% ;
+    padding: 2%;
+}
+
+
+/* Middle section */
+.middleMiddle
+{
+    text-align: center;
+    padding: 1rem; 
+    margin: 0 30%;
+    
+}
+
+/* Middle Section: Image icons styles */
+.middle img
+{
+    vertical-align: middle;
+    width: 10rem;
+    margin: 0 25%;
+
+}
+
+/* Footer Sections */
+
+footer
+{
+    background-color: tan;
+    
+}
+footer img
+{
+    width: 110%;
+    height: 350px;
+}
+
+/* Background image */
+.heroImg
+{
+    height: 40vh;
+    background-image: url('assets/header_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+}
