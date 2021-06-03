@@ -50,7 +50,7 @@ table {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border:1px solid grey;
+    border:0px solid grey;
 }
 
 
@@ -75,6 +75,8 @@ section{
 /*header section*/
 
 
+
+
 nav {
     text-align: center;
     padding: 2% 0;
@@ -82,12 +84,14 @@ nav {
 }
 
 nav a{
+    font-style: none;
     display: inline-block;
     padding: 1% 0;
     width: 10;
     border-radius: 10px;
     text-align: center;
     color: white;
+    
 }
 
 .orange {
@@ -99,21 +103,31 @@ nav a{
     background-color: #5ED3EB;
     margin-right: 20%;
 }
-}
+
 
 .yellow {
     background-color: #FFCD69;
     margin-right: 20%;
-}
 }
 
 /*body section*/
 
 
 
-.bodyp {
+ .bodyp {
+    margin-top: 0%;
     background-color: #DDB9A3;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -128,7 +142,7 @@ footer {
 /*top section */
 .top {
     position: relative;
-    margin-bottom: 10%;
+    margin-bottom: 0%;
 }
 
 
@@ -150,12 +164,19 @@ footer {
 
 .right{
     width:60%;
-    margin-left: 3%;
+    margin-left: 10%;
     position: absolute;
-   
     text-align: center;
+    margin-right: 25%;
 }
 
+.right p{
+    font-size: 95%;
+}
+
+.right h1{
+    padding-bottom: 4%;
+}
 /* lower bg image section */
 
 .heroImg {
@@ -166,4 +187,42 @@ footer {
     background-position: top;
     
 
+}
+
+
+/*Two icons section */
+
+.twoIcons {
+    vertical-align: 20%;
+
+}
+
+.fireg, .carv{
+    display: inline-block;
+}
+
+
+.fireg img {
+    width: 30%;
+}
+
+.carv img {
+    width: 30%;
+}
+
+.fireg {
+    text-align: center;
+    width: 40%;
+    position: center;
+    margin-left: 25%;
+}
+
+.carv {
+    
+    margin-top: 5%;
+    text-align: center;
+    width: 40%;
+    position: center;
+    margin-left: 25%;
+    margin-bottom: 7%;
 }
