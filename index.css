@@ -1,50 +1,144 @@
-html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
-del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
-	vertical-align: baseline;
-	font-family: inherit;
-	font-weight: inherit;
-	font-style: inherit;
-	font-size: 100%;
-	outline: 0;
-	padding: 0;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
 	margin: 0;
-	}
-/* remember to define focus styles! */
-:focus {
-	outline: 0;
-	}
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
 
+header {
+	/* height: 100%;
+	width: 100%; */
+	padding: 2%;
+  margin: 2%;
+  text-align: center;
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
 
-}   
-ol, ul {
-	list-style: none;
-	}
-/* tables still need cellspacing="0" in the markup */
-table {
-	border-collapse: separate;
-	border-spacing: 0;
-	}
-caption, th, td {
-	font-weight: normal;
-	text-align: left;
-	}
-/* remove possible quote marks (") from <q> & <blockquote> */
-blockquote:before, blockquote:after, q:before, q:after {
-	content: "";
-	}
-blockquote, q {
-	quotes: "" "";
-	}
-    *{
-        box-sizing:border-box;
-        max-width:100%;
-        border:1px solid grey'
+.box {
+	display: inline-block;
+	width:40%;
+}
 
-    }
-    html{
-        font-size:1.6rem;
-        line-height:1.5;
-        
-    }
+.circleImage {
+	border-radius: 50%;
+	height: 250px;
+	width: 250px;
+	margin-left: 70px;
+	display:inline-block;
+}
+
+.yosemiteHeader {
+	display: inline-block;
+	text-align: center;
+	font-size: 50px;
+	padding-bottom: 50px;
+	font-family: "Chelsea Market";
+}
+
+.yosemiteBottom {
+
+}
+
+.brown {
+	background-color: #DDB9A3;
+	margin: 10%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+}
+
+.navbar {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding: 30px;
+}
+
+.navbar a {
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size:17px;
+	width: 33.33%;
+	text-align: center;
+}
+
+.visit {
+	border: 5px solid #FF764E;
+	padding: 20px;
+	margin: 20px;
+	background-color:  #FF764E;
+	border-radius: 15px;
+	width: 250px;
+	height: 150px;
+}
+
+.learn {
+	border: 5px solid #5ED3EB;
+	padding: 20px;
+	margin: 20px;
+	background-color: #5ED3EB;
+	border-radius: 15px;
+	width: 250px;
+	height: 150px;
+	word-wrap: break-word;
+}
+
+.get {
+	border: 5px solid #FFCD69;
+	padding: 20px;
+	margin: 20px;
+	background-color: #FFCD69;
+	border-radius: 15px;
+	width: 250px;
+	height: 150px;
+}
+
+.footerImg {
+	width: 100%;
+	height: 30vh;
+	overflow: hidden;
+}
+
+.fireReservation {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.fire img {
+	width: 100px;
+}
+
+.fire p{
+	max-width: 18%;
+	text-align: center;
+	margin-left: 42%;
+}
+
+body {
+	font-family: "Roboto Mono";
+}
+
+footer {
+	background-color: #F9E7DC;
+}
