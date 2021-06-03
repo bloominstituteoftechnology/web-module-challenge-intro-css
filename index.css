@@ -25,9 +25,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+footer, header, hgroup, menu, nav, section 
 
 ol, ul {
 	list-style: none;
@@ -38,10 +36,10 @@ blockquote, q {
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
-	content: none;
+	
 }
 table {
-	border-collapse: collapse;
+	border-collapse: separate;
 	border-spacing: 0;
 }
 
@@ -55,6 +53,7 @@ table {
     border:1px solid grey;
 }
 
+
 /*general style */
 html{
     font-size:62.5%;
@@ -62,9 +61,10 @@ html{
 body{
     font-size:1.6rem;
     line-height:1.5;
-    color:#4F4F4F; /*easier to read then back on white*/
+    color:grey; /*easier to read then back on white*/
     font-family: 'Roboto Mono', monospace;
-}
+    }
+    
 h1{
     font-family: 'Chelsea Market', cursive;
     font-size:5rem;
@@ -72,11 +72,13 @@ h1{
 section{
     padding: 4% 0;
 }
-
+/*header section*/
 
 
 nav {
+    text-align: center;
     padding: 2% 0;
+
 }
 
 nav a{
@@ -90,22 +92,78 @@ nav a{
 
 .orange {
     background-color: #FF764E;
-
+    margin-right: 20%;
 }
 
 .blue {
-    background-color: blue;
-
+    background-color: #5ED3EB;
+    margin-right: 20%;
+}
 }
 
 .yellow {
-    background-color: yellow;
+    background-color: #FFCD69;
+    margin-right: 20%;
+}
 }
 
-.lowerimage {
+/*body section*/
+
+
+
+.bodyp {
+    background-color: #DDB9A3;
+}
+
+
+
+/*footer ssection*/
+
+footer {
+    background-color: #F9E7DC;
+}
+
+
+
+/*top section */
+.top {
+    position: relative;
+    margin-bottom: 10%;
+}
+
+
+.left img{
+    border-radius:50%;
+    width: 100%;
+
+    
+}
+
+.left{
+    width: 25%;
+    text-align: center;
+}
+.left, .right{
+    display:inline-block;
+    
+}
+
+.right{
+    width:60%;
+    margin-left: 3%;
+    position: absolute;
+   
+    text-align: center;
+}
+
+/* lower bg image section */
+
+.heroImg {
     height: 40vh;
-    background-color: url('assets/footer_img.jpg');
-    background-repeat: no-repeat;
     background-size: cover;
+    background-image: url('assets/footer_img.jpg');
+    background-repeat: no-repeat;
     background-position: top;
+    
+
 }
