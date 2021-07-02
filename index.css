@@ -43,7 +43,7 @@
         padding:0;
         margin:0;
         max-width:100%; /*makes it so that elements can never be bigger than their parents. stops horizontal scrollbar.*/
-        border:1px solid grey;
+        /* border:1px solid grey; */
         }
 
 
@@ -69,7 +69,7 @@
     b{
         font-weight:bolder;
     }
-    /* navigation bar styles */
+/* navigation bar styles */
     nav{
         padding:3%;
         display:flex;
@@ -96,13 +96,34 @@
         color:white;
     }
 
+/* hover styles for nav bar */
+    #plan:hover{
+        color:#FF764E;
+        background-color: white;
+    }
+
+    #about:hover{
+        color:#5ED3EB;
+        background-color: white;
+    }
+
+    #involved:hover{
+        color:#FFCD69;
+        background-color: white;
+    }
+
+    nav a:hover{
+        transition:1s;
+        font-weight:bold;
+        border:1px solid grey;
+    }
 /* top section styles */
     #top{
         display:flex;
         flex-wrap:nowrap;
     }
     #left img{
-        width:60%;
+        width:70%;
         border-radius:50%;
         margin-left:20%;
     }
@@ -112,10 +133,14 @@
     }
 
     #right{
+        
+        display:flex;
+        flex-direction:column;
         width:55%;
+        padding:3%;
         text-align:center;
         margin-left:2%;
-        top:40%;}
+    }
 
     #right h2{
         margin:5%;
@@ -176,7 +201,7 @@
 /* footer styles */
     #footerPic{
         background-image:url("assets/footer_img.jpg");
-        height:40vh;
+        height:50vh;
         background-repeat:no-repeat;
         background-size:cover;
         background-position:top;
