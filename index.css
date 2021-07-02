@@ -1,160 +1,187 @@
 /*CSS reset*/
-html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
-del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
-    vertical-align: baseline;
-    font-family: inherit;
-    font-weight: inherit;
-    font-style: inherit;
-    font-size: 100%;
-    outline: 0;
-    padding: 0;
-    margin: 0;
-    }
+    html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+    del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+    dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+        vertical-align: baseline;
+        font-family: inherit;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        outline: 0;
+        padding: 0;
+        margin: 0;
+        }
 /* remember to define focus styles! */
-:focus {
-    outline: 0;
-    }
+    :focus {
+        outline: 0;
+        }
 
-ol, ul {
-    list-style: none;
-    }
+    ol, ul {
+        list-style: none;
+        }
 /* tables still need cellspacing="0" in the markup */
-table {
-    border-collapse: separate;
-    border-spacing: 0;
-    }
-caption, th, td {
-    font-weight: normal;
-    text-align: left;
-    }
+    table {
+        border-collapse: separate;
+        border-spacing: 0;
+        }
+    caption, th, td {
+        font-weight: normal;
+        text-align: left;
+        }
 /* remove possible quote marks (") from <q> & <blockquote> */
-blockquote:before, blockquote:after, q:before, q:after {
-    content: "";
-    }
-blockquote, q {
-    quotes: "" "";
-    }
+    blockquote:before, blockquote:after, q:before, q:after {
+        content: "";
+        }
+    blockquote, q {
+        quotes: "" "";
+        }
 /*end of CSS reset*/
 
-*{
-    box-sizing:border-box; /*makes css respect the width of the box, apply padding or border within the width, not in addition to it.*/
-    padding:0;
-    margin:0;
-    max-width:100%; /*makes it so that elements can never be bigger than their parents. stops horizontal scrollbar.*/
-    border:1px solid grey;
-    }
+    *{
+        box-sizing:border-box; /*makes css respect the width of the box, apply padding or border within the width, not in addition to it.*/
+        padding:0;
+        margin:0;
+        max-width:100%; /*makes it so that elements can never be bigger than their parents. stops horizontal scrollbar.*/
+        border:1px solid grey;
+        }
 
 
 /*General Styles (great to use until you have a preference)*/
-html{
-    font-size: 62.5%;
-}
+    html{
+        font-size: 62.5%;
+    }
 
-body{
-    font-size:1.6rem;
-    line-height:1.5;
-    color:#4f4f4f;
-    font-family: 'Roboto Mono', monospace; 
-}
+    body{
+        font-size:1.6rem;
+        line-height:1.5;
+        color:#4f4f4f;
+        font-family: 'Roboto Mono', monospace; 
+    }
 
-h1{
-    font-family: 'Chelsea Market', cursive;
-    font-size:6rem;
-}
-section{
-    padding:4% 0;
-}
+    h1{
+        font-family: 'Chelsea Market', cursive;
+        font-size:5rem;
+    }
+    section{
+        padding:4% 0;
+    }
+    b{
+        font-weight:bolder;
+    }
+    /* navigation bar styles */
+    nav{
+        padding:3%;
+        display:flex;
+        justify-content:space-between;
+    }
 
+    #plan{
+        background-color:#FF764E;
+    }
 
-/* navigation bar styles */
-nav{
-    padding:3%;
-    display:flex;
-    justify-content:space-between;
-}
+    #about{
+        background-color:#5ED3EB;
+    }
 
-#plan{
-    background-color:#FF764E;
-}
-
-#about{
-    background-color:#5ED3EB;
-}
-
-#involved{
-    background-color:#FFCD69;
-}
-nav a{
-    border-radius:10px;
-    padding:10px;
-    text-decoration:none;
-    text-align:center;
-    width:20%;
-    color:white;
-}
+    #involved{
+        background-color:#FFCD69;
+    }
+    nav a{
+        border-radius:10px;
+        padding:10px;
+        text-decoration:none;
+        text-align:center;
+        width:20%;
+        color:white;
+    }
 
 /* top section styles */
-#top{
-    display:flex;
-    flex-wrap:nowrap;
-}
-#left img{
-    width:70%;
-    border-radius:50%;
-    margin-left:15%;
-}
+    #top{
+        display:flex;
+        flex-wrap:nowrap;
+    }
+    #left img{
+        width:60%;
+        border-radius:50%;
+        margin-left:20%;
+    }
 
-#left{
-    width:40%;
-}
+    #left{
+        width:40%;
+    }
 
-#right{
-    width:55%;
-    text-align:center;
-    margin-left:2%;
-    top:40%;}
+    #right{
+        width:55%;
+        text-align:center;
+        margin-left:2%;
+        top:40%;}
 
-#right h2{
-    margin:5%;
-    width:90%;
-}
+    #right h2{
+        margin:5%;
+        width:90%;
+    }
 
 /* main body styles */
- #mainBody{
-    background-color:#DDB9A3;
-    width:80%;
-    margin-left:10%;
-    margin-right:10%;
-    text-align:center;
- }
+    #mainBody{
+        background-color:#DDB9A3;
+        color:white;
+        font-size:2rem;
+        width:90%;
+        margin-left: 5%;
+        margin-right:5%;
+        text-align:center;
+    }
+    
+    #mainBody p{
+        padding:1%;
+    }
 
 /* clipart section styles*/
-#clipArt{
-    text-align:center;
-    font-size:1.5rem;
-}
+    #clipArt{
+        text-align:center;
+        font-size:1.5rem;
+        padding:0;
+    }
+    
+    #clipArt img{
+        width:15%;
+    }
+    
+    #clipArt p{
+        width:30%;
+        margin:0 auto;
+        font-size:1.5rem;
+    }
 
-#clipArt img{
-    width:15%;
-}
-#clipArt p{
-    width:30%;
-    margin:0 auto;
-}
+    /* campfire section */
+    #icon1{
+        padding-top:2%;
+    }
 
+    #icon1 img{
+        margin-bottom:1%;
+    } 
+
+    /* camper section */
+    #icon2 img{
+        margin-bottom:2%;
+    } 
+
+    #icon2{
+        padding:6%;
+    }
 
 
 /* footer styles */
-#footerPic{
-    background-image:url("assets/footer_img.jpg");
-    height:50vh;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:top;
-}
+    #footerPic{
+        background-image:url("assets/footer_img.jpg");
+        height:40vh;
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:top;
+    }
 
-footer{
-    background-color:#F9E7DC;
-}
+    footer{
+        background-color:#F9E7DC;
+    }
