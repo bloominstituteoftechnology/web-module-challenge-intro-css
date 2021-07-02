@@ -46,18 +46,35 @@ blockquote, q {
     border:1px solid grey;
     }
 
+
 /*General Styles (great to use until you have a preference)*/
 html{
     font-size: 62.5%;
-    background-color:#DDB9A3;
 }
 
 body{
-    font-size:1.6rem;/*setting font size back to 16px*/
-    line-height:1.5; /*takes the font size and multiplies it by this number to add space between lines*/
+    font-size:1.6rem;
+    line-height:1.5;
     color:#4f4f4f;
+    font-family: 'Roboto Mono', monospace; 
 }
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:6rem;
+}
+section{
+    padding:4% 0;
+}
+
+
 /* navigation bar styles */
+nav{
+    padding:3%;
+    display:flex;
+    justify-content:space-between;
+}
+
 #plan{
     background-color:#FF764E;
 }
@@ -69,16 +86,75 @@ body{
 #involved{
     background-color:#FFCD69;
 }
-
-/* headings */
-h1{
-    font-family: 'Chelsea Market', 'Times New Roman';
-
+nav a{
+    border-radius:10px;
+    padding:10px;
+    text-decoration:none;
+    text-align:center;
+    width:20%;
+    color:white;
 }
-p, nav a{
-    font-family: 'Roboto Mono', monospace;
+
+/* top section styles */
+#top{
+    display:flex;
+    flex-wrap:nowrap;
 }
+#left img{
+    width:70%;
+    border-radius:50%;
+    margin-left:15%;
+}
+
+#left{
+    width:40%;
+}
+
+#right{
+    width:55%;
+    text-align:center;
+    margin-left:2%;
+    top:40%;}
+
+#right h2{
+    margin:5%;
+    width:90%;
+}
+
+/* main body styles */
+ #mainBody{
+    background-color:#DDB9A3;
+    width:80%;
+    margin-left:10%;
+    margin-right:10%;
+    text-align:center;
+ }
+
+/* clipart section styles*/
+#clipArt{
+    text-align:center;
+    font-size:1.5rem;
+}
+
+#clipArt img{
+    width:15%;
+}
+#clipArt p{
+    width:30%;
+    margin:0 auto;
+}
+
+
+
 /* footer styles */
+#footerPic{
+    background-image:url("assets/footer_img.jpg");
+    height:50vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top;
+}
+
 footer{
     background-color:#F9E7DC;
 }
