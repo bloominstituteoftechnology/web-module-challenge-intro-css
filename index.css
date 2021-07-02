@@ -43,7 +43,7 @@
         padding:0;
         margin:0;
         max-width:100%; /*makes it so that elements can never be bigger than their parents. stops horizontal scrollbar.*/
-        /* border:1px solid grey; */
+        border:1px solid grey;
         }
 
 
@@ -75,6 +75,9 @@
         display:flex;
         justify-content:space-between;
     }
+    #home{
+        background-color:#71AD71;
+    }
 
     #plan{
         background-color:#FF764E;
@@ -97,6 +100,11 @@
     }
 
 /* hover styles for nav bar */
+    #home:hover{
+        color:#71AD71;
+        background-color:white;
+    }
+
     #plan:hover{
         color:#FF764E;
         background-color: white;
@@ -118,7 +126,7 @@
         border:1px solid grey;
     }
 /* top section styles */
-    #top{
+    .top{
         display:flex;
         flex-wrap:nowrap;
     }
@@ -210,3 +218,22 @@
     footer{
         background-color:#F9E7DC;
     }
+
+
+/* new pages styles: */
+    #top{
+        display:flex;
+        flex-wrap:wrap;
+    }    
+
+
+    #topCenter{
+        width:100%;
+        text-align:center;
+    }
+    #donate,#volunteer{
+        width:50%;
+        text-align:center;
+    }
+    
+    
