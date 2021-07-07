@@ -1,0 +1,19 @@
+nav {
+    text-align: center;
+}
+nav a{
+    padding: 25px;
+    margin: 25px;
+    text-decoration: none;
+}
+nav a:nth-child(1){
+    background-color: #FF764E;
+}
+
+nav a:nth-child(2){
+    background-color: #5ED3EB;
+}
+
+nav a:nth-child(3){
+    background-color: #FFCD69;
+}
