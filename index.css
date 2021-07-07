@@ -1,0 +1,60 @@
+body {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.temp1{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top:-200px;
+    left: 400px;
+    border-radius: 200px;
+    border: solid black 1px;
+}
+
+header {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-left: 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+header, nav, p {
+    text-align: center;
+    
+}
+
+a {
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+.info {
+    
+    font-size: 1.5rem;
+}
+
+.temp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    border: solid black 1px;
+    margin: 0 50px;
+}
