@@ -58,79 +58,90 @@ body{
     margin: 0;
     display: block;
     font-size: 20px;
-    border: 1px solid red;
+    font-family: 'Roboto Mono', monospace;
 }
 
 header {
-    height: 10em;
-    border: 1px solid red;
+    height: 10rem;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: bolder;
 }
 
 a {
-    height: 3em;
-    padding: 1em;
-    margin: 2em 8em;
+    display: inline-block;
+    height: 3rem;
+    padding: 1rem;
+    margin: 2rem 8rem;
     border-radius: 15px;
     color: white;
     text-decoration: none;
 }
 
 nav {
-    margin-top: 5em;
+    margin-top: 5rem;
 }
 
 .nav1 {
-    background-color: tomato;
+    background-color: #FF764E;
 }
 
 .nav2 {
-    background-color: #00f2ff;
+    background-color: #5ED3EB;
 }
 
 .nav3 {
-    background-color: goldenrod;
+    background-color: #FFCD69;
 }
 
 .first {
-    padding: 2em;
-    height: 15em;
-    border: 1px solid red;
+    padding: 2rem;
+    height: 15rem;
 }
 
 .first img {
-    height: 15em;
+    height: 15rem;
     margin-left: 10vw;
     float: left;
     border-radius: 100%;
 }
 
-.second {
+.wrap {
+    width: ;
+}
 
+.wrap h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+
+.second {
+    background-color: #DDB9A3
+}
+
+b {
+    font-weight: bolder;
 }
 
 .third {
-    width: 40em;
+    width: 40rem;
     margin: 0 auto;
 }
 
 .icon {
-    margin: 2em 0;
-    height: 7em;
+    margin: 2rem 0;
+    height: 7rem;
 }
 
 .bottom-banner {
-    margin-top: 5em;
+    margin-top: 5rem;
     width: 100%;
-    height: 20em;
+    height: 20rem;
 }
 
 footer {
-    height: 10em;
-    background-color: #fff8e2;
+    height: 10rem;
+    background-color: #F9E7DC;
     border: 1px solid red;
 }
