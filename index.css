@@ -1,20 +1,54 @@
 * {
     text-align: center;
     font-family: "Roboto Mono";
+    border: 1px solid black;
+    font-size: 20px;
 }
 h1 {
     font-family: "Chelsea Market";
+    font-size: 50px;
 }
+
+header nav{
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#circularImage{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* margin: auto;
+    display: block;*/
+    float: left; 
+}
+
+#firstSection{
+    flex-direction: row;
+    overflow: hidden;
+    margin: 50px;
+    padding: 50px;
+    vertical-align: middle;
+}
+
+/* h1 p #firstsection{
+    display: inline-block;
+
+
+} */
 
 .mainText{
     background-color: #DDB9A3;
     padding: 50px;
     margin: 50px;
+    color: white;    
 }
 nav a{
     padding: 25px;
     margin: 25px;
     text-decoration: none;
+    border-radius: 50%;
 }
 nav a:nth-child(1){
     background-color: #FF764E;
