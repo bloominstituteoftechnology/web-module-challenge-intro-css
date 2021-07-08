@@ -17,16 +17,9 @@
   .intro{
       background-color: #DDB9A3;
   }
-  .headerimage img{
-    display: inline-block;
-    position: relative;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
+ 
+.headerimage{
     border-radius: 50%;
-  }
-.headerimage img{
-  width: auto;
-  height: 100%;
-  margin-left: -50px;
+  width: 100px;
+  height: 100px;
 }
