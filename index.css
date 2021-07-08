@@ -8,11 +8,14 @@
     border: 1px solid black;
     font-family: 'Roboto Mono';
     max-width: 100%;
-    
-  }
+}
+    .menuitem1{
+♦    background-color: blue;
+    }
+  
   nav a{
     display: flexbox;
-    width:100%;-
+    width:100%;
     text-align: center;
     margin: 2%;
   }
@@ -29,7 +32,10 @@
 .firepit{
   width: 7%;
   height: 7%;
-  text-align: center;
+  justify-content: center;
+  padding: 3%;
+  margin-right: 17%;
+
 }
 .rv{
   width: 7%;
@@ -38,4 +44,6 @@
 }
 .fire{
   text-align: center;
+  padding: 3%;
+
 }
