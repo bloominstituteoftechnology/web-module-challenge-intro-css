@@ -1,14 +1,18 @@
 * {
     text-align: center;
     font-family: "Roboto Mono";
-    border: 1px solid black;
-    font-size: 20px;
 }
 h1 {
     font-family: "Chelsea Market";
-    font-size: 50px;
+    font-size: 60px;
+}
+a { 
+    font-size: 23px;
 }
 
+p {
+    font-size: 23px;
+}
 header nav{
     padding: 50px;
     display: flex;
@@ -16,11 +20,9 @@ header nav{
 }
 
 #circularImage{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
-    /* margin: auto;
-    display: block;*/
     float: left; 
 }
 
@@ -28,30 +30,54 @@ header nav{
     flex-direction: row;
     overflow: hidden;
     margin: 50px;
-    padding: 50px;
+    padding: 50px 200px 50px 200px;
     vertical-align: middle;
 }
 
-/* h1 p #firstsection{
-    display: inline-block;
-
-
-} */
 
 .mainText{
     background-color: #DDB9A3;
-    padding: 50px;
+    padding: 10px;
     margin: 50px;
     color: white;    
 }
+
+.smallBox{
+    text-align: center;
+    width: 350px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.smallBox p{
+    font-size: 18px;
+}
+
+
+.center {
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+}
+
 nav a{
-    padding: 25px;
+    padding: 10px;
     margin: 25px;
     text-decoration: none;
-    border-radius: 50%;
+    border-radius: 15px;
+    vertical-align: middle;
+    color: white;
+    width: 180px;
+
 }
 nav a:nth-child(1){
     background-color: #FF764E;
+    
 }
 
 nav a:nth-child(2){
@@ -60,4 +86,25 @@ nav a:nth-child(2){
 
 nav a:nth-child(3){
     background-color: #FFCD69;
+}
+footer {
+    box-shadow:0px 8px 10px 0px rgba(0,0,0,0.15);
+}
+#footerSection1{
+    background-image: url("assets/footer_img.jpg");
+    background-position: 0% 25%;
+    height: 300px;
+    width: auto;
+}
+
+#footerSection2{
+    background-color: #F9E7DC;
+    padding: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+footer nav{
+    display: flex;
+    justify-content: space-evenly;
 }

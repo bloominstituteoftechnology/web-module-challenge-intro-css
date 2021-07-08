@@ -4,7 +4,7 @@
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
 
 <!-- Link your CSS stylesheet -->
 <link rel="stylesheet" href="index.css">    
@@ -14,14 +14,14 @@
     <nav>
         <a href="#">Plan your Visit</a>
         <a href="#">Learn about the Park</a>
-        <a href="#">Get Involved</a>
+        <a href="#">Get<br>Involved</a>
     </nav>
     
     <div id="firstSection">
       <img id="circularImage" src="assets/header_img.jpg">
       <h1>Yosemite Park Guide</h1>
       <p>Come explore California’s beautiful wilderness.</p>
-      <p>Always open. Reservations are not available or required to enter the park.</p>
+      <p>Always open. Reservations are not <br> available or required to enter the <br> park.</p>
     </div>  
   </header>
   <section class="mainText">    
@@ -29,20 +29,26 @@
       
       <p>First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.</p>
   </section> 
-  <section>
-      <img src="https://image.flaticon.com/icons/svg/2979/2979348.svg">
-      <p>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for current fire restrictions.</p>
-      
-      <img src="https://image.flaticon.com/icons/svg/820/820374.svg">
-      <p>We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the park entrance fee upon arrival (there's no need to pay it in advance).</p>
+  <section class="center">
+      <div class="smallBox">
+        <img src="https://image.flaticon.com/icons/svg/2979/2979348.svg" height="175">
+        <p>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for <strong>current fire restrictions.</strong></p>
+      </div>
+      <div class="smallBox">     
+        <img src="https://image.flaticon.com/icons/svg/820/820374.svg" height="175">
+        <p>We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the <strong>park entrance fee</strong> upon arrival (there's no need to pay it in advance).</p>
+      </div>   
   </section>     
   <footer>
-      <img src="assets/footer_img.jpg">
-      <nav>
-        <a href="#">Plan your Visit</a>
-        <a href="#">Learn about the Park</a>
-        <a href="#">Get Involved</a>
-      </nav>
+      <div id="footerSection1">
+      </div>
+      <div id="footerSection2">
+        <nav>
+          <a href="#">Plan your Visit</a>
+          <a href="#">Learn about the Park</a>
+          <a href="#">Get<br>Involved</a>
+        </nav>
+      </div>  
   </footer>    
 </body>
 </html>
