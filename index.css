@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*where I start*/
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    
+}
+body{
+    width: 880px;
+    margin: auto;
+
+}
+
+.btn{
+    border-radius: 5px;
+    text-align: center;
+    width: 112px;
+    color: white;
+    margin: 20px 40px;
+}
+
+.btn1{
+    background-color: #FF764E;
+    border: 0;
+}
+.btn2{
+    background-color: #5ED3EB;
+    border: 0;
+}
+.btn3{
+    background-color: #FFCD69;
+    border:0;
+}
+.p1{
+    font-size: 0.;
+}
+.div1{
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.roundpic{
+    width: 160px;
+    height: 160px;
+    border-radius: 9999px;
+}
+
+.iconimg{
+    width: 80px;
+    height: 80px;  
+}
+.iconimg:hover{
+    transform: rotate(10deg);
+}
+h1{
+    font-family: 'Chelsea Market', regular;
+    font-weight: 200;
+    font-size: 3rem;
+}
+.beige{
+    background-color: #DDB9A3;
+    color: white;
+    margin: 30px 10px 10px 10px;
+    padding: 10px;
+}
+.p2{
+    margin-bottom: 10px;
+}
+.p3 {
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: #F9E7DC;
+}
+.mountainpic{
+    height: 160px;
+    width: 100%;
+}
+nav{
+    width: 604px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
