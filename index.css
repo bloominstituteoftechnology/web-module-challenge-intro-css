@@ -2,10 +2,12 @@
     text-align: center;
     font-family: "Roboto Mono";
 }
+
 h1 {
     font-family: "Chelsea Market";
     font-size: 60px;
 }
+
 a { 
     font-size: 23px;
 }
@@ -34,7 +36,6 @@ header nav{
     vertical-align: middle;
 }
 
-
 .mainText{
     background-color: #DDB9A3;
     padding: 10px;
@@ -44,7 +45,7 @@ header nav{
 
 .smallBox{
     text-align: center;
-    width: 350px;
+    width: 360px;
     height: auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -57,7 +58,6 @@ strong {
 .smallBox p{
     font-size: 18px;
 }
-
 
 .center {
     display: inline-block;
