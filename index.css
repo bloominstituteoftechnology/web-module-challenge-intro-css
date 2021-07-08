@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+.container{
+    padding: 0% 5%;
+}
+
+header{
+    height: 200px;
+    width: 100%;
+}
+
+header img{
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    border: solid white 1px;
+    border-radius: 9999px;
+}
+
+header nav a:hover{
+    background-color: white;
+}
+
+.headerDescription{
+    font-family: 'Chelsea Market', cursive;
+}
+
+nav{
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    padding-top: 50px;
+}
+
+nav a{
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 10%;
+    padding: 12px 30px;
+    width: 83px;
+    text-align: center;
+    transition: .3s;
+}
+
+nav a:first-child{
+    background-color: #FF764E;
+}
+
+nav a:first-child:hover{
+    color: #FF764E;
+}
+
+nav a:nth-last-child(2){
+    background-color: #5ED3EB;
+}
+
+nav a:nth-last-child(2):hover{
+    color: #5ED3EB;
+}
+
+nav a:last-child{
+    background-color: #FFCD69;
+}
+
+nav a:last-child:hover{
+    color: #FFCD69;
+}
+
+.about{
+    background-color: #DDB9A3;
+    color: white;
+    padding: 50px;
+    margin: 0 1.5%;
+}
+
+.clickable{
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.clickable img{
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+}
+
+footer{
+    background-color: #F9E7DC;
+}
+
+footer img{
+    width: 100%;
+}
+
+footer nav a:hover{
+    background-color: #F9E7DC;
+}
