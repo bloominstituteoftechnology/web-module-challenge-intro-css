@@ -2,26 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@300&display=swap');
 
-* {
-    border: 1px solid red;
-}
 
 html {
     font-size: 62.5%;
+    
 }
 
 body{
     font-family:'Roboto Mono', monospace;
 }
 
-header{
-    /* overflow: hidden; */
-}
-
 
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 5em;
+    font-size: 6.5rem;
  
 }
 
@@ -34,20 +28,19 @@ footer {
 }
 
 nav {
-    border: 1px solid red;
+
     width: 100%;
     display: block;
     text-align: center;
 }
 
 nav a {
-    border: 1px solid red;
     display: inline-block;
     width: 120px;
-    height: 20px;
+    height: 30px;
     text-decoration: none;
     text-align: center;
-    padding: 10px 1.5% 20px 2%;
+    padding: 15px 1.5% 20px 2%;
     margin: 30px 7%;
     border-radius: 15px;
     font-size: 1.5rem;
@@ -57,27 +50,34 @@ nav a {
 
 
 header p {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: bold;
 
 }
 
 header div {
-    border: 1px solid red;
+   
     display:block;
 }
 
 header img {
     display: inline-block;
-    border: 1px solid red;
     width: 250px;
     border-radius: 50%;
     margin-left: 8%;
+    margin-top: 40px;
    /* image isn't centered in the circle --look into that */
 }
 
+footer img {
+    width: 100%;
+    height: 22vh;
+    object-fit: cover;
+    object-position: top;
+}
+
 .plan {
-    border: 1px solid red;
+    
     background-color:#FF764E ;
     color: white;
 }
@@ -88,7 +88,6 @@ header img {
 }
 
 .involved {
-    border: 1px solid red;
     background-color: #FFCD69;
     color: white;
 }
@@ -96,7 +95,12 @@ header img {
 .info{
     background-color: #DDB9A3;
     color: white;
-    margin: 0 auto;
+    width: 90%;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 20px 30px;
+    text-align: center;
+    margin: 10px auto 30px;
 }
 
 .image {
@@ -104,32 +108,44 @@ header img {
 }
 
 .parkGuide h1 {
-    border: 1px solid red;
     text-align: center;
     width: 100%;
-    margin-left: 12%;
-    margin-top: -180px;
+    margin-left: 6%;
+    margin-top: -220px;
     margin-bottom: 100px;
 }
 
 .subHeading1{
-    border: 1px solid red;
     text-align: center;
     width: 100%;
-    margin-left: 12%;
+    margin-left: 6%;
     margin-top: -180px;
     margin-bottom: 100px;
     position: relative;
-    top: 100px;
+    top: 110px;
 }
 
 .subHeading2 {
-    border: 1px solid red;
     text-align: center;
     width: 100%;
-    margin-left: 12%;
+    margin-left: 6%;
     margin-top: -180px;
-    margin-bottom: 100px;
+    margin-bottom: 280px;
     position: relative;
-    top: 200px;
+    top: 220px;
+}
+
+
+.emoji {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.emoji p {
+    width: 20%;
+    margin: 15px auto 50px;
+}
+
+.emoji img {
+    width: 120px;
 }
