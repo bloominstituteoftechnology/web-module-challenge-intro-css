@@ -1,9 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@keyframes color-switch {
+    from {background-color: #000cff; color: #fff;}
+    to {background-color: #fff; color: #000cff;}
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
-    height: 10rem;
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 header {
-    background-color: gray;
+    height: 10rem;
+}
+
+h1 {
+    margin: 2rem 0;
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
 }
 
 nav {
@@ -15,10 +35,10 @@ nav a {
     height: 3rem;
     width: 10rem;
     padding: 1rem;
-    margin: 1rem 8rem;
+    margin: 1.5rem 8rem;
     border-radius: 10px;
     text-decoration: none;
-    transition: .5s;
+    color: #fff;
 }
 
 .nav1 {
@@ -31,4 +51,56 @@ nav a {
 
 .nav3 {
     background-color: #FFCD69;
+}
+
+.description {
+    height: 30rem;
+    width: 100%;
+    padding-bottom: 5rem;
+    background-color: #ceedce;
+}
+
+.description img {
+    margin: 0 auto;
+    margin-top: 5rem;
+    border-radius: 0 25%;
+}
+
+p {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.firefall {
+    margin-top: 5rem;
+}
+
+.firefall img {
+    height: 25rem;
+    border-radius: 10px;
+}
+
+.firefall h2 {
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.firefall button {
+    padding: 1rem;
+    margin: 2rem auto;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #000cff;
+}
+
+.firefall button:hover {
+    cursor: pointer;
+    animation-name: color-switch;
+    animation-duration: 1s;
+}
+
+footer {
+    margin-top: 3rem;
+    padding: 12rem auto;
+    background-color: #ff7700;
 }
