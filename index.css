@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+
+
+
+.div .mainHeader{
+    padding: 0;
+}
+.mainHeader{
+    font-family: Chelsea Market;
+    font-size:4.7em;
+    position:absolute;
+    display:block;
+    border:5em;
+    margin-left:8em;
+    margin-top:-4.5em;
+    letter-spacing: .2em;
+}
+nav{
+    border:.5em;
+    width:100%;
+    height: 2em;
+    padding:20px;
+    font-size: 2.5em;
+    font-family: roboto;
+    display:block;
+    border-radius: 2em;
+}
+nav a{
+    text-decoration: none;
+    color: red;
+    border:0px;
+    border-radius: 1em;
+    word-spacing: .1em;
+}
+nav .visit{
+    color:white;
+    background-color: #FF764E;
+    font-family: roboto;
+    letter-spacing: .01em;
+    padding:.5em;
+    border-radius: .5em;
+    margin-left:13%;
+    word-spacing: .2em;
+    
+}
+nav .about{
+    color:white;
+    background-color: #5ED3EB;
+    font-family: roboto;
+    letter-spacing: .01em;
+    padding:.5em;
+    border-radius: .5em;
+    margin-left: 15%;
+}
+nav .involved{
+    color: white;
+    background-color: #FFCD69;
+    font-family: roboto;
+    letter-spacing: .01em;
+    padding:.5em;
+    border-radius: .5em;
+    margin-left:10%;
+}
+.headerImg{
+    display:inline-block;
+    width:20%;
+    padding:0;
+    border-radius: 100em;
+    margin-left: 5em;
+}
+.headerText1{
+    font-family:roboto;
+    font-size:3em;
+    position:absolute;
+    display:block;
+    border:0;
+    letter-spacing:.02em;
+    margin-left: 14em;
+    margin-top:-6em;
+}
+.headerText2{
+    font-family:roboto;
+    font-size: 3em;
+    margin-left:10em;
+    margin-top:-5em;
+    border:0;
+}
+.main-content{
+    color:white;
+    margin-top:1em;
+    font-size: 2.25em;
+    text-align: center;
+    padding:1em;
+    background-color:#DDB9A3;
+    margin-inline-end: 5em;
+    margin-inline-start: 5em;
+    margin-block-start: 10em;
+    margin-block-end: 0em;
+    letter-spacing: .05em;
+}
+.fireImg img{
+    width:15em;
+    height:15em;
+}
+.fireImg{
+    display:inline-block;
+    padding: 0;
+    margin-left: 50em;
+
+}
+.fireInfo{
+    font-family: roboto;
+    font-size:1.5em;
+    margin-left:41%;
+    margin-right:42%;
+    text-align: center;
+}
+.camperImg img{
+    width:15em;
+    height:15em;
+}
+.camperImg{
+    display:inline-block;
+    padding:0;
+    margin-left: 50em;
+}
+.camperInfo{
+    font-family: roboto;
+    font-size: 1.5em;
+    margin-left: 41%;
+    margin-right: 42%;
+}
+.footerImg{
+    width:100%;
+}
+.footerImg{
+    display: inline-block;
+}
