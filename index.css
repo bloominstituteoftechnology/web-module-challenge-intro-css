@@ -70,18 +70,20 @@ h1 {
     font-weight: bolder;
 }
 
-a {
+nav a {
     display: inline-block;
     height: 3rem;
+    width: 10rem;
     padding: 1rem;
     margin: 2rem 8rem;
-    border-radius: 15px;
+    border-radius: 10px;
     color: white;
     text-decoration: none;
+    transition: .5s;
 }
 
-nav {
-    margin-top: 5rem;
+header nav a:hover {
+    transform: translateY(75%);
 }
 
 .nav1 {
@@ -97,27 +99,42 @@ nav {
 }
 
 .first {
+    position: relative;
     padding: 2rem;
     height: 15rem;
 }
 
 .first img {
+    position: absolute;
     height: 15rem;
-    margin-left: 10vw;
-    float: left;
+    margin-left: -30vw;
     border-radius: 100%;
 }
 
-.wrap {
-    width: ;
+.first h1 {
+    padding-top: 2rem;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3rem;
 }
 
-.wrap h1 {
-    font-family: 'Chelsea Market', cursive;
+.wrap {
+    width:20rem ;
+    margin: 0 auto;
+    padding-top: 2rem;
 }
 
 .second {
+    height: 12rem;
+    width: 90%;
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    color: white;
     background-color: #DDB9A3
+}
+
+.container {
+    padding-top: 2rem;
 }
 
 b {
@@ -125,7 +142,7 @@ b {
 }
 
 .third {
-    width: 40rem;
+    width: 25rem;
     margin: 0 auto;
 }
 
@@ -143,5 +160,8 @@ b {
 footer {
     height: 10rem;
     background-color: #F9E7DC;
-    border: 1px solid red;
+}
+
+footer nav a:hover {
+    transform: translateY(-75%);
 }

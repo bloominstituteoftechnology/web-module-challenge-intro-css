@@ -1,0 +1,34 @@
+html {
+    height: 10rem;
+}
+
+header {
+    background-color: gray;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    height: 3rem;
+    width: 10rem;
+    padding: 1rem;
+    margin: 1rem 8rem;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.nav1 {
+    background-color: #ee00ff;
+}
+
+.nav2 {
+    background-color: #5ED3EB;
+}
+
+.nav3 {
+    background-color: #FFCD69;
+}
