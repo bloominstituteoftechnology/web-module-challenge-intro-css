@@ -8,11 +8,13 @@
     border: 1px solid black;
     font-family: 'Roboto Mono';
     max-width: 100%;
-    text-align: center;
+    
   }
-  nav{
-    display: block;
-    width:100% ;
+  nav a{
+    display: flexbox;
+    width:100%;-
+    text-align: center;
+    margin: 2%;
   }
   .intro{
       background-color: #DDB9A3;
@@ -20,6 +22,20 @@
  
 .headerimage{
     border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 180px;
+  height: 180px;
+  padding: 5%;
+}
+.firepit{
+  width: 7%;
+  height: 7%;
+  text-align: center;
+}
+.rv{
+  width: 7%;
+  height: 7%;
+  text-align: center;
+}
+.fire{
+  text-align: center;
 }
