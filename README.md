@@ -66,8 +66,7 @@ The following goals are designed to stretch your knowledge and may require addit
 
 👋 [Assignment help: w3 CSS tutorials](https://www.w3schools.com/css/)
 
-👀 [Yosemite National Park Official Website](https://www.nps.gov/yose/index.htm)
-
+.
 ## Submission format
 
 Follow these steps for completing your project.
