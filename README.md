@@ -8,6 +8,7 @@
 - demonstrate CSS specificity and inheritance to create and update styles
 - implement a CSS reset and understand why it’s important for cross-browser development
 - describe and use responsive units (px, em, rem, %, and vw.vh) to create a fully responsive website
+s
 
 ## Introduction
 
