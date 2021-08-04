@@ -32,7 +32,6 @@ blockquote, q {
     padding:0;
     margin:0;
     max-width: 100%;
-    border: 1px solid grey;
 }
 
 /* GENERAL STYLES */
@@ -40,9 +39,15 @@ html {
     font-size: 62.5%;
 }
 body{
-    font-size: 1.6rem;
+    font-size: 2rem;
     line-height: 1.5;
     color: #4f4f4f;
+    font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+    font-family: "Chelsea Market", cursive;
+    font-size: 8rem;
 }
 section{
     padding: 4% 0;
@@ -80,6 +85,7 @@ nav a{
     margin-right: 10%;
 }
 
+/*top section styles*/
 .top {
     position: relative;
 }
@@ -100,10 +106,42 @@ nav a{
 
 .right{
     width: 60%;
-    
+    position: absolute;
+    top: 25%;
 }
 
-.right div {
-    position: absolute;
+/* Middle Section Styles*/
+.middle {
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+}
 
+.middle p {
+    background-color: #DDB9A3;
+    padding: 1% 1%;
+}
+
+/*Bottom Section Styles*/
+.bottom {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+.bottom div {
+    padding: 3%;
+}
+.icons {
+    height: 25rem;
+}
+
+
+/*Footer Section Styles*/
+.footer-image {
+    height: 35rem;
+    width: 100%;
+}
+footer {
+    background-color: #F9E7DC;
 }
