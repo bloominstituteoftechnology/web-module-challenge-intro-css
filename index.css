@@ -145,14 +145,14 @@ nav a {
 
 /* Empty section style */
  .empty {
-    background-size: 100%;
+    background-image: url("assets/footer_img.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 85% 15%;
-    height: 100%;
-    width: 200%;
+    background-position: top;
+    height: 52vh;
 } 
 
 /* Footer section style */
 .footer {
-    background-color: #F9E7DC;
+    background-color: hotpink;
 }
