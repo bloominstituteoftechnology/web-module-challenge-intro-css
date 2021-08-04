@@ -40,7 +40,15 @@ body{
 
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size:5rem;
+    font-size:7rem;
+}
+
+h2{
+    font-size: 2.2rem;
+}
+
+.right p {
+    font-size: 2.2rem;
 }
 
 section{
@@ -104,6 +112,10 @@ nav a:hover{
 
 .left img{
    border-radius: 50%;
+   height: 40vh;
+   width: 60%;
+   margin-right: 10%
+
 }
 
 /* Main Styles */
@@ -135,7 +147,7 @@ nav a:hover{
 .background-image{
     height:50vh;
     width:100%;
-    background-image:url('https://www.yourtownmonthly.com/wp-content/uploads/2019/08/Daycation-Yosemite.png');
+    background-image:url('/assets/footer_img.jpg');
     background-position:center top;
     background-size:cover;
 }
