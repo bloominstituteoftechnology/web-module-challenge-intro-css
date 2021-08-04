@@ -9,25 +9,11 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	font-size: 100%;
 	outline: 0;
 	padding: 0;
-	margin: 0;
-/* 	border: 0; */
-	}
+	margin: 0
+    }
 /* remember to define focus styles! */
 :focus {
 	outline: 0;
-	}
-body {
-	background: white;
-	line-height: 1;
-	color: black;
-	}
-ol, ul {
-	list-style: none;
-	}
-/* tables still need cellspacing="0" in the markup */
-table {
-	border-collapse: separate;
-	border-spacing: 0;
 	}
 caption, th, td {
 	font-weight: normal;
@@ -40,13 +26,17 @@ blockquote:before, blockquote:after, q:before, q:after {
 blockquote, q {
 	quotes: "" "";
 	}
+    /* universal selector styles */
 *{
-  box-sizing:border-box; /*when I give an element a width, I want it to respect that width and apply padding or border within the width not in addition to it.*/
-  border:1px solid grey;
+  box-sizing:border-box; 
   padding:0;
   margin:0;
-/*   max-width:100%; /*you can never be bigger than your parent element*/ 
+  max-width: 100% 
+  border: 1px solid grey  
 }
+
+/*General Styles*/
+
 html{
   font-size:62.7%; /*the default font size is 16px, 10% makes 1rem === 10px % is scalable so now users have control to bump up or down their font size*/
 }
