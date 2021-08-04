@@ -62,6 +62,7 @@ nav a{
     text-align:center;
     color:#fff;
     border-radius:10px;
+    text-decoration: none;
 }
 
 .blue{
@@ -144,7 +145,7 @@ nav a{
     height:50vh;
     width:100%;
     background-image:url('https://www.yourtownmonthly.com/wp-content/uploads/2019/08/Daycation-Yosemite.png');
-    background-repeat:no-repeat;
+ 
     background-position:center top;
     background-size:cover;
 }
