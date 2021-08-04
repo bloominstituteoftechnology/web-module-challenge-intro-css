@@ -150,10 +150,10 @@ div.imageTwoText p{
   margin-left: 75rem;
 }
 .bottomImage{
-  background-image: url =('assets/footer_img.jpg');
+  background-image: url ='assets/footer_img.jpg';
   width: 100%;
   height: 400px;
-  background-size: contain;
+  background-size: cover;
 }
 footer{
     background-color: #F9E7DC;
