@@ -110,6 +110,11 @@ nav a{
     top: 25%;
 }
 
+.right p {
+    font-size: 2.5rem;
+    margin-top: 3%;
+}
+
 /* Middle Section Styles*/
 .middle {
     text-align: center;
@@ -139,7 +144,7 @@ nav a{
 
 /*Footer Section Styles*/
 .footer-image {
-    height: 35rem;
+    height: 30rem;
     width: 100%;
 }
 footer {
