@@ -46,12 +46,18 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     color: #4f4f4f; /* accessibility */
+    font-family: 'Roboto Mono', monospace;
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
 }
 section {
     padding: 4% 0;
 }
 a {
     text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
 }
 
 /* Header section style */
@@ -77,4 +83,25 @@ nav a {
 .yellow {
     background-color: #FFCD69;
     margin-right: 10%;
+}
+
+/* Top section style */
+.top {
+    position: relative;
+}
+.left, .right {
+    text-align: center;
+    display: inline-block;
+}
+.left {
+    width: 35%;
+}
+.left img {
+    width: 80%;
+    border-radius: 50%;
+}
+.right {
+    width: 60%;
+    position: absolute;
+    top: 40%;
 }
