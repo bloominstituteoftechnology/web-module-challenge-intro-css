@@ -49,7 +49,7 @@ q:before, q:after {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 /* general styles */
@@ -63,8 +63,9 @@ body{
     color: #4f4f4f;
 }
 h1{
-    font-size: 5rem;
+    font-size: 6.6rem;
     font-family: 'Chelsea Market', cursive;
+    margin-bottom: 5%;
 }
 section{
     padding: 4% 0;
@@ -80,27 +81,29 @@ nav{
 nav a{
     display: inline-block;
     padding: 1% 0;
-    width: 10%;
+    width: 11%;
     border-radius: 10px;
     text-align: center;
     color: #fff;
 }
 .orange{
     background-color: #FF764E;
-    margin-left: 10%;
+    margin-left: 17%;
 }
 .blue{
     background-color: #5ED3EB;
-    margin: 0 24%;
+    margin: 0 15%;
 }
 .yellow{
     background-color: #FFCD69;
-    margin-right: 10%;
+    margin-right: 17%;
 }
 
 /* top section styles */
 .top{
     position: relative;
+    padding:0;
+
 }
 .left, .right{
     text-align: center;
@@ -110,16 +113,26 @@ nav a{
     width: 35%;
 }
 .left img{
+    padding: 10%;
+    margin-left: 20%;
+}
+.left img{
     width: 80%;
     border-radius: 50%;
 }
 .right{
     width: 60%;
     position: absolute;
-    top: 45%;
+    top: 15%;
+    padding: 1%;
 }
-.top .right{
-    margin-top: 0%;
+.top .right h2{
+    margin: 3% 0;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.top p{
+    padding:10% 0;
 }
 
 /* middle top section styles */
@@ -128,37 +141,49 @@ nav a{
     background-color: #DDB9A3;
     color:rgb(253, 247, 239);
     margin: 0 7%;
-    padding: 1% 4%;
+    padding: .5% 1%;
 }
 .middleTop p{
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     text-align: center;
-    padding: 1%;
+    margin: 1%;
 }
 
 /* middle bottom section styles */
 
 .middleBottom{
-    width: 25%;
-    margin: 4% auto;
+    width: 30%;
+    margin: 0% auto;
     text-align: center;
+}
+
+.middleBottom img{
+    padding:15% 25% 2%;
 }
 .bold{
     font-weight: bolder;
     color: black;
 }
 .middleBottom div{
-    margin: 4% auto;
+    margin: 0% auto;
 }
 
 /* image section styles */
 
+#image-container{
+    background: url(assets/footer_img.jpg);
+    padding-bottom: 17%;
+    margin: 0 1%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 .bottomImage{
     padding: 0 1%;
-    margin: 0;
 }
 .bottomImage img{
     width: 100%;
+    height: 350px;
 }
 
 /* footer section styles */
