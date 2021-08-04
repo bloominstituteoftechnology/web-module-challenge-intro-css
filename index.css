@@ -89,14 +89,32 @@ nav a{
 .orange{
     background-color: #FF764E;
     margin-left: 17%;
+    transition: 2s;
+}
+.orange:hover{
+    background-color: lightgray;
+    color: #FF764E;
+    transition: 1s;
 }
 .blue{
     background-color: #5ED3EB;
     margin: 0 15%;
+    transition: 2s;
+}
+.blue:hover{
+    background-color: lightgray;
+    color:#5ED3EB;
+    transition: 1s;
 }
 .yellow{
     background-color: #FFCD69;
     margin-right: 17%;
+    transition: 2s;
+}
+.yellow:hover{
+    background-color: lightgray;
+    color:#FFCD69;
+    transition: 1s;
 }
 
 /* top section styles */
