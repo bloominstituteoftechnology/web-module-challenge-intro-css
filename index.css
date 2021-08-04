@@ -68,6 +68,12 @@ blockquote, q {
         border-radius: 10px;
         text-align: center;
         color: #fff;
+        transition: 2s;
+    }
+    nav a:hover{
+        border: 3px solid gray;
+        background-color: rgb(25, 202, 202);
+
     }
     .orange {
         background-color: #FF764E;
