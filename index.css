@@ -1,0 +1,117 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+/* 	border: 0; */
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+*{
+  box-sizing:border-box; /*when I give an element a width, I want it to respect that width and apply padding or border within the width not in addition to it.*/
+  border:1px solid grey;
+  padding:0;
+  margin:0;
+/*   max-width:100%; /*you can never be bigger than your parent element*/ 
+}
+html{
+  font-size:62.7%; /*the default font size is 16px, 10% makes 1rem === 10px % is scalable so now users have control to bump up or down their font size*/
+}
+body{
+  font-size:1.6rem;
+}
+header{
+  height: 90vh;
+  background-color:pink;
+}
+/*2 things needed for inline block layouts - change the display property and give the element a width */
+.button{
+  display:inline-block;
+  width:15%;
+  padding:2% 0;
+  text-align:center;
+  border-radius:10px;
+  background-color:#000;
+  color:grey;
+  text-decoration:none;
+  transition:2s;
+}
+.button:hover{
+  border:3px solid grey;
+  background-color:white;
+  color:#000;
+}
+.boxOne{
+  background-color:orange;
+  width:25%;
+  padding: 5%;
+  /*TB RL*/
+  padding: 10% 5%;
+  /*T RL B*/
+  padding: 10% 3% 4%;
+  /*T R B L*/
+  padding: 4% 6% 8% 10%;
+  margin:10%;
+}
+/*change the display to inline-block / tell the item how big to be by giving it a width.*/ 
+.boxTwo{
+  background-color:hotpink;
+  display:inline-block;
+  width:25%;
+  height:100px;
+}
+
+.boxThree{
+  background-color:lavender;
+  display:inline-block;
+  width:25%;
+  height:100px;
+  margin:0 11.5%;
+}
+
+.boxFour{
+  background-color:skyblue;
+  display:inline-block;
+  width:25%;
+  height:100px;
+}
+/*% is based on the parent*/
+section{
+  width:50%;
+}
+p{
+  width:75vw;
+}
