@@ -15,12 +15,8 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 :focus {
 	outline: 0;
 	}
-body {
-	background: white;
-	line-height: 1;
-	color: black;
-	}
 /* tables still need cellspacing="0" in the markup */
+
 caption, th, td {
 	font-weight: normal;
 	text-align: left;
@@ -33,21 +29,40 @@ blockquote, q {
 	quotes: "" "";
 	}
 
-    /* universal selector styles */
-    * {
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
-        max-width: 100%;
-        border: 1px solid grey;
-    }
+/* universal selector styles */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid grey;
+}
 
-    /* General Styles */
-    html {
-        font-size: 62.5%;
-    }
-    body {
-        font-size: 1.6rem;
-        line-height: 1.5;
-        color: ;
-    }
+/* General Styles */
+ html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f; /* accessibility */
+}
+section {
+    padding: 4% 0;
+}
+a {
+    text-decoration: none;
+}
+
+/* Header section style */
+nav {
+    padding: 2% 0;
+}
+nav a {
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
