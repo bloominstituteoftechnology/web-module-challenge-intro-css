@@ -154,6 +154,7 @@ div.imageTwoText p{
   width: 100%;
   height: 500px;
   background-size: cover;
+  margin-top: 10rem;
 }
 footer{
     background-color: #F9E7DC;
