@@ -1,0 +1,153 @@
+/*Brit uses % for most elements on the page, she uses rems for fonts, and sometimes vh for her headers*/
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+/* 	border: 0; */
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+*{
+  box-sizing:border-box; /*when I give an element a width, I want it to respect that width and apply padding or border within the width not in addition to it.*/
+  border:1px solid grey;
+  padding:0;
+  margin:0;
+  max-width:100%; /*you can*/
+}
+
+.boxOne{
+  background-color:orange;
+  width:25%;
+  padding: 5%;
+  /*TB RL*/
+  padding: 10% 5%;
+  /*T RL B*/
+  padding: 10%, 3% 4%;
+  /*T R B L*/
+  padding: 4% 6% 8% 10%;
+  margin:10%;
+}
+
+.boxTwo{
+  background-color:hotpink;
+  
+}
+
+.boxThree{
+  background-color:lavender;
+  
+}
+
+.boxFour{
+  background-color:skyblue;
+
+}
+/* General Style */
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5 ;
+    color: #4f4f4f;/*color for accesibility*/
+}
+
+section{
+    padding: 4% 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header Section Styles */
+
+nav{
+    padding: 2% 0 ;
+
+}
+
+nav a{
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFF;
+
+}
+
+.orange{
+    background-color: #FF764E;
+    margin-left: 10%;
+}
+
+.blue{
+    background-color: #5ED3EB; 
+    margin: 0 24%;
+}
+
+.yellow{
+    background-color: #FFCD69; 
+    margin-right: 10%;
+}
+
+
+/*Top section style*/
+.top{
+    text-align: center;
+    position: relative;
+}
+
+.left, .right{
+    display: inline-block;
+}
+
+.left{
+    width:35%;
+}
+.left img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.right{
+    width: 60%;
+    position: absolute;
+}
+
+.right div{
+  
+    bottom: 50;
+}
