@@ -73,7 +73,7 @@ a{
     text-decoration: none;
 }
 
-/* header section styles */
+/* header and footer section styles */
 nav{
     padding: 2% 0;
 }
@@ -138,11 +138,32 @@ nav a{
 
 /* middle bottom section styles */
 
-.middleBottom .fire{
+.middleBottom{
     width: 25%;
-    margin: 0 auto;
+    margin: 4% auto;
     text-align: center;
 }
 .bold{
-    font-style: ;
+    font-weight: bolder;
+    color: black;
+}
+.middleBottom div{
+    margin: 4% auto;
+}
+
+/* image section styles */
+
+.bottomImage{
+    padding: 0 1%;
+    margin: 0;
+}
+.bottomImage img{
+    width: 100%;
+}
+
+/* footer section styles */
+
+footer{
+    background-color: #F9E7DC;
+    margin: 0 1%;
 }
