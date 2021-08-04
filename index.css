@@ -35,7 +35,7 @@ blockquote, q {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 /* General Styles */
@@ -104,4 +104,37 @@ nav a {
     width: 60%;
     position: absolute;
     top: 40%;
+}
+
+/* Main section style */
+.main {
+    text-align: center;
+    background-color: #DDB9A3;
+}
+
+/* Campfire section style */
+.campfire {
+    text-align: center;
+}
+.campfire img {
+    width: 30%;
+}
+.campfire span {
+    font-weight: bold;
+}
+
+/* Camper section style */
+.camper {
+    text-align: center;
+}
+.camper img {
+    width: 30%;
+}
+.camper span {
+    font-weight: bold;
+}
+
+/* Footer section style */
+.footer {
+    background-color: #F9E7DC;
 }
