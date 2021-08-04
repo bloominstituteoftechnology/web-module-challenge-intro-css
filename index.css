@@ -66,3 +66,15 @@ nav a {
     text-align: center;
     color: #fff;
 }
+.orange {
+    background-color: #FF764E;
+    margin-left: 10%;
+}
+.blue {
+    background-color: #5ED3EB;
+    margin: 0 24%;
+}
+.yellow {
+    background-color: #FFCD69;
+    margin-right: 10%;
+}
