@@ -65,13 +65,14 @@ nav a{
     text-decoration: none;
 }
 
+nav a:hover{
+    background-color: black;
+    transition: 1s;
+}
+
 .blue{
     background-color:#5ED3EB;
     margin:0 24%;
-}
-.blue:hover{
-    background-color: black;
-    transition: 1s;
 }
 
 .orange{
@@ -79,19 +80,9 @@ nav a{
     margin-left:10%;
 }
 
-.orange:hover{
-    background-color: black;
-    transition: 1s;
-}
-
 .yellow{
     background-color:#FFCD69;
     margin-right:10%;
-}
-
-.yellow:hover{
-    background-color: black;
-    transition: 1s;
 }
 
 /* Titles Styles */
