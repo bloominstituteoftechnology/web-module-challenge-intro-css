@@ -36,12 +36,22 @@ blockquote, q {
 }
 
 /*General Styles*/
-
 html{
   font-size:62.7%; /*the default font size is 16px, 10% makes 1rem === 10px % is scalable so now users have control to bump up or down their font size*/
 }
 body{
   font-size:1.6rem;
+  line-height: 1.5;
+  color: #4f4f4f; /*accessability*/
+  font-family: 'Roboto Mono' , monospace;
+
+}
+section {
+    padding: 4% 0;
+}
+
+a {
+ text-decoration:none;
 }
 header{
   height: 90vh;
@@ -60,16 +70,15 @@ header{
   transition:2s;
 }
 .button:hover{
-  border:3px solid grey;
+  border:30px solid grey;
   background-color:white;
   color:#000;
 }
 .boxOne{
   background-color:orange;
-  width:25%;
   padding: 5%;
   /*TB RL*/
-  padding: 10% 5%;
+  padding: 10% 5% ;
   /*T RL B*/
   padding: 10% 3% 4%;
   /*T R B L*/
@@ -78,7 +87,7 @@ header{
 }
 /*change the display to inline-block / tell the item how big to be by giving it a width.*/ 
 .boxTwo{
-  background-color:hotpink;
+  background-color:#DDB9A3;
   display:inline-block;
   width:25%;
   height:100px;
