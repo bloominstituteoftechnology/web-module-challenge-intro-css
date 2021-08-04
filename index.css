@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+}
+/* *{
+    border: 1px solid grey;
+} */
+html{
+    box-sizing: border-box;
+    width: 100%vw;
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color:#4f4f4f;
+}
+h1{
+    font-family: Chelsea Market;
+    font-size: 9rem;
+}
+section{
+    padding: 4% 0;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    width: 100%;
+    padding: 2% 0;
+    
+}
+nav a{
+    font-family: 'Roboto Mono', monospace;
+    display: inline-block;
+    padding: 0;
+    width: 10%;
+    height: 6rem;
+    border-radius: 10px;
+    text-align: center;
+    color:#fff;
+}
+p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3rem;
+}
+h2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3rem;
+    padding: 4rem;
+}
+.orange{
+    background-color: #FF764E;
+    margin-left: 10%;
+}
+.blue{
+    background-color: #5ED3EB;
+    margin: 0 24%;
+}
+.yellow{
+    background-color: #FFCD69;
+    margin-right: 10%;
+}
+
+/*Top section*/
+.top{
+    position: relative;
+}
+.left, .right{
+    display: inline-block;
+}
+.left{
+    width: 35%;
+    margin-left: 15rem;
+}
+.left img{
+    width: 80%;
+    border-radius: 50%;
+}
+.right{
+    width: 60%;
+    position: absolute;
+    top: 15%;
+    text-align: center;
+}
+section.info{
+    color:white;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    background: #DDB9A3;
+    padding: 2rem;
+}
+.middle .imageOne{
+   width: 30rem;
+   margin-left: 80rem;
+}
+div.imageOneText p{
+  font-size: 2rem;
+  width: 40rem;
+  text-align: center;
+  margin-left: 75rem;
+}
+.middle .imageTwo{
+    width: 35rem;
+    margin-left: 77rem;
+    padding-top: 10rem;
+}
+div.imageTwoText p{
+  font-size: 2rem;
+  width: 40rem;
+  text-align: center;
+  margin-left: 75rem;
+}
+.bottom .bottomImage{
+    display: inline-block;
+    width:100%;
+}
