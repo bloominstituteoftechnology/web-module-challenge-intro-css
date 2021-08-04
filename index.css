@@ -64,7 +64,7 @@ body{
 }
 h1{
     font-size: 5rem;
-    font-family: 'Chelsea Market', cursive;;
+    font-family: 'Chelsea Market', cursive;
 }
 section{
     padding: 4% 0;
@@ -117,4 +117,32 @@ nav a{
     width: 60%;
     position: absolute;
     top: 45%;
+}
+.top .right{
+    margin-top: 0%;
+}
+
+/* middle top section styles */
+
+.middleTop{
+    background-color: #DDB9A3;
+    color:rgb(253, 247, 239);
+    margin: 0 7%;
+    padding: 1% 4%;
+}
+.middleTop p{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1%;
+}
+
+/* middle bottom section styles */
+
+.middleBottom .fire{
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+}
+.bold{
+    font-style: ;
 }
