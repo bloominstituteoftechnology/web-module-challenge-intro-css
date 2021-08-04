@@ -32,7 +32,7 @@ blockquote, q {
         padding: 0;
         margin: 0;
         max-width: 100%;
-        border: 1px solid grey;
+        /* border: 1px solid grey; */
     }
 
     /* General Style */
@@ -47,7 +47,7 @@ blockquote, q {
     }
     h1 {
         font-family: 'Chelsea Market', cursive;
-        font-size:5rem;
+        font-size:6rem;
     }
     section {
         padding: 4% 0;
@@ -84,12 +84,11 @@ blockquote, q {
 
     /* top section styles */
     .top {
-
         position: relative;
     }
     .left, .right {
         text-align: center;
-        display:inline-block;
+        display: inline-block;
     }
     .left {
         width: 35%;
@@ -99,14 +98,66 @@ blockquote, q {
         border-radius: 50%;
     }
     .right {
-        width:60%;
-        position:absolute;
-        top:20%;
+        text-align: center;
+        width: 60%;
+        position: absolute;
+        top: 20%;
         padding: 0% 25%;
     }
     .right div {
         position: absolute;
     }
     .right p {
+        font-size: 2vh;
         margin-top: 5%;
+    }
+    .right h2 {
+        font-size: 2vh;
+        margin-top: 2%;
+    }
+/* about section style */
+    .description {
+        background-color: #DDB9A3;
+        margin: 0% 5%;
+    }
+    .up, .bottom {
+        padding: 2%;
+        text-align: center;
+        font-size: 1.6rem;
+        color: white;
+    }
+    .upper img {
+        width: 10%;
+        display: inline-block;
+        margin-left: 50%;   
+    }
+    .upper p {
+        width: 30%;
+        text-align: center;
+        margin-left: 40%;
+
+        
+
+    }
+    .lower img {
+        width: 10%;
+        display: inline-block;
+        margin-left: 50%;  
+    }
+    .lower p {
+        width: 30%;
+        text-align: center;
+        margin-left: 40%;
+    }
+    span {
+        font-weight: bold;
+    }
+    .empty {
+        background-image: url("assets/footer_img.jpg");
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    footer {
+        background-color: #F9E7DC;
     }
