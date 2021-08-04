@@ -1,153 +1,154 @@
-/*Brit uses % for most elements on the page, she uses rems for fonts, and sometimes vh for her headers*/
-html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
-del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
-h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
-	vertical-align: baseline;
-	font-family: inherit;
-	font-weight: inherit;
-	font-style: inherit;
-	font-size: 100%;
-	outline: 0;
-	padding: 0;
-	margin: 0;
-/* 	border: 0; */
-	}
-/* remember to define focus styles! */
-:focus {
-	outline: 0;
-	}
+/* CSS Reset */
 
-ol, ul {
-	list-style: none;
-	}
-/* tables still need cellspacing="0" in the markup */
-table {
-	border-collapse: separate;
-	border-spacing: 0;
-	}
-caption, th, td {
-	font-weight: normal;
-	text-align: left;
-	}
-/* remove possible quote marks (") from <q> & <blockquote> */
-blockquote:before, blockquote:after, q:before, q:after {
-	content: "";
-	}
-blockquote, q {
-	quotes: "" "";
-	}
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+/* border: 0;   */
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
 *{
-  box-sizing:border-box; /*when I give an element a width, I want it to respect that width and apply padding or border within the width not in addition to it.*/
-  border:1px solid grey;
-  padding:0;
-  margin:0;
-  max-width:100%; /*you can*/
+    box-sizing:border-box;
+    max-width:100%;
 }
 
-.boxOne{
-  background-color:orange;
-  width:25%;
-  padding: 5%;
-  /*TB RL*/
-  padding: 10% 5%;
-  /*T RL B*/
-  padding: 10%, 3% 4%;
-  /*T R B L*/
-  padding: 4% 6% 8% 10%;
-  margin:10%;
-}
+/* General Styles */
 
-.boxTwo{
-  background-color:hotpink;
-  
-}
-
-.boxThree{
-  background-color:lavender;
-  
-}
-
-.boxFour{
-  background-color:skyblue;
-
-}
-/* General Style */
 html{
-    font-size: 62.5%;
+    font-size:62.5%;
 }
 
 body{
-    font-size: 1.6rem;
-    line-height: 1.5 ;
-    color: #4f4f4f;/*color for accesibility*/
+    font-size:1.6rem;
+    font-family: 'Roboto Mono', monospace;
+    line-height:1.5;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:5rem;
 }
 
 section{
-    padding: 4% 0;
+    padding:4% 0;
+    width:90%;
+    margin:0 auto;
 }
 
-a{
-    text-decoration: none;
-}
-
-/* Header Section Styles */
+/* Header Styles */
 
 nav{
-    padding: 2% 0 ;
-
+    padding:2% 0;
 }
 
 nav a{
-    display: inline-block;
-    padding: 1% 0;
-    width: 10%;
-    border-radius: 10px;
-    text-align: center;
-    color: #FFF;
-
-}
-
-.orange{
-    background-color: #FF764E;
-    margin-left: 10%;
+    display:inline-block;
+    padding:1% 0;
+    width:10%;
+    text-align:center;
+    color:#fff;
+    border-radius:10px;
 }
 
 .blue{
-    background-color: #5ED3EB; 
-    margin: 0 24%;
+    background-color:#5ED3EB;
+    margin:0 24%;
+}
+.blue:hover{
+    background-color: black;
+    transition: 1s;
+}
+
+.orange{
+    background-color:#FF764E;
+    margin-left:10%;
+}
+
+.orange:hover{
+    background-color: black;
+    transition: 1s;
 }
 
 .yellow{
-    background-color: #FFCD69; 
-    margin-right: 10%;
+    background-color:#FFCD69;
+    margin-right:10%;
 }
 
-
-/*Top section style*/
-.top{
-    text-align: center;
-    position: relative;
+.yellow:hover{
+    background-color: black;
+    transition: 1s;
 }
+
+/* Titles Styles */
 
 .left, .right{
-    display: inline-block;
-}
-
-.left{
-    width:35%;
-}
-.left img{
-    width: 80%;
-    border-radius: 50%;
+   display:inline-block;
 }
 
 .right{
-    width: 60%;
-    position: absolute;
+    width:55%;
+    margin-left:5%;
+    text-align:center;
+    line-height:3;
 }
 
-.right div{
-  
-    bottom: 50;
+.left{
+    width:30%;
+}
+
+.left img{
+   border-radius: 50%;
+}
+
+/* Main Styles */
+
+.main{
+    background-color:#DDB9A3;
+    color:#fff;
+}
+
+.main p{
+    width:90%;
+    margin:0 auto;
+}
+
+/* Blurb Styles */
+
+.blurb div{
+    width:20%;
+    margin:0 auto;
+    text-align:center;
+}
+
+.blurb div.first{
+    margin-bottom:5%;
+}
+
+/* Background Image Styles */
+
+.background-image{
+    height:50vh;
+    width:100%;
+    background-image:url('https://www.yourtownmonthly.com/wp-content/uploads/2019/08/Daycation-Yosemite.png');
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-size:cover;
+}
+
+footer{
+    background-color:#F9E7DC;
 }
