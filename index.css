@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+    /* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -42,7 +42,79 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+/* universal selector styles */
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+
+/* general styles */
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+}
+h1{
+    font-size: 5rem;
+    font-family: 'Chelsea Market', cursive;;
+}
+section{
+    padding: 4% 0;
+}
+a{
+    text-decoration: none;
+}
+
+/* header section styles */
+nav{
+    padding: 2% 0;
+}
+nav a{
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+.orange{
+    background-color: #FF764E;
+    margin-left: 10%;
+}
+.blue{
+    background-color: #5ED3EB;
+    margin: 0 24%;
+}
+.yellow{
+    background-color: #FFCD69;
+    margin-right: 10%;
+}
+
+/* top section styles */
+.top{
+    position: relative;
+}
+.left, .right{
+    text-align: center;
+    display: inline-block;
+}
+.left{
+    width: 35%;
+}
+.left img{
+    width: 80%;
+    border-radius: 50%;
+}
+.right{
+    width: 60%;
+    position: absolute;
+    top: 45%;
 }
