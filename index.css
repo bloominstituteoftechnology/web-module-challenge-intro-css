@@ -108,8 +108,11 @@ nav a {
 
 /* Main section style */
 .main {
-    text-align: center;
+    text-align: justify;
+    margin: 70px;
+    padding: 20px;
     background-color: #DDB9A3;
+    color: white;
 }
 
 /* Campfire section style */
@@ -117,7 +120,10 @@ nav a {
     text-align: center;
 }
 .campfire img {
-    width: 30%;
+    width: 10%;
+}
+.campfire p {
+    padding: 0 600px;
 }
 .campfire span {
     font-weight: bold;
@@ -128,11 +134,23 @@ nav a {
     text-align: center;
 }
 .camper img {
-    width: 30%;
+    width: 10%;
+}
+.camper p {
+    padding: 0 650px;
 }
 .camper span {
     font-weight: bold;
 }
+
+/* Empty section style */
+ .empty {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 85% 15%;
+    height: 100%;
+    width: 200%;
+} 
 
 /* Footer section style */
 .footer {
