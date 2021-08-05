@@ -52,7 +52,8 @@ blockquote, q {
       font-family: 'Roboto Mono', monospace;
     }
     h1{
-        font-family: 'Chelsea Market', cursive; 
+        font-family: 'Chelsea Market', cursive;
+        
     }
     section{
         padding: 4% 0;
@@ -106,8 +107,30 @@ blockquote, q {
         width: 60%;
         position: absolute;
         top:42%;
+        }
+        .pinkText{
+            text-align: center;
+            padding:10px;
+            background-color: #DDB9A3;
+            
+        }
+    .float{
+
+    }    
+    .fire{
+        text-align: center;
+        padding: 2rem;
+        width: 20%;
     }
-
-
-
+    .space{
+        padding: 6rem;
+        border:solid 5px red;
+    }
+    
+    .bus{
+        text-align: center;
+        padding: 2rem;
+        width: 20%;
+    }
+    
 
