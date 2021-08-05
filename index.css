@@ -33,7 +33,7 @@ blockquote, q {
         padding: 0;
         margin: 0;
         max-width: 100%;
-        border:1px solid grey;
+        
     }
 
     /*General Styles*/
@@ -136,8 +136,15 @@ blockquote, q {
     }
     /*Footer*/
     .img{
-        width: 100%;
-        
+       background-image: url("assets/footer_img.jpg");
+       height: 50vh;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: top center;
+       width: 100%;
+    }
+    footer{
+        background-color: #F9E7DC;
     }
     
 
