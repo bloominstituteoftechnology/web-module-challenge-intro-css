@@ -15,10 +15,19 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 :focus {
 	outline: 0;
 	}
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse:separate;
+    border-spacing: 0;
+}
+
 caption, th, td {
-	font-weight: normal;
-	text-align: left;
-	}
+    font-weight: normal;
+    text-align: left;
+}
 /* remove possible quote marks (") from <q> & <blockquote> */
 blockquote:before, blockquote:after, q:before, q:after {
 	content: "";
@@ -50,9 +59,15 @@ section {
     padding: 4% 0;
 }
 
+h1 {
+    font-family: 'Chelsea Market' , cursive
+    font-size:5rm
+}
 a {
  text-decoration:none;
+ font-family: 'Roboto Mono' , monospace;
 }
+
 header{
   height: 90vh;
   background-color:pink;
@@ -114,3 +129,56 @@ section{
 p{
   width:75vw;
 }
+
+/*header section styles*/
+nav {
+    padding: 2% 0;
+}
+nav a {
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color: firebrick;
+}
+.orange{
+    background-color: #FF764E;
+    margin-left: 10%;
+}
+
+.blue {
+    background-color: #5ED3EB;
+    margin: 10%;
+}
+
+.yellow {
+    background-color: #FFCD69;
+    margin-right: 10%;
+}
+
+/*top section styles*/
+.top{
+    text-align: center;
+}
+.left, right {
+    display: inline-block;
+}
+.left{
+    width:35%
+}
+.left img{
+    width: 80;
+    border-radius: 50%;
+}
+.right {
+    width: 60%;
+    position: relative;
+}
+.right div {
+    position: absolute;
+}
+
+
+
+
