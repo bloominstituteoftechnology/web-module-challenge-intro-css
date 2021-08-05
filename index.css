@@ -34,7 +34,7 @@ blockquote, q {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: 1px solid grey;
+    
 }
 
 
@@ -46,21 +46,32 @@ body{
     font-size: 1.6rem;
     line-height: 1.5;
     color: #4f4f4f;
+    font-family: 'Roboto Mono', monospace;
 }
 
-h1{
-    font-style: "Chelsea Market";
-}
+
 section{
     padding: 4% 0;
 }
 a{
     text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
 }
 
 nav{
     padding: 2% 0;
 }
+
+h2 p{
+    text-align: center;
+
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+}
+
 nav a{
     display: inline-block;
     padding: 1% 0;
@@ -70,23 +81,28 @@ nav a{
     color: white;
 }
     .orange{
-        background-color: orangered;
+        background-color: #FF764E;
         margin-left: 10%;
     }
 
     .yellow{
-        background-color: yellow;
+        background-color: #FFCD69;
         margin-left: 10%;
     }
     
     .blue{
-        background-color: teal;
-        margin-left: 10%;
+        background-color: #5ED3EB;
+        margin: 0 24%;
     }
 
     /*top section styles*/
-    .left,:right{
+
+.top{
+    position: relative;
+}
+    .left, .right{
         display:inline-block; 
+        text-align: center;
     }
     .left{
         width: 35%; 
@@ -99,4 +115,51 @@ nav a{
     .right{
         width: 60%;
        position: absolute;
+       top: 30%;
   }
+  .right div{
+      position: absolute; 
+      top: 45%;
+  }
+ 
+  .fire img{
+      margin-left: 45%;
+      width: 10%;
+      margin-bottom: 2%;
+  }
+
+  .main{
+      text-align: center;
+      padding: 2%;
+      margin: 2%;
+  }
+
+  div p{
+      width: 60%;
+      margin-left: 20%;
+  }
+ 
+  .truck img{
+      width: 10%;
+      margin-left:45%;
+      margin-bottom: 2%;
+      
+  }
+ 
+  .main{
+      background-color:#DDB9A3 ;
+    color: white;
+      
+  }
+
+ .mountains{
+     background-image: url(assets/footer_img.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 400px;
+     
+ }
+     .tan{
+         background-color: #F9E7DC;
+     }
