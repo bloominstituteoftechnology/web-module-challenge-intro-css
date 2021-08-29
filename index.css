@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+* {
+    text-align: center;
+    
+}
+.links-header {
+    padding-bottom: 50px;
+    padding-top: 25px;
+    
+}
+.plan {
+background: #FF764E;
+color: white;
+margin-right: 120px;
+}
+.learn {
+    background: #5ED3EB;
+color: white;
+margin-right: 120px;
+}
+.get {
+    background: #FFCD69;
+color: white;
+
+}
+
+h1 {
+    font-family: 'Chelsea Market';
+    font-size: 40px;
+}
+.header-image {
+    
+    padding-left: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+}
+.header-text {
+    padding-bottom: 25px;
+    display: inline-block;
+    width: 40%;
+}
+.header-photo {
+    border-radius: 525rem;
+    width: 15rem;
+  height: 15rem;
+  
+  
+}
+.section2 {
+    width: 60%;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+}
+p {
+    font-family: 'Roboto Mono';
+    text-align: center;
+}
+.info {
+    background: #DDB9A3;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    padding: 10px;
+}
+.fire {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.truck {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding-bottom: 30px;
+}
+.footer-img {
+    background-image: url('assets/footer_img.jpg');
+    height:40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+}
+.links-footer {
+  background:  #F9E7DC;
+  
+  margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+nav a{
+    display:inline-block;
+    width: 15%;
+    text-align:center;
+    border-radius:10px;
+    text-decoration:none;
+    padding:1% 0;
+}
+nav {
+    align-self: flex-end;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+nav:hover {
+    animation-name:bounce;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+  }
