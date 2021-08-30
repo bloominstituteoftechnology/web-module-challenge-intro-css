@@ -1,0 +1,162 @@
+body{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* ----------------------------- */
+            /* nav-top */
+/* ----------------------------- */
+.orange{
+  margin-left: 20%;
+}
+.orange p{
+  display: inline-block;
+  text-align: center;
+  text-size-adjust: 50px;
+  background-color: rgb(230, 98, 59);
+  color: aliceblue;
+  border-radius: 20px;
+  border: solid 1px black;
+  margin-left: auto;
+  margin-right: 0px;
+  text-decoration: none;
+  width: 95px;
+}
+.light-blue{
+  margin-left: 20%;
+}
+.light-blue p{
+  display: inline-block;
+  text-align: center;
+  text-size-adjust: 50px;
+  background-color: rgb(93, 169, 231);
+  color: aliceblue;
+  border-radius: 20px;
+  border: solid 1px black;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-decoration: none;
+  width: 95px;
+}
+
+.mustered{
+  margin-left: 20%;
+}
+.mustered p{
+  padding-top: 10px;
+  display: inline-block;
+  text-align: center;
+  height: 30px;
+  text-size-adjust: 50px;
+  background-color: rgb(230, 190, 59);
+  color: aliceblue;
+  border-radius: 20px;
+  border: solid 1px black;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-decoration: none;
+  width: 95px;
+}
+
+/* ----------------------------- */
+            /* nav-bottom */
+/* ----------------------------- */
+
+
+
+/* ----------------------------- */
+            /* header-top */
+/* ----------------------------- */
+
+.header-img{
+  margin-left: 20%;
+  border-radius: 50%;
+  width: 250px;
+}
+.park{
+  margin-left: 50px;
+  display: inline-block;
+  width: 50%;
+  padding-bottom: 40px;
+}
+
+/* ----------------------------- */
+            /* header-bottom */
+/* ----------------------------- */
+
+
+
+/* ----------------------------- */
+            /* main-info-top */
+/* ----------------------------- */
+
+.main-info{
+  position: relative;
+  text-align: center;
+  width: 70%;
+
+  margin-left: auto;
+  margin-right: auto;
+  color: azure;
+  background-color: rgb(190, 131, 109);
+}
+
+/* ----------------------------- */
+            /* main-info-bottom */
+/* ----------------------------- */
+
+
+
+
+/* ----------------------------- */
+            /* mid-page-top */
+/* ----------------------------- */
+.fire{
+  margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+.bus{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+ 
+}
+h5{
+  margin-bottom: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 170px;
+}
+
+
+/* ----------------------------- */
+            /* mid-page-bottom */
+/* ----------------------------- */
+
+
+
+/* ----------------------------- */
+            /* footer */
+/* ----------------------------- */
+
+footer{
+ 
+
+  background-color: darksalmon;
+}
+
+.back{
+  margin-top: 0%;
+  background-image: url('assets/footer_img.jpg');
+  height:25vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+}
