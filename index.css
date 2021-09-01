@@ -42,28 +42,76 @@ blockquote, q {
 	}
     /*This up here is the reset*/
 
+    
+    
+    
+    
+    
+    
     * {
         box-sizing: border-box;
         padding: 0;
         margin: 0;
         max-width:100%;
+        
     }
 /*General Styles*/
+
+
+
+
 html{
     font-size:62.5%
 }
 body {
     font: size 1.6rem;
     line-height:1.5;
+    color: #4f4f4f;
+    font-family: 'Roboto Mono', monospace;
 
 }
 
 h1 {
-    /* font here*/
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+    text-align: top;
+    position: relative;
+    bottom: 11rem
+}
+
+h2 {
+   font-size: 1.5rem; 
+   position: relative;
+    bottom: 9rem;
+    margin: 3%
+   
+  
+   
+}
+
+
+
+.middle {
+    background-color: #DDB9A3;
+    border: 12px solid #DDB9A3;
+    color: #ffff;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.7rem;
+    text-align: center;
+    background-color: ;
+    margin: 5%
+    
+}
+
+div.right p {
+    font-size: 1.4rem;
+    position: relative;
+    bottom: 7rem
 }
 
 a {
-    /* font here*/
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
 }
 
 span {
@@ -76,33 +124,45 @@ section {
 
 /*header section styles*/
 
+
+
 nav {
+    padding:2% 0;
+}
+
+nav a {
     display:inline-block;
     padding:1% 0;
     width:10%;
     border-radius:10px;
     text-align: center;
-    color: #fff;
+    color: #ffff;
+    font-size: 1.5rem
 }
 .orange{
-    background-color:
+    background-color: #FF764E;
+    margin-left: 10%
 }
 
-.blue: {
-    background-color:
+.blue {
+    background-color: #5ED3EB;
+    margin: 0 24%
 }
 
 .yellow {
-    background-color;
+    background-color: #FFCD69;
     margin-right:10%;
 }
 
+
 /*Titles Section Styles*/
+
+
 .titles{
     text-align:center;
     position:relative;
 }
-.left, .right{
+.left, .right {
     display:inline-block;
 }
 .left{
@@ -111,12 +171,63 @@ nav {
 }
 .left img{
     border-radius:50%;
+    width: 65%
+    
+    
+    
+    
+
+    
+    
 }
 .right{
     width:55%;
     margin-left: 5%;
+    margin:auto;
+
 }
 .right div{
     position:absolute;
     top:40%;
+
+}
+
+/* Picture Section and paragraph*/
+
+.first {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    position: relative;
+    bottom: 11.2rem
+    
+}
+
+.under {
+    font-family:'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    bottom: 22rem
+}
+
+.car {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    position: relative;
+    bottom: 24rem
+
+}
+
+.second {
+    font-family:'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    bottom: 8rem 
+    position: relative;
+    bottom: 31rem
 }
