@@ -5,87 +5,9 @@
    License: none (public domain)
 */
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, 
+ins, kbd, q, s, samp, small, strike, strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,
+thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio, video {
   margin: 0;
   padding: 0;
 
@@ -109,6 +31,7 @@ section {
 }
 body {
   line-height: 1;
+  background-color: #DDB9A3;
 }
 ol,
 ul {
@@ -145,7 +68,7 @@ html {
 body {
   font-size: 1.6rem;
   line-height: 1.5;
-  color: #4f4f4f;
+  color: #DDB9A3;
   font-family: "Roboto Mono", monospace;
 }
 a {
@@ -181,7 +104,7 @@ nav a {
 .orange {
   background-color: #ff764e;
   margin-left: 0;
-}
+
 
 .blue {
   background-color: #5ed3eb;
@@ -192,32 +115,27 @@ nav a {
   background-color: #ffcd69;
   margin-right: 10%;
 }
-/* Titles Section Styles */
+/*Titles Section Styles*/
 
-.titles {
-  text-align: center;
-  position: relative;
+.titles{
+    text-align:center;
+    position:relative;
 }
-
-.left,
-.right {
-  display: inline-block;
+.left, .right{
+    display:inline-block;
 }
-
-.left {
-  width: 55%;
-  margin-left: 5%;
+.left{
+    width:30%;
+    margin-left:5%;
 }
-
-.left img {
-  border-radius: 50%;
+.left img{
+    border-radius:50%;
 }
-
-.right {
-  width: 55%;
-  margin-left: 5%;
-}
-
 .right{
-    
+    width:55%;
+    margin-left: 5%;
+}
+.right div{
+    position:absolute;
+    top:40%;
 }
