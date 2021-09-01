@@ -1,0 +1,152 @@
+*{
+    font-family: 'roboto';
+    
+}
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+head {
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+    font-family: 'Roboto Mono', monospace;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+section{
+    padding:4% 0;
+}
+
+nav{
+    padding:2% 0;
+}
+nav a{
+    display:inline-block;
+    padding: 1% 0;
+    width: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+.orange{
+    background-color:#FF764E;
+    margin-left: 10%;
+}
+.blue{
+    background-color:#5ED3EB;
+    margin: 0 24%;
+}
+.yellow {
+    background-color: #FFCD69;
+    margin-right: 10%;
+}
+.titles{
+    text-align:center;
+    position:relative;
+}
+.left, .right{
+    display:inline-block;
+}
+.left{
+    width:30%;
+    margin-left:5%;
+}
+.left img{
+    border-radius:50%;
+}
+.right{
+    width:55%;
+    margin-left: 5%;
+    font-family: 'Roboto Mono', monospace;
+}
+.right div{
+    position:absolute;
+    top:40%;
+}
+.titles img{
+    border-radius: 50%;
+    width: 75%;
+}
+.titles h1{
+    font-size: 40px;
+    text-align: top;
+}
+h1{
+    font-family: 'Chelsea market', cursive;
+    font-size:5rem;
+}
+.titles h2 p{
+    font-family: 'Roboto Mono';
+}
+.about{
+    background-color: #DDB9A3;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+.fire img{
+    width: 10%;
+    margin-left:45%
+}
+.fire p{
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%
+}
+.ambulance img{
+    margin-left:45%;
+    width: 10%;
+}
+.ambulance p{
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%
+}
+.backfooterimage{
+    margin-top: 0%;
+    background-image: url('assets/footer_img.jpg');
+    height:50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+  }
+footer{
+    background-color: #F9E7DC;
+}
