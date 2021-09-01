@@ -10,13 +10,17 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	outline: 0;
 	padding: 0;
 	margin: 0;
-	
+	border: 0;
 	}
 /* remember to define focus styles! */
 :focus {
 	outline: 0;
 	}
-
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
 ol, ul {
 	list-style: none;
 	}
@@ -52,6 +56,7 @@ body{
   font-size: 1.6rem;
   line-height: 1.5;
   font-family: 'Roboto Mono', monospace;
+  
 }
 
 h1{
@@ -61,6 +66,7 @@ font-size:5rem;
 
 a{
   font-family: 'Roboto Mono', monospace;
+  text-decoration: none;
 }
 
 span{
@@ -80,4 +86,46 @@ nav a{
   padding: 1% 0;
   width: 10%;
   border-radius: 10px;
+  text-align: center;
+  color: #fff;
+
+}
+.orange{
+  background-color: #ff764e;
+  margin-left: 10%;
+}
+  
+.blue{
+  background-color: #5ED3EB;
+  margin: 0 24% ;
+}
+
+.yellow{
+  background-color: #FFCD69;
+  margin-right: 10%;
+}
+
+.titles{
+  text-align: center;
+   position: relative;
+}
+
+.left, .right{
+  display: inline-block;
+
+}
+.left{
+  width: 30%;
+  margin-left: 5%;
+}
+.left img{
+  border-radius: 50%;
+}
+.right{
+  width:55%;
+  margin-left: 5%;
+}
+.right div{
+  position: absolute;
+  top: 40%;
 }
