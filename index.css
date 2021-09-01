@@ -47,8 +47,10 @@ blockquote, q {
 /* GENERAL STYLING */
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
     max-width: 100%;
-    border: solid  grey
+    text-decoration: none;
 }
 
 html{
@@ -57,17 +59,101 @@ html{
 
 body{
     font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+    font-family: 'Roboto Mono', monospace;
    
 }
 
-/* BUTTON STYLING */
-
-/* FOOTER STYLING */
-footer{
-    background-color: #F9E7DC;
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
 }
+
+h2 {
+    font-size: 120%;
+    padding: 5%;
+}
+
+a{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+
+span{
+    font-weight: bold;
+}
+
+section{
+    padding: 4% 0;
+}
+
+
+/* ================================================================================================ */
+
+/*HEADER SECTION STYLING*/
+nav{
+    padding: 2% 0;
+}
+
+nav a{
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+}
+
+/*TITLE SECTION STYLING*/
+.titles{
+    text-align:center;
+    position:relative;
+}
+.left, .right{
+    display:inline-block;
+}
+.left{
+    width:30%;
+    margin-left:5%;
+}
+.left img{
+    border-radius:50%;
+}
+.right{
+    width:55%;
+    margin-left: 5%;
+}
+.right div{
+    position:absolute;
+    top:40%;
+}
+
+
+/* BUTTON STYLING */
+.orange{
+    background-color: #FF764E;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.blue{
+    background-color: #5ED3EB;
+    margin: 0 24%;
+    text-align: center;
+}
+
+.yellow{
+   background-color: #FFCD69;
+   margin-right: 10%;
+   text-align: center;
+}
+
 
 /* MAIN BODY TEXT STYLING */
 .greatvalley{
     background-color: #DDB9A3;
+}
+
+
+/* FOOTER STYLING */
+footer{
+    background-color: #F9E7DC;
 }
