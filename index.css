@@ -36,7 +36,6 @@ blockquote, q {
     quotes: "" "";
     }
 * {
-    border: 1px solid gray;
     box-sizing: border-box;
     padding:0;
     margin:0;
@@ -77,7 +76,8 @@ nav a{
     width:10%;
     border-radius:10px;
     text-align:center;
-    color: #fff;
+    color:white;
+    text-decoration:none;
 }
 .orange{
     background-color:#ff764e;
@@ -87,6 +87,8 @@ nav a{
 .blue{
     background-color:#5ed3eb;
     margin:24%;
+    margin-top:0;
+    margin-bottom:0;
 }
 .yellow{
     background-color:#ffcd69;
@@ -111,17 +113,20 @@ nav a{
 .right{
     width: 60%;
     position:absolute;
-    top:45%;
+    margin-left:10%;
+    margin:0%;
 }
 .right div{
-    position:absolute;
-    top:40%;
+    margin-left:100%;
+    margin:5%;
 }
 /* Body */
 .intro{
     text-align:center;
     color: white;
     background-color: #ddb9a3;
+    padding:5px;
+    margin:5%;
 }
 .camper{
     text-align:center;
@@ -145,4 +150,13 @@ nav a{
     display:block;
     margin-left: auto;
     margin-right: auto;
+}
+.footerImg{
+    background-image:url('assets/footer_img.jpg');
+    margin-top:0;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top;
+    height:35vh;
 }
