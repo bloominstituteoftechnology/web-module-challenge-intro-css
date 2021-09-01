@@ -1,0 +1,142 @@
+/* CSS RESET */
+    html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+    del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+    dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+        vertical-align: baseline;
+        font-family: inherit;
+        font-weight: inherit;
+        font-style: inherit;
+        font-size: 100%;
+        outline: 0;
+        padding: 0;
+        margin: 0;
+        /* border: 0; */
+        }
+    /* remember to define focus styles! */
+    :focus {
+        outline: 0;
+        }
+    /* body {
+        background: white;
+        line-height: 1;
+        color: black;
+        } */
+    ol, ul {
+        list-style: none;
+        }
+    /* tables still need cellspacing="0" in the markup */
+    table {
+        border-collapse: separate;
+        border-spacing: 0;
+        }
+    caption, th, td {
+        font-weight: normal;
+        text-align: left;
+        }
+    /* remove possible quote marks (") from <q> & <blockquote> */
+    blockquote:before, blockquote:after, q:before, q:after {
+        content: "";
+        }
+    blockquote, q {
+        quotes: "" "";
+        }
+
+
+/* My Code Begins */
+* {
+    box-sizing: border-box; /* Negates impact of adding padding or bordering to my element */
+    padding: 0;
+    margin: 0;
+    max-width: 100%; /*Prevents any element from exceeding the max view port size */
+    border: 1px solid gray; /* REMOVE LATER */
+}
+
+
+/* GENERAL STYLING - COPY FOR LATER!!! */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6 rem; /* 1.6rem = 16px */
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace; /* Google Font */
+    /* background-color: #DDB9A3 */
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;  /* Google Font */
+    font-size: 5rem;
+}
+
+a {
+    font-family: 'Chelsea Market', cursive;  /* Google Font */
+    text-decoration: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+section {
+    padding: 4%;
+}
+
+
+/* NAVIGATION */
+nav {
+    padding: 2% 0%; 
+}
+
+nav a {
+    display: inline-block; /* WHY WHEN I REMOVE THIS, DO THE LINKS SCRAMBLE ???*/
+    padding: 1% 0%;
+    width: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    /*margin: 1% 0; /* This is another option instead of adding padding to nav?*/
+}
+
+.orange{
+    background-color:#FF764E;
+    margin-left: 10%;
+}
+
+.blue {
+    background-color: #5ED3EB;
+    margin: 0% 24%; /* Why 0% too? Bc easier than specifying margin-left and margin-right each as 24%*/
+}
+
+.yellow {
+    background-color: #FFCD69; 
+    margin-right: 10%
+}
+
+
+/* TITLES SECTION STYLES - FROM BRIT */
+.titles{
+    text-align:center;
+    position:relative;
+}
+.left, .right{
+    display:inline-block;
+}
+.left{
+    width:30%;
+    margin-left:5%;
+}
+.left img{
+    border-radius:50%;
+}
+.right{
+    width:55%;
+    margin-left: 5%;
+}
+.right div{
+    position:absolute;
+    top:40%;
+}
+
+/*to use inline-block for layout we need to change the width of the element (we need to tell it how big to be) and then we need to change the display to inline-block */
