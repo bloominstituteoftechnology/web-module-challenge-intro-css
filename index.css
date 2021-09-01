@@ -42,7 +42,6 @@ blockquote, q {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border:1px solid grey;
 }
 /* General styles*/
 html{
@@ -85,7 +84,7 @@ nav a {
 
 .orange{
     background-color:#FF764E ;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 .blue{
     background-color:#5ED3EB ;
@@ -94,7 +93,7 @@ nav a {
 
 .yellow{
     background-color: #FFCD69;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
 /*Titles Section Styles*/
@@ -118,5 +117,36 @@ nav a {
 }
 .right div{
     position:absolute;
-    top:40%;
+    top:50%;
+}
+
+
+/* history section*/
+
+.valley{
+    background-color: #DDB9A3;
+    color: white;
+    text-align: center;
+    padding:2% 0;
+    margin-left: 5% ;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    line-height: 25px;
+    border-radius: 10px;
+}
+
+
+/* Fire safety and entry fees */
+
+.fire img {
+    display: block;
+    max-width: 100%;
+    max-height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fire p {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%
 }
