@@ -45,7 +45,7 @@ blockquote, q {
         font-size:62.5%;
     }
     body{
-        font-size:1.6rem;
+        font-size:2rem;
         line-height:1.5;
         color:black;
         font-family: 'Roboto Mono', monospace;
@@ -110,7 +110,4 @@ blockquote, q {
     .right div{
         position:absolute;
         top: 40%;
-    }
-    .rightpara{
-        font-size: 5rem;
     }
