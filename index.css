@@ -1,4 +1,4 @@
-/*css reset*/
+/* CSS RESET  */
 html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
 del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
@@ -16,11 +16,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 :focus {
 	outline: 0;
 	}
-body {
-	background: white;
-	line-height: 1;
-	color: black;
-	}
+
 ol, ul {
 	list-style: none;
 	}
@@ -40,50 +36,73 @@ blockquote:before, blockquote:after, q:before, q:after {
 blockquote, q {
 	quotes: "" "";
 	}
-    *{
-        box-sizing:border-box;
-        padding: 0;
-        margin: 0;
-        max-width: 0;
-        border: 1px solid grey;
-    }
-    /* general styles*/
-    html{
-        font-size: 62.5%;
-    }
-    body{
-        font-size: 1.6rem;
-        line-height: 1.5;
-        color:#4f4f4f;
-        font-family: 'Roboto Mono', monospace;
-    }
-    a{
-        font-family: 'Roboto Mono', monospace;
-        text-decoration:none;
-    }
-    span{
-        font-weight:bold;
-    }
-    nav{
-        padding: 2% 0;
-    }
-    nav a{
-        display: inline-block;
-        padding: 1% 0;
-        width: 10%;
-        border-radius: 10px;
-        text-align: center;
-        color:#fff;
-    }
-    .orange{
-        background-color: #ff764e;
-        margin-left: 10%;
-    }
-    .blue{
-        background-color: #5ed3eb;
-        margin: 0 24%;
-    }
-    .yellow{
-        background-color: #FFCD69;
-        margin-right: 10%;
-    }
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+/* general styles */
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color:#4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+}
+a{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+span{
+    font-weight: bold;
+}
+section{
+    padding: 4% 0;
+}
+/* header section styles */
+nav{
+    padding: 2% 0;
+}
+nav a{
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+.orange{
+    background-color: #FF764E;
+    margin-left: 10%;
+}
+.blue {
+    background-color: #5ED3EB;
+    margin:0 24%;
+}
+.yellow{
+    background-color:#FFCD69;
+    margin-right: 10%;
+}
+/* titles section styles */
+
+.left, .right{
+    display:inline-block;
+}
+.left{
+    width: 30%;
+    margin-left: 5%;
+}
+.left img{
+    border-radius: 50%;
+}
+.right{
+    width: 55%;
+    margin-left: 5%;
+}
