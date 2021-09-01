@@ -184,11 +184,26 @@ nav a{
     margin: 0 40%;
 }
 
+/* FOOTER IMAGE STYLING */
 
+.mountains{
+    padding: 0;
+    margin: 0;
+}
+.mountains img{
+    width: 100%;
+    height: 40vh;
+    padding: 0px;
+    position: relative;
+    bottom: -3vh;
+    justify-content: center;
+}
 
 
 
 /* FOOTER STYLING */
 footer{
     background-color: #F9E7DC;
+    margin-top: 0;
+    padding: 0;
 }
