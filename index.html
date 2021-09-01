@@ -11,50 +11,60 @@
     
 </head>
 <body>
-    <header>
-      <nav>
-        <a class="orange" href="#">Plan your<br>Visit</a>
-        <a class="blue" href="#">Learn about<br>the Park</a>
-        <a class= "yellow" href="#">Get<br>Involved</a>
-      </nav>
-    </header>
+  <header>
+    <nav>
+      <a class="nav-plan" href="page-plan.html">Plan your<br>Visit</a>
+      <a class="nav-learn" href="page-learn.html">Learn about<br>the Park</a>
+      <a class= "nav-get" href="page-get.html">Get<br>Involved</a>
+    </nav>
+  </header>
 
-    <section class="titles">
-      <div class="left">
-        <img src="assets/header_img.jpg" alt="">
+  <section class="titles">
+    <div class="left">
+      <img src="assets/header_img.jpg" alt="">
+    </div>
+    <div class="right">
+      <div> <!-- Brit added an additional div here and absolute positioning in CSS -->
+        <h1>Yosemite Park Guide</h1>
+        <h2>Come explore California's beautiful wilderness.</h2>
+        <p>Always open. Reservations are not available or required to enter the park.</p>
       </div>
-      <div class="right">
-        <div> <!-- Brit added an additional div here and absolute positioning in CSS -->
-          <h1>Yosemite Park Guide</h1>
-          <h2>Come explore California's beautiful wilderness.</h2>
-          <p>Always open. Reservations are not available or required to enter the park.</p>
-        </div>
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="main-text">
+  <section class="main-text">
+    <div>
       <p>Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.</p>
       <p>First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.</p>
-    </section>
+    </div>
+  </section>
 
-    <section class="icons">
-      <div>
-          <img src="https://image.flaticon.com/icons/svg/2979/2979348.svg" alt="Camp fire icon">
-          <p>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for current fire restrictions.</p>
+  <section class="warnings">
+    <div>
+      <div class="icons">
+        <img src="https://image.flaticon.com/icons/svg/2979/2979348.svg" alt="Camp fire icon">
       </div>
-      <div>
+      <p>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for <span>current fire restrictions.</span></p>
+    </div>
+    <div>
+      <div class="icons">
         <img src="https://image.flaticon.com/icons/svg/820/820374.svg" alt="Camper icon">
-        <p>We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the park entrance fee upon arrival (there's no need to pay it in advance).</p>
       </div>
-    </section>
+      <p>We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the <span>park entrance fee</span> upon arrival (there's no need to pay it in advance).</p>
+    </div>
+  </section>
 
-    <section class="panoramic">
-      <img src="footer_img.png" alt="">
-    </section>
-  
-        Plan your Visit
-        Learn about the Park
-        Get Involved
+  <section class="panoramic">
+    <!-- Add background image in CSS -->
+  </section>
+
+  <footer>
+    <div class="foot-nav">
+      <a class="foot-plan" href="page-plan.html">Plan your<br>Visit</a>
+      <a class="foot-learn" href="page-learn.html">Learn about<br>the Park</a>
+      <a class="foot-get" href="page-get.html">Get<br>Involved</a>
+    </div>
+  </footer>     
       
 </body>
 </html>

@@ -43,13 +43,13 @@
         }
 
 
-/* My Code Begins */
+/* MY CODE */
 * {
     box-sizing: border-box; /* Negates impact of adding padding or bordering to my element */
     padding: 0;
     margin: 0;
     max-width: 100%; /*Prevents any element from exceeding the max view port size */
-    border: 1px solid gray; /* REMOVE LATER */
+    /*border: 1px solid gray; /* FOR STYLING PROCESS ONLY */
 }
 
 
@@ -62,7 +62,6 @@ body {
     font-size: 1.6 rem; /* 1.6rem = 16px */
     line-height: 1.5;
     font-family: 'Roboto Mono', monospace; /* Google Font */
-    /* background-color: #DDB9A3 */
 }
 
 h1 {
@@ -80,38 +79,49 @@ span {
 }
 
 section {
-    padding: 4%;
+    padding: 4% 0; 
 }
 
 
-/* NAVIGATION */
+/* HEADER & NAVIGATION */
 nav {
-    padding: 2% 0%; 
+    padding: 2% 0; 
 }
-
 nav a {
-    display: inline-block; /* WHY WHEN I REMOVE THIS, DO THE LINKS SCRAMBLE ???*/
+    display: inline-block; 
     padding: 1% 0%;
     width: 10%;
     border-radius: 10px;
     text-align: center;
     color: #fff;
-    /*margin: 1% 0; /* This is another option instead of adding padding to nav?*/
 }
-
-.orange{
+.nav-plan {
     background-color:#FF764E;
-    margin-left: 10%;
+    margin-left: 12%;
 }
-
-.blue {
+.nav-learn {
     background-color: #5ED3EB;
-    margin: 0% 24%; /* Why 0% too? Bc easier than specifying margin-left and margin-right each as 24%*/
+    margin: 0 20%; 
+}
+.nav-get {
+    background-color: #FFCD69; 
+    margin-right: 12%
 }
 
-.yellow {
-    background-color: #FFCD69; 
-    margin-right: 10%
+.nav-plan:hover {
+    background-color: white;
+    color:#FF764E;
+    border: 1px solid #FF764E;
+}
+.nav-learn:hover {
+    background-color: white;
+    color: #5ED3EB;
+    border: 1px solid #5ED3EB;
+}
+.nav-get:hover {
+    background-color: white;
+    color: #FFCD69; 
+    border: 1px solid #FFCD69;
 }
 
 
@@ -139,4 +149,80 @@ nav a {
     top:40%;
 }
 
-/*to use inline-block for layout we need to change the width of the element (we need to tell it how big to be) and then we need to change the display to inline-block */
+
+/* MAIN TEXT BODY */
+.main-text {
+    color: white;
+    text-align: center;
+
+}
+.main-text div {
+    width: 90%;
+    /* height: 90%; why does this do nothing? */
+    margin: 0 auto;
+    background-color: #DDB9A3;
+    padding: 1%;
+}
+
+/* WARNINGS */
+.warnings div {
+    width: 25%;
+    margin: 1% auto;
+    text-align: center;
+}
+.icons {
+    width: 50%;
+    margin: 1% auto;
+} 
+
+/* PANORAMIC & FOOTER */
+.panoramic {
+    background-image: url('assets/footer_img.jpg');
+    height: 28vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+.foot-nav {
+    padding: 2% 0; 
+}
+.foot-nav a {
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+.foot-plan {
+    background-color:#FF764E;
+    margin-left: 10%;
+}
+.foot-learn {
+    background-color: #5ED3EB;
+    margin: 0 24%;
+}
+.foot-get {
+    background-color: #FFCD69; 
+    margin-right: 10%;
+}
+.foot-plan:hover {
+    background-color: #F9E7DC;
+    color:#FF764E;
+    border: 1px solid #FF764E;
+}
+.foot-learn:hover {
+    background-color: #F9E7DC;
+    color: #5ED3EB;
+    border: 1px solid #5ED3EB;
+}
+.foot-get:hover {
+    background-color: #F9E7DC;
+    color: #FFCD69; 
+    border: 1px solid #FFCD69;
+}
