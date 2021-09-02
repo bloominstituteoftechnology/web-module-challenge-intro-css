@@ -13,7 +13,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -23,9 +22,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -40,4 +37,94 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 1px solid red;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+}
+
+a {
+    font-family: 'Roboto Mono', monospace; 
+    text-decoration: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+section {
+    padding: 4% 0;
+}
+
+nav {
+    padding: 2% 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.plan  {
+    background-color: #FF764E;
+    margin-left: 10%;
+}
+
+.about  {
+    background-color: #5ED3EB;
+    margin: 0 24%;
+}
+
+.get  {
+    background-color: #FFCD69;
+    margin-right: 10%;
+}
+
+.left, .right {
+    display: inline-block;
+}
+
+.left {
+    width: 30%;
+    margin-left: 2%;
+}
+.left img {
+    border-radius: 50%;
+}
+.right {
+    width: 55%;
+    margin: 5%;
+}
+
+.tittle {
+    text-align: center;
+    position: relative;
+}
+
+.right div {
+    position: absolute;
+    top:40%;
 }
