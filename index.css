@@ -153,9 +153,10 @@ p {
     .center p {
         display:block;
         text-align center;
+        margin-top: 15%;
         margin-right: 25%;
         margin-left: 25%;
-        padding-top: 20px;
+        padding-top: 0px;
         padding-left: 50px;
         padding-right:150px;
     }
@@ -173,7 +174,9 @@ p {
         .footerContent {
             float:left;
             width:100%;
-            background-color:#555;
-            padding:20px 0;
+            background-color: #F9E7DC;
+            padding:5px 0;
         }
-        .footer a {float:left; width:100%; text-align:center; }
+        footer a {
+            display:inline-block
+        }
