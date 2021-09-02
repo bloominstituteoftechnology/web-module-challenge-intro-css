@@ -68,6 +68,7 @@ body {
     line-height:1.5;
     color: #4f4f4f;
     font-family: 'Roboto Mono', monospace;
+    
 
 }
 
@@ -137,7 +138,7 @@ nav a {
     border-radius:10px;
     text-align: center;
     color: #ffff;
-    font-size: 1.5rem
+    font-size: 1.5rem;
 }
 .orange{
     background-color: #FF764E;
@@ -172,15 +173,10 @@ nav a {
 .left img{
     border-radius:50%;
     width: 65%
-    
-    
-    
-    
+}
 
     
-    
-}
-.right{
+.right {
     width:55%;
     margin-left: 5%;
     margin:auto;
@@ -200,7 +196,7 @@ nav a {
     margin-right: auto;
     width: 10%;
     position: relative;
-    bottom: 11.2rem
+    bottom: 11.2rem;
     
 }
 
@@ -218,7 +214,7 @@ nav a {
     margin-right: auto;
     width: 10%;
     position: relative;
-    bottom: 24rem
+    bottom: 24rem;
 
 }
 
@@ -227,7 +223,20 @@ nav a {
     font-size: 1.5rem;
     text-align: center;
     position: relative;
-    bottom: 8rem 
-    position: relative;
-    bottom: 31rem
+    bottom: 8rem; 
+    bottom: 31rem;
+}
+
+/*  footer  */
+
+.footer {
+    
+    background-image: url(assets/footer_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-height: 50vh;
+    
+    
+    
+  
 }
