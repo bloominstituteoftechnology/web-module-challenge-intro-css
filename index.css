@@ -156,7 +156,14 @@ footer {
 }
 
 .campfire {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+}
+
+.van {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
 }
 .van img {
    display: inline-block;
