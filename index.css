@@ -1,0 +1,23 @@
+/*Titles Section Styles*/
+.titles{
+    text-align:center;
+    position:relative;
+}
+.left, .right{
+    display:inline-block;
+}
+.left{
+    width:30%;
+    margin-left:5%;
+}
+.left img{
+    border-radius:50%;
+}
+.right{
+    width:55%;
+    margin-left: 5%;
+}
+.right div{
+    position:absolute;
+    top:40%;
+}

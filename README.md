@@ -10,7 +10,7 @@
 - describe and use responsive units (px, em, rem, %, and vw.vh) to create a fully responsive website
 
 ## Introduction
-
+changes made
 In this project you will be styling a single page with more advanced CSS. This page is a take on the government's [national parks website](https://www.nps.gov/yose/index.htm) and includes some basic information about Yosemite National Park in California.
 
 The styles in your [design file](/design/desktop.jpg) include bright colors and fun icons to get people excited about exploring the outdoors. With a little work, this could even be refactored into a 3rd-party national parks guide site or blog.
@@ -20,6 +20,7 @@ The styles in your [design file](/design/desktop.jpg) include bright colors and 
 ### Task 1: Set Up The Project With Git
 
 Follow these steps to set up and work on your project:
+trying to get this submission to work :)))))
 
 - [ ] Create a forked copy of this project.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
