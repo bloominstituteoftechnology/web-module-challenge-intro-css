@@ -140,7 +140,9 @@ nav a{
 
 p {  
     margin: 15px 0;
-  }
+}
+
+/* icon section styles */
 
 .icon div{
     width: 30%;
@@ -151,6 +153,8 @@ p {
     font-weight: bold;
 }
 
+/* background img section styles */
+
 .bkgd{
     background-image: url('assets/footer_img.jpg');
     height:40vh;
@@ -159,6 +163,8 @@ p {
     background-position: top center;
     width: 100%;
 }
+
+/* footer section styles */
 
 footer{
     background-color:#F9E7DC;
