@@ -99,7 +99,6 @@ nav a {
     text-align: center;
     position:relative;
 }
-
 .left, .right {
     display:inline-block;
 }
@@ -116,12 +115,37 @@ nav a {
 }
 .right div {
     position:absolute;
+    text-align: center;
     top: 40%;
 }
-.campfire img { 
+.right h2 {
+    margin-top: 2%;
+}
+.right p {
+    margin-top: 2%;
+    line-height: 1.6rem
+}
+.photo img { 
    width: 150px;
    display: block;
    margin-left: auto;
    margin-right: auto;
    padding: 2%;
+}
+
+/* main section styles */
+#main {
+    background-color: #DDB9A3;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#main p {
+    text-align: center;
+    color: white;
+}
+
+#involved p {
+    font-size: 10px;
+    text-align: center;
+    line-height: 1rem 
 }
