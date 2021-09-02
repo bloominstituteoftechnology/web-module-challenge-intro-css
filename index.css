@@ -51,8 +51,20 @@ body {
 h1 {
     font-family: 'Chelsea Market', cursive;
     font-size: 5rem;
-
 }
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    text-align: center;
+}
+
     
 section {
     padding: 4% 0;
@@ -171,3 +183,53 @@ span {
 footer {
     background-color: #F9E7DC;
 }
+
+
+/* Styling Plan your Visit */
+
+/* class=plan-card style */
+.plan-card {
+    margin: 0 auto;
+    width: 55rem; 
+    padding: 1rem;
+}
+
+/* class=ttk (things to know) style */
+.ttk {
+
+}
+.ttk ol li {
+    list-style-type: numeral;
+}
+
+.header-img {
+    margin-top: 0%;
+    background-image: url('assets/footer_img.jpg');
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+}
+
+.btn-plan {
+    margin-left: 11.5rem;
+    margin-right: 5rem;
+    margin-bottom: 3rem;
+    background-color: #4f86f7;
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.btn-plan:hover {
+    background-color: #1c1cf0;
+    color: #00ffff;
+}
+
+.enjoy {
+    font-size: 45px; 
+    margin: 0 auto;
+    text-align: center;
+}
+
