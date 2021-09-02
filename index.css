@@ -147,6 +147,18 @@ p {
         margin-left: auto;
         margin-right: auto;
         width 50%;
+        text-align: center;
+    }
+
+    .center p {
+        display:block;
+        text-align center;
+        margin-right: 25%;
+        margin-left: 25%;
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right:150px;
+    }
 
         #footerWrap {
             width:100%;
