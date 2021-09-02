@@ -42,7 +42,7 @@ table {
 * {
     box-sizing: border-box;
     max-width: 100%;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
 }
 
 
@@ -148,11 +148,11 @@ footer {
 
  .campfire img {
      margin: 0 30%;
-     transform: scale(0.5);
+     max-width: 10%;
  }
  .van img {
     margin-left: 0;
-    transform: scale(0.2);
+    max-width: 10%;
 }
 
 .campfire {
@@ -178,3 +178,4 @@ footer {
     text-align: center;
     margin: 0 40%;
 }
+
