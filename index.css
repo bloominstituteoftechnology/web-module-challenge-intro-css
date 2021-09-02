@@ -1,0 +1,71 @@
+* {
+  text-decoration: none;
+}
+nav {
+  width: 100%;
+  text-align: center;
+  margin: 50px 10px 50px;
+}
+button {
+  background-color: rgb(220, 245, 82);
+  padding: 20px;
+  border-radius: 20px;
+}
+.a2 {
+  background-color: rgb(105, 180, 70);
+  margin: 0px 150px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.a3 {
+  background-color: rgb(195, 73, 199);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+div img {
+  position: relative;
+  bottom: 34px;
+  width: 200px;
+  border-radius: 150px;
+  margin: 0 40px;
+  padding: 20px;
+}
+
+.paragraph {
+  width: 600px;
+  position: absolute;
+  left: 380px;
+  bottom: 275px;
+}
+h1 {
+  font-size: 225%;
+}
+
+.one {
+  display: inline;
+}
+.discription {
+  background-color: rgb(234, 149, 255);
+}
+.firetotal {
+  text-align: center;
+}
+
+.camping {
+  text-align: center;
+}
+
+.foot {
+  background-image: url("./assets/footer_img.jpg");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.back {
+  background-color: bisque;
+  height: 200px;
+  padding-top: 100px;
+}
