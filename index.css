@@ -42,7 +42,7 @@ table {
 * {
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 
@@ -55,6 +55,7 @@ body {
     line-height: 1.5;
     color: #4f4f4f;
     font-family: 'Roboto Mono', monospace;
+    padding: 0 15%;
 }
 
 h1 {
@@ -127,4 +128,46 @@ nav a {
 .right div {
     position: absolute;
     top:40%;
+}
+
+.section-2 {
+    background-color: #DDB9A3;
+    padding: 4% 4%;
+    color: white;
+}
+
+footer {
+    background-color: #F9E7DC;
+    background-size: cover;
+}
+ .img-container {
+    overflow: hidden;
+    display: inline-block; 
+    height: 350px;
+ }
+
+ .campfire img {
+     margin: 0 30%;
+     transform: scale(0.5);
+ }
+ .van img {
+    margin-left: 0;
+    transform: scale(0.2);
+}
+
+.campfire {
+    display: inline-block;
+}
+.van img {
+   display: inline-block;
+   height: auto;
+}
+
+.campfire p {
+    text-align: center;
+    margin: 0 40%;
+}
+.van p {
+    text-align: center;
+    margin: 0 40%;
 }
