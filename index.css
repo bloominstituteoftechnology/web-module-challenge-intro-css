@@ -143,3 +143,43 @@ nav a{
 .main-block p{
     color: white;
 }
+
+/* campfire styles */
+
+.campfire-block{
+    margin: 0 35%;
+    padding: 2% 5%;
+    text-align: center;
+}
+
+.campfire-block img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+    height: 100px;
+    width: 100px;
+}
+
+/* bus styles */
+.bus-block{
+    margin: 0 35%;
+    padding: 2% 5%;
+    text-align: center;
+}
+
+.bus-block img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+    height: 100px;
+    width: 100px;
+}
+
+/* footer */
+
+.footer-block{
+    width: 100%;
+    height: 300px;
+}
