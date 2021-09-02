@@ -139,3 +139,17 @@ h2{
     line-height: 4;
 }
 
+.bg-img{
+    background-image: url(assets/footer_img.jpg);
+    height:60vh;
+    
+}
+
+.pictures div{
+    width: 30%;
+margin:5% auto;
+}
+
+.bottom{
+    background-color:#F9E7DC;
+}
