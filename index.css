@@ -41,7 +41,6 @@ blockquote, q {
         padding: 0;
         margin: 0;
         max-width: 100%;
-        border:1px solid grey
     }
 
 /* General Styles */
@@ -128,5 +127,47 @@ nav a{
     position:absolute;
     top:40%;
 }
+
+/* blurb section styles */
+
+.blurb{
+    background-color: #DDB9A3;
+    color:white;
+    padding: 5px 1%;
+    margin: 0 5%;
+    text-align: center;
+}
+
+p {  
+    margin: 15px 0;
+  }
+
+.icon div{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bkgd{
+    background-image: url('assets/footer_img.jpg');
+    height:40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+}
+
+footer{
+    background-color:#F9E7DC;
+}
+
+
+
+
+
+
 
 
