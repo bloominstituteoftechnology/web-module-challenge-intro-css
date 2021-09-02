@@ -35,25 +35,40 @@ blockquote, q {
 	quotes: "" "";
 	}
     *{
-        box-sizing: boder-box;
+        box-sizing: border-box;
         padding:0;
         margin:0;
         max-width:100%;
-        border: 1px solid;
     }
     html{
         font-size:62.5%;
+        border: 1px solid;
     }
     body{
         font-size:2rem;
         line-height:1.5;
         color:black;
         font-family: 'Roboto Mono', monospace;
+        padding: 10%;
     }
     h1{
         font-family: 'Chelsea Market', cursive;
         font-size: 8rem;
         color:black;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    p{
+       font-size: 2.5rem;
+       margin-top: 20px;
+    }
+    .para{
+        text-align: center;
+        background-color: #DDB9A3;
+        color: white;
+        padding-top: .5%;
+        padding-bottom: 1%;
     }
     a{
         font-family: 'Roboto Mono', monospace; 
@@ -67,6 +82,7 @@ blockquote, q {
 
     nav{
         padding: 2% 0;
+        margin-top: .1%;
     }
     nav a{
         display:inline-block;
@@ -109,5 +125,41 @@ blockquote, q {
     }
     .right div{
         position:absolute;
-        top: 40%;
+        top: 25%;
+    }
+    .fire p{
+        margin: auto;
+        text-align: center;
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-top: 1%;
+    }
+    .fire img{
+        padding-left: 40%;
+        padding-right: 40%;
+    }
+    .camper{
+        margin-top: -50px;
+    }
+    .camper p{
+        margin: auto;
+        text-align: center;
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-top: 1%;
+    }
+    .camper img{
+        padding-left: 40%;
+        padding-right: 40%;
+    }
+    footer{
+        display: block;
+        background-color: #F9E7DC;
+        margin-top: auto;
+        width: 100%;
+    }
+    .mount img{
+        width: 500rem;
+        height: 300px;
+        object-fit: cover;
     }
