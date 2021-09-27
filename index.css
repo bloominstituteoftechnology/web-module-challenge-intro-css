@@ -1,0 +1,144 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+}
+
+*{
+    max-width: 100%;
+}
+
+nav{
+    padding: 2% 0;
+}
+
+nav a{
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.orange{
+    background-color: #ff764e;
+    margin-left: 10%;
+}
+
+.blue {
+    background-color: #5ED3EB;
+    margin: 0 24%;
+}
+.yellow {
+    background-color: #FFCD69;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+
+.intro img{
+    border-radius: 50%;
+    height: 60%;
+}
+
+.intro .intro-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+.intro .intro-info h1 {
+    font-size: 5.6rem;
+    padding-bottom: 20px;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.intro .intro-info h2 {
+    margin: 5%;
+}
+
+.intro .intro-info p {
+    margin: 1%;
+}
+
+.coral {
+    background-color: #ddb9a3;
+    color: white;
+    padding: 2%;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
+
+.body {
+    padding: 5%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.body .fire{
+    width: 30%;
+    margin: 5% auto;
+
+}
+
+.body .camper {
+    width: 30%;
+    margin: 5% auto;
+}
+
+.bottom-image img{
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+}
+
+strong {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
