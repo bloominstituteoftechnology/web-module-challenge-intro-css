@@ -17,13 +17,14 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 :focus {
 	outline: 0;
 	}
-    *{
-        box-sizing:border-box;
-        padding:0;
-        margin:0;
-        max-width:100%;
-        border:1px solid grey;
-    }
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /*border:1px solid grey;*/
+    font-family:
+}
 
     /*general styles*/
 
@@ -35,8 +36,9 @@ body{
     line-height:1.5;
     color:#4f4f4f;
 }
-H1{
+h1{
     font-family: 'Chelsea Market', cursive;
+    font-size:3.5rem;
 }
 section{
     padding:4% 0;
@@ -55,7 +57,6 @@ nav a{
     border-radius:10px;
     text-align:center;
     color:#fff;
-
 }
 .orange{
     background-color:#FF764E;
@@ -69,7 +70,9 @@ nav a{
     background-color:#FFCD69;
     margin-right:10%;
 }
+
 /*top section styles*/
+
 .top{
     position:relative;
 }
@@ -88,5 +91,29 @@ nav a{
     width:55%;
     margin-left:5%;
     position:absolute;
-    top:45%;
+    top:25%;
+}
+.text{
+    width:80%;
+    margin:0 auto;
+}
+/*middle section styles*/
+
+
+/*bottom section styles*/
+.bottom{
+    position:relative;
+    text-align:center;
+}
+
+.Image{
+    height:10%;
+    width:10%;
+    
+}
+
+/*footer section styles*/
+img{
+    width:100vw;
+    
 }
