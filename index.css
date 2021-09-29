@@ -21,7 +21,6 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
 }   
 
 
@@ -78,14 +77,41 @@ nav a{
     margin-right: 10%;
 }
 
+.top{
+    position: relative;
+}
+
 .left, .right{
     display: inline-block;
+    text-align: center;
 }
 
 .left{
     width:30%;
 }
 
+.left img{
+    border-radius: 50%;
+    width: 80%;
+}
+
 .right {
     width: 55%;
+    margin-left: 5%;
+    position: absolute;
+    top: 45%;
+    margin-bottom: 20%;
+}
+
+.class h1{
+    padding-bottom: 2%;
+}
+
+.class h2{
+    padding-bottom: 2%;
+}
+
+.class p{
+    padding: 0 20% 0 20%;
+    padding-bottom: 2%;
 }
