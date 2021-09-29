@@ -21,7 +21,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /*border:1px solid grey;*/
 }
 
 /* general styles*/
@@ -36,7 +36,7 @@ body{
 }
 h1{
 	font-family: 'Chelsea Market', cursive;
-	font-size: 5rem;
+	font-size: 6rem;
 }
 section{
 	padding:4% 0;
@@ -86,6 +86,34 @@ nav a{
 .right{
 	width:55%;
 	margin-left:5%;
+	text-align:center;
+	line-height: 3;
 	position:absolute;
-	top:45%;
+	top:60px;
+}
+/*main*/
+.main{
+	background-color: #DDB9A3;
+	color:white;
+	padding:4%;
+	line-height: 2;
+	margin:0 3%;
+}
+.info{
+	width:30%;
+	margin:5% auto;
+}
+.bold{
+	font-weight: bold;
+}
+.bg-img{
+	background-image: url('assets/footer_img.jpg');
+	height:50vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	width:100%;
+}
+footer{
+	background-color: #F9E7DC;
 }
