@@ -22,7 +22,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+
 }
 /* General styles */
 html{
@@ -58,17 +58,27 @@ nav a{
     text-align: center;
     color: white;
 }
+
 .orange{
     background-color:#FF764E;
     margin-left: 10%;
+}
+.orange:hover{
+    background-color:#fb5a29;
 }
 .blue{
     background-color: #5ED3EB;
     margin:0 24%;
 }
+.blue:hover{
+    background-color:#25b1ce;
+}
 .yellow{
     background-color: #FFCD69;
     margin-right: 10%;
+}
+.yellow:hover{
+    background-color:#dfa430;
 }
 /* top section styles */
 .top{
@@ -80,14 +90,55 @@ nav a{
 }
 .left {
     width: 30%;
+    margin-left: 10%;
+    
 }
 .right{
     width:55%;
     margin-left:5%;
     position: absolute;
-    top: 45%;
+    top: 30%;
 }
 .left img{
     border-radius: 50%;
     width: 80%;
+}
+.text{
+    width: 80%;
+    margin: 0 auto;
+}
+.text p {
+    margin: 0 25%;
+}
+/* section-1 */
+.section-1 div{
+    background-color: #DDB9A3;
+    color: white;
+    padding: 1% 2%;
+    margin: 0 8%;
+    text-align: center;
+}
+
+/* section-2  */
+.section-2{
+    padding:2% 40%;
+    text-align: center;
+}
+.icon img {
+    padding: 5% 25%;
+}
+.special {
+    font-weight: bold;
+}
+
+/* footer */
+footer {
+    background-color: #F9E7DC;
+
+}
+footer img{  
+  object-fit: cover;
+  object-position: 100% 20%;
+  height: 40vh;
+  width: 100%;
 }
