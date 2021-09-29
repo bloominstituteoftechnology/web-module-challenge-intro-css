@@ -1,0 +1,46 @@
+
+/*general styles*/
+html {
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    color: #4f4f4f;
+    font-family: 'Roboto Mono',monospace;
+    }
+    h1{
+        font-family: 'Chelsea Market',cursive;
+        font-size: 5rem;
+    }
+    section{
+        padding:4% 0;
+    }
+    a{
+        text-decoration:none;
+        font-family: 'Roboto Mono',monospace;
+    }
+    /*Header styles*/
+    nav{
+        padding: 2% 0;
+    }
+    nav a{
+        display: inline-block;
+        width:10%;
+        padding:1% 0;
+        border-radius: 10px;
+        text-align:center;
+        color:snow;
+    }
+    .orange{
+        background-color: darkorange;
+        margin-left:10%;
+    }
+    .blue{
+        background-color: deepskyblue;
+        margin:0 24%;
+    }
+.yellow{
+    background-color: yellow;
+    margin-right:10%;
+}
