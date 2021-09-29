@@ -33,14 +33,36 @@ body{
         color:snow;
     }
     .orange{
-        background-color: darkorange;
+        background-color:#FF764E;
         margin-left:10%;
     }
     .blue{
-        background-color: deepskyblue;
+        background-color:#5ED3EB;
         margin:0 24%;
     }
 .yellow{
-    background-color: yellow;
+    background-color:#FFCD69;
     margin-right:10%;
+}
+/*top section styles*/
+.top{
+    position:relative;
+}
+.left, .right{
+    display: inline-block;
+    text-align:center;
+}
+.left{
+    width:30%;
+}
+.left img{
+border-radius:50%;
+width:80%;
+}
+.right{
+    width:55%;
+    margin-left:5%;
+    position:absolute;
+    top:20%;
+
 }
