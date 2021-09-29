@@ -21,6 +21,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin:0;
     max-width:100%;
+    border: 1px solid gray;
 }   
 
 
@@ -46,7 +47,7 @@ a{
 
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size: 5rem;
+    font-size: 6rem;
 }
 
 nav{
@@ -97,21 +98,27 @@ nav a{
 
 .right {
     width: 55%;
-    margin-left: 5%;
     position: absolute;
-    top: 45%;
+    top: 25%;
     margin-bottom: 20%;
 }
 
-.class h1{
-    padding-bottom: 2%;
+h1{
+    padding: 2%;
 }
 
-.class h2{
-    padding-bottom: 2%;
+h2{
+    padding: 2%;
 }
 
-.class p{
-    padding: 0 20% 0 20%;
-    padding-bottom: 2%;
+.class p {
+    padding: 2%;
 }
+
+.middle p {
+    background-color: burlywood;
+    color: white;
+    margin: 0 5% 0 5%;
+    padding: 5% 5% 0 5%;
+}
+
