@@ -44,7 +44,9 @@ a{
 /* header section styles */
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 5rem;
+    font-size: 8rem;
+    text-align: center;
+
 }
 nav {
     padding: 2% 0;
@@ -52,11 +54,90 @@ nav {
 nav a{
     display: inline-block;
     width: 10%;
-    padding: 1% 0;
+    padding: 0% 0;
+}
+.nav-top{
+    padding: 20rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+.orange{
+    background-color: #FF764E;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 75px;
+    text-align: center;
+}
+.blue{
+    background-color: #5ED3EB;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 75px;
+    text-align: center;
+}
+.yellow{
+    background-color: #FFCD69;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 75px;
+    text-align: center;
 }
 .left, .right{
     display:inline-block;
 }
 .left {
-    width: 30%;
+    width: 40%;
+    text-align: center;
+}
+.right{
+    width: 50%;
+}
+img.mountain {
+    border-radius: 75%;
+}
+h2{
+    text-align: center;
+}
+div.right p{
+    text-align: center;
+}
+.opening-paragraph{
+    background-color: #DDB9A3;
+    font-size: 6 rem;
+    font-color: white;
+    text-align: center;
+}
+div.camp-fire p{
+    text-align: center;
+
+}
+
+div.tour p{
+    text-align: center;
+}
+img.fire{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+img.bus{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+img.foot{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+}.nav-bottom{
+    padding: 20rem;
+    box-sizing: border-box;
+    text-align: center;
 }
