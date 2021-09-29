@@ -62,11 +62,17 @@ nav a {
 .red-rock {
     height: 300px;
     border-radius: 100%;
+    
 
 }
 section .left {
-    width: 50%;
+    width: 48%;
+    display:inline-block
     
+}
+section .right {
+    display: inline;
+    width: 49%
 }
 .main-text {
     font-family: ;
