@@ -19,6 +19,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -44,6 +45,14 @@ table {
 }
 
 /*General Styles*/
+* {
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    border: 2px solid grey;
+    }
+
 html {
     font-size: 62.5%;
 }
@@ -55,6 +64,7 @@ body {
 }
 h1 {
     font-family: 'Chelsea Market', cursive;
+    font-size: 5.4rem;
 }
 section {
     padding: 4% 0;
@@ -69,7 +79,7 @@ nav {
 }
 nav a {
     display: inline-block;
-    width: 10%;
+    width: 15%;
     padding: 1% 0;
     border-radius: 10px;
     text-align: center;
@@ -82,7 +92,7 @@ nav a {
 }
 .blue {
     background-color: #5ED3EB;
-    margin: 0 24%;
+    margin: 0 15%;
 }
 .yellow {
     background-color: #FFCD69;
@@ -97,18 +107,55 @@ nav a {
 .left, .right {
     display: inline-block;
     text-align: center;
+    margin-left: 2%;
 }
 .left {
     width: 30%;
 }
 .left img {
-    border-radius: 50%
-    width: 800%
+    border-radius: 50%;
+    width: 80%;
 }
 
 .right {
     width: 55%;
     margin-left: 5%;
     position: absolute;
-    top: 45%;
+    top: 30%;
+}
+
+/*Block Text Styles*/
+.textblock {
+    margin: 0 5%;
+    padding: 2%;
+    background-color: #DDB9A3;
+    color: white;
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+/*Camping Info Styles*/
+.camping {
+    text-align: center;
+    width: 33%;
+    margin: 0 33% 0 33%;
+}
+.camping img {
+    width: 33%;
+}
+.bold {
+    font-weight: bold;
+}
+
+/*Background Image Styles*/
+.bottomimage {
+    background-image: url("assets/footer_img.jpg");
+    height: 350px;
+    background-repeat: no-repeat;
+    margin: 0 2%;
+}
+
+/*Footer Styles*/
+footer {
+    background-color: #F9E7DC;
 }
