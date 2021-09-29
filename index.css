@@ -22,31 +22,15 @@ body {
 	line-height: 1;
 	color: black;
 	}
-ol, ul {
-	list-style: none;
-	}
+
 /* tables still need cellspacing="0" in the markup */
-table {
-	border-collapse: separate;
-	border-spacing: 0;
-	}
-caption, th, td {
-	font-weight: normal;
-	text-align: left;
-	}
-/* remove possible quote marks (") from <q> & <blockquote> */
-blockquote:before, blockquote:after, q:before, q:after {
-	content: "";
-	}
-blockquote, q {
-	quotes: "" "";
-	}
+
     *{
         box-sizing: border-box;
         padding: 0;
         margin: 0;
         max-width: 100%;
-        border:1px solid gray;
+        
     }
     html{
         font-size: 62.5%;
@@ -60,6 +44,7 @@ blockquote, q {
         line-height: 1.5;
         color:#4f4f4f;
         font-family: 'Roboto Mono', monospace;
+    
     }
     section{
         padding: 4% 0;
@@ -113,4 +98,45 @@ margin-right: 10%;
         margin-left: 5%;
         position:absolute;
         top:45%;
+    }
+    .middle{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        letter-height: 4;
+        color: white;
+        text-align: center;
+
+background-color: #DDB9A3;
+    }
+
+    .bott{
+        background-color: peachpuff;
+    }
+    
+  .fire{
+    margin: auto;
+    display: block;
+    width:20%;
+    text-align: center;
+  }
+    .van{
+        width:20%;
+        margin: auto;
+        margin-bottom: 5%;
+  display: block;
+  text-align: center;
+    }
+    
+    .footer{
+        width: 100vw;
+       
+    }
+
+    .bold{
+        font-weight: 700;
+    }
+    .mo{
+        width:100%;
     }
