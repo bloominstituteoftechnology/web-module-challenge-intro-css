@@ -17,11 +17,6 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 :focus {
 	outline: 0;
 	}
-body {
-	background: white;
-	line-height: 1;
-	color: black;
-	}
 ol, ul {
 	list-style: none;
 	}
@@ -41,27 +36,26 @@ blockquote:before, blockquote:after, q:before, q:after {
 blockquote, q {
 	quotes: "" "";
 	}
-*   {
-    box-sizing:border-box;
-    padding:0;
-    margin:0;
-    max-width:100%;
-    border:5px solid grey;
-    }
+
 /*general styles*/
     html{
     font-size:62.5%;
 }
+    *{ 
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    }
 body{
     font-size:1.6rem;
     line-height:1.5;
     color:#4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+    border-color:grey 5px;
 }
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
 
-    /* if i want to add a button*/
+    /* if i want to add a button
     .button{
         display:inline-block;
         padding:4% 2%;
@@ -74,46 +68,44 @@ body{
         border:2px solid black;
         transition: 2s;
     }
+   
     .buttonhover:{
         background-color: white;
         color:black;
     }
-    section{
-        padding:4% 0;
-    }
-    a{
+     */
+ 
+   a{
         text-decoration:none;
-    }
-    h1{
-        font-family: 'Chelsea Market', cursive;
-    }
-    a{
         font-family: 'Roboto Mono', monospace;
     }
     nav{
-        padding:2% 0;
+        padding:4% 0;
     }
     nav a{
         display:inline-block;
-        width:10%
-        padding:1% 0;
+
+        padding:1% 0%;
         border-radius:10px;
         text-align:center;
         color:white;
+        font-size:1.4rem;
+        width:10%
     }
     .orange{
         background-color:#FF764E ;
         margin-left: 10%;
-
+        width:10%;
     }
     .blue{
         background-color:#5ED3EB ;
-        margin:0 24%
-
+        margin:0 24%;
+        width:10%;
     }
     .yellow{
         background-color:#FFCD69;
         margin-right: 10%;
+        width:10%;
     }
 
     .top{
@@ -125,14 +117,63 @@ body{
     }
     .left {
         width: 30%;
+        display: inline-block;
     }
     .left img{
-        border-radius: 10px;
+        border-radius: 120px;
         width:80%;
+        padding:2%;
+        display: inline-block;
     }
     .right {
         width:55%;
-        margin-left:5%;
+        margin-left:15%;
         position:absolute;
-        top:45%;
+        top:3%;
+    }
+    h1{
+        font-family: 'Chelsea Market', cursive;
+        font-size: 5rem;
+    }
+    .main {
+        background-color:#DDB9A3;
+        text-align: center;
+        color: white;
+        padding: 2%;
+
+    }
+    .firebus{
+        padding:4%;
+    }
+    .fire{
+        margin-left:41%;
+        width:15%;
+        text-align: center;
+    }
+    .firetext{
+        margin:auto;
+        text-align: center;
+        width:30%;
+    }
+    .bus{
+        margin-left:41%;
+        width:15%;
+        text-align: center;
+    }
+    .bustext{
+        margin:auto;
+        text-align: center;
+        width:30%;
+    }
+    .foot{
+        margin-bottom: 0%;
+        width:100%;
+        margin-top: 0%;
+        display:inline-block;
+    }
+
+    footer{
+        background-color: #F9E7DC;
+
+
     }
