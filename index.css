@@ -19,6 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+* {border: 1px solid red !important;}
 html {
     font-size: 62.5%;
 }
@@ -27,29 +28,47 @@ body {
     line-height: 1.5;
     color: 4f4f4f;
 }
-h1 {
-    
+header {
+    display: block;
+    margin: 5%;
 }
-section {
-
+nav {
+    ;
 }
 a {
-
-}
-
-nav {
-
+    padding: 1%;
+    margin: 5%;
+    border-radius: 20px;
 }
 nav a {
     display: inline-block;
-    width: 10%;
+    width: 20%;
+    text-align: center;
+    
 }
 .orange {
-
+    background-color: #FF764E;
 }
 .blue {
-
+    background-color: #5ED3EB;
 }
 .yellow {
+    background-color: #FFCD69;
+}
+.top {
     
+
+}
+.red-rock {
+    height: 300px;
+    border-radius: 100%;
+
+}
+section .left {
+    width: 50%;
+    
+}
+.main-text {
+    font-family: ;
+    background-color: ;
 }
