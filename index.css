@@ -13,48 +13,69 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
-
-* {border: 1px solid red !important;}
+/*:focus {
+    outline: 0;
+}*/
+*{border: 1px solid red !important;}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%
+    
+}
+/*General Default Styles*/
 html {
     font-size: 62.5%;
 }
 body {
     font-size: 1.6rem;
     line-height: 1.5;
-    color: 4f4f4f;
+    color: #4f4f4f;
+    font-family: 'Roboto Mono', monospace;
 }
-header {
-    display: block;
-    margin: 5%;
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
 }
-nav {
-    ;
+section {
+    padding: 4% 0;
 }
 a {
-    padding: 1%;
-    margin: 5%;
-    border-radius: 20px;
+    text-decoration:none;
+    font-family: 'Roboto Mono', monospace;
+}
+/*End General Default Styles*/
+/*Header Section Style*/
+nav {
+    padding: 3%;
 }
 nav a {
     display: inline-block;
-    width: 20%;
-    text-align: center;
-    
+    width: 10%;
+    text-align: center; 
+    padding: 1% 0;
+    border-radius: 10px;
+    color: #fff;
 }
 .orange {
     background-color: #FF764E;
+    margin-left: 10%;
 }
 .blue {
     background-color: #5ED3EB;
+    margin: 0 24%;
 }
 .yellow {
     background-color: #FFCD69;
+    margin-right: 10%;
 }
+/*Section 1 Styling*/
 .top {
     
 
@@ -66,13 +87,21 @@ nav a {
 
 }
 section .left {
-    width: 48%;
+    width: 41%;
     display:inline-block
     
 }
 section .right {
-    display: inline;
-    width: 49%
+    display: inline-block;
+    width: 58%
+}
+section .right h1 {
+    text-align: center;
+    border: 5%
+}
+section .right p {
+    text-align: center;
+    border: 5%;6
 }
 .main-text {
     font-family: ;
