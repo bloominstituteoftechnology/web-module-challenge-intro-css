@@ -1,0 +1,77 @@
+/*css reset*/
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+
+    
+
+html{
+    font-size:62.5;
+  }   
+  body{
+    font-size:1.6rem;
+    line-height:1.5;
+    color:#4f4f4f;
+    font-family:'Roboto Mono', monospace;
+  }
+  section{
+    padding:4% 0;
+  }
+  h1{
+      font-family:'Chelsea Market', cursive;
+      font-size:5rem;
+  }
+  a{
+      text-decoration:none;
+      font-family:'Roboto Mono', monospace;
+  }
+nav{
+    padding:2% 0;
+}
+nav a{
+    display:inline-block;
+    width:10%;
+    padding:1% 0;
+    border-radius:10px;
+    text-align:center;
+    color:#fff;
+}
+.orange{
+    background-color:#FF764E;
+    margin-left:10%
+
+}
+.blue{
+    background-color:#5ED3EB;
+    margin:0 24%
+
+}
+.yellow{
+    background-color:#FFCD69;
+    margin-right:10%
+
+}
