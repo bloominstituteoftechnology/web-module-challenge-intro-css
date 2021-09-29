@@ -23,7 +23,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     margin:0;
     max-width:100%;
     /*border:1px solid grey;*/
-    font-family:
+    font-family: 'Roboto Mono', Arial, sans-serif;
 }
 
     /*general styles*/
@@ -38,7 +38,7 @@ body{
 }
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size:3.5rem;
+    font-size:4rem;
 }
 section{
     padding:4% 0;
@@ -94,11 +94,17 @@ nav a{
     top:25%;
 }
 .text{
-    width:80%;
+    width:90%;
     margin:0 auto;
 }
 /*middle section styles*/
-
+.middle{
+    background-color: #DDB9A3;
+    margin:1% 5%;
+    padding: 1% 5%;
+    color:white;
+    text-align: center;
+}
 
 /*bottom section styles*/
 .bottom{
@@ -115,5 +121,9 @@ nav a{
 /*footer section styles*/
 img{
     width:100vw;
-    
+}
+.banner{
+    /* max-height: 200px;*/
+    clip-path: inset(5% 0% 50%);
+
 }
