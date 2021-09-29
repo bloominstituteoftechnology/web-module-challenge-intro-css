@@ -40,6 +40,7 @@ h1{
     font-family: 'Chelsea Market', cursive;
     font-size:4rem;
 }
+
 section{
     padding:4% 0;
 }
@@ -49,26 +50,30 @@ a{
 }
 /*Header Section Styles*/
 nav{
-    padding:2% 0;
+    padding:4% 0;
 }
 nav a{
     display:inline-block;
     width:10%;
+    padding:1.25% 0;
     border-radius:10px;
     text-align:center;
     color:#fff;
+    /*position:-webkit-sticky;
+    position:sticky;
+    top:20px;*/
 }
 .orange{
     background-color:#FF764E;
-    margin-left:10%;
+    margin-left:20%;
 }
 .blue{
     background-color:#5ED3EB;
-    margin: 0 24%;
+    margin: 0 15%;
 }
 .yellow{
     background-color:#FFCD69;
-    margin-right:10%;
+    margin-right:3%;
 }
 
 /*top section styles*/
@@ -82,6 +87,7 @@ nav a{
 }
 .left{
     width:30%;
+    margin-left: 6%;
 }
 .left img{
     border-radius:50%;
@@ -96,14 +102,22 @@ nav a{
 .text{
     width:90%;
     margin:0 auto;
+    
+}
+.right .text h2{
+    margin: 3% 0;
+}
+.right .text p{
+    padding: 0 8%;
 }
 /*middle section styles*/
 .middle{
     background-color: #DDB9A3;
     margin:1% 5%;
-    padding: 1% 5%;
+    padding: 1% 1vw;
     color:white;
     text-align: center;
+    font-size: 1.9rem;
 }
 
 /*bottom section styles*/
@@ -115,15 +129,27 @@ nav a{
 .Image{
     height:10%;
     width:10%;
+    margin-top:1%;
     
 }
-
+.bottom span.bold{
+    font-weight: bold;
+}
 /*footer section styles*/
 img{
     width:100vw;
+    
 }
 .banner{
-    /* max-height: 200px;*/
-    clip-path: inset(5% 0% 50%);
-
+    /*clip-path: inset(5% 0% 50%);*/
+    overflow:hidden;
+    height: 33vh;
+}
+/*footer section style*/
+footer{
+    border-bottom: 0;
+}
+footer nav{
+    background-color: #F9E7DC;
+    
 }
