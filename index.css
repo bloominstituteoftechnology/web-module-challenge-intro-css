@@ -21,7 +21,6 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin:0;
     max-width:100%;
-    border: 1px solid gray;
 }   
 
 
@@ -65,12 +64,12 @@ nav a{
 
 .orange{
     background-color: #FF764E;
-    margin-left:10%;
+    margin-left:20%;
 }
 
 .blue{
     background-color: #5ED3EB;
-    margin:0 24%;
+    margin:0 12%;
 }
 
 .yellow{
@@ -119,6 +118,63 @@ h2{
     background-color: burlywood;
     color: white;
     margin: 0 5% 0 5%;
-    padding: 5% 5% 0 5%;
+    padding: 0% 5% 0 5%;
 }
 
+p.midline1 {
+    padding-top: 5%;
+}
+
+p.midline2 {
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+.fire {
+    max-width: 15%;
+    max-height: 15%;
+    margin-left: 42%;
+}
+.fire, .campfire{
+    display: block;
+}
+
+.campfire {
+    font-size: 85%;
+    text-align: center;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+.car, .truck{
+    display: block;
+}
+
+.car {
+    max-width: 15%;
+    max-height: 15%;
+    margin-left: 42%;
+}
+.truck {
+    font-size: 85%;
+    text-align: center;
+    padding-left: 35%;
+    padding-right: 35%;
+    margin-bottom: 2%;
+}
+
+.foot{
+    background-image: url('assets/footer_img.jpg');
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.foottext{
+    background-color: tan;
+}
+
+.bold{
+    font-weight: bold;
+}
