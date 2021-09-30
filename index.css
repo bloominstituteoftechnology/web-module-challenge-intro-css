@@ -1,3 +1,29 @@
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address,  big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary {
+	
+    outline:0;
+    margin: 0;
+	padding: 0;
+	border: 0;
+    font-family:inherit;
+	font-size: 100%;
+	font-style: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles */
+
+
 
 /*general styles*/
 html {
@@ -41,9 +67,11 @@ body{
         margin:0 24%;
     }
 .yellow{
+   
     background-color:#FFCD69;
     margin-right:10%;
 }
+ 
 /*top section styles*/
 .top{
     position:relative;
@@ -57,8 +85,22 @@ body{
 }
 .left img{
 border-radius:50%;
+scroll-margin-inline-end: 10;
 width:80%;
 }
+.fire{
+    border-radius: 5px;
+    max-width:100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+.rv{
+    border-radius: 5px;
+    max-width:100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
 .right{
     width:55%;
     margin-left:5%;
@@ -66,6 +108,22 @@ width:80%;
     top:20%;
 
 }
+.middle, #text-container {
+    font-family: sans-serif;
+    width: 90%;
+    margin-left: 5%;
+    box-align: auto;
+    text-align: center;
+    text:white;
+    padding-top: 10rem;
+    background-color:#DDB9A3;
+  }
+#image-container {
+    background: url("C:\Users\Sween\Desktop\Lambda-Projects\web-module-project-intro-css\assets\footer_img.jpg");
+    padding: 200px;
+    background-position:inherit;
+    color: #F9E7DC;
+  }
 .images img{
     width:30%;
 }
