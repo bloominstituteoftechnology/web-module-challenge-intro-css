@@ -154,24 +154,33 @@ footer nav{
 
 /*animation and hover section style*/
 #fire{
-    animation: 3s linear 1s infinite alternate slidein;
+    animation: 3s linear 1s infinite alternate fire;
+}
+#truck{
+    animation: 3s linear 1s infinite alternate driveOff;
 }
 .left:hover{
     animation-name: rote;
     animation-duration:1.5s;
+    animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 .banner{
     animation: 3s linear 0s infinite running banners;
+
 }
 
-@keyFrames slidein{
+@keyFrames fire{
     from{
-        height:inherit;
+        height:30vw;
+        width:30vw;
+        border-radius: 0%;
+        clip-path: circle(80% at 0 160%);
     }
     to{
+        clip-path: circle(20%);        
         height:30vw;
-        width:30vw
+        width:30vw;
     }
 }
 @keyFrames rote{
@@ -184,9 +193,18 @@ footer nav{
 }
 @keyFrames banners{
     from{
-       
+       transform: translate(-100%, 0);
     }
     to{
-       
+       transform: translate(100% , 0);
+    }
+}
+
+@keyFrames driveOff{
+    from{
+       transform: translate(-100%, 0);
+    }
+    to{
+       transform: translate(100% , 0);
     }
 }
