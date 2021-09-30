@@ -93,6 +93,7 @@ nav a{
     border-radius:50%;
     width:80%;
 }
+
 .right{
     width:55%;
     margin-left:5%;
@@ -102,7 +103,6 @@ nav a{
 .text{
     width:90%;
     margin:0 auto;
-    
 }
 .right .text h2{
     margin: 3% 0;
@@ -138,7 +138,6 @@ nav a{
 /*footer section styles*/
 img{
     width:100vw;
-    
 }
 .banner{
     /*clip-path: inset(5% 0% 50%);*/
@@ -151,5 +150,43 @@ footer{
 }
 footer nav{
     background-color: #F9E7DC;
-    
+}
+
+/*animation and hover section style*/
+#fire{
+    animation: 3s linear 1s infinite alternate slidein;
+}
+.left:hover{
+    animation-name: rote;
+    animation-duration:1.5s;
+    animation-timing-function: linear;
+}
+.banner{
+    animation: 3s linear 0s infinite running banners;
+}
+
+@keyFrames slidein{
+    from{
+        height:inherit;
+    }
+    to{
+        height:30vw;
+        width:30vw
+    }
+}
+@keyFrames rote{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyFrames banners{
+    from{
+       
+    }
+    to{
+       
+    }
 }
