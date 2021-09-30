@@ -49,35 +49,37 @@ section {
 a {
     text-decoration:none;
     font-family: 'Roboto Mono', monospace;
+    font-size:80%
 }
 /*End General Default Styles*/
 /*Header Section Style*/
 nav {
-    padding: 2%;
+    padding: 3%;
 }
 nav a {
     display: inline-block;
     width: 10%;
     text-align: center; 
-    padding: .75% 2%;
-    border-radius: 10px;
+    padding: 1% 2%;
+    border-radius: 25px;
     color: #fff;
 }
 .orange {
     background-color: #FF764E;
-    margin-left: 8%;
+    margin-left: 15%;
 }
 .blue {
     background-color: #5ED3EB;
-    margin: 0 20%;
+    margin: 0 15%;
 }
 .yellow {
     background-color: #FFCD69;
-    margin-right: 8%;
+    margin-right:15%;
 }
 /*Section 1 Styling*/
 .top {
     position: relative;
+    margin: ;
 }
 .red-rock {
     width: 80%;
@@ -91,18 +93,18 @@ nav a {
 .left {
     width: 25%;
     text-align: center;
-    margin-left: 7%;
+    margin-left: 5%;
 }
 .right {
-    width: 55%
+    width: 73%
     text-align: center;
-    position: absolute;
-    top: 40%;
-    margin:0 20% 10%;
+    position: fixed;
+    top: %;
+    margin:% %;
 }
 .right h1 {
     text-align: center;
-    border: 5%;
+    border: %;
      
 }
 .right p {
@@ -112,27 +114,45 @@ nav a {
 }
 /*Section 2*/
 .insight {
-    margin: 0 5%;
+    margin: 10 5%;
     background-color:#DDB9A3 ;
-    ;
+    
 }
 .main-text {
     color: #fff;
-
+    font-size: 4rem;
+}
+.main-text p {
+    text-align: center;
+    margin: 0% 2% 1.5%;
+    word-spacing:3%;
 }
 /*Section 3*/
 .fire-safety img {
-    ;
+    width: 40rem;
+    margin: .5% 45% 0 43.8%;
+    padding: 1%
 }
 .fire-safety p {
+   text-align: center;
+   margin: 0 43%;
+}
+.book-soon {
     
 }
+.book-soon img {
+    width: 40rem;
+    margin: .5% 45% 0 43.8%;
+    padding: 1%;
+}
 .book-soon p {
-   ; 
+   text-align: center;
+   margin: 0% 43%;  
 }
 /*Section 4*/
 .background-img{
+    ;
 }
 footer {
-    background-color: #F9E7DC;
+    background-color: #f5d0b9;
 }
