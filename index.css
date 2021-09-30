@@ -113,3 +113,13 @@ nav a {
     width: 25%;
     margin-left: 37%;
 }
+.middleTwo p{
+    font-size:1.5rem;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+footer{
+    background-color: #F9E7DC;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
