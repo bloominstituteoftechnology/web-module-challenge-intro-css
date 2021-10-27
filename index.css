@@ -18,7 +18,6 @@ html,body,div,span,applet,object,iframe,table,caption,tbody,tfoot,thead,tr,th,td
   padding: 0;
   box-sizing: border-box;
   max-width: 100%;
-  border: 1px solid grey;
 }
 /* General Styles */
 html {
@@ -39,7 +38,7 @@ h1 {
   font-family: "Chelsea Market", cursive;
 }
 section {
-  padding: 4% 0;
+  padding: 1% 0;
 }
 img {
   max-width: 100%;
@@ -47,11 +46,12 @@ img {
 /* Header Section Styles */
 nav {
     padding: 2% 0;
+    text-align: center;
 }
 nav a{
     display: inline-block;
-    padding: 1% 0;
-    width: 10%;
+    padding: 0.4rem 1rem;
+    width: 12%;
     border-radius: 10px;
     text-align: center;
     color: white;
@@ -59,17 +59,17 @@ nav a{
 
 .orange{
     background-color: #FF764E;
-    margin-left: 10%;
+    margin-left: 9%;
 }
 
 .blue{
     background-color: #5ED3EB;
-    margin: 0 24%;
+    margin: 0 16%;
 }
 
 .yellow{
     background-color: #FFCD69;
-    margin-right: 10%;
+    margin-right: 9%;
 }
 
 /* Top Section Styles */
@@ -77,6 +77,7 @@ nav a{
     width: 90%;
     margin: 0 auto;
     position: relative;
+    padding: 2rem 0 0;
 }
 
 .left, .right{
@@ -95,8 +96,56 @@ nav a{
     top: 20%;
 }
 
+.right h2{
+    margin: 1rem 0;
+}
+
 .left img {
   height: 200px;
   width: 200px;
   border-radius: 100rem;
+}
+
+/* Info Box Style */
+.info-box{
+    width: 80%;
+    margin: 2rem auto;
+    padding: 1% 2.5%;
+    text-align: center;
+    background-color: #DDB9A3;
+    color: white;
+}
+
+/* Tip Box Style */
+.tip-box{
+    width: 29%;
+    margin: 0 auto 6rem;
+    text-align: center;
+}
+
+.tip-box img{
+    width: 120px;
+    margin: 0 auto 3rem;
+    display: block;
+}
+
+.tip-box span{
+    font-weight: bold;
+}
+
+/* Bottom Image Style */
+.bottom-image{
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bottom-image img{
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    background-color: #F9E7DC;
 }
