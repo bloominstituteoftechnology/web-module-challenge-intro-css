@@ -118,6 +118,9 @@ nav a{
     font-weight: bold;
     
 }
+footer{
+    background-color: #F9E7DC;
+}
 footer a{
     display: inline-block;
     padding:1% 0;
@@ -125,6 +128,7 @@ footer a{
     border-radius:10px;
     text-align: center;
     color:#ffff
+    
 }
 footer .orange{
     background-color: #ff764e;
