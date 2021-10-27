@@ -85,7 +85,14 @@ h1{
 section{
     padding:4% 0;
 }
-
+.sub, .opener{
+    text-align:center;
+}
+.mainP{
+    text-align:center;
+    background-color:#DDB9A3;
+    margin: 1% 10%;
+}
 /*header section styles*/
 nav{
     padding:2% 0
@@ -109,7 +116,14 @@ margin: 0 24%;
 .yellow{
 background-color: #FFCD69;
 margin-right:10%;
+
+
 }/*top section styles*/
+
+.top{
+    display:inline-block;
+    position:relative;
+}
 .left, .right{
     display:inline-block;
     text-align:center;
@@ -125,4 +139,39 @@ margin-right:10%;
 .right{
     width:50%;
     margin-left: 5%;
+    right:absolute;
+    top:40%;
+}
+
+/* pics n text*/
+.fiya{
+    dislay:inline-block;
+    width: 20%;
+    height:25%;
+    margin-left:45%;
+    padding: 1% 0 1%
+}
+.campy{
+    dislay:inline-block;
+    width: 20%;
+    height:25%;
+    margin-left:45%;
+    padding: 1% 0 1%
+}
+.fiyap{
+    text-align:center;
+    margin: 40%;
+}
+.campyp{
+    text-align:center;
+    margin: 40%;
+}
+
+/*footer*/
+footer nav{
+    background-color:#F9E7DC
+}
+footer{
+    background-image: "assets/footer_img.jpg";
+    padding: 5% 1%;
 }
