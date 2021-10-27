@@ -18,3 +18,27 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+.nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    padding:25px 0 25px 0;
+}
+.navBox {
+    padding:10px;
+    color:white;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.navBox1 {
+    background-color:#FF764E;
+}
+.navBox2 {
+    background-color:#5ED3EB;
+}
+.navBox3 {
+    background-color:#FFCD69;
+}
