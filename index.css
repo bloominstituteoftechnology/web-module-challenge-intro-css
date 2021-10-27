@@ -19,7 +19,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 * {
     padding: 0%;
     margin: 0%;
-    border: 1px #4f4f4f solid;
+    /* border: 1px #4f4f4f solid; */
     box-sizing: border-box;
     max-width: 100%;
 }
@@ -105,13 +105,18 @@ nav a {
     color:white;
 }
 
-span {
-    text-decoration: none;
-}
+
 
 /*section three*/
 .three{
     text-align: center;
+}
+.top,.bottom{
+    margin-bottom: 7%;
+}
+
+.top img, .bottom img {
+    margin-bottom: 7%;
 }
 
 .three img{
@@ -122,10 +127,14 @@ span {
     margin-left:35%;
 }
 
+ span{
+    font-weight: bold;
+}
 
 footer {
     background-color:#F9E7DC ;
 }
 footer img{
     height:15em;
+    width: 100%;
 }
