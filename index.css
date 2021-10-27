@@ -45,7 +45,9 @@ h1{
 section{
     padding:4% 0;
 }
-/* header section styles*/
+
+/*Header Section Styles*/
+
 nav{
     padding:2% 0;
 }
@@ -54,22 +56,25 @@ nav a{
     padding:1% 0;
     width:10%;
     border-radius:10px;
-    text-align:center;
-    color:white;
+    text-align: center;
+    color:#ffff
 }
 .orange{
     background-color: #ff764e;
-
+    margin-left:10%;
 }
-.blue{
-
+.blue {
+     background-color: #5ED3EB;
+     margin:0 24%;
+}
+.yellow {
+    background-color:#FFCD69;
+    margin-right: 10%;
 }
 
-.yellow{
-
-}
+/*top section styles*/
 .top{
-    position: relative;
+    position:relative;
 }
 .left, .right{
     display:inline-block;
@@ -77,15 +82,15 @@ nav a{
 }
 .left{
     width:30%;
-
 }
 .left img{
-    border-radius:50%;
+    border-radius: 50%;
+    width:80%;
 
 }
 .right{
     width:50%;
-    margin-left: 5%;
-    position: absolute;
+    margin-left:5%;
+    position:absolute;
     top:40%;
 }
