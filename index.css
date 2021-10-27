@@ -21,7 +21,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     margin:0;
     box-sizing:border-box;
     max-width:100%;
-    border:1px solid grey;
+    
 }
 
 /*General Styles*/
@@ -143,7 +143,7 @@ footer .yellow {
     margin-right: 10%;
 }
 footer img{
-    height:50%;
+    height:300px;
     width:100%;
     
 }
