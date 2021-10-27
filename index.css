@@ -1,0 +1,58 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+    font-family:'Roboto Mono', monospace;;
+}
+h1{
+    font-size: 5rem;
+    font-family: 'Chelsea Market', cursive;
+}
+section{
+    padding: 4% 0;
+}
+
+nav{
+    padding: 2% 0;
+}
+nav a{
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+.orange{
+    background-color: #FF764E;
+    margin-left: 10%;
+}
+.blue{
+    background-color: #5ED3EB;
+    margin: 0 24%;
+}
+.yellow{
+    background-color: #FFCD69;
+    margin-right: 10%;
+}
+.left, .right{
+    display: inline-block;
+}
+.left{
+    width: 30%;  
+}
+.top{
+    position:relative;
+}
+.left img{
+    border-radius: 50%;
+    width: 50%;
+}
+.right{
+    width: 50%;
+    margin-left: 5%;
+    position: absolute;
+}
