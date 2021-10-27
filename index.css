@@ -21,8 +21,39 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     margin:0;
     box-sizing:border-box;
     max-width:100%;
-    border:1px solid grey;
+    border: 1px solid grey;
 }
+
+
+nav {
+    padding: 2% 0;
+
+}
+
+nav a {
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.orange {
+    background-color: #FF764E ;
+    margin-left: 10%;
+}
+
+.blue {
+    background-color: #5ED3EB ;
+    margin: 0 25%
+}
+
+.yellow {
+    background-color: #FFCD69 ;
+    margin-right: 10 %
+}
+
 
 /*General Styles*/
 html{
@@ -59,7 +90,7 @@ nav a{
     color: ;
 }
 
-.orange{
+
 
 }
 
@@ -83,3 +114,20 @@ nav a{
     top: 40%;
 }
 
+.valleyInfo {
+    margin: 0 3rem;
+    background-color: #DDB9A3;
+    border-style: none;
+    text-align: center;
+    color: #fff;
+}
+
+.fire{
+    margin: 0 40rem;
+    text-align: center;
+}
+
+.fire img{
+    height: 120px;
+    width: 120px;
+}
