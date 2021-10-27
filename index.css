@@ -93,3 +93,12 @@ nav a{
     text-align:center;
     color: white;
 }
+section.icons{
+    text-align: center;
+    width:25%;
+    margin:0 40%;
+}
+footer img{
+    width: 100%;
+    
+}
