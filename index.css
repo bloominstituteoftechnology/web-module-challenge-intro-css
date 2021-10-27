@@ -74,7 +74,7 @@ legend {
     margin: 0;
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 html {
@@ -101,7 +101,7 @@ section {
     padding: 4% 0;
 }
 
-.topNav {
+/* .topNav {
     padding: 1% 7%;
     position: fixed;
     height: 10%;
@@ -111,6 +111,25 @@ section {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     top: 0;
+}
+
+.topNav a {
+    display: inline-block;
+    padding: 0 0;
+    width: 10%;
+    border-radius: 1vh;
+    text-align: center;
+    color: #ffff;
+    text-decoration: none;
+} */
+
+.topNav {
+    padding: 1% 7%;
+    height: 10%;
+    width: 100%;
+    background: rgba(199, 227, 225, 90%);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .topNav a {
@@ -142,6 +161,7 @@ section {
 .top {
     position: relative;
     margin: 20vh;
+    margin-top: 0;
     right: 15vh;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -159,6 +179,7 @@ section {
 .left img {
     border-radius: 50%;
     width: 50%;
+    margin-top: 0;
 }
 .right {
     width: 50%;
