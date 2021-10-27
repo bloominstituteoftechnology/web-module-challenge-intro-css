@@ -61,7 +61,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     margin:0;
     box-sizing:border-box;
     max-width:100%;
-    border:1px solid grey;
+    border: 0;
 }
 
 /*General Styles*/
@@ -138,40 +138,57 @@ margin-right:10%;
 }
 .right{
     width:50%;
+    margin-top:0%;
+    margin-bottom: 5%;
     margin-left: 5%;
     right:absolute;
-    top:40%;
+    top:30%;
 }
 
 /* pics n text*/
 .fiya{
     dislay:inline-block;
     width: 20%;
-    height:25%;
-    margin-left:45%;
-    padding: 1% 0 1%
+    height:15%;
+    margin-left:40%;
+    padding: 2% 0 2%
 }
 .campy{
     dislay:inline-block;
     width: 20%;
-    height:25%;
-    margin-left:45%;
-    padding: 1% 0 1%
+    height:15%;
+    margin-left:40%;
+    padding: 2% 0 2%
 }
 .fiyap{
     text-align:center;
-    margin: 40%;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-bottom: 5%;
 }
 .campyp{
     text-align:center;
-    margin: 40%;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-bottom: 5%;
+}
+
+.backgroundpic{
+    background-image:url('assets/footer_img.jpg');
+    padding:25%;
+    background-size: 1500px;
+    height:100px;
+    width: 100%;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 /*footer*/
 footer nav{
-    background-color:#F9E7DC
+    background-color:#F9E7DC;;
 }
-footer{
-    background-image: "assets/footer_img.jpg";
-    padding: 5% 1%;
-}
+/*NOTING A COUPLE THINGS FOR WHOEVER INSPECTS THIS CODE!!!
+I was unable to move the text next to the picture up higher, no idea why, and for some reason, regardless of what
+i ended up doing, i couldnt resize the bottom picture. When i did try it was almost as if it was a 
+kaleidoscope and just had millions of the same picture but taking up the same space i was trying to shorten. Those were really
+the only true issues i faced, i believe ive coded this to the best of my ability but i must turn this in now due to time constraints.*/
