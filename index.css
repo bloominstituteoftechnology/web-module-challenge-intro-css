@@ -31,6 +31,11 @@ time, mark, audio, video {
     color:white;
     border-radius: 10px;
     font-size: larger;
+    text-align: center;
+}
+.navBox a {
+    color:white;
+    text-decoration: none;
 }
 
 .navBox1 {
@@ -54,14 +59,33 @@ time, mark, audio, video {
    border-radius:150px;
 }
 .section1box1 {
-    background-color:bisque
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height:250px;
     width:250px;
 }
 .section1box2 {
-    background-color: burlywood;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:center;
+    text-align: center;
 }
+
 .section1box2 h1 {
     font-size: 30px;
 }
+.section2 {
+    background-color: #DDB9A3;
+    color:white;
+    padding:15px;
+    margin:10px 40px 0px 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section2 p {
+    padding: 10px 0px 10px 0;
+}
+
