@@ -18,16 +18,23 @@ font: inherit;
 vertical-align: baseline;
 }
 *{
-    font-size:62.5%;
     box-sizing:border-box;
     max-width:100%;
     border:1px solid grey;
+    padding:0;
+    margin:0;
+}
+html{
+    font-size:62.5%;
 }
 body{
     color:#4f4f4f;
-    background-color:#DDB9A3;
+    font-size:1.6rem;
     line-height:1.5;
     font-family: 'Roboto Mono', monospace;
+}
+section{
+    padding:4% 0;
 }
 .top-text h1{
     font-family:'Chelsea Market', cursive;
@@ -35,7 +42,7 @@ body{
 
 }
 nav{
-    padding: 2% auto;
+    padding: 2% 0;
 }
 nav a{
     display:inline-block;
@@ -58,6 +65,19 @@ nav a{
 .involved{
     background-color:#FFCD69;
     margin-left:20%;
+}
+.top-section{
+    display:inline-block;
+    max-width:100%;
+}
+.top-image{
+    display:inline-block;
+    width:50%;
+    border-radius:10%;
+}
+.top-text{
+    display:inline-block;
+    width:50%;
 }
 span{
     color:black;
