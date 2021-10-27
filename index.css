@@ -45,11 +45,23 @@ section{
 }
 
 nav{
-    padding: 2% 0;
+    padding:2% 0;
 }
 nav a{
     display: inline-block;
     padding: 1% 0;
     width: 10%;
-    border-radius: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+.orange{
+    background-color: #ff764e;
+}
+.blue{
+    background-color: #5ed3eb;
+}
+.yellow{
+
+    background-color: #FFCD69;
 }
