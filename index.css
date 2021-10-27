@@ -16,13 +16,13 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 :focus {
 	outline: 0;
 	}
-*{
+/**{
     box-sizing:border-box;
     padding:0;
     margin:0;
     max-width:100%;
     border:1px solid grey;
-}
+}*/
 
 html{
     font-size: 62.5%;
@@ -31,7 +31,7 @@ body{
     font-size: 1.6rem;
     line-height: 1.5;
     color:black;
-    font-family: "Roboto Mono" , monospace
+    font-family: "Roboto Mono" , monospace;
 }
 section{
     padding: 4% 0;
@@ -50,6 +50,8 @@ nav a{
     border-radius:10px;
     text-align:center;
     color:#fff;
+    font-family: "Roboto Mono" , monospace;
+    text-decoration:none;
 }
 .orange{
 background-color: #FF764E;
