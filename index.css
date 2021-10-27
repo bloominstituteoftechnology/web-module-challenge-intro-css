@@ -23,7 +23,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
         margin: 0;
         box-sizing: 0;
         max-width: 100%;
-        border: 1px solid grey;
+        
         }
     html{
         font: size 62.5%;
@@ -33,6 +33,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
         line-height: 1.5;
         color: #4f4f4f;
         font-family: 'Roboto Mono', monospace;
+   
     }
     a{
         font-family: 'Roboto Mono', monospace;
@@ -74,7 +75,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     .orange{
         background-color: #FF4500;
         color: white;
-        margin-left: 10%;
+        margin-left: 20%;
         margin-top: 0%;
        }
        .top, .image-main{
@@ -82,15 +83,60 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
            text-align: center;
        }
        .image-main{
-           width: 50%;
+           width: 40%;
+           height: 40%;
        }
        .image-main img{
-           width: 30%;
+           width: 50%;
            border-radius: 50%;
        }
        .top{
-           width: 40%;
+           width: 50%;
            margin-left:5%;
        }
+       .main{
+           color: white;
+           background-color :#D2B48C;
+           background-size: 75%;
+           margin:5% 5% 5% 5%;
+           letter-spacing: 10%;
+          
+       }
+       .fire{
+           text-align: center;
+       }
+       .fire p{
+           text-align: center;
+           margin-right: 30%;
+           margin-left: 30%;
+           margin-top: 0%;
+       }
+       span{
+           font-weight: bold;
+       }
+       
+       .rv{
+        text-align: center;
+        margin-top: 10%;
+       }
+        .rv p{
+        text-align: center;
+        margin-right: 30%;
+        margin-left: 30%;
+        margin-top: 0%;
+        margin-bottom: 10%;
+        }
+        footer {
+        background-color:#D2B48C;
+    }
+    .image{
+        background-image: url("assets/footer_img.jpg");
+        margin-right: 0%;
+        margin-left: 0%;
+        overflow: hidden;
+        width: 100%;
+        background-size: cover;
+       
 
+    }
     
