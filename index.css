@@ -37,9 +37,7 @@ h1 {
   font-size: 5rem;
   font-family: "Chelsea Market", cursive;
 }
-section {
-  padding: 1% 0;
-}
+
 img {
   max-width: 100%;
 }
@@ -136,13 +134,10 @@ nav a{
 /* Bottom Image Style */
 .bottom-image{
     height: 200px;
-    width: 100%;
-    overflow: hidden;
-}
-
-.bottom-image img{
+    max-width: 100%;
+    background-image: url("./assets/footer_img.jpg");
     background-repeat:no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
 }
 
