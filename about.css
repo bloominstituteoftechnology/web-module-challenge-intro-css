@@ -84,4 +84,51 @@ img{
     margin-left: 10rem;
     float: left;
     margin-right: 2em;
+    border-radius: 10px;
 }
+.divContainer{
+    background-color: #f8edeb;
+    height: 90vh;
+}
+.imgContainer h2{
+    font-size: 2rem;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.css-button-sliding-to-bottom--sand {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #adb5bd;
+    color: #adb5bd;
+    margin-top: 1.5em;
+  }
+  .css-button-sliding-to-bottom--sand:hover {
+    color: #fff;
+  }
+  .css-button-sliding-to-bottom--sand:hover:after {
+    height: 100%;
+  }
+  .css-button-sliding-to-bottom--sand:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    background: #adb5bd;
+  }
