@@ -1,3 +1,5 @@
+link to site deployed on Netlify
+https://clever-kalam-5f26d2.netlify.app/index.html
 # Intro CSS Module Project
 
 ## User Interface and Git
