@@ -21,7 +21,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     margin: 0;
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid grey;
+
 }
 
 html{
@@ -86,4 +86,19 @@ nav a{
     margin-left: 5%;
     position: absolute;
     top:40%;
+    
+    
+    
 }
+div.info1{
+    background-color: #DDB9A3;
+    text-align: center;
+    margin: 5rem;
+    color: #fff;
+    font-size: large;
+    
+}
+.bottom img{
+    justify-content: space-around;
+}
+
