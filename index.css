@@ -45,23 +45,26 @@ section{
 }
 
 nav{
-    padding:2% 0;
+    padding:4% 0;
 }
 nav a{
-    display: inline-block;
-    padding: 1% 0;
-    width: 10%;
-    border-radius: 10px;
-    text-align: center;
-    color: white;
+    display:inline-block;
+    padding:1% 0;
+    width: 15%;
+    border-radius:10px;
+    text-align:center;
+    color:white;
 }
 .orange{
     background-color: #ff764e;
+    margin-left:10%;
 }
 .blue{
     background-color: #5ed3eb;
+    margin:0 20%;
 }
 .yellow{
 
     background-color: #FFCD69;
+    margin-right: 25px;
 }
