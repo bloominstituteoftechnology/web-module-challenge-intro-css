@@ -68,3 +68,28 @@ nav a{
     background-color: #FFCD69;
     margin-right: 25px;
 }
+.top{
+    position: relative;
+}
+.left,.right{
+    display: inline-block;
+    text-align: center;
+}
+.left{
+    width:30%
+}
+.left img{
+    border-radius:50%;
+    width: 80%;
+}
+.right{
+    width:50%;
+    margin-left: 5%;
+    position: absolute;
+    top:40%;
+}
+.paragraph{
+    background-color:#DDB9A3;
+    text-align:center;
+    color: white;
+}
