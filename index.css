@@ -23,11 +23,11 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     margin: 0;
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid black;
+    border: 1px solid grey;
 }
-
+/* general styles */
 html {
-    font-size: 62.5%
+    font-size: 62.5%;
 }
 
 body {
@@ -47,7 +47,7 @@ h1 {
     font-family:'Chelsea Market', cursive;
 }
 
-section{
+section {
     padding:2% 0;
 }
 /* Header section styles */
@@ -55,14 +55,13 @@ nav {
     padding:2% 0;
 }
 
-nav a {
+nav a{
     display:inline-block;
     padding:1% 0;
     width:10%;
     border-radius: 10px;
     text-align: center;
     color: #fff;
-
 }
 
 .orange {
@@ -70,36 +69,38 @@ nav a {
     margin-left: 10%;
 }
 
-.blue {
+.blue{
     background-color:#5ED3EB;
     margin: 0 24%;
 }
 
-.yellow {
+.yellow{
     background-color:#FFCD69;
 }
 /*top section styles*/
+
 .top{
-    position: relative;
+    position:relative;
 }
 
 .left, .right {
      display:inline-block;
-     margin-right: 10%;
-     text-align: center;
+     margin-right:10%;
+     text-align:center;
 }
 
-.left{
-    width: 30%;
+.left {
+    width:30%;
 }
+
 .left img {
     border-radius:50%;
     width:80%;
 }
-.right{
-    width: 50%;
-    margin-left: 5%;
+
+.right {
+    width:50%;
+    margin-left:5%;
     position: absolute;
-    top: 40%;
 }
 
