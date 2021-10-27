@@ -21,7 +21,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     margin: 0;
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 html{
     font-size: 62.5%;
@@ -60,13 +60,25 @@ nav a {
     background-color: #ff764e;
     margin-left: 10%;
 }
+.orange:hover{
+    background-color: white;
+    color:#ff764e;
+}
 .blue {
     background-color: #5ed3eb;
     margin: 0 24%;
 }
+.blue:hover{
+    background-color: #fff;
+    color:#5ed3eb;
+}
 .yellow {
     background-color: #ffcd69;
     margin-right: 10%;
+}
+.yellow:hover{
+    background-color: #fff;
+    color:#ffcd69;
 }
 .top {
     position: relative;
@@ -96,9 +108,12 @@ nav a {
     padding: 2%;
     color:white;
 }
+.fire p, .camping p {
+    text-align: center;
+}
 .fire img {
     width:10%;
-    align-items: center;
+    /* align-items: center; */
     margin: 0 45%;
 }
 .camping img {
@@ -116,17 +131,21 @@ span {
     width:15%;
     margin:auto;
 }
-.footerPic img{
+.footerPic{
     width:100%;
+    /* overflow:hidden; */
+    height: 60vh;
     /* height:30vh; */
     /* background-repeat:no-repeat;
     background-size:cover;
     background-position:center; */
 }
-.footerPic {
-    overflow:hidden;
-    height: 60vh;
-}
+/* .footerPic {
+
+} */
 footer {
     background-color: #F9E7DC;
+    margin-top: 0;
+    padding-top: 0;
+    height:40%;
 }
