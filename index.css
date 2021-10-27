@@ -18,7 +18,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 
 <!--start of my code-->
 
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -76,6 +76,7 @@ nav a{
 
 .yellow{
     background-color:#FFCD69;
+    margin-right: 10%;
 }
 /*top section styles*/
 
@@ -104,3 +105,25 @@ nav a{
     position: absolute;
 }
 
+.mid {
+    background-color: #DDB9A3;
+    color: #fff;
+}
+.low .campfire{
+    align-items: center;
+}
+
+.campfire, .camper{
+    align-items: center;
+
+    display:inline-block;
+
+}
+
+.span{
+    font-weight: bold;
+}
+
+.footer{
+    background-color:#F9E7DC;
+}
