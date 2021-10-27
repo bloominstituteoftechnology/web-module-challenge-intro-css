@@ -127,7 +127,7 @@ section {
     padding: 1% 7%;
     height: 10%;
     width: 100%;
-    background: rgba(199, 227, 225, 90%);
+    background: rgba(199, 227, 225, 50%);
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -248,6 +248,7 @@ section {
     height: 50vh;
     object-fit: cover;
     object-position: top;
+    margin-bottom: 0;
 }
 .footerSection {
     padding-bottom: 0;
@@ -260,7 +261,8 @@ section {
     padding: 1% 7%;
     height: 10%;
     width: 100%;
-    background: rgba(199, 227, 225, 90%);
+    margin-top: 0;
+    background: rgba(199, 227, 225, 50%);
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
