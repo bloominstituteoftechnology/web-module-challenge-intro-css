@@ -34,7 +34,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
         color: #4f4f4f;
         font-family: 'Roboto Mono', monospace;
     }
-    <a{
+    a{
         font-family: 'Roboto Mono', monospace;
         text-decoration: none;
     }
@@ -56,6 +56,41 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
         border-radius: 10px;
         text-align: center;
         color: #4f4f4f; 
+        
     }
+    .yellow{
+        background-color: goldenrod;
+        color: white;
+        margin-right: 10%;
+        margin-top: 0%;
+    }
+    .blue{
+        background-color:deepskyblue;
+        color: white;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 0%;
+    }
+    .orange{
+        background-color: #FF4500;
+        color: white;
+        margin-left: 10%;
+        margin-top: 0%;
+       }
+       .top, .image-main{
+           display: inline-block;
+           text-align: center;
+       }
+       .image-main{
+           width: 50%;
+       }
+       .image-main img{
+           width: 30%;
+           border-radius: 50%;
+       }
+       .top{
+           width: 40%;
+           margin-left:5%;
+       }
 
     
