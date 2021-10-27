@@ -7,14 +7,19 @@ body{
     color: #4f4f4f;
     font-family:'Roboto Mono', monospace;;
 }
+a{
+    text-decoration: none;
+}
 h1{
     font-size: 5rem;
     font-family: 'Chelsea Market', cursive;
 }
+.right p{
+    font-size: 2rem;
+}
 section{
     padding: 4% 0;
 }
-
 nav{
     padding: 2% 0;
 }
@@ -24,7 +29,7 @@ nav a{
     width: 10%;
     border-radius: 10px;
     text-align: center;
-    color: #fff;
+    color:#fff;
 }
 .orange{
     background-color: #FF764E;
@@ -46,13 +51,59 @@ nav a{
 }
 .top{
     position:relative;
+    margin-left: 5%;
 }
 .left img{
     border-radius: 50%;
-    width: 50%;
+    width: 70%;
+    margin-left: 5%;
 }
 .right{
     width: 50%;
-    margin-left: 5%;
+    margin-left: 15%;
     position: absolute;
+}
+.info{
+    background-color: #DDB9A3;
+    color: white;
+    padding: 2%;
+    margin: 3%;
+    font-size: 2rem;
+    text-align: center;
+}
+.fire img{
+width: 25%;
+margin-top: 5%;
+}
+.fire{
+    text-align: center;
+}
+.fire p{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.fire span.bold{
+    font-weight: bold;
+}
+.reservations img{
+width: 25%;
+margin-top: 5%;
+}
+.reservations{
+    text-align: center;
+}
+.reservations p{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.reservations span.boldtwo{
+font-weight: bold;
+}
+.bottom img{
+    width: 100%;
+    margin-top: 5%;
+}
+footer{
+    background-color: #f9e7dc;
+    padding: 3%;
 }
