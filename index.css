@@ -136,3 +136,10 @@ span{
 footer{
     background-color: #F9E7DC;
 }
+nav a{
+    opacity: 50%;
+}
+nav a:hover{
+    opacity: 100%;
+    transition: opacity 500ms;
+}
