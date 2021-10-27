@@ -1,0 +1,68 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+*{
+    font-size:62.5%;
+    box-sizing:border-box;
+    max-width:100%;
+    border:1px solid grey;
+}
+body{
+    color:#4f4f4f;
+    background-color:#DDB9A3;
+    line-height:1.5;
+    font-family: 'Roboto Mono', monospace;
+}
+.top-text h1{
+    font-family:'Chelsea Market', cursive;
+    font-size:5rem;
+
+}
+nav{
+    padding: 2% auto;
+}
+nav a{
+    display:inline-block;
+    width:10%;
+    border-radius:10px;
+    padding:1% 0;
+    text-decoration:none;
+    color:white;
+    text-align:center;
+    line-height:1;
+}
+.visit{
+    background-color:#FF764E;
+    margin-left:15%;
+}
+.learn{
+    background-color:#5ED3EB;
+    margin-left:20%;
+}
+.involved{
+    background-color:#FFCD69;
+    margin-left:20%;
+}
+span{
+    color:black;
+    font-weight:bold;
+}
+footer{
+    background-color:#F9E7DC;
+}
