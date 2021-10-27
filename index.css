@@ -1,0 +1,233 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    color:#4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+    height: 100%;
+}
+a{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration:none;
+}
+h1{
+    font-size:5rem;
+    font-family: 'Chelsea Market', cursive;
+}
+
+/* this is where the nav begins */
+
+header{
+    padding: 40px;
+    margin-bottom: 2%;
+
+}
+
+nav a{
+    color: white
+}
+
+
+.orange{
+    display: inline-block;
+    margin-right: 15%;
+    margin-left: 15%;
+    width: 12%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FF764E;
+}
+
+.blue{
+    display: inline-block;
+    margin-right: 15%;
+    width: 12%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #5ED3EB;
+}
+
+.yellow{
+    display: inline-block;
+    width: 12%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FFCD69;
+}
+
+
+/* nav ends */
+
+
+/* title begins here  */
+
+.yosemite{
+    height: 30vh;
+    font-size: 2.3rem;
+    padding-top: 10px;
+    position: relative;
+
+}
+
+.left__img{
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 8%;
+    
+}
+
+.right{
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    margin-left: 9%;
+    width: 50%; 
+ 
+}
+
+.p_one{
+    margin-top: 5%;
+}
+
+.p_two{
+    margin-top: 2%; 
+
+}
+
+
+/* This is where the title ends */
+
+/* section with brown background begins */
+
+.container__one{
+    margin: 5%;
+    background-color: #DDB9A3 ;
+    padding: 1.2% 3%;
+    text-align: center;
+} 
+
+/* brown section ends  */
+
+
+/* section with campfire  */
+
+.container__two{
+    width: 28%;
+    margin: auto;
+    margin-top: 5%;
+
+}
+
+.campfire{
+    width: 55%;
+    margin-left: 25%;
+    
+}
+
+.container__two p{
+    text-align: center;
+}
+
+.container__two span{
+    font-weight: bolder;
+}
+
+
+/* section with campfire ends */
+
+
+/* section containing the truck  */
+
+.container__three{
+    width: 28%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.container__three img{
+    width: 55%;
+    margin-left: 25%;
+
+}
+
+.container__three p{
+    text-align: center;
+    
+}
+
+/* section containing the truck ends */
+
+
+/* footer begins  */
+
+
+footer{
+    background-color: #F9E7DC ;
+    height: 40vh;
+}
+
+.footer__img{
+    background-image: url("assets/footer_img.jpg");
+    background-size: cover;
+    height: 30vh;
+}
+
+
+   
+.footer__links{
+    height: 100px;
+    padding-top: 2%;
+}
+
+.orange__two{
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FF764E;
+    
+}
+
+.blue__two{
+    margin-right: 13%;
+    width: 12%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #5ED3EB;
+}
+
+.yellow__two{
+    
+    width: 12%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FFCD69;
+}
+
+/* footer ends  */
