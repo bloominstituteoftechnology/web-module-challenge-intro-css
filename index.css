@@ -33,6 +33,7 @@ body{
     line-height:1.5;
     color:#4f4f4f;
     font-family: 'Roboto Mono', monospace;
+    margin:0 3%;
     
 }
 a{
@@ -100,7 +101,45 @@ nav a{
     background-color:#DDB9A3;
     text-align: center;
     padding:1% 10%;
-    margin:6%;
+    margin:0 6%;
     color:white;
+    
+}
+.middlepics{
+    text-align:center;
+    font-family: 'Roboto Mono', monospace;
+    padding:0 43%
+
+}
+.middlepics div{
+    margin:10%;
+}
+.middlepics span{
+    font-weight: bold;
+    
+}
+footer a{
+    display: inline-block;
+    padding:1% 0;
+    width:10%;
+    border-radius:10px;
+    text-align: center;
+    color:#ffff
+}
+footer .orange{
+    background-color: #ff764e;
+    margin-left:10%;
+}
+footer .blue {
+     background-color: #5ED3EB;
+     margin:0 24%;
+}
+footer .yellow {
+    background-color:#FFCD69;
+    margin-right: 10%;
+}
+footer img{
+    height:50%;
+    width:100%;
     
 }
