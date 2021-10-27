@@ -21,7 +21,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     margin:0;
     box-sizing:border-box;
     max-width:100%;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 
 /*General Styles*/
@@ -62,7 +62,7 @@ margin-left: 10%;
 }
 .blue{
     background-color:#5ED3EB;
-    margin: 0 24%;
+    margin: 0 20%;
 }
 .yellow{
 background-color:#FFCD69 ; 
@@ -88,4 +88,34 @@ margin-right: 10%;
     margin-left: 5%;
     position:absolute;
     top:40%;
+}
+.div{
+    margin: 5rem;
+    background-color: #DDB9A3;
+    line-height: 5rem;
+    color: white;
+}
+.middle{
+    text-align: center;
+}
+.campfire img{
+max-width: 25%;
+}
+.camper img{
+    max-width: 15%;
+    }
+.middle p{
+    text-align: center;
+  width:25%;
+  margin-left: 38%;
+}
+.hero-img{
+    background-image:url("assets/footer_img.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer{
+    background-color: #F9E7DC;
 }
