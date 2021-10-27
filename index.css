@@ -21,62 +21,70 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     box-sizing: border-box;
     max-width: 100%;
     border: 1px solid gray;
-
 }
 
 html{
     font-size: 62.5%;
-
 }
 body{
     font-size: 1.6rem;
     line-height: 1.5;
-    color: ;
+    color:#4f4f4f;
     font-family: 'Roboto Mono', monospace;
 }
 a{
     font-family: 'Roboto Mono', monospace;
-    text-decoration: ;
+    text-decoration: none;
 
 }
-nav{
-    padding: 2% 0;
-
+h1{
+    font-size: 5rem;
+    font-family: 'Chelsea Market', cursive;
 }
+section{
+    padding: 4% 0;
+}
+
+/* header section*/
 nav a{
-    display: :inline-block;
-    padding:1% 0;
+    display: inline-block;
+    padding: 1% 0;
     width: 10%;
-    border-radius:10px;
-    text-align:center;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
 
 }
 .orange{
-    background-color: ;
+    background-color: #FF764E;
     margin-right: 10%;
-
 }
 .blue{
-    background-color: ;
+    background-color: #5ED3EB;
     margin-right: 10%;
-
 }
 .yellow{
-    background-color: ;
+    background-color: #FFCD69;
     margin-right: 10%;
-
+}
+.top{
+    position: relative;
+}
+.left, .right{
+    display: inline-block;
+    text-align: center;
 }
 .left{
-
+    width: 30%;
 }
-left. img{
+.left img{
     border-radius: 50%;
     width: 80%;
-
 }
 .right{
     width: 50%;
     margin-left: 5%;
     position: absolute;
-    
+    top: 50%;
+
 }
