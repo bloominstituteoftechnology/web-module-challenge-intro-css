@@ -33,6 +33,7 @@ body{
     line-height:1.5;
     color:#4f4f4f;
     font-family: 'Roboto Mono', monospace;
+    
 }
 a{
     font-family: 'Roboto Mono', monospace;
@@ -93,4 +94,13 @@ nav a{
     margin-left:5%;
     position:absolute;
     top:40%;
+}
+
+.maintext{
+    background-color:#DDB9A3;
+    text-align: center;
+    padding:1% 10%;
+    margin:6%;
+    color:white;
+    
 }
