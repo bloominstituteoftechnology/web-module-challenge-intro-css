@@ -63,15 +63,25 @@ nav a {
 .blue{
     background-color: #5ED3EB;
     margin: 0 24%;
+    position: relative;
 }
-.yellow{
-    background-color: #FFCD69;
-    margin-right: 10%;
+
+.about{
+    text-align: center;
+    width: 80vw;
+    margin: 0 auto;
 }
-nav a{
-    opacity: 50%;
+.mainSection{
+    display: flex;
 }
-nav a:hover{
-    opacity: 100%;
-    transition: opacity 500ms;
+.myImg{
+    /* display: inline-block; */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;  
+}
+img{
+    margin-left: 10rem;
+    float: left;
+    margin-right: 2em;
 }
