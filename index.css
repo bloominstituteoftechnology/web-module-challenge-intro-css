@@ -37,7 +37,7 @@ a{
     text-decoration: none;
 }
 h1 {
-    font-size: 5rem;
+    font-size: 6.5rem;
     font-family: 'Chelsea Market', cursive;
 }
 section{
@@ -86,13 +86,14 @@ nav a {
 .left, .right {
     display: inline-block;
     text-align: center;
+    font-size: 2rem;
 }
 .left{
     width: 30%;
 }
 .left img{
     border-radius: 50%;
-    width: 80%;
+    width: 90%;
 }
 .right {
     width: 50%;
@@ -111,9 +112,10 @@ nav a {
     text-align: center;
     padding: 2%;
     color:white;
+    font-size: 2.5rem;
 }
 .p1 {
-    margin-bottom: 40%;
+    margin-bottom: 5%;
     line-height: 2;
 }
 .fire p, .camping p {
