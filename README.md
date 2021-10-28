@@ -24,8 +24,8 @@ Follow these steps to set up and work on your project:
 - [X] Create a forked copy of this project.
 - [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [X] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [X] Push commits: git push -u origin `<firstName-lastName>`.
 
 ### Task 2: Minimum Viable Product
 
@@ -33,21 +33,21 @@ Once your repository is set up, practice what you learned today to style the sit
 
 - [X] Link your CSS stylesheet in the `index.html` and implement a CSS reset 
 - [X] Markup html semantically, such that it can be styled according to the given desktop image
-- [ ] Color the background of items in the navigation bar and footer with the following colors:
+- [X] Color the background of items in the navigation bar and footer with the following colors:
   - [X] Plan your Visit: `#FF764E`
   - [X] Learn About the Park: `#5ED3EB`
   - [X] Get Involved: `#FFCD69`
 - [X] Change all font colors and styles according to design file
   - [X] Yosemite Park Guide font is called Chelsea Market and can be found on [google fonts](https://fonts.google.com/specimen/Chelsea+Market)
   - [X] All other text is Roboto Mono, also available on [google fonts](https://fonts.google.com/specimen/Roboto+Mono)
-- [ ] Color the background of the main text body with `#DDB9A3`
-- [ ] Color the background of the footer with `#F9E7DC`
+- [X] Color the background of the main text body with `#DDB9A3`
+- [X] Color the background of the footer with `#F9E7DC`
 - [ ] Bold the words "current fire restrictions" and "park entrance fee" according to the design file
 - [ ] Apply box model properties (content, padding, margin, and border) to all content such that your webpage matches the design file. This will include at least:
-  - [ ] A round image in the header
-  - [ ] Round corners on navigation and footer items
-  - [ ] Header image and text side by side
-  - [ ] Centered content and margins around content
+  - [X] A round image in the header
+  - [X] Round corners on navigation and footer items
+  - [X] Header image and text side by side
+  - [X] Centered content and margins around content
   - [ ] Footer image positioning
 
 **Throughout your design you should avoid static units (pixels), and should instead use responsive units wherever possible.**

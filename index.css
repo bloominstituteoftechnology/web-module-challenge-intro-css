@@ -77,6 +77,7 @@ nav a{
 .yellow{
     background-color:#FFCD69;
     margin-right: 10%;
+    
 }
 /*top section styles*/
 
@@ -105,17 +106,21 @@ nav a{
     position: absolute;
 }
 
+/* mid section styles */
 .mid {
     background-color: #DDB9A3;
     color: #fff;
 }
 
 .fire img{
-    margin-left:35%;
-    margin-right:35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
 }
 
 .fire p{
+    display: block;
     margin-left:35%;
     margin-right:35%;
     text-align: center;
@@ -127,15 +132,25 @@ nav a{
     text-align: center;
 }
 .camper img{
-    margin-left:35%;
-    margin-right:35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
 }
 
-.span{
-    font-weight: bold;
+span.span{
+    font-weight:bold;
 }
 
+/* footer section styles */
 .footer{
     background-color:#F9E7DC;
     center: fixed;
 }
+
+.footer img {
+        max-width: 100%;
+        max-height:
+        overflow: hidden;
+        
+      }
