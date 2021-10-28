@@ -70,3 +70,25 @@ margin: 0 24%;
 background-color: #FFCD69;
 margin-right: 10%;
 }
+
+.top{
+    position:relative
+}
+.left, .right{
+    display: inline-block;
+    text-align: center;
+}
+
+.left{
+    width: 30%;
+}
+.left img{
+    border-radius: 50%;
+    width: 80%
+}
+.right{
+    width: 50%;
+    margin-left: 5%;
+    position: absolute;
+    top:40%
+}
