@@ -96,7 +96,7 @@ nav a{
 
 .middle div{
     width: 90%;
-    background: orange;
+    background: #DDB9A3;
     color: white;
     text-align: center;
     margin: 0 auto;
@@ -115,7 +115,12 @@ nav a{
 
 .footer-image{
     background-image: url('/assets/footer_img.jpg');
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    height:200px;
+    height: 400px;
 }
+
+footer{
+    background: #F9E7DC;
+}
+
