@@ -1,0 +1,226 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+    font-family: "Roboto Mono", monospace;
+    top: 0;
+}
+
+a {
+    font-family: "Roboto Mono", monospace;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: "Chelsea Market", cursive;
+}
+section {
+    padding: 4% 0;
+}
+
+/* this is the top navigation of the page*/
+.topNav {
+    padding: 1% 7%;
+    height: 10%;
+    width: 100%;
+    background: rgba(199, 227, 225, 50%);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.topNav a {
+    display: inline-block;
+    padding: 0 0;
+    width: 10%;
+    border-radius: 1vh;
+    text-align: center;
+    color: #ffff;
+    text-decoration: none;
+}
+.orange {
+    background-color: #ff764e;
+    margin-left: 10%;
+}
+
+.blue {
+    background-color: #5ed3eb;
+    margin: 0 24%;
+}
+
+.yellow {
+    background-color: #ffcd69;
+    margin-right: 10%;
+}
+
+/* this is the bottom of the page */
+
+.footer img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 0;
+}
+.footerSection {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.bottomNav {
+    padding: 1% 7%;
+    height: 10%;
+    width: 100%;
+    margin-top: 0;
+    background: rgba(199, 227, 225, 50%);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.bottomNav a {
+    display: inline-block;
+    padding: 0 0;
+    width: 10%;
+    border-radius: 1vh;
+    text-align: center;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.middleInfo {
+    height: 100%;
+    text-align: center;
+}
+
+.middleSection {
+    background-image: url(https://images.unsplash.com/photo-1504851149312-7a075b496cc7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNhbXBpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.middleSection h2 {
+    font-size: 4rem;
+}
+
+.middleSection p {
+    text-align: center;
+    color: #ffff;
+    background: rgba(255, 255, 255, 20%);
+}
+
+.middleSection img {
+    border-radius: 50%;
+}
+
+.general,
+.granite,
+.waterfalls {
+    margin: 3vh;
+    height: 33%;
+    padding: 5%;
+}
+
+.campfire {
+    display: inline-block;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 3rem;
+    margin-bottom: 10vh;
+}
+.campfire img {
+    margin-left: 40%;
+}
+.rvinfo {
+    display: inline-block;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 3rem;
+}
+.rvinfo img {
+    margin-left: 40%;
+}
