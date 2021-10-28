@@ -80,77 +80,16 @@ nav a {
     background-color: #fff;
     color:#ffcd69;
 }
-.top {
-    position: relative;
-}
-.left, .right {
-    display: inline-block;
+h1{
     text-align: center;
 }
-.left{
-    width: 30%;
-}
-.left img{
-    border-radius: 50%;
-    width: 80%;
-}
-.right {
-    width: 50%;
-    margin-left: 5%;
-    position: absolute;
-    top: 20%;
-}
-.right p{
-    line-height: 2;
-    margin-top: 5%;
-}
-.infoBlock {
-    margin: auto;
-    width: 90%;
-    background-color: #DDB9A3;
-    text-align: center;
-    padding: 2%;
-    color:white;
-}
-.p1 {
-    margin-bottom: 40%;
-    line-height: 2;
-}
-.fire p, .camping p {
+p {
     text-align: center;
 }
-.fire img {
-    width:10%;
-    /* align-items: center; */
-    margin: 0 45%;
+img {
+    width: 60%;
+    margin: 5% 20%;
 }
-.camping img {
-    width:10%;
-    margin: 0 45%;
-}
-span {
-    font-weight: bold;
-}
-.fire p {
-    width:15%;
-    margin: auto;
-}
-.camping p {
-    width:15%;
-    margin:auto;
-}
-.footerPic{
-    width:100%;
-    /* overflow:hidden; */
-    height: 60vh;
-    /* height:30vh; */
-    /* background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center; */
-}
-/* .footerPic {
-
-} */
 footer {
     background-color: #F9E7DC;
     margin-top: 0;
