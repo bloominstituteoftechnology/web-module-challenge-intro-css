@@ -57,14 +57,17 @@ nav a{
 }
 .orange{
     background-color: #FF764E;
+    margin-left: 10%;
     margin-right: 10%;
 }
 .blue{
     background-color: #5ED3EB;
+    margin-left: 10%;
     margin-right: 10%;
 }
 .yellow{
     background-color: #FFCD69;
+    margin-left: 10%;
     margin-right: 10%;
 }
 .top{
@@ -88,3 +91,57 @@ nav a{
     top: 50%;
 
 }
+.main{
+    background-color: #DDB9A3;
+    display: inline-block;
+    border: 0%;
+    margin: 10%;
+    text-align: center;
+}
+
+.firelogs{
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 0%;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+.firelogs p span{
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.carlogs{
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 0%;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+.footer{
+    display:inline-block;
+    width: 100%;
+}
+.footer img{
+    height: 50%;
+    background-color: #F9E7DC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
