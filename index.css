@@ -138,19 +138,19 @@ nav a{
     width: 15%;
 }
 
-span.span{
+span {
     font-weight:bold;
 }
 
 /* footer section styles */
-.footer{
+.footer {
     background-color:#F9E7DC;
     center: fixed;
 }
 
-.footer img {
-        max-width: 100%;
-        max-height:
-        overflow: hidden;
-        
-      }
+.footpic {
+    max-width: 100%;
+    height:300px;
+    overflow: hidden
+}
+      
