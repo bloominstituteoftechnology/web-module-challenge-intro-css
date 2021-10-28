@@ -42,13 +42,13 @@ Once your repository is set up, practice what you learned today to style the sit
   - [X] All other text is Roboto Mono, also available on [google fonts](https://fonts.google.com/specimen/Roboto+Mono)
 - [X] Color the background of the main text body with `#DDB9A3`
 - [X] Color the background of the footer with `#F9E7DC`
-- [ ] Bold the words "current fire restrictions" and "park entrance fee" according to the design file
-- [ ] Apply box model properties (content, padding, margin, and border) to all content such that your webpage matches the design file. This will include at least:
+- [X] Bold the words "current fire restrictions" and "park entrance fee" according to the design file
+- [X] Apply box model properties (content, padding, margin, and border) to all content such that your webpage matches the design file. This will include at least:
   - [X] A round image in the header
   - [X] Round corners on navigation and footer items
   - [X] Header image and text side by side
   - [X] Centered content and margins around content
-  - [ ] Footer image positioning
+  - [X] Footer image positioning
 
 **Throughout your design you should avoid static units (pixels), and should instead use responsive units wherever possible.**
 
