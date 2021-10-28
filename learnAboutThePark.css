@@ -74,7 +74,7 @@ legend {
     margin: 0;
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 html {
@@ -124,15 +124,30 @@ section {
     background-color: #ff764e;
     margin-left: 10%;
 }
+.orange:hover {
+    color: #ff764e;
+    background: #ffff;
+    font-weight: 1000;
+}
 
 .blue {
     background-color: #5ed3eb;
     margin: 0 24%;
 }
+.blue:hover {
+    background: #ffff;
+    color: #5ed3eb;
+    font-weight: 1000;
+}
 
 .yellow {
     background-color: #ffcd69;
     margin-right: 10%;
+}
+.yellow:hover {
+    background: #ffff;
+    color: #ffcd69;
+    font-weight: 1000;
 }
 
 /* this is the bottom of the page */
@@ -190,7 +205,7 @@ section {
 .middleSection p {
     text-align: center;
     color: #ffff;
-    background: rgba(255, 255, 255, 20%);
+    background: rgba(24, 10, 20, 0.8);
 }
 
 .middleSection img {
@@ -223,4 +238,48 @@ section {
 }
 .rvinfo img {
     margin-left: 40%;
+}
+
+.bottomSection {
+    background: url(https://images.unsplash.com/photo-1492305175278-3b3afaa2f31f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1131&q=80);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.middleInfo {
+    font-size: 2rem;
+    color: #ffff;
+    font-weight: 1000;
+}
+
+.bottomSection h2 {
+    font-weight: 1000;
+    font-size: 3rem;
+    text-shadow: 2px 2px #ff0000;
+}
+
+.middleInfo p {
+    background: rgba(24, 10, 10, 0.8);
+}
+
+.middleInfo p:first-child {
+    background: rgba(24, 10, 20, 0.8);
+}
+.waterfalls a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.waterfalls a:hover {
+    text-decoration: underline;
+}
+
+.waterfalls a:active {
+    font-size: 1.9rem;
+}
+
+footer {
+    border-top: 0.5rem solid grey;
+    border-bottom: 0.5rem solid grey;
 }
