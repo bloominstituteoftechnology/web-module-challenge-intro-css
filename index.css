@@ -39,7 +39,6 @@ section{
 .top-text h1{
     font-family:'Chelsea Market', cursive;
     font-size:5rem;
-
 }
 nav{
     padding: 2% 0;
@@ -69,15 +68,21 @@ nav a{
 .top-section{
     display:inline-block;
     max-width:100%;
+    padding:5%;
 }
 .top-image{
     display:inline-block;
-    width:50%;
-    border-radius:10%;
+    border-radius:50%;
+    max-width:20%;
+}
+.top-image img{
+    border-radius:50%;
 }
 .top-text{
     display:inline-block;
-    width:50%;
+    max-width:40%;
+    padding:5%;
+    margin-left:20%;
 }
 span{
     color:black;
@@ -85,4 +90,7 @@ span{
 }
 footer{
     background-color:#F9E7DC;
+}
+.hero-image{
+    background-image:url("assets/footer_img.jpg");
 }
