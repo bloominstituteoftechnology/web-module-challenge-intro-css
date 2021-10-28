@@ -13,51 +13,59 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	border: 0;
 	}
 /* remember to define focus styles! */
-:focus {
-	outline: 0;
-	}
 
-ol, ul {
-	list-style: none;
-	}
-/* tables still need cellspacing="0" in the markup */
+
 
 *{
-    padding:0
+    padding:0;
     margin:0;
     box-sizing:border-box;
-    max-width 100%;
-
-
+    max-width: 100%;
+    border:1px solid gray;
 }
 html{
     font-size:  62.5%;
 
 }
+
 body{
     font-size:1.6rem;
-    line: heigth 1.5em;
-    color:aquamarine
+    line-height:1.5;
+    color: #44f4f4;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    
+}
 
+h1{
+    font-size: 5rem;
+    font-family: font-family: 'Chelsea Market', cursive;;
+}
+section{
+    padding:4% 0 
 }
 nav{
-    padding:2% 0;
-
+    padding: 2% 0;
 }
 nav a{
     display:inline-block;
     padding:1% 0;
-    width: 10%;
     border-radius: 10px;
     text-align: center;
-    color:azure;
-}
-.orange{
-    background-color: ;
-}
-.left img{
+    margin: 5%;
+    color: white;
+    
 
 }
-imgimgsdflskjdflkasjfdklsajdflksa
-sdfjdlaksjflkadsjflkadsjflksjfklsaf
-sdfkjaslkdjfklsjf
+
+a.orange{
+    background-color: #FF764E;
+    background-size: 10px 3px;
+}
+a.blue{
+    background-color: #5ED3EB;
+}
+a.yellow{
+    background-color: #FFCD69;
+}
+
