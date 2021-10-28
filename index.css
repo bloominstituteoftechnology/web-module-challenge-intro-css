@@ -45,6 +45,7 @@ a {
 h1 {
     font-size:5rem;
     font-family:'Chelsea Market', cursive;
+    
 }
 
 section {
@@ -62,6 +63,9 @@ nav a{
     border-radius: 10px;
     text-align: center;
     color: #fff;
+    padding-left:3%;
+    padding-right: 3%;
+    font-size: 1.6rem;
 }
 
 .orange {
@@ -71,13 +75,13 @@ nav a{
 
 .blue{
     background-color:#5ED3EB;
-    margin: 0 24%;
+    margin: 0 15%;
+    
 }
 
 .yellow{
     background-color:#FFCD69;
-    margin-right: 10%;
-    
+    /* margin-right: 5%; */
 }
 /*top section styles*/
 
@@ -106,10 +110,25 @@ nav a{
     position: absolute;
 }
 
+.right h2{
+    padding:3%;
+}
+.right p{
+    padding:1%;
+    margin-left:15%;
+    margin-right:15%;
+    font-size: 1.8rem;
+}
+
+
 /* mid section styles */
 .mid {
     background-color: #DDB9A3;
     color: #fff;
+    padding: 2%;
+    margin-left:3%;
+    margin-right:3%;
+    text-align: center;
 }
 
 .fire img{
@@ -121,14 +140,14 @@ nav a{
 
 .fire p{
     display: block;
-    margin-left:35%;
-    margin-right:35%;
+    margin-left:37%;
+    margin-right:37%;
     text-align: center;
 }
 
 .camper p {
-    margin-left:35%;
-    margin-right:35%;
+    margin-left:37%;
+    margin-right:37%;
     text-align: center;
 }
 .camper img{
@@ -148,9 +167,9 @@ span {
     center: fixed;
 }
 
-.footpic {
+.footer-img {
     max-width: 100%;
     height:300px;
-    overflow: hidden
+    overflow: hidden;
 }
       
