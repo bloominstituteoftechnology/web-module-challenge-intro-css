@@ -102,4 +102,30 @@ body {
     top:40%;
 }
 
+
+
+.main{
+    background-color:#DDB9A3;
+    color:white;
+    padding:2%;
+}
+.info div{
+    width:30%;
+    margin:5% auto;
+}
+.bold{
+    font-weight: bold;
+}
+.backgroundimg{
+    background-image: url('assets/footer_img.jpg');
+    height:50vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top-center;
+    width:100%;
+}
+footer{
+    background-color:#F9E7DC;
+}
+
 }
