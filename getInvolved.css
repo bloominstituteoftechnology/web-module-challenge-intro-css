@@ -63,6 +63,7 @@ nav a {
 .orange:hover{
     background-color: white;
     color:#ff764e;
+    border: 1px solid #ff764e;
 }
 .blue {
     background-color: #5ed3eb;
@@ -71,14 +72,17 @@ nav a {
 .blue:hover{
     background-color: #fff;
     color:#5ed3eb;
+    border: 1px solid #5ed3eb;
 }
 .yellow {
     background-color: #ffcd69;
     margin-right: 10%;
+    border: 1px solid #ffcd69;
 }
 .yellow:hover{
     background-color: #fff;
     color:#ffcd69;
+    border: 1px solid #ffcd69;
 }
 h1{
     text-align: center;
