@@ -21,7 +21,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     margin: 0;
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px black solid;
+    /* border: 1px black solid; */
 }
 
 html{
@@ -100,12 +100,17 @@ nav a{
     color: white;
     text-align: center;
     margin: 0 auto;
+    padding: 1% 2%;
+    font-size: 1.8rem;
 }
+
+
 
 .bottom div{
     margin: 2% auto;
-    width:25%;
+    width:16%;
     text-align: center;
+    font-size: .8rem;
 }
 
 .bottom div span{
