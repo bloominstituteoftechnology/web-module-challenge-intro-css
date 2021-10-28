@@ -83,6 +83,7 @@ nav a{
     text-align:center;
 }
 .left{
+    margin-left: 10%;
     width:30%;
 }
 .left img{
@@ -120,6 +121,7 @@ nav a{
 }
 footer{
     background-color: #F9E7DC;
+    margin-bottom: 1%;
 }
 footer a{
     display: inline-block;
