@@ -35,8 +35,10 @@ body{
 }
 section{
     padding:4% 0;
+    width:90%;
+    margin:0 auto;
 }
-.top-text h1{
+h1{
     font-family:'Chelsea Market', cursive;
     font-size:5rem;
 }
@@ -73,7 +75,7 @@ nav a{
 .top-image{
     display:inline-block;
     border-radius:50%;
-    max-width:20%;
+    max-width:25%;
 }
 .top-image img{
     border-radius:50%;
@@ -82,15 +84,29 @@ nav a{
     display:inline-block;
     max-width:40%;
     padding:5%;
-    margin-left:20%;
+    margin-left:5%;
+    text-align:center;
+}
+.text-container{
+    background-color:#DDB9A3;
+    color:white;
+    padding:2%;
+}
+.bottom-container{
+    width:30%;
+    margin:5% 0;
 }
 span{
     color:black;
     font-weight:bold;
 }
-footer{
-    background-color:#F9E7DC;
-}
 .hero-image{
     background-image:url("assets/footer_img.jpg");
+    height:50vh;
+    background-repeat:no-repeat;
+    background-position:top center;
+    width:100%;
+}
+footer{
+    background-color:#F9E7DC;
 }
