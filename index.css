@@ -51,7 +51,15 @@ nav a{
     width:10%
     border-radius:10px;
     text-align:center;
-    color:#ffffff;
+    color:#fff;
+}
+p{
+    display:inline-block;
+    padding:1% 0;
+    width:10%
+    border-radius:10px;
+    text-align:center;
+	bacground-color:#FF764E;
 }
 .orange{
     background-color:#FF764E;
