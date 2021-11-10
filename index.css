@@ -90,3 +90,9 @@ nav a{
     position: absolute;
     top: 45%;
 }
+section div p{
+    background-color: #DDB9A3;
+}
+footer{
+    background-color: #F9E7DC;
+}
