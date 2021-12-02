@@ -104,26 +104,27 @@ body {
 	font-family: "Roboto Mono", monospace;
 	background-color: #fffafa;
 }
-nav {
+.topnav,
+.botnav {
 	display: flex;
 	justify-content: space-evenly;
 	color: blanchedalmond;
-	margin-top: 2%;
-	margin-bottom: 10%;
+	margin-top: 20px;
+	margin-bottom: 50px;
 	align-items: center;
 }
 .plan {
-	padding: 30px;
+	padding: 15px;
 	text-align: center;
 	border-radius: 15px;
 }
 .learn {
-	padding: 30px;
+	padding: 15px;
 	text-align: center;
 	border-radius: 15px;
 }
 .get {
-	padding: 30px;
+	padding: 15px;
 	text-align: center;
 	border-radius: 15px;
 }
@@ -138,9 +139,9 @@ h1 {
 	text-align: center;
 }
 .header-pic img {
-	height: 210px;
-	width: 210px;
-	border-radius: 100px;
+	height: 250px;
+	width: 250px;
+	border-radius: 100%;
 }
 .plan {
 	background-color: #ff764e;
@@ -154,8 +155,24 @@ h1 {
 .maintext {
 	background-color: #ddb9a3;
 	color: #fffafa;
-	margin: 9%;
+	margin: 30px;
+	padding: 15px;
+}
+
+.firebox {
+	text-align: center;
+	margin: 10%;
+}
+.rvbox {
+	text-align: center;
+	margin: 10%;
 }
 footer {
+	overflow: hidden;
 	background-color: #f9e7dc;
+	width: 100%;
+	height: 250px;
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: space-between;
 }
