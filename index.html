@@ -1,37 +1,69 @@
 <!-- Markup the content below with tags and attributes such that it can be styled in CSS-->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<!-- Link your CSS stylesheet -->
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Chelsea+Market">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto+Mono">
+  <!-- Link your CSS stylesheet -->
+  <link rel="stylesheet" href="index.css">
+  <title>Yosemite Park Guide</title>
 </head>
+
 <body>
-        Plan your Visit
-        Learn about the Park
-        Get Involved
-   
-      
-      "header_img.jpg"
-      Yosemite Park Guide
-      Come explore California’s beautiful wilderness.
-      Always open. Reservations are not available or required to enter the park.
-      
-      Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.
-      
-      First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.
-      
-      "https://image.flaticon.com/icons/svg/2979/2979348.svg"
-      Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for current fire restrictions.
-      
-      "https://image.flaticon.com/icons/svg/820/820374.svg"
-      We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the park entrance fee upon arrival (there's no need to pay it in advance).
-    
-      "footer_img.png"
-      
-      
-        Plan your Visit
-        Learn about the Park
-        Get Involved
-      
+  <div class="container">
+
+    <nav class='topnav'>
+      <a class="plan">Plan your Visit</a>
+      <a class="learn">Learn about the Park</a>
+      <a class="get">Get Involved</a>
+    </nav>
+    <section class='toppart'>
+      <div class="header-pic">
+        <img src="./assets/header_img.jpg" alt="Pretty clouds and mountains.">
+      </div>
+      <div class="toptext">
+        <h1>Yosemite Park Guide</h1>
+        <p>Come explore California’s beautiful wilderness.</p>
+        <br>
+        <p>Always open. Reservations are not available or required to enter the park.</p>
+      </div>
+    </section>
+    <section class="maintext">
+      <p>Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the
+        persistence of life, and the tranquility of the High Sierra.</p>
+      <br>
+      <p>First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200
+        square
+        miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.
+      </p>
+    </section>
+    <section class="firebox">
+      <div class="fire">
+        <img src="https://image.flaticon.com/icons/svg/2979/2979348.svg" alt="A camp fire">
+      </div>
+      <p>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the
+        park’s
+        ecosystems. This blog provides updates about fires in Yosemite. Check for <b>current fire restrictions.</b></p>
+    </section>
+    <section class="rvbox">
+      <img src="https://image.flaticon.com/icons/svg/820/820374.svg" alt="A Sweet RV">
+      <p>We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the <b>park
+          entrance
+          fee</b> upon arrival (there's no need to pay it in advance).</p>
+    </section>
+
+    <footer>
+      <img src="./assets/footer_img.jpg" alt="Pretty mountains.">
+      <nav class='botnav'>
+        <a class="plan">Plan your Visit</a>
+        <a class="learn">Learn about the Park</a>
+        <a class="get">Get Involved</a>
+      </nav>
+    </footer>
+  </div>
 </body>
+
 </html>
