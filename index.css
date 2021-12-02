@@ -92,7 +92,7 @@ video {
 	padding: 0;
 	margin: 0;
 	max-width: 100%;
-	border: 2px cornflowerblue;
+	border: 1px solid black;
 }
 html {
 	font-size: 62.5%;
@@ -105,7 +105,42 @@ body {
 	background-color: #fffafa;
 }
 nav {
+	display: flex;
 	justify-content: space-evenly;
+	color: blanchedalmond;
+	margin-top: 2%;
+	margin-bottom: 10%;
+	align-items: center;
+}
+.plan {
+	padding: 30px;
+	text-align: center;
+	border-radius: 15px;
+}
+.learn {
+	padding: 30px;
+	text-align: center;
+	border-radius: 15px;
+}
+.get {
+	padding: 30px;
+	text-align: center;
+	border-radius: 15px;
+}
+.toppart {
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+}
+h1 {
+	font-family: "Chelsea Market";
+	font-size: 60px;
+	text-align: center;
+}
+.header-pic img {
+	height: 210px;
+	width: 210px;
+	border-radius: 100px;
 }
 .plan {
 	background-color: #ff764e;
@@ -118,6 +153,8 @@ nav {
 }
 .maintext {
 	background-color: #ddb9a3;
+	color: #fffafa;
+	margin: 9%;
 }
 footer {
 	background-color: #f9e7dc;
