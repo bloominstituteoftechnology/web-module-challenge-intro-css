@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	border: 2px cornflowerblue;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.6rem;
+	line-height: 1.5;
+	color: black;
+	font-family: "Roboto Mono", monospace;
+	background-color: #fffafa;
+}
+nav {
+	justify-content: space-evenly;
+}
+.plan {
+	background-color: #ff764e;
+}
+.learn {
+	background-color: #5ed3eb;
+}
+.get {
+	background-color: #ffcd69;
+}
