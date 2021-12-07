@@ -1,0 +1,116 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+/*General Styles*/
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+}
+a{
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+h1{
+    font-size: 5rem;
+    font-family: 'Chelsea Market', cursive;
+}
+section{
+    padding: 4% 0;
+}
+
+/* header */
+
+nav {
+    padding: 2% 0;
+}
+nav a{
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+.orange{
+background-color: #ff764e;
+margin-left: 10% ;
+}
+.blue{
+background-color: #5ed3eb;
+margin: 0 20%;
+}
+.yellow{
+    background-color: #ffcd69;
+    margin-right: 10%;
+}
+.top-container{
+    position: relative;
+}
+
+.left, .right{
+    display: inline-block;
+    text-align: center;
+}
+.left{
+    width: 30%;
+}
+.left img{
+border-radius: 50%;
+width: 80%;
+}
+.right{
+    width: 50%;
+    margin-left: 5%;
+    position: absolute;
+    top: 30%;
+}
+.middle-section{
+    background-color: #DDB9A3;
+    color: #ffffff;
+    text-align: center;
+    padding: 2%;
+    margin: 3%;
+}
+.info{
+    font-size: 0.9em;
+    max-width: 50%;
+    text-align: center;
+    margin-left: 28%;
+    padding: 5%;
+}
+footer img {
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+    background-color: #F9E7DC;
+}
+nav {
+    background-color: #F9E7DC;
+}
