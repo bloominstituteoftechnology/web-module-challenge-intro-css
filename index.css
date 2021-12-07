@@ -106,9 +106,9 @@ width: 80%;
     padding: 5%;
 }
 footer img {
-    width: 1600px;
+    width: 100%;
     height: 300px;
-    object-fit: cover;
+    object-fit: fill;
     background-color: #F9E7DC;
 }
 nav {
