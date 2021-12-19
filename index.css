@@ -133,3 +133,13 @@ table {
     margin:2%;
     text-align:center;
 }
+.middle-graphic{
+    width:30%;
+    text-align:center;
+    margin-left:35%;
+    margin-top:5%;
+}
+.middle-img{
+    width:60%;
+    height:auto;
+}
