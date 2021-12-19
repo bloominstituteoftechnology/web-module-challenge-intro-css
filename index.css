@@ -65,6 +65,7 @@ table {
     display:inline-block;
     padding:3%;   
     margin:2%;
+    margin-bottom:0;
     
 }
 .header-img{
@@ -117,4 +118,18 @@ table {
 .nav{
     margin-bottom:3%;
     padding:7%;
-};
+}
+.under-header{
+    margin-top:0;
+}
+
+.under-header-text-box{
+    width:95%;
+    margin-left:2%;
+    background-color: #DDB9A3;
+    padding:1%;
+}
+.under-header-text{
+    margin:2%;
+    text-align:center;
+}
