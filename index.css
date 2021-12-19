@@ -46,3 +46,45 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.img-and-headers{
+    display:inline-block;
+    margin-bottom:5%;
+  
+}
+.header-img-box{
+    width:25%;
+    display:inline-block;
+    margin:2%;
+    float:left;
+}
+.headers{
+    width:55%;
+    display:inline-block;
+    padding:3%;
+    float:center;    
+    margin:2%;
+    
+}
+.header-img{
+    width:100%;
+    height:auto;
+    border-radius:50%;
+
+}
+.header-one{
+    font-size:4rem;
+    text-align:center;
+    margin:4%;
+}
+.header-two{
+    font-size:1.5rem;
+    text-align:center;
+    margin:4%
+}
+.header-three{
+    font-size:1.5rem;
+    text-align:center;
+    width:70%;
+    margin:4%;
+    margin-left:15%;
+}
