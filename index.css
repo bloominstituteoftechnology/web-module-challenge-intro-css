@@ -56,12 +56,12 @@ table {
     display:inline-block;
     margin:2%;
     float:left;
+    margin-left:5%;
 }
 .headers{
     width:55%;
     display:inline-block;
-    padding:3%;
-    float:center;    
+    padding:3%;   
     margin:2%;
     
 }
@@ -88,3 +88,25 @@ table {
     margin:4%;
     margin-left:15%;
 }
+.plan-visit{
+    background-color:#FF764E;
+    margin-right:20%;
+    margin-left:5%;
+}
+.learn-park{
+    background-color:#5ED3EB;
+    margin-right:20%;
+ 
+}
+.get-involved{
+    background-color:#FFCD69;
+}
+.nav-link{
+    padding:3%;
+    width:25%;
+    border-radius:10%;
+}
+.nav{
+    margin-bottom:3%;
+    padding:7%;
+};
