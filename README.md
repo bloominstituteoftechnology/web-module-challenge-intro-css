@@ -35,7 +35,7 @@ Once your repository is set up, practice what you learned today to style the sit
 - [ ] Markup html semantically, such that it can be styled according to the given desktop image
 - [ ] Color the background of items in the navigation bar and footer with the following colors:
   - [ ] Plan your Visit: `#FF764E`
-  - [ ] Learn About the Park: `#5ED3EB`
+  - [ ] Learn About the Park: ``
   - [ ] Get Involved: `#FFCD69`
 - [ ] Change all font colors and styles according to design file
   - [ ] Yosemite Park Guide font is called Chelsea Market and can be found on [google fonts](https://fonts.google.com/specimen/Chelsea+Market)
@@ -46,7 +46,7 @@ Once your repository is set up, practice what you learned today to style the sit
 - [ ] Apply box model properties (content, padding, margin, and border) to all content such that your webpage matches the design file. This will include at least:
   - [ ] A round image in the header
   - [ ] Round corners on navigation and footer items
-  - [ ] Header image and text side by side
+#5ED3EB  - [ ] Header image and text side by side
   - [ ] Centered content and margins around content
   - [ ] Footer image positioning
 
