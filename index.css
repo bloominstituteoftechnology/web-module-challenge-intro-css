@@ -44,6 +44,12 @@ table {
 }
 
 /* Billy Dean starts here */
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+}
 .plan {
     background-color: #ff764e;
 }
