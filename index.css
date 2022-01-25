@@ -1,0 +1,166 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+
+	line-height: 1;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav{
+    height: 100px;
+    text-align: center;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    gap: 50px;
+}
+button{
+    border: none;
+    border-radius: 30px;
+    font-size: 28px;
+    color: white;
+    padding: 10px;
+}
+#plan{
+    width:  250px;
+    background-color: #FF764E;
+}
+#learn{
+    width:  250px;
+    background-color: #5ED3EB;
+    height: 100%;
+
+}
+#involved{
+    width:  250px;
+    background-color: #FFCD69;
+    height: 100%;
+}
+
+.main-header{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Chelsea Market', cursive;
+}
+.main-header h1{
+    font-size: 5em;
+}
+.main-header p{
+    font-size: 1.4em;
+}
+.left-header{
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.right-header{
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+header img{
+    border-radius: 50%;
+    height: 80%;
+}
+section{
+    background-color: #DDB9A3;
+    height: 40vh;
+    font-size: 1.4em;
+    margin: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    padding: 50px;
+    justify-content: center;
+}
+.info-reservations, .info-fire{
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.info p{
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+.info-reservations{
+    padding-top: 50px;
+}
+
+.footer_img{
+    background-color: lightseagreen;
+    width: 100%;
+    height: 400px;
+    background-image: url(/assets/footer_img.jpg);
+    background-size: cover;
+}
+
+footer{
+    background-color: #F9E7DC;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
