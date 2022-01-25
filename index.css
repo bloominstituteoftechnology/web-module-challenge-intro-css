@@ -50,6 +50,9 @@ body {
 h1 {
     font-family: 'Chelsea Market', cursive;
 }
+footer {
+    background-color: #F9E7DC;
+}
 .plan {
     background-color: #ff764e;
 }
@@ -68,15 +71,9 @@ h1 {
 .flaticon {
 
 }
-#header-image {
-
-}
 #about {
-
+    background-color: #ddb9a3;
 }
 #notices {
-
-}
-#footer-image {
 
 }
