@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* new code here */
+nav a {
+  padding: 20px;
+  display: inline-block;
+  margin: 100px 175px;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.visit {
+  background-color: #ff764e;
+}
+
+.learn {
+  background-color: #5ed3eb;
+}
+
+.involved {
+  background-color: #ffcd69;
+}
+
+h1 {
+  font-family: "Chelsea Market", cursive;
+  font-size: 4rem;
+  text-align: right;
+  margin-right: 15%;
+}
+
+.headerImg {
+  float: left;
+  border-radius: 50%;
+  margin-left: 100px;
+  margin-right: 5px;
+}
+
+p {
+  font-family: "Roboto Mono", monospace;
+  margin: 45px 10px;
+  text-align: center;
+}
+
+p strong {
+  font-weight: bold;
+}
+
+.p1 {
+  text-align: center;
+  background-color: #ddb9a3;
+  color: white;
+  margin: 50px;
+  padding: 2% 2%;
+}
+
+.campfire {
+  margin-left: 45%;
+  border-radius: 50%;
+}
+
+.p2 {
+  margin: 50px 500px;
+  padding: 1% 2%;
+}
+
+.p3 {
+  margin: 50px 500px;
+  padding: 1% 2%;
+}
+
+.camper {
+  margin-left: 45%;
+  border-radius: 50%;
+}
+
+.halfdome {
+  width: 100%;
+  height: 300px;
+}
+footer {
+  background-color: #f9e7dc;
+}
