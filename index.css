@@ -1,3 +1,4 @@
+/* CSS Reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -40,4 +41,36 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/* Billy Dean starts here */
+.plan {
+    background-color: #ff764e;
+}
+.learn {
+    background-color: #5ed3eb;
+}
+.involve {
+    background-color: #ffcd69;
+}
+.header-text {
+
+}
+.notice {
+
+}
+.flaticon {
+
+}
+#header-image {
+
+}
+#about {
+
+}
+#notices {
+
+}
+#footer-image {
+
 }
