@@ -1,0 +1,152 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Billy Dean starts here */
+* {
+    box-sizing:border-box;
+    max-width:100%;
+}
+html {
+    font-size:62.5%;
+}
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 6rem;
+}
+section{
+    padding:4% 0;
+    width: 90%;
+    margin: 0 auto;
+}
+img {
+    height:100%;
+    width:100%;
+}
+
+/*nav elements*/
+nav {
+    padding: 2% 0;
+}
+nav a {
+    z-index:1;
+    display:inline-block;
+    padding:1% 0;
+    width: 15%;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    color:white;
+    font-size: 2rem;
+}
+.plan {
+    background-color: #ff764e;
+    margin-left: 7%;
+}
+.learn {
+    background-color: #5ed3eb;
+    margin: 0 15%;
+}
+.involve {
+    background-color: #ffcd69;
+    margin-right: 7%;
+}
+/*intro elements*/
+.intro {
+    position: relative;
+}
+.round, .summary {
+    display:inline-block;
+}
+.round {
+    width:25%;
+}
+.round img {
+    border-radius: 50%;
+    width: 90%;
+}
+.summary {
+    width: 50%;
+    margin-left: 5%;
+    text-align: center;
+    line-height: 2;
+    position: absolute;
+    top: 100px;
+    font-size: 2rem;
+}
+
+/*main section*/
+#about {
+    background-color: #ddb9a3;
+    color:white;
+    padding: 2%;
+    font-size: 1.8rem;
+}
+#notices {
+    width: 30%;
+    margin: 5% auto;
+}
+.notice p {
+    font-size: 1.5rem;
+}
+.notice span {
+    font-weight: bold;
+}
+.background {
+    background-image: url('assets/footer_img.jpg');
+    height:50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
