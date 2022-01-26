@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
 * {
     box-sizing:border-box;
@@ -49,11 +50,15 @@ nav {
 
 .button {
     display: inline-block;
-    text-align: center;
-    width: 12%;
+    width: 15%;
     border-radius: 10%;
     padding: 2%;
-    margin-left: 20%;
+    margin-left: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -89,13 +94,14 @@ h1 {
 
 #topOne {
     margin-left: 500px;
+    margin-top: -50px;
     white-space: nowrap;
     
 }
 
 #topTwo {
-    margin: -1% 0% 1% 0%;
-    white-space: nowrap;
+    margin-left: 600px;
+    width: 100%;
 }
 
 #main {
