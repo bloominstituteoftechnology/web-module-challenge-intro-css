@@ -52,9 +52,14 @@ h1 {
     font-size: 4rem;
 }
 nav {
-    display: inline-block;
-    color: white;
-    font-size:1.3em;
+    display:block;
+    color:white;
+    font-size:1.5em;
+    margin-top:10px;
+}
+header img {
+    border-radius: 100%;
+    width: 325px; 
 }
 img {
     height:100%;
@@ -70,21 +75,38 @@ footer img {
 p {
     font-size: 1.4rem;
 }
-header img{
-    border-radius: 100%;
-    width: 325px;
-}
 .plan {
+    display:inline-block;
     background-color: #ff764e;
+    padding:10px 20px;
+    text-align: center;
+    margin:20px;
+    width: 175px;
+    height: 50px;
+    border-radius: 20px;
+    vertical-align: middle;
 }
 .learn {
+    display: inline-block;
     background-color: #5ed3eb;
+    padding:10px 20px;
+    text-align: center;
+    margin:20px;
+    width: 175px;
+    height: 50px;
+    border-radius: 20px;
+    vertical-align: middle;
 }
 .involve {
+    display: inline-block;
     background-color: #ffcd69;
-}
-.header-text {
-
+    padding:10px 20px;
+    text-align: center;
+    margin:20px;
+    width: 175px;
+    height: 50px;
+    border-radius: 20px;
+    vertical-align: middle;
 }
 .notice p {
     font-size: 1rem;
