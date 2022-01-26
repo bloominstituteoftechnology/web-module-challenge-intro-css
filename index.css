@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_QOW4Ep0.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+    font-family:'Roboto Mono';
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+.plan{
+    background-color:#FF764E
+}
+.learn{
+    background-color:#5ED3EB
+}
+.involved{
+    background-color:#FFCD69
+}
+@font-face {
+    font-family: 'Chelsea Market';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/chelseamarket/v11/BCawqZsHqfr89WNP_IApC8tzKChiJg8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+h1{
+    font-family:"Chelsea Market";
+}
+.box{
+    background-color:#DDB9A3;  
+}
+footer{
+    background-color: #F9E7DC;
+}
+.bold{
+    font-weight: bold;
+}
+.headerimage {
+    border-radius: 50%;
+    max-width: 12.5%
+}
+nav a{
+    margin: 0 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.content{
+    text-align:center;
+    margin: 0 20% 10% 20%;
+  }
+.footerimage {
+    max-height: 5%;
+    max-width:100%
+}
