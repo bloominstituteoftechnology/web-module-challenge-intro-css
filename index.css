@@ -1,0 +1,108 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Installing font */
+@font-face {
+    font-family: ChelseaMarket-Regular;
+    src: url(assets/ChelseaMarket-Regular.ttf);
+  }
+  @font-face {
+      font-family: Roboto-Mono;
+      src: url(assets/RobotoMono-VariableFont_wght.ttf);
+  }
+
+* {
+    font-family: ChelseaMarket-Regular;
+    font-size: 62.5%;
+}
+h1 {
+    font-size: 3rem;
+}
+.hero-text {
+    display: inline-block;
+}
+
+nav {
+    margin: 50px auto;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin: 0px 50px;
+    border-radius: 10px
+}
+
+.visit-button {
+    background-color: #FF764E;
+}
+.learn-button {
+    background-color: #5ED3EB;
+}
+.involved-button {
+    background-color: #FFCD69;
+}
+
+.rounded-yosemite {
+    display: inline-block;
+    border-radius: 100%;
+    width: 20%
+}
+.container {
+    margin: 0 5%
+}
+h1 {
+
+}
+.things-to-know {
+    
+}
+
+
