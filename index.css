@@ -1,36 +1,128 @@
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
 * {
     box-sizing:border-box;
     max-width: 100%;
     font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+/* header styles */
+header {
+    height: 20vh;
 }
 
-.headerImage {
-    background-image: url(C:\Users\manni\web-module-project-intro-css\asset\header_img.jpg);
+/* middle images style */
+}
+img {
+    width: 10%;
 }
 
-.visit {
+#fire {
+    height: 18vh;
+    margin-left: 4%;
+
+}
+ #rv {
+     width: 20%;
+     margin-left: 4%;
+     padding: 2%;
+ }
+
+/* nav styles */
+nav {
+    padding: 1%;
+}
+
+#visit {
     background-color: #FF764E;
+
+
 }
 
-.park {
+#park {
     background-color: #5ED3EB;
 }
 
-.involved {
+#involved {
     background-color: #FFCD69;
+
 }
 
-#title {
+.button {
+    display: inline-block;
+    text-align: center;
+    width: 12%;
+    border-radius: 10%;
+    padding: 2%;
+    margin-left: 20%;
+}
+
+
+/* header image style */
+.headerImg {
+    border-radius: 80%;
+    width: 20%;
+    padding: 1%;
+    margin-top: 4%;
+    margin-left: 1%;
+    margin-right: 50%;
+    rotate: 260deg;
+}
+
+#park {
+padding: 2%;
+}
+
+/* body style */
+h1 {
     font-family: 'Chelsea Market', cursive;
+    font-size: 60px;
+}
+#title {
+    margin-top: -250px;
+    margin-left: 25%;
+}
+
+.top {
+    width: 25%;
+    padding: 1%;
+}
+
+#topOne {
+    margin-left: 500px;
+    white-space: nowrap;
+    
+}
+
+#topTwo {
+    margin: -1% 0% 1% 0%;
+    white-space: nowrap;
 }
 
 #main {
     background-color: #DDB9A3;
+    padding: 1%;
+    margin: 1% 4%;
+
 }
 
+#middleOne {
+    padding: 1% 30% 1% 30%;
+    margin: 1% 2%;
+    text-align: center;
+}
+
+#middleTwo {
+    padding: 1% 30% 1% 30%;
+    margin: 1% 2%;
+    text-align: center;
+}
+
+/* footer Style */
 footer {
     background-color: #F9E7DC;
+}
+
+#footerImg {
+    width: 100%;
+    height: 60vh;
 }
