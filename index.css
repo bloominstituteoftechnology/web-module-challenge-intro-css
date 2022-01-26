@@ -14,7 +14,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -44,22 +44,40 @@ table {
 }
 
 /* Billy Dean starts here */
+* {
+    box-sizing:border-box;
+    border: 1px solid gray;
+    max-width:100%;
+}
+html {
+    font-size:62.5%;
+}
 body {
+    font-size: 1.6rem;
+    line-height: 1.5;
     font-family: 'Roboto Mono', monospace;
 }
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 4rem;
+    font-size: 5rem;
+}
+section{
+    padding:4% 0;
+    width: 90%;
+    margin: 0 auto;
 }
 nav {
-    display:block;
-    color:white;
-    font-size:1.5em;
-    margin-top:10px;
+    padding: 2% 0;
 }
-header img {
-    border-radius: 100%;
-    width: 325px; 
+nav a {
+    display:inline-block;
+    padding:1% 0;
+    width: 15%;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    color:white;
+    font-size: 1.5rem;
 }
 img {
     height:100%;
@@ -75,38 +93,21 @@ footer img {
 p {
     font-size: 1.4rem;
 }
+.round img {
+    border-radius: 100%;
+    width: 325px;
+}
 .plan {
-    display:inline-block;
     background-color: #ff764e;
-    padding:10px 20px;
-    text-align: center;
-    margin:20px;
-    width: 175px;
-    height: 50px;
-    border-radius: 20px;
-    vertical-align: middle;
+    margin-left: 7%;
 }
 .learn {
-    display: inline-block;
     background-color: #5ed3eb;
-    padding:10px 20px;
-    text-align: center;
-    margin:20px;
-    width: 175px;
-    height: 50px;
-    border-radius: 20px;
-    vertical-align: middle;
+    margin: 0 15%;
 }
 .involve {
-    display: inline-block;
     background-color: #ffcd69;
-    padding:10px 20px;
-    text-align: center;
-    margin:20px;
-    width: 175px;
-    height: 50px;
-    border-radius: 20px;
-    vertical-align: middle;
+    margin-right: 7%;
 }
 .notice p {
     font-size: 1rem;
@@ -124,7 +125,4 @@ p {
 #footimg {
     width: auto;
     height: 225px;
-}
-#headimg{
-    
 }
