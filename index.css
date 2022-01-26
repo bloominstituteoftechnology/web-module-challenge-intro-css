@@ -49,9 +49,30 @@ body {
 }
 h1 {
     font-family: 'Chelsea Market', cursive;
+    font-size: 4rem;
+}
+nav {
+    display: inline-block;
+    color: white;
+    font-size:1.3em;
+}
+img {
+    height:100%;
+    width:100%;
 }
 footer {
     background-color: #F9E7DC;
+}
+footer img {
+    object-fit: cover;
+    object-position: 0px -40px;
+}
+p {
+    font-size: 1.4rem;
+}
+header img{
+    border-radius: 100%;
+    width: 325px;
 }
 .plan {
     background-color: #ff764e;
@@ -65,15 +86,23 @@ footer {
 .header-text {
 
 }
-.notice {
-
+.notice p {
+    font-size: 1rem;
+}
+.notice span {
+    font-weight: bold;
 }
 .flaticon {
 
 }
 #about {
     background-color: #ddb9a3;
+    color:white;
 }
-#notices {
-
+#footimg {
+    width: auto;
+    height: 225px;
+}
+#headimg{
+    
 }
