@@ -1,4 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
 * {
     box-sizing:border-box;
     max-width: 100%;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.headerImage {
+    background-image: url(C:\Users\manni\web-module-project-intro-css\asset\header_img.jpg);
+}
+
+.visit {
+    background-color: #FF764E;
+}
+
+.park {
+    background-color: #5ED3EB;
+}
+
+.involved {
+    background-color: #FFCD69;
+}
+
+#title {
+    font-family: 'Chelsea Market', cursive;
+}
+
+#main {
+    background-color: #DDB9A3;
+}
+
+footer {
+    background-color: #F9E7DC;
 }
