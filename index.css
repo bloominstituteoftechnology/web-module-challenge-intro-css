@@ -73,25 +73,43 @@ h1 {
     font-size: 5rem;
 }
 
+section {
+    padding: 4% 0;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
 nav {
-    width: 100%;
+    padding: 2% 0%;
     height: 5%;
+    
 }
 
 nav div {
     display: inline-block;
-    padding: 1% 2%;
+    padding: 1% 0%;
+    width: 10%;
     margin: 2% 5%;
     border-radius: 1rem;
     text-align: center;
+    
+}
+
+nav div a {
+    color: white;
+    text-decoration: none;
 }
 
 #link1 {
     background: #FF764E;
+    margin-left: 10%;
 }
 #link2 {
     background: #5ED3EB;
+    margin: 0 18%;
 }
 #link3 {
     background: #FFCD69;
+    margin-right: 10%;
 }
