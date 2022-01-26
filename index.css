@@ -46,3 +46,73 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.headings a{
+	border: dashed blue;
+	font-family: fantasy;
+	font-size: 1.2rem;
+	display:inline-flex;
+	width: 30%;
+	text-align: center;
+	height: 5vh;
+	padding: 2% 1% .5% 1%;
+	margin: 2px auto;
+}
+
+#tab1{
+	width: 30%;
+	color: white;
+	background-color: #f4a633;
+	border-radius: 30%;
+}
+
+.main img{
+	height: 30vh;
+	width: 39vh;
+	border-radius: 50%;
+}
+
+
+.main{
+	border: dashed red;
+	display:inline-flex;
+	width: 115vh;
+	
+}
+.points {
+	list-style-type: none;
+	text-align: center;
+}
+.main h1{
+	/* display:inline-block; */
+	font-family: fantasy;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	font-size: 2rem;
+	padding-bottom: 4%;
+	padding-top: 6%;
+	padding-left: 4%
+	
+}
+
+.main h2{
+	/* display:inline-block; */
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	font-size: 1.3rem;
+	font-family: monospace;
+	padding-left: 3%;
+	padding-bottom: 2%;
+}
+
+.main h3{
+	/* display:inline-block; */
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	font-size: 1rem;
+	font-family: monospace;
+	padding-left: 3%;
+}
