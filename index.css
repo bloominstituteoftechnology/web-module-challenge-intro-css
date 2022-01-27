@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*^^^^^^^^^^^ RESET ^^^^^^^^^^^^^^^*/
+
+
+
+/*universal selector*/
+*{
+    box-sizing: border-box;
+    /* border: 1px solid grey; */
+    max-width: 100%;
+}
+
+
+/*html tag */
+html{
+    font-size: 62.5%;
+}
+
+
+body {
+    font-family: "Roboto Mono", monospace;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+
+h1 {
+    font-family: "Chelsea Market", cursive;
+    font-size: 6rem;
+
+}
+
+/*good to target all sections on page and add overall similar look to them so everything is spaced out
+evenly and looks nice :) */
+section {
+    padding: 4% 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/*---------- HEADER SEC*/
+
+nav {
+    padding: 2% 0;
+    
+}
+
+/* these are shapes for buttons nav */
+
+nav a  {
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/*target class names here to change their attr's*/
+
+.plan {
+    background-color: #FF764E;
+    margin-left: 10%;
+}
+
+.learn {
+    background-color: #5ED3EB;
+    margin: 0 24%;
+}
+
+.involve {
+    background-color: #FFCD69;
+    margin-right: 8%;
+}
+
+/*about section*/
+
+.about{
+    position: relative;
+}
+
+.text, .image{
+    display: inline-block;
+
+}
+
+.image{
+    width: 35%;
+    
+}
+
+.round{
+    border-radius: 50%;
+}
+
+.text{
+    width: 55%;
+    margin-left: 5%;
+    text-align: center;
+    line-height: 3;
+    position: absolute;
+    top: 150px;
+}
+
+/*summary section*/
+
+.summary{
+    background-color: #DDB9A3;
+    color: white;
+    padding: 4%;
+    line-break: auto;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.par1{
+    padding: 10%;
+
+}
+
+.info div{
+    width: 30%;
+    margin: 5% auto;
+}
+
+/*access bold text here*/
+.bold{
+    font-weight: bold;
+}
+
+/*access bckgrnd img here*/
+.background-img{
+    background-image: url("assets/footer_img.jpg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+
+}
+
+/*access footer..*/
+footer{
+    background-color: #F9E7DC;
+}
