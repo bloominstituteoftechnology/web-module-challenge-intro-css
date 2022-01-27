@@ -66,8 +66,8 @@ html{
 
 
 body {
-    font-family: "Roboto", monospace;
-    font-size: 1.6rem;
+    font-family: "Roboto Mono", monospace;
+    font-size: 2rem;
     line-height: 1.5;
 }
 
@@ -94,6 +94,7 @@ nav {
     
 }
 
+/* these are shapes for buttons nav */
 
 nav a  {
     display: inline-block;
@@ -139,14 +140,14 @@ nav a  {
 }
 
 .round{
-    border-radius: 50;
+    border-radius: 50%;
 }
 
 .text{
     width: 55%;
     margin-left: 5%;
     text-align: center;
-    line-height: 2;
+    line-height: 3;
     position: absolute;
     top: 150px;
 }
@@ -157,8 +158,15 @@ nav a  {
     background-color: #DDB9A3;
     color: white;
     padding: 4%;
+    line-break: auto;
+    line-height: 1.5;
+    text-align: center;
 }
 
+.par1{
+    padding: 10%;
+
+}
 
 .info div{
     width: 30%;
