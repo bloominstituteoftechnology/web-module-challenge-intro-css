@@ -57,64 +57,131 @@ html{
     font-size: 62.5%;
 }
 
-body{
-    font-family: 'Courier New', Courier, monospace;
+body,p{
+    font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
     color: #4f4f4f;
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Chelsea Market', cursive;
     letter-spacing: 3px;
 }
 
 header{
     width: 100%;
     text-align: center;
-    padding: 2% 0;
+    margin: 2% 0;
+}
+
+header div{
+    padding: 1% 0;
 }
 
 .headerBlocks1{
     display: inline-block;
-    width: 10%;
+    width: 15%;
     text-align: center;
     border-radius: 10px;
     background-color: #FF764E;
-    margin: 0 10%;
+    margin: 0 5% 0 0;
 }
 
 .headerBlocks2{
     display: inline-block;
-    width: 10%;
+    width: 15%;
     text-align: center;
     border-radius: 10px;
     background-color: #5ED3EB;
-    margin: 0 10%;
 }
 
 .headerBlocks3{
     display: inline-block;
-    width: 10%;
+    width: 15%;
     text-align: center;
     border-radius: 10px;
     background-color: #FFCD69;
-    margin: 0 10%;
+    margin: 0 0 0 5%;
 }
 
-section{
+.section1{
+    text-align: center;
+}
+
+.sectionOneDivOne{
     display: inline-block;
-    width: 100%;
+    width: 15%;
 }
 
-.circleImage{
-    display: inline-block;
-    width: 40%;
-    background-color: lightblue;
-}
-
-.circleImage img{
+.sectionOneDivOne img{
     border-radius: 50%;
     background-size: contain;
     width: 100%;
+}
+
+.sectionOneDivTwo{
+    display: inline-block;
+    text-align: center;
+}
+
+.sectionOneDivTwo h1{
+    display: inline-block;
+    font-size: 5rem;
+}
+
+.sectionOneDivTwo p{
+    padding: 2% 0;
+}
+
+.section2{
+    padding: 2%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.section2 div{
+    background-color: #DDB9A3;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2%;
+}
+
+.section3{
+    width: 100%;
+    text-align: center;
+    margin: 0 0 3% 0;
+}
+
+.section3DivOneA img{
+    text-align: center;
+    padding: 3%;
+    margin: 3% 0;
+}
+
+.section3 .section3DivOne .section3DivOneA p span{
+    font-style: bold;
+}
+
+.section3DivOneB img{
+    text-align: center;
+    padding: 3%;
+    margin: 3% 0;
+}
+
+footer{
+    background-color: #F9E7DC;
+    text-align: center;
+    margin: 2% 0 0 0;
+}
+
+footer img{
+    width: 100%;
+    background-size: contain;
+    height: 60vh;
+}
+
+footer div{
+    padding: 1% 0;
 }
