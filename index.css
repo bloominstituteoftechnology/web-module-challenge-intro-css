@@ -47,3 +47,74 @@ blockquote, q {
 
 /*Personal Styling*/
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    padding: 2% 0;
+}
+
+.headerBlocks1{
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FF764E;
+    margin: 0 10%;
+}
+
+.headerBlocks2{
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #5ED3EB;
+    margin: 0 10%;
+}
+
+.headerBlocks3{
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FFCD69;
+    margin: 0 10%;
+}
+
+section{
+    display: inline-block;
+    width: 100%;
+}
+
+.circleImage{
+    display: inline-block;
+    width: 40%;
+    background-color: lightblue;
+}
+
+.circleImage img{
+    border-radius: 50%;
+    background-size: contain;
+    width: 100%;
+}
