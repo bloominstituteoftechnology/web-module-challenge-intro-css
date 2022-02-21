@@ -21,11 +21,12 @@ The styles in your [design file](/design/desktop.jpg) include bright colors and 
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [ ] Fork the repository, then clone from your fork.
+- [ ] Go into Canvas and connect your repository by copy-pasting its Github URL into the submission slot.
+- [ ] DO NOT CREATE A BRANCH. You will be pushing your changes to the main/master today.
+- [ ] cd into your repository on the command line and use code . to open VS Code.
+- [ ] Download the Live Server extension from the Extensions tab on the left side of your VS Code. After it is done installing, click "Go Live" on the bottom right side of your screen to run your HTML file.
+- [ ] Complete your work making regular commits to the main branch; your submitted URL will always reflect your most recent work.
 
 ### Task 2: Minimum Viable Product
 
@@ -69,10 +70,3 @@ The following goals are designed to stretch your knowledge and may require addit
 👋 [Assignment help: w3 CSS tutorials](https://www.w3schools.com/css/)
 
 👀 [Yosemite National Park Official Website](https://www.nps.gov/yose/index.htm)
-
-## Submission format
-
-Follow these steps for completing your project.
-
-- [ ] Submit a pull request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-
