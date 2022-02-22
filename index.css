@@ -59,16 +59,16 @@ p {
     font-family: 'Roboto Mono', monospace;
 }
 .header-content a {
-    display: center;
-    /* text-align: center; */
+    display: inline-block;
+    position: relative;
     margin: 5%;
     padding: 1%;
     font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
     position: relative;
     width: 5%;
     border-radius: 10%;
 }
-
 header nav a:first-child {
     background-color: #FF764E;
     color: white;
@@ -81,12 +81,23 @@ header nav a:last-child {
     background-color: #FFCD69;
     color: white;
 }
-.intro-content img {
-    height: 50%;
-    width: 50%;
-    border-radius: 9999px;
-}
 .intro-content {
-    margin: 10%;
-    padding: 10%;
+    display: inline-block;
+    text-align: center;
+    max-width: 100%;
+    border: red solid 2px;
+}
+.intro-content img {
+    position: relative;
+    height: 20%;
+    width: 30%;
+    border-radius: 100%;
+}
+.intro-content .left {
+    width: 80%;
+}
+.intro-content .right {
+    width: 50%;
+    margin-left: 50%;
+    margin-bottom: 30%;
 }
