@@ -52,11 +52,21 @@ table {
 * {
     text-align: center;
 }
-header nav a {
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-    border-radius: 20;
+h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+p {
+    font-family: 'Roboto Mono', monospace;
+}
+.header-content a {
+    display: center;
+    /* text-align: center; */
+    margin: 5%;
+    padding: 1%;
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    width: 5%;
+    border-radius: 10%;
 }
 
 header nav a:first-child {
@@ -72,7 +82,11 @@ header nav a:last-child {
     color: white;
 }
 .intro-content img {
-    height: 200px;
-    width: 200px;
+    height: 50%;
+    width: 50%;
     border-radius: 9999px;
+}
+.intro-content {
+    margin: 10%;
+    padding: 10%;
 }
