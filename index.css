@@ -107,6 +107,9 @@ header nav a:last-child {
     margin: 4%;
     background-color: #DDB9A3;
 }
+.body-content {
+    text-align: center;
+}
 .body-content img {
     height: 10%;
     width: 10%;
