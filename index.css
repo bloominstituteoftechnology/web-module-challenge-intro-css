@@ -1,0 +1,82 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    padding: 4% 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+section{
+    padding: 4% 0;
+    width: 90%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 6rem;
+}
+
+img {
+    width: 30%
+}
+
+.round {
+    border-radius: 50%;
+}
+
+nav a{
+    display: inline-block;
+    padding: 1%;
+    width: 10%;
+    text-align: center;
+    border-radius: 10%;
+    color: white;
+    text-decoration: none;
+}
+
+nav .orange { 
+    background-color: #FF764E;
+}
+
+nav .blue {
+    background-color: #5ED3EB;
+}
+
+nav .yellow{
+    background-color: #FFCD69;
+}
+
+#mid {
+    background-color: #DDB9A3;;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
