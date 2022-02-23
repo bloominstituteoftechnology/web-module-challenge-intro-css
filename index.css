@@ -47,10 +47,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-/* CSS Styling */
+/*-----------------------------------*/
+/* header section */
 * {
-    text-align: center;
+    max-width: 100%;
 }
 h1 {
     font-family: 'Chelsea Market', cursive;
@@ -58,7 +58,10 @@ h1 {
 p {
     font-family: 'Roboto Mono', monospace;
 }
-.header-content a {
+header {
+    text-align: center;
+}
+header nav a {
     display: inline-block;
     position: relative;
     margin: 5%;
@@ -81,10 +84,12 @@ header nav a:last-child {
     background-color: #FFCD69;
     color: white;
 }
+/* introduction section */
 .intro-content {
     display: inline-block;
     text-align: center;
     max-width: 100%;
+    margin: 50%, 50% 20% 20%;
     border: red solid 2px;
 }
 .intro-content img {
@@ -93,11 +98,53 @@ header nav a:last-child {
     width: 30%;
     border-radius: 100%;
 }
-.intro-content .left {
-    width: 80%;
+/* body section */
+.about-content {
+    text-align: center;
+    max-width: 100%;
+    padding: 2%;
+    color: white;
+    margin: 4%;
+    background-color: #DDB9A3;
 }
-.intro-content .right {
-    width: 50%;
-    margin-left: 50%;
-    margin-bottom: 30%;
+.body-content img {
+    height: 10%;
+    width: 10%;
+
+}
+/* footer section */
+footer {
+    text-align: center;
+} 
+footer a {
+    display: inline-block;
+    position: relative;
+    margin: 20, 0, 20 0;
+    padding: 1%;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    position: relative;
+    width: 5%;
+    border-radius: 10%;
+}
+footer div img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    padding-top: 10%;
+}
+footer nav {
+    background-color: #F9E7DC;
+}
+footer nav a:first-child {
+    background-color: #FF764E;
+    color: white;
+}
+footer nav a:nth-child(2) {
+    background-color: #5ED3EB;
+    color: white;
+}
+footer nav a:last-child {
+    background-color: #FFCD69;
+    color: white;
 }
