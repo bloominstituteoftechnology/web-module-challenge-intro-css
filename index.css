@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 5;
+    margin: 10;
+    max-width:100%;
+}
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 4% 5%;
+    padding: 2%;
+    font-size: .8rem;
+    color:white;
+    border-radius:25%;
+}
+p {
+    font-family: "Roboto+Mono", monospace;  
+}
+
+.visit{
+background-color:#FF764E;
+}
+
+.learn{
+background-color:#5ED3EB;
+}
+
+.involved{
+background-color:#FFCD69;
+}
+
+body {
+    font-family: "Roboto+Mono", monospace; 
+    font-size:1rem;
+}
+h1 {
+    font-family: "Chelsea Market", sans-serif;
+    font-size:3.5rem;
+}
+.header-picture {
+    height:30vh;
+    border-radius:100%;
+    margin-left: 5%;
+}
+
+.header-text {
+    display:inline-block;
+    text-align: center;
+    width:52%;
+}
+ h3{
+     line-height:200%;
+ }
+ .learn-background {
+     background-color:#ddb9a3;
+     margin:10%;
+     color:white;
+     padding:8px;
+ }
+ .pain-and-suffering {
+    margin-bottom:10%;
+    margin-left:20%;
+    margin-right:20%;
+ }
+ .campfire {
+     margin-right: 45%;
+     margin-left: 45%;
+     height: 10rem;
+     width: 10rem;
+ }
+ .camper {
+    margin-right: 45%;
+    margin-left: 45%;
+     height: 10rem;
+     width:10rem;
+ }
+ .involvement{
+     display: inline-block;
+     margin-left:25%;
+     margin-right:25%;
+     text-align: center;
+
+ }
+.footer {
+    margin-right:15%;
+    margin-left:10%;
+    height: 350px;
+    background-image: url(https://raw.githubusercontent.com/bloominstituteoftechnology/web-module-project-intro-css/main/assets/footer_img.jpg);
+    border: 3px solid yellowgreen;
+}
