@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+header h1{
+    font-family: 'Chelsea Market', cursive;;
+    font-size: 52px;
+    text-align: center;
+}
+
+h3{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+
+.container{
+    text-align: center;
+    height: 10wh;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+.container nav a{
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 10vw;
+    color: white
+}
+nav a:hover{
+    color:#eb5e88;
+}
+
+.headimage{
+    border-radius: 50%;
+    display: inline;
+    margin-left: 5vw;
+}
+
+.mainbody{
+    background-color: #DDB9A3;
+    width: 90vw;
+    margin-left: 3vw;
+    margin-top: 5vh;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.maindes{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 15px;
+}
+
+.maindes img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.maindes p{
+    text-align: center;
+}
+
+
+
+.planyourvisit{
+    background-color: #FF764E;
+}
+.learnaboutthepark{
+    background-color: #5ED3EB;
+}
+.getinvolved{
+    background-color: #FFCD69;
+}
+
+
+footer{
+    background-color: #F9E7DC;
+    height: 25vh;
+    bottom: 0;
+}
+
+.endimage{
+    width: 100%;
+    overflow: hidden;
+}
+
+
