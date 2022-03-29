@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* TYPOGRAPHY */
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+main h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* NAVIGATION */
+
+nav { 
+    width: 100%;
+    text-align: center;
+    padding: 2em 0 2em 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin: 0 2em 0 2em;
+    border-radius: 10px; 
+    color: #ffffff;  
+    text-decoration: none;
+}
+
+#plan-visit {
+    background-color: #FF764E;
+}
+
+#learn-about {
+    background-color: #5ED3EB;
+}
+
+ #get-involved {
+    background-color: #FFCD69;
+}
+
+/* MAIN AREA */
+
+main {
+    text-align: center;
+    display: inline-block; 
+    width: 100%;
+    padding: 2em 0 2em 0;
+}
+
+main h1,
+main p {
+    margin-bottom: 0.5em;
+}
+
+main img {
+    width: 20%;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+main div {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+}
+
+
+/* BROWN SECTION AREA*/
+
+.info-section {
+    background-color: #DDB9A3;
+    padding: 2em 0 2em 0;
+}
+
+.info-section div {
+    width: 1000px;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* ICONS SECTION AREA */
+section img {
+    width: 10%;
+}
+
+.icon-section {
+    padding: 2em 0 2em 0;
+    max-width: 90%;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icon-section p {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+/* FOOTER  */
+footer img{
+    width: 100%;
+    display: block;
+}
+
+footer nav {
+    background-color: #F9E7DC
+}
