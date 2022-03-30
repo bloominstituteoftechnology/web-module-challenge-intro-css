@@ -1,10 +1,26 @@
+/* drafting */
+/* all other references i don't need yet:
+
+
+
+*/
+
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
 a#plan {
     background-color: #FF764E;
 }
 a#about {
-    background-color: #5ED3EB
+    background-color: #5ED3EB;
 }
 
 a#action {
-    background-color: #FFCD69
+    background-color: #FFCD69;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
 }
