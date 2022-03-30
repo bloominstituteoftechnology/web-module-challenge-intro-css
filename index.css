@@ -82,9 +82,7 @@ header nav{
 .top img{
     border-radius: 50%;
     margin-left: 5%;
-    max-width: 50%;
-    height: 50%;
-    margin-top: 8%;
+    width: 30%;
 }
 
 .title{
