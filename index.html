@@ -1,37 +1,71 @@
 <!-- Markup the content below with tags and attributes such that it can be styled in CSS-->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<!-- Link your CSS stylesheet -->
+
+  <head>
+    <!-- CSS stylesheet came with the project -->
+    <link rel = "stylesheet" href="index.css">
+  </head>
+  <body>
+    <!-- Not sure whether I'm going to need a container section but I've seen it with other websites so qiurwlhdjfh
+      if I do need a container section I'm going to put the header inside of it but I'm not sure if it should be outside of the body as well. Probably not but we'll see -->
+    <header>
+
+        <nav>
+          <a id="plan" href="#plan/i">Plan Your Visit</a>
+          <a id="about" href="#about/i">Learn about the Park</a>
+          <a id="action" href="#action/i">Get Involved</a>
+        </nav>
     
-</head>
-<body>
-        Plan your Visit
-        Learn about the Park
-        Get Involved
-   
+      </header>
       
-      "header_img.jpg"
-      Yosemite Park Guide
-      Come explore California’s beautiful wilderness.
-      Always open. Reservations are not available or required to enter the park.
+      <!-- i imagine this won't be static so it probably should be outside of the header -->
+      <div class = "title">
+          <div class="left">
+            <!-- circle shaped img -->
+            <img src="/assets/header_img.jpg"/>
+          </div>
+        <!-- side by side these two -->
+        <div class="right">
+          <h1>Yosemite Park Guide</h1>
+          <p>Come explore California’s beautiful wilderness.<br>Always open. Reservations are not<br>available or required to enter the<br>park.</p>
+        </div>
+      </div>
       
-      Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.
-      
-      First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.
-      
-      "https://image.flaticon.com/icons/svg/2979/2979348.svg"
-      Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for current fire restrictions.
-      
-      "https://image.flaticon.com/icons/svg/820/820374.svg"
-      We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the park entrance fee upon arrival (there's no need to pay it in advance).
-    
-      "footer_img.png"
-      
-      
-        Plan your Visit
-        Learn about the Park
-        Get Involved
-      
-</body>
+      <div class="post">
+      <!-- I like to imagine this to be one blog post with some custom css and this is their about page :p -->
+        <section id="about/i">
+          <!-- orange box -->
+          <div id="flavor">
+            <p> Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.<br>First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.</p>
+          </div>
+
+          <!-- landing page content! -->
+          <section id="content">
+            <img class ="icon" src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/344/external-forest-fire-ecology-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/>
+                
+            <p>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. <a href="example.link">Check for current fire restrictions.</a></p>
+                
+            <img glass="icon" src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/344/external-camping-ecology-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/>
+            <p>We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the park entrance fee upon arrival (there's no need to pay it in advance).</p>
+          </section>
+        </section>
+      </div>
+      <footer>
+          <div class= "footer content">
+            <!-- chose to use divs instead of sections here because i'm used to them and i reject change! -->
+            <img class ="banner" src="/assets/footer_img.jpg">
+
+            <!-- same links as up top -->
+            <nav>
+              <a href="#plan/i">Plan Your Visit</a>
+              <a href="#about/i">Learn about the Park</a>
+              <a href="#action/i">Get Involved</a>
+            </nav>
+
+          </div>
+          
+      </footer>
+
+  </body>
 </html>
