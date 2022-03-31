@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family:'Roboto Mono', monospace; 
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    margin-bottom: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.plan {
+    display: flex;
+   background-color: #FF764E;
+   width: 30%;
+  height: 100px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.learn {
+    display: flex;
+    background-color: #5ED3EB;
+    width: 30%;
+    height: 100px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.get {
+    display: flex;
+    background-color: #FFCD69;
+    width: 30%;
+  height: 100px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.pic1 {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+.titletext{
+    
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    font-size: xx-large;
+    font-family: 'Chelsea Market', cursive;
+}
+header {
+    align-items: center;
+    font-family:'Roboto Mono', monospace;
+}
+
+
+.section{
+    background-color: #DDB9A3;
+    font-family:'Roboto Mono', monospace;
+    width: 80%;
+  padding: 50px;
+  margin: 100px;
+    align-content: center;
+    color: white;
+    text-align: center;
+}
+.p1{
+    margin-bottom: 15px;
+}
+.middlesection{
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.i2{
+    display: flex;
+ align-items: center;
+}
+
+.p3{
+    width: 20%;
+    font-size: small;
+}
+.p4{
+    width: 20%;
+    font-size: small;
+}
+.footi{
+    width:100%;
+    height: 150px;
+    object-fit: cover;
+}
+.plan2 {
+    display: flex;
+   background-color: #FF764E;
+   width: 30%;
+  height: 100px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.learn2 {
+    display: flex;
+    background-color: #5ED3EB;
+    width: 30%;
+    height: 100px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.get2 {
+    display: flex;
+    background-color: #FFCD69;
+    width: 30%;
+  height: 100px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+footer {
+    background-color: #F9E7DC;
+
+}
+
+.bold{
+    font-weight: bold;
+}
+
