@@ -55,25 +55,30 @@ table {
 
 
 html{
-    font-size: 60%
+    font-size: 62.5%
 }
-
+body {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+}
 section{
     padding:3%, 0;
     width: 90%;
     margin: 0 auto;
 }
-/* font pool */
-body {
-    font-size: 1.6rem;
-    line-height: 1.5;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 100;
-}
 
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 5rem;
+    font-size: 6rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom:2rem;
+}
+h2{
+    font-size: 2.2rem;
+    padding-top: 1em;
 }
 p>heavy{
     font-family: 'Roboto Mono', monospace;
@@ -91,19 +96,24 @@ nav{
 }
 nav a{
     display: inline-block;
-    width: 20rem;
-    align: center;
+    width: 15%;
+    margin: 0% 0% 0% 15%;
+    text-align: center;
+    border-radius: 1em;
+    color:#ffffff;
+    text-decoration: none; 
+    font-weight: 500;
+    font-size: 2.5rem;
 }
 
-        a#plan {
+        a.plan {
             background-color: #FF764E;
-            /* height: 6%; */
         }
-        a#about {
+        a.about {
             background-color: #5ED3EB;
         }
 
-        a#action {
+        a.action {
             background-color: #FFCD69;
         }
 
@@ -122,4 +132,35 @@ nav a{
 
 img#circlehead{
     border-radius: 50%;
+    display: inline-block;
+    max-height: 20em;
+    
+}
+div.title{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   /* display: inline-block; */
+    
+}
+
+div.left{
+    display:inline-block;
+    width: 41%;
+    height: 100%;
+    padding-left: 5em;
+}
+div.right{
+    display:inline-block;
+    max-height: 100em;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    margin-top: 0%;
+    padding-top: 2em;
+    /* background: blue; */
+    /* color: white; */
 }
