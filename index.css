@@ -144,6 +144,7 @@ div.title{
    justify-content: center;
    align-items: center;
    /* display: inline-block; */
+   margin-bottom: 4rem;
     
 }
 
@@ -163,4 +164,20 @@ div.right{
     padding-top: 2em;
     /* background: blue; */
     /* color: white; */
+}
+
+
+
+/* body of the thing */
+div.post{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+section#about{
+font-size: xx-small;
 }
