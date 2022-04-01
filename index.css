@@ -179,7 +179,7 @@ div.post{
 }
 
 section#about{
-font-size: xx-small;
+
 }
 
 div#flavor{
@@ -187,4 +187,21 @@ div#flavor{
     color: #ffffff;
     padding: 1em;
     text-align: center;
+}
+
+section#content{
+    width: 30%;
+    text-align: center;
+    font-size: .8em;
+    line-height:1.2em;
+    margin-top: 2em;
+}
+
+img.icon{
+    width: 10em;
+    padding-bottom: 1em;
+}
+
+section#content>p{
+    padding-bottom: 5em;
 }
