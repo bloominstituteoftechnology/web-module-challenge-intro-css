@@ -181,3 +181,10 @@ div.post{
 section#about{
 font-size: xx-small;
 }
+
+div#flavor{
+    font-size: 2rem;
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+}
