@@ -1,37 +1,95 @@
 <!-- Markup the content below with tags and attributes such that it can be styled in CSS-->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<!-- Link your CSS stylesheet -->
-    
-</head>
-<body>
-        Plan your Visit
-        Learn about the Park
-        Get Involved
-   
-      
-      "header_img.jpg"
-      Yosemite Park Guide
-      Come explore California’s beautiful wilderness.
-      Always open. Reservations are not available or required to enter the park.
-      
-      Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.
-      
-      First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.
-      
-      "campfire.png"
-      Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for current fire restrictions.
-      
-      "camper.png"
-      We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the park entrance fee upon arrival (there's no need to pay it in advance).
-    
-      "footer_img.png"
-      
-      
-        Plan your Visit
-        Learn about the Park
-        Get Involved
-      
-</body>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Yosemite Site</title>
+  </head>
+  <body>
+    <header>
+      <div class="top-nav">
+        <button class="button yellow" formaction="#plan">
+          Plan your Visit
+        </button>
+        <button class="button blue" formaction="#learn">
+          Learn about the Park
+        </button>
+        <button class="button orange" formaction="mailto:fakeemail@gmail.com">
+          Get Involved
+        </button>
+      </div>
+    </header>
+    <section class="cta">
+      <div class="Image">
+        <img src="assets/header_img.jpg" alt="header image" class="round" />
+      </div>
+      <div class="text">
+        <div>
+          <h1>Yosemite Park Guide</h1>
+          <h2>Come explore California’s beautiful wilderness.</h2>
+          <p>
+            Always open.Reservations are not <br />
+            available or required to enter the <br />park.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="main">
+        <p>
+          Not just a great valley, but a shrine to human foresight, the strength
+          of granite, the<br />
+          power of glaciers, the persistence of life, and the tranquility of the
+          High Sierra.
+        </p>
+
+        <p>
+          First protected in 1864, Yosemite National Park is best known for its
+          waterfalls, but<br />
+          within its nearly 1,200 square miles, you can find deep valleys, grand
+          meadows, ancient<br />
+          giant sequoias, a vast wilderness area, and much more.
+        </p>
+      </div>
+    </section>
+    <section class="morework">
+      <div class="campfire">
+        <img src="assets/campfire.png" alt="a camp fire" />
+        <p>
+          Fire is a natural and essential<br />part of Yosemite.We manage fire
+          <br />carefully and study how it <br />interacts with the park’s<br />ecosystems.
+          This blog provides<br />updates about fires in Yosemite.<br />Check
+          for<span class="bold">current fire<br />restrictions.</span>
+        </p>
+      </div>
+      <div class="camper">
+        <img src="assets/camper.png" alt="a camper" />
+        <p>
+          We strongly recommend that you make<br />reservations for lodging,
+          camping,<br />and backpacking.You can pay the<br /><span class="bold"
+            >park entrance fee</span
+          >
+          upon arrival<br />(there's no need to pay it in<br />advance).
+        </p>
+      </div>
+    </section>
+    <section class="backround"></section>
+    <footer>
+      <div class="bottom-nav">
+        <button class="button yellow" formaction="#plan">
+          Plan your Visit
+        </button>
+        <button class="button blue" formaction="#learn">
+          Learn about the Park
+        </button>
+        <button class="button orange" formaction="mailto:fakeemail@gmail.com">
+          Get Involved
+        </button>
+      </div>
+    </footer>
+  </body>
 </html>
