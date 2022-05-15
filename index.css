@@ -47,3 +47,77 @@ table {
 	border-spacing: 0;
 }
 /* Start CSS styles here */
+* {
+	color: #3C373B;
+  }
+  body {
+	  background-size: cover;
+	  font-family: roboto;
+  }
+  h1 {
+	font-family: 'Great Vibes', cursive;
+	margin: 20px 0;
+	/*=======  Update the font size to 60px and center the text */
+	font-size: 60px;
+	text-align: center;
+	color:#8b3a62;
+  }
+  
+  h2, h3, h4, h5, h6 {
+	font-family: 'Great Vibes', cursive;
+	margin-bottom: 0;
+	padding: 0 10px;
+	/*=======  Update the font size to 30px */
+	
+	font-size: 30px;
+	color: #8b3a62;
+	font-weight: bold;
+  }
+  p {
+	font-size: 18px;
+	font-family: 'ZCOOL XiaoWei', serif;
+	padding: 10px;
+	line-height: 1.4;
+  }
+  .container {
+	/*======= create a width property. Set the value to 600px */
+	border: 3px dashed black;
+	margin: 0 auto;
+	width: 650px;
+	background: #e6e0e4;
+	padding: 20px 50px;
+  }
+  .container header nav a {
+	margin: 0 6px;
+	border: 1px solid lightgray;
+	padding: 20px;
+	display: inline-block;
+	border-radius: 20px;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 20px;
+	 /*======= create a background property. Set the value to #F87B99 */
+	background:#cd6090;
+	box-shadow:10px 10px 5px  grey;
+  }
+  
+  .container header nav a:hover {
+  /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
+	background: #d248a2;
+	color: white;
+	border: 1px solid pink;
+	-webkit-transition: .3s;
+	transition: .3s;
+	transform: rotate(360deg);
+	
+  }
+   img{
+	   border-radius: 10px;
+	   box-shadow: 10px 10px 5px grey;
+   }
+   header img {
+	box-shadow: 10px 10px 5px grey;
+	border-radius: 608px;
+	padding: .5ems;
+	width: 150px;
+   }
