@@ -1,0 +1,116 @@
+
+
+html{
+    font-size: 62.5%;
+
+}
+
+body{
+    font-size:1.6rem ;
+    line-height:1.5; 
+    
+    font-family: 'Roboto Mono', monospace;
+
+
+}
+
+h1{
+    font-family: 'Chelsea Market',cursive;
+    font-size: 6rem;
+
+}
+section{
+    padding: 5% 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.top-nav {
+    text-align: center;
+}
+
+.bottom-nav{
+    text-align: center;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 40px;
+    border-radius: 14px;
+  }
+
+
+.orange{
+    background-color:#FF764E ;
+    
+}
+
+.blue{
+    background-color:#5ED3EB ;
+
+}
+
+.yellow{
+    background-color:#FFCD69;
+}
+
+/*.cta{
+    position: relative;
+}
+*/
+.text, .image{
+    display: inline-block;
+}
+.image{
+    width: 30%;
+    
+}
+.round{
+    border-radius: 50%;
+    width: 20%;
+    
+}
+.text{
+    width: 52%;
+    margin-left: 25%;
+    text-align: center;
+    line-height: 1;
+    position: absolute;
+    top: 160px;
+}
+
+.main{
+    background-color:#DDB9A3 ;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+
+.morework div{
+    width: 25%;
+    margin: 5% auto;
+}
+.bold{
+    font-weight: bold;
+}
+
+.backround{
+    background-image: url('assets/footer_img.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+}
+
+footer{
+    background-color:#F9E7DC ;
+}
+
+1
