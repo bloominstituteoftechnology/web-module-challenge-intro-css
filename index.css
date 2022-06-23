@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 45rem;
+  }
+.container nav a {
+    margin: 1.25rem 2.81rem;
+    height:1rem;
+    width: 6rem;
+    padding: 1.20rem;
+    display: inline-block;
+    border-radius: 1rem;
+    color: white;
+    margin-bottom: 3.125rem;
+    text-align: center; 
+    font-size: .875rem; 
+    text-decoration: none;
+}
+.container nav a:hover {
+    background: white;
+    color: black;
+}
+
+.onebutton {
+    background-color: #FF764E;
+}
+
+.twobutton {
+    background-color: #5ED3EB;
+}
+
+.threebutton {
+    background-color: #FFCD69;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace; 
+    font-size: .8rem;  
+}
+
+#header img {
+    border-radius: 50%; 
+    width: 11.25rem;
+    height: 11.25rem;
+    margin-left: 1.875rem;  
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 2.18rem;
+    margin-top: -11rem;
+    margin-bottom: 12.5rem;
+    margin-left: 12.5rem;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+#introone {
+    margin-top: -11.875rem;
+    margin-left: 12.5rem;
+    margin-bottom: 12.5rem;
+    text-align: center;
+}
+
+#intro {
+    width: 18.75rem;
+    margin-top: -11.25rem;
+    margin-left: 18.75rem;
+    margin-bottom: 12.5rem;
+    text-align: center;
+}
+
+#about {
+    margin-top: -9.5rem;
+    margin-left: 1.25rem;
+    width: 40rem;
+    padding: 1.25rem;
+    color: white;
+    text-align: center;
+    background-color: #DDB9A3;
+}
+
+.campfire {
+    width: 9.375rem;
+    margin-left: 17.2rem;
+}
+
+.campfiretext {
+    margin-left: 14.625rem;
+    width: 13.438rem;
+    text-align: center;
+}
+
+.camper {
+    width: 9.375rem;
+    margin-top: 1.25rem;
+    margin-left: 16.875rem;
+}
+
+.campertext {
+    margin-left: 14.69rem;
+    margin-bottom: 3.125rem;
+    width: 13.44rem;
+    text-align: center;
+}
+
+#footer img {
+    margin-left: .125rem;
+    width: 44.8rem;
+    height: 10rem;
+}
+
+#footer {
+    background-color: #F9E7DC;
+}
