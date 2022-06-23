@@ -1,3 +1,9 @@
+/* CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -13,11 +19,12 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -40,59 +47,111 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
-/* Begine Lionel Code-block */
 *{
+    box-sizing:border-box;
     max-width: 100%;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    background: #DDB9A3 ;
 }
+
+/* Websit styles */
 
 html{
     font-size: 62.5%;
 }
 
-h1 {
-    font-family: ;
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
 }
 
-p {
-    font-size: 16px;
-    font-family: roboto;
-    padding: 10px;
-    line-height: 1.4;  
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 6rem;
 }
-.container{
-    width: 30px;
+
+section{
+    padding:4% 0;
+    width:90%;
     margin: 0 auto;
+}
+
+/* header section */
+
+nav{
+    padding:2% 0;
 
 }
 
-.box{
-    content:;
-    padding: 4%;
-    margin: ;
-    border: 1px solid black;
-}
-
-.container header nav a {
-    margin: 0 10px;
-    border: 1px solid lightgray;
-    padding: 20px;
+nav a{
     display: inline-block;
-    border-radius: 20px;
-    color: white;
-    text-decoration: none;
-    margin-bottom: 20px;
-    background: #F87B99 ;
-     /*======= create a background property. Set the value to #F87B99 */
-    
-  }
+    padding: 1% 0;
+    width: 10%;
+    text-align:center;
+    border-radius:10px;
+    color:white;
+    text-decoration:none;
+}
+
+.orange{
+    background-color: #FF764E;
+    margin-left:10%;
+}
+
+.blue{
+    background-color: #5ED3EB;
+    margin: 0 23%;
+}
+
+.yellow{
+    background-color: #FFCD69;
+    margin-right:10%;
+}
+
+/* tittle */
+.cta{
+    position: relative;
+}
+.text, .image{
+    display:inline-block;
+}
+
+.image{
+    width:30%;
+}
+.circle{
+    border-radius:50%;
+}
+.text{
+    width: 55%;
+    margin-left:5%;
+    text-align:center;
+    line-height: 3;
+    position:absolute;
+    top:150px;
+}
+
+.main{
+    background-color: #DDB9A3;
+    font: white;
+    padding:2%;
+
+
+}
+
+.info{
+    width: 30%;
+    margin:0 auto;
+}
+
+.bg-img{
+    background-image: url('assets/footer_img.jpg');
+    height: 40;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+}
 
 footer{
-    background: #DDB9A3;
+    background-color:#F9E7DC ;
 }
-
