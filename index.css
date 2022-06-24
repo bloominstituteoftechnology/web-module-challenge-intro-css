@@ -3,7 +3,7 @@
     padding: 0px;
     max-width: 100%;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     /*border: 1px pink solid;*/
 }
 
@@ -68,7 +68,7 @@ h1{
     display: inline-block;
     text-align: center;
     font-size: 6.4rem;
-    font-family: "Chelsea Market";
+    font-family: 'Chelsea Market', cursive;
     margin: 5%;
 }
 
