@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS Reset*/
+
+*{
+box-sizing:border-box;
+border: soild grey;
+max-width:  100%;;
+}
+
+html{
+font-size:62.5%;
+}
+
+body{
+	font-size: 1.6rem;
+	line-height: 1.5;
+	font-family: 'Roboto Mono', monospace;
+	}
+
+
+h1{
+	font-family: 'Chelsea Market', cursive;
+	font-size: 6rem;
+}
+
+section{
+	padding:4% 0;
+	width:90%;
+	margin: 0 auto;
+}
+
+/*Nav tools*/
+nav{
+	padding:2%
+}
+nav a{
+	display: inline-block;
+	padding: 5px;
+	width: 10%;
+	height:100px;
+	
+	color:#fff;
+	height: 60%;
+	width:13%;
+	border: 1px solid black;
+	margin:5px;
+	border-radius:20%;
+	text-align: center;
+	font-size: 2rem;
+	margin-left:0 10%;
+}
+
+
+
+.linkOne{
+	background-color:#FF764E;
+	width: 100%;
+}
+
+.linkTwo{
+	height: 60%;
+	width:13%;
+	padding: 5px;
+	border: 1px solid black;
+	margin:5px;
+	display: inline-block;
+	background-color:#5ED3EB;
+	border-radius:20%;
+	font-size: 2rem;
+	text-align: center;
+	margin:0 24%;
+}
+
+.linkThree{
+	height: 60%;
+	width:13%;
+	padding: 5px;
+	border: 1px solid black;
+	margin:5px;
+	display: inline-block;
+	background-color:#FFCD69;
+	border-radius:20%;
+	font-size: 2rem;
+	text-align: center;
+	margin-right:0 10%;
+}
+/*image design*/
+.top{
+	display:inline-block;
+}
+
+.headerImg .headerText{
+	display:inline-block;
+}
+
+.headerImg img{
+	border-radius:50%;
+	width:30%;
+}
+.headerText{
+	width:55%;
+	margin-left: 5%;
+	text-align:center;
+	line-height: 3;
+	position: absolute;
+
+}
+
+.p1{
+	font-size: 2rem;
+	padding:1%;
+	margin:1%s
+	}
+
+
+
+
+/*Learn section*/
+
+.Learn{
+	background-color:#DDB9A3;
+	font-size:  2rem;
+	height:100px;
+}
+
+.p3{
+	text-align:center;
+	
+}
+
+.p4{
+	text-align:center;
+	
+}
+
+footer{
+	background-color:#F9E7DC;
+}
+
