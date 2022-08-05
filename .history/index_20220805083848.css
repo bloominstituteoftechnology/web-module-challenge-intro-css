@@ -114,7 +114,7 @@ header{
 /*image design*/
 .top{
 	display:inline-block;
-	margin:2%;
+	position: relative;
 }
 
 .headerImg .headerText{
@@ -134,15 +134,13 @@ header{
 
 }
 
-h2{
+.h2{
 	font-size: 2.2rem;
-	padding:1%;
 	margin:1%;
 	}
 
 .p2{
 font-size:2.2rem;
-
 }
 
 
@@ -151,21 +149,18 @@ font-size:2.2rem;
 .Plan{
 	background-color:#DDB9A3;
 	font-size:2rem;
+	color:white;
 	height:22rem;
 	padding:1%;
 }
 
 .p3{
 	text-align:top;
-	color:white;
 	padding:1%;
 }
-
 .p4{
 	text-align:center;
-	color:white;
-	
-}
+	}
 /*Learn*/
 
 .Learn{
@@ -176,12 +171,9 @@ font-size:2.2rem;
 }
 
 .bg-img{
-background-image:url('assets/footer_img.jpg');
-   height:50vh;
-   background-repeat: no-repeat;
-   background-size:top center;
-   width:100%;
+	background-image: url('assets/footer_img.jpg') ;
 }
+
 
 .footerImg img{
 	width:100%;

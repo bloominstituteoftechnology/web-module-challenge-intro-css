@@ -175,14 +175,6 @@ font-size:2.2rem;
 	font-size:1.7rem;
 }
 
-.bg-img{
-background-image:url('assets/footer_img.jpg');
-   height:50vh;
-   background-repeat: no-repeat;
-   background-size:top center;
-   width:100%;
-}
-
 .footerImg img{
 	width:100%;
 	height:350px;
