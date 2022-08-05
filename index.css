@@ -1,0 +1,119 @@
+/* reset */
+
+/* General Style */
+
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size:1.6rem;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive; 
+    font-size: 6rem;
+}
+
+section{
+    padding: 4% 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header Section*/
+
+nav {
+    padding:2% 0;
+}
+
+nav a{
+    display: inline-block;
+    padding: 1% 0;
+    width:10%;
+    text-align:center;
+    border-radius:10px;
+    color: white;
+    text-decoration: none;
+}
+
+.orange{
+    background-color: #FF764E;
+    margin-left:10%;
+}
+
+.blue{
+    background-color:#5ED3EB;
+    margin:0 24%; 
+}
+
+.yellow{
+    background-color:#FFCD69;
+    margin-right:10%;
+}
+
+/* Intro Section */
+
+.intro{
+    position: relative;
+}
+
+.text, .image {
+    display: inline-block;
+}
+
+.image {
+    width: 30%;
+}
+
+.round{
+    border-radius: 50%;
+}
+
+.text {
+    width: 55%;
+    margin-left:5%;
+    text-align:center;
+    line-height:3;
+    position:absolute;
+    top:100px;
+}
+
+/* about section */
+
+.about{
+    background-color: #DDB9A3;
+    padding: 2%;
+    color: white;
+}
+
+/* about cont section */
+
+.aboutCont div{
+    width:30%;
+    margin:5% auto;
+}
+
+.camper {
+    margin-left: 23%;
+}
+
+.bg-img {
+    background-image: url('assets/footer_img.jpg');
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:top center;
+    width: 100%;
+}
+
+footer{
+    background-color: #F9E7DC;
+}
