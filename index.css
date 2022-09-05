@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    /* box-sizing:border-box;
+    border: 1px solid grey; */
+    position: sticky;
+    max-width: 100%;
+}
+
+/* Styles */
+
+html{
+    font-size: 62.5%
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+}
+
+section{
+    padding: 5% 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* head section */
+nav {
+    padding: 2% 0;
+}
+
+nav a{
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.orange {
+    background-color: #FF764E;
+    margin-left: 10%
+}
+
+.blue {
+    background-color: #5ED3EB;
+    margin: 0 24%;
+}
+
+.yellow {
+    background-color: #FFCD69;
+    margin-right: 10%;
+}
+
+
+/* sections */
+
+#plan {
+    position: relative;
+}
+
+.text, .image {
+    display:inline-block;
+}
+
+.image {
+    width: 30%;
+}
+
+.image img{
+    border-radius: 50%;
+}
+
+.text{
+    width: 55%;  
+    margin-left: 5%;
+    text-align: center;
+    line-height: 3;
+    position: absolute;
+    top:150px
+}
+
+
+/* main body */
+
+#learn {
+    color: #fff;
+    background-color: #DDB9A3;
+    padding: 3%;
+}
+
+
+.stuff div{
+    width: 30%;
+    margin: 3% auto;
+}
+
+.stuff img {
+    margin-left: 28%;
+    width: 45%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.background {
+    height: 50vh;
+    /* max-width: 1000%; */
+    width: 100%;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
