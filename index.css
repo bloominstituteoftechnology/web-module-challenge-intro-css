@@ -19,7 +19,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -48,37 +48,22 @@ table {
 	border-spacing: 0;
 }
 
-* {
-    font-family: 'Qwitcher Grypen', cursive;
-    border: 10x solid black;
+*{
+    box-sizing: border-box;
+    border: 1px solid grey;
+    max-width:100%;
 }
 
-.plan {
-    background-color: #FF764E;
-    color:#F9E7DC;
+html{
+    font-size:62.5%;
 }
 
-.learn {
-    background-color: #5ED3EB;
-    color: #F9E7DC;
-    
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    font-family: 'Roboto Mono', monospace;
 }
 
-.involve {
-    background-color: #FFCD69;
-    color: #F9E7DC;
-}
-
-.main {
-    background-color: #DDB9A3;
-    color: #F9E7DC;
-}
-
-footer {
-    background-color: #F9E7DC;
-}
-
-.header_img {
-    width: 100px;
-    border-radius: 999px;
+h1{
+    font-family: 'Chelsea Market', cursive;
 }
