@@ -1,0 +1,155 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+    /* border: 1px solid grey; */
+    max-width:100%;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+}
+section{
+    padding:4% 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav{
+    padding: 2% 0;
+}
+nav a{
+    display:inline-block;
+    padding:1% 0;
+    width:10%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.orange{
+    background-color: #FF764E;
+    margin-left: 10%;
+}
+
+.blue{
+    background-color: #5ED3EB;
+    margin:0 24%;
+}
+
+.yellow{
+    background-color: #FFCD69;
+    margin-right: 10%;
+}
+
+/*Title section*/
+
+.upper{
+    position: relative;
+}
+.text, .image{
+    display:inline-block;
+}
+.image{
+    width:30%;
+}
+.image img{
+    border-radius: 50%;
+}
+.text{
+    width:55%;
+    margin-left: 5%;
+    text-align: center;
+    line-height: 3;
+    position: absolute;
+    top:150px;
+}
+
+/*Main Section*/
+.middle{
+    background-color: #DDB9A3;
+    color: white;
+    padding: 2%;
+}
+
+.info div{
+    width: 30%;
+    margin: 5% auto;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bg-img{
+    background-image: url('assets/footer_img.jpg');
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+}
+
+.footer{
+    background-color: #F9E7DC;
+}
