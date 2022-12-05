@@ -3,5 +3,92 @@
     padding: 0;
     margin: 0;
     max-width: 100%; /* hey elements, you can never be bigger than your parent */
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
   }
+body{
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* common nav */
+nav.nav a{
+  display: inline-block;
+  width: 10%;
+  margin:0 11%;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 6%;
+  text-decoration: none;
+  padding: 1%;
+}
+nav.topnav{
+  margin: 2% 0;
+}
+a.visit{
+  display: block;
+  background-color: #FF764E ;
+ }
+ a.park{
+  display: block;
+  background-color: #5ED3EB;
+ }
+ a.involved{
+  display: block;
+  background-color: #FFCD69;
+ }
+
+ /* Plan Section */
+ #plan{
+  font-family: 'Chelsea Market', cursive;
+  margin-top: 3%;
+ }
+.planbox{
+  display: inline-block;
+  margin: 0% 7%;
+  width: 34%;
+}
+.planbox img{
+  border-radius: 50%;
+  width: 45%;
+  margin-left: 25%;
+}
+.planbox h1, p{
+  text-align: center;
+}
+ /* about section */
+ #about{
+  margin: 5% 8%
+}
+ #about p{
+  display: block;
+  background-color: #DDB9A3;
+  text-align: justify;
+  color: whitesmoke;
+}
+/* get involved section */
+#get{
+  margin: 3% 40%
+
+}
+#get p{
+  text-align: center;
+}
+#get img{
+  width: 30%;
+  margin: 0 35%
+}
+ /* footer section */
+ 
+ #bottom{
+  background-color:#F9E7DC;
+  /* height: 30%; */
+  padding: 2%;
+}
+ .bottomimg img{
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+}
