@@ -76,6 +76,7 @@ nav a{
     border-radius: 10px;
     color: white;
     text-decoration: none;
+   
 }
 .orange{
     background-color:#FF764E ;
@@ -96,22 +97,22 @@ nav a{
     display: inline-block;
 }
 .image{
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
    
 
 }
 .round{
     border-radius: 50%;
+    height: 300px;
+    width: 300px;
 } 
 
 .text{
     width: 55%;
-    margin-left: 5%;
+    margin: 5%;
     text-align: center;
-    line-height: 3;
     position: absolute;
-    top: 150px;
 }
 .main{
     background-color: #DDB9A3 ;
@@ -122,7 +123,6 @@ nav a{
 
 .info{
     width: 30%;
-    margin: 5% auto;
 }
 
 .bold{
@@ -139,4 +139,8 @@ nav a{
 
 footer{
     background-color: #F9E7DC;
+}
+.fire{
+margin-right: 50%;
+margin-top: 0%;
 }
