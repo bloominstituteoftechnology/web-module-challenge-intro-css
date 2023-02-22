@@ -21,31 +21,31 @@ The styles in your [design file](/design/desktop.jpg) include bright colors and 
 
 Follow these steps to set up and work on your project:
 
-- [ ] Fork the repository, then clone from your fork.
-- [ ] Go into Canvas and connect your repository by copy-pasting its Github URL into the submission slot.
-- [ ] DO NOT CREATE A BRANCH. You will be pushing your changes to the main/master today.
-- [ ] cd into your repository on the command line and use code . to open VS Code.
-- [ ] Download the Live Server extension from the Extensions tab on the left side of your VS Code. After it is done installing, click "Go Live" on the bottom right side of your screen to run your HTML file.
+- [ x] Fork the repository, then clone from your fork.
+- [x ] Go into Canvas and connect your repository by copy-pasting its Github URL into the submission slot.
+- [x ] DO NOT CREATE A BRANCH. You will be pushing your changes to the main/master today.
+- [x ] cd into your repository on the command line and use code . to open VS Code.
+- [x ] Download the Live Server extension from the Extensions tab on the left side of your VS Code. After it is done installing, click "Go Live" on the bottom right side of your screen to run your HTML file.
 - [ ] Complete your work making regular commits to the main branch; your submitted URL will always reflect your most recent work.
 
 ### Task 2: Minimum Viable Product
 
 Once your repository is set up, practice what you learned today to style the site according to the given design. Your complete project should look similar to the desktop image. You should take the following actions, at a minimum:
 
-- [ ] Link your CSS stylesheet in the `index.html` and implement a CSS reset 
-- [ ] Markup html semantically, such that it can be styled according to the given desktop image
+- [ x] Link your CSS stylesheet in the `index.html` and implement a CSS reset 
+- [ x] Markup html semantically, such that it can be styled according to the given desktop image
 - [ ] Color the background of items in the navigation bar and footer with the following colors:
-  - [ ] Plan your Visit: `#FF764E`
-  - [ ] Learn About the Park: `#5ED3EB`
-  - [ ] Get Involved: `#FFCD69`
+  - [ x] Plan your Visit: `#FF764E`
+  - [ x] Learn About the Park: `#5ED3EB`
+  - [ x] Get Involved: `#FFCD69`
 - [ ] Change all font colors and styles according to design file
   - [ ] Yosemite Park Guide font is called Chelsea Market and can be found on [google fonts](https://fonts.google.com/specimen/Chelsea+Market)
   - [ ] All other text is Roboto Mono, also available on [google fonts](https://fonts.google.com/specimen/Roboto+Mono)
-- [ ] Color the background of the main text body with `#DDB9A3`
-- [ ] Color the background of the footer with `#F9E7DC`
-- [ ] Bold the words "current fire restrictions" and "park entrance fee" according to the design file
+- [ x] Color the background of the main text body with `#DDB9A3`
+- [ x] Color the background of the footer with `#F9E7DC`
+- [ x] Bold the words "current fire restrictions" and "park entrance fee" according to the design file
 - [ ] Apply box model properties (content, padding, margin, and border) to all content such that your webpage matches the design file. This will include at least:
-  - [ ] A round image in the header
+  - [ x] A round image in the header
   - [ ] Round corners on navigation and footer items
   - [ ] Header image and text side by side
   - [ ] Centered content and margins around content
