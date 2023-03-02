@@ -1,0 +1,277 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+:root {
+  font-size: 62.5%;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+html {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Chelsea Market', cursive;
+}
+body {
+  line-height: 1;
+  font-size: 16px;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* MY STYLE STARTS HERE */
+
+.home-header {
+  margin-bottom: 5rem;
+}
+
+.home-header--NAV {
+  display: flex;
+  /* justify-content: space-around; */
+  margin: 3rem 0;
+}
+
+.home-header--NAV a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  text-align: center;
+  margin-left: 25rem;
+  font-size: 1.8rem;
+}
+
+.home-header--NAV #plan {
+  background-color: #ff764e;
+}
+.home-header--NAV #learn {
+  background-color: #5ed3eb;
+}
+.home-header--NAV #involved {
+  background-color: #ffcd69;
+}
+
+.main-container {
+  display: flex;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  margin-bottom: 5rem;
+}
+
+.text-content {
+  text-align: center;
+  letter-spacing: 0.2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-content--TITLE {
+  font-size: 5rem;
+  margin-bottom: 4rem;
+  margin-top: 6rem;
+}
+
+.text-content p {
+  /* letter-spacing: 0.2rem; */
+  font-size: 2.5rem;
+}
+
+.text-content p:first-of-type {
+  margin-bottom: 4rem;
+}
+
+.main-container .img-container {
+  width: 40rem;
+  margin-right: 10rem;
+}
+
+.img-container--IMG {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* .about-section {
+} */
+.about-style {
+  background-color: #ddb9a3;
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 2.5rem;
+  letter-spacing: 0.15rem;
+}
+
+.fire-section {
+  margin-bottom: 10rem;
+}
+
+.mid-section-style {
+  width: 60rem;
+  margin: 0 auto;
+  font-size: 2.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mid-section--img-container {
+  /* width: 40rem; */
+  height: 50rem;
+}
+
+#unique-container {
+  width: 40rem;
+}
+.mid-section--img-container img {
+  /* width: 100%; */
+}
+
+.reservation {
+  margin-bottom: 10rem;
+}
+
+.footer-section {
+  background-color: #f9e7dc;
+}
+
+.footer-style {
+  margin: 0 auto;
+}
+
+/* .footer-style .footer--img-container {
+} */
+
+.footer-style .footer--img-container img {
+  width: 100%;
+  height: 50rem;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.style-links nav {
+  margin: 0;
+  padding: 4rem 0;
+}
+
+.style-links nav a {
+  margin-top: 0;
+  margin-bottom: 0;
+}
