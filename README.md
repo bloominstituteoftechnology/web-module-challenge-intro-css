@@ -21,12 +21,12 @@ The styles in your [design file](/design/desktop.jpg) include bright colors and 
 
 Follow these steps to set up and work on your project:
 
-- [ ] Fork the repository, then clone from your fork.
-- [ ] Go into Canvas and connect your repository by copy-pasting its Github URL into the submission slot.
-- [ ] DO NOT CREATE A BRANCH. You will be pushing your changes to the main/master today.
-- [ ] cd into your repository on the command line and use code . to open VS Code.
-- [ ] Download the Live Server extension from the Extensions tab on the left side of your VS Code. After it is done installing, click "Go Live" on the bottom right side of your screen to run your HTML file.
-- [ ] Complete your work making regular commits to the main branch; your submitted URL will always reflect your most recent work.
+- [x] Fork the repository, then clone from your fork.
+- [x] Go into Canvas and connect your repository by copy-pasting its Github URL into the submission slot.
+- [x] DO NOT CREATE A BRANCH. You will be pushing your changes to the main/master today.
+- [x] cd into your repository on the command line and use code . to open VS Code.
+- [x] Download the Live Server extension from the Extensions tab on the left side of your VS Code. After it is done installing, click "Go Live" on the bottom right side of your screen to run your HTML file.
+- [x] Complete your work making regular commits to the main branch; your submitted URL will always reflect your most recent work.
 
 ### Task 2: Minimum Viable Product
 
@@ -60,10 +60,10 @@ Once your repository is set up, practice what you learned today to style the sit
 
 The following goals are designed to stretch your knowledge and may require additional research beyond what was learned in class today.
 
-- [ ] Add CSS animations (hover, mouseover, etc.)
-- [ ] Design and execute your own pages for `Plan your Visit`, `Learn About the Park`, or `Get Involved`
-- [ ] Use [favicon.io](https://favicon.io/favicon-converter/) to convert the campfire and RV images to real favicons and use them in your project
-- [ ] Host your website on Netlify.com
+- [x] Add CSS animations (hover, mouseover, etc.)
+- [x] Design and execute your own pages for `Plan your Visit`, `Learn About the Park`, or `Get Involved`
+- [x] Use [favicon.io](https://favicon.io/favicon-converter/) to convert the campfire and RV images to real favicons and use them in your project
+- [x] Host your website on Netlify.com
 
 ## Resources
 
