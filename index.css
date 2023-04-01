@@ -1,8 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
+/*CSS Reset*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,9 +43,12 @@ table {
 	border-spacing: 0;
 }
 
+
+
+/* Start of my CSS */
 * {
 	box-sizing: border-box;
-	border: 1px solid gray;
+	border: 1px solid black;
 	max-width: 100%;
 }
 
@@ -60,27 +59,36 @@ html {
 body {
 	font-size: 1.6rem;
 	line-height: 1.5;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Mono', monospace;
 }
 h1 {
 	font-family: 'Chelsea Market', cursive;
-	font-size: 5rem;
+	font-size: 10rem;
 }
-
+h2 {
+	margin-bottom: 4%;
+}
+p {
+	text-align: center;
+}
 section {
-	padding: 2rem;
-	width: 90%;
-	margin: 0 auto;
+	padding: 3% 0;
+	width: 87%;
+	margin: 0 5%;
 }
 
+.intro {
+	position: relative;
+}
 nav {
-	padding: 2% 0;
+	padding: 1% 0;
 }
 
 nav a {
+	font-size: 2.8rem;
 	display: inline-block;
-	padding: 1% 0;
-	width: 10%;
+	padding: 0 0;
+	width: 8.5%;
 	text-align: center;
 	border-radius: 10px;
 	color: white;
@@ -89,22 +97,17 @@ nav a {
 
 .orange {
 	background-color: #FF764E;
-	margin-left: 10%;
+	margin-left: 20%;
 }
 
 .blue {
 	background-color: #5ED3EB;
-	margin: 0 24%;
+	margin: 0 15%;
 }
 
 .yellow {
 	background-color: #FFCD69;
-	margin-right: 10%;
-}
-
-.header-content{
-	display: inline-block;
-	position:relative;
+	margin-right: 20%;
 }
 
 .text, .image {
@@ -112,24 +115,65 @@ nav a {
 }
 
 .image {
+	margin-left: 5%;
 	width: 30%;
+
 }
 
+.text {
+	font-size: 2.9rem;
+	width: 55%;
+	text-align:	center;
+	line-height: 2.5;
+	position: absolute;
+	top: 19%;
+	right: 10%;
+}
 .round {
 	border-radius: 50%;
 }
 
-.text {
-	width: 50%;
-	margin-left: 5%;
-	text-align: center;
-	line-height: 3;
-	position:absolute;
-	Top: 150px;
+/* Page description styles */
+.description-box {
+	background-color: #DDB9A3;
+	color: white;
+	font-size: 2.5rem;
+	margin: 0 75px;
 }
 
 .description {
-	background-color: #DDB9A3;
-	color: white;
-	padding: 1rem;
+	padding: 0;
+}
+
+.description p{
+	padding: 1% 0;
+}
+
+.recommendations div{
+	width: 25%;
+	margin: 0 auto;
+	padding: 1% 0;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.campfire img{
+	width: 100%;
+}
+
+.camper img{
+	width: 100%;
+}
+
+.footer-image {
+	width: 100%;
+	height: 35vh;
+	object-fit: cover;
+	object-position: 0 25%;
+}
+
+footer nav{
+	background-color: #F9E7DC;
 }
