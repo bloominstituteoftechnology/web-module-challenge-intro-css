@@ -7,13 +7,13 @@
 </head>
 <body>
   <div class="navbar">
-    <nav class="nav1" id="#PyV"><a href="">Plan your Visit</a></nav> <!-- should be inline -->
-    <nav class="nav2" id="#LatP"><a href="">Learn about the Park</a></nav> <!-- needs to be specific colors -->
-    <nav class="nav3" id="#GI"><a href="">Get Involved</a></nav> <!-- should take up a percentage for spacing -->
+    <nav class="nav1 InlineFNav" id="#PyV"><a href="">Plan your <br>Visit</br></a></nav> <!-- should be inline -->
+    <nav class="nav2 InlineFNav" id="#LatP"><a href="">Learn about <br>the Park</br></a></nav> <!-- needs to be specific colors -->
+    <nav class="nav3 InlineFNav" id="#GI"><a href="">Get <br>Involved</br></a></nav> <!-- should take up a percentage for spacing -->
   </div>
   <header class="header"> <!--contains picture, 2 divs, as well as h1 and 2 h2-->
     <div class="inliner">
-      <img src="" alt=""> <!--"header_img.jpg"-->
+      <img class="mountainimg" src="assets/header_img.jpg" alt="picture of mountains"> <!--"header_img.jpg"-->
     </div>
     <div class="inliner">
       <h1>Yosemite Park Guide</h1>
@@ -22,9 +22,9 @@
     </div>
   </header>
   <div class="secondbody"> <!-- taking up like 90% of the page, width wise -->
-      <p>Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.</p>
+      <p class="sbp">Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.</p>
       
-      <p>First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.</p>
+      <p class="sbp">First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.</p>
     </div>
     <div class="thirdbody"> <!-- needs only be one div, will make it display: block; it looks like -->
       <img src="" alt=""> <!-- "campfire.png" -->
@@ -39,10 +39,10 @@
       </footer>
       
     </div>
-      
-    <nav class="nav1" id="#PyV"><a href="">Plan your Visit</a></nav> <!-- should be inline -->
-    <nav class="nav2" id="#LatP"><a href="">Learn about the Park</a></nav> <!-- same colors as before -->
-    <nav class="nav3" id="#GI"><a href="">Get Involved</a></nav> <!-- just do the same thing, referenceing the classes-->
-      <a href=""></a>
+    <div class="navbar"> 
+      <nav class="nav1 InlineFNav" id="#PyV"><a href="">Plan your <br>Visit</br></a></nav> <!-- should be inline -->
+      <nav class="nav2 InlineFNav" id="#LatP"><a href="">Learn about <br>the Park</br></a></nav> <!-- same colors as before -->
+      <nav class="nav3 InlineFNav" id="#GI"><a href="">Get <br>Involved</br></a></nav> <!-- just do the same thing, referenceing the classes-->
+    </div>
 </body>
 </html>

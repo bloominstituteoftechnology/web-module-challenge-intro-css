@@ -46,11 +46,71 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+html {
+  font-size: 62.5%; /* font size is already 100%, or 16px , so lets change it to 10 */
+  border: 1px solid black;
+  padding: 5px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.nav1 {
+  text-align: center;
+  background-color: #ff763e;
+  height: 2.5rem;
+  width: 5%;
+  border-radius: 25%;
+  /* border: 1px solid black; */
+  padding-top: 1.2rem;
+  font-size: 1.1rem;
+}
 
+.nav2 {
+  text-align: center;
+  background-color: #5ED3EB;
+  height: 2.5rem;
+  width: 7%;
+  border-radius: 25%;
+  padding-top: 1.2rem;
+  font-size: 1.1rem;
+  overflow: hidden;
+}
+.nav3 {
+  text-align: center;
+  background-color: #FFCD69;
+  height: 2.5rem;
+  width: 5%;
+  border-radius: 25%;
+  padding-top: 1.2rem;
+  font-size: 1.1rem;
+}
+.navbar {
+  width: 100vw;
+  display: inline;
+  margin-left: 20%;
+}
+.navbar .InlineFNav {
+  margin-inline: 7%;
+}
+.InlineFNav {
+  display: inline-block; 
+}
+/* .InlineFNav {
+  display: inline;
+  text-decoration: none;
+  height: 2rem;
+  font-size: 1.6rem;
+} */
+header {
+  width: vh;
+  height: 300px;
+  border: 1px solid black;
+}
 
 /* IMPORTANT -------- DO NOT USE PX, just rem's or em. Ill determine what i want the root file to be, but until then, no pixels. */
 
-/* main text body = #DDV9A3, goes in html? */
+/* main text body = #DDB9A3, goes in html? */
 /* back of footer is #f9e7dc */
 /* in the third body div, certain text needs bolding. Use font-weight: bold; */
 /* imperative that all of the content utilizes box model properties, eg. content, padding, margin and border. ALL OF IT. We want the web page to match the design file.
