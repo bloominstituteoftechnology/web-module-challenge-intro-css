@@ -1,0 +1,70 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* IMPORTANT -------- DO NOT USE PX, just rem's or em. Ill determine what i want the root file to be, but until then, no pixels. */
+
+/* main text body = #DDV9A3, goes in html? */
+/* back of footer is #f9e7dc */
+/* in the third body div, certain text needs bolding. Use font-weight: bold; */
+/* imperative that all of the content utilizes box model properties, eg. content, padding, margin and border. ALL OF IT. We want the web page to match the design file.
+The image in header is round, we should use border-radius: 50%;
+Round corners on nav's and NOT footer items, we have the navs in a seperate div. We should, however, look to making the font... whatever the hell that is? The font im talking about is the one applied to 'Yosemite Park Guide'
+*/
+/* We should be able to make our 2 classes 'inliner' display: inline-block; to make them stand next to eachother */
+/* Screen should be long so that the navs have a point, should be the last thing checked. */
+/* need to remember how the a link stuff works, its blanking me */
+/* also, remove the added stuff like the line and the color blue, might happen automatically tho */
+
+
+/* STRETCH GOALS */
+/* We can try the animation stuff. */
+/* not really sure about the 'design your own pages' bit, may just not do it. Well, i know what its asking for. not sure how to link to another website or page of the website tho */
+/* god only knows what a favicon is */
+/* i probably could host it, ill check at the end. */ 
