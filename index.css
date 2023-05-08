@@ -108,6 +108,18 @@ header {
   border: 1px solid black;
 }
 
+.mountainimg {
+  height: 11rem;
+  width: 11rem;
+  border-radius: 50%;
+  margin-top: 50%;
+  margin-left: 10rem;
+  margin-bottom: 50%;
+}
+.inliner {
+  display: inline-block;
+}
+
 /* IMPORTANT -------- DO NOT USE PX, just rem's or em. Ill determine what i want the root file to be, but until then, no pixels. */
 
 /* main text body = #DDB9A3, goes in html? */
