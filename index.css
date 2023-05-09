@@ -50,6 +50,7 @@ html {
   font-size: 62.5%; /* font size is already 100%, or 16px , so lets change it to 10 */
   border: 1px solid black;
   padding: 5px;
+  font-family: Roboto Mono
 }
 a {
   text-decoration: none;
@@ -105,7 +106,7 @@ a {
 header {
   width: vw;
   height: 25rem;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   overflow: hidde;
   align-content: center;
 }
@@ -140,16 +141,35 @@ header div img {
 
 
 .ParkGuide {
-  margin-bottom: 3rem;
-  font-size: 1.6rem;
+  margin-bottom: 4rem;
+  font-size: 3rem;
   margin-left: 2.3rem;
-  font-family: Rockwell
+  font-family: Chelsea Market;
+  margin-right: 3rem;
 }
 .PG1, .PG2 {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   text-align: center;
   padding-top: 2rem;
+  
 }
+.secondbody{
+  width: 96%;
+  background-color: #DDB9A3;
+  text-align: center;
+  font-size: 1.3rem;
+  word-spacing: 0.4rem;
+  /* border: 1px solid black; */
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.sbp {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
 /* IMPORTANT -------- DO NOT USE PX, just rem's or em. Ill determine what i want the root file to be, but until then, no pixels. */
 
 /* main text body = #DDB9A3, goes in html? */
