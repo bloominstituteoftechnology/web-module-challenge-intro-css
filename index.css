@@ -103,9 +103,11 @@ a {
   font-size: 1.6rem;
 } */
 header {
-  width: vh;
-  height: 300px;
+  width: vw;
+  height: 25rem;
   border: 1px solid black;
+  overflow: hidde;
+  align-content: center;
 }
 
 .mountainimg {
@@ -113,13 +115,41 @@ header {
   width: 11rem;
   border-radius: 50%;
   margin-top: 50%;
-  margin-left: 10rem;
+  margin-left: 100%;
   margin-bottom: 50%;
+}
+header div img {
+  margin-top: 20rem;
 }
 .inliner {
   display: inline-block;
+  /* border: 1px solid black; */
+  width: vw;
+  padding-left: 20%;
+  padding-top: 1rem;
 }
 
+.spacer{
+  margin-bottom: 60%;
+  margin-left: 47%;
+  /* border: 1px solid black; */
+}
+
+/* .inliner .spacer {
+  /* border: 1px solid black; */
+
+
+.ParkGuide {
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+  margin-left: 2.3rem;
+  font-family: Rockwell
+}
+.PG1, .PG2 {
+  font-size: 1.1rem;
+  text-align: center;
+  padding-top: 2rem;
+}
 /* IMPORTANT -------- DO NOT USE PX, just rem's or em. Ill determine what i want the root file to be, but until then, no pixels. */
 
 /* main text body = #DDB9A3, goes in html? */
