@@ -1,0 +1,251 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html {
+  font-size: 62.5%; /* font size is already 100%, or 16px , so lets change it to 10 */
+  border: 1px solid black;
+  padding: 5px;
+  font-family: Roboto Mono
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.nav1 {
+  text-align: center;
+  background-color: #ff763e;
+  height: 4rem;
+  padding-top: 1.5rem;
+  width: 5%;
+  border-radius: 25%;
+  /* border: 1px solid black; */
+  /* padding-top: 1.2rem; */
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  margin-left: 20%;
+  margin-right: 20%;
+  overflow: hidden;
+}
+
+.nav2 {
+  text-align: center;
+  background-color: #5ED3EB;
+  height: 4rem;
+  padding-top: 1.5rem;
+  width: 7%;
+  border-radius: 25%;
+  /* padding-top: 1.2rem; */
+  font-size: 1.1rem;
+  overflow: hidden;
+  margin-top: 2rem;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.nav3 {
+  text-align: center;
+  background-color: #FFCD69;
+  height: 4rem;
+  padding-top: 1.5rem;
+  width: 5%;
+  border-radius: 25%;
+  /* padding-top: 1.2rem; */
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  margin-left: 20%;
+  margin-right: 20%;
+  overflow: hidden;
+}
+.navbar {
+  width: 80%;
+  /* display: inline; */
+  margin-left: 10%;
+  /* margin-top: 3rem; */
+  margin-right: 10%;
+  height: 11rem;
+  /* border: 1px solid black; */
+  
+}
+.navbar .InlineFNav {
+  margin-inline: 5%;
+  margin-left: 15%;
+  margin-right: 10%;
+}
+.InlineFNav {
+  display: inline-block; 
+}
+/* .InlineFNav {
+  display: inline;
+  text-decoration: none;
+  height: 2rem;
+  font-size: 1.6rem;
+} */
+header {
+  width: vw;
+  height: 25rem;
+  /* border: 1px solid black; */
+  overflow: hidde;
+  align-content: center;
+}
+
+.mountainimg {
+  height: 11rem;
+  width: 11rem;
+  border-radius: 50%;
+  margin-top: 50%;
+  margin-left: 100%;
+  margin-bottom: 50%;
+}
+header div img {
+  margin-top: 20rem;
+}
+.inliner {
+  display: inline-block;
+  /* border: 1px solid black; */
+  width: vw;
+  padding-left: 20%;
+  padding-top: 1rem;
+}
+
+.spacer{
+  margin-bottom: 60%;
+  margin-left: 47%;
+  /* border: 1px solid black; */
+}
+
+/* .inliner .spacer {
+  /* border: 1px solid black; */
+
+
+.ParkGuide {
+  margin-bottom: 4rem;
+  font-size: 3rem;
+  margin-left: 2.3rem;
+  font-family: Chelsea Market;
+  margin-right: 3rem;
+}
+.PG1, .PG2 {
+  font-size: 1.3rem;
+  text-align: center;
+  padding-top: 2rem;
+  
+}
+.secondbody{
+  width: 96%;
+  background-color: #DDB9A3;
+  text-align: center;
+  font-size: 1.3rem;
+  word-spacing: 0.4rem;
+  /* border: 1px solid black; */
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.sbp {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+  font-size: 1.5rem;
+}
+.thirdbody {
+  width: vw;
+  height: 40rem;
+}
+.fireimg{
+  width: 12.5rem;
+  height: 12.5rem;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+.camperimg {
+  width: 12.5rem;
+  height: 12.5rem;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+.bolder {
+  font-weight: bold;
+}
+.tbp {
+  margin-left: 50%;
+  margin-right: 50%;
+  width: 15rem;
+  padding-top: 2rem;
+  font-size: 1.2rem;
+}
+.footerimg {
+  width: 99%;
+  height: 30rem;
+  margin-top: 17rem;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+.color {
+  background-color:  #F9E7DC;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+/* IMPORTANT -------- DO NOT USE PX, just rem's or em. Ill determine what i want the root file to be, but until then, no pixels. */
+
+/* main text body = #DDB9A3, goes in html? */
+/* back of footer  */
+/* in the third body div, certain text needs bolding. Use font-weight: bold; */
+/* imperative that all of the content utilizes box model properties, eg. content, padding, margin and border. ALL OF IT. We want the web page to match the design file.
+The image in header is round, we should use border-radius: 50%;
+Round corners on nav's and NOT footer items, we have the navs in a seperate div. We should, however, look to making the font... whatever the hell that is? The font im talking about is the one applied to 'Yosemite Park Guide'
+*/
+/* We should be able to make our 2 classes 'inliner' display: inline-block; to make them stand next to eachother */
+/* Screen should be long so that the navs have a point, should be the last thing checked. */
+/* need to remember how the a link stuff works, its blanking me */
+/* also, remove the added stuff like the line and the color blue, might happen automatically tho */
+
+
+/* STRETCH GOALS */
+/* We can try the animation stuff. */
+/* not really sure about the 'design your own pages' bit, may just not do it. Well, i know what its asking for. not sure how to link to another website or page of the website tho */
+/* god only knows what a favicon is */
+/* i probably could host it, ill check at the end. */ 
