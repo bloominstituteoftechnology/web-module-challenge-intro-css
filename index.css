@@ -47,25 +47,57 @@ table {
 	border-spacing: 0;
 }
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    /* put a border around everything to see where it stops and starts */
+  }
+
 body {
     font-family: 'Roboto Mono', monospace;
+    background-color: #DDB9A3;
+    background: radial-gradient(#f69d3c, #3f87a6);
   }
   
   header {
     background-color: #DDB9A3;
     padding: 20px;
-    display: flex;
+    /* display: flex; */
     align-items: inline;
+    flex-wrap: wrap;
+  }
+
+  header img {
+   flex-wrap: wrap; 
+   width: 90%;
+   height: 50%;
+   padding: 20px;
+   margin: 4% 0;
+  }
+
+  h1 {
+    margin-bottom: 0;
+    padding: 0 10px;
+    font-size: 40px;
+    
   }
   
-  .links {
-    height: 70%;
-    width: 70%;
+  .links  a {
+    height: 30%;
+    width: 30%;
     padding: 1%;
     /* border: 1px solid black; */
     margin: 1%;
      display: inline-block;
-     align-items: center;
+     /* align-items: center; */
+
+     margin: 10px;
+     color: black;
+     text-decoration: underline;
+     text-align: center;
+     border: 4mm ridge rgba(255, 119, 28, 0.6);
     /* width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -82,6 +114,20 @@ body {
   nav {
     margin-right: 10px;
   }
+
+  h2 {
+    margin-bottom: 0;
+    padding: 0 10px;
+    /*=======  Update the font size to 30px */
+    font-size: 20px;
+    border: 4mm ridge rgba(255, 119, 28, 0.6);
+  }
+
+  img {
+    border-radius: 10px;
+    width: 150px;
+    height: 10;
+  }
   
   #plan-visit {
     background-color: #FF764E;
@@ -93,5 +139,26 @@ body {
   
   #get-involved {
     background-color: #FFCD69;
+  }
+
+  footer nav a {
+    margin: 10px;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    border: 4mm ridge rgba(255, 119, 28, 0.6);
+  }
+ 
+  a:hover {
+    color: black;
+    background: rgb(3, 151, 236);
+  }
+
+  footer img {
+   flex-wrap: wrap; 
+   width: 90%;
+   height: 50%;
+   padding: 20px;
+   margin: 4% 0;
   }
 
